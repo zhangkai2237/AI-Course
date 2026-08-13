@@ -1,0 +1,25 @@
+{
+  "tools": [
+    {
+      "name": "run_xhs_rag_workflow",
+      "description": "当用户需要一套完整小红书图文，且主题、受众和目标已经明确时使用。工具按topic检索课堂课程知识，把真实命中片段整理为证据，并结合用户额外素材生成内容。知识未命中时返回knowledge_not_found，不得假装已使用知识库。",
+      "required_parameters": ["topic", "audience", "goal", "target_format", "image_style", "page_count"],
+      "optional_parameters": ["source_material", "tone_hint"],
+      "returns": ["status", "knowledge_hit", "source_names", "evidence_cards", "conflicts", "copy_package", "image_script", "images_optional", "review_result"]
+    },
+    {
+      "name": "search_topic_material",
+      "description": "仅当用户明确要求参考近期公开信息、趋势或任务依赖最新外部事实时使用。用户已提供完整素材、任务不依赖时效信息或只需基于课堂知识库生成时不要调用。返回公开材料摘要、来源和无法确认项。",
+      "required_parameters": ["query"],
+      "optional_parameters": ["time_range", "source_preference"],
+      "returns": ["status", "materials", "sources", "unverified_items"]
+    },
+    {
+      "name": "save_content_draft",
+      "description": "仅在完整内容已展示，且用户明确确认保存对象后使用。只保存课堂模拟草稿，成功时返回工具真实生成的draft_id。不能发布到小红书，也不代表内容已通过最终人工审核。",
+      "required_parameters": ["title", "content", "confirmed"],
+      "returns": ["status", "draft_id", "saved_title", "notice"]
+    }
+  ],
+  "forbidden_tool_names": ["publish_xhs", "post_content", "auto_publish"]
+}

@@ -1,0 +1,750 @@
+{"kind":"deck","id":"pr/jf16c8","name":"Deck"}
+{"kind":"layout","layoutId":"/ppt/slideMasters/slideMaster1.xml","name":"","type":"master","placeholders":[{"name":"slideNumber","type":"slideNumber","textPreview":"‹#›"}]}
+{"kind":"layout","layoutId":"/ppt/slideLayouts/slideLayout1.xml","name":"DEFAULT"}
+{"kind":"layout","layoutId":"/ppt/slideLayouts/slideLayout2.xml","name":"MASTER","placeholders":[{"name":"slideNumber","type":"slideNumber","textPreview":"‹#›"}]}
+{"kind":"layout","layoutId":"/ppt/slideLayouts/slideLayout3.xml","name":"BLANK"}
+{"kind":"slide","id":"sl/y90nupkv","slide":1,"title":"AI辅助原型与Demo · 第一部分","textShapes":4}
+{"kind":"shape","id":"sh/k3yl0zql","slide":1,"name":"Shape 0","bbox":[667.2,0,17.28,720]}
+{"kind":"textbox","id":"sh/7qp4be9c","slide":1,"name":"Text 1","text":"AI辅助原型与Demo · 第一部分","textPreview":"AI辅助原型与Demo · 第一部分","textChars":18,"textLines":1,"bbox":[74.88,69.12,499.2,24]}
+{"kind":"textbox","id":"sh/65g3298r","slide":1,"name":"Text 2","text":"AI能直接生成最终Demo吗？","textPreview":"AI能直接生成最终Demo吗？","textChars":15,"textLines":1,"bbox":[74.88,189.12,652.35,129.6]}
+{"kind":"shape","id":"sh/sryl4zqx","slide":1,"name":"Shape 4","bbox":[78.72,340.8,441.6,0]}
+{"kind":"textbox","id":"sh/fu94fe98","slide":1,"name":"Text 5","text":"生成得快，不等于产品正确。","textPreview":"生成得快，不等于产品正确。","textChars":13,"textLines":1,"bbox":[78.72,362.88,499.2,52.8]}
+{"kind":"textbox","id":"sh/ozmd8r65","slide":1,"name":"Slide Number Placeholder 0","placeholder":"slideNumber","text":"1","textPreview":"1","textChars":1,"textLines":1,"bbox":[1171.2,686.4,83.99,31.5]}
+{"kind":"notes","id":"nt/y90nupkv","slide":1,"text":"开场：上一节已经完成PRD定稿，这一节开始把PRD变成原型和Demo。\n核心问题：有了完整PRD，能不能一步生成最终Demo？\n强调：本部分不是否定AI生成能力，而是建立正确预期。\n[Sources]\n- 第八课第一部分讲义（课程内部）"}
+{"kind":"slide","id":"sl/hwbqtkby","slide":2,"title":"1 / 一键生成实验","textShapes":7}
+{"kind":"textbox","id":"sh/9072xkry","slide":2,"name":"Text 0","text":"1 / 一键生成实验","textPreview":"1 / 一键生成实验","textChars":10,"textLines":1,"bbox":[69.12,36.48,816,24]}
+{"kind":"textbox","id":"sh/ozy1ofad","slide":2,"name":"Text 1","text":"PRD定稿后，直接生成Demo？","textPreview":"PRD定稿后，直接生成Demo？","textChars":16,"textLines":1,"bbox":[69.12,72.96,691.2,52.8]}
+{"kind":"textbox","id":"sh/b29kza94","slide":2,"name":"Text 2","text":"先做一次看似合理的“一键生成”实验。","textPreview":"先做一次看似合理的“一键生成”实验。","textChars":18,"textLines":1,"bbox":[71.04,136.32,672,32.64]}
+{"kind":"shape","id":"sh/x4r21kru","slide":2,"name":"Shape 3","bbox":[86.4,199.68,542.4,105.6]}
+{"kind":"textbox","id":"sh/w3i1sfa9","slide":2,"name":"Text 4","text":"“请阅读商品对比工具PRD，\n生成一个完整、专业的移动端Demo。”","textPreview":"“请阅读商品对比工具PRD， | 生成一个完整、专业的移动端Demo。”","textChars":34,"textLines":2,"bbox":[113.28,210.24,489.6,78.72]}
+{"kind":"shape","id":"sh/xk7qlczu","slide":2,"name":"Shape 12","bbox":[705.6,187.2,0,408]}
+{"kind":"textbox","id":"sh/bip8jmho","slide":2,"name":"Text 14","text":"第一眼很完整。下一步，检查它是不是我们决定要做的产品。","textPreview":"第一眼很完整。下一步，检查它是不是我们决定要做的产品。","textChars":27,"textLines":1,"bbox":[782.4,552,408,52.8]}
+{"kind":"textbox","id":"sh/cnupgny5","slide":2,"name":"Text 15","text":"观察重点：先看生成速度，再看范围、规则、状态和能力边界。","textPreview":"观察重点：先看生成速度，再看范围、规则、状态和能力边界。","textChars":28,"textLines":1,"bbox":[69.12,687.36,912,17.28]}
+{"kind":"textbox","id":"sh/gbmxszmt","slide":2,"name":"Slide Number Placeholder 0","placeholder":"slideNumber","text":"2","textPreview":"2","textChars":1,"textLines":1,"bbox":[1171.2,686.4,83.99,31.5]}
+{"kind":"image","id":"im/0ruxkv2l","slide":2,"name":"Image 0","bbox":[777.6,190.08,436.8,285.12]}
+{"kind":"notes","id":"nt/hwbqtkby","slide":2,"text":"展示课堂Prompt并切到提前准备好的AI初版Demo。\n先让学员说第一印象：页面快、完整、可以点击。不要马上揭晓错误。\n转折：我们检查的不是像不像产品，而是不是已经决定要做的产品。\n[Sources]\n- 第一部分课堂演示Prompt（课程内部）\n- 第七课产品决策摘要（课程内部）"}
+{"kind":"slide","id":"sl/ofy9wn61","slide":3,"title":"2 / 对照决策找错","textShapes":20}
+{"kind":"textbox","id":"sh/cza94vmx","slide":3,"name":"Text 0","text":"2 / 对照决策找错","textPreview":"2 / 对照决策找错","textChars":10,"textLines":1,"bbox":[69.12,36.48,816,24]}
+{"kind":"textbox","id":"sh/d0jax03i","slide":3,"name":"Text 1","text":"给AI初版Demo找错","textPreview":"给AI初版Demo找错","textChars":11,"textLines":1,"bbox":[69.12,72.96,691.2,52.8]}
+{"kind":"textbox","id":"sh/298ryl4v","slide":3,"name":"Text 2","text":"至少找出3处，并说明依据和影响。","textPreview":"至少找出3处，并说明依据和影响。","textChars":16,"textLines":1,"bbox":[71.04,136.32,672,32.64]}
+{"kind":"textbox","id":"sh/3ah8rqlg","slide":3,"name":"Text 3","text":"新增","textPreview":"新增","textChars":2,"textLines":1,"bbox":[90.24,196.8,81.6,22.08]}
+{"kind":"shape","id":"sh/obq90bml","slide":3,"name":"Shape 4","bbox":[171.84,209.28,43.2,0]}
+{"kind":"textbox","id":"sh/pcjqtg36","slide":3,"name":"Text 5","text":"AI推荐、登录与云端收藏","textPreview":"AI推荐、登录与云端收藏","textChars":12,"textLines":1,"bbox":[227.52,194.88,384,24]}
+{"kind":"textbox","id":"sh/m5cra54z","slide":3,"name":"Text 6","text":"数量","textPreview":"数量","textChars":2,"textLines":1,"bbox":[90.24,249.6,81.6,22.08]}
+{"kind":"shape","id":"sh/n6ls3alk","slide":3,"name":"Shape 7","bbox":[171.84,262.08,43.2,0]}
+{"kind":"textbox","id":"sh/n2l4fq98","slide":3,"name":"Text 8","text":"可以选择第5个商品","textPreview":"可以选择第5个商品","textChars":9,"textLines":1,"bbox":[227.52,247.68,384,24]}
+{"kind":"textbox","id":"sh/m1c3mlsn","slide":3,"name":"Text 9","text":"类目","textPreview":"类目","textChars":2,"textLines":1,"bbox":[90.24,302.4,81.6,22.08]}
+{"kind":"shape","id":"sh/943mhgre","slide":3,"name":"Shape 10","bbox":[171.84,314.88,43.2,0]}
+{"kind":"textbox","id":"sh/83ulovat","slide":3,"name":"Text 11","text":"支持跨品类对比","textPreview":"支持跨品类对比","textChars":7,"textLines":1,"bbox":[227.52,300.48,384,24]}
+{"kind":"textbox","id":"sh/v6l4jq94","slide":3,"name":"Text 12","text":"对象","textPreview":"对象","textChars":2,"textLines":1,"bbox":[90.24,355.2,81.6,22.08]}
+{"kind":"shape","id":"sh/a5c3ql8z","slide":3,"name":"Shape 13","bbox":[171.84,367.68,43.2,0]}
+{"kind":"textbox","id":"sh/x8nml0ra","slide":3,"name":"Text 14","text":"没有区分具体SKU","textPreview":"没有区分具体SKU","textChars":9,"textLines":1,"bbox":[227.52,353.28,384,24]}
+{"kind":"textbox","id":"sh/w7ulsvqp","slide":3,"name":"Text 15","text":"价格","textPreview":"价格","textChars":2,"textLines":1,"bbox":[90.24,408,81.6,22.08]}
+{"kind":"shape","id":"sh/ja54na9g","slide":3,"name":"Shape 16","bbox":[171.84,420.48,43.2,0]}
+{"kind":"textbox","id":"sh/i9w3u58v","slide":3,"name":"Text 17","text":"承诺统一到手价","textPreview":"承诺统一到手价","textChars":7,"textLines":1,"bbox":[227.52,406.08,384,24]}
+{"kind":"textbox","id":"sh/e10f2twf","slide":3,"name":"Text 18","text":"参数","textPreview":"参数","textChars":2,"textLines":1,"bbox":[90.24,460.8,81.6,22.08]}
+{"kind":"shape","id":"sh/f29gbyx0","slide":3,"name":"Shape 19","bbox":[171.84,473.28,43.2,0]}
+{"kind":"textbox","id":"sh/03ix43e5","slide":3,"name":"Text 20","text":"缺失值被自动补齐","textPreview":"缺失值被自动补齐","textChars":8,"textLines":1,"bbox":[227.52,458.88,384,24]}
+{"kind":"textbox","id":"sh/14ryd8fq","slide":3,"name":"Text 21","text":"能力","textPreview":"能力","textChars":2,"textLines":1,"bbox":[90.24,513.6,81.6,22.08]}
+{"kind":"shape","id":"sh/6d0fytg3","slide":3,"name":"Shape 22","bbox":[171.84,526.08,43.2,0]}
+{"kind":"textbox","id":"sh/re9g7yxo","slide":3,"name":"Text 23","text":"显示“已同步云端”","textPreview":"显示“已同步云端”","textChars":9,"textLines":1,"bbox":[227.52,511.68,384,24]}
+{"kind":"textbox","id":"sh/byd032h8","slide":3,"name":"Text 34","text":"核心不是审美，而是决策是否一致。","textPreview":"核心不是审美，而是决策是否一致。","textChars":16,"textLines":1,"bbox":[694.83,321.12,460.8,40.32]}
+{"kind":"textbox","id":"sh/ax4zax0n","slide":3,"name":"Text 35","text":"课堂任务：问题 → 对应产品决策 → 不修改的影响。","textPreview":"课堂任务：问题 → 对应产品决策 → 不修改的影响。","textChars":26,"textLines":1,"bbox":[69.12,687.36,912,17.28]}
+{"kind":"textbox","id":"sh/hwzihwzi","slide":3,"name":"Slide Number Placeholder 0","placeholder":"slideNumber","text":"3","textPreview":"3","textChars":1,"textLines":1,"bbox":[1171.2,686.4,83.99,31.5]}
+{"kind":"notes","id":"nt/ofy9wn61","slide":3,"text":"给学员约2分钟，对照产品决策摘要至少找出3处问题。\n回答格式：发现的问题 → 对应产品决策 → 不修改的影响。\n不接受纯审美判断，例如‘不好看’或‘感觉不合理’。\n[Sources]\n- 第七课产品决策摘要（课程内部）\n- AI初版Demo问题清单（课程内部）"}
+{"kind":"slide","id":"sl/jyx0ra1s","slide":4,"title":"3 / 四类核心风险","textShapes":14}
+{"kind":"textbox","id":"sh/1cj2d8b6","slide":4,"name":"Text 0","text":"3 / 四类核心风险","textPreview":"3 / 四类核心风险","textChars":10,"textLines":1,"bbox":[69.12,36.48,816,24]}
+{"kind":"textbox","id":"sh/0ba143al","slide":4,"name":"Text 1","text":"直接生成Demo，最容易出现四类问题","textPreview":"直接生成Demo，最容易出现四类问题","textChars":18,"textLines":1,"bbox":[69.12,72.96,691.2,52.8]}
+{"kind":"textbox","id":"sh/rm1k7yt4","slide":4,"name":"Text 2","text":"页面越像成品，越要回到正式决策检查。","textPreview":"页面越像成品，越要回到正式决策检查。","textChars":18,"textLines":1,"bbox":[71.04,136.32,672,32.64]}
+{"kind":"shape","id":"sh/doj29oba","slide":4,"name":"Shape 3","bbox":[81.6,211.2,235.2,124.8]}
+{"kind":"textbox","id":"sh/sna103ap","slide":4,"name":"Text 4","text":"擅自加功能","textPreview":"擅自加功能","textChars":5,"textLines":1,"bbox":[98.88,238.08,200.64,26.88]}
+{"kind":"textbox","id":"sh/3ihk3et8","slide":4,"name":"Text 5","text":"用常见模式扩大一期范围","textPreview":"用常见模式扩大一期范围","textChars":11,"textLines":1,"bbox":[100.8,289.92,196.8,23.04]}
+{"kind":"shape","id":"sh/ih8ju9sn","slide":4,"name":"Shape 6","bbox":[374.4,211.2,235.2,124.8]}
+{"kind":"textbox","id":"sh/kbm987y5","slide":4,"name":"Text 7","text":"规则做错","textPreview":"规则做错","textChars":4,"textLines":1,"bbox":[391.68,238.08,200.64,26.88]}
+{"kind":"textbox","id":"sh/5cva1cfq","slide":4,"name":"Text 8","text":"用漂亮页面表达错误方案","textPreview":"用漂亮页面表达错误方案","textChars":11,"textLines":1,"bbox":[393.6,289.92,196.8,23.04]}
+{"kind":"shape","id":"sh/i94r6xgz","slide":4,"name":"Shape 9","bbox":[81.6,398.4,235.2,124.8]}
+{"kind":"textbox","id":"sh/jadsz2xk","slide":4,"name":"Text 10","text":"状态遗漏","textPreview":"状态遗漏","textChars":4,"textLines":1,"bbox":[98.88,425.28,200.64,26.88]}
+{"kind":"textbox","id":"sh/w72947yt","slide":4,"name":"Text 11","text":"只覆盖理想路径","textPreview":"只覆盖理想路径","textChars":7,"textLines":1,"bbox":[100.8,477.12,196.8,23.04]}
+{"kind":"shape","id":"sh/x8vaxsfe","slide":4,"name":"Shape 12","bbox":[374.4,398.4,235.2,124.8]}
+{"kind":"textbox","id":"sh/a5kr2xg3","slide":4,"name":"Text 13","text":"能力失真","textPreview":"能力失真","textChars":4,"textLines":1,"bbox":[391.68,425.28,200.64,26.88]}
+{"kind":"textbox","id":"sh/v6tsv2xo","slide":4,"name":"Text 14","text":"把模拟效果当真实能力","textPreview":"把模拟效果当真实能力","textChars":10,"textLines":1,"bbox":[393.6,477.12,196.8,23.04]}
+{"kind":"textbox","id":"sh/g36tgryd","slide":4,"name":"Text 15","text":"判断标准：不是“像不像产品”，而是“是不是我们决定要做的产品”。","textPreview":"判断标准：不是“像不像产品”，而是“是不是我们决定要做的产品”。","textChars":32,"textLines":1,"bbox":[100.8,580.8,1075.2,40.32]}
+{"kind":"textbox","id":"sh/h4fa9wfy","slide":4,"name":"Text 16","text":"AI辅助原型与Demo · 第一部分","textPreview":"AI辅助原型与Demo · 第一部分","textChars":18,"textLines":1,"bbox":[69.12,687.36,912,17.28]}
+{"kind":"textbox","id":"sh/gv29g7q5","slide":4,"name":"Slide Number Placeholder 0","placeholder":"slideNumber","text":"4","textPreview":"4","textChars":1,"textLines":1,"bbox":[1171.2,686.4,83.99,31.5]}
+{"kind":"image","id":"im/w7u9kj25","slide":4,"name":"Image 0","bbox":[734.4,187.2,460.8,258.24]}
+{"kind":"notes","id":"nt/jyx0ra1s","slide":4,"text":"把学员答案归纳为四类，不逐条讲完所有错误。\n重点举例：AI推荐属于范围扩大；第5个商品属于规则错误；缺失和下架属于状态遗漏；云端保存属于能力失真。\n[Sources]\n- AI初版Demo问题清单—讲师答案（课程内部）"}
+{"kind":"slide","id":"sl/i107q5of","slide":5,"title":"4 / 产物边界","textShapes":12}
+{"kind":"textbox","id":"sh/dgbulwnm","slide":5,"name":"Text 0","text":"4 / 产物边界","textPreview":"4 / 产物边界","textChars":8,"textLines":1,"bbox":[69.12,36.48,816,24]}
+{"kind":"textbox","id":"sh/cf2tcr61","slide":5,"name":"Text 1","text":"PRD、原型和Demo解决不同问题","textPreview":"PRD、原型和Demo解决不同问题","textChars":17,"textLines":1,"bbox":[69.12,72.96,691.2,52.8]}
+{"kind":"textbox","id":"sh/z2tcnm5s","slide":5,"name":"Text 2","text":"三者相互承接，但不会自动升级。","textPreview":"三者相互承接，但不会自动升级。","textChars":15,"textLines":1,"bbox":[71.04,136.32,672,32.64]}
+{"kind":"shape","id":"sh/yhkbe1o7","slide":5,"name":"Shape 3","bbox":[280.32,391.68,207.36,0]}
+{"kind":"shape","id":"sh/l4bupwny","slide":5,"name":"Shape 4","bbox":[631.68,391.68,211.2,0]}
+{"kind":"shape","id":"sh/032tgr6d","slide":5,"name":"Shape 5","bbox":[80.64,220.8,292.8,196.8]}
+{"kind":"textbox","id":"sh/n6dcr65o","slide":5,"name":"Text 6","text":"PRD","textPreview":"PRD","textChars":3,"textLines":1,"bbox":[107.52,254.4,240,28.8]}
+{"kind":"textbox","id":"sh/m5kbi1oj","slide":5,"name":"Text 7","text":"产品做什么\n目标、范围、规则与验收","textPreview":"产品做什么 | 目标、范围、规则与验收","textChars":17,"textLines":2,"bbox":[111.36,312,235.2,57.6]}
+{"kind":"shape","id":"sh/w32dkbuh","slide":5,"name":"Shape 8","bbox":[436.8,220.8,292.8,196.8]}
+{"kind":"textbox","id":"sh/x4vedgvm","slide":5,"name":"Text 9","text":"原型","textPreview":"原型","textChars":2,"textLines":1,"bbox":[463.68,254.4,240,28.8]}
+{"kind":"textbox","id":"sh/ahkvi1cb","slide":5,"name":"Text 10","text":"用户怎么完成\n页面、流程、信息与状态","textPreview":"用户怎么完成 | 页面、流程、信息与状态","textChars":18,"textLines":2,"bbox":[467.52,312,235.2,57.6]}
+{"kind":"shape","id":"sh/v2twb6dw","slide":5,"name":"Shape 11","bbox":[793.92,220.8,292.8,196.8]}
+{"kind":"textbox","id":"sh/k7mxovud","slide":5,"name":"Text 12","text":"Demo","textPreview":"Demo","textChars":4,"textLines":1,"bbox":[820.8,254.4,240,28.8]}
+{"kind":"textbox","id":"sh/58vehgvy","slide":5,"name":"Text 13","text":"核心路径能否运行\n模拟边界、修改与检查","textPreview":"核心路径能否运行 | 模拟边界、修改与检查","textChars":19,"textLines":2,"bbox":[824.64,312,235.2,57.6]}
+{"kind":"shape","id":"sh/i54fmlc7","slide":5,"name":"Shape 14","bbox":[144,513.6,988.8,67.2]}
+{"kind":"textbox","id":"sh/j6dwfqds","slide":5,"name":"Text 15","text":"PRD正确 ≠ 原型自动正确；Demo能运行 ≠ 产品价值已验证。","textPreview":"PRD正确 ≠ 原型自动正确；Demo能运行 ≠ 产品价值已验证。","textChars":33,"textLines":1,"bbox":[165.12,534.72,940.8,26.88]}
+{"kind":"textbox","id":"sh/sb6xsvu9","slide":5,"name":"Text 16","text":"三个产物解决不同层次的问题。","textPreview":"三个产物解决不同层次的问题。","textChars":14,"textLines":1,"bbox":[69.12,687.36,912,17.28]}
+{"kind":"textbox","id":"sh/4ji5kbid","slide":5,"name":"Slide Number Placeholder 0","placeholder":"slideNumber","text":"5","textPreview":"5","textChars":1,"textLines":1,"bbox":[1171.2,686.4,83.99,31.5]}
+{"kind":"notes","id":"nt/i107q5of","slide":5,"text":"快速讲清三类产物边界。\nPRD定义产品承诺；原型表达用户怎样经历这个承诺；Demo验证其中一部分能否运行。\n强调：Demo能运行不能证明用户价值或业务价值。\n[Sources]\n- 第八课第一部分讲义（课程内部）"}
+{"kind":"slide","id":"sl/x8f69ofe","slide":6,"title":"5 / 正确协作方式","textShapes":17}
+{"kind":"textbox","id":"sh/yhg7epsj","slide":6,"name":"Text 0","text":"5 / 正确协作方式","textPreview":"5 / 正确协作方式","textChars":10,"textLines":1,"bbox":[69.12,36.48,816,24]}
+{"kind":"textbox","id":"sh/zi98nu94","slide":6,"name":"Text 1","text":"先拆解，再生成；先检查，再交付","textPreview":"先拆解，再生成；先检查，再交付","textChars":15,"textLines":1,"bbox":[69.12,72.96,691.2,52.8]}
+{"kind":"textbox","id":"sh/87ipkzal","slide":6,"name":"Text 2","text":"AI和产品经理各自负责什么？","textPreview":"AI和产品经理各自负责什么？","textChars":14,"textLines":1,"bbox":[71.04,136.32,672,32.64]}
+{"kind":"textbox","id":"sh/ml07i9sv","slide":6,"name":"Text 3","text":"AI负责","textPreview":"AI负责","textChars":4,"textLines":1,"bbox":[94.08,196.8,192,28.8]}
+{"kind":"textbox","id":"sh/7m98ru9g","slide":6,"name":"Text 4","text":"产品经理负责","textPreview":"产品经理负责","textChars":6,"textLines":1,"bbox":[388.8,196.8,240,28.8]}
+{"kind":"shape","id":"sh/oryp8fah","slide":6,"name":"Shape 5","bbox":[97.92,265.92,13.44,13.44]}
+{"kind":"textbox","id":"sh/pc76hkr2","slide":6,"name":"Text 6","text":"读取正式文件","textPreview":"读取正式文件","textChars":6,"textLines":1,"bbox":[128.64,257.28,230.4,25.92]}
+{"kind":"shape","id":"sh/h4bupgn6","slide":6,"name":"Shape 7","bbox":[97.92,318.72,13.44,13.44]}
+{"kind":"textbox","id":"sh/w32twb6l","slide":6,"name":"Text 8","text":"提取任务与状态","textPreview":"提取任务与状态","textChars":7,"textLines":1,"bbox":[128.64,310.08,230.4,25.92]}
+{"kind":"shape","id":"sh/v2tcn650","slide":6,"name":"Shape 9","bbox":[97.92,371.52,13.44,13.44]}
+{"kind":"textbox","id":"sh/u1kbu1ov","slide":6,"name":"Text 10","text":"生成页面与代码","textPreview":"生成页面与代码","textChars":7,"textLines":1,"bbox":[128.64,362.88,230.4,25.92]}
+{"kind":"shape","id":"sh/5svutgni","slide":6,"name":"Shape 11","bbox":[97.92,424.32,13.44,13.44]}
+{"kind":"textbox","id":"sh/47mt0b6x","slide":6,"name":"Text 12","text":"按要求修改检查","textPreview":"按要求修改检查","textChars":7,"textLines":1,"bbox":[128.64,415.68,230.4,25.92]}
+{"kind":"shape","id":"sh/j6dcr65c","slide":6,"name":"Shape 13","bbox":[393.6,265.92,13.44,13.44]}
+{"kind":"textbox","id":"sh/i54bylor","slide":6,"name":"Text 14","text":"确认范围与规则","textPreview":"确认范围与规则","textChars":7,"textLines":1,"bbox":[424.32,257.28,264,25.92]}
+{"kind":"shape","id":"sh/twfux0ne","slide":6,"name":"Shape 15","bbox":[393.6,318.72,13.44,13.44]}
+{"kind":"textbox","id":"sh/svmt4v6t","slide":6,"name":"Text 16","text":"决定交互取舍","textPreview":"决定交互取舍","textChars":6,"textLines":1,"bbox":[424.32,310.08,264,25.92]}
+{"kind":"shape","id":"sh/cbe5g3ih","slide":6,"name":"Shape 17","bbox":[393.6,371.52,13.44,13.44]}
+{"kind":"textbox","id":"sh/dcnm98zm","slide":6,"name":"Text 18","text":"声明能力边界","textPreview":"声明能力边界","textChars":6,"textLines":1,"bbox":[424.32,362.88,264,25.92]}
+{"kind":"shape","id":"sh/qpwnet0b","slide":6,"name":"Shape 19","bbox":[393.6,424.32,13.44,13.44]}
+{"kind":"textbox","id":"sh/bq547yhw","slide":6,"name":"Text 20","text":"对最终验收负责","textPreview":"对最终验收负责","textChars":7,"textLines":1,"bbox":[424.32,415.68,264,25.92]}
+{"kind":"shape","id":"sh/0fy5k3id","slide":6,"name":"Shape 21","bbox":[96,532.8,595.2,59.52]}
+{"kind":"textbox","id":"sh/lg76d8zy","slide":6,"name":"Text 22","text":"正式PRD → 用户任务与流程 → 页面与状态 → Demo → 修改验收","textPreview":"正式PRD → 用户任务与流程 → 页面与状态 → Demo → 修改验收","textChars":37,"textLines":1,"bbox":[113.28,552.96,558.72,19.2]}
+{"kind":"textbox","id":"sh/ydgnit07","slide":6,"name":"Text 23","text":"隐藏复杂性\n必须被显性化","textPreview":"隐藏复杂性 | 必须被显性化","textChars":12,"textLines":2,"bbox":[801.6,494.4,297.6,49.92]}
+{"kind":"textbox","id":"sh/zep4byhs","slide":6,"name":"Text 24","text":"下一部分：从PRD提取用户任务、页面和流程。","textPreview":"下一部分：从PRD提取用户任务、页面和流程。","textChars":22,"textLines":1,"bbox":[69.12,687.36,912,17.28]}
+{"kind":"textbox","id":"sh/gju58ji9","slide":6,"name":"Slide Number Placeholder 0","placeholder":"slideNumber","text":"6","textPreview":"6","textChars":1,"textLines":1,"bbox":[1171.2,686.4,83.99,31.5]}
+{"kind":"image","id":"im/2h47i1sb","slide":6,"name":"Image 0","bbox":[768,196.8,355.2,266.88]}
+{"kind":"notes","id":"nt/x8f69ofe","slide":6,"text":"收束：AI负责读取、生成、修改和检查；产品经理负责范围、交互决策、能力边界和验收。\n过渡：刚才的问题不是AI不会生成页面，而是任务、流程和不可修改规则还没有被显性化。\n下一部分先不写代码，从PRD提取用户任务、页面和流程。\n[Sources]\n- 第八课第一部分讲义（课程内部）"}
+{"kind":"slide","id":"sl/gnmp4jqx","slide":7,"title":"AI辅助原型与Demo · 第二部分","textShapes":4}
+{"kind":"shape","id":"sh/dcbud0ra","slide":7,"name":"Shape 0","bbox":[667.2,0,17.28,720]}
+{"kind":"textbox","id":"sh/ydkbm5sv","slide":7,"name":"Text 1","text":"AI辅助原型与Demo · 第二部分","textPreview":"AI辅助原型与Demo · 第二部分","textChars":18,"textLines":1,"bbox":[74.88,69.12,499.2,24]}
+{"kind":"textbox","id":"sh/zedcfa9g","slide":7,"name":"Text 2","text":"从PRD提取任务、页面与流程","textPreview":"从PRD提取任务、页面与流程","textChars":14,"textLines":1,"bbox":[74.88,189.12,652.35,129.6]}
+{"kind":"shape","id":"sh/l0vuh0rm","slide":7,"name":"Shape 4","bbox":[78.72,340.8,441.6,0]}
+{"kind":"textbox","id":"sh/eh0ba1sr","slide":7,"name":"Text 5","text":"先形成Demo蓝图，再生成页面和代码。","textPreview":"先形成Demo蓝图，再生成页面和代码。","textChars":19,"textLines":1,"bbox":[78.72,362.88,499.2,52.8]}
+{"kind":"textbox","id":"sh/r2dkrq5g","slide":7,"name":"Slide Number Placeholder 0","placeholder":"slideNumber","text":"7","textPreview":"7","textChars":1,"textLines":1,"bbox":[1171.2,686.4,83.99,31.5]}
+{"kind":"notes","id":"nt/gnmp4jqx","slide":7,"text":"承接第一部分：问题不只是Prompt不够长，而是PRD到Demo之间缺少任务、页面和流程的转译。\n本部分先不生成HTML，也不讨论视觉风格。\n[Sources]\n- 第八课第二部分讲义（课程内部）\n- 第七课产品决策摘要（课程内部）"}
+{"kind":"slide","id":"sl/fu1gfa1s","slide":8,"title":"1 / 结构蓝图","textShapes":12}
+{"kind":"textbox","id":"sh/18byd4zy","slide":8,"name":"Text 0","text":"1 / 结构蓝图","textPreview":"1 / 结构蓝图","textChars":8,"textLines":1,"bbox":[69.12,36.48,816,24]}
+{"kind":"textbox","id":"sh/g72x4zyd","slide":8,"name":"Text 1","text":"生成Demo前，先补齐三层结构","textPreview":"生成Demo前，先补齐三层结构","textChars":15,"textLines":1,"bbox":[69.12,72.96,691.2,52.8]}
+{"kind":"textbox","id":"sh/ri9g7uhw","slide":8,"name":"Text 2","text":"不是把Prompt写得更长，而是把关键判断显性化。","textPreview":"不是把Prompt写得更长，而是把关键判断显性化。","textChars":25,"textLines":1,"bbox":[71.04,136.32,672,32.64]}
+{"kind":"shape","id":"sh/6h0fypgb","slide":8,"name":"Shape 3","bbox":[280.32,391.68,207.36,0]}
+{"kind":"shape","id":"sh/tkby9kzm","slide":8,"name":"Shape 4","bbox":[631.68,391.68,211.2,0]}
+{"kind":"shape","id":"sh/sjix0zy1","slide":8,"name":"Shape 5","bbox":[80.64,220.8,292.8,196.8]}
+{"kind":"textbox","id":"sh/je9g3ahk","slide":8,"name":"Text 6","text":"用户任务","textPreview":"用户任务","textChars":4,"textLines":1,"bbox":[107.52,254.4,240,28.8]}
+{"kind":"textbox","id":"sh/id0fu50z","slide":8,"name":"Text 7","text":"用户要完成什么\n核心目标与子任务","textPreview":"用户要完成什么 | 核心目标与子任务","textChars":16,"textLines":2,"bbox":[111.36,312,235.2,57.6]}
+{"kind":"shape","id":"sh/o7ydoret","slide":8,"name":"Shape 8","bbox":[436.8,220.8,292.8,196.8]}
+{"kind":"textbox","id":"sh/98rehwve","slide":8,"name":"Text 9","text":"页面载体","textPreview":"页面载体","textChars":4,"textLines":1,"bbox":[463.68,254.4,240,28.8]}
+{"kind":"textbox","id":"sh/m5gvmhwn","slide":8,"name":"Text 10","text":"用户在哪里完成\n入口、界面与信息","textPreview":"用户在哪里完成 | 入口、界面与信息","textChars":16,"textLines":2,"bbox":[467.52,312,235.2,57.6]}
+{"kind":"shape","id":"sh/n6pwfmd8","slide":8,"name":"Shape 11","bbox":[793.92,220.8,292.8,196.8]}
+{"kind":"textbox","id":"sh/0jydkreh","slide":8,"name":"Text 12","text":"完整流程","textPreview":"完整流程","textChars":4,"textLines":1,"bbox":[820.8,254.4,240,28.8]}
+{"kind":"textbox","id":"sh/1k7edwv2","slide":8,"name":"Text 13","text":"用户怎样走完\n主路径、分支与返回","textPreview":"用户怎样走完 | 主路径、分支与返回","textChars":16,"textLines":2,"bbox":[824.64,312,235.2,57.6]}
+{"kind":"shape","id":"sh/ehgvihwr","slide":8,"name":"Shape 14","bbox":[144,513.6,988.8,67.2]}
+{"kind":"textbox","id":"sh/zipwbmdc","slide":8,"name":"Text 15","text":"用户任务 → 页面载体 → 完整流程，是生成原型与Demo的结构蓝图。","textPreview":"用户任务 → 页面载体 → 完整流程，是生成原型与Demo的结构蓝图。","textChars":35,"textLines":1,"bbox":[165.12,534.72,940.8,26.88]}
+{"kind":"textbox","id":"sh/kfixwbe1","slide":8,"name":"Text 16","text":"PRD定义产品规则，Demo蓝图定义用户如何完成任务。","textPreview":"PRD定义产品规则，Demo蓝图定义用户如何完成任务。","textChars":27,"textLines":1,"bbox":[69.12,687.36,912,17.28]}
+{"kind":"textbox","id":"sh/kredcr6t","slide":8,"name":"Slide Number Placeholder 0","placeholder":"slideNumber","text":"8","textPreview":"8","textChars":1,"textLines":1,"bbox":[1171.2,686.4,83.99,31.5]}
+{"kind":"notes","id":"nt/fu1gfa1s","slide":8,"text":"先讲三层关系：任务回答做什么，页面回答在哪里完成，流程回答怎样走完。\n强调这一步仍然属于产品设计判断，不属于代码实现。\n[Sources]\n- 第八课第二部分讲义（课程内部）\n- 第七课产品决策摘要（课程内部）"}
+{"kind":"slide","id":"sl/udsvah03","slide":9,"title":"2 / 核心用户任务","textShapes":20}
+{"kind":"textbox","id":"sh/1cfmhgne","slide":9,"name":"Text 0","text":"2 / 核心用户任务","textPreview":"2 / 核心用户任务","textChars":10,"textLines":1,"bbox":[69.12,36.48,816,24]}
+{"kind":"textbox","id":"sh/0b65obm9","slide":9,"name":"Text 1","text":"先找用户任务，不要先列页面","textPreview":"先找用户任务，不要先列页面","textChars":13,"textLines":1,"bbox":[69.12,72.96,691.2,52.8]}
+{"kind":"textbox","id":"sh/nex4jq5k","slide":9,"name":"Text 2","text":"核心目标：快速识别2—4个候选手机的关键差异。","textPreview":"核心目标：快速识别2—4个候选手机的关键差异。","textChars":23,"textLines":1,"bbox":[71.04,136.32,672,32.64]}
+{"kind":"textbox","id":"sh/mdonql4z","slide":9,"name":"Text 3","text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[90.24,196.8,81.6,22.08]}
+{"kind":"shape","id":"sh/9gzml0nq","slide":9,"name":"Shape 4","bbox":[171.84,209.28,43.2,0]}
+{"kind":"textbox","id":"sh/ofq5svm5","slide":9,"name":"Text 5","text":"选择具体SKU","textPreview":"选择具体SKU","textChars":7,"textLines":1,"bbox":[227.52,194.88,384,24]}
+{"kind":"textbox","id":"sh/bih4na5w","slide":9,"name":"Text 6","text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[90.24,249.6,81.6,22.08]}
+{"kind":"shape","id":"sh/ah8nu54b","slide":9,"name":"Shape 7","bbox":[171.84,262.08,43.2,0]}
+{"kind":"textbox","id":"sh/oza1gfyh","slide":9,"name":"Text 8","text":"确认已选商品和数量","textPreview":"确认已选商品和数量","textChars":9,"textLines":1,"bbox":[227.52,247.68,384,24]}
+{"kind":"textbox","id":"sh/p0ji9kf2","slide":9,"name":"Text 9","text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[90.24,302.4,81.6,22.08]}
+{"kind":"shape","id":"sh/2xsjepgb","slide":9,"name":"Shape 10","bbox":[171.84,314.88,43.2,0]}
+{"kind":"textbox","id":"sh/3y107axw","slide":9,"name":"Text 11","text":"进入商品对比","textPreview":"进入商品对比","textChars":6,"textLines":1,"bbox":[227.52,300.48,384,24]}
+{"kind":"textbox","id":"sh/cnu1kzyd","slide":9,"name":"Text 12","text":"04","textPreview":"04","textChars":2,"textLines":1,"bbox":[90.24,355.2,81.6,22.08]}
+{"kind":"shape","id":"sh/do3id4fy","slide":9,"name":"Shape 13","bbox":[171.84,367.68,43.2,0]}
+{"kind":"textbox","id":"sh/qlcjipgn","slide":9,"name":"Text 14","text":"查看核心参数差异","textPreview":"查看核心参数差异","textChars":8,"textLines":1,"bbox":[227.52,353.28,384,24]}
+{"kind":"textbox","id":"sh/bml0buxs","slide":9,"name":"Text 15","text":"05","textPreview":"05","textChars":2,"textLines":1,"bbox":[90.24,408,81.6,22.08]}
+{"kind":"shape","id":"sh/0ru1ozyp","slide":9,"name":"Shape 16","bbox":[171.84,420.48,43.2,0]}
+{"kind":"textbox","id":"sh/lsn2h4fa","slide":9,"name":"Text 17","text":"切换只看差异或全部参数","textPreview":"切换只看差异或全部参数","textChars":11,"textLines":1,"bbox":[227.52,406.08,384,24]}
+{"kind":"textbox","id":"sh/98ji147e","slide":9,"name":"Text 18","text":"06","textPreview":"06","textChars":2,"textLines":1,"bbox":[90.24,460.8,81.6,22.08]}
+{"kind":"shape","id":"sh/87a18zqt","slide":9,"name":"Shape 19","bbox":[171.84,473.28,43.2,0]}
+{"kind":"textbox","id":"sh/76h0zup8","slide":9,"name":"Text 20","text":"理解价格、缺失与冲突","textPreview":"理解价格、缺失与冲突","textChars":10,"textLines":1,"bbox":[227.52,458.88,384,24]}
+{"kind":"textbox","id":"sh/ml8j6p8n","slide":9,"name":"Text 21","text":"07","textPreview":"07","textChars":2,"textLines":1,"bbox":[90.24,513.6,81.6,22.08]}
+{"kind":"shape","id":"sh/hcji5o7a","slide":9,"name":"Shape 22","bbox":[171.84,526.08,43.2,0]}
+{"kind":"textbox","id":"sh/wba1cjqp","slide":9,"name":"Text 23","text":"删除、替换并返回继续决策","textPreview":"删除、替换并返回继续决策","textChars":12,"textLines":1,"bbox":[227.52,511.68,384,24]}
+{"kind":"textbox","id":"sh/cr6xgv6l","slide":9,"name":"Text 34","text":"页面行为不是用户目标；页面必须服务于用户决策。","textPreview":"页面行为不是用户目标；页面必须服务于用户决策。","textChars":23,"textLines":1,"bbox":[694.83,321.12,460.8,40.32]}
+{"kind":"textbox","id":"sh/xcfy90n6","slide":9,"name":"Text 35","text":"检查：每个页面能否追溯到一个真实用户任务？","textPreview":"检查：每个页面能否追溯到一个真实用户任务？","textChars":21,"textLines":1,"bbox":[69.12,687.36,912,17.28]}
+{"kind":"textbox","id":"sh/qtkf21ob","slide":9,"name":"Slide Number Placeholder 0","placeholder":"slideNumber","text":"9","textPreview":"9","textChars":1,"textLines":1,"bbox":[1171.2,686.4,83.99,31.5]}
+{"kind":"notes","id":"nt/udsvah03","slide":9,"text":"用核心目标统领七个子任务。\n提醒学员：浏览参数表只是行为；AI推荐不属于一期任务。\n[Sources]\n- 第八课第二部分讲义（课程内部）\n- 第七课产品决策摘要（课程内部）"}
+{"kind":"slide","id":"sl/m90b6t0r","slide":10,"title":"3 / 必要界面","textShapes":12}
+{"kind":"textbox","id":"sh/xc3mho32","slide":10,"name":"Text 0","text":"3 / 必要界面","textPreview":"3 / 必要界面","textChars":8,"textLines":1,"bbox":[69.12,36.48,816,24]}
+{"kind":"textbox","id":"sh/cbu58j2h","slide":10,"name":"Text 1","text":"只保留支撑核心任务的三个界面","textPreview":"只保留支撑核心任务的三个界面","textChars":14,"textLines":1,"bbox":[69.12,72.96,691.2,52.8]}
+{"kind":"textbox","id":"sh/zelojyl8","slide":10,"name":"Text 2","text":"课堂Demo不是完整电商App，页面范围要主动收敛。","textPreview":"课堂Demo不是完整电商App，页面范围要主动收敛。","textChars":26,"textLines":1,"bbox":[71.04,136.32,672,32.64]}
+{"kind":"shape","id":"sh/ydcnatkn","slide":10,"name":"Shape 3","bbox":[280.32,391.68,207.36,0]}
+{"kind":"shape","id":"sh/l036l83y","slide":10,"name":"Shape 4","bbox":[631.68,391.68,211.2,0]}
+{"kind":"shape","id":"sh/kzu5c32t","slide":10,"name":"Shape 5","bbox":[80.64,220.8,292.8,196.8]}
+{"kind":"textbox","id":"sh/725onyl4","slide":10,"name":"Text 6","text":"商品选择页","textPreview":"商品选择页","textChars":5,"textLines":1,"bbox":[107.52,254.4,240,28.8]}
+{"kind":"textbox","id":"sh/m1cnetkj","slide":10,"name":"Text 7","text":"选择具体SKU\n加入对比","textPreview":"选择具体SKU | 加入对比","textChars":12,"textLines":2,"bbox":[111.36,312,235.2,57.6]}
+{"kind":"shape","id":"sh/s7yt4b21","slide":10,"name":"Shape 8","bbox":[436.8,220.8,292.8,196.8]}
+{"kind":"textbox","id":"sh/d87uxg3m","slide":10,"name":"Text 9","text":"底部对比栏","textPreview":"底部对比栏","textChars":5,"textLines":1,"bbox":[463.68,254.4,240,28.8]}
+{"kind":"textbox","id":"sh/q5gb21kb","slide":10,"name":"Text 10","text":"确认已选商品\n数量与进入条件","textPreview":"确认已选商品 | 数量与进入条件","textChars":14,"textLines":2,"bbox":[467.52,312,235.2,57.6]}
+{"kind":"shape","id":"sh/r6pcv6lw","slide":10,"name":"Shape 11","bbox":[793.92,220.8,292.8,196.8]}
+{"kind":"textbox","id":"sh/0bit8b2d","slide":10,"name":"Text 12","text":"商品对比页","textPreview":"商品对比页","textChars":5,"textLines":1,"bbox":[820.8,254.4,240,28.8]}
+{"kind":"textbox","id":"sh/1cru1g3y","slide":10,"name":"Text 13","text":"查看核心差异\n价格、缺失与冲突","textPreview":"查看核心差异 | 价格、缺失与冲突","textChars":15,"textLines":2,"bbox":[824.64,312,235.2,57.6]}
+{"kind":"shape","id":"sh/e9gb61k7","slide":10,"name":"Shape 14","bbox":[144,513.6,988.8,67.2]}
+{"kind":"textbox","id":"sh/fapcz6ls","slide":10,"name":"Text 15","text":"页面必须能追溯到用户任务；没有任务依据的页面要重新检查。","textPreview":"页面必须能追溯到用户任务；没有任务依据的页面要重新检查。","textChars":28,"textLines":1,"bbox":[165.12,534.72,940.8,26.88]}
+{"kind":"textbox","id":"sh/ozitcv29","slide":10,"name":"Text 16","text":"反馈、确认和提示优先用页面内状态，不必都新增独立页面。","textPreview":"反馈、确认和提示优先用页面内状态，不必都新增独立页面。","textChars":27,"textLines":1,"bbox":[69.12,687.36,912,17.28]}
+{"kind":"textbox","id":"sh/kjytkvup","slide":10,"name":"Slide Number Placeholder 0","placeholder":"slideNumber","text":"10","textPreview":"10","textChars":2,"textLines":1,"bbox":[1171.2,686.4,83.99,31.5]}
+{"kind":"notes","id":"nt/m90b6t0r","slide":10,"text":"解释三个核心界面的任务分工。\n超限提示、删除确认、参数反馈可以用弹窗或页面内提示完成，不必扩成完整页面。\n[Sources]\n- 第八课第二部分讲义（课程内部）\n- 第七课产品决策摘要（课程内部）"}
+{"kind":"slide","id":"sl/jetc3ut0","slide":11,"title":"4 / 完整用户流程","textShapes":20}
+{"kind":"textbox","id":"sh/xcryxg7y","slide":11,"name":"Text 0","text":"4 / 完整用户流程","textPreview":"4 / 完整用户流程","textChars":10,"textLines":1,"bbox":[69.12,36.48,816,24]}
+{"kind":"textbox","id":"sh/wbih4b6d","slide":11,"name":"Text 1","text":"把三个界面连成一条可恢复的流程","textPreview":"把三个界面连成一条可恢复的流程","textChars":15,"textLines":1,"bbox":[69.12,72.96,691.2,52.8]}
+{"kind":"textbox","id":"sh/n69grmpw","slide":11,"name":"Text 2","text":"流程不只描述成功跳转，还要说明失败后怎样继续。","textPreview":"流程不只描述成功跳转，还要说明失败后怎样继续。","textChars":23,"textLines":1,"bbox":[71.04,136.32,672,32.64]}
+{"kind":"textbox","id":"sh/250zy18b","slide":11,"name":"Text 3","text":"入口","textPreview":"入口","textChars":2,"textLines":1,"bbox":[90.24,196.8,81.6,22.08]}
+{"kind":"shape","id":"sh/98rytw72","slide":11,"name":"Shape 4","bbox":[171.84,209.28,43.2,0]}
+{"kind":"textbox","id":"sh/o7ih0r6h","slide":11,"name":"Text 5","text":"商品列表或详情页","textPreview":"商品列表或详情页","textChars":8,"textLines":1,"bbox":[227.52,194.88,384,24]}
+{"kind":"textbox","id":"sh/72t03qp0","slide":11,"name":"Text 6","text":"选择","textPreview":"选择","textChars":2,"textLines":1,"bbox":[90.24,249.6,81.6,22.08]}
+{"kind":"shape","id":"sh/61kzalof","slide":11,"name":"Shape 7","bbox":[171.84,262.08,43.2,0]}
+{"kind":"textbox","id":"sh/ofqtgnyt","slide":11,"name":"Text 8","text":"选择具体SKU并加入对比","textPreview":"选择具体SKU并加入对比","textChars":12,"textLines":1,"bbox":[227.52,247.68,384,24]}
+{"kind":"textbox","id":"sh/9gza9sze","slide":11,"name":"Text 9","text":"管理","textPreview":"管理","textChars":2,"textLines":1,"bbox":[90.24,302.4,81.6,22.08]}
+{"kind":"shape","id":"sh/mdobedg3","slide":11,"name":"Shape 10","bbox":[171.84,314.88,43.2,0]}
+{"kind":"textbox","id":"sh/nehs7iho","slide":11,"name":"Text 11","text":"确认2—4个已选商品","textPreview":"确认2—4个已选商品","textChars":10,"textLines":1,"bbox":[227.52,300.48,384,24]}
+{"kind":"textbox","id":"sh/0b6tc3yx","slide":11,"name":"Text 12","text":"对比","textPreview":"对比","textChars":2,"textLines":1,"bbox":[90.24,355.2,81.6,22.08]}
+{"kind":"shape","id":"sh/1cfa58zi","slide":11,"name":"Shape 13","bbox":[171.84,367.68,43.2,0]}
+{"kind":"textbox","id":"sh/epobatgr","slide":11,"name":"Text 14","text":"进入商品对比页","textPreview":"进入商品对比页","textChars":7,"textLines":1,"bbox":[227.52,353.28,384,24]}
+{"kind":"textbox","id":"sh/zaxs3yhc","slide":11,"name":"Text 15","text":"查看","textPreview":"查看","textChars":2,"textLines":1,"bbox":[90.24,408,81.6,22.08]}
+{"kind":"shape","id":"sh/cn6t83y1","slide":11,"name":"Shape 16","bbox":[171.84,420.48,43.2,0]}
+{"kind":"textbox","id":"sh/dofa18z6","slide":11,"name":"Text 17","text":"切换只看差异或全部参数","textPreview":"切换只看差异或全部参数","textChars":11,"textLines":1,"bbox":[227.52,406.08,384,24]}
+{"kind":"textbox","id":"sh/tsnip0ny","slide":11,"name":"Text 18","text":"分支","textPreview":"分支","textChars":2,"textLines":1,"bbox":[90.24,460.8,81.6,22.08]}
+{"kind":"shape","id":"sh/87ehgv6d","slide":11,"name":"Shape 19","bbox":[171.84,473.28,43.2,0]}
+{"kind":"textbox","id":"sh/7650nq5s","slide":11,"name":"Text 20","text":"不足、超限、跨类目时可恢复","textPreview":"不足、超限、跨类目时可恢复","textChars":13,"textLines":1,"bbox":[227.52,458.88,384,24]}
+{"kind":"textbox","id":"sh/65wzelo7","slide":11,"name":"Text 21","text":"返回","textPreview":"返回","textChars":2,"textLines":1,"bbox":[90.24,513.6,81.6,22.08]}
+{"kind":"shape","id":"sh/l43ilgn2","slide":11,"name":"Shape 22","bbox":[171.84,526.08,43.2,0]}
+{"kind":"textbox","id":"sh/k3uhcb6h","slide":11,"name":"Text 23","text":"删除、替换或返回继续浏览","textPreview":"删除、替换或返回继续浏览","textChars":12,"textLines":1,"bbox":[227.52,511.68,384,24]}
+{"kind":"textbox","id":"sh/03qxg7mx","slide":11,"name":"Text 34","text":"完整流程 = 主路径 + 关键分支 + 返回路径","textPreview":"完整流程 = 主路径 + 关键分支 + 返回路径","textChars":24,"textLines":1,"bbox":[694.83,321.12,460.8,40.32]}
+{"kind":"textbox","id":"sh/14ze9c3i","slide":11,"name":"Text 35","text":"检查：从哪里进入、如何完成、失败怎样恢复、返回后是否保留。","textPreview":"检查：从哪里进入、如何完成、失败怎样恢复、返回后是否保留。","textChars":29,"textLines":1,"bbox":[69.12,687.36,912,17.28]}
+{"kind":"textbox","id":"sh/ydcfq1kb","slide":11,"name":"Slide Number Placeholder 0","placeholder":"slideNumber","text":"11","textPreview":"11","textChars":2,"textLines":1,"bbox":[1171.2,686.4,83.99,31.5]}
+{"kind":"notes","id":"nt/jetc3ut0","slide":11,"text":"按入口、选择、管理、对比、查看、分支和返回依次讲解。\n重点点出数量不足、第五个商品、跨类目和返回保留四类情况。\n[Sources]\n- 第八课第二部分讲义（课程内部）\n- 第七课产品决策摘要（课程内部）"}
+{"kind":"slide","id":"sl/8f2psfyx","slide":12,"title":"5 / Codex课堂实操","textShapes":17}
+{"kind":"textbox","id":"sh/1gbm9s3a","slide":12,"name":"Text 0","text":"5 / Codex课堂实操","textPreview":"5 / Codex课堂实操","textChars":13,"textLines":1,"bbox":[69.12,36.48,816,24]}
+{"kind":"textbox","id":"sh/0f2lgnmp","slide":12,"name":"Text 1","text":"先让Codex生成蓝图，不要生成代码","textPreview":"先让Codex生成蓝图，不要生成代码","textChars":18,"textLines":1,"bbox":[69.12,72.96,691.2,52.8]}
+{"kind":"textbox","id":"sh/ra943il8","slide":12,"name":"Text 2","text":"输入正式依据，输出结构化结果，再由产品经理检查。","textPreview":"输入正式依据，输出结构化结果，再由产品经理检查。","textChars":24,"textLines":1,"bbox":[71.04,136.32,672,32.64]}
+{"kind":"textbox","id":"sh/dcbm583y","slide":12,"name":"Text 3","text":"Codex输出","textPreview":"Codex输出","textChars":7,"textLines":1,"bbox":[94.08,196.8,360,28.8]}
+{"kind":"textbox","id":"sh/sb2lcnmd","slide":12,"name":"Text 4","text":"产品经理检查","textPreview":"产品经理检查","textChars":6,"textLines":1,"bbox":[676.8,196.8,360,28.8]}
+{"kind":"shape","id":"sh/b6d4f2lc","slide":12,"name":"Shape 5","bbox":[97.92,265.92,13.44,13.44]}
+{"kind":"textbox","id":"sh/a543mx4r","slide":12,"name":"Text 6","text":"核心用户目标","textPreview":"核心用户目标","textChars":6,"textLines":1,"bbox":[128.64,257.28,420,25.92]}
+{"kind":"shape","id":"sh/wvupgz6t","slide":12,"name":"Shape 7","bbox":[97.92,318.72,13.44,13.44]}
+{"kind":"textbox","id":"sh/xw3q94ne","slide":12,"name":"Text 8","text":"用户任务清单","textPreview":"用户任务清单","textChars":6,"textLines":1,"bbox":[128.64,310.08,420,25.92]}
+{"kind":"shape","id":"sh/atc7epon","slide":12,"name":"Shape 9","bbox":[97.92,371.52,13.44,13.44]}
+{"kind":"textbox","id":"sh/bulo7u58","slide":12,"name":"Text 10","text":"任务—页面映射","textPreview":"任务—页面映射","textChars":7,"textLines":1,"bbox":[128.64,362.88,420,25.92]}
+{"kind":"shape","id":"sh/orapcf6h","slide":12,"name":"Shape 11","bbox":[97.92,424.32,13.44,13.44]}
+{"kind":"textbox","id":"sh/9sj65kn2","slide":12,"name":"Text 12","text":"主流程与关键分支","textPreview":"主流程与关键分支","textChars":8,"textLines":1,"bbox":[128.64,415.68,420,25.92]}
+{"kind":"shape","id":"sh/mps7a5or","slide":12,"name":"Shape 13","bbox":[680.64,265.92,13.44,13.44]}
+{"kind":"textbox","id":"sh/nq1o3a5w","slide":12,"name":"Text 14","text":"是否遗漏正式规则","textPreview":"是否遗漏正式规则","textChars":8,"textLines":1,"bbox":[711.36,257.28,420,25.92]}
+{"kind":"shape","id":"sh/0nap8f6l","slide":12,"name":"Shape 15","bbox":[680.64,318.72,13.44,13.44]}
+{"kind":"textbox","id":"sh/1oj61kn6","slide":12,"name":"Text 16","text":"是否擅自新增能力","textPreview":"是否擅自新增能力","textChars":8,"textLines":1,"bbox":[711.36,310.08,420,25.92]}
+{"kind":"shape","id":"sh/hkbm5wzu","slide":12,"name":"Shape 17","bbox":[680.64,371.52,13.44,13.44]}
+{"kind":"textbox","id":"sh/gj25cry9","slide":12,"name":"Text 18","text":"页面能否追溯任务","textPreview":"页面能否追溯任务","textChars":8,"textLines":1,"bbox":[711.36,362.88,420,25.92]}
+{"kind":"shape","id":"sh/fit436ho","slide":12,"name":"Shape 19","bbox":[680.64,424.32,13.44,13.44]}
+{"kind":"textbox","id":"sh/uh0na1g3","slide":12,"name":"Text 20","text":"是否有入口与恢复路径","textPreview":"是否有入口与恢复路径","textChars":10,"textLines":1,"bbox":[711.36,415.68,420,25.92]}
+{"kind":"shape","id":"sh/tgrm1wzy","slide":12,"name":"Shape 21","bbox":[96,532.8,595.2,59.52]}
+{"kind":"textbox","id":"sh/sfi58ryd","slide":12,"name":"Text 22","text":"Prompt约束：不生成HTML｜不讨论视觉｜待确认项单独标记","textPreview":"Prompt约束：不生成HTML｜不讨论视觉｜待确认项单独标记","textChars":31,"textLines":1,"bbox":[113.28,552.96,558.72,19.2]}
+{"kind":"textbox","id":"sh/7u94zmhs","slide":12,"name":"Text 23","text":"完整Prompt\n见配套讲义","textPreview":"完整Prompt | 见配套讲义","textChars":14,"textLines":2,"bbox":[934,467,210,49.92]}
+{"kind":"textbox","id":"sh/6t0n6hg7","slide":12,"name":"Text 24","text":"本部分产出：用户任务与页面清单 + 核心用户流程 + 待确认交互决策。","textPreview":"本部分产出：用户任务与页面清单 + 核心用户流程 + 待确认交互决策。","textChars":35,"textLines":1,"bbox":[69.12,687.36,912,17.28]}
+{"kind":"textbox","id":"sh/dcv6dgz2","slide":12,"name":"Slide Number Placeholder 0","placeholder":"slideNumber","text":"12","textPreview":"12","textChars":2,"textLines":1,"bbox":[1171.2,686.4,83.99,31.5]}
+{"kind":"notes","id":"nt/8f2psfyx","slide":12,"text":"课堂输入完整Prompt，先让Codex只输出蓝图。完整Prompt见第二部分讲义。\n产品经理重点检查规则遗漏、范围扩张、页面依据和恢复路径。\n确认三项产出后，下一部分再进入页面信息架构和低保真结构。\n[Sources]\n- 第八课第二部分讲义（课程内部）\n- 第七课产品决策摘要（课程内部）"}
+{"kind":"slide","id":"sl/hgzapcr6","slide":13,"title":"AI辅助原型与Demo · 第三部分","textShapes":4}
+{"kind":"shape","id":"sh/bq9orito","slide":13,"name":"Shape 0","bbox":[667.2,0,17.28,720]}
+{"kind":"textbox","id":"sh/o3i5w3ad","slide":13,"name":"Text 1","text":"AI辅助原型与Demo · 第三部分","textPreview":"AI辅助原型与Demo · 第三部分","textChars":18,"textLines":1,"bbox":[74.88,69.12,499.2,24]}
+{"kind":"textbox","id":"sh/p4r6p8by","slide":13,"name":"Text 2","text":"先用低保真验证页面结构","textPreview":"先用低保真验证页面结构","textChars":11,"textLines":1,"bbox":[74.88,189.12,652.35,129.6]}
+{"kind":"shape","id":"sh/32ponyts","slide":13,"name":"Shape 4","bbox":[78.72,340.8,441.6,0]}
+{"kind":"textbox","id":"sh/gzy5s3a1","slide":13,"name":"Text 5","text":"先暴露结构问题，再增加视觉细节。","textPreview":"先暴露结构问题，再增加视觉细节。","textChars":16,"textLines":1,"bbox":[78.72,362.88,499.2,52.8]}
+{"kind":"textbox","id":"sh/p0zyd0b6","slide":13,"name":"Slide Number Placeholder 0","placeholder":"slideNumber","text":"13","textPreview":"13","textChars":2,"textLines":1,"bbox":[1171.2,686.4,83.99,31.5]}
+{"kind":"notes","id":"nt/hgzapcr6","slide":13,"text":"低保真阶段只验证结构，不追求完成度。\n[Sources]\n- 第八课第三部分讲义（课程内部）\n- 第七课产品决策摘要（课程内部）"}
+{"kind":"slide","id":"sl/6lsnupw7","slide":14,"title":"1 / 低保真价值","textShapes":12}
+{"kind":"textbox","id":"sh/xc7eds76","slide":14,"name":"Text 0","text":"1 / 低保真价值","textPreview":"1 / 低保真价值","textChars":9,"textLines":1,"bbox":[69.12,36.48,816,24]}
+{"kind":"textbox","id":"sh/wbydknq1","slide":14,"name":"Text 1","text":"低保真不是简陋，而是主动控制变量","textPreview":"低保真不是简陋，而是主动控制变量","textChars":16,"textLines":1,"bbox":[69.12,72.96,691.2,52.8]}
+{"kind":"textbox","id":"sh/jepwf2pc","slide":14,"name":"Text 2","text":"暂时拿掉视觉装饰，才能看清结构是否支持任务。","textPreview":"暂时拿掉视觉装饰，才能看清结构是否支持任务。","textChars":22,"textLines":1,"bbox":[71.04,136.32,672,32.64]}
+{"kind":"shape","id":"sh/idgvmx8r","slide":14,"name":"Shape 3","bbox":[280.32,391.68,207.36,0]}
+{"kind":"shape","id":"sh/5grehs7i","slide":14,"name":"Shape 4","bbox":[631.68,391.68,211.2,0]}
+{"kind":"shape","id":"sh/kfidonqx","slide":14,"name":"Shape 5","bbox":[80.64,220.8,292.8,196.8]}
+{"kind":"textbox","id":"sh/zi5c3y98","slide":14,"name":"Text 6","text":"任务闭环","textPreview":"任务闭环","textChars":4,"textLines":1,"bbox":[107.52,254.4,240,28.8]}
+{"kind":"textbox","id":"sh/ehwvat8n","slide":14,"name":"Text 7","text":"用户能否完成\n核心目标","textPreview":"用户能否完成 | 核心目标","textChars":11,"textLines":2,"bbox":[111.36,312,235.2,57.6]}
+{"kind":"shape","id":"sh/c3e1gjyd","slide":14,"name":"Shape 8","bbox":[436.8,220.8,292.8,196.8]}
+{"kind":"textbox","id":"sh/x4ni9ofy","slide":14,"name":"Text 9","text":"信息层级","textPreview":"信息层级","textChars":4,"textLines":1,"bbox":[463.68,254.4,240,28.8]}
+{"kind":"textbox","id":"sh/a1wze9g7","slide":14,"name":"Text 10","text":"用户先看什么\n再做什么","textPreview":"用户先看什么 | 再做什么","textChars":11,"textLines":2,"bbox":[467.52,312,235.2,57.6]}
+{"kind":"shape","id":"sh/b2507exs","slide":14,"name":"Shape 11","bbox":[793.92,220.8,292.8,196.8]}
+{"kind":"textbox","id":"sh/kre1k3y9","slide":14,"name":"Text 12","text":"规则证据","textPreview":"规则证据","textChars":4,"textLines":1,"bbox":[820.8,254.4,240,28.8]}
+{"kind":"textbox","id":"sh/ls7idofu","slide":14,"name":"Text 13","text":"复杂规则能否\n在页面被观察","textPreview":"复杂规则能否 | 在页面被观察","textChars":13,"textLines":2,"bbox":[824.64,312,235.2,57.6]}
+{"kind":"shape","id":"sh/y5wjitgj","slide":14,"name":"Shape 14","bbox":[144,513.6,988.8,67.2]}
+{"kind":"textbox","id":"sh/z650byxo","slide":14,"name":"Text 15","text":"低保真只解决结构问题，不提前包装未验证的方案。","textPreview":"低保真只解决结构问题，不提前包装未验证的方案。","textChars":23,"textLines":1,"bbox":[165.12,534.72,940.8,26.88]}
+{"kind":"textbox","id":"sh/0buh8zy5","slide":14,"name":"Text 16","text":"结构正确之后，视觉才有放大的价值。","textPreview":"结构正确之后，视觉才有放大的价值。","textChars":17,"textLines":1,"bbox":[69.12,687.36,912,17.28]}
+{"kind":"textbox","id":"sh/4vmh0vq5","slide":14,"name":"Slide Number Placeholder 0","placeholder":"slideNumber","text":"14","textPreview":"14","textChars":2,"textLines":1,"bbox":[1171.2,686.4,83.99,31.5]}
+{"kind":"notes","id":"nt/6lsnupw7","slide":14,"text":"通过控制视觉变量，让学员专注任务、信息和规则。\n[Sources]\n- 第八课第三部分讲义（课程内部）\n- 第七课产品决策摘要（课程内部）"}
+{"kind":"slide","id":"sl/vaxsvy10","slide":15,"title":"2 / 四项结构检查","textShapes":17}
+{"kind":"textbox","id":"sh/547mhg3m","slide":15,"name":"Text 0","text":"2 / 四项结构检查","textPreview":"2 / 四项结构检查","textChars":10,"textLines":1,"bbox":[69.12,36.48,816,24]}
+{"kind":"textbox","id":"sh/k3y5ov21","slide":15,"name":"Text 1","text":"低保真阶段，只检查四件事","textPreview":"低保真阶段，只检查四件事","textChars":12,"textLines":1,"bbox":[69.12,72.96,691.2,52.8]}
+{"kind":"textbox","id":"sh/76p4jqls","slide":15,"name":"Text 2","text":"评审标准必须可观察，不用“感觉不错”作为结论。","textPreview":"评审标准必须可观察，不用“感觉不错”作为结论。","textChars":23,"textLines":1,"bbox":[71.04,136.32,672,32.64]}
+{"kind":"textbox","id":"sh/t87ml0ji","slide":15,"name":"Text 3","text":"用户能否完成","textPreview":"用户能否完成","textChars":6,"textLines":1,"bbox":[94.08,196.8,360,28.8]}
+{"kind":"textbox","id":"sh/s7y5sv2x","slide":15,"name":"Text 4","text":"页面是否讲清","textPreview":"页面是否讲清","textChars":6,"textLines":1,"bbox":[676.8,196.8,360,28.8]}
+{"kind":"shape","id":"sh/na5476l8","slide":15,"name":"Shape 5","bbox":[97.92,265.92,13.44,13.44]}
+{"kind":"textbox","id":"sh/m9c3e1kn","slide":15,"name":"Text 6","text":"核心任务形成闭环","textPreview":"核心任务形成闭环","textChars":8,"textLines":1,"bbox":[128.64,257.28,420,25.92]}
+{"kind":"shape","id":"sh/wrm9kvep","slide":15,"name":"Shape 7","bbox":[97.92,318.72,13.44,13.44]}
+{"kind":"textbox","id":"sh/hsvat0fa","slide":15,"name":"Text 8","text":"入口与返回路径明确","textPreview":"入口与返回路径明确","textChars":9,"textLines":1,"bbox":[128.64,310.08,420,25.92]}
+{"kind":"shape","id":"sh/upkrilwj","slide":15,"name":"Shape 9","bbox":[97.92,371.52,13.44,13.44]}
+{"kind":"textbox","id":"sh/vqdsrqx4","slide":15,"name":"Text 10","text":"关键操作容易发现","textPreview":"关键操作容易发现","textChars":8,"textLines":1,"bbox":[128.64,362.88,420,25.92]}
+{"kind":"shape","id":"sh/4vm9ovel","slide":15,"name":"Shape 11","bbox":[97.92,424.32,13.44,13.44]}
+{"kind":"textbox","id":"sh/5wvax0f6","slide":15,"name":"Text 12","text":"失败后可以继续","textPreview":"失败后可以继续","textChars":7,"textLines":1,"bbox":[128.64,415.68,420,25.92]}
+{"kind":"shape","id":"sh/it4rm5wv","slide":15,"name":"Shape 13","bbox":[680.64,265.92,13.44,13.44]}
+{"kind":"textbox","id":"sh/judsvqxg","slide":15,"name":"Text 14","text":"信息顺序符合决策","textPreview":"信息顺序符合决策","textChars":8,"textLines":1,"bbox":[711.36,257.28,420,25.92]}
+{"kind":"shape","id":"sh/0z29cbyh","slide":15,"name":"Shape 15","bbox":[680.64,318.72,13.44,13.44]}
+{"kind":"textbox","id":"sh/l0bqlgf2","slide":15,"name":"Text 16","text":"2—4个规则有反馈","textPreview":"2—4个规则有反馈","textChars":9,"textLines":1,"bbox":[711.36,310.08,420,25.92]}
+{"kind":"shape","id":"sh/1kjyt83e","slide":15,"name":"Shape 17","bbox":[680.64,371.52,13.44,13.44]}
+{"kind":"textbox","id":"sh/gjax03m9","slide":15,"name":"Text 18","text":"缺失与冲突有位置","textPreview":"缺失与冲突有位置","textChars":8,"textLines":1,"bbox":[711.36,362.88,420,25.92]}
+{"kind":"shape","id":"sh/fi1grylo","slide":15,"name":"Shape 19","bbox":[680.64,424.32,13.44,13.44]}
+{"kind":"textbox","id":"sh/ehsfyt43","slide":15,"name":"Text 20","text":"价格条件没有被隐藏","textPreview":"价格条件没有被隐藏","textChars":9,"textLines":1,"bbox":[711.36,415.68,420,25.92]}
+{"kind":"shape","id":"sh/p8jyx83q","slide":15,"name":"Shape 21","bbox":[96,532.8,595.2,59.52]}
+{"kind":"textbox","id":"sh/o7ah4nm5","slide":15,"name":"Text 22","text":"完成任务｜理解信息｜发现操作｜看见规则","textPreview":"完成任务｜理解信息｜发现操作｜看见规则","textChars":19,"textLines":1,"bbox":[113.28,552.96,558.72,19.2]}
+{"kind":"textbox","id":"sh/361gvilk","slide":15,"name":"Text 23","text":"不讨论\n颜色与动效","textPreview":"不讨论 | 颜色与动效","textChars":9,"textLines":2,"bbox":[934,467,210,49.92]}
+{"kind":"textbox","id":"sh/25sf2d4z","slide":15,"name":"Text 24","text":"低保真评审只判断结构是否成立。","textPreview":"低保真评审只判断结构是否成立。","textChars":15,"textLines":1,"bbox":[69.12,687.36,912,17.28]}
+{"kind":"textbox","id":"sh/dc3y1s3m","slide":15,"name":"Slide Number Placeholder 0","placeholder":"slideNumber","text":"15","textPreview":"15","textChars":2,"textLines":1,"bbox":[1171.2,686.4,83.99,31.5]}
+{"kind":"notes","id":"nt/vaxsvy10","slide":15,"text":"左侧检查任务，右侧检查页面表达。\n[Sources]\n- 第八课第三部分讲义（课程内部）\n- 第七课产品决策摘要（课程内部）"}
+{"kind":"slide","id":"sl/gny5sjyp","slide":16,"title":"3 / 页面信息架构","textShapes":12}
+{"kind":"textbox","id":"sh/8z2h8bq1","slide":16,"name":"Text 0","text":"3 / 页面信息架构","textPreview":"3 / 页面信息架构","textChars":10,"textLines":1,"bbox":[69.12,36.48,816,24]}
+{"kind":"textbox","id":"sh/9kby1g7m","slide":16,"name":"Text 1","text":"三个核心界面，各自承担一种任务","textPreview":"三个核心界面，各自承担一种任务","textChars":15,"textLines":1,"bbox":[69.12,72.96,691.2,52.8]}
+{"kind":"textbox","id":"sh/ytkf2h8j","slide":16,"name":"Text 2","text":"页面数量不重要，任务分工清楚更重要。","textPreview":"页面数量不重要，任务分工清楚更重要。","textChars":18,"textLines":1,"bbox":[71.04,136.32,672,32.64]}
+{"kind":"shape","id":"sh/zutgvm94","slide":16,"name":"Shape 3","bbox":[280.32,391.68,207.36,0]}
+{"kind":"shape","id":"sh/kv2h4rqp","slide":16,"name":"Shape 4","bbox":[631.68,391.68,211.2,0]}
+{"kind":"shape","id":"sh/lwbyxwra","slide":16,"name":"Shape 5","bbox":[80.64,220.8,292.8,196.8]}
+{"kind":"textbox","id":"sh/ip4zel83","slide":16,"name":"Text 6","text":"商品选择页","textPreview":"商品选择页","textChars":5,"textLines":1,"bbox":[107.52,254.4,240,28.8]}
+{"kind":"textbox","id":"sh/3qdg7qpo","slide":16,"name":"Text 7","text":"选择具体SKU\n表达加入状态","textPreview":"选择具体SKU | 表达加入状态","textChars":14,"textLines":2,"bbox":[111.36,312,235.2,57.6]}
+{"kind":"shape","id":"sh/fm1gzq5o","slide":16,"name":"Shape 8","bbox":[436.8,220.8,292.8,196.8]}
+{"kind":"textbox","id":"sh/e1sf65o3","slide":16,"name":"Text 9","text":"底部对比栏","textPreview":"底部对比栏","textChars":5,"textLines":1,"bbox":[463.68,254.4,240,28.8]}
+{"kind":"textbox","id":"sh/1ojy10ne","slide":16,"name":"Text 10","text":"管理已选商品\n控制进入条件","textPreview":"管理已选商品 | 控制进入条件","textChars":13,"textLines":2,"bbox":[467.52,312,235.2,57.6]}
+{"kind":"shape","id":"sh/gnax8v6t","slide":16,"name":"Shape 11","bbox":[793.92,220.8,292.8,196.8]}
+{"kind":"textbox","id":"sh/nqlg3a5k","slide":16,"name":"Text 12","text":"商品对比页","textPreview":"商品对比页","textChars":5,"textLines":1,"bbox":[820.8,254.4,240,28.8]}
+{"kind":"textbox","id":"sh/2pcfa5oz","slide":16,"name":"Text 13","text":"查看核心差异\n理解特殊信息","textPreview":"查看核心差异 | 理解特殊信息","textChars":13,"textLines":2,"bbox":[824.64,312,235.2,57.6]}
+{"kind":"shape","id":"sh/ps3y5knq","slide":16,"name":"Shape 14","bbox":[144,513.6,988.8,67.2]}
+{"kind":"textbox","id":"sh/oruhcf65","slide":16,"name":"Text 15","text":"选择 → 管理 → 对比，三个界面共同形成核心闭环。","textPreview":"选择 → 管理 → 对比，三个界面共同形成核心闭环。","textChars":26,"textLines":1,"bbox":[165.12,534.72,940.8,26.88]}
+{"kind":"textbox","id":"sh/bulg7u5g","slide":16,"name":"Text 16","text":"提示和确认优先用页面内状态，不必都新增页面。","textPreview":"提示和确认优先用页面内状态，不必都新增页面。","textChars":22,"textLines":1,"bbox":[69.12,687.36,912,17.28]}
+{"kind":"textbox","id":"sh/zm50veps","slide":16,"name":"Slide Number Placeholder 0","placeholder":"slideNumber","text":"16","textPreview":"16","textChars":2,"textLines":1,"bbox":[1171.2,686.4,83.99,31.5]}
+{"kind":"notes","id":"nt/gny5sjyp","slide":16,"text":"用三栏讲清三个界面的职责。\n[Sources]\n- 第八课第三部分讲义（课程内部）\n- 第七课产品决策摘要（课程内部）"}
+{"kind":"slide","id":"sl/14bup87q","slide":17,"title":"4 / 对比页结构","textShapes":20}
+{"kind":"textbox","id":"sh/1c7e50ni","slide":17,"name":"Text 0","text":"4 / 对比页结构","textPreview":"4 / 对比页结构","textChars":9,"textLines":1,"bbox":[69.12,36.48,816,24]}
+{"kind":"textbox","id":"sh/gbedwfmx","slide":17,"name":"Text 1","text":"对比页的信息顺序，就是用户的决策顺序","textPreview":"对比页的信息顺序，就是用户的决策顺序","textChars":18,"textLines":1,"bbox":[69.12,72.96,691.2,52.8]}
+{"kind":"textbox","id":"sh/rm5czq50","slide":17,"name":"Text 2","text":"先确认对象，再看差异，最后处理复杂信息。","textPreview":"先确认对象，再看差异，最后处理复杂信息。","textChars":20,"textLines":1,"bbox":[71.04,136.32,672,32.64]}
+{"kind":"textbox","id":"sh/6lwvql4v","slide":17,"name":"Text 3","text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[90.24,196.8,81.6,22.08]}
+{"kind":"shape","id":"sh/t8ne10n6","slide":17,"name":"Shape 4","bbox":[171.84,209.28,43.2,0]}
+{"kind":"textbox","id":"sh/snedsvml","slide":17,"name":"Text 5","text":"返回入口与页面标题","textPreview":"返回入口与页面标题","textChars":9,"textLines":1,"bbox":[227.52,194.88,384,24]}
+{"kind":"textbox","id":"sh/jilcvq54","slide":17,"name":"Text 6","text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[90.24,249.6,81.6,22.08]}
+{"kind":"shape","id":"sh/ihcvml4j","slide":17,"name":"Shape 7","bbox":[171.84,262.08,43.2,0]}
+{"kind":"textbox","id":"sh/4by9or6l","slide":17,"name":"Text 8","text":"商品固定区","textPreview":"商品固定区","textChars":5,"textLines":1,"bbox":[227.52,247.68,384,24]}
+{"kind":"textbox","id":"sh/pc7qhwn6","slide":17,"name":"Text 9","text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[90.24,302.4,81.6,22.08]}
+{"kind":"shape","id":"sh/29grm1of","slide":17,"name":"Shape 10","bbox":[171.84,314.88,43.2,0]}
+{"kind":"textbox","id":"sh/3ap8fm50","slide":17,"name":"Text 11","text":"活动价与优惠条件","textPreview":"活动价与优惠条件","textChars":8,"textLines":1,"bbox":[227.52,300.48,384,24]}
+{"kind":"textbox","id":"sh/gnepkr69","slide":17,"name":"Text 12","text":"04","textPreview":"04","textChars":2,"textLines":1,"bbox":[90.24,355.2,81.6,22.08]}
+{"kind":"shape","id":"sh/honqdwnu","slide":17,"name":"Shape 13","bbox":[171.84,367.68,43.2,0]}
+{"kind":"textbox","id":"sh/ulw7ihoj","slide":17,"name":"Text 14","text":"核心参数与只看差异","textPreview":"核心参数与只看差异","textChars":9,"textLines":1,"bbox":[227.52,353.28,384,24]}
+{"kind":"textbox","id":"sh/fm58bm54","slide":17,"name":"Text 15","text":"05","textPreview":"05","textChars":2,"textLines":1,"bbox":[90.24,408,81.6,22.08]}
+{"kind":"shape","id":"sh/0ji9wb6t","slide":17,"name":"Shape 16","bbox":[171.84,420.48,43.2,0]}
+{"kind":"textbox","id":"sh/14rqpgne","slide":17,"name":"Text 17","text":"全部参数与参数分组","textPreview":"全部参数与参数分组","textChars":9,"textLines":1,"bbox":[227.52,406.08,384,24]}
+{"kind":"textbox","id":"sh/90nq9gfi","slide":17,"name":"Text 18","text":"06","textPreview":"06","textChars":2,"textLines":1,"bbox":[90.24,460.8,81.6,22.08]}
+{"kind":"shape","id":"sh/8ze9gbyx","slide":17,"name":"Shape 19","bbox":[171.84,473.28,43.2,0]}
+{"kind":"textbox","id":"sh/ny5876xc","slide":17,"name":"Text 20","text":"缺失、冲突与来源","textPreview":"缺失、冲突与来源","textChars":8,"textLines":1,"bbox":[227.52,458.88,384,24]}
+{"kind":"textbox","id":"sh/mxw7e1gr","slide":17,"name":"Text 21","text":"07","textPreview":"07","textChars":2,"textLines":1,"bbox":[90.24,513.6,81.6,22.08]}
+{"kind":"shape","id":"sh/lwnq5gf6","slide":17,"name":"Shape 22","bbox":[171.84,526.08,43.2,0]}
+{"kind":"textbox","id":"sh/0vepcbyl","slide":17,"name":"Text 23","text":"删除、替换与反馈入口","textPreview":"删除、替换与反馈入口","textChars":10,"textLines":1,"bbox":[227.52,511.68,384,24]}
+{"kind":"textbox","id":"sh/gbq50neh","slide":17,"name":"Text 34","text":"首屏不需要展示全部内容，但必须让下一步动作清楚。","textPreview":"首屏不需要展示全部内容，但必须让下一步动作清楚。","textChars":24,"textLines":1,"bbox":[694.83,321.12,460.8,40.32]}
+{"kind":"textbox","id":"sh/1cj69sv2","slide":17,"name":"Text 35","text":"结构评审：信息有没有位置、顺序是否支持决策？","textPreview":"结构评审：信息有没有位置、顺序是否支持决策？","textChars":22,"textLines":1,"bbox":[69.12,687.36,912,17.28]}
+{"kind":"textbox","id":"sh/658nudwf","slide":17,"name":"Slide Number Placeholder 0","placeholder":"slideNumber","text":"17","textPreview":"17","textChars":2,"textLines":1,"bbox":[1171.2,686.4,83.99,31.5]}
+{"kind":"notes","id":"nt/14bup87q","slide":17,"text":"逐层讲解对比页，重点不是画面而是决策顺序。\n[Sources]\n- 第八课第三部分讲义（课程内部）\n- 第七课产品决策摘要（课程内部）"}
+{"kind":"slide","id":"sl/y5wne50z","slide":18,"title":"5 / Codex课堂实操","textShapes":17}
+{"kind":"textbox","id":"sh/wrelszu9","slide":18,"name":"Text 0","text":"5 / Codex课堂实操","textPreview":"5 / Codex课堂实操","textChars":13,"textLines":1,"bbox":[69.12,36.48,816,24]}
+{"kind":"textbox","id":"sh/hsn2l4bu","slide":18,"name":"Text 1","text":"让Codex生成可点击的灰度结构原型","textPreview":"让Codex生成可点击的灰度结构原型","textChars":18,"textLines":1,"bbox":[69.12,72.96,691.2,52.8]}
+{"kind":"textbox","id":"sh/itw3upcf","slide":18,"name":"Text 2","text":"先复述信息架构，确认后再生成low-fi.html。","textPreview":"先复述信息架构，确认后再生成low-fi.html。","textChars":26,"textLines":1,"bbox":[71.04,136.32,672,32.64]}
+{"kind":"textbox","id":"sh/4felwzu5","slide":18,"name":"Text 3","text":"Prompt输入","textPreview":"Prompt输入","textChars":8,"textLines":1,"bbox":[94.08,196.8,360,28.8]}
+{"kind":"textbox","id":"sh/5gnmp4bq","slide":18,"name":"Text 4","text":"人工Review","textPreview":"人工Review","textChars":8,"textLines":1,"bbox":[676.8,196.8,360,28.8]}
+{"kind":"shape","id":"sh/6hw3y9sb","slide":18,"name":"Shape 5","bbox":[97.92,265.92,13.44,13.44]}
+{"kind":"textbox","id":"sh/rip4retw","slide":18,"name":"Text 6","text":"最终PRD与产品决策","textPreview":"最终PRD与产品决策","textChars":10,"textLines":1,"bbox":[128.64,257.28,420,25.92]}
+{"kind":"shape","id":"sh/fapkr6pw","slide":18,"name":"Shape 7","bbox":[97.92,318.72,13.44,13.44]}
+{"kind":"textbox","id":"sh/upg3i18r","slide":18,"name":"Text 8","text":"用户任务与页面清单","textPreview":"用户任务与页面清单","textChars":9,"textLines":1,"bbox":[128.64,310.08,420,25.92]}
+{"kind":"shape","id":"sh/1cr2tg72","slide":18,"name":"Shape 9","bbox":[97.92,371.52,13.44,13.44]}
+{"kind":"textbox","id":"sh/gbylkbqh","slide":18,"name":"Text 10","text":"核心流程与待确认项","textPreview":"核心流程与待确认项","textChars":9,"textLines":1,"bbox":[128.64,362.88,420,25.92]}
+{"kind":"shape","id":"sh/7mpknmp0","slide":18,"name":"Shape 11","bbox":[97.92,424.32,13.44,13.44]}
+{"kind":"textbox","id":"sh/6lg3e18f","slide":18,"name":"Text 12","text":"明确灰度与三页范围","textPreview":"明确灰度与三页范围","textChars":9,"textLines":1,"bbox":[128.64,415.68,420,25.92]}
+{"kind":"shape","id":"sh/to72pw76","slide":18,"name":"Shape 13","bbox":[680.64,265.92,13.44,13.44]}
+{"kind":"textbox","id":"sh/snylgrql","slide":18,"name":"Text 14","text":"核心任务能否完成","textPreview":"核心任务能否完成","textChars":8,"textLines":1,"bbox":[711.36,257.28,420,25.92]}
+{"kind":"shape","id":"sh/bi94zqp4","slide":18,"name":"Shape 15","bbox":[680.64,318.72,13.44,13.44]}
+{"kind":"textbox","id":"sh/qh03ql8j","slide":18,"name":"Text 16","text":"关键操作能否发现","textPreview":"关键操作能否发现","textChars":8,"textLines":1,"bbox":[711.36,310.08,420,25.92]}
+{"kind":"shape","id":"sh/md4nipsr","slide":18,"name":"Shape 17","bbox":[680.64,371.52,13.44,13.44]}
+{"kind":"textbox","id":"sh/nedoru9c","slide":18,"name":"Text 18","text":"产品规则是否有证据","textPreview":"产品规则是否有证据","textChars":9,"textLines":1,"bbox":[711.36,362.88,420,25.92]}
+{"kind":"shape","id":"sh/8zm5kzax","slide":18,"name":"Shape 19","bbox":[680.64,424.32,13.44,13.44]}
+{"kind":"textbox","id":"sh/90v6t4ri","slide":18,"name":"Text 20","text":"失败与返回是否可恢复","textPreview":"失败与返回是否可恢复","textChars":10,"textLines":1,"bbox":[711.36,415.68,420,25.92]}
+{"kind":"shape","id":"sh/a14nm9s3","slide":18,"name":"Shape 21","bbox":[96,532.8,595.2,59.52]}
+{"kind":"textbox","id":"sh/v2xovu9o","slide":18,"name":"Text 22","text":"输出：prototype/low-fi.html｜无外部依赖｜不新增功能","textPreview":"输出：prototype/low-fi.html｜无外部依赖｜不新增功能","textChars":36,"textLines":1,"bbox":[113.28,552.96,558.72,19.2]}
+{"kind":"textbox","id":"sh/w36poza9","slide":18,"name":"Text 23","text":"完整Prompt\n见配套讲义","textPreview":"完整Prompt | 见配套讲义","textChars":14,"textLines":2,"bbox":[934,467,210,49.92]}
+{"kind":"textbox","id":"sh/x4f6x4re","slide":18,"name":"Text 24","text":"本部分产出：页面信息架构 + 低保真原型 + 结构评审记录。","textPreview":"本部分产出：页面信息架构 + 低保真原型 + 结构评审记录。","textChars":30,"textLines":1,"bbox":[69.12,687.36,912,17.28]}
+{"kind":"textbox","id":"sh/q5kna5sz","slide":18,"name":"Slide Number Placeholder 0","placeholder":"slideNumber","text":"18","textPreview":"18","textChars":2,"textLines":1,"bbox":[1171.2,686.4,83.99,31.5]}
+{"kind":"notes","id":"nt/y5wne50z","slide":18,"text":"完整Prompt在讲义和配套资产中，现场强调先复述再生成。\n[Sources]\n- 第八课第三部分讲义（课程内部）\n- 第七课产品决策摘要（课程内部）"}
+{"kind":"slide","id":"sl/nid43ytk","slide":19,"title":"AI辅助原型与Demo · 第四部分","textShapes":4}
+{"kind":"shape","id":"sh/8v2pobax","slide":19,"name":"Shape 0","bbox":[667.2,0,17.28,720]}
+{"kind":"textbox","id":"sh/vitozqt8","slide":19,"name":"Text 1","text":"AI辅助原型与Demo · 第四部分","textPreview":"AI辅助原型与Demo · 第四部分","textChars":18,"textLines":1,"bbox":[74.88,69.12,499.2,24]}
+{"kind":"textbox","id":"sh/ahk7qls3","slide":19,"name":"Text 2","text":"页面不是截图，而是一组状态","textPreview":"页面不是截图，而是一组状态","textChars":13,"textLines":1,"bbox":[74.88,189.12,652.35,129.6]}
+{"kind":"shape","id":"sh/wj2psvat","slide":19,"name":"Shape 4","bbox":[78.72,340.8,441.6,0]}
+{"kind":"textbox","id":"sh/jmd83atk","slide":19,"name":"Text 5","text":"让异常可见、可理解、可恢复。","textPreview":"让异常可见、可理解、可恢复。","textChars":14,"textLines":1,"bbox":[78.72,362.88,499.2,52.8]}
+{"kind":"textbox","id":"sh/k3y1wri9","slide":19,"name":"Slide Number Placeholder 0","placeholder":"slideNumber","text":"19","textPreview":"19","textChars":2,"textLines":1,"bbox":[1171.2,686.4,83.99,31.5]}
+{"kind":"notes","id":"nt/nid43ytk","slide":19,"text":"让异常可见、可理解、可恢复。\n[Sources]\n- 第八课第四部分讲义（课程内部）\n- 第七课产品决策摘要（课程内部）"}
+{"kind":"slide","id":"sl/zyxsni5k","slide":20,"title":"1 / 状态设计","textShapes":17}
+{"kind":"textbox","id":"sh/qpwjmh8n","slide":20,"name":"Text 0","text":"1 / 状态设计","textPreview":"1 / 状态设计","textChars":8,"textLines":1,"bbox":[69.12,36.48,816,24]}
+{"kind":"textbox","id":"sh/rq50vmp8","slide":20,"name":"Text 1","text":"每个状态都要形成完整反馈闭环","textPreview":"每个状态都要形成完整反馈闭环","textChars":14,"textLines":1,"bbox":[69.12,72.96,691.2,52.8]}
+{"kind":"textbox","id":"sh/4nu1krqh","slide":20,"name":"Text 2","text":"只有提示文案，没有下一步动作，不算完整状态。","textPreview":"只有提示文案，没有下一步动作，不算完整状态。","textChars":22,"textLines":1,"bbox":[71.04,136.32,672,32.64]}
+{"kind":"textbox","id":"sh/2lczih8r","slide":20,"name":"Text 3","text":"状态发生","textPreview":"状态发生","textChars":4,"textLines":1,"bbox":[94.08,196.8,360,28.8]}
+{"kind":"textbox","id":"sh/3ml0rmpw","slide":20,"name":"Text 4","text":"用户继续","textPreview":"用户继续","textChars":4,"textLines":1,"bbox":[676.8,196.8,360,28.8]}
+{"kind":"shape","id":"sh/gjuhg7ql","slide":20,"name":"Shape 5","bbox":[97.92,265.92,13.44,13.44]}
+{"kind":"textbox","id":"sh/hk3ipcr6","slide":20,"name":"Text 6","text":"明确触发条件","textPreview":"明确触发条件","textChars":6,"textLines":1,"bbox":[128.64,257.28,420,25.92]}
+{"kind":"shape","id":"sh/dkfmp4zy","slide":20,"name":"Shape 7","bbox":[97.92,318.72,13.44,13.44]}
+{"kind":"textbox","id":"sh/cj65wzyd","slide":20,"name":"Text 8","text":"解释发生了什么","textPreview":"解释发生了什么","textChars":7,"textLines":1,"bbox":[128.64,310.08,420,25.92]}
+{"kind":"shape","id":"sh/rid4nuhs","slide":20,"name":"Shape 9","bbox":[97.92,371.52,13.44,13.44]}
+{"kind":"textbox","id":"sh/qh4nupg7","slide":20,"name":"Text 10","text":"展示当前页面变化","textPreview":"展示当前页面变化","textChars":8,"textLines":1,"bbox":[128.64,362.88,420,25.92]}
+{"kind":"shape","id":"sh/pwvmlkzm","slide":20,"name":"Shape 11","bbox":[97.92,424.32,13.44,13.44]}
+{"kind":"textbox","id":"sh/4vm5sfy1","slide":20,"name":"Text 12","text":"保持必要上下文","textPreview":"保持必要上下文","textChars":7,"textLines":1,"bbox":[128.64,415.68,420,25.92]}
+{"kind":"shape","id":"sh/3ud4juhg","slide":20,"name":"Shape 13","bbox":[680.64,265.92,13.44,13.44]}
+{"kind":"textbox","id":"sh/2t4nqpgb","slide":20,"name":"Text 14","text":"给出可执行动作","textPreview":"给出可执行动作","textChars":7,"textLines":1,"bbox":[711.36,257.28,420,25.92]}
+{"kind":"shape","id":"sh/hsvmhkzq","slide":20,"name":"Shape 15","bbox":[680.64,318.72,13.44,13.44]}
+{"kind":"textbox","id":"sh/grm5ofy5","slide":20,"name":"Text 16","text":"说明操作后结果","textPreview":"说明操作后结果","textChars":7,"textLines":1,"bbox":[711.36,310.08,420,25.92]}
+{"kind":"shape","id":"sh/8b654f61","slide":20,"name":"Shape 17","bbox":[680.64,371.52,13.44,13.44]}
+{"kind":"textbox","id":"sh/tcz6dk7m","slide":20,"name":"Text 18","text":"失败时允许恢复","textPreview":"失败时允许恢复","textChars":7,"textLines":1,"bbox":[711.36,362.88,420,25.92]}
+{"kind":"shape","id":"sh/69on25ov","slide":20,"name":"Shape 19","bbox":[680.64,424.32,13.44,13.44]}
+{"kind":"textbox","id":"sh/7ax4bapg","slide":20,"name":"Text 20","text":"返回后状态可预期","textPreview":"返回后状态可预期","textChars":8,"textLines":1,"bbox":[711.36,415.68,420,25.92]}
+{"kind":"shape","id":"sh/k7650f6p","slide":20,"name":"Shape 21","bbox":[96,532.8,595.2,59.52]}
+{"kind":"textbox","id":"sh/l8fm907a","slide":20,"name":"Text 22","text":"触发条件 → 页面反馈 → 用户动作 → 系统结果","textPreview":"触发条件 → 页面反馈 → 用户动作 → 系统结果","textChars":25,"textLines":1,"bbox":[113.28,552.96,558.72,19.2]}
+{"kind":"textbox","id":"sh/y5ony58z","slide":20,"name":"Text 23","text":"状态必须\n可观察","textPreview":"状态必须 | 可观察","textChars":8,"textLines":2,"bbox":[934,467,210,49.92]}
+{"kind":"textbox","id":"sh/j6x47ap4","slide":20,"name":"Text 24","text":"状态设计的目标是帮助用户继续完成任务。","textPreview":"状态设计的目标是帮助用户继续完成任务。","textChars":19,"textLines":1,"bbox":[69.12,687.36,912,17.28]}
+{"kind":"textbox","id":"sh/43q5cz69","slide":20,"name":"Slide Number Placeholder 0","placeholder":"slideNumber","text":"20","textPreview":"20","textChars":2,"textLines":1,"bbox":[1171.2,686.4,83.99,31.5]}
+{"kind":"notes","id":"nt/zyxsni5k","slide":20,"text":"每个状态都要形成完整反馈闭环\n[Sources]\n- 第八课第四部分讲义（课程内部）\n- 第七课产品决策摘要（课程内部）"}
+{"kind":"slide","id":"sl/m1wvqtk3","slide":21,"title":"2 / 四个重点状态","textShapes":12}
+{"kind":"textbox","id":"sh/1gbmxs7a","slide":21,"name":"Text 0","text":"2 / 四个重点状态","textPreview":"2 / 四个重点状态","textChars":10,"textLines":1,"bbox":[69.12,36.48,816,24]}
+{"kind":"textbox","id":"sh/0f2lon6p","slide":21,"name":"Text 1","text":"课堂只做清楚四个关键状态","textPreview":"课堂只做清楚四个关键状态","textChars":12,"textLines":1,"bbox":[69.12,72.96,691.2,52.8]}
+{"kind":"textbox","id":"sh/ra9kryp8","slide":21,"name":"Text 2","text":"其他状态进入检查表，不挤占课堂主线。","textPreview":"其他状态进入检查表，不挤占课堂主线。","textChars":18,"textLines":1,"bbox":[71.04,136.32,672,32.64]}
+{"kind":"shape","id":"sh/qp03yt8n","slide":21,"name":"Shape 3","bbox":[280.32,391.68,207.36,0]}
+{"kind":"shape","id":"sh/dcb2t87y","slide":21,"name":"Shape 4","bbox":[631.68,391.68,211.2,0]}
+{"kind":"shape","id":"sh/sb2lk36t","slide":21,"name":"Shape 5","bbox":[80.64,220.8,292.8,196.8]}
+{"kind":"textbox","id":"sh/b6d432pc","slide":21,"name":"Text 6","text":"数量不足","textPreview":"数量不足","textChars":4,"textLines":1,"bbox":[107.52,254.4,240,28.8]}
+{"kind":"textbox","id":"sh/al43uxor","slide":21,"name":"Text 7","text":"只选1个商品\n提示继续选择","textPreview":"只选1个商品 | 提示继续选择","textChars":13,"textLines":2,"bbox":[111.36,312,235.2,57.6]}
+{"kind":"shape","id":"sh/4jax4nqd","slide":21,"name":"Shape 8","bbox":[436.8,220.8,292.8,196.8]}
+{"kind":"textbox","id":"sh/5kjydsri","slide":21,"name":"Text 9","text":"达到上限","textPreview":"达到上限","textChars":4,"textLines":1,"bbox":[463.68,254.4,240,28.8]}
+{"kind":"textbox","id":"sh/ixsf2d87","slide":21,"name":"Text 10","text":"加入第5个商品\n阻止并管理已选","textPreview":"加入第5个商品 | 阻止并管理已选","textChars":15,"textLines":2,"bbox":[467.52,312,235.2,57.6]}
+{"kind":"shape","id":"sh/jy1gbi9s","slide":21,"name":"Shape 11","bbox":[793.92,220.8,292.8,196.8]}
+{"kind":"textbox","id":"sh/wvax03q1","slide":21,"name":"Text 12","text":"数据异常","textPreview":"数据异常","textChars":4,"textLines":1,"bbox":[820.8,254.4,240,28.8]}
+{"kind":"textbox","id":"sh/hwjy98rm","slide":21,"name":"Text 13","text":"缺失显示暂无数据\n冲突标记来源","textPreview":"缺失显示暂无数据 | 冲突标记来源","textChars":15,"textLines":2,"bbox":[824.64,312,235.2,57.6]}
+{"kind":"shape","id":"sh/utsfyt8v","slide":21,"name":"Shape 14","bbox":[144,513.6,988.8,67.2]}
+{"kind":"textbox","id":"sh/vu1w7y9g","slide":21,"name":"Text 15","text":"状态必须忠于正式规则，不能为了顺滑体验绕过产品决策。","textPreview":"状态必须忠于正式规则，不能为了顺滑体验绕过产品决策。","textChars":26,"textLines":1,"bbox":[165.12,534.72,940.8,26.88]}
+{"kind":"textbox","id":"sh/8rqxw3q5","slide":21,"name":"Text 16","text":"缺失不得推测；冲突不得替用户选择答案。","textPreview":"缺失不得推测；冲突不得替用户选择答案。","textChars":19,"textLines":1,"bbox":[69.12,687.36,912,17.28]}
+{"kind":"textbox","id":"sh/0jidwf2x","slide":21,"name":"Slide Number Placeholder 0","placeholder":"slideNumber","text":"21","textPreview":"21","textChars":2,"textLines":1,"bbox":[1171.2,686.4,83.99,31.5]}
+{"kind":"notes","id":"nt/m1wvqtk3","slide":21,"text":"课堂只做清楚四个关键状态\n[Sources]\n- 第八课第四部分讲义（课程内部）\n- 第七课产品决策摘要（课程内部）"}
+{"kind":"slide","id":"sl/5onypobq","slide":22,"title":"3 / 状态覆盖","textShapes":20}
+{"kind":"textbox","id":"sh/6987itcr","slide":22,"name":"Text 0","text":"3 / 状态覆盖","textPreview":"3 / 状态覆盖","textChars":8,"textLines":1,"bbox":[69.12,36.48,816,24]}
+{"kind":"textbox","id":"sh/7a18rydc","slide":22,"name":"Text 1","text":"页面状态表先覆盖一期高风险场景","textPreview":"页面状态表先覆盖一期高风险场景","textChars":15,"textLines":1,"bbox":[69.12,72.96,691.2,52.8]}
+{"kind":"textbox","id":"sh/k7qpgjul","slide":22,"name":"Text 2","text":"课堂重点实现四个，其他状态保留为后续检查项。","textPreview":"课堂重点实现四个，其他状态保留为后续检查项。","textChars":22,"textLines":1,"bbox":[71.04,136.32,672,32.64]}
+{"kind":"textbox","id":"sh/58zqpov6","slide":22,"name":"Text 3","text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[90.24,196.8,81.6,22.08]}
+{"kind":"shape","id":"sh/il87etcv","slide":22,"name":"Shape 4","bbox":[171.84,209.28,43.2,0]}
+{"kind":"textbox","id":"sh/jmh8nyd0","slide":22,"name":"Text 5","text":"少于2个商品","textPreview":"少于2个商品","textChars":6,"textLines":1,"bbox":[227.52,194.88,384,24]}
+{"kind":"textbox","id":"sh/43u9snu5","slide":22,"name":"Text 6","text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[90.24,249.6,81.6,22.08]}
+{"kind":"shape","id":"sh/p43q1sva","slide":22,"name":"Shape 7","bbox":[171.84,262.08,43.2,0]}
+{"kind":"textbox","id":"sh/p4z6tcri","slide":22,"name":"Text 8","text":"达到4个商品上限","textPreview":"达到4个商品上限","textChars":8,"textLines":1,"bbox":[227.52,247.68,384,24]}
+{"kind":"textbox","id":"sh/436507qx","slide":22,"name":"Text 9","text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[90.24,302.4,81.6,22.08]}
+{"kind":"shape","id":"sh/3ixor29c","slide":22,"name":"Shape 10","bbox":[171.84,314.88,43.2,0]}
+{"kind":"textbox","id":"sh/2honyx8r","slide":22,"name":"Text 11","text":"跨三级类目","textPreview":"跨三级类目","textChars":5,"textLines":1,"bbox":[227.52,300.48,384,24]}
+{"kind":"textbox","id":"sh/hgf6pcr6","slide":22,"name":"Text 12","text":"04","textPreview":"04","textChars":2,"textLines":1,"bbox":[90.24,355.2,81.6,22.08]}
+{"kind":"shape","id":"sh/gf65w7ql","slide":22,"name":"Shape 13","bbox":[171.84,367.68,43.2,0]}
+{"kind":"textbox","id":"sh/fexon290","slide":22,"name":"Text 14","text":"参数缺失","textPreview":"参数缺失","textChars":4,"textLines":1,"bbox":[227.52,353.28,384,24]}
+{"kind":"textbox","id":"sh/udonux8v","slide":22,"name":"Text 15","text":"05","textPreview":"05","textChars":2,"textLines":1,"bbox":[90.24,408,81.6,22.08]}
+{"kind":"shape","id":"sh/1cj61w7q","slide":22,"name":"Shape 16","bbox":[171.84,420.48,43.2,0]}
+{"kind":"textbox","id":"sh/0bap8rq5","slide":22,"name":"Text 17","text":"参数冲突","textPreview":"参数冲突","textChars":4,"textLines":1,"bbox":[227.52,406.08,384,24]}
+{"kind":"textbox","id":"sh/krihkz2d","slide":22,"name":"Text 18","text":"06","textPreview":"06","textChars":2,"textLines":1,"bbox":[90.24,460.8,81.6,22.08]}
+{"kind":"shape","id":"sh/lsrit4jy","slide":22,"name":"Shape 19","bbox":[171.84,473.28,43.2,0]}
+{"kind":"textbox","id":"sh/yp0zipk7","slide":22,"name":"Text 20","text":"商品失效或下架","textPreview":"商品失效或下架","textChars":7,"textLines":1,"bbox":[227.52,458.88,384,24]}
+{"kind":"textbox","id":"sh/jq90ru1s","slide":22,"name":"Text 21","text":"07","textPreview":"07","textChars":2,"textLines":1,"bbox":[90.24,513.6,81.6,22.08]}
+{"kind":"shape","id":"sh/wnihgf2h","slide":22,"name":"Shape 22","bbox":[171.84,526.08,43.2,0]}
+{"kind":"textbox","id":"sh/xoripkj2","slide":22,"name":"Text 23","text":"返回后恢复选择","textPreview":"返回后恢复选择","textChars":7,"textLines":1,"bbox":[227.52,511.68,384,24]}
+{"kind":"textbox","id":"sh/1k7i1knu","slide":22,"name":"Text 34","text":"每个状态都写清：条件、反馈、动作与系统结果。","textPreview":"每个状态都写清：条件、反馈、动作与系统结果。","textChars":22,"textLines":1,"bbox":[694.83,321.12,460.8,40.32]}
+{"kind":"textbox","id":"sh/0jy18fm9","slide":22,"name":"Text 35","text":"状态表是下一步生成Demo的验收依据。","textPreview":"状态表是下一步生成Demo的验收依据。","textChars":19,"textLines":1,"bbox":[69.12,687.36,912,17.28]}
+{"kind":"textbox","id":"sh/nm903u5k","slide":22,"name":"Slide Number Placeholder 0","placeholder":"slideNumber","text":"22","textPreview":"22","textChars":2,"textLines":1,"bbox":[1171.2,686.4,83.99,31.5]}
+{"kind":"notes","id":"nt/5onypobq","slide":22,"text":"页面状态表先覆盖一期高风险场景\n[Sources]\n- 第八课第四部分讲义（课程内部）\n- 第七课产品决策摘要（课程内部）"}
+{"kind":"slide","id":"sl/c7uhcr6t","slide":23,"title":"4 / Codex课堂实操","textShapes":17}
+{"kind":"textbox","id":"sh/90vqdczq","slide":23,"name":"Text 0","text":"4 / Codex课堂实操","textPreview":"4 / Codex课堂实操","textChars":13,"textLines":1,"bbox":[69.12,36.48,816,24]}
+{"kind":"textbox","id":"sh/8zm9k7y5","slide":23,"name":"Text 1","text":"先生成状态表，再升级可演示界面","textPreview":"先生成状态表，再升级可演示界面","textChars":15,"textLines":1,"bbox":[69.12,72.96,691.2,52.8]}
+{"kind":"textbox","id":"sh/v2d8fmhw","slide":23,"name":"Text 2","text":"状态确认后再从low-fi.html生成core-ui.html。","textPreview":"状态确认后再从low-fi.html生成core-ui.html。","textChars":33,"textLines":1,"bbox":[71.04,136.32,672,32.64]}
+{"kind":"textbox","id":"sh/xovqhcz2","slide":23,"name":"Text 3","text":"Codex生成","textPreview":"Codex生成","textChars":7,"textLines":1,"bbox":[94.08,196.8,360,28.8]}
+{"kind":"textbox","id":"sh/w3m9o7yh","slide":23,"name":"Text 4","text":"产品经理Review","textPreview":"产品经理Review","textChars":10,"textLines":1,"bbox":[676.8,196.8,360,28.8]}
+{"kind":"shape","id":"sh/jqd8jmhs","slide":23,"name":"Shape 5","bbox":[97.92,265.92,13.44,13.44]}
+{"kind":"textbox","id":"sh/ip4rqhgn","slide":23,"name":"Text 6","text":"页面与状态名称","textPreview":"页面与状态名称","textChars":7,"textLines":1,"bbox":[128.64,257.28,420,25.92]}
+{"kind":"shape","id":"sh/sby90zm1","slide":23,"name":"Shape 7","bbox":[97.92,318.72,13.44,13.44]}
+{"kind":"textbox","id":"sh/tc7at436","slide":23,"name":"Text 8","text":"触发条件与反馈","textPreview":"触发条件与反馈","textChars":7,"textLines":1,"bbox":[128.64,310.08,420,25.92]}
+{"kind":"shape","id":"sh/69gry94v","slide":23,"name":"Shape 9","bbox":[97.92,371.52,13.44,13.44]}
+{"kind":"textbox","id":"sh/rapsrelg","slide":23,"name":"Text 10","text":"用户动作与结果","textPreview":"用户动作与结果","textChars":7,"textLines":1,"bbox":[128.64,362.88,420,25.92]}
+{"kind":"shape","id":"sh/0fi94jmx","slide":23,"name":"Shape 11","bbox":[97.92,424.32,13.44,13.44]}
+{"kind":"textbox","id":"sh/1graxo3i","slide":23,"name":"Text 12","text":"对应正式产品依据","textPreview":"对应正式产品依据","textChars":8,"textLines":1,"bbox":[128.64,415.68,420,25.92]}
+{"kind":"shape","id":"sh/edgr294r","slide":23,"name":"Shape 13","bbox":[680.64,265.92,13.44,13.44]}
+{"kind":"textbox","id":"sh/fepsvelc","slide":23,"name":"Text 14","text":"是否解释发生什么","textPreview":"是否解释发生什么","textChars":8,"textLines":1,"bbox":[711.36,257.28,420,25.92]}
+{"kind":"shape","id":"sh/oji9832t","slide":23,"name":"Shape 15","bbox":[680.64,318.72,13.44,13.44]}
+{"kind":"textbox","id":"sh/p4ra1o3e","slide":23,"name":"Text 16","text":"用户能否继续操作","textPreview":"用户能否继续操作","textChars":8,"textLines":1,"bbox":[711.36,310.08,420,25.92]}
+{"kind":"shape","id":"sh/x0nalovi","slide":23,"name":"Shape 17","bbox":[680.64,371.52,13.44,13.44]}
+{"kind":"textbox","id":"sh/wze9cjud","slide":23,"name":"Text 18","text":"模拟能力是否说清","textPreview":"模拟能力是否说清","textChars":8,"textLines":1,"bbox":[711.36,362.88,420,25.92]}
+{"kind":"shape","id":"sh/by58jeds","slide":23,"name":"Shape 19","bbox":[680.64,424.32,13.44,13.44]}
+{"kind":"textbox","id":"sh/axwratc7","slide":23,"name":"Text 20","text":"是否偷偷扩大范围","textPreview":"是否偷偷扩大范围","textChars":8,"textLines":1,"bbox":[711.36,415.68,420,25.92]}
+{"kind":"shape","id":"sh/l47ap8vu","slide":23,"name":"Shape 21","bbox":[96,532.8,595.2,59.52]}
+{"kind":"textbox","id":"sh/k3y9g3u9","slide":23,"name":"Text 22","text":"输出：页面状态表 + prototype/core-ui.html","textPreview":"输出：页面状态表 + prototype/core-ui.html","textChars":33,"textLines":1,"bbox":[113.28,552.96,558.72,19.2]}
+{"kind":"textbox","id":"sh/j2psnydo","slide":23,"name":"Text 23","text":"完整Prompt\n见配套讲义","textPreview":"完整Prompt | 见配套讲义","textChars":14,"textLines":2,"bbox":[934,467,210,49.92]}
+{"kind":"textbox","id":"sh/y1gretc3","slide":23,"name":"Text 24","text":"本部分产出：页面状态表 + 可演示核心页面 + 评审记录。","textPreview":"本部分产出：页面状态表 + 可演示核心页面 + 评审记录。","textChars":29,"textLines":1,"bbox":[69.12,687.36,912,17.28]}
+{"kind":"textbox","id":"sh/183qd4vq","slide":23,"name":"Slide Number Placeholder 0","placeholder":"slideNumber","text":"23","textPreview":"23","textChars":2,"textLines":1,"bbox":[1171.2,686.4,83.99,31.5]}
+{"kind":"notes","id":"nt/c7uhcr6t","slide":23,"text":"先生成状态表，再升级可演示界面\n[Sources]\n- 第八课第四部分讲义（课程内部）\n- 第七课产品决策摘要（课程内部）"}
+{"kind":"slide","id":"sl/7qto7e10","slide":24,"title":"AI辅助原型与Demo · 第五部分","textShapes":4}
+{"kind":"shape","id":"sh/0r6p4nul","slide":24,"name":"Shape 0","bbox":[667.2,0,17.28,720]}
+{"kind":"textbox","id":"sh/nux8zidc","slide":24,"name":"Text 1","text":"AI辅助原型与Demo · 第五部分","textPreview":"AI辅助原型与Demo · 第五部分","textChars":18,"textLines":1,"bbox":[74.88,69.12,499.2,24]}
+{"kind":"textbox","id":"sh/2to76dcr","slide":24,"name":"Text 2","text":"用Vibe Coding生成可运行Demo","textPreview":"用Vibe Coding生成可运行Demo","textChars":21,"textLines":1,"bbox":[74.88,189.12,652.35,129.6]}
+{"kind":"shape","id":"sh/ov6p8nux","slide":24,"name":"Shape 4","bbox":[78.72,340.8,441.6,0]}
+{"kind":"textbox","id":"sh/3ydonyd8","slide":24,"name":"Text 5","text":"按可验证切片实现，不一次生成整个产品。","textPreview":"按可验证切片实现，不一次生成整个产品。","textChars":19,"textLines":1,"bbox":[78.72,362.88,499.2,52.8]}
+{"kind":"textbox","id":"sh/gbmpcz61","slide":24,"name":"Slide Number Placeholder 0","placeholder":"slideNumber","text":"24","textPreview":"24","textChars":2,"textLines":1,"bbox":[1171.2,686.4,83.99,31.5]}
+{"kind":"notes","id":"nt/7qto7e10","slide":24,"text":"按可验证切片实现，不一次生成整个产品。\n[Sources]\n- 第八课第五部分讲义（课程内部）\n- 第七课产品决策摘要（课程内部）"}
+{"kind":"slide","id":"sl/69wfm9o7","slide":25,"title":"1 / 产品经理控制点","textShapes":12}
+{"kind":"textbox","id":"sh/xg7axgf2","slide":25,"name":"Text 0","text":"1 / 产品经理控制点","textPreview":"1 / 产品经理控制点","textChars":11,"textLines":1,"bbox":[69.12,36.48,816,24]}
+{"kind":"textbox","id":"sh/cfyt4beh","slide":25,"name":"Text 1","text":"Vibe Coding不是把产品决策交给AI","textPreview":"Vibe Coding不是把产品决策交给AI","textChars":22,"textLines":1,"bbox":[69.12,72.96,691.2,52.8]}
+{"kind":"textbox","id":"sh/napsr6x0","slide":25,"name":"Text 2","text":"生成越快，越要明确输入、范围和验收。","textPreview":"生成越快，越要明确输入、范围和验收。","textChars":18,"textLines":1,"bbox":[71.04,136.32,672,32.64]}
+{"kind":"shape","id":"sh/29wby1wf","slide":25,"name":"Shape 3","bbox":[280.32,391.68,207.36,0]}
+{"kind":"shape","id":"sh/pc7atgf6","slide":25,"name":"Shape 4","bbox":[631.68,391.68,211.2,0]}
+{"kind":"shape","id":"sh/obyt0bel","slide":25,"name":"Shape 5","bbox":[80.64,220.8,292.8,196.8]}
+{"kind":"textbox","id":"sh/fm5snmx4","slide":25,"name":"Text 6","text":"正式依据","textPreview":"正式依据","textChars":4,"textLines":1,"bbox":[107.52,254.4,240,28.8]}
+{"kind":"textbox","id":"sh/elwbu1wj","slide":25,"name":"Text 7","text":"AI读取了什么\n哪些不能改","textPreview":"AI读取了什么 | 哪些不能改","textChars":13,"textLines":2,"bbox":[111.36,312,235.2,57.6]}
+{"kind":"shape","id":"sh/wza9cbqp","slide":25,"name":"Shape 8","bbox":[436.8,220.8,292.8,196.8]}
+{"kind":"textbox","id":"sh/h0jalgra","slide":25,"name":"Text 9","text":"本轮范围","textPreview":"本轮范围","textChars":4,"textLines":1,"bbox":[463.68,254.4,240,28.8]}
+{"kind":"textbox","id":"sh/uxsra18j","slide":25,"name":"Text 10","text":"这一轮只做什么\n哪些明确不做","textPreview":"这一轮只做什么 | 哪些明确不做","textChars":14,"textLines":2,"bbox":[467.52,312,235.2,57.6]}
+{"kind":"shape","id":"sh/vy1sj694","slide":25,"name":"Shape 11","bbox":[793.92,220.8,292.8,196.8]}
+{"kind":"textbox","id":"sh/8ba98bqt","slide":25,"name":"Text 12","text":"验收条件","textPreview":"验收条件","textChars":4,"textLines":1,"bbox":[820.8,254.4,240,28.8]}
+{"kind":"textbox","id":"sh/9cjahgry","slide":25,"name":"Text 13","text":"怎样算完成\n怎样运行检查","textPreview":"怎样算完成 | 怎样运行检查","textChars":12,"textLines":2,"bbox":[824.64,312,235.2,57.6]}
+{"kind":"shape","id":"sh/m98r618n","slide":25,"name":"Shape 14","bbox":[144,513.6,988.8,67.2]}
+{"kind":"textbox","id":"sh/7a1sf698","slide":25,"name":"Text 15","text":"AI负责生成和修改代码；产品经理负责范围、决策和验收。","textPreview":"AI负责生成和修改代码；产品经理负责范围、决策和验收。","textChars":27,"textLines":1,"bbox":[165.12,534.72,940.8,26.88]}
+{"kind":"textbox","id":"sh/s7utkvqx","slide":25,"name":"Text 16","text":"修改边界同样重要：哪些可以改，哪些必须保持不变。","textPreview":"修改边界同样重要：哪些可以改，哪些必须保持不变。","textChars":24,"textLines":1,"bbox":[69.12,687.36,912,17.28]}
+{"kind":"textbox","id":"sh/s761kret","slide":25,"name":"Slide Number Placeholder 0","placeholder":"slideNumber","text":"25","textPreview":"25","textChars":2,"textLines":1,"bbox":[1171.2,686.4,83.99,31.5]}
+{"kind":"notes","id":"nt/69wfm9o7","slide":25,"text":"Vibe Coding不是把产品决策交给AI\n[Sources]\n- 第八课第五部分讲义（课程内部）\n- 第七课产品决策摘要（课程内部）"}
+{"kind":"slide","id":"sl/l0bepsfm","slide":26,"title":"2 / 可验证切片","textShapes":20}
+{"kind":"textbox","id":"sh/uhk36lk7","slide":26,"name":"Text 0","text":"2 / 可验证切片","textPreview":"2 / 可验证切片","textChars":9,"textLines":1,"bbox":[69.12,36.48,816,24]}
+{"kind":"textbox","id":"sh/vitkzqlc","slide":26,"name":"Text 1","text":"不要一次生成整个产品","textPreview":"不要一次生成整个产品","textChars":10,"textLines":1,"bbox":[69.12,72.96,691.2,52.8]}
+{"kind":"textbox","id":"sh/8fil4b21","slide":26,"name":"Text 2","text":"每完成一个切片，就运行、检查并记录。","textPreview":"每完成一个切片，就运行、检查并记录。","textChars":18,"textLines":1,"bbox":[71.04,136.32,672,32.64]}
+{"kind":"textbox","id":"sh/tgr2xg3m","slide":26,"name":"Text 3","text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[90.24,196.8,81.6,22.08]}
+{"kind":"shape","id":"sh/md0321kv","slide":26,"name":"Shape 4","bbox":[171.84,209.28,43.2,0]}
+{"kind":"textbox","id":"sh/7e9kv6lg","slide":26,"name":"Text 5","text":"商品数据与页面骨架","textPreview":"商品数据与页面骨架","textChars":9,"textLines":1,"bbox":[227.52,194.88,384,24]}
+{"kind":"textbox","id":"sh/kbil0r2p","slide":26,"name":"Text 6","text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[90.24,249.6,81.6,22.08]}
+{"kind":"shape","id":"sh/lcr2tw3a","slide":26,"name":"Shape 7","bbox":[171.84,262.08,43.2,0]}
+{"kind":"textbox","id":"sh/lsja143i","slide":26,"name":"Text 8","text":"加入对比与底部对比栏","textPreview":"加入对比与底部对比栏","textChars":10,"textLines":1,"bbox":[227.52,247.68,384,24]}
+{"kind":"textbox","id":"sh/krat8z2x","slide":26,"name":"Text 9","text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[90.24,302.4,81.6,22.08]}
+{"kind":"shape","id":"sh/z61szulc","slide":26,"name":"Shape 10","bbox":[171.84,314.88,43.2,0]}
+{"kind":"textbox","id":"sh/y5sr69kr","slide":26,"name":"Text 11","text":"商品对比页","textPreview":"商品对比页","textChars":5,"textLines":1,"bbox":[227.52,300.48,384,24]}
+{"kind":"textbox","id":"sh/x4jax436","slide":26,"name":"Text 12","text":"04","textPreview":"04","textChars":2,"textLines":1,"bbox":[90.24,355.2,81.6,22.08]}
+{"kind":"shape","id":"sh/c3a94z21","slide":26,"name":"Shape 13","bbox":[171.84,367.68,43.2,0]}
+{"kind":"textbox","id":"sh/b21svulg","slide":26,"name":"Text 14","text":"只看差异与全部参数","textPreview":"只看差异与全部参数","textChars":9,"textLines":1,"bbox":[227.52,353.28,384,24]}
+{"kind":"textbox","id":"sh/a18r2pkv","slide":26,"name":"Text 15","text":"05","textPreview":"05","textChars":2,"textLines":1,"bbox":[90.24,408,81.6,22.08]}
+{"kind":"shape","id":"sh/p0zatk3a","slide":26,"name":"Shape 16","bbox":[171.84,420.48,43.2,0]}
+{"kind":"textbox","id":"sh/ozq90f2p","slide":26,"name":"Text 17","text":"超限、跨类目、缺失与冲突","textPreview":"超限、跨类目、缺失与冲突","textChars":12,"textLines":1,"bbox":[227.52,406.08,384,24]}
+{"kind":"textbox","id":"sh/0ve1wjex","slide":26,"name":"Text 18","text":"06","textPreview":"06","textChars":2,"textLines":1,"bbox":[90.24,460.8,81.6,22.08]}
+{"kind":"shape","id":"sh/1wn25ofi","slide":26,"name":"Shape 19","bbox":[171.84,473.28,43.2,0]}
+{"kind":"textbox","id":"sh/etwju9wr","slide":26,"name":"Text 20","text":"移动端适配与演示数据","textPreview":"移动端适配与演示数据","textChars":10,"textLines":1,"bbox":[227.52,458.88,384,24]}
+{"kind":"textbox","id":"sh/fu5k3exc","slide":26,"name":"Text 21","text":"07","textPreview":"07","textChars":2,"textLines":1,"bbox":[90.24,513.6,81.6,22.08]}
+{"kind":"shape","id":"sh/sru1szel","slide":26,"name":"Shape 22","bbox":[171.84,526.08,43.2,0]}
+{"kind":"textbox","id":"sh/ds3i14f6","slide":26,"name":"Text 23","text":"运行验收清单并回归","textPreview":"运行验收清单并回归","textChars":9,"textLines":1,"bbox":[227.52,511.68,384,24]}
+{"kind":"textbox","id":"sh/h8bm9czu","slide":26,"name":"Text 34","text":"小步实现让问题可以定位，修改可以控制。","textPreview":"小步实现让问题可以定位，修改可以控制。","textChars":19,"textLines":1,"bbox":[694.83,321.12,460.8,40.32]}
+{"kind":"textbox","id":"sh/wn2507y9","slide":26,"name":"Text 35","text":"每轮：目标 → 依据 → 实现 → 检查 → 局部修改 → 回归。","textPreview":"每轮：目标 → 依据 → 实现 → 检查 → 局部修改 → 回归。","textChars":33,"textLines":1,"bbox":[69.12,687.36,912,17.28]}
+{"kind":"textbox","id":"sh/bqp4vihk","slide":26,"name":"Slide Number Placeholder 0","placeholder":"slideNumber","text":"26","textPreview":"26","textChars":2,"textLines":1,"bbox":[1171.2,686.4,83.99,31.5]}
+{"kind":"notes","id":"nt/l0bepsfm","slide":26,"text":"不要一次生成整个产品\n[Sources]\n- 第八课第五部分讲义（课程内部）\n- 第七课产品决策摘要（课程内部）"}
+{"kind":"slide","id":"sl/4vyxknqp","slide":27,"title":"3 / 局部修改指令","textShapes":17}
+{"kind":"textbox","id":"sh/kn694nmx","slide":27,"name":"Text 0","text":"3 / 局部修改指令","textPreview":"3 / 局部修改指令","textChars":10,"textLines":1,"bbox":[69.12,36.48,816,24]}
+{"kind":"textbox","id":"sh/lofadsni","slide":27,"name":"Text 1","text":"好修改指令，不只描述“哪里不对”","textPreview":"好修改指令，不只描述“哪里不对”","textChars":16,"textLines":1,"bbox":[69.12,72.96,691.2,52.8]}
+{"kind":"textbox","id":"sh/mpor6x43","slide":27,"name":"Text 2","text":"同时告诉AI期望结果、不可改动项和验收方式。","textPreview":"同时告诉AI期望结果、不可改动项和验收方式。","textChars":22,"textLines":1,"bbox":[71.04,136.32,672,32.64]}
+{"kind":"textbox","id":"sh/8r698nm9","slide":27,"name":"Text 3","text":"指令必须包含","textPreview":"指令必须包含","textChars":6,"textLines":1,"bbox":[94.08,196.8,360,28.8]}
+{"kind":"textbox","id":"sh/9sfahsnu","slide":27,"name":"Text 4","text":"修改后必须完成","textPreview":"修改后必须完成","textChars":7,"textLines":1,"bbox":[676.8,196.8,360,28.8]}
+{"kind":"shape","id":"sh/utobax4f","slide":27,"name":"Shape 5","bbox":[97.92,265.92,13.44,13.44]}
+{"kind":"textbox","id":"sh/vuxsj250","slide":27,"name":"Text 6","text":"当前问题","textPreview":"当前问题","textChars":4,"textLines":1,"bbox":[128.64,257.28,420,25.92]}
+{"kind":"shape","id":"sh/ju5gv294","slide":27,"name":"Shape 7","bbox":[97.92,318.72,13.44,13.44]}
+{"kind":"textbox","id":"sh/ytwfmx8j","slide":27,"name":"Text 8","text":"复现位置","textPreview":"复现位置","textChars":4,"textLines":1,"bbox":[128.64,310.08,420,25.92]}
+{"kind":"shape","id":"sh/lw7yxcra","slide":27,"name":"Shape 9","bbox":[97.92,371.52,13.44,13.44]}
+{"kind":"textbox","id":"sh/kvyxo7qp","slide":27,"name":"Text 10","text":"期望结果","textPreview":"期望结果","textChars":4,"textLines":1,"bbox":[128.64,362.88,420,25.92]}
+{"kind":"shape","id":"sh/bq5gr298","slide":27,"name":"Shape 11","bbox":[97.92,424.32,13.44,13.44]}
+{"kind":"textbox","id":"sh/apwfix8n","slide":27,"name":"Text 12","text":"保持不变的内容","textPreview":"保持不变的内容","textChars":7,"textLines":1,"bbox":[128.64,415.68,420,25.92]}
+{"kind":"shape","id":"sh/xsnytcry","slide":27,"name":"Shape 13","bbox":[680.64,265.92,13.44,13.44]}
+{"kind":"textbox","id":"sh/wrexk7qt","slide":27,"name":"Text 14","text":"明确验收方式","textPreview":"明确验收方式","textChars":6,"textLines":1,"bbox":[711.36,257.28,420,25.92]}
+{"kind":"shape","id":"sh/vmpg3m9c","slide":27,"name":"Shape 15","bbox":[680.64,318.72,13.44,13.44]}
+{"kind":"textbox","id":"sh/ulgzuh8r","slide":27,"name":"Text 16","text":"运行相关场景","textPreview":"运行相关场景","textChars":6,"textLines":1,"bbox":[711.36,310.08,420,25.92]}
+{"kind":"shape","id":"sh/qhkj2lsz","slide":27,"name":"Shape 17","bbox":[680.64,371.52,13.44,13.44]}
+{"kind":"textbox","id":"sh/rit0vqtk","slide":27,"name":"Text 18","text":"回归受影响路径","textPreview":"回归受影响路径","textChars":7,"textLines":1,"bbox":[711.36,362.88,420,25.92]}
+{"kind":"shape","id":"sh/sj214va5","slide":27,"name":"Shape 19","bbox":[680.64,424.32,13.44,13.44]}
+{"kind":"textbox","id":"sh/dkb2x0bq","slide":27,"name":"Text 20","text":"记录实际结果","textPreview":"记录实际结果","textChars":6,"textLines":1,"bbox":[711.36,415.68,420,25.92]}
+{"kind":"shape","id":"sh/elkj65sb","slide":27,"name":"Shape 21","bbox":[96,532.8,595.2,59.52]}
+{"kind":"textbox","id":"sh/fmdkzatw","slide":27,"name":"Text 22","text":"问题｜位置｜期望｜保持不变｜验收","textPreview":"问题｜位置｜期望｜保持不变｜验收","textChars":16,"textLines":1,"bbox":[113.28,552.96,558.72,19.2]}
+{"kind":"textbox","id":"sh/0nm18fa1","slide":27,"name":"Text 23","text":"避免\n整页重生成","textPreview":"避免 | 整页重生成","textChars":8,"textLines":2,"bbox":[934,467,210,49.92]}
+{"kind":"textbox","id":"sh/1ov210bm","slide":27,"name":"Text 24","text":"局部修改的目标是修复问题，而不是重新设计产品。","textPreview":"局部修改的目标是修复问题，而不是重新设计产品。","textChars":23,"textLines":1,"bbox":[69.12,687.36,912,17.28]}
+{"kind":"textbox","id":"sh/up0ju1sr","slide":27,"name":"Slide Number Placeholder 0","placeholder":"slideNumber","text":"27","textPreview":"27","textChars":2,"textLines":1,"bbox":[1171.2,686.4,83.99,31.5]}
+{"kind":"notes","id":"nt/4vyxknqp","slide":27,"text":"好修改指令，不只描述“哪里不对”\n[Sources]\n- 第八课第五部分讲义（课程内部）\n- 第七课产品决策摘要（课程内部）"}
+{"kind":"slide","id":"sl/3mdove10","slide":28,"title":"4 / Demo能力边界","textShapes":12}
+{"kind":"textbox","id":"sh/q9cz6xkv","slide":28,"name":"Text 0","text":"4 / Demo能力边界","textPreview":"4 / Demo能力边界","textChars":12,"textLines":1,"bbox":[69.12,36.48,816,24]}
+{"kind":"textbox","id":"sh/ralgf21g","slide":28,"name":"Text 1","text":"Demo能运行，不等于真实能力已经具备","textPreview":"Demo能运行，不等于真实能力已经具备","textChars":19,"textLines":1,"bbox":[69.12,72.96,691.2,52.8]}
+{"kind":"textbox","id":"sh/0zehcr2x","slide":28,"name":"Text 2","text":"所有模拟、简化和未实现能力都要明确声明。","textPreview":"所有模拟、简化和未实现能力都要明确声明。","textChars":20,"textLines":1,"bbox":[71.04,136.32,672,32.64]}
+{"kind":"shape","id":"sh/10nylwji","slide":28,"name":"Shape 3","bbox":[280.32,391.68,207.36,0]}
+{"kind":"shape","id":"sh/exwzahkr","slide":28,"name":"Shape 4","bbox":[631.68,391.68,211.2,0]}
+{"kind":"shape","id":"sh/zy5gjm1c","slide":28,"name":"Shape 5","bbox":[80.64,220.8,292.8,196.8]}
+{"kind":"textbox","id":"sh/o3ehgr29","slide":28,"name":"Text 6","text":"可以模拟","textPreview":"可以模拟","textChars":4,"textLines":1,"bbox":[107.52,254.4,240,28.8]}
+{"kind":"textbox","id":"sh/947ipwje","slide":28,"name":"Text 7","text":"教学数据\n本地临时状态","textPreview":"教学数据 | 本地临时状态","textChars":11,"textLines":2,"bbox":[111.36,312,235.2,57.6]}
+{"kind":"shape","id":"sh/lg3690fq","slide":28,"name":"Shape 8","bbox":[436.8,220.8,292.8,196.8]}
+{"kind":"textbox","id":"sh/kfu5gfe5","slide":28,"name":"Text 9","text":"必须说明","textPreview":"必须说明","textChars":4,"textLines":1,"bbox":[463.68,254.4,240,28.8]}
+{"kind":"textbox","id":"sh/je1o7ax0","slide":28,"name":"Text 10","text":"页面范围简化\n后端未接入","textPreview":"页面范围简化 | 后端未接入","textChars":12,"textLines":2,"bbox":[467.52,312,235.2,57.6]}
+{"kind":"shape","id":"sh/ytsne5wf","slide":28,"name":"Shape 11","bbox":[793.92,220.8,292.8,196.8]}
+{"kind":"textbox","id":"sh/tk36dkf2","slide":28,"name":"Text 12","text":"不能伪装","textPreview":"不能伪装","textChars":4,"textLines":1,"bbox":[820.8,254.4,240,28.8]}
+{"kind":"textbox","id":"sh/8ju5kfeh","slide":28,"name":"Text 13","text":"云端同步\n真实到手价","textPreview":"云端同步 | 真实到手价","textChars":10,"textLines":2,"bbox":[824.64,312,235.2,57.6]}
+{"kind":"shape","id":"sh/7ilobaxw","slide":28,"name":"Shape 14","bbox":[144,513.6,988.8,67.2]}
+{"kind":"textbox","id":"sh/6hcni5wb","slide":28,"name":"Text 15","text":"视觉完成度不能替代数据、系统和业务能力。","textPreview":"视觉完成度不能替代数据、系统和业务能力。","textChars":20,"textLines":1,"bbox":[165.12,534.72,940.8,26.88]}
+{"kind":"textbox","id":"sh/9ojm1gfi","slide":28,"name":"Text 16","text":"一期不做AI推荐，也不能用写死结果证明推荐有效。","textPreview":"一期不做AI推荐，也不能用写死结果证明推荐有效。","textChars":24,"textLines":1,"bbox":[69.12,687.36,912,17.28]}
+{"kind":"textbox","id":"sh/987eh4rm","slide":28,"name":"Slide Number Placeholder 0","placeholder":"slideNumber","text":"28","textPreview":"28","textChars":2,"textLines":1,"bbox":[1171.2,686.4,83.99,31.5]}
+{"kind":"notes","id":"nt/3mdove10","slide":28,"text":"Demo能运行，不等于真实能力已经具备\n[Sources]\n- 第八课第五部分讲义（课程内部）\n- 第七课产品决策摘要（课程内部）"}
+{"kind":"slide","id":"sl/i5o3q10v","slide":29,"title":"5 / 43分钟实操","textShapes":17}
+{"kind":"textbox","id":"sh/tk36hwby","slide":29,"name":"Text 0","text":"5 / 43分钟实操","textPreview":"5 / 43分钟实操","textChars":10,"textLines":1,"bbox":[69.12,36.48,816,24]}
+{"kind":"textbox","id":"sh/8jup8rad","slide":29,"name":"Text 1","text":"课堂完成一版生成、两轮修改和一次回归","textPreview":"课堂完成一版生成、两轮修改和一次回归","textChars":18,"textLines":1,"bbox":[69.12,72.96,691.2,52.8]}
+{"kind":"textbox","id":"sh/vmlojmto","slide":29,"name":"Text 2","text":"技术路线保持单文件HTML，避免安装依赖。","textPreview":"技术路线保持单文件HTML，避免安装依赖。","textChars":21,"textLines":1,"bbox":[71.04,136.32,672,32.64]}
+{"kind":"textbox","id":"sh/h8n6lwbu","slide":29,"name":"Text 3","text":"前半段","textPreview":"前半段","textChars":3,"textLines":1,"bbox":[94.08,196.8,360,28.8]}
+{"kind":"textbox","id":"sh/g7upcra9","slide":29,"name":"Text 4","text":"后半段","textPreview":"后半段","textChars":3,"textLines":1,"bbox":[676.8,196.8,360,28.8]}
+{"kind":"shape","id":"sh/bq1o72tk","slide":29,"name":"Shape 5","bbox":[97.92,265.92,13.44,13.44]}
+{"kind":"textbox","id":"sh/apsnyxcz","slide":29,"name":"Text 6","text":"5分钟：确认实现清单","textPreview":"5分钟：确认实现清单","textChars":10,"textLines":1,"bbox":[128.64,257.28,420,25.92]}
+{"kind":"shape","id":"sh/kf2tw7a1","slide":29,"name":"Shape 7","bbox":[97.92,318.72,13.44,13.44]}
+{"kind":"textbox","id":"sh/5gbupcrm","slide":29,"name":"Text 8","text":"12分钟：生成首版Demo","textPreview":"12分钟：生成首版Demo","textChars":13,"textLines":1,"bbox":[128.64,310.08,420,25.92]}
+{"kind":"shape","id":"sh/idkbuxsv","slide":29,"name":"Shape 9","bbox":[97.92,371.52,13.44,13.44]}
+{"kind":"textbox","id":"sh/jetc329g","slide":29,"name":"Text 10","text":"8分钟：运行核心路径","textPreview":"8分钟：运行核心路径","textChars":10,"textLines":1,"bbox":[128.64,362.88,420,25.92]}
+{"kind":"shape","id":"sh/s32t07ax","slide":29,"name":"Shape 11","bbox":[97.92,424.32,13.44,13.44]}
+{"kind":"textbox","id":"sh/t4butcri","slide":29,"name":"Text 12","text":"记录首轮问题","textPreview":"记录首轮问题","textChars":6,"textLines":1,"bbox":[128.64,415.68,420,25.92]}
+{"kind":"shape","id":"sh/6hkbyhs7","slide":29,"name":"Shape 13","bbox":[680.64,265.92,13.44,13.44]}
+{"kind":"textbox","id":"sh/7itcr29s","slide":29,"name":"Text 14","text":"10分钟：两次局部修改","textPreview":"10分钟：两次局部修改","textChars":11,"textLines":1,"bbox":[711.36,257.28,420,25.92]}
+{"kind":"shape","id":"sh/87itonat","slide":29,"name":"Shape 15","bbox":[680.64,318.72,13.44,13.44]}
+{"kind":"textbox","id":"sh/98ruxsre","slide":29,"name":"Text 16","text":"5分钟：回归核心路径","textPreview":"5分钟：回归核心路径","textChars":10,"textLines":1,"bbox":[711.36,310.08,420,25.92]}
+{"kind":"shape","id":"sh/p4jal432","slide":29,"name":"Shape 17","bbox":[680.64,371.52,13.44,13.44]}
+{"kind":"textbox","id":"sh/o3a9sj2h","slide":29,"name":"Text 18","text":"3分钟：记录能力边界","textPreview":"3分钟：记录能力边界","textChars":10,"textLines":1,"bbox":[711.36,362.88,420,25.92]}
+{"kind":"shape","id":"sh/n21sjelc","slide":29,"name":"Shape 19","bbox":[680.64,424.32,13.44,13.44]}
+{"kind":"textbox","id":"sh/218rq9kr","slide":29,"name":"Text 20","text":"保存修改结果","textPreview":"保存修改结果","textChars":6,"textLines":1,"bbox":[711.36,415.68,420,25.92]}
+{"kind":"shape","id":"sh/x8japo3e","slide":29,"name":"Shape 21","bbox":[96,532.8,595.2,59.52]}
+{"kind":"textbox","id":"sh/c7a9wj2t","slide":29,"name":"Text 22","text":"输出：demo/index.html + 两条修改记录 + 能力边界说明","textPreview":"输出：demo/index.html + 两条修改记录 + 能力边界说明","textChars":36,"textLines":1,"bbox":[113.28,552.96,558.72,19.2]}
+{"kind":"textbox","id":"sh/b61snel8","slide":29,"name":"Text 23","text":"完整Prompt\n见配套讲义","textPreview":"完整Prompt | 见配套讲义","textChars":14,"textLines":2,"bbox":[934,467,210,49.92]}
+{"kind":"textbox","id":"sh/a5sru9kn","slide":29,"name":"Text 24","text":"核心不是写代码，而是控制生成、修改和验收过程。","textPreview":"核心不是写代码，而是控制生成、修改和验收过程。","textChars":23,"textLines":1,"bbox":[69.12,687.36,912,17.28]}
+{"kind":"textbox","id":"sh/lw3ato3a","slide":29,"name":"Slide Number Placeholder 0","placeholder":"slideNumber","text":"29","textPreview":"29","textChars":2,"textLines":1,"bbox":[1171.2,686.4,83.99,31.5]}
+{"kind":"notes","id":"nt/i5o3q10v","slide":29,"text":"课堂完成一版生成、两轮修改和一次回归\n[Sources]\n- 第八课第五部分讲义（课程内部）\n- 第七课产品决策摘要（课程内部）"}
+{"kind":"slide","id":"sl/wnqh07ex","slide":30,"title":"AI辅助原型与Demo · 第六部分","textShapes":4}
+{"kind":"shape","id":"sh/o3yl4361","slide":30,"name":"Shape 0","bbox":[667.2,0,17.28,720]}
+{"kind":"textbox","id":"sh/bqpkfy5s","slide":30,"name":"Text 1","text":"AI辅助原型与Demo · 第六部分","textPreview":"AI辅助原型与Demo · 第六部分","textChars":18,"textLines":1,"bbox":[74.88,69.12,499.2,24]}
+{"kind":"textbox","id":"sh/apg36do7","slide":30,"name":"Text 2","text":"验收Demo，并向第九课交接","textPreview":"验收Demo，并向第九课交接","textChars":14,"textLines":1,"bbox":[74.88,189.12,652.35,129.6]}
+{"kind":"shape","id":"sh/cril836d","slide":30,"name":"Shape 4","bbox":[78.72,340.8,441.6,0]}
+{"kind":"textbox","id":"sh/ru5k3ep8","slide":30,"name":"Text 5","text":"能运行只是开始，稳定验收才形成闭环。","textPreview":"能运行只是开始，稳定验收才形成闭环。","textChars":18,"textLines":1,"bbox":[78.72,362.88,499.2,52.8]}
+{"kind":"textbox","id":"sh/w3ylc76d","slide":30,"name":"Slide Number Placeholder 0","placeholder":"slideNumber","text":"30","textPreview":"30","textChars":2,"textLines":1,"bbox":[1171.2,686.4,83.99,31.5]}
+{"kind":"notes","id":"nt/wnqh07ex","slide":30,"text":"能运行只是开始，稳定验收才形成闭环。\n[Sources]\n- 第八课第六部分讲义（课程内部）\n- 第七课产品决策摘要（课程内部）"}
+{"kind":"slide","id":"sl/lcn6tkb6","slide":31,"title":"1 / 五维验收","textShapes":17}
+{"kind":"textbox","id":"sh/dgja98fe","slide":31,"name":"Text 0","text":"1 / 五维验收","textPreview":"1 / 五维验收","textChars":8,"textLines":1,"bbox":[69.12,36.48,816,24]}
+{"kind":"textbox","id":"sh/cfa903yt","slide":31,"name":"Text 1","text":"Demo验收不是“点几下没报错”","textPreview":"Demo验收不是“点几下没报错”","textChars":16,"textLines":1,"bbox":[69.12,72.96,691.2,52.8]}
+{"kind":"textbox","id":"sh/zilsbyx4","slide":31,"name":"Text 2","text":"回到正式PRD、用户任务、规则和状态逐项检查。","textPreview":"回到正式PRD、用户任务、规则和状态逐项检查。","textChars":23,"textLines":1,"bbox":[71.04,136.32,672,32.64]}
+{"kind":"textbox","id":"sh/1k3ad8fa","slide":31,"name":"Text 3","text":"产品是否正确","textPreview":"产品是否正确","textChars":6,"textLines":1,"bbox":[94.08,196.8,360,28.8]}
+{"kind":"textbox","id":"sh/0jut43yp","slide":31,"name":"Text 4","text":"运行是否稳定","textPreview":"运行是否稳定","textChars":6,"textLines":1,"bbox":[676.8,196.8,360,28.8]}
+{"kind":"shape","id":"sh/fmhszex0","slide":31,"name":"Shape 5","bbox":[97.92,265.92,13.44,13.44]}
+{"kind":"textbox","id":"sh/ul8rq9gf","slide":31,"name":"Text 6","text":"需求一致性","textPreview":"需求一致性","textChars":5,"textLines":1,"bbox":[128.64,257.28,420,25.92]}
+{"kind":"shape","id":"sh/4vm5g7al","slide":31,"name":"Shape 7","bbox":[97.92,318.72,13.44,13.44]}
+{"kind":"textbox","id":"sh/5wvmpcr6","slide":31,"name":"Text 8","text":"任务完整性","textPreview":"任务完整性","textChars":5,"textLines":1,"bbox":[128.64,310.08,420,25.92]}
+{"kind":"shape","id":"sh/it4nexsf","slide":31,"name":"Shape 9","bbox":[97.92,371.52,13.44,13.44]}
+{"kind":"textbox","id":"sh/3ud4n290","slide":31,"name":"Text 10","text":"规则正确性","textPreview":"规则正确性","textChars":5,"textLines":1,"bbox":[128.64,362.88,420,25.92]}
+{"kind":"shape","id":"sh/sz65k7ah","slide":31,"name":"Shape 11","bbox":[97.92,424.32,13.44,13.44]}
+{"kind":"textbox","id":"sh/d0fmtcr2","slide":31,"name":"Text 12","text":"状态完整性","textPreview":"状态完整性","textChars":5,"textLines":1,"bbox":[128.64,415.68,420,25.92]}
+{"kind":"shape","id":"sh/qx4nihsb","slide":31,"name":"Shape 13","bbox":[680.64,265.92,13.44,13.44]}
+{"kind":"textbox","id":"sh/ryd4rm9w","slide":31,"name":"Text 14","text":"演示路径可重复","textPreview":"演示路径可重复","textChars":7,"textLines":1,"bbox":[711.36,257.28,420,25.92]}
+{"kind":"shape","id":"sh/832l8nad","slide":31,"name":"Shape 15","bbox":[680.64,318.72,13.44,13.44]}
+{"kind":"textbox","id":"sh/t4bmhsry","slide":31,"name":"Text 16","text":"模拟数据固定","textPreview":"模拟数据固定","textChars":6,"textLines":1,"bbox":[711.36,310.08,420,25.92]}
+{"kind":"shape","id":"sh/9032l43m","slide":31,"name":"Shape 17","bbox":[680.64,371.52,13.44,13.44]}
+{"kind":"textbox","id":"sh/8zu1cj21","slide":31,"name":"Text 18","text":"失败结果可解释","textPreview":"失败结果可解释","textChars":7,"textLines":1,"bbox":[711.36,362.88,420,25.92]}
+{"kind":"shape","id":"sh/nylkjelg","slide":31,"name":"Shape 19","bbox":[680.64,424.32,13.44,13.44]}
+{"kind":"textbox","id":"sh/mxcja9kv","slide":31,"name":"Text 20","text":"已知限制已记录","textPreview":"已知限制已记录","textChars":7,"textLines":1,"bbox":[711.36,415.68,420,25.92]}
+{"kind":"shape","id":"sh/xon2po3i","slide":31,"name":"Shape 21","bbox":[96,532.8,595.2,59.52]}
+{"kind":"textbox","id":"sh/wnulgj2d","slide":31,"name":"Text 22","text":"需求｜任务｜规则｜状态｜演示稳定性","textPreview":"需求｜任务｜规则｜状态｜演示稳定性","textChars":17,"textLines":1,"bbox":[113.28,552.96,558.72,19.2]}
+{"kind":"textbox","id":"sh/vmlknels","slide":31,"name":"Text 23","text":"通过验收\n≠ 价值验证","textPreview":"通过验收 | ≠ 价值验证","textChars":11,"textLines":2,"bbox":[934,467,210,49.92]}
+{"kind":"textbox","id":"sh/a1c3e9k7","slide":31,"name":"Text 24","text":"验收只证明受控路径可以运行，不证明产品价值成立。","textPreview":"验收只证明受控路径可以运行，不证明产品价值成立。","textChars":24,"textLines":1,"bbox":[69.12,687.36,912,17.28]}
+{"kind":"textbox","id":"sh/5sn2to3u","slide":31,"name":"Slide Number Placeholder 0","placeholder":"slideNumber","text":"31","textPreview":"31","textChars":2,"textLines":1,"bbox":[1171.2,686.4,83.99,31.5]}
+{"kind":"notes","id":"nt/lcn6tkb6","slide":31,"text":"Demo验收不是“点几下没报错”\n[Sources]\n- 第八课第六部分讲义（课程内部）\n- 第七课产品决策摘要（课程内部）"}
+{"kind":"slide","id":"sl/6l0j294r","slide":32,"title":"2 / 固定验收用例","textShapes":20}
+{"kind":"textbox","id":"sh/kr61sfy1","slide":32,"name":"Text 0","text":"2 / 固定验收用例","textPreview":"2 / 固定验收用例","textChars":10,"textLines":1,"bbox":[69.12,36.48,816,24]}
+{"kind":"textbox","id":"sh/lszilkfm","slide":32,"name":"Text 1","text":"用稳定用例覆盖主流程、边界和异常","textPreview":"用稳定用例覆盖主流程、边界和异常","textChars":16,"textLines":1,"bbox":[69.12,72.96,691.2,52.8]}
+{"kind":"textbox","id":"sh/6t8jupg7","slide":32,"name":"Text 2","text":"十条完整用例见验收清单，本页保留七类检查。","textPreview":"十条完整用例见验收清单，本页保留七类检查。","textChars":21,"textLines":1,"bbox":[71.04,136.32,672,32.64]}
+{"kind":"textbox","id":"sh/7uh0nuxs","slide":32,"name":"Text 3","text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[90.24,196.8,81.6,22.08]}
+{"kind":"shape","id":"sh/8vq1wzyd","slide":32,"name":"Shape 4","bbox":[171.84,209.28,43.2,0]}
+{"kind":"textbox","id":"sh/twzipkfy","slide":32,"name":"Text 5","text":"两个同类SKU进入对比","textPreview":"两个同类SKU进入对比","textChars":11,"textLines":1,"bbox":[227.52,194.88,384,24]}
+{"kind":"textbox","id":"sh/mx4zilg3","slide":32,"name":"Text 6","text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[90.24,249.6,81.6,22.08]}
+{"kind":"shape","id":"sh/nyd0bqxo","slide":32,"name":"Shape 7","bbox":[171.84,262.08,43.2,0]}
+{"kind":"textbox","id":"sh/ry94z29w","slide":32,"name":"Text 8","text":"四个商品正常比较","textPreview":"四个商品正常比较","textChars":8,"textLines":1,"bbox":[227.52,247.68,384,24]}
+{"kind":"textbox","id":"sh/qx0nqx8b","slide":32,"name":"Text 9","text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[90.24,302.4,81.6,22.08]}
+{"kind":"shape","id":"sh/d0bm1c7m","slide":32,"name":"Shape 10","bbox":[171.84,314.88,43.2,0]}
+{"kind":"textbox","id":"sh/szi5s7qh","slide":32,"name":"Text 11","text":"第5个商品被阻止","textPreview":"第5个商品被阻止","textChars":8,"textLines":1,"bbox":[227.52,300.48,384,24]}
+{"kind":"textbox","id":"sh/3a94vi9k","slide":32,"name":"Text 12","text":"04","textPreview":"04","textChars":2,"textLines":1,"bbox":[90.24,355.2,81.6,22.08]}
+{"kind":"shape","id":"sh/i903mx8z","slide":32,"name":"Shape 13","bbox":[171.84,367.68,43.2,0]}
+{"kind":"textbox","id":"sh/5crmxsrq","slide":32,"name":"Text 14","text":"跨类目商品被阻止","textPreview":"跨类目商品被阻止","textChars":8,"textLines":1,"bbox":[227.52,353.28,384,24]}
+{"kind":"textbox","id":"sh/4bilonq5","slide":32,"name":"Text 15","text":"05","textPreview":"05","textChars":2,"textLines":1,"bbox":[90.24,408,81.6,22.08]}
+{"kind":"shape","id":"sh/v6p4ri9o","slide":32,"name":"Shape 16","bbox":[171.84,420.48,43.2,0]}
+{"kind":"textbox","id":"sh/u5g3yd83","slide":32,"name":"Text 17","text":"只看差异与全部参数","textPreview":"只看差异与全部参数","textChars":9,"textLines":1,"bbox":[227.52,406.08,384,24]}
+{"kind":"textbox","id":"sh/y1gnadsv","slide":32,"name":"Text 18","text":"06","textPreview":"06","textChars":2,"textLines":1,"bbox":[90.24,460.8,81.6,22.08]}
+{"kind":"shape","id":"sh/j2p43itg","slide":32,"name":"Shape 19","bbox":[171.84,473.28,43.2,0]}
+{"kind":"textbox","id":"sh/k3y5cna1","slide":32,"name":"Text 20","text":"参数缺失、冲突与来源","textPreview":"参数缺失、冲突与来源","textChars":10,"textLines":1,"bbox":[227.52,458.88,384,24]}
+{"kind":"textbox","id":"sh/l4765sbm","slide":32,"name":"Text 21","text":"07","textPreview":"07","textChars":2,"textLines":1,"bbox":[90.24,513.6,81.6,22.08]}
+{"kind":"shape","id":"sh/65gneds7","slide":32,"name":"Shape 22","bbox":[171.84,526.08,43.2,0]}
+{"kind":"textbox","id":"sh/76po7its","slide":32,"name":"Text 23","text":"删除、替换与刷新恢复","textPreview":"删除、替换与刷新恢复","textChars":10,"textLines":1,"bbox":[227.52,511.68,384,24]}
+{"kind":"textbox","id":"sh/rqt836dw","slide":32,"name":"Text 34","text":"每条记录：前置条件、操作、预期、实际与结论。","textPreview":"每条记录：前置条件、操作、预期、实际与结论。","textChars":22,"textLines":1,"bbox":[694.83,321.12,460.8,40.32]}
+{"kind":"textbox","id":"sh/qpk7a1cb","slide":32,"name":"Text 35","text":"失败时判断问题更可能来自需求、交互、数据、实现或边界。","textPreview":"失败时判断问题更可能来自需求、交互、数据、实现或边界。","textChars":27,"textLines":1,"bbox":[69.12,687.36,912,17.28]}
+{"kind":"textbox","id":"sh/1wvq9gvy","slide":32,"name":"Slide Number Placeholder 0","placeholder":"slideNumber","text":"32","textPreview":"32","textChars":2,"textLines":1,"bbox":[1171.2,686.4,83.99,31.5]}
+{"kind":"notes","id":"nt/6l0j294r","slide":32,"text":"用稳定用例覆盖主流程、边界和异常\n[Sources]\n- 第八课第六部分讲义（课程内部）\n- 第七课产品决策摘要（课程内部）"}
+{"kind":"slide","id":"sl/nax4b2dk","slide":33,"title":"3 / 三分钟演示","textShapes":17}
+{"kind":"textbox","id":"sh/lk3m50nq","slide":33,"name":"Text 0","text":"3 / 三分钟演示","textPreview":"3 / 三分钟演示","textChars":9,"textLines":1,"bbox":[69.12,36.48,816,24]}
+{"kind":"textbox","id":"sh/0jalwfm5","slide":33,"name":"Text 1","text":"演示一条用户价值链，不要遍历所有按钮","textPreview":"演示一条用户价值链，不要遍历所有按钮","textChars":18,"textLines":1,"bbox":[69.12,72.96,691.2,52.8]}
+{"kind":"textbox","id":"sh/nml47a5w","slide":33,"name":"Text 2","text":"稳定演示比功能堆砌更能说明产品方案。","textPreview":"稳定演示比功能堆砌更能说明产品方案。","textChars":18,"textLines":1,"bbox":[71.04,136.32,672,32.64]}
+{"kind":"textbox","id":"sh/9o3m9knm","slide":33,"name":"Text 3","text":"演示前半段","textPreview":"演示前半段","textChars":5,"textLines":1,"bbox":[94.08,196.8,360,28.8]}
+{"kind":"textbox","id":"sh/8nul0fmh","slide":33,"name":"Text 4","text":"演示后半段","textPreview":"演示后半段","textChars":5,"textLines":1,"bbox":[676.8,196.8,360,28.8]}
+{"kind":"shape","id":"sh/vql4bu5s","slide":33,"name":"Shape 5","bbox":[97.92,265.92,13.44,13.44]}
+{"kind":"textbox","id":"sh/apc32p47","slide":33,"name":"Text 6","text":"用户问题","textPreview":"用户问题","textChars":4,"textLines":1,"bbox":[128.64,257.28,420,25.92]}
+{"kind":"shape","id":"sh/grad8zah","slide":33,"name":"Shape 7","bbox":[97.92,318.72,13.44,13.44]}
+{"kind":"textbox","id":"sh/hsjuhkb2","slide":33,"name":"Text 8","text":"选择具体SKU","textPreview":"选择具体SKU","textChars":7,"textLines":1,"bbox":[128.64,310.08,420,25.92]}
+{"kind":"shape","id":"sh/upsv6psb","slide":33,"name":"Shape 9","bbox":[97.92,371.52,13.44,13.44]}
+{"kind":"textbox","id":"sh/vq1cfutw","slide":33,"name":"Text 10","text":"管理2—4个候选","textPreview":"管理2—4个候选","textChars":8,"textLines":1,"bbox":[128.64,362.88,420,25.92]}
+{"kind":"shape","id":"sh/4vadczad","slide":33,"name":"Shape 11","bbox":[97.92,424.32,13.44,13.44]}
+{"kind":"textbox","id":"sh/5w3ul4by","slide":33,"name":"Text 12","text":"查看核心差异","textPreview":"查看核心差异","textChars":6,"textLines":1,"bbox":[128.64,415.68,420,25.92]}
+{"kind":"shape","id":"sh/itsvapsn","slide":33,"name":"Shape 13","bbox":[680.64,265.92,13.44,13.44]}
+{"kind":"textbox","id":"sh/3u1cjut8","slide":33,"name":"Text 14","text":"演示复杂状态","textPreview":"演示复杂状态","textChars":6,"textLines":1,"bbox":[711.36,257.28,420,25.92]}
+{"kind":"shape","id":"sh/czudgjap","slide":33,"name":"Shape 15","bbox":[680.64,318.72,13.44,13.44]}
+{"kind":"textbox","id":"sh/dk3ep4ba","slide":33,"name":"Text 16","text":"说明一期边界","textPreview":"说明一期边界","textChars":6,"textLines":1,"bbox":[711.36,310.08,420,25.92]}
+{"kind":"shape","id":"sh/lgzu94je","slide":33,"name":"Shape 17","bbox":[680.64,371.52,13.44,13.44]}
+{"kind":"textbox","id":"sh/0fqd0z2t","slide":33,"name":"Text 18","text":"声明模拟数据","textPreview":"声明模拟数据","textChars":6,"textLines":1,"bbox":[711.36,362.88,420,25.92]}
+{"kind":"shape","id":"sh/zehc7u18","slide":33,"name":"Shape 19","bbox":[680.64,424.32,13.44,13.44]}
+{"kind":"textbox","id":"sh/yd8vy9kn","slide":33,"name":"Text 20","text":"提出下一步验证","textPreview":"提出下一步验证","textChars":7,"textLines":1,"bbox":[711.36,415.68,420,25.92]}
+{"kind":"shape","id":"sh/9kjudoja","slide":33,"name":"Shape 21","bbox":[96,532.8,595.2,59.52]}
+{"kind":"textbox","id":"sh/8jad4j2p","slide":33,"name":"Text 22","text":"问题 → 任务 → 价值 → 复杂状态 → 边界 → 下一步","textPreview":"问题 → 任务 → 价值 → 复杂状态 → 边界 → 下一步","textChars":30,"textLines":1,"bbox":[113.28,552.96,558.72,19.2]}
+{"kind":"textbox","id":"sh/nihcbe1k","slide":33,"name":"Text 23","text":"控制在\n三分钟","textPreview":"控制在 | 三分钟","textChars":7,"textLines":2,"bbox":[934,467,210,49.92]}
+{"kind":"textbox","id":"sh/mh8v29kz","slide":33,"name":"Text 24","text":"演示脚本必须可以重复执行，结果固定且可解释。","textPreview":"演示脚本必须可以重复执行，结果固定且可解释。","textChars":22,"textLines":1,"bbox":[69.12,687.36,912,17.28]}
+{"kind":"textbox","id":"sh/pofu1k36","slide":33,"name":"Slide Number Placeholder 0","placeholder":"slideNumber","text":"33","textPreview":"33","textChars":2,"textLines":1,"bbox":[1171.2,686.4,83.99,31.5]}
+{"kind":"notes","id":"nt/nax4b2dk","slide":33,"text":"演示一条用户价值链，不要遍历所有按钮\n[Sources]\n- 第八课第六部分讲义（课程内部）\n- 第七课产品决策摘要（课程内部）"}
+{"kind":"slide","id":"sl/ofu103u5","slide":34,"title":"4 / 课程闭环","textShapes":12}
+{"kind":"textbox","id":"sh/pwzm1kbm","slide":34,"name":"Text 0","text":"4 / 课程闭环","textPreview":"4 / 课程闭环","textChars":8,"textLines":1,"bbox":[69.12,36.48,816,24]}
+{"kind":"textbox","id":"sh/ovq58fu1","slide":34,"name":"Text 1","text":"第八课把PRD转成了可运行、可验证的Demo","textPreview":"第八课把PRD转成了可运行、可验证的Demo","textChars":22,"textLines":1,"bbox":[69.12,72.96,691.2,52.8]}
+{"kind":"textbox","id":"sh/byh43utc","slide":34,"name":"Text 2","text":"第九课将在此基础上建立测试集并分析Bad Case。","textPreview":"第九课将在此基础上建立测试集并分析Bad Case。","textChars":26,"textLines":1,"bbox":[71.04,136.32,672,32.64]}
+{"kind":"shape","id":"sh/qx8napc7","slide":34,"name":"Shape 3","bbox":[280.32,391.68,207.36,0]}
+{"kind":"shape","id":"sh/d0zm54bi","slide":34,"name":"Shape 4","bbox":[631.68,391.68,211.2,0]}
+{"kind":"shape","id":"sh/czq5czux","slide":34,"name":"Shape 5","bbox":[80.64,220.8,292.8,196.8]}
+{"kind":"textbox","id":"sh/z2147eto","slide":34,"name":"Text 6","text":"正式输入","textPreview":"正式输入","textChars":4,"textLines":1,"bbox":[107.52,254.4,240,28.8]}
+{"kind":"textbox","id":"sh/y18ne9c3","slide":34,"name":"Text 7","text":"最终PRD\n产品决策记录","textPreview":"最终PRD | 产品决策记录","textChars":12,"textLines":2,"bbox":[111.36,312,235.2,57.6]}
+{"kind":"shape","id":"sh/0vidkfu5","slide":34,"name":"Shape 8","bbox":[436.8,220.8,292.8,196.8]}
+{"kind":"textbox","id":"sh/1wredkbq","slide":34,"name":"Text 9","text":"本课产出","textPreview":"本课产出","textChars":4,"textLines":1,"bbox":[463.68,254.4,240,28.8]}
+{"kind":"textbox","id":"sh/e90vipcz","slide":34,"name":"Text 10","text":"页面状态表\n可运行Demo与验收","textPreview":"页面状态表 | 可运行Demo与验收","textChars":16,"textLines":2,"bbox":[467.52,312,235.2,57.6]}
+{"kind":"shape","id":"sh/za9wbutk","slide":34,"name":"Shape 11","bbox":[793.92,220.8,292.8,196.8]}
+{"kind":"textbox","id":"sh/oz2dozu1","slide":34,"name":"Text 12","text":"第九课继续","textPreview":"第九课继续","textChars":5,"textLines":1,"bbox":[820.8,254.4,240,28.8]}
+{"kind":"textbox","id":"sh/90beh4bm","slide":34,"name":"Text 13","text":"测试集与样本\nBad Case与复测","textPreview":"测试集与样本 | Bad Case与复测","textChars":18,"textLines":2,"bbox":[824.64,312,235.2,57.6]}
+{"kind":"shape","id":"sh/mxkvmpcb","slide":34,"name":"Shape 14","bbox":[144,513.6,988.8,67.2]}
+{"kind":"textbox","id":"sh/nytwfutg","slide":34,"name":"Text 15","text":"任务与流程 → 页面与状态 → Demo → 修改验收","textPreview":"任务与流程 → 页面与状态 → Demo → 修改验收","textChars":27,"textLines":1,"bbox":[165.12,534.72,940.8,26.88]}
+{"kind":"textbox","id":"sh/w32xszud","slide":34,"name":"Text 16","text":"AI有生成权和修改权；产品经理保留范围、交互和验收权。","textPreview":"AI有生成权和修改权；产品经理保留范围、交互和验收权。","textChars":27,"textLines":1,"bbox":[69.12,687.36,912,17.28]}
+{"kind":"textbox","id":"sh/8by5kfi1","slide":34,"name":"Slide Number Placeholder 0","placeholder":"slideNumber","text":"34","textPreview":"34","textChars":2,"textLines":1,"bbox":[1171.2,686.4,83.99,31.5]}
+{"kind":"notes","id":"nt/ofu103u5","slide":34,"text":"第八课把PRD转成了可运行、可验证的Demo\n[Sources]\n- 第八课第六部分讲义（课程内部）\n- 第七课产品决策摘要（课程内部）"}

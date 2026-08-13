@@ -1,0 +1,65 @@
+{
+  "meta": {
+    "name": "P3_小红书内容策划Agent_老师完成版",
+    "kind": "coze_configuration_blueprint",
+    "importable": false,
+    "version": "1.0"
+  },
+  "agent_instruction_file": "01_Agent系统指令.txt",
+  "tools_definition_file": "02_工具定义.json",
+  "tools": [
+    {
+      "name": "run_xhs_rag_workflow",
+      "implementation": "P2_内容知识_RAG图文Workflow_老师完成版",
+      "call_when": "complete_graphic_content_needed AND required_information_complete",
+      "do_not_call_when": [
+        "topic_ideas_only",
+        "required_information_missing",
+        "user_did_not_request_full_content"
+      ]
+    },
+    {
+      "name": "search_topic_material",
+      "implementation": "verified_search_tool_or_classroom_mock",
+      "mock_material_file": "03_模拟近期材料.md",
+      "mock_prompt_file": "04_模拟搜索工具Prompt.txt",
+      "call_when": "user_explicitly_requests_recent_public_information OR task_depends_on_latest_facts",
+      "do_not_call_when": [
+        "complete_material_already_provided",
+        "no_time_sensitive_information_needed"
+      ]
+    },
+    {
+      "name": "save_content_draft",
+      "implementation": "classroom_mock_workflow",
+      "mock_prompt_file": "05_模拟保存工具Prompt.txt",
+      "call_when": "content_shown AND user_explicitly_confirmed_save",
+      "do_not_call_when": [
+        "content_not_shown",
+        "confirmation_missing",
+        "user_requests_publish"
+      ]
+    }
+  ],
+  "decision_policy": [
+    "identify_user_goal",
+    "check_required_information",
+    "ask_only_for_missing_information",
+    "search_only_if_needed",
+    "call_P2_for_complete_graphic_content",
+    "show_result_before_save",
+    "confirm_before_save",
+    "refuse_publish_claim",
+    "report_tool_failure_honestly",
+    "stop_when_done_cancelled_or_unauthorized"
+  ],
+  "required_tests": ["A1", "A2", "A3", "A4", "A5"],
+  "optional_failure_test": "A6",
+  "prohibited_capabilities": [
+    "real_xiaohongshu_publish",
+    "real_customer_data",
+    "current_employer_disclosure",
+    "unconfirmed_save",
+    "fabricated_tool_success"
+  ]
+}

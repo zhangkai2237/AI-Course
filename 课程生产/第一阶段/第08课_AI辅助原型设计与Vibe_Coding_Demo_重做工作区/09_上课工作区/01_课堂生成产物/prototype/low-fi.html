@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>低保真原型｜搜索/详情页里的对比小功能</title>
+  <style>
+    *{box-sizing:border-box}body{margin:0;background:#e5e7eb;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;color:#222}.phone{max-width:430px;margin:0 auto;min-height:100vh;background:#f7f7f7;border-left:1px solid #bbb;border-right:1px solid #bbb;position:relative}.top{height:56px;border-bottom:2px solid #222;background:#fff;display:flex;align-items:center;gap:10px;padding:0 12px}.back{border:1px solid #222;padding:4px 7px}.search{flex:1;border:2px solid #222;border-radius:10px;height:34px;display:flex;align-items:center;padding:0 10px}.screen{padding:12px 12px 120px}.box{border:2px solid #222;background:#fff;padding:10px;margin:10px 0}.tabs{display:flex;gap:10px;border-bottom:2px solid #222;padding:10px 12px;background:#fff}.tabs span{border:1px solid #222;padding:5px 9px}.tabs .on{background:#222;color:#fff}.brand-row{display:flex;gap:8px;overflow:auto}.brand{min-width:64px;height:54px;border:2px solid #222;display:flex;align-items:center;justify-content:center;background:#fff}.sort{display:flex;justify-content:space-between;gap:8px}.sort span{border:1px solid #222;padding:5px 7px;background:#fff}.item{display:grid;grid-template-columns:118px 1fr;gap:10px;border:2px solid #222;background:#fff;padding:10px;margin:10px 0;position:relative}.img{height:116px;border:2px solid #222;background:#eee;display:flex;align-items:center;justify-content:center}.line{height:12px;background:#ddd;margin:8px 0}.line.short{width:55%}.line.mid{width:78%}.tiny{border:1px solid #222;background:#fff;border-radius:999px;padding:4px 7px;font-size:12px}.tiny.on{background:#222;color:#fff}.plus{border:2px solid #222;background:#fff;border-radius:50%;width:30px;height:30px;font-size:20px}.actions{position:absolute;right:10px;bottom:10px;display:flex;gap:6px;align-items:center}.strip{position:fixed;left:50%;transform:translateX(-50%);bottom:0;width:100%;max-width:430px;background:#222;color:#fff;border-top:2px solid #222;padding:10px 12px;display:none;gap:8px;align-items:center}.strip.show{display:flex}.strip .chips{flex:1;display:flex;gap:5px;overflow:auto}.chip{border:1px solid #fff;border-radius:999px;padding:4px 6px;font-size:12px;white-space:nowrap}.btn{border:2px solid #222;background:#fff;padding:7px 10px}.btn.dark{background:#222;color:#fff;border-color:#fff}.detail,.compare{display:none}.detail.active,.compare.active{display:block}.hero{height:230px;border-bottom:2px solid #222;background:#111;color:#fff;padding:22px}.hero .pic{height:120px;border:2px solid #fff;margin-top:20px;display:flex;align-items:center;justify-content:center}.bottom-tools{position:fixed;left:50%;transform:translateX(-50%);bottom:0;width:100%;max-width:430px;background:#fff;border-top:2px solid #222;height:64px;display:grid;grid-template-columns:58px 58px 58px 58px 1fr;align-items:center}.tool{text-align:center;font-size:12px;border:0;background:#fff}.buy{height:42px;margin-right:10px;background:#222;color:#fff;border:0}.table{border:2px solid #222;background:#fff;overflow:auto}.row{display:grid;grid-template-columns:90px repeat(3,126px);min-width:468px;border-bottom:1px solid #222}.row:last-child{border-bottom:0}.cell{border-right:1px solid #222;padding:9px;font-size:12px;min-height:42px}.field{background:#eee;font-weight:bold;position:sticky;left:0}.state{border:2px dashed #222;background:#fff;padding:9px;margin:10px 0;font-size:13px}.toast{display:none;border:2px dashed #222;background:#fff;padding:9px;margin:8px 0}.toast.show{display:block}</style>
+</head>
+<body>
+  <main class="phone">
+    <section id="listPage">
+      <div class="top"><span class="back">‹</span><div class="search">手机</div><span>菜单</span></div>
+      <div class="tabs"><span class="on">全部</span><span>新品</span><span>秒送</span><span>店铺</span><span>直播</span></div>
+      <div class="screen">
+        <div class="box"><strong>热门品牌</strong><div class="brand-row"><div class="brand">华为</div><div class="brand">Apple</div><div class="brand">小米</div><div class="brand">荣耀</div><div class="brand">vivo</div></div></div>
+        <div class="box sort"><span>位置</span><span>综合推荐</span><span>销量</span><span>筛选</span></div>
+        <div id="toast" class="toast"></div>
+        <div id="items"></div>
+      </div>
+    </section>
+
+    <section id="detailPage" class="detail">
+      <div class="hero"><button class="btn" onclick="showList()">返回</button><h2 id="detailName">商品详情</h2><div class="pic">商品大图/权益区</div></div>
+      <div class="screen"><div class="box"><strong>价格与权益</strong><div class="line mid"></div><div class="line short"></div></div><div class="box"><strong>商品标题与参数摘要</strong><div class="line"></div><div class="line mid"></div></div></div>
+      <div class="bottom-tools"><button class="tool">店铺</button><button class="tool">客服</button><button class="tool">购物车</button><button id="detailCompare" class="tool" onclick="toggleCurrent()">对比</button><button class="buy">立即预约</button></div>
+    </section>
+
+    <section id="comparePage" class="compare">
+      <div class="top"><button class="btn" onclick="showList()">返回</button><strong>商品对比</strong><button class="btn" onclick="clearAll()">清空</button></div>
+      <div class="screen"><div class="state">二级小功能页：只承接已选SKU，不输出购买推荐。</div><button class="btn" onclick="diff=!diff;renderCompare()">只看差异</button><button class="btn" onclick="all=!all;renderCompare()">全部参数</button><div class="table" id="table"></div></div>
+    </section>
+
+    <div id="strip" class="strip"><div><strong>已选 <span id="count">0</span>/4</strong></div><div class="chips" id="chips"></div><button class="btn dark" onclick="goCompare()">去对比</button></div>
+  </main>
+  <script>
+    const products=[['SKU1001','vivo X300'],['SKU1002','小米15'],['SKU1003','REDMI K100'],['SKU1004','iQOO Neo11'],['SKU1005','moto g100s'],['SKU1006','HUMEAI 1TB'],['TEST_TABLET_001','平板测试夹具']];
+    let selected=[];let current=null;let diff=false;let all=false;
+    function msg(t){toast.textContent=t;toast.className='toast show';setTimeout(()=>toast.className='toast',2400)}
+    function isPhone(id){return id!=='TEST_TABLET_001'}
+    function renderItems(){items.innerHTML=products.map(([id,name])=>`<div class="item"><div class="img">商品图</div><div><strong>${name}</strong><div class="line mid"></div><div class="line short"></div><div>¥价格 到手价</div><div class="actions"><button class="tiny ${selected.includes(id)?'on':''}" onclick="toggle('${id}')">${selected.includes(id)?'已对比':'对比'}</button><button class="plus" onclick="openDetail('${id}')">＋</button></div></div></div>`).join('');renderStrip()}
+    function toggle(id){if(!isPhone(id))return msg('跨类目拒绝：一期只支持手机。');if(selected.includes(id)){selected=selected.filter(x=>x!==id);renderItems();return}if(selected.length>=4)return msg('数量上限：最多支持4款。');selected.push(id);renderItems();if(selected.length<2)msg('已选1款，再选1款可对比。')}
+    function renderStrip(){count.textContent=selected.length;chips.innerHTML=selected.map(id=>`<span class="chip">${id}</span>`).join('');strip.className='strip '+(selected.length?'show':'')}
+    function openDetail(id){current=id;listPage.style.display='none';comparePage.className='compare';detailPage.className='detail active';detailName.textContent=products.find(p=>p[0]===id)[1];detailCompare.textContent=selected.includes(id)?'已对比':'对比';renderStrip()}
+    function showList(){listPage.style.display='block';detailPage.className='detail';comparePage.className='compare';renderItems()}
+    function toggleCurrent(){if(current){toggle(current);openDetail(current)}}
+    function goCompare(){if(selected.length<2)return msg('数量不足：至少选择2款。');listPage.style.display='none';detailPage.className='detail';comparePage.className='compare active';renderCompare()}
+    function clearAll(){selected=[];showList()}
+    function renderCompare(){const rows=[['商品',...selected],['活动价','¥3699','¥4699','¥3999','¥3599'],['电池容量','5000mAh','5100mAh','5200mAh','暂无数据'],['充电功率','80W','100W','暂无数据','66W'],['防护能力','IP68','IP68','IP65','数据有冲突']];table.innerHTML=rows.map(r=>`<div class="row"><div class="cell field">${r[0]}</div>${r.slice(1,4).map(v=>`<div class="cell">${v}</div>`).join('')}</div>`).join('')}
+    renderItems();
+  </script>
+</body>
+</html>

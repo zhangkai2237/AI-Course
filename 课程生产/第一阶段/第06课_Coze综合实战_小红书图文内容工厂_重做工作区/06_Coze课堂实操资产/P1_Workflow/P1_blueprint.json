@@ -1,0 +1,78 @@
+{
+  "meta": {
+    "name": "P1_小红书图文Workflow_老师完成版",
+    "kind": "coze_configuration_blueprint",
+    "importable": false,
+    "version": "1.0"
+  },
+  "inputs": [
+    {"name": "topic", "type": "string", "required": true},
+    {"name": "audience", "type": "string", "required": true},
+    {"name": "goal", "type": "string", "required": true},
+    {"name": "source_material", "type": "string", "required": true},
+    {"name": "tone", "type": "string", "required": false},
+    {"name": "image_style", "type": "string", "required": false},
+    {"name": "page_count", "type": "integer", "required": false, "default": 3}
+  ],
+  "flow": {
+    "start": "Start",
+    "input_check": {
+      "node": "IF_必要输入检查",
+      "condition": "topic_empty OR audience_empty OR source_material_empty",
+      "missing_next": "End_补充信息",
+      "complete_next": "LLM_内容角度与大纲"
+    },
+    "main_path": [
+      "LLM_内容角度与大纲",
+      "LLM_标题与正文",
+      "LLM_图片脚本",
+      "图片生成_可选",
+      "LLM_内容审核",
+      "End_完整结果"
+    ]
+  },
+  "nodes": [
+    {
+      "name": "LLM_内容角度与大纲",
+      "type": "llm",
+      "prompt_file": "01_内容角度与大纲Prompt.txt",
+      "inputs": ["Start.topic", "Start.audience", "Start.goal", "Start.source_material"],
+      "output": "content_plan"
+    },
+    {
+      "name": "LLM_标题与正文",
+      "type": "llm",
+      "prompt_file": "02_标题与正文Prompt.txt",
+      "inputs": ["Start.source_material", "Start.audience", "Start.goal", "Start.tone", "LLM_内容角度与大纲.content_plan"],
+      "output": "copy_package"
+    },
+    {
+      "name": "LLM_图片脚本",
+      "type": "llm",
+      "prompt_file": "03_图片脚本Prompt.txt",
+      "inputs": ["LLM_标题与正文.copy_package", "Start.image_style", "Start.page_count"],
+      "output": "image_script"
+    },
+    {
+      "name": "图片生成_可选",
+      "type": "image_generation_or_bypass",
+      "fallback": "return image prompts from LLM_图片脚本.image_script"
+    },
+    {
+      "name": "LLM_内容审核",
+      "type": "llm",
+      "prompt_file": "04_内容审核Prompt.txt",
+      "inputs": ["Start.source_material", "LLM_标题与正文.copy_package", "LLM_图片脚本.image_script"],
+      "output": "review_result"
+    }
+  ],
+  "end_outputs": [
+    "status",
+    "copy_package",
+    "image_script",
+    "images_optional",
+    "review_result"
+  ],
+  "prohibited_capabilities": ["knowledge_retrieval", "web_search", "save", "publish"]
+}
+

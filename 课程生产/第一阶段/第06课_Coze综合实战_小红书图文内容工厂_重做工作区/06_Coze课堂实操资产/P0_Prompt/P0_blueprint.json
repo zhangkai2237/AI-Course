@@ -1,0 +1,45 @@
+{
+  "meta": {
+    "name": "P0_小红书文案生成器_老师完成版",
+    "kind": "coze_configuration_blueprint",
+    "importable": false,
+    "version": "1.0"
+  },
+  "flow": [
+    "Start",
+    "LLM_生成小红书文案",
+    "End"
+  ],
+  "inputs": [
+    {"name": "topic", "type": "string", "required": true},
+    {"name": "audience", "type": "string", "required": true},
+    {"name": "goal", "type": "string", "required": true},
+    {"name": "source_material", "type": "string", "required": true},
+    {"name": "tone", "type": "string", "required": false}
+  ],
+  "nodes": [
+    {
+      "name": "LLM_生成小红书文案",
+      "type": "llm",
+      "prompt_file": "01_LLM节点Prompt.txt",
+      "input_mapping": {
+        "topic": "Start.topic",
+        "audience": "Start.audience",
+        "goal": "Start.goal",
+        "source_material": "Start.source_material",
+        "tone": "Start.tone"
+      },
+      "outputs": ["content_package"]
+    }
+  ],
+  "end_mapping": {
+    "result": "LLM_生成小红书文案.content_package"
+  },
+  "prohibited_capabilities": [
+    "knowledge_retrieval",
+    "web_search",
+    "save",
+    "publish"
+  ]
+}
+

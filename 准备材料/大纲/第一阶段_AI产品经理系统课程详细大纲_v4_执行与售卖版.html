@@ -1,0 +1,311 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <title>第一阶段_AI产品经理系统课程详细大纲_v4_执行与售卖版</title>
+  <style>
+    @page { size: A4; margin: 20mm 18mm; }
+    body { font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Microsoft YaHei", sans-serif; color: #222; line-height: 1.65; margin: 42px; font-size: 15px; }
+    h1 { color: #17365d; text-align: center; margin-bottom: 8px; }
+    h2 { color: #1f4e79; border-bottom: 2px solid #5b9bd5; padding-bottom: 5px; margin-top: 32px; }
+    h3 { color: #2f5597; margin-top: 24px; }
+    h4 { color: #44546a; margin-bottom: 4px; }
+    table { border-collapse: collapse; width: 100%; margin: 12px 0 22px; font-size: 14px; }
+    th, td { border: 1px solid #aaa; padding: 7px; vertical-align: top; }
+    th { background: #d9eaf7; }
+    blockquote { background: #f3f7fb; border-left: 5px solid #5b9bd5; padding: 10px 15px; margin: 12px 0 18px; }
+    .tag { background: #e2f0d9; padding: 2px 7px; }
+    .warn { background: #fff2cc; padding: 2px 7px; }
+    .tool { background: #e4dfec; padding: 2px 7px; }
+    .done { color: #548235; font-weight: 700; }
+    .next { color: #c65911; font-weight: 700; }
+    .small { font-size: 90%; color: #555; }
+    .note { background: #fff2cc; border: 1px solid #e6c96c; padding: 10px 14px; }
+    li { margin: 4px 0; }
+    code { background: #f1f1f1; padding: 1px 4px; }
+  </style>
+</head>
+<body>
+  <h1>第一阶段：AI 产品经理系统学习班</h1>
+  <p style="text-align:center">V4.0 执行与售卖版｜建议售价 ¥2299｜第 0 课 + 12 次正式课</p>
+
+  <h2>一、V4调整结论</h2>
+  <blockquote>
+    V4正式采用“先获得具体体验，再完成综合判断”的教学顺序：岗位与大模型基础之后，连续完成 Prompt、Workflow、RAG、Agent 的最小认知和操作，再进入场景选择、MVP、PRD、Demo、评测、治理、成本和立项。
+  </blockquote>
+  <table>
+    <tr><th>V3安排</th><th>V4调整</th><th>调整原因</th></tr>
+    <tr><td>第3课先讲场景判断与产品形态</td><td>第3课改为Workflow类AI产品设计与实操</td><td>学员尚未实际接触Workflow、RAG、Agent时，形态判断容易停留在名词比较，课程显得抽象。</td></tr>
+    <tr><td>Workflow、RAG、Agent位于第5-7课</td><td>提前到第3-5课，形成连续的三种最小产品闭环</td><td>先让学员看见“固定流程、知识获取、自主工具调用”的真实差异，再讨论选择。</td></tr>
+    <tr><td>第3课承担第一次场景判断</td><td>第6课升级为“场景判断、产品形态与MVP选择”综合课</td><td>场景判断不是删除，而是在学员有具体经验后做综合决策，深度和可信度更高。</td></tr>
+    <tr><td>第4课讲PRD</td><td>PRD移动到第7课</td><td>先明确场景、能力组合和MVP，再写PRD，避免先写文档、后补方案。</td></tr>
+    <tr><td>知乎Workflow/RAG专题仍标记“后续补强”</td><td>纳入知乎技术先修课第4-10节的原文DOCX</td><td>新材料已经到位；本地PPTX为空白文件，不作为来源，只使用可检索的原文DOCX。</td></tr>
+  </table>
+
+  <h2>二、阶段定位与学习结果</h2>
+  <blockquote>
+    面向初级产品经理和希望转向AI方向的同学，建立AI应用产品经理的完整工作链路：能解释核心概念，能搭出最小产物，能判断场景与产品形态，能写方案与PRD，能设计测试、治理、成本和试点计划，并为第二阶段项目营准备立项方案。
+  </blockquote>
+  <p>本阶段不培养算法工程师，也不把课程变成单一工具训练营。学员最终应达到：</p>
+  <ul>
+    <li>用产品语言解释大模型、Prompt、Workflow、RAG、Agent及其边界；</li>
+    <li>完成至少一个Prompt方案、一个Workflow、一个最小知识库和一个可演示Demo；</li>
+    <li>能从业务问题推导AI介入点、能力组合、MVP、风险与验收要求；</li>
+    <li>能设计测试集、Bad Case闭环、人工接管、权限与成本测算；</li>
+    <li>完成一份可进入第二阶段的AI产品立项方案。</li>
+  </ul>
+
+  <h2>三、教学设计原则</h2>
+  <ol>
+    <li><b>体系化但不过度技术化：</b>解释技术链路与产品含义，不推导Transformer、向量计算或训练算法。</li>
+    <li><b>每课有可验收产出：</b>概念必须落到设计单、测试记录、流程图、原型或立项材料。</li>
+    <li><b>先业务逻辑，后平台操作：</b>工具用于验证方案，不用按钮记忆替代产品判断。</li>
+    <li><b>参考课程可追溯：</b>核心知识点必须标明来源文件和段落；课程重组、教学案例和平台时效内容分别标注。</li>
+    <li><b>核心、扩展、加餐分级：</b>内容丰富度服务于课程吸引力，但不挤压核心练习。</li>
+    <li><b>案例安全：</b>本地生活、客服、销售、金融等案例均基于公开信息或教学虚构，不表述为任何真实公司的内部项目。</li>
+  </ol>
+
+  <h2>四、课程结构总览</h2>
+  <table>
+    <tr><th>模块</th><th>课次</th><th>主题</th><th>核心产出</th><th>状态</th></tr>
+    <tr><td>认知</td><td>0</td><td>课程说明会、AI时代背景、学习地图与首次场景思考</td><td>学习目标、场景思考卡</td><td class="done">已完成</td></tr>
+    <tr><td>认知</td><td>1</td><td>AI产品经理岗位认知与转型路径</td><td>岗位方向卡、转型路线</td><td class="done">已完成</td></tr>
+    <tr><td>基础</td><td>2</td><td>大模型基础、上下文与Prompt产品化设计</td><td>Prompt产品化设计单、测试记录</td><td class="done">已完成</td></tr>
+    <tr><td>编排</td><td>3</td><td>Workflow类AI产品设计：从一次调用到可运行流程</td><td>流程图、可运行Workflow、测试记录</td><td class="done">已完成</td></tr>
+    <tr><td>知识</td><td>4</td><td>RAG与企业知识库产品设计</td><td>RAG架构、最小知识库、治理表</td><td class="next">下一课</td></tr>
+    <tr><td>行动</td><td>5</td><td>Agent与工具调用产品设计</td><td>Agent设计表、受控工具演示记录</td><td>待生产</td></tr>
+    <tr><td>判断</td><td>6</td><td>AI场景判断、产品形态与MVP选择</td><td>场景适配表、能力组合、MVP边界</td><td>待生产</td></tr>
+    <tr><td>方案</td><td>7</td><td>AI产品需求分析与PRD</td><td>AI PRD骨架、验收清单</td><td>待生产</td></tr>
+    <tr><td>表达</td><td>8</td><td>AI产品交互、原型与Vibe Coding Demo</td><td>状态表、原型、Demo与演示脚本</td><td>待生产</td></tr>
+    <tr><td>验证</td><td>9</td><td>AI产品测试、指标与Bad Case</td><td>测试集、指标树、复测记录</td><td>待生产</td></tr>
+    <tr><td>治理</td><td>10</td><td>幻觉治理、权限与人机协作</td><td>风险矩阵、权限表、兜底流程</td><td>待生产</td></tr>
+    <tr><td>经营</td><td>11</td><td>模型选择、Token成本与ROI</td><td>模型选型表、成本与试点ROI</td><td>待生产</td></tr>
+    <tr><td>收口</td><td>12</td><td>AI产品立项、落地避坑与阶段答辩</td><td>立项方案、五分钟答辩</td><td>待生产</td></tr>
+  </table>
+
+  <h2>五、贯穿学习链路</h2>
+  <table>
+    <tr><th>阶段</th><th>关键问题</th><th>代表产物</th></tr>
+    <tr><td>第0-2课：建立认知</td><td>我为什么学、岗位需要什么、模型一次怎样处理输入</td><td>学习目标、岗位方向、Prompt设计单</td></tr>
+    <tr><td>第3-5课：认识三种系统能力</td><td>固定流程怎样运行、知识怎样进入、模型怎样调用工具行动</td><td>Workflow、RAG知识库、Agent设计表</td></tr>
+    <tr><td>第6-8课：从能力回到产品</td><td>什么值得做、第一版做什么、怎样写PRD并做出Demo</td><td>场景适配表、MVP、PRD、Demo</td></tr>
+    <tr><td>第9-11课：验证与经营</td><td>效果怎样证明、风险怎样控制、成本是否值得</td><td>测试集、风险矩阵、ROI表</td></tr>
+    <tr><td>第12课：立项收口</td><td>怎样把业务、方案、评估、风险和资源讲成可推进计划</td><td>AI产品立项方案</td></tr>
+  </table>
+
+  <h2>六、轻量工具操作副线</h2>
+  <blockquote>
+    工具操作的目标是把产品判断变成可运行、可测试、可修改的最小产物。每个操作点只选择一条主路线；工具界面和套餐会变化，开课前以讲师实测为准。
+  </blockquote>
+  <table>
+    <tr><th>课程</th><th>必做操作</th><th>主工具建议</th><th>最低产出</th><th>建议时长</th></tr>
+    <tr><td>第2课</td><td>用同一组样本测试两个Prompt版本，记录失败与修改</td><td>任一主流通用大模型</td><td>Prompt测试记录</td><td>10-15分钟</td></tr>
+    <tr><td>第3课</td><td>搭出“输入→模型分类→条件分支→安全输出”的最小流程</td><td>Coze；Dify可作备选</td><td>可运行Workflow＋5条测试</td><td>25-35分钟</td></tr>
+    <tr><td>第4课</td><td>导入2-3份教学文档，完成检索、引用、无答案和冲突测试</td><td>沿用第3课平台</td><td>最小知识库＋5条测试</td><td>20-30分钟</td></tr>
+    <tr><td>第5课</td><td>老师演示Agent调用一个受控工具，展示参数、确认、失败和接管</td><td>Coze或其他稳定平台</td><td>Agent执行记录</td><td>15-20分钟</td></tr>
+    <tr><td>第7课</td><td>用AI辅助形成访谈提纲、需求结构和PRD初稿，再由学员校正</td><td>通用大模型或Deep Research</td><td>修改前后对照</td><td>10-15分钟</td></tr>
+    <tr><td>第8课</td><td>根据产品说明生成Demo，完成页面修改、异常状态和结果检查</td><td>V0、Claude Code、Codex或Cursor四选一</td><td>可演示Demo＋修改记录</td><td>25-30分钟</td></tr>
+  </table>
+  <p class="small">执行边界：不要求学员同时掌握全部工具；涉及本地文件、代码、外部系统和公司数据时，必须说明权限、脱敏、确认和回滚范围。</p>
+
+  <h2>七、逐课详细设计</h2>
+
+  <h3>第0课｜课程说明会、AI时代背景、学习地图与首次场景思考</h3>
+  <p><b>核心问题：</b>为什么要系统学习AI产品，三阶段分别解决什么，第一次怎样观察工作中的AI机会。</p>
+  <ul>
+    <li><span class="tag">核心必讲</span> 课程初心；AI产品经理不等于AI工具产品经理；AI、机器学习、NLP、AIGC、大模型的关系与发展；三阶段路径；学习边界和课程更新说明。</li>
+    <li><span class="warn">案例扩展</span> 销售拜访记录助手：不直接给方案，先分析用户、任务、输入输出和价值。</li>
+    <li><b>课堂产出：</b>个人学习目标＋第一次AI场景思考卡。</li>
+    <li><b>来源：</b>知乎《开班典礼》；本课程已确认的课程设计与案例材料。</li>
+    <li><b>边界：</b>只建立地图，不提前讲透Prompt、Workflow、RAG和Agent。</li>
+  </ul>
+
+  <h3>第1课｜AI产品经理岗位认知与转型路径</h3>
+  <p><b>核心问题：</b>AI产品经理实际做什么，传统产品能力怎样迁移，个人适合走什么方向。</p>
+  <ul>
+    <li><span class="tag">核心必讲</span> 岗位定义；传统PM新增职责；To B、To C、平台、解决方案等岗位原型；能力模型；转型路线。</li>
+    <li><span class="warn">案例扩展</span> 真实JD拆解；现场分析3-5名学员的经历和方向。</li>
+    <li><b>课堂产出：</b>岗位方向卡、个人转型定位句和能力补齐计划。</li>
+    <li><b>来源：</b>亚慧第1课；知乎正课第2、8、18课；开课当周真实JD。</li>
+    <li><b>边界：</b>不承诺岗位或Offer；现场建议必须说明依据和待验证项。</li>
+  </ul>
+
+  <h3>第2课｜大模型基础、上下文与Prompt产品化设计</h3>
+  <p><b>核心问题：</b>大模型怎样生成，模型一次能看到什么，怎样把个人Prompt变成可重复使用的产品方案。</p>
+  <ul>
+    <li><span class="tag">核心必讲</span> Token、上下文、概率性生成；最低必要的大模型心智模型；从目标输出反推上下文；结构化Prompt；System与User输入分工；Prompt产品化；Bad Case初筛。</li>
+    <li><span class="warn">案例扩展</span> 销售拜访记录助手：从模糊指令升级到字段、规则、模板和确认机制。</li>
+    <li><span class="tool">操作</span> 同一组样本运行两个Prompt版本，记录输入、输出、问题和修改。</li>
+    <li><b>课堂产出：</b>Prompt产品化设计单、样本测试记录。</li>
+    <li><b>来源：</b>亚慧《大模型技术原理与训练过程》；知乎正课《大模型产品构建方法》；知乎技术先修课第1、2节原文。</li>
+    <li><b>边界：</b>Transformer和训练路径只做可选背景；不把Prompt描述成万能治理手段。</li>
+  </ul>
+
+  <h3>第3课｜Workflow类AI产品设计：从一次调用到可运行流程</h3>
+  <p><b>核心问题：</b>当任务需要多步骤、条件分流和安全边界时，怎样从人工SOP设计可运行Workflow。</p>
+  <ul>
+    <li><span class="tag">核心必讲</span> Workflow与单次Prompt；输出和输入；节点、连线、变量、分支、输出；模型节点与确定性节点；最小闭环；测试与逐节点排错。</li>
+    <li><span class="warn">案例扩展</span> 商家咨询分流助手：RULE、DATA、COMPLAINT、OTHER四条路径。</li>
+    <li><span class="tool">操作</span> Coze中完成纸面V0.1、单路V0.2和四路V0.3；运行5条测试并修复一个接口Bad Case。</li>
+    <li><b>课堂产出：</b>流程图、可运行Workflow、测试与修正记录。</li>
+    <li><b>来源：</b>知乎技术先修课第4、5、6、15节原文；知乎正课第7、19课；亚慧智能客服与Agent材料。</li>
+    <li><b>边界：</b>本课不接RAG、真实API、数据库、循环、复杂子流程和Agent。</li>
+  </ul>
+
+  <h3>第4课｜RAG与企业知识库产品设计</h3>
+  <p><b>核心问题：</b>当答案必须基于企业知识、需要更新并提供依据时，怎样设计RAG知识库产品。</p>
+  <ul>
+    <li><span class="tag">核心必讲</span> RAG解决的问题与边界；文档采集、解析、切片、索引、检索、重排、生成和引用；知识版本、权限、更新、无答案、冲突和反馈。</li>
+    <li><span class="warn">案例扩展</span> 将第3课RULE分支从固定规则卡升级为商家规则知识库；对比知识问题和实时业务数据。</li>
+    <li><span class="tool">操作</span> 导入2-3份教学虚构文档，测试3条命中、1条无答案、1条冲突问题；观察检索结果和引用。</li>
+    <li><b>课堂产出：</b>RAG处理链路、知识来源与治理表、最小知识库和测试记录。</li>
+    <li><b>来源：</b>知乎技术先修课第7、8节原文；知乎正课第7课；亚慧RAG、智能客服和金融文档项目材料。</li>
+    <li><b>边界：</b>不推导Embedding数学，不深入Graph RAG和大规模检索工程；RAG不能查询实时交易事实。</li>
+  </ul>
+
+  <h3>第5课｜Agent与工具调用产品设计</h3>
+  <p><b>核心问题：</b>什么时候需要模型根据目标决定下一步，怎样让Agent安全地使用工具而不是自由行动。</p>
+  <ul>
+    <li><span class="tag">核心必讲</span> 目标、规划、记忆、工具、观察与反馈；Agent、Chatbot和Workflow的区别；Function Calling；工具描述和参数；权限、执行前确认、失败处理和人工接管。</li>
+    <li><span class="warn">案例扩展</span> 商家经营助理：在规则知识、经营数据和创建活动草稿之间选择能力；高风险动作必须确认。</li>
+    <li><span class="tool">操作演示</span> Agent调用一个受控工具；展示正确参数、缺失参数追问、工具报错和人工接管。</li>
+    <li><b>课堂产出：</b>Agent角色与目标、工具清单、权限边界、执行状态设计表。</li>
+    <li><b>来源：</b>知乎技术先修课第3、6、9、10节原文；知乎正课第9-11、19课；亚慧第5、12课。</li>
+    <li><b>边界：</b>Multi-Agent、MCP和长期记忆作为扩展；不把所有复杂流程都升级成Agent。</li>
+  </ul>
+
+  <h3>第6课｜AI场景判断、产品形态与MVP选择</h3>
+  <p><b>核心问题：</b>在已经理解Prompt、Workflow、RAG和Agent之后，怎样从业务问题推导正确组合，而不是追逐热门技术。</p>
+  <ul>
+    <li><span class="tag">核心必讲</span> 业务价值、任务匹配、数据条件、风险验收、成本收益；规则、人工和AI基线比较；体验层与任务完成层；Prompt、Workflow、RAG、数据工具、Agent的组合；MVP范围。</li>
+    <li><span class="warn">案例扩展</span> 规则问答、实时数据查询、材料审核、内容生成和复杂排查的形态选择。</li>
+    <li><b>课堂练习：</b>为同一商家运营场景写“选择什么、不选什么、人工边界、最大待验证项”。</li>
+    <li><b>课堂产出：</b>五维场景适配表、产品能力组合图和MVP范围。</li>
+    <li><b>来源：</b>知乎正课第3-17课的产品案例；亚慧第6、8课；本课程第2-5课的实际产物。</li>
+    <li><b>边界：</b>不再重复四种技术的基础定义；本课重点是证据、取舍和组合。</li>
+  </ul>
+
+  <h3>第7课｜AI产品需求分析与PRD</h3>
+  <p><b>核心问题：</b>怎样把一个AI机会写成产品、算法、数据和业务团队都能评审的需求方案。</p>
+  <ul>
+    <li><span class="tag">核心必讲</span> 用户与业务目标；现状SOP与痛点证据；AI介入点；输入输出；能力组合；数据与知识依赖；正常、异常、拒答和人工路径；验收指标；版本范围。</li>
+    <li><span class="warn">案例扩展</span> 商家知识运营助手或会议/客服场景的AI PRD。</li>
+    <li><span class="tool">操作</span> 用AI辅助生成访谈提纲和PRD初稿；学员必须识别假设、删除虚构信息并补全边界。</li>
+    <li><b>课堂产出：</b>AI PRD骨架、节点级输入输出表、异常与验收清单。</li>
+    <li><b>来源：</b>知乎正课第19课；亚慧复杂B端项目与金融文档PRD；传统产品需求分析方法。</li>
+    <li><b>边界：</b>AI不能替代真实调研证据；不把模型生成的PRD直接视为需求事实。</li>
+  </ul>
+
+  <h3>第8课｜AI产品交互、原型与Vibe Coding Demo</h3>
+  <p><b>核心问题：</b>AI结果具有等待、波动和失败，怎样设计用户可理解、可编辑、可恢复的交互，并快速做出可演示Demo。</p>
+  <ul>
+    <li><span class="tag">核心必讲</span> 输入引导、流式输出、加载状态、引用、编辑、采用、重试、拒答、反馈、人工接管和操作确认；Demo与正式产品的差别。</li>
+    <li><span class="warn">案例扩展</span> 知识助手或商家经营助手核心页面与异常状态。</li>
+    <li><span class="tool">操作</span> 从产品说明生成Demo，完成一次需求修改、一个异常状态和一次结果验收。</li>
+    <li><b>课堂产出：</b>AI状态表、核心原型、三分钟演示脚本和Demo修改记录。</li>
+    <li><b>来源：</b>知乎正课第9-11、19课产品案例；现有AI产品交互案例；工具步骤以开课前官方资料和讲师实测为准。</li>
+    <li><b>边界：</b>不要求零基础学员从空白写代码；Claude Code、Codex等只作为实现手段，不构成课程主线。</li>
+  </ul>
+
+  <h3>第9课｜AI产品测试、指标与Bad Case</h3>
+  <p><b>核心问题：</b>怎样证明AI产品有效，怎样把失败样本转化为可定位、可复测的改进任务。</p>
+  <ul>
+    <li><span class="tag">核心必讲</span> 测试集与金标；典型、边界、对抗和无答案样本；效果、系统、体验和业务四层指标；错误分类；版本对照；复测闭环。</li>
+    <li><span class="warn">案例扩展</span> Workflow路由准确性、RAG召回与忠实度、Agent工具成功率的专项测试。</li>
+    <li><b>课堂练习：</b>为问答、分类或抽取功能设计10条测试，并把3个Bad Case定位到Prompt、知识、流程、工具或产品边界。</li>
+    <li><b>课堂产出：</b>测试集、指标树、Bad Case台账和复测记录。</li>
+    <li><b>来源：</b>亚慧测试与复杂项目材料；知乎正课案例中的测试环节；知乎技术先修课实践原文。</li>
+    <li><b>边界：</b>不把单次Demo成功当准确率；LLM-as-Judge只作扩展并说明其局限。</li>
+  </ul>
+
+  <h3>第10课｜幻觉治理、权限与人机协作</h3>
+  <p><b>核心问题：</b>AI为什么会给出看似合理但不可靠的结果，怎样按风险设计证据、权限、规则和人工接管。</p>
+  <ul>
+    <li><span class="tag">核心必讲</span> 幻觉定义与常见来源；知识缺失、检索错误、指令冲突和工具错误的区别；风险分级；引用溯源；规则校验；权限最小化；操作确认；人工复核和审计。</li>
+    <li><span class="warn">案例扩展</span> 客服赔付、材料审核、金融/医疗/政务等不同风险等级。</li>
+    <li><b>课堂练习：</b>为同一功能设计正常、拒答、转人工、确认和回滚路径。</li>
+    <li><b>课堂产出：</b>风险矩阵、权限与确认表、人机协作流程。</li>
+    <li><b>来源：</b>大模型基础材料中的幻觉定义；知乎正课第7、15课；亚慧金融文档、核查、审核和客服转人工材料。</li>
+    <li><b>边界：</b>第2、4、5课会提前出现局部风险，本课负责系统治理，不重复基础操作。</li>
+  </ul>
+
+  <h3>第11课｜模型选择、Token成本与ROI</h3>
+  <p><b>核心问题：</b>怎样选择够用的模型和架构，计算真实成本，并判断试点是否值得继续。</p>
+  <ul>
+    <li><span class="tag">核心必讲</span> 基于任务和测试集选型；效果、时延、稳定性、上下文、工具能力和合规；API与私有部署基础；Token和调用成本；数据、开发、运营、人工复核成本；效率和业务收益；试点ROI。</li>
+    <li><span class="warn">案例扩展</span> 分类节点用轻模型、复杂生成用强模型；缓存和路由；RAG、微调和长上下文的选择。</li>
+    <li><b>课堂练习：</b>比较两个候选模型，估算单次任务成本、月度成本和盈亏平衡点。</li>
+    <li><b>课堂产出：</b>模型选型记录、成本清单和试点ROI表。</li>
+    <li><b>来源：</b>亚慧模型选型、成本和商业化材料；知乎企业架构与案例课程；开课当周官方模型资料。</li>
+    <li><b>边界：</b>模型价格和规格高度时效化，课堂必须标注日期；不承诺精确业务收益。</li>
+  </ul>
+
+  <h3>第12课｜AI产品立项、落地避坑与阶段答辩</h3>
+  <p><b>核心问题：</b>怎样把前11课的产出收成一个可评审、可试点、可进入第二阶段的项目方案。</p>
+  <ul>
+    <li><span class="tag">核心必讲</span> 业务问题与基线；用户和场景；方案与MVP；知识、数据和系统依赖；测试指标；风险和权限；成本和资源；排期、负责人、试点和复盘机制。</li>
+    <li><span class="warn">案例扩展</span> 从Demo到生产的常见失败：数据未准备、指标不闭环、责任不清、过度自动化、无运营机制。</li>
+    <li><b>课堂练习：</b>五分钟立项答辩；同学按业务、AI、评估、风险和价值五个维度点评。</li>
+    <li><b>课堂产出：</b>AI产品立项方案、答辩稿和第二阶段项目候选。</li>
+    <li><b>来源：</b>前11课综合；知乎需求分析与企业案例；亚慧复杂B端项目。</li>
+    <li><b>边界：</b>案例只使用公开信息或教学假设，不包装成未公开的真实公司项目。</li>
+  </ul>
+
+  <h2>八、贯穿案例设计</h2>
+  <table>
+    <tr><th>案例</th><th>贯穿位置</th><th>递进方式</th></tr>
+    <tr><td>商家咨询与知识运营助手</td><td>第3-12课</td><td>Workflow分流 → RAG规则知识 → Agent工具调用 → 场景与MVP → PRD → Demo → 测试 → 治理 → 成本 → 立项</td></tr>
+    <tr><td>销售拜访记录助手</td><td>第0、2、6、7、9课</td><td>首次场景判断 → Prompt产品化 → 形态再判断 → PRD → 测试</td></tr>
+    <tr><td>行业迁移案例</td><td>第4-11课扩展</td><td>金融、教育、电商、营销、医疗、政务和制造用于说明迁移边界，不取代主案例</td></tr>
+  </table>
+  <p class="note"><b>案例说明：</b>课程中的公司、规则、数据、效果和系统设计均应标记为公开信息、参考课程案例或教学虚构。讲师公开履历可以在个人介绍中表达，但不得让学员误以为教学案例是前公司内部现行项目。</p>
+
+  <h2>九、来源体系与生产门槛</h2>
+  <table>
+    <tr><th>来源类别</th><th>使用方式</th><th>注意事项</th></tr>
+    <tr><td>知乎正课</td><td>产品架构、行业案例、需求分析、Workflow/RAG/Agent组合与落地</td><td>优先使用录音原文DOCX与正常PDF；逐知识点标段落或页码</td></tr>
+    <tr><td>知乎技术先修课</td><td>大模型、Prompt、Workflow、RAG、Agent、Function Calling、MCP和Coze操作补强</td><td>本地19份PPTX均为空白，只引用配套原文DOCX，不引用空白PPT页码</td></tr>
+    <tr><td>智元亚慧</td><td>岗位、模型原理、RAG、Agent、智能客服、复杂B端项目、测试和商业化</td><td>区分原课观点、案例事实和课程加工</td></tr>
+    <tr><td>起点课堂</td><td>课程覆盖范围和框架侧证</td><td>加密视频无法转录时，大纲不能作为详细讲授的唯一来源</td></tr>
+    <tr><td>官方文档与讲师实测</td><td>平台操作、模型能力、价格和时效内容</td><td>开课前更新并标注日期，不固化按钮位置</td></tr>
+  </table>
+  <table>
+    <tr><th>等级</th><th>标准</th><th>处理</th></tr>
+    <tr><td>A 可生产</td><td>核心结论有可检索原文、具体锚点和完整案例；讲师能够复述并回答基础追问</td><td>可进入正式课程包</td></tr>
+    <tr><td>B 可准备</td><td>主来源基本覆盖，但平台操作、关键数据或部分专题仍需实测和补证</td><td>先做溯源表和教学骨架，补齐后再生成PPT</td></tr>
+    <tr><td>C 暂缓</td><td>主要来源只有标题、计划或无法读取的文件；讲师无法解释核心链路</td><td>不生成正式讲义与PPT</td></tr>
+  </table>
+
+  <h2>十、生产优先级与当前状态</h2>
+  <table>
+    <tr><th>优先级</th><th>任务</th><th>原因</th></tr>
+    <tr><td>P0</td><td>生产第4课RAG完整课程包</td><td>第3课已经完成并在课尾明确承接RAG；知乎技术先修课第7、8节原文已到位。</td></tr>
+    <tr><td>P1</td><td>补充第3课来源溯源表</td><td>新增知乎技术先修课第4、5、6、15节和亚慧智能客服材料，强化现有课程来源。</td></tr>
+    <tr><td>P1</td><td>生成第5课Agent来源表与结构</td><td>先确认工具调用和Agent边界，避免课程与Workflow重复。</td></tr>
+    <tr><td>P2</td><td>重做第6课场景判断</td><td>旧第3课可作为素材库，但必须改成学完三种形态后的综合决策课。</td></tr>
+    <tr><td>P2</td><td>继续第7-12课</td><td>按“方案→表达→验证→治理→经营→立项”顺序生产。</td></tr>
+  </table>
+
+  <h2>十一、售卖表达与标准交付</h2>
+  <table>
+    <tr><th>核心卖点</th><th>标准交付</th></tr>
+    <tr><td>从岗位认知到AI产品立项的完整学习链路</td><td>第0课＋12次正式课、回放、PPT、老师/学生讲义和课堂模板</td></tr>
+    <tr><td>Prompt、Workflow、RAG、Agent连续实操</td><td>Prompt记录、可运行Workflow、最小知识库、Agent演示记录</td></tr>
+    <tr><td>不只讲工具，强调产品判断与落地</td><td>场景适配表、MVP、AI PRD、原型Demo、测试集、风险矩阵和ROI表</td></tr>
+    <tr><td>为第二阶段项目营直接准备</td><td>AI产品立项方案、项目候选和五分钟答辩</td></tr>
+  </table>
+  <p class="small">售卖边界：不承诺Offer、涨薪、上线效果或掌握所有平台；平台和模型能力以实际授课时为准。</p>
+
+  <h2>十二、阶段验收</h2>
+  <ul>
+    <li>完成个人岗位方向与能力补齐计划；</li>
+    <li>完成Prompt、Workflow、RAG、Agent四类核心设计与操作记录；</li>
+    <li>能为一个场景说明“为什么选择、为什么不选、人工边界和最大待验证项”；</li>
+    <li>完成AI PRD、Demo、测试集、风险矩阵、选型成本和ROI表；</li>
+    <li>完成一份AI产品立项方案并进行五分钟答辩；</li>
+    <li>确定第二阶段的公共项目、两个方向项目候选和一个主项目方向。</li>
+  </ul>
+
+  <p class="small">版本说明：V4.0在V3售卖与交付框架上重排教学顺序，正式对齐已经完成的第3课Workflow课程包，并纳入知乎技术先修课原文。V3文件保留，不覆盖。</p>
+</body>
+</html>

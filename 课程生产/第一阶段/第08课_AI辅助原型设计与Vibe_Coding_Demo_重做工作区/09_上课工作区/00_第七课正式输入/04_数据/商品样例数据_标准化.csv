@@ -1,0 +1,7 @@
+﻿sku_id,spu_id,brand,model,variant,color,list_price_cny,sale_price_cny,promo_note,screen_size_in,refresh_rate_hz,chipset,ram_gb,storage_gb,battery_mah,charging_w,main_camera_mp,weight_g,waterproof,warranty_months,stock_status
+SKU1001,SPU1001,星云,星云 X1,12GB+256GB,曜石黑,3999,3699,满3000减200；会员再减100,6.67,120,天穹 9200+,12,256,5000,80,50,198,IP68,12,in_stock
+SKU1002,SPU1002,星云,星云 X1 Pro,12GB+256GB,冰川银,4999,4699,以旧换新最高补贴500元,6.78,120,天穹 9300,12,256,5100,100,50,205,IP68,12,in_stock
+SKU1003,SPU1003,远航,远航 15,16GB+512GB,深海蓝,4299,3999,需领取300元券,6.74,120,远航 V9,16,512,5200,,50,202,IP65,12,in_stock
+SKU1004,SPU1004,极光,极光 S9,12GB+256GB,晨曦金,3799,3599,限时直降200,6.7,90,光核 8 Gen 3,12,256,4800,66,50,186,生活防水,12,low_stock
+SKU1005,SPU1005,北辰,北辰 Fold Mini,12GB+512GB,星夜紫,6999,6599,会员价；部分地区可叠加补贴,7.1,120,光核 8 Gen 3,12,512,4300,44,48,214,IPX8,12,in_stock
+SKU1006,SPU1006,原点,原点 Lite 5G,8GB+256GB,云杉绿,2499,2299,学生认证再减100,6.6,120,天穹 8200,8,256,,67,64,193,IP54,12,in_stock

@@ -1,0 +1,89 @@
+{
+  "meta": {
+    "name": "P2_内容知识_RAG图文Workflow_老师完成版",
+    "kind": "coze_configuration_blueprint",
+    "importable": false,
+    "version": "1.0",
+    "purpose": "retrieve topic-related course knowledge and generate traceable content"
+  },
+  "base": "P1_小红书图文Workflow_老师完成版",
+  "inputs": [
+    "topic",
+    "audience",
+    "goal",
+    "source_material",
+    "target_format",
+    "tone_hint",
+    "image_style",
+    "page_count"
+  ],
+  "flow": [
+    "Start",
+    "IF_必要输入检查",
+    "Knowledge_按主题检索课程知识",
+    "IF_知识是否命中",
+    "LLM_整理知识证据",
+    "LLM_知识增强内容策划",
+    "LLM_知识增强标题正文",
+    "LLM_图片脚本",
+    "图片生成_可选",
+    "LLM_事实与引用审核",
+    "End"
+  ],
+  "nodes": [
+    {
+      "name": "Knowledge_按主题检索课程知识",
+      "type": "knowledge_retrieval",
+      "query": "Start.topic",
+      "output": "retrieved_knowledge"
+    },
+    {
+      "name": "LLM_整理知识证据",
+      "type": "llm",
+      "prompt_file": "01_整理知识证据Prompt.txt",
+      "inputs": ["Knowledge_按主题检索课程知识.retrieved_knowledge", "Start.source_material"],
+      "outputs": ["knowledge_hit", "source_names", "evidence_cards", "conflicts", "unknown_items"]
+    },
+    {
+      "name": "LLM_知识增强内容策划",
+      "type": "llm",
+      "prompt_file": "02_知识增强内容策划Prompt.txt",
+      "inputs": ["Start.topic", "Start.audience", "Start.goal", "Start.source_material", "LLM_整理知识证据.evidence_cards", "Start.target_format"],
+      "output": "content_plan"
+    },
+    {
+      "name": "LLM_知识增强标题正文",
+      "type": "llm",
+      "prompt_file": "03_知识增强标题正文Prompt.txt",
+      "inputs": ["Start.topic", "Start.audience", "Start.goal", "Start.source_material", "LLM_整理知识证据.evidence_cards", "LLM_知识增强内容策划.content_plan", "Start.target_format", "Start.tone_hint"],
+      "output": "copy_package"
+    },
+    {
+      "name": "LLM_图片脚本",
+      "type": "llm",
+      "prompt_file": "../P1_Workflow/03_图片脚本Prompt.txt",
+      "output": "image_script"
+    },
+    {
+      "name": "LLM_事实与引用审核",
+      "type": "llm",
+      "prompt_file": "04_事实与引用审核Prompt.txt",
+      "inputs": ["Start.source_material", "Knowledge_按主题检索课程知识.retrieved_knowledge", "LLM_整理知识证据.evidence_cards", "LLM_知识增强标题正文.copy_package", "LLM_图片脚本.image_script"],
+      "output": "review_result"
+    }
+  ],
+  "fact_sources": ["Start.source_material", "Knowledge_按主题检索课程知识.retrieved_knowledge"],
+  "no_hit_policy": "return knowledge_not_found; do not claim knowledge-grounded generation",
+  "end_outputs": [
+    "status",
+    "knowledge_hit",
+    "source_names",
+    "evidence_cards",
+    "conflicts",
+    "copy_package",
+    "image_script",
+    "images_optional",
+    "review_result"
+  ],
+  "prohibited_capabilities": ["fabricated_knowledge_hit", "fabricated_source", "web_search", "save", "publish"]
+}

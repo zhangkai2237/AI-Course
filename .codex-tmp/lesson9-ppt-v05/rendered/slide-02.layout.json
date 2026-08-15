@@ -2,13 +2,13 @@
   "schema": "openai.presentation.layout/v4",
   "unit": "px",
   "slide": {
-    "aid": "sl/0yo6wh",
-    "id": "0yo6wh",
+    "aid": "sl/lb0ldv",
+    "id": "lb0ldv",
     "slide": 2,
-    "layoutId": "d1bb9378-e39f-46cc-98d7-0279f0a33102",
+    "layoutId": "29d6555e-bd02-4d03-a05c-947cb01e9ec9",
     "layoutName": "Title Slide",
     "layoutType": "title",
-    "masterLayoutId": "37e5c6e3-dd31-421c-8b7b-50af81475a20",
+    "masterLayoutId": "043ced70-1910-49ef-9342-09b88ba9635a",
     "masterLayoutName": "Master",
     "backgroundColor": "#07151F",
     "frame": {
@@ -45,15 +45,15 @@
   "inheritedLayers": [
     {
       "scope": "layout",
-      "id": "d1bb9378-e39f-46cc-98d7-0279f0a33102",
+      "id": "29d6555e-bd02-4d03-a05c-947cb01e9ec9",
       "name": "Title Slide",
       "type": "title",
-      "parentLayoutId": "37e5c6e3-dd31-421c-8b7b-50af81475a20",
+      "parentLayoutId": "043ced70-1910-49ef-9342-09b88ba9635a",
       "elements": []
     },
     {
       "scope": "master",
-      "id": "37e5c6e3-dd31-421c-8b7b-50af81475a20",
+      "id": "043ced70-1910-49ef-9342-09b88ba9635a",
       "name": "Master",
       "type": "master",
       "elements": []
@@ -64,7 +64,7 @@
       "order": 1,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/t0j65k3y",
+      "aid": "sh/ahkze14r",
       "id": "1",
       "bbox": [
         68,
@@ -127,7 +127,7 @@
       "order": 2,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/6xs7u5kn",
+      "aid": "sh/xkbypwni",
       "id": "2",
       "bbox": [
         1170,
@@ -190,7 +190,7 @@
       "order": 3,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/7y1o3al8",
+      "aid": "sh/wj2hgbmx",
       "id": "3",
       "bbox": [
         68,
@@ -206,7 +206,7 @@
       "order": 4,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/kvq5sv2h",
+      "aid": "sh/jmtgr658",
       "id": "4",
       "bbox": [
         68,
@@ -222,7 +222,7 @@
       "order": 5,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/5wj61032",
+      "aid": "sh/ylkzi143",
       "id": "5",
       "name": "slide-title",
       "bbox": [
@@ -232,8 +232,8 @@
         68
       ],
       "geometry": "rect",
-      "text": "Demo跑通，为什么还不能上线？",
-      "textPreview": "Demo跑通，为什么还不能上线？",
+      "text": "AI产品上线前的评测问题",
+      "textPreview": "AI产品上线前的评测问题",
       "resolvedFontSize": 38,
       "resolvedTextStyle": {
         "fontSize": 38,
@@ -253,14 +253,14 @@
         "lines": [
           {
             "index": 1,
-            "text": "Demo跑通，为什么还不能上线？"
+            "text": "AI产品上线前的评测问题"
           }
         ]
       },
       "paragraphs": [
         {
           "index": 1,
-          "text": "Demo跑通，为什么还不能上线？",
+          "text": "AI产品上线前的评测问题",
           "resolvedTextStyle": {
             "fontSize": 38,
             "color": "#F5F2E9",
@@ -270,7 +270,7 @@
           "runs": [
             {
               "index": 1,
-              "text": "Demo跑通，为什么还不能上线？",
+              "text": "AI产品上线前的评测问题",
               "fontSize": 38,
               "color": "#F5F2E9",
               "bold": true,
@@ -286,7 +286,7 @@
       "order": 6,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/it8nq5kb",
+      "aid": "sh/5ovytgne",
       "id": "6",
       "name": "slide-lead",
       "bbox": [

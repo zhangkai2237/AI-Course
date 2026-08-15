@@ -2,13 +2,13 @@
   "schema": "openai.presentation.layout/v4",
   "unit": "px",
   "slide": {
-    "aid": "sl/m0h6qd",
-    "id": "m0h6qd",
+    "aid": "sl/lzcawp",
+    "id": "lzcawp",
     "slide": 4,
-    "layoutId": "d1bb9378-e39f-46cc-98d7-0279f0a33102",
+    "layoutId": "29d6555e-bd02-4d03-a05c-947cb01e9ec9",
     "layoutName": "Title Slide",
     "layoutType": "title",
-    "masterLayoutId": "37e5c6e3-dd31-421c-8b7b-50af81475a20",
+    "masterLayoutId": "043ced70-1910-49ef-9342-09b88ba9635a",
     "masterLayoutName": "Master",
     "backgroundColor": "#07151F",
     "frame": {
@@ -45,15 +45,15 @@
   "inheritedLayers": [
     {
       "scope": "layout",
-      "id": "d1bb9378-e39f-46cc-98d7-0279f0a33102",
+      "id": "29d6555e-bd02-4d03-a05c-947cb01e9ec9",
       "name": "Title Slide",
       "type": "title",
-      "parentLayoutId": "37e5c6e3-dd31-421c-8b7b-50af81475a20",
+      "parentLayoutId": "043ced70-1910-49ef-9342-09b88ba9635a",
       "elements": []
     },
     {
       "scope": "master",
-      "id": "37e5c6e3-dd31-421c-8b7b-50af81475a20",
+      "id": "043ced70-1910-49ef-9342-09b88ba9635a",
       "name": "Master",
       "type": "master",
       "elements": []
@@ -64,7 +64,7 @@
       "order": 1,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/gny1srid",
+      "aid": "sh/dgnmxoz2",
       "id": "1",
       "bbox": [
         68,
@@ -127,7 +127,7 @@
       "order": 2,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/vmpkzm1s",
+      "aid": "sh/qdwnmt0r",
       "id": "2",
       "bbox": [
         1170,
@@ -190,7 +190,7 @@
       "order": 3,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/ulgjqh07",
+      "aid": "sh/re54vehc",
       "id": "3",
       "bbox": [
         68,
@@ -206,7 +206,7 @@
       "order": 4,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/5sr25wja",
+      "aid": "sh/4ru5kjil",
       "id": "4",
       "bbox": [
         68,
@@ -222,7 +222,7 @@
       "order": 5,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/4ri1wrip",
+      "aid": "sh/pcnmtoz6",
       "id": "5",
       "name": "slide-title",
       "bbox": [
@@ -232,8 +232,8 @@
         68
       ],
       "geometry": "rect",
-      "text": "AI产品评测的是完整版本组合",
-      "textPreview": "AI产品评测的是完整版本组合",
+      "text": "AI产品的版本组合",
+      "textPreview": "AI产品的版本组合",
       "resolvedFontSize": 38,
       "resolvedTextStyle": {
         "fontSize": 38,
@@ -253,14 +253,14 @@
         "lines": [
           {
             "index": 1,
-            "text": "AI产品评测的是完整版本组合"
+            "text": "AI产品的版本组合"
           }
         ]
       },
       "paragraphs": [
         {
           "index": 1,
-          "text": "AI产品评测的是完整版本组合",
+          "text": "AI产品的版本组合",
           "resolvedTextStyle": {
             "fontSize": 38,
             "color": "#F5F2E9",
@@ -270,7 +270,7 @@
           "runs": [
             {
               "index": 1,
-              "text": "AI产品评测的是完整版本组合",
+              "text": "AI产品的版本组合",
               "fontSize": 38,
               "color": "#F5F2E9",
               "bold": true,
@@ -286,7 +286,7 @@
       "order": 6,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/3q9k3m14",
+      "aid": "sh/2pcni90f",
       "id": "6",
       "name": "slide-lead",
       "bbox": [
@@ -347,7 +347,7 @@
       "order": 7,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/ip0juh0j",
+      "aid": "sh/3ql4reh0",
       "id": "7",
       "bbox": [
         280.8,
@@ -363,7 +363,7 @@
       "order": 8,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/dgb29wj6",
+      "aid": "sh/ony5w3ip",
       "id": "8",
       "bbox": [
         72,
@@ -380,7 +380,7 @@
       "order": 9,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/cfi10bil",
+      "aid": "sh/987658za",
       "id": "9",
       "bbox": [
         86,
@@ -443,7 +443,7 @@
       "order": 10,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/yhonyx4z",
+      "aid": "sh/l8v29gb2",
       "id": "10",
       "bbox": [
         84,
@@ -506,7 +506,7 @@
       "order": 11,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/zixor25k",
+      "aid": "sh/07ml0bah",
       "id": "11",
       "bbox": [
         511.6,
@@ -522,7 +522,7 @@
       "order": 12,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/kjq507m5",
+      "aid": "sh/zmtk76tw",
       "id": "12",
       "bbox": [
         302.8,
@@ -539,7 +539,7 @@
       "order": 13,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/lkz6tcnq",
+      "aid": "sh/ylk3y1sb",
       "id": "13",
       "bbox": [
         316.8,
@@ -602,7 +602,7 @@
       "order": 14,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/ml8n2h4b",
+      "aid": "sh/dkb25wbq",
       "id": "14",
       "bbox": [
         314.8,
@@ -665,7 +665,7 @@
       "order": 15,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/7mhovm5w",
+      "aid": "sh/cj21wra5",
       "id": "15",
       "bbox": [
         742.4,
@@ -681,7 +681,7 @@
       "order": 16,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/8nq547mh",
+      "aid": "sh/bitk3mt0",
       "id": "16",
       "bbox": [
         533.6,
@@ -698,7 +698,7 @@
       "order": 17,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/98z6xcnm",
+      "aid": "sh/qhkjuhsf",
       "id": "17",
       "bbox": [
         547.6,
@@ -761,7 +761,7 @@
       "order": 18,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/2p4nqd47",
+      "aid": "sh/xgf2h0ba",
       "id": "18",
       "bbox": [
         545.6,
@@ -824,7 +824,7 @@
       "order": 19,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/3qd4ji5c",
+      "aid": "sh/wf6l8vap",
       "id": "19",
       "bbox": [
         973.2,
@@ -840,7 +840,7 @@
       "order": 20,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/rutkrel4",
+      "aid": "sh/gje54zil",
       "id": "20",
       "bbox": [
         764.4,
@@ -857,7 +857,7 @@
       "order": 21,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/6tk3y9kz",
+      "aid": "sh/hknmd4z6",
       "id": "21",
       "bbox": [
         778.4,
@@ -920,7 +920,7 @@
       "order": 22,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/twb2to3a",
+      "aid": "sh/uhcn2p0v",
       "id": "22",
       "bbox": [
         776.4,
@@ -983,7 +983,7 @@
       "order": 23,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/sv2l0j2p",
+      "aid": "sh/fi54buhg",
       "id": "23",
       "bbox": [
         995.2,
@@ -1000,7 +1000,7 @@
       "order": 24,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/jq9knel8",
+      "aid": "sh/sfu50fip",
       "id": "24",
       "bbox": [
         1009.2,
@@ -1063,7 +1063,7 @@
       "order": 25,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/ip0ju9kn",
+      "aid": "sh/tg3m9kza",
       "id": "25",
       "bbox": [
         1007.2,
@@ -1126,7 +1126,7 @@
       "order": 26,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/5sb2p43e",
+      "aid": "sh/6tcnyp0j",
       "id": "26",
       "bbox": [
         110,

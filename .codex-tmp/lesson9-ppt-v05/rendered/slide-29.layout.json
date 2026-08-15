@@ -2,13 +2,13 @@
   "schema": "openai.presentation.layout/v4",
   "unit": "px",
   "slide": {
-    "aid": "sl/kricrw",
-    "id": "kricrw",
+    "aid": "sl/pxm4z9",
+    "id": "pxm4z9",
     "slide": 29,
-    "layoutId": "d1bb9378-e39f-46cc-98d7-0279f0a33102",
+    "layoutId": "29d6555e-bd02-4d03-a05c-947cb01e9ec9",
     "layoutName": "Title Slide",
     "layoutType": "title",
-    "masterLayoutId": "37e5c6e3-dd31-421c-8b7b-50af81475a20",
+    "masterLayoutId": "043ced70-1910-49ef-9342-09b88ba9635a",
     "masterLayoutName": "Master",
     "backgroundColor": "#07151F",
     "frame": {
@@ -45,15 +45,15 @@
   "inheritedLayers": [
     {
       "scope": "layout",
-      "id": "d1bb9378-e39f-46cc-98d7-0279f0a33102",
+      "id": "29d6555e-bd02-4d03-a05c-947cb01e9ec9",
       "name": "Title Slide",
       "type": "title",
-      "parentLayoutId": "37e5c6e3-dd31-421c-8b7b-50af81475a20",
+      "parentLayoutId": "043ced70-1910-49ef-9342-09b88ba9635a",
       "elements": []
     },
     {
       "scope": "master",
-      "id": "37e5c6e3-dd31-421c-8b7b-50af81475a20",
+      "id": "043ced70-1910-49ef-9342-09b88ba9635a",
       "name": "Master",
       "type": "master",
       "elements": []
@@ -64,7 +64,7 @@
       "order": 1,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/szu50b65",
+      "aid": "sh/2hc7uhkr",
       "id": "1",
       "bbox": [
         68,
@@ -127,7 +127,7 @@
       "order": 2,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/rylor65k",
+      "aid": "sh/pkn65cji",
       "id": "2",
       "bbox": [
         1170,
@@ -190,7 +190,7 @@
       "order": 3,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/6xcny1oz",
+      "aid": "sh/ojupw72x",
       "id": "3",
       "bbox": [
         68,
@@ -206,7 +206,7 @@
       "order": 4,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/5w36pwne",
+      "aid": "sh/bm5o7m18",
       "id": "4",
       "bbox": [
         68,
@@ -222,7 +222,7 @@
       "order": 5,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/4vu5wr6t",
+      "aid": "sh/qlw7yhkn",
       "id": "5",
       "name": "slide-title",
       "bbox": [
@@ -232,8 +232,8 @@
         68
       ],
       "geometry": "rect",
-      "text": "余弦相似度：看两个答案指向是否接近",
-      "textPreview": "余弦相似度：看两个答案指向是否接近",
+      "text": "余弦相似度的基本原理",
+      "textPreview": "余弦相似度的基本原理",
       "resolvedFontSize": 38,
       "resolvedTextStyle": {
         "fontSize": 38,
@@ -253,14 +253,14 @@
         "lines": [
           {
             "index": 1,
-            "text": "余弦相似度：看两个答案指向是否接近"
+            "text": "余弦相似度的基本原理"
           }
         ]
       },
       "paragraphs": [
         {
           "index": 1,
-          "text": "余弦相似度：看两个答案指向是否接近",
+          "text": "余弦相似度的基本原理",
           "resolvedTextStyle": {
             "fontSize": 38,
             "color": "#F5F2E9",
@@ -270,7 +270,7 @@
           "runs": [
             {
               "index": 1,
-              "text": "余弦相似度：看两个答案指向是否接近",
+              "text": "余弦相似度的基本原理",
               "fontSize": 38,
               "color": "#F5F2E9",
               "bold": true,
@@ -286,7 +286,7 @@
       "order": 6,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/ju1onm58",
+      "aid": "sh/don69wje",
       "id": "6",
       "name": "slide-lead",
       "bbox": [
@@ -347,7 +347,7 @@
       "order": 7,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/i9snuho3",
+      "aid": "sh/cnep0r2t",
       "id": "7",
       "bbox": [
         70,
@@ -363,7 +363,7 @@
       "order": 8,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/psn610ni",
+      "aid": "sh/zq5ob61k",
       "id": "8",
       "bbox": [
         120,
@@ -426,7 +426,7 @@
       "order": 9,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/orep8v6d",
+      "aid": "sh/ypw721kz",
       "id": "9",
       "bbox": [
         130,
@@ -489,7 +489,7 @@
       "order": 10,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/a5w3e9k7",
+      "aid": "sh/ojqd4jil",
       "id": "10",
       "bbox": [
         690,
@@ -505,7 +505,7 @@
       "order": 11,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/b654nels",
+      "aid": "sh/9kzuxoj6",
       "id": "11",
       "bbox": [
         825,
@@ -521,7 +521,7 @@
       "order": 12,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/w7elgj2d",
+      "aid": "sh/mh8v2t0v",
       "id": "12",
       "bbox": [
         710,
@@ -584,7 +584,7 @@
       "order": 13,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/xsnmpojy",
+      "aid": "sh/nihcve1g",
       "id": "13",
       "bbox": [
         845,

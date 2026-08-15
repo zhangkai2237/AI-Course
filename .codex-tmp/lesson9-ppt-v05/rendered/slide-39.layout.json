@@ -2,13 +2,13 @@
   "schema": "openai.presentation.layout/v4",
   "unit": "px",
   "slide": {
-    "aid": "sl/ufki8y",
-    "id": "ufki8y",
+    "aid": "sl/jh2t0y",
+    "id": "jh2t0y",
     "slide": 39,
-    "layoutId": "d1bb9378-e39f-46cc-98d7-0279f0a33102",
+    "layoutId": "29d6555e-bd02-4d03-a05c-947cb01e9ec9",
     "layoutName": "Title Slide",
     "layoutType": "title",
-    "masterLayoutId": "37e5c6e3-dd31-421c-8b7b-50af81475a20",
+    "masterLayoutId": "043ced70-1910-49ef-9342-09b88ba9635a",
     "masterLayoutName": "Master",
     "backgroundColor": "#07151F",
     "frame": {
@@ -45,15 +45,15 @@
   "inheritedLayers": [
     {
       "scope": "layout",
-      "id": "d1bb9378-e39f-46cc-98d7-0279f0a33102",
+      "id": "29d6555e-bd02-4d03-a05c-947cb01e9ec9",
       "name": "Title Slide",
       "type": "title",
-      "parentLayoutId": "37e5c6e3-dd31-421c-8b7b-50af81475a20",
+      "parentLayoutId": "043ced70-1910-49ef-9342-09b88ba9635a",
       "elements": []
     },
     {
       "scope": "master",
-      "id": "37e5c6e3-dd31-421c-8b7b-50af81475a20",
+      "id": "043ced70-1910-49ef-9342-09b88ba9635a",
       "name": "Master",
       "type": "master",
       "elements": []
@@ -64,7 +64,7 @@
       "order": 1,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/mxsju9wf",
+      "aid": "sh/rahw32hw",
       "id": "1",
       "bbox": [
         68,
@@ -127,7 +127,7 @@
       "order": 2,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/90jipovq",
+      "aid": "sh/sbqdc7yh",
       "id": "2",
       "bbox": [
         1170,
@@ -190,7 +190,7 @@
       "order": 3,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/8za1wje5",
+      "aid": "sh/dcze5cf2",
       "id": "3",
       "bbox": [
         68,
@@ -206,7 +206,7 @@
       "order": 4,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/v21krydw",
+      "aid": "sh/ed8vehgn",
       "id": "4",
       "bbox": [
         68,
@@ -222,7 +222,7 @@
       "order": 5,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/u1sjitwb",
+      "aid": "sh/fehw7mx8",
       "id": "5",
       "name": "slide-title",
       "bbox": [
@@ -232,8 +232,8 @@
         68
       ],
       "geometry": "rect",
-      "text": "自动化评测的意义，是把回归成本降下来",
-      "textPreview": "自动化评测的意义，是把回归成本降下来",
+      "text": "自动化评测的适用场景",
+      "textPreview": "自动化评测的适用场景",
       "resolvedFontSize": 38,
       "resolvedTextStyle": {
         "fontSize": 38,
@@ -253,14 +253,14 @@
         "lines": [
           {
             "index": 1,
-            "text": "自动化评测的意义，是把回归成本降下来"
+            "text": "自动化评测的适用场景"
           }
         ]
       },
       "paragraphs": [
         {
           "index": 1,
-          "text": "自动化评测的意义，是把回归成本降下来",
+          "text": "自动化评测的适用场景",
           "resolvedTextStyle": {
             "fontSize": 38,
             "color": "#F5F2E9",
@@ -270,7 +270,7 @@
           "runs": [
             {
               "index": 1,
-              "text": "自动化评测的意义，是把回归成本降下来",
+              "text": "自动化评测的适用场景",
               "fontSize": 38,
               "color": "#F5F2E9",
               "bold": true,
@@ -286,7 +286,7 @@
       "order": 6,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/hoj2tov2",
+      "aid": "sh/0fqdgryt",
       "id": "6",
       "bbox": [
         70,
@@ -302,7 +302,7 @@
       "order": 7,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/wna1k3eh",
+      "aid": "sh/1gze9wfe",
       "id": "7",
       "bbox": [
         120,
@@ -365,7 +365,7 @@
       "order": 8,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/b6h0fuds",
+      "aid": "sh/2hsvi1gj",
       "id": "8",
       "bbox": [
         120,

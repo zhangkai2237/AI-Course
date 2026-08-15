@@ -1,0 +1,1287 @@
+{"kind":"deck","id":"pr/46mn8h","name":"Deck"}
+{"kind":"layout","layoutId":"37e5c6e3-dd31-421c-8b7b-50af81475a20","name":"Master","type":"master"}
+{"kind":"layout","layoutId":"d1bb9378-e39f-46cc-98d7-0279f0a33102","name":"Title Slide","type":"title"}
+{"kind":"slide","id":"sl/z6lhg5","slide":1,"title":"AI PRODUCT MANAGER","textShapes":5}
+{"kind":"shape","id":"sh/6to7utgv","slide":1,"bbox":[0,0,24,720]}
+{"kind":"textbox","id":"sh/tgf65oz6","slide":1,"text":"AI PRODUCT MANAGER","textPreview":"AI PRODUCT MANAGER","textChars":18,"textLines":1,"bbox":[80,70,350,30]}
+{"kind":"textbox","id":"sh/sf6pwjyl","slide":1,"name":"deck-title","text":"AI产品评测与数据反馈闭环","textPreview":"AI产品评测与数据反馈闭环","textChars":13,"textLines":1,"bbox":[78,210,1040,150]}
+{"kind":"textbox","id":"sh/jqdozeh4","slide":1,"text":"第09课｜从“Demo能跑”到“有依据地上线”","textPreview":"第09课｜从“Demo能跑”到“有依据地上线”","textChars":23,"textLines":1,"bbox":[82,392,760,46]}
+{"kind":"shape","id":"sh/ip47q9gj","slide":1,"bbox":[82,490,260,6]}
+{"kind":"textbox","id":"sh/5sf61oza","slide":1,"text":"EVAL · BAD CASE · REGRESSION · DATA LOOP","textPreview":"EVAL · BAD CASE · REGRESSION · DATA LOOP","textChars":40,"textLines":1,"bbox":[82,520,700,26]}
+{"kind":"textbox","id":"sh/krmpsjyp","slide":1,"text":"09","textPreview":"09","textChars":2,"textLines":1,"bbox":[1000,486,160,110]}
+{"kind":"notes","id":"nt/z6lhg5","slide":1,"text":"[Sources]\n- /Users/keivn/Project/AI-Course/准备材料/参考课程/知乎AI课程/正课/27.【测试与数据】大模型产品开发中的数据准备与反馈闭环.pdf（参考页：1）\n- /Users/keivn/Project/AI-Course/准备材料/参考课程/知乎AI课程/正课/录音/27.【测试与数据】大模型产品开发中的数据准备与反馈闭环_原文.docx\n- /Users/keivn/Project/AI-Course/课程生产/第一阶段/第09课_AI产品测试、指标与Bad Case_重做工作区/第09课_课程设计与老师稿.md"}
+{"kind":"slide","id":"sl/0yo6wh","slide":2,"title":"AI PRODUCT · WHY EVAL","textShapes":4}
+{"kind":"textbox","id":"sh/t0j65k3y","slide":2,"text":"AI PRODUCT · WHY EVAL","textPreview":"AI PRODUCT · WHY EVAL","textChars":21,"textLines":1,"bbox":[68,28,300,22]}
+{"kind":"textbox","id":"sh/6xs7u5kn","slide":2,"text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[1170,28,42,22]}
+{"kind":"shape","id":"sh/7y1o3al8","slide":2,"bbox":[68,680,1144,2]}
+{"kind":"shape","id":"sh/kvq5sv2h","slide":2,"bbox":[68,680,32.69,2]}
+{"kind":"textbox","id":"sh/5wj61032","slide":2,"name":"slide-title","text":"Demo跑通，为什么还不能上线？","textPreview":"Demo跑通，为什么还不能上线？","textChars":16,"textLines":1,"bbox":[68,78,1110,68]}
+{"kind":"textbox","id":"sh/it8nq5kb","slide":2,"name":"slide-lead","text":"因为一次漂亮回答，无法代表真实用户、真实边界和真实版本。","textPreview":"因为一次漂亮回答，无法代表真实用户、真实边界和真实版本。","textChars":28,"textLines":1,"bbox":[70,152,1080,58]}
+{"kind":"notes","id":"nt/0yo6wh","slide":2,"text":"[Sources]\n- /Users/keivn/Project/AI-Course/准备材料/参考课程/知乎AI课程/正课/27.【测试与数据】大模型产品开发中的数据准备与反馈闭环.pdf（参考页：14–16、25）\n- /Users/keivn/Project/AI-Course/准备材料/参考课程/知乎AI课程/正课/录音/27.【测试与数据】大模型产品开发中的数据准备与反馈闭环_原文.docx\n- /Users/keivn/Project/AI-Course/课程生产/第一阶段/第09课_AI产品测试、指标与Bad Case_重做工作区/第09课_课程设计与老师稿.md"}
+{"kind":"slide","id":"sl/yv33mx","slide":3,"title":"AI PRODUCT · WHY EVAL","textShapes":5}
+{"kind":"textbox","id":"sh/y5crel4j","slide":3,"text":"AI PRODUCT · WHY EVAL","textPreview":"AI PRODUCT · WHY EVAL","textChars":21,"textLines":1,"bbox":[68,28,300,22]}
+{"kind":"textbox","id":"sh/l8nqp03a","slide":3,"text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[1170,28,42,22]}
+{"kind":"shape","id":"sh/k7e9gvmp","slide":3,"bbox":[68,680,1144,2]}
+{"kind":"shape","id":"sh/7a58ralg","slide":3,"bbox":[68,680,49.03,2]}
+{"kind":"textbox","id":"sh/m9wri54v","slide":3,"name":"slide-title","text":"一次正确，只能证明这一次正确","textPreview":"一次正确，只能证明这一次正确","textChars":14,"textLines":1,"bbox":[68,78,1110,68]}
+{"kind":"shape","id":"sh/9wnat036","slide":3,"bbox":[70,250,8,245]}
+{"kind":"textbox","id":"sh/8ve9kvm1","slide":3,"text":"从单点演示，转向成组评测","textPreview":"从单点演示，转向成组评测","textChars":12,"textLines":1,"bbox":[120,285,990,140]}
+{"kind":"textbox","id":"sh/vypsvalc","slide":3,"text":"AI输出具有概率性；产品要验证的是一组场景下的稳定表现。","textPreview":"AI输出具有概率性；产品要验证的是一组场景下的稳定表现。","textChars":28,"textLines":1,"bbox":[120,445,980,80]}
+{"kind":"notes","id":"nt/yv33mx","slide":3,"text":"[Sources]\n- /Users/keivn/Project/AI-Course/准备材料/参考课程/知乎AI课程/正课/27.【测试与数据】大模型产品开发中的数据准备与反馈闭环.pdf（参考页：25）\n- /Users/keivn/Project/AI-Course/准备材料/参考课程/知乎AI课程/正课/录音/27.【测试与数据】大模型产品开发中的数据准备与反馈闭环_原文.docx\n- /Users/keivn/Project/AI-Course/课程生产/第一阶段/第09课_AI产品测试、指标与Bad Case_重做工作区/第09课_课程设计与老师稿.md"}
+{"kind":"slide","id":"sl/m0h6qd","slide":4,"title":"AI PRODUCT · WHY EVAL","textShapes":15}
+{"kind":"textbox","id":"sh/gny1srid","slide":4,"text":"AI PRODUCT · WHY EVAL","textPreview":"AI PRODUCT · WHY EVAL","textChars":21,"textLines":1,"bbox":[68,28,300,22]}
+{"kind":"textbox","id":"sh/vmpkzm1s","slide":4,"text":"04","textPreview":"04","textChars":2,"textLines":1,"bbox":[1170,28,42,22]}
+{"kind":"shape","id":"sh/ulgjqh07","slide":4,"bbox":[68,680,1144,2]}
+{"kind":"shape","id":"sh/5sr25wja","slide":4,"bbox":[68,680,65.37,2]}
+{"kind":"textbox","id":"sh/4ri1wrip","slide":4,"name":"slide-title","text":"AI产品评测的是完整版本组合","textPreview":"AI产品评测的是完整版本组合","textChars":14,"textLines":1,"bbox":[68,78,1110,68]}
+{"kind":"textbox","id":"sh/3q9k3m14","slide":4,"name":"slide-lead","text":"任何一层变化，都可能改变最终输出。","textPreview":"任何一层变化，都可能改变最终输出。","textChars":17,"textLines":1,"bbox":[70,152,1080,58]}
+{"kind":"shape","id":"sh/ip0juh0j","slide":4,"bbox":[280.8,345,32,30]}
+{"kind":"shape","id":"sh/dgb29wj6","slide":4,"bbox":[72,300,212.8,120]}
+{"kind":"textbox","id":"sh/cfi10bil","slide":4,"text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[86,314,40,24]}
+{"kind":"textbox","id":"sh/yhonyx4z","slide":4,"text":"模型版本","textPreview":"模型版本","textChars":4,"textLines":1,"bbox":[84,353,188.8,48]}
+{"kind":"shape","id":"sh/zixor25k","slide":4,"bbox":[511.6,345,32,30]}
+{"kind":"shape","id":"sh/kjq507m5","slide":4,"bbox":[302.8,300,212.8,120]}
+{"kind":"textbox","id":"sh/lkz6tcnq","slide":4,"text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[316.8,314,40,24]}
+{"kind":"textbox","id":"sh/ml8n2h4b","slide":4,"text":"System Prompt","textPreview":"System Prompt","textChars":13,"textLines":1,"bbox":[314.8,353,188.8,48]}
+{"kind":"shape","id":"sh/7mhovm5w","slide":4,"bbox":[742.4,345,32,30]}
+{"kind":"shape","id":"sh/8nq547mh","slide":4,"bbox":[533.6,300,212.8,120]}
+{"kind":"textbox","id":"sh/98z6xcnm","slide":4,"text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[547.6,314,40,24]}
+{"kind":"textbox","id":"sh/2p4nqd47","slide":4,"text":"知识库","textPreview":"知识库","textChars":3,"textLines":1,"bbox":[545.6,353,188.8,48]}
+{"kind":"shape","id":"sh/3qd4ji5c","slide":4,"bbox":[973.2,345,32,30]}
+{"kind":"shape","id":"sh/rutkrel4","slide":4,"bbox":[764.4,300,212.8,120]}
+{"kind":"textbox","id":"sh/6tk3y9kz","slide":4,"text":"04","textPreview":"04","textChars":2,"textLines":1,"bbox":[778.4,314,40,24]}
+{"kind":"textbox","id":"sh/twb2to3a","slide":4,"text":"工作流","textPreview":"工作流","textChars":3,"textLines":1,"bbox":[776.4,353,188.8,48]}
+{"kind":"shape","id":"sh/sv2l0j2p","slide":4,"bbox":[995.2,300,212.8,120]}
+{"kind":"textbox","id":"sh/jq9knel8","slide":4,"text":"05","textPreview":"05","textChars":2,"textLines":1,"bbox":[1009.2,314,40,24]}
+{"kind":"textbox","id":"sh/ip0ju9kn","slide":4,"text":"工具/API","textPreview":"工具/API","textChars":6,"textLines":1,"bbox":[1007.2,353,188.8,48]}
+{"kind":"textbox","id":"sh/5sb2p43e","slide":4,"text":"评测结论必须绑定版本，而不是只写“模型效果不错”。","textPreview":"评测结论必须绑定版本，而不是只写“模型效果不错”。","textChars":25,"textLines":1,"bbox":[110,490,1060,55]}
+{"kind":"notes","id":"nt/m0h6qd","slide":4,"text":"[Sources]\n- /Users/keivn/Project/AI-Course/准备材料/参考课程/知乎AI课程/正课/27.【测试与数据】大模型产品开发中的数据准备与反馈闭环.pdf（参考页：25–27）\n- /Users/keivn/Project/AI-Course/准备材料/参考课程/知乎AI课程/正课/录音/27.【测试与数据】大模型产品开发中的数据准备与反馈闭环_原文.docx\n- /Users/keivn/Project/AI-Course/课程生产/第一阶段/第09课_AI产品测试、指标与Bad Case_重做工作区/第09课_课程设计与老师稿.md"}
+{"kind":"slide","id":"sl/cpqdlz","slide":5,"title":"AI PRODUCT · WHY EVAL","textShapes":10}
+{"kind":"textbox","id":"sh/e1cre94v","slide":5,"text":"AI PRODUCT · WHY EVAL","textPreview":"AI PRODUCT · WHY EVAL","textChars":21,"textLines":1,"bbox":[68,28,300,22]}
+{"kind":"textbox","id":"sh/1o3a94n6","slide":5,"text":"05","textPreview":"05","textChars":2,"textLines":1,"bbox":[1170,28,42,22]}
+{"kind":"shape","id":"sh/0nu9gzml","slide":5,"bbox":[68,680,1144,2]}
+{"kind":"shape","id":"sh/ry183u54","slide":5,"bbox":[68,680,81.71,2]}
+{"kind":"textbox","id":"sh/qxsrap4j","slide":5,"name":"slide-title","text":"三个层次，回答三个不同问题","textPreview":"三个层次，回答三个不同问题","textChars":13,"textLines":1,"bbox":[68,78,1110,68]}
+{"kind":"shape","id":"sh/d03a54na","slide":5,"bbox":[74,236,540,5]}
+{"kind":"shape","id":"sh/cza9czmp","slide":5,"bbox":[666,236,540,5]}
+{"kind":"textbox","id":"sh/bu5sfe58","slide":5,"text":"功能验收","textPreview":"功能验收","textChars":4,"textLines":1,"bbox":[74,264,540,45]}
+{"kind":"textbox","id":"sh/atwrmt43","slide":5,"text":"离线评测 × 线上监控","textPreview":"离线评测 × 线上监控","textChars":11,"textLines":1,"bbox":[666,264,540,45]}
+{"kind":"textbox","id":"sh/gj21sbuh","slide":5,"text":"—  流程能不能走通","textPreview":"—  流程能不能走通","textChars":10,"textLines":1,"bbox":[74,330,520,52]}
+{"kind":"textbox","id":"sh/1kbilgv2","slide":5,"text":"—  接口与权限是否正常","textPreview":"—  接口与权限是否正常","textChars":12,"textLines":1,"bbox":[74,396,520,52]}
+{"kind":"textbox","id":"sh/ehkjqlcb","slide":5,"text":"—  固定样本上效果如何","textPreview":"—  固定样本上效果如何","textChars":12,"textLines":1,"bbox":[666,330,520,52]}
+{"kind":"textbox","id":"sh/fit0jqdw","slide":5,"text":"—  真实流量中是否持续稳定","textPreview":"—  真实流量中是否持续稳定","textChars":14,"textLines":1,"bbox":[666,396,520,52]}
+{"kind":"textbox","id":"sh/sf21obu5","slide":5,"text":"上线前测得准，上线后看得住","textPreview":"上线前测得准，上线后看得住","textChars":13,"textLines":1,"bbox":[74,598,1130,38]}
+{"kind":"notes","id":"nt/cpqdlz","slide":5,"text":"[Sources]\n- /Users/keivn/Project/AI-Course/准备材料/参考课程/知乎AI课程/正课/27.【测试与数据】大模型产品开发中的数据准备与反馈闭环.pdf（参考页：27–29）\n- /Users/keivn/Project/AI-Course/准备材料/参考课程/知乎AI课程/正课/录音/27.【测试与数据】大模型产品开发中的数据准备与反馈闭环_原文.docx\n- /Users/keivn/Project/AI-Course/课程生产/第一阶段/第09课_AI产品测试、指标与Bad Case_重做工作区/第09课_课程设计与老师稿.md"}
+{"kind":"slide","id":"sl/tv9m1e","slide":6,"title":"AI PRODUCT · WHY EVAL","textShapes":11}
+{"kind":"textbox","id":"sh/kf69c7uh","slide":6,"text":"AI PRODUCT · WHY EVAL","textPreview":"AI PRODUCT · WHY EVAL","textChars":21,"textLines":1,"bbox":[68,28,300,22]}
+{"kind":"textbox","id":"sh/zexs32tw","slide":6,"text":"06","textPreview":"06","textChars":2,"textLines":1,"bbox":[1170,28,42,22]}
+{"kind":"shape","id":"sh/ydorahcb","slide":6,"bbox":[68,680,1144,2]}
+{"kind":"shape","id":"sh/xcva1cb6","slide":6,"bbox":[68,680,98.06,2]}
+{"kind":"textbox","id":"sh/cbm987ul","slide":6,"name":"slide-title","text":"今天沿着一条产品闭环推进","textPreview":"今天沿着一条产品闭环推进","textChars":12,"textLines":1,"bbox":[68,78,1110,68]}
+{"kind":"shape","id":"sh/bad8z2t0","slide":6,"bbox":[338.5,345,32,30]}
+{"kind":"shape","id":"sh/a94r6xcf","slide":6,"bbox":[72,300,270.5,120]}
+{"kind":"textbox","id":"sh/h8zadwba","slide":6,"text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[86,314,40,24]}
+{"kind":"textbox","id":"sh/g7q9krup","slide":6,"text":"风险动机","textPreview":"风险动机","textChars":4,"textLines":1,"bbox":[84,353,246.5,48]}
+{"kind":"shape","id":"sh/69c7i14f","slide":6,"bbox":[627,345,32,30]}
+{"kind":"shape","id":"sh/7alor6l0","slide":6,"bbox":[360.5,300,270.5,120]}
+{"kind":"textbox","id":"sh/svupkbm5","slide":6,"text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[374.5,314,40,24]}
+{"kind":"textbox","id":"sh/tw3qtg3q","slide":6,"text":"Eval体系","textPreview":"Eval体系","textChars":6,"textLines":1,"bbox":[372.5,353,246.5,48]}
+{"kind":"shape","id":"sh/i5s7e143","slide":6,"bbox":[915.5,345,32,30]}
+{"kind":"shape","id":"sh/j61on65o","slide":6,"bbox":[649,300,270.5,120]}
+{"kind":"textbox","id":"sh/k7upgbm9","slide":6,"text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[663,314,40,24]}
+{"kind":"textbox","id":"sh/5836pgnu","slide":6,"text":"Bad Case与回归","textPreview":"Bad Case与回归","textChars":11,"textLines":1,"bbox":[661,353,246.5,48]}
+{"kind":"shape","id":"sh/21w7q54n","slide":6,"bbox":[937.5,300,270.5,120]}
+{"kind":"textbox","id":"sh/3258zqls","slide":6,"text":"04","textPreview":"04","textChars":2,"textLines":1,"bbox":[951.5,314,40,24]}
+{"kind":"textbox","id":"sh/z6x4bilk","slide":6,"text":"数据反馈闭环","textPreview":"数据反馈闭环","textChars":6,"textLines":1,"bbox":[949.5,353,246.5,48]}
+{"kind":"notes","id":"nt/tv9m1e","slide":6,"text":"[Sources]\n- /Users/keivn/Project/AI-Course/准备材料/参考课程/知乎AI课程/正课/27.【测试与数据】大模型产品开发中的数据准备与反馈闭环.pdf（参考页：9、24、72）\n- /Users/keivn/Project/AI-Course/准备材料/参考课程/知乎AI课程/正课/录音/27.【测试与数据】大模型产品开发中的数据准备与反馈闭环_原文.docx\n- /Users/keivn/Project/AI-Course/课程生产/第一阶段/第09课_AI产品测试、指标与Bad Case_重做工作区/第09课_课程设计与老师稿.md"}
+{"kind":"slide","id":"sl/15e529","slide":7,"title":"AI PRODUCT · WHY EVAL","textShapes":5}
+{"kind":"textbox","id":"sh/h4fuxgba","slide":7,"text":"AI PRODUCT · WHY EVAL","textPreview":"AI PRODUCT · WHY EVAL","textChars":21,"textLines":1,"bbox":[68,28,300,22]}
+{"kind":"textbox","id":"sh/u14b21cj","slide":7,"text":"07","textPreview":"07","textChars":2,"textLines":1,"bbox":[1170,28,42,22]}
+{"kind":"shape","id":"sh/v2dcv6t4","slide":7,"bbox":[68,680,1144,2]}
+{"kind":"shape","id":"sh/4r6d8bul","slide":7,"bbox":[68,680,114.4,2]}
+{"kind":"textbox","id":"sh/psfu1gb6","slide":7,"name":"slide-title","text":"幻觉不是“偶尔说错”","textPreview":"幻觉不是“偶尔说错”","textChars":10,"textLines":1,"bbox":[68,78,1110,68]}
+{"kind":"shape","id":"sh/25ov6lcv","slide":7,"bbox":[70,250,8,245]}
+{"kind":"textbox","id":"sh/36xczqtg","slide":7,"text":"可接受的产品，不等于永不出错；而是错误可发现、可拦截、可追踪。","textPreview":"可接受的产品，不等于永不出错；而是错误可发现、可拦截、可追踪。","textChars":31,"textLines":1,"bbox":[120,285,990,140]}
+{"kind":"textbox","id":"sh/cvqdcvux","slide":7,"text":"当答案进入客服、营销、医疗、金融或企业流程，错误会变成业务不可控。","textPreview":"当答案进入客服、营销、医疗、金融或企业流程，错误会变成业务不可控。","textChars":33,"textLines":1,"bbox":[120,445,980,80]}
+{"kind":"notes","id":"nt/15e529","slide":7,"text":"[Sources]\n- /Users/keivn/Project/AI-Course/准备材料/参考课程/知乎AI课程/正课/27.【测试与数据】大模型产品开发中的数据准备与反馈闭环.pdf（参考页：17、20）\n- /Users/keivn/Project/AI-Course/准备材料/参考课程/知乎AI课程/正课/录音/27.【测试与数据】大模型产品开发中的数据准备与反馈闭环_原文.docx\n- /Users/keivn/Project/AI-Course/课程生产/第一阶段/第09课_AI产品测试、指标与Bad Case_重做工作区/第09课_课程设计与老师稿.md"}
+{"kind":"slide","id":"sl/5lejfj","slide":8,"title":"AI PRODUCT · WHY EVAL","textShapes":10}
+{"kind":"textbox","id":"sh/oru98n29","slide":8,"text":"AI PRODUCT · WHY EVAL","textPreview":"AI PRODUCT · WHY EVAL","textChars":21,"textLines":1,"bbox":[68,28,300,22]}
+{"kind":"textbox","id":"sh/nql8f21o","slide":8,"text":"08","textPreview":"08","textChars":2,"textLines":1,"bbox":[1170,28,42,22]}
+{"kind":"shape","id":"sh/2pcr6xk3","slide":8,"bbox":[68,680,1144,2]}
+{"kind":"shape","id":"sh/143qdsji","slide":8,"bbox":[68,680,130.74,2]}
+{"kind":"textbox","id":"sh/03a94n2d","slide":8,"name":"slide-title","text":"一次错误，也可能成为一次事故","textPreview":"一次错误，也可能成为一次事故","textChars":14,"textLines":1,"bbox":[68,78,1110,68]}
+{"kind":"textbox","id":"sh/f218bi1s","slide":8,"name":"slide-lead","text":"错误的严重度，不由“错误率”单独决定。","textPreview":"错误的严重度，不由“错误率”单独决定。","textChars":19,"textLines":1,"bbox":[70,152,1080,58]}
+{"kind":"textbox","id":"sh/e1sr2dk7","slide":8,"text":"—","textPreview":"—","textChars":1,"textLines":1,"bbox":[76,226,54,38]}
+{"kind":"textbox","id":"sh/l0napcj2","slide":8,"text":"高频问题答错：持续侵蚀信任","textPreview":"高频问题答错：持续侵蚀信任","textChars":13,"textLines":1,"bbox":[140,224,1010,50]}
+{"kind":"textbox","id":"sh/kze9g72h","slide":8,"text":"—","textPreview":"—","textChars":1,"textLines":1,"bbox":[76,304,54,38]}
+{"kind":"textbox","id":"sh/q1kz6h0n","slide":8,"text":"低频高风险问题答错：直接触发合规或资金损失","textPreview":"低频高风险问题答错：直接触发合规或资金损失","textChars":21,"textLines":1,"bbox":[140,302,1010,50]}
+{"kind":"textbox","id":"sh/r2t0zm18","slide":8,"text":"—","textPreview":"—","textChars":1,"textLines":1,"bbox":[76,382,54,38]}
+{"kind":"textbox","id":"sh/s32h8rid","slide":8,"text":"语气看似确定：让用户更难识别风险","textPreview":"语气看似确定：让用户更难识别风险","textChars":16,"textLines":1,"bbox":[140,380,1010,50]}
+{"kind":"notes","id":"nt/5lejfj","slide":8,"text":"[Sources]\n- /Users/keivn/Project/AI-Course/准备材料/参考课程/知乎AI课程/正课/27.【测试与数据】大模型产品开发中的数据准备与反馈闭环.pdf（参考页：18）\n- /Users/keivn/Project/AI-Course/准备材料/参考课程/知乎AI课程/正课/录音/27.【测试与数据】大模型产品开发中的数据准备与反馈闭环_原文.docx\n- /Users/keivn/Project/AI-Course/课程生产/第一阶段/第09课_AI产品测试、指标与Bad Case_重做工作区/第09课_课程设计与老师稿.md"}
+{"kind":"slide","id":"sl/ayg8gi","slide":9,"title":"AI PRODUCT · WHY EVAL","textShapes":12}
+{"kind":"textbox","id":"sh/1cvihoba","slide":9,"text":"AI PRODUCT · WHY EVAL","textPreview":"AI PRODUCT · WHY EVAL","textChars":21,"textLines":1,"bbox":[68,28,300,22]}
+{"kind":"textbox","id":"sh/e9kj6tcz","slide":9,"text":"09","textPreview":"09","textChars":2,"textLines":1,"bbox":[1170,28,42,22]}
+{"kind":"shape","id":"sh/fat0fytk","slide":9,"bbox":[68,680,1144,2]}
+{"kind":"shape","id":"sh/s7214jut","slide":9,"bbox":[68,680,147.09,2]}
+{"kind":"textbox","id":"sh/d8bidobe","slide":9,"name":"slide-title","text":"三类典型幻觉，分别怎么错","textPreview":"三类典型幻觉，分别怎么错","textChars":12,"textLines":1,"bbox":[68,78,1110,68]}
+{"kind":"textbox","id":"sh/qlkj29cn","slide":9,"text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[72,240,52,30]}
+{"kind":"shape","id":"sh/rmt0bet8","slide":9,"bbox":[72,282,362.67,3]}
+{"kind":"textbox","id":"sh/4jih0zux","slide":9,"text":"事实幻觉","textPreview":"事实幻觉","textChars":4,"textLines":1,"bbox":[72,305,352.67,48]}
+{"kind":"textbox","id":"sh/5kbi94b2","slide":9,"text":"编造不存在的政策、价格、数据或出处","textPreview":"编造不存在的政策、价格、数据或出处","textChars":17,"textLines":1,"bbox":[72,360,346.67,76]}
+{"kind":"textbox","id":"sh/pgzap8zu","slide":9,"text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[458.67,240,52,30]}
+{"kind":"shape","id":"sh/ofqtg3y9","slide":9,"bbox":[458.67,282,362.67,3]}
+{"kind":"textbox","id":"sh/3ehsnyho","slide":9,"text":"指令幻觉","textPreview":"指令幻觉","textChars":4,"textLines":1,"bbox":[458.67,305,352.67,48]}
+{"kind":"textbox","id":"sh/2d8betg3","slide":9,"text":"没有遵守限制条件，擅自承诺或执行","textPreview":"没有遵守限制条件，擅自承诺或执行","textChars":16,"textLines":1,"bbox":[458.67,360,346.67,76]}
+{"kind":"textbox","id":"sh/hczalozi","slide":9,"text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[845.33,240,52,30]}
+{"kind":"shape","id":"sh/gbqtcjyx","slide":9,"bbox":[845.33,282,362.67,3]}
+{"kind":"textbox","id":"sh/fahsjehc","slide":9,"text":"上下文幻觉","textPreview":"上下文幻觉","textChars":5,"textLines":1,"bbox":[845.33,305,352.67,48]}
+{"kind":"textbox","id":"sh/u9oba9gr","slide":9,"text":"忽略当前会话、用户身份或前置条件","textPreview":"忽略当前会话、用户身份或前置条件","textChars":16,"textLines":1,"bbox":[845.33,360,346.67,76]}
+{"kind":"notes","id":"nt/ayg8gi","slide":9,"text":"[Sources]\n- /Users/keivn/Project/AI-Course/准备材料/参考课程/知乎AI课程/正课/27.【测试与数据】大模型产品开发中的数据准备与反馈闭环.pdf（参考页：19）\n- /Users/keivn/Project/AI-Course/准备材料/参考课程/知乎AI课程/正课/录音/27.【测试与数据】大模型产品开发中的数据准备与反馈闭环_原文.docx\n- /Users/keivn/Project/AI-Course/课程生产/第一阶段/第09课_AI产品测试、指标与Bad Case_重做工作区/第09课_课程设计与老师稿.md"}
+{"kind":"slide","id":"sl/g1a8zp","slide":10,"title":"AI PRODUCT · WHY EVAL","textShapes":5}
+{"kind":"textbox","id":"sh/fel4z69w","slide":10,"text":"AI PRODUCT · WHY EVAL","textPreview":"AI PRODUCT · WHY EVAL","textChars":21,"textLines":1,"bbox":[68,28,300,22]}
+{"kind":"textbox","id":"sh/gful8ba1","slide":10,"text":"10","textPreview":"10","textChars":2,"textLines":1,"bbox":[1170,28,42,22]}
+{"kind":"shape","id":"sh/hg3m1grm","slide":10,"bbox":[68,680,1144,2]}
+{"kind":"shape","id":"sh/2hc3als7","slide":10,"bbox":[68,680,163.43,2]}
+{"kind":"textbox","id":"sh/3il43q9s","slide":10,"name":"slide-title","text":"商业产品最怕的，是不知道何时会错","textPreview":"商业产品最怕的，是不知道何时会错","textChars":16,"textLines":1,"bbox":[68,78,1110,68]}
+{"kind":"shape","id":"sh/4ju5cbad","slide":10,"bbox":[70,250,8,245]}
+{"kind":"textbox","id":"sh/pk3m5gry","slide":10,"text":"评测的价值：把“感觉不稳定”变成可讨论的证据。","textPreview":"评测的价值：把“感觉不稳定”变成可讨论的证据。","textChars":23,"textLines":1,"bbox":[120,285,990,140]}
+{"kind":"textbox","id":"sh/il83yhs3","slide":10,"text":"如果错误不可预测、不可观测、不可复现，团队就无法决定是否上线。","textPreview":"如果错误不可预测、不可观测、不可复现，团队就无法决定是否上线。","textChars":31,"textLines":1,"bbox":[120,445,980,80]}
+{"kind":"notes","id":"nt/g1a8zp","slide":10,"text":"[Sources]\n- /Users/keivn/Project/AI-Course/准备材料/参考课程/知乎AI课程/正课/27.【测试与数据】大模型产品开发中的数据准备与反馈闭环.pdf（参考页：20）\n- /Users/keivn/Project/AI-Course/准备材料/参考课程/知乎AI课程/正课/录音/27.【测试与数据】大模型产品开发中的数据准备与反馈闭环_原文.docx\n- /Users/keivn/Project/AI-Course/课程生产/第一阶段/第09课_AI产品测试、指标与Bad Case_重做工作区/第09课_课程设计与老师稿.md"}
+{"kind":"slide","id":"sl/ep87nm","slide":11,"title":"AI PRODUCT · WHY EVAL","textShapes":14}
+{"kind":"textbox","id":"sh/p0jel8ny","slide":11,"text":"AI PRODUCT · WHY EVAL","textPreview":"AI PRODUCT · WHY EVAL","textChars":21,"textLines":1,"bbox":[68,28,300,22]}
+{"kind":"textbox","id":"sh/2xsfat4n","slide":11,"text":"11","textPreview":"11","textChars":2,"textLines":1,"bbox":[1170,28,42,22]}
+{"kind":"shape","id":"sh/ny1wjy58","slide":11,"bbox":[68,680,1144,2]}
+{"kind":"shape","id":"sh/c3axgnmp","slide":11,"bbox":[68,680,179.77,2]}
+{"kind":"textbox","id":"sh/x43ep8na","slide":11,"name":"slide-title","text":"五道防线：让风险逐层收敛","textPreview":"五道防线：让风险逐层收敛","textChars":12,"textLines":1,"bbox":[68,78,1110,68]}
+{"kind":"shape","id":"sh/a1sfed4j","slide":11,"bbox":[280.8,345,32,30]}
+{"kind":"shape","id":"sh/b21wni54","slide":11,"bbox":[72,300,212.8,120]}
+{"kind":"textbox","id":"sh/s7qd4j6l","slide":11,"text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[86,314,40,24]}
+{"kind":"textbox","id":"sh/d8zedonq","slide":11,"text":"数据与知识","textPreview":"数据与知识","textChars":5,"textLines":1,"bbox":[84,353,188.8,48]}
+{"kind":"shape","id":"sh/hszudw7e","slide":11,"bbox":[511.6,345,32,30]}
+{"kind":"shape","id":"sh/wrqdkrq9","slide":11,"bbox":[302.8,300,212.8,120]}
+{"kind":"textbox","id":"sh/vqhcbmpo","slide":11,"text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[316.8,314,40,24]}
+{"kind":"textbox","id":"sh/up8vih83","slide":11,"text":"Prompt与规则","textPreview":"Prompt与规则","textChars":9,"textLines":1,"bbox":[314.8,353,188.8,48]}
+{"kind":"shape","id":"sh/5wjuhw7q","slide":11,"bbox":[742.4,345,32,30]}
+{"kind":"shape","id":"sh/4vqdorq5","slide":11,"bbox":[533.6,300,212.8,120]}
+{"kind":"textbox","id":"sh/juhcf6pk","slide":11,"text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[547.6,314,40,24]}
+{"kind":"textbox","id":"sh/it8vm18z","slide":11,"text":"模型与工具","textPreview":"模型与工具","textChars":5,"textLines":1,"bbox":[545.6,353,188.8,48]}
+{"kind":"shape","id":"sh/tkjelg7m","slide":11,"bbox":[973.2,345,32,30]}
+{"kind":"shape","id":"sh/sjadsbqh","slide":11,"bbox":[764.4,300,212.8,120]}
+{"kind":"textbox","id":"sh/c3ixofyd","slide":11,"text":"04","textPreview":"04","textChars":2,"textLines":1,"bbox":[778.4,314,40,24]}
+{"kind":"textbox","id":"sh/d4rehkfy","slide":11,"text":"输出校验","textPreview":"输出校验","textChars":4,"textLines":1,"bbox":[776.4,353,188.8,48]}
+{"kind":"shape","id":"sh/q10fmpg7","slide":11,"bbox":[995.2,300,212.8,120]}
+{"kind":"textbox","id":"sh/r29wfaxs","slide":11,"text":"05","textPreview":"05","textChars":2,"textLines":1,"bbox":[1009.2,314,40,24]}
+{"kind":"textbox","id":"sh/0rixszep","slide":11,"text":"人工兜底","textPreview":"人工兜底","textChars":4,"textLines":1,"bbox":[1007.2,353,188.8,48]}
+{"kind":"textbox","id":"sh/lsbyl4fu","slide":11,"text":"本课聚焦：如何用评测判断这些防线是否真的有效。","textPreview":"本课聚焦：如何用评测判断这些防线是否真的有效。","textChars":23,"textLines":1,"bbox":[110,490,1060,55]}
+{"kind":"notes","id":"nt/ep87nm","slide":11,"text":"[Sources]\n- /Users/keivn/Project/AI-Course/准备材料/参考课程/知乎AI课程/正课/27.【测试与数据】大模型产品开发中的数据准备与反馈闭环.pdf（参考页：21）\n- /Users/keivn/Project/AI-Course/准备材料/参考课程/知乎AI课程/正课/录音/27.【测试与数据】大模型产品开发中的数据准备与反馈闭环_原文.docx\n- /Users/keivn/Project/AI-Course/课程生产/第一阶段/第09课_AI产品测试、指标与Bad Case_重做工作区/第09课_课程设计与老师稿.md"}
+{"kind":"slide","id":"sl/np2udx","slide":12,"title":"AI PRODUCT · WHY EVAL","textShapes":13}
+{"kind":"textbox","id":"sh/r69wn6xc","slide":12,"text":"AI PRODUCT · WHY EVAL","textPreview":"AI PRODUCT · WHY EVAL","textChars":21,"textLines":1,"bbox":[68,28,300,22]}
+{"kind":"textbox","id":"sh/s7idwbex","slide":12,"text":"12","textPreview":"12","textChars":2,"textLines":1,"bbox":[1170,28,42,22]}
+{"kind":"shape","id":"sh/t8repgfi","slide":12,"bbox":[68,680,1144,2]}
+{"kind":"shape","id":"sh/et0vylw3","slide":12,"bbox":[68,680,196.11,2]}
+{"kind":"textbox","id":"sh/fu9wrqxo","slide":12,"name":"slide-title","text":"客服场景，先列风险再设计用例","textPreview":"客服场景，先列风险再设计用例","textChars":14,"textLines":1,"bbox":[68,78,1110,68]}
+{"kind":"textbox","id":"sh/gv2dkve9","slide":12,"text":"—","textPreview":"—","textChars":1,"textLines":1,"bbox":[76,226,54,38]}
+{"kind":"textbox","id":"sh/1wbet0ve","slide":12,"text":"虚构退款、促销或物流政策","textPreview":"虚构退款、促销或物流政策","textChars":12,"textLines":1,"bbox":[140,224,1010,50]}
+{"kind":"textbox","id":"sh/2xkvm5wz","slide":12,"text":"—","textPreview":"—","textChars":1,"textLines":1,"bbox":[76,298,54,38]}
+{"kind":"textbox","id":"sh/3ytwvqdk","slide":12,"text":"未核验身份就泄露订单信息","textPreview":"未核验身份就泄露订单信息","textChars":12,"textLines":1,"bbox":[140,296,1010,50]}
+{"kind":"textbox","id":"sh/vyd4raxg","slide":12,"text":"—","textPreview":"—","textChars":1,"textLines":1,"bbox":[76,370,54,38]}
+{"kind":"textbox","id":"sh/ux43y5wv","slide":12,"text":"越权承诺赔付或到账时间","textPreview":"越权承诺赔付或到账时间","textChars":11,"textLines":1,"bbox":[140,368,1010,50]}
+{"kind":"textbox","id":"sh/h0fmtkfm","slide":12,"text":"—","textPreview":"—","textChars":1,"textLines":1,"bbox":[76,442,54,38]}
+{"kind":"textbox","id":"sh/wz6l0fe1","slide":12,"text":"情绪激化、攻击性或歧视性表达","textPreview":"情绪激化、攻击性或歧视性表达","textChars":14,"textLines":1,"bbox":[140,440,1010,50]}
+{"kind":"textbox","id":"sh/7ad4naxk","slide":12,"text":"—","textPreview":"—","textChars":1,"textLines":1,"bbox":[76,514,54,38]}
+{"kind":"textbox","id":"sh/m943u5gz","slide":12,"text":"没有答案时仍强行作答","textPreview":"没有答案时仍强行作答","textChars":10,"textLines":1,"bbox":[140,512,1010,50]}
+{"kind":"notes","id":"nt/np2udx","slide":12,"text":"[Sources]\n- /Users/keivn/Project/AI-Course/准备材料/参考课程/知乎AI课程/正课/27.【测试与数据】大模型产品开发中的数据准备与反馈闭环.pdf（参考页：22）\n- /Users/keivn/Project/AI-Course/准备材料/参考课程/知乎AI课程/正课/录音/27.【测试与数据】大模型产品开发中的数据准备与反馈闭环_原文.docx\n- /Users/keivn/Project/AI-Course/课程生产/第一阶段/第09课_AI产品测试、指标与Bad Case_重做工作区/第09课_课程设计与老师稿.md"}
+{"kind":"slide","id":"sl/92bksq","slide":13,"title":"AI PRODUCT · WHY EVAL","textShapes":12}
+{"kind":"textbox","id":"sh/6tg7m547","slide":13,"text":"AI PRODUCT · WHY EVAL","textPreview":"AI PRODUCT · WHY EVAL","textChars":21,"textLines":1,"bbox":[68,28,300,22]}
+{"kind":"textbox","id":"sh/twrqxkni","slide":13,"text":"13","textPreview":"13","textChars":2,"textLines":1,"bbox":[1170,28,42,22]}
+{"kind":"shape","id":"sh/svipofmx","slide":13,"bbox":[68,680,1144,2]}
+{"kind":"shape","id":"sh/fy98zu5o","slide":13,"bbox":[68,680,212.46,2]}
+{"kind":"textbox","id":"sh/ux07qp43","slide":13,"name":"slide-title","text":"三个常见误区，会让评测失真","textPreview":"三个常见误区，会让评测失真","textChars":13,"textLines":1,"bbox":[68,78,1110,68]}
+{"kind":"textbox","id":"sh/h0rq1k3u","slide":13,"text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[72,240,52,30]}
+{"kind":"shape","id":"sh/gzipsfm9","slide":13,"bbox":[72,282,362.67,3]}
+{"kind":"textbox","id":"sh/32t83ulk","slide":13,"text":"只测正常问题","textPreview":"只测正常问题","textChars":6,"textLines":1,"bbox":[72,305,352.67,48]}
+{"kind":"textbox","id":"sh/210rup4f","slide":13,"text":"边界、异常和高风险样本被遗漏","textPreview":"边界、异常和高风险样本被遗漏","textChars":14,"textLines":1,"bbox":[72,360,346.67,76]}
+{"kind":"textbox","id":"sh/k7m90nul","slide":13,"text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[458.67,240,52,30]}
+{"kind":"shape","id":"sh/lsfatsb6","slide":13,"bbox":[458.67,282,362.67,3]}
+{"kind":"textbox","id":"sh/y54rydcf","slide":13,"text":"只看平均分","textPreview":"只看平均分","textChars":5,"textLines":1,"bbox":[458.67,305,352.67,48]}
+{"kind":"textbox","id":"sh/j6d8rit0","slide":13,"text":"严重错误被大量普通样本稀释","textPreview":"严重错误被大量普通样本稀释","textChars":13,"textLines":1,"bbox":[458.67,360,346.67,76]}
+{"kind":"textbox","id":"sh/8v694nuh","slide":13,"text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[845.33,240,52,30]}
+{"kind":"shape","id":"sh/twfaxsb2","slide":13,"bbox":[845.33,282,362.67,3]}
+{"kind":"textbox","id":"sh/6tor2xcb","slide":13,"text":"改完只测原题","textPreview":"改完只测原题","textChars":6,"textLines":1,"bbox":[845.33,305,352.67,48]}
+{"kind":"textbox","id":"sh/7uxsv2tw","slide":13,"text":"修复一个问题，却可能伤到其他能力","textPreview":"修复一个问题，却可能伤到其他能力","textChars":16,"textLines":1,"bbox":[845.33,360,346.67,76]}
+{"kind":"notes","id":"nt/92bksq","slide":13,"text":"[Sources]\n- /Users/keivn/Project/AI-Course/准备材料/参考课程/知乎AI课程/正课/27.【测试与数据】大模型产品开发中的数据准备与反馈闭环.pdf（参考页：23）\n- /Users/keivn/Project/AI-Course/准备材料/参考课程/知乎AI课程/正课/录音/27.【测试与数据】大模型产品开发中的数据准备与反馈闭环_原文.docx\n- /Users/keivn/Project/AI-Course/课程生产/第一阶段/第09课_AI产品测试、指标与Bad Case_重做工作区/第09课_课程设计与老师稿.md"}
+{"kind":"slide","id":"sl/64cv2c","slide":14,"title":"AI PRODUCT · WHY EVAL","textShapes":5}
+{"kind":"textbox","id":"sh/ixcratkv","slide":14,"text":"AI PRODUCT · WHY EVAL","textPreview":"AI PRODUCT · WHY EVAL","textChars":21,"textLines":1,"bbox":[68,28,300,22]}
+{"kind":"textbox","id":"sh/5k3a5ojm","slide":14,"text":"14","textPreview":"14","textChars":2,"textLines":1,"bbox":[1170,28,42,22]}
+{"kind":"shape","id":"sh/4ju9c321","slide":14,"bbox":[68,680,1144,2]}
+{"kind":"shape","id":"sh/vu18ze14","slide":14,"bbox":[68,680,228.8,2]}
+{"kind":"textbox","id":"sh/utsr69kz","slide":14,"name":"slide-title","text":"不能保证永不犯错，就要让错误可测","textPreview":"不能保证永不犯错，就要让错误可测","textChars":16,"textLines":1,"bbox":[68,78,1110,68]}
+{"kind":"shape","id":"sh/hw3a1oja","slide":14,"bbox":[70,250,8,245]}
+{"kind":"textbox","id":"sh/wvu98j2p","slide":14,"text":"从“主观体验”进入“Eval体系”","textPreview":"从“主观体验”进入“Eval体系”","textChars":17,"textLines":1,"bbox":[120,285,990,140]}
+{"kind":"textbox","id":"sh/fq5sbi1o","slide":14,"text":"接下来把风险变成样本、指标、门槛和回归机制。","textPreview":"接下来把风险变成样本、指标、门槛和回归机制。","textChars":22,"textLines":1,"bbox":[120,445,980,80]}
+{"kind":"notes","id":"nt/64cv2c","slide":14,"text":"[Sources]\n- /Users/keivn/Project/AI-Course/准备材料/参考课程/知乎AI课程/正课/27.【测试与数据】大模型产品开发中的数据准备与反馈闭环.pdf（参考页：23–24）\n- /Users/keivn/Project/AI-Course/准备材料/参考课程/知乎AI课程/正课/录音/27.【测试与数据】大模型产品开发中的数据准备与反馈闭环_原文.docx\n- /Users/keivn/Project/AI-Course/课程生产/第一阶段/第09课_AI产品测试、指标与Bad Case_重做工作区/第09课_课程设计与老师稿.md"}
+{"kind":"slide","id":"sl/2z8ycp","slide":15,"title":"01","textShapes":5}
+{"kind":"shape","id":"sh/mtwrapcf","slide":15,"bbox":[0,0,1280,720]}
+{"kind":"textbox","id":"sh/9w7a54b6","slide":15,"text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[72,100,240,170]}
+{"kind":"shape","id":"sh/ovy9czul","slide":15,"bbox":[74,300,100,5]}
+{"kind":"textbox","id":"sh/z65szut4","slide":15,"text":"构建AI产品 Eval 体系","textPreview":"构建AI产品 Eval 体系","textChars":14,"textLines":1,"bbox":[72,348,1080,80]}
+{"kind":"textbox","id":"sh/e5wr6pcj","slide":15,"text":"固定题、统一判卷、重复运行","textPreview":"固定题、统一判卷、重复运行","textChars":13,"textLines":1,"bbox":[74,455,940,45]}
+{"kind":"textbox","id":"sh/1sna1kbu","slide":15,"text":"AI PRODUCT · EVAL SYSTEM","textPreview":"AI PRODUCT · EVAL SYSTEM","textChars":24,"textLines":1,"bbox":[68,28,300,22]}
+{"kind":"textbox","id":"sh/0re98fu9","slide":15,"text":"15","textPreview":"15","textChars":2,"textLines":1,"bbox":[1170,28,42,22]}
+{"kind":"shape","id":"sh/jm9sbet8","slide":15,"bbox":[68,680,1144,2]}
+{"kind":"shape","id":"sh/i1gbi9sn","slide":15,"bbox":[68,680,245.14,2]}
+{"kind":"notes","id":"nt/2z8ycp","slide":15,"text":"[Sources]\n- /Users/keivn/Project/AI-Course/准备材料/参考课程/知乎AI课程/正课/27.【测试与数据】大模型产品开发中的数据准备与反馈闭环.pdf（参考页：24）\n- /Users/keivn/Project/AI-Course/准备材料/参考课程/知乎AI课程/正课/录音/27.【测试与数据】大模型产品开发中的数据准备与反馈闭环_原文.docx\n- /Users/keivn/Project/AI-Course/课程生产/第一阶段/第09课_AI产品测试、指标与Bad Case_重做工作区/第09课_课程设计与老师稿.md"}
+{"kind":"slide","id":"sl/feoqhu","slide":16,"title":"AI PRODUCT · EVAL SYSTEM","textShapes":11}
+{"kind":"textbox","id":"sh/g3itcvip","slide":16,"text":"AI PRODUCT · EVAL SYSTEM","textPreview":"AI PRODUCT · EVAL SYSTEM","textChars":24,"textLines":1,"bbox":[68,28,300,22]}
+{"kind":"textbox","id":"sh/v29s3qhk","slide":16,"text":"16","textPreview":"16","textChars":2,"textLines":1,"bbox":[1170,28,42,22]}
+{"kind":"shape","id":"sh/u10ba50z","slide":16,"bbox":[68,680,1144,2]}
+{"kind":"shape","id":"sh/psra9kzm","slide":16,"bbox":[68,680,261.49,2]}
+{"kind":"textbox","id":"sh/4ritgfy1","slide":16,"name":"slide-title","text":"AI测试与传统测试，差异在“答案空间”","textPreview":"AI测试与传统测试，差异在“答案空间”","textChars":19,"textLines":1,"bbox":[68,78,1110,68]}
+{"kind":"shape","id":"sh/369s7ahg","slide":16,"bbox":[74,236,540,5]}
+{"kind":"shape","id":"sh/i50be50v","slide":16,"bbox":[666,236,540,5]}
+{"kind":"textbox","id":"sh/dwbudkzi","slide":16,"text":"传统软件","textPreview":"传统软件","textChars":4,"textLines":1,"bbox":[74,264,540,45]}
+{"kind":"textbox","id":"sh/cv2tkfyx","slide":16,"text":"AI产品","textPreview":"AI产品","textChars":4,"textLines":1,"bbox":[666,264,540,45]}
+{"kind":"textbox","id":"sh/m9kn61kb","slide":16,"text":"—  输入—输出相对确定","textPreview":"—  输入—输出相对确定","textChars":12,"textLines":1,"bbox":[74,330,520,52]}
+{"kind":"textbox","id":"sh/natoz61w","slide":16,"text":"—  Pass / Fail 边界清晰","textPreview":"—  Pass / Fail 边界清晰","textChars":19,"textLines":1,"bbox":[74,396,520,52]}
+{"kind":"textbox","id":"sh/ob258b2h","slide":16,"text":"—  相同版本容易复现","textPreview":"—  相同版本容易复现","textChars":11,"textLines":1,"bbox":[74,462,520,52]}
+{"kind":"textbox","id":"sh/9cb61gj2","slide":16,"text":"—  同一输入可能多种合理答案","textPreview":"—  同一输入可能多种合理答案","textChars":15,"textLines":1,"bbox":[666,330,520,52]}
+{"kind":"textbox","id":"sh/axknalkn","slide":16,"text":"—  质量标准包含主观判断","textPreview":"—  质量标准包含主观判断","textChars":13,"textLines":1,"bbox":[666,396,520,52]}
+{"kind":"textbox","id":"sh/bydo3q1s","slide":16,"text":"—  模型与上下文让结果波动","textPreview":"—  模型与上下文让结果波动","textChars":14,"textLines":1,"bbox":[666,462,520,52]}
+{"kind":"notes","id":"nt/feoqhu","slide":16,"text":"[Sources]\n- /Users/keivn/Project/AI-Course/准备材料/参考课程/知乎AI课程/正课/27.【测试与数据】大模型产品开发中的数据准备与反馈闭环.pdf（参考页：25）\n- /Users/keivn/Project/AI-Course/准备材料/参考课程/知乎AI课程/正课/录音/27.【测试与数据】大模型产品开发中的数据准备与反馈闭环_原文.docx\n- /Users/keivn/Project/AI-Course/课程生产/第一阶段/第09课_AI产品测试、指标与Bad Case_重做工作区/第09课_课程设计与老师稿.md"}
+{"kind":"slide","id":"sl/d6fdek","slide":17,"title":"AI PRODUCT · EVAL SYSTEM","textShapes":12}
+{"kind":"textbox","id":"sh/61gr2dkn","slide":17,"text":"AI PRODUCT · EVAL SYSTEM","textPreview":"AI PRODUCT · EVAL SYSTEM","textChars":24,"textLines":1,"bbox":[68,28,300,22]}
+{"kind":"textbox","id":"sh/t47axsje","slide":17,"text":"17","textPreview":"17","textChars":2,"textLines":1,"bbox":[1170,28,42,22]}
+{"kind":"shape","id":"sh/s3y94nit","slide":17,"bbox":[68,680,1144,2]}
+{"kind":"shape","id":"sh/f6pszi14","slide":17,"bbox":[68,680,277.83,2]}
+{"kind":"textbox","id":"sh/e5gr6d0j","slide":17,"name":"slide-title","text":"AI测试有四个核心难点","textPreview":"AI测试有四个核心难点","textChars":11,"textLines":1,"bbox":[68,78,1110,68]}
+{"kind":"textbox","id":"sh/187a1sja","slide":17,"text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[72,240,52,30]}
+{"kind":"shape","id":"sh/g7y98nip","slide":17,"bbox":[72,282,556,3]}
+{"kind":"textbox","id":"sh/va58ny10","slide":17,"text":"输出不确定","textPreview":"输出不确定","textChars":5,"textLines":1,"bbox":[72,305,546,48]}
+{"kind":"textbox","id":"sh/a9crutkf","slide":17,"text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[652,240,52,30]}
+{"kind":"shape","id":"sh/07u5ozqp","slide":17,"bbox":[652,282,556,3]}
+{"kind":"textbox","id":"sh/1836h47a","slide":17,"text":"标准不唯一","textPreview":"标准不唯一","textChars":5,"textLines":1,"bbox":[652,305,546,48]}
+{"kind":"textbox","id":"sh/e5cnm98j","slide":17,"text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[72,418,52,30]}
+{"kind":"shape","id":"sh/f6lofep4","slide":17,"bbox":[72,460,556,3]}
+{"kind":"textbox","id":"sh/obe5sjql","slide":17,"text":"覆盖成本高","textPreview":"覆盖成本高","textChars":5,"textLines":1,"bbox":[72,483,546,48]}
+{"kind":"textbox","id":"sh/9cn6lo76","slide":17,"text":"04","textPreview":"04","textChars":2,"textLines":1,"bbox":[652,418,52,30]}
+{"kind":"shape","id":"sh/29cnq98f","slide":17,"bbox":[652,460,556,3]}
+{"kind":"textbox","id":"sh/nalojep0","slide":17,"text":"版本变化快","textPreview":"版本变化快","textChars":5,"textLines":1,"bbox":[652,483,546,48]}
+{"kind":"textbox","id":"sh/4fa5gfqh","slide":17,"text":"解决方案不是找一个万能指标，而是建立组合评测系统。","textPreview":"解决方案不是找一个万能指标，而是建立组合评测系统。","textChars":25,"textLines":1,"bbox":[72,620,1136,36]}
+{"kind":"notes","id":"nt/d6fdek","slide":17,"text":"[Sources]\n- /Users/keivn/Project/AI-Course/准备材料/参考课程/知乎AI课程/正课/27.【测试与数据】大模型产品开发中的数据准备与反馈闭环.pdf（参考页：26）\n- /Users/keivn/Project/AI-Course/准备材料/参考课程/知乎AI课程/正课/录音/27.【测试与数据】大模型产品开发中的数据准备与反馈闭环_原文.docx\n- /Users/keivn/Project/AI-Course/课程生产/第一阶段/第09课_AI产品测试、指标与Bad Case_重做工作区/第09课_课程设计与老师稿.md"}
+{"kind":"slide","id":"sl/kvask8","slide":18,"title":"AI PRODUCT · EVAL SYSTEM","textShapes":15}
+{"kind":"textbox","id":"sh/07ahw7u9","slide":18,"text":"AI PRODUCT · EVAL SYSTEM","textPreview":"AI PRODUCT · EVAL SYSTEM","textChars":24,"textLines":1,"bbox":[68,28,300,22]}
+{"kind":"textbox","id":"sh/z6hgn2to","slide":18,"text":"18","textPreview":"18","textChars":2,"textLines":1,"bbox":[1170,28,42,22]}
+{"kind":"shape","id":"sh/y58zuxc3","slide":18,"bbox":[68,680,1144,2]}
+{"kind":"shape","id":"sh/9cjytwb6","slide":18,"bbox":[68,680,294.17,2]}
+{"kind":"textbox","id":"sh/8bah0rul","slide":18,"name":"slide-title","text":"完整测试地图：六个观察视角","textPreview":"完整测试地图：六个观察视角","textChars":13,"textLines":1,"bbox":[68,78,1110,68]}
+{"kind":"textbox","id":"sh/na1grmt0","slide":18,"text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[72,240,52,30]}
+{"kind":"shape","id":"sh/m9szyhcf","slide":18,"bbox":[72,282,362.67,3]}
+{"kind":"textbox","id":"sh/pgzyhsbm","slide":18,"text":"功能","textPreview":"功能","textChars":2,"textLines":1,"bbox":[72,305,352.67,48]}
+{"kind":"textbox","id":"sh/of6xonu1","slide":18,"text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[458.67,240,52,30]}
+{"kind":"shape","id":"sh/i1wfqdgv","slide":18,"bbox":[458.67,282,362.67,3]}
+{"kind":"textbox","id":"sh/325wzixg","slide":18,"text":"AI任务效果","textPreview":"AI任务效果","textChars":6,"textLines":1,"bbox":[458.67,305,352.67,48]}
+{"kind":"textbox","id":"sh/43exsnyl","slide":18,"text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[845.33,240,52,30]}
+{"kind":"shape","id":"sh/54ne1sf6","slide":18,"bbox":[845.33,282,362.67,3]}
+{"kind":"textbox","id":"sh/q5gfuxgr","slide":18,"text":"可用性","textPreview":"可用性","textChars":3,"textLines":1,"bbox":[845.33,305,352.67,48]}
+{"kind":"textbox","id":"sh/r6pw32xc","slide":18,"text":"04","textPreview":"04","textChars":2,"textLines":1,"bbox":[72,418,52,30]}
+{"kind":"shape","id":"sh/s7yxw7yx","slide":18,"bbox":[72,460,362.67,3]}
+{"kind":"textbox","id":"sh/d87y5sfi","slide":18,"text":"非功能","textPreview":"非功能","textChars":3,"textLines":1,"bbox":[72,483,352.67,48]}
+{"kind":"textbox","id":"sh/e9gfyxg3","slide":18,"text":"05","textPreview":"05","textChars":2,"textLines":1,"bbox":[458.67,418,52,30]}
+{"kind":"shape","id":"sh/fupg72xo","slide":18,"bbox":[458.67,460,362.67,3]}
+{"kind":"textbox","id":"sh/by9wv2dg","slide":18,"text":"鲁棒性","textPreview":"鲁棒性","textChars":3,"textLines":1,"bbox":[458.67,483,352.67,48]}
+{"kind":"textbox","id":"sh/ax0vmxcv","slide":18,"text":"06","textPreview":"06","textChars":2,"textLines":1,"bbox":[845.33,418,52,30]}
+{"kind":"shape","id":"sh/x0rexcvm","slide":18,"bbox":[845.33,460,362.67,3]}
+{"kind":"textbox","id":"sh/czido7u1","slide":18,"text":"安全与伦理","textPreview":"安全与伦理","textChars":5,"textLines":1,"bbox":[845.33,483,352.67,48]}
+{"kind":"notes","id":"nt/kvask8","slide":18,"text":"[Sources]\n- /Users/keivn/Project/AI-Course/准备材料/参考课程/知乎AI课程/正课/27.【测试与数据】大模型产品开发中的数据准备与反馈闭环.pdf（参考页：27）\n- /Users/keivn/Project/AI-Course/准备材料/参考课程/知乎AI课程/正课/录音/27.【测试与数据】大模型产品开发中的数据准备与反馈闭环_原文.docx\n- /Users/keivn/Project/AI-Course/课程生产/第一阶段/第09课_AI产品测试、指标与Bad Case_重做工作区/第09课_课程设计与老师稿.md"}
+{"kind":"slide","id":"sl/s61ogd","slide":19,"title":"AI PRODUCT · EVAL SYSTEM","textShapes":5}
+{"kind":"textbox","id":"sh/g7ulojmx","slide":19,"text":"AI PRODUCT · EVAL SYSTEM","textPreview":"AI PRODUCT · EVAL SYSTEM","textChars":24,"textLines":1,"bbox":[68,28,300,22]}
+{"kind":"textbox","id":"sh/fml4fe5c","slide":19,"text":"19","textPreview":"19","textChars":2,"textLines":1,"bbox":[1170,28,42,22]}
+{"kind":"shape","id":"sh/els3m947","slide":19,"bbox":[68,680,1144,2]}
+{"kind":"shape","id":"sh/tkjmd4nm","slide":19,"bbox":[68,680,310.51,2]}
+{"kind":"textbox","id":"sh/sjalkjm1","slide":19,"name":"slide-title","text":"本课聚焦两件事：功能与AI任务效果","textPreview":"本课聚焦两件事：功能与AI任务效果","textChars":17,"textLines":1,"bbox":[68,78,1110,68]}
+{"kind":"shape","id":"sh/ri14be5g","slide":19,"bbox":[70,250,8,245]}
+{"kind":"textbox","id":"sh/6hs3i94v","slide":19,"text":"其他测试类型最后统一速览","textPreview":"其他测试类型最后统一速览","textChars":12,"textLines":1,"bbox":[120,285,990,140]}
+{"kind":"textbox","id":"sh/5gj294na","slide":19,"text":"先确保流程可用，再判断回答是否正确、相关、完整、安全、符合风格。","textPreview":"先确保流程可用，再判断回答是否正确、相关、完整、安全、符合风格。","textChars":32,"textLines":1,"bbox":[120,445,980,80]}
+{"kind":"notes","id":"nt/s61ogd","slide":19,"text":"[Sources]\n- /Users/keivn/Project/AI-Course/准备材料/参考课程/知乎AI课程/正课/27.【测试与数据】大模型产品开发中的数据准备与反馈闭环.pdf（参考页：28）\n- /Users/keivn/Project/AI-Course/准备材料/参考课程/知乎AI课程/正课/录音/27.【测试与数据】大模型产品开发中的数据准备与反馈闭环_原文.docx\n- /Users/keivn/Project/AI-Course/课程生产/第一阶段/第09课_AI产品测试、指标与Bad Case_重做工作区/第09课_课程设计与老师稿.md"}
+{"kind":"slide","id":"sl/ottszg","slide":20,"title":"AI PRODUCT · EVAL SYSTEM","textShapes":10}
+{"kind":"textbox","id":"sh/9gfih4za","slide":20,"text":"AI PRODUCT · EVAL SYSTEM","textPreview":"AI PRODUCT · EVAL SYSTEM","textChars":24,"textLines":1,"bbox":[68,28,300,22]}
+{"kind":"textbox","id":"sh/mdozmpgz","slide":20,"text":"20","textPreview":"20","textChars":2,"textLines":1,"bbox":[1170,28,42,22]}
+{"kind":"shape","id":"sh/7exgfuhk","slide":20,"bbox":[68,680,1144,2]}
+{"kind":"shape","id":"sh/wjqhsjy1","slide":20,"bbox":[68,680,326.86,2]}
+{"kind":"textbox","id":"sh/hkzilozm","slide":20,"name":"slide-title","text":"三种执行方式，覆盖不同成本与规模","textPreview":"三种执行方式，覆盖不同成本与规模","textChars":16,"textLines":1,"bbox":[68,78,1110,68]}
+{"kind":"shape","id":"sh/uhozq9gv","slide":20,"bbox":[434.67,345,32,30]}
+{"kind":"shape","id":"sh/vix0jehg","slide":20,"bbox":[72,300,366.67,120]}
+{"kind":"textbox","id":"sh/4nqhwjyx","slide":20,"text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[86,314,40,24]}
+{"kind":"textbox","id":"sh/5ozipofi","slide":20,"text":"用户场景模拟","textPreview":"用户场景模拟","textChars":6,"textLines":1,"bbox":[84,353,342.67,48]}
+{"kind":"shape","id":"sh/hgb2xwny","slide":20,"bbox":[819.33,345,32,30]}
+{"kind":"shape","id":"sh/gf21or6d","slide":20,"bbox":[456.67,300,366.67,120]}
+{"kind":"textbox","id":"sh/vetkvm5s","slide":20,"text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[470.67,314,40,24]}
+{"kind":"textbox","id":"sh/udkjmhon","slide":20,"text":"人工抽测","textPreview":"人工抽测","textChars":4,"textLines":1,"bbox":[468.67,353,342.67,48]}
+{"kind":"shape","id":"sh/5kv21wna","slide":20,"bbox":[841.33,300,366.67,120]}
+{"kind":"textbox","id":"sh/4jm1sr6p","slide":20,"text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[855.33,314,40,24]}
+{"kind":"textbox","id":"sh/3idkzm54","slide":20,"text":"自动化脚本","textPreview":"自动化脚本","textChars":5,"textLines":1,"bbox":[853.33,353,342.67,48]}
+{"kind":"textbox","id":"sh/ih4jqhoj","slide":20,"text":"小规模靠人工理解，大规模靠自动化复现；两者必须互相校准。","textPreview":"小规模靠人工理解，大规模靠自动化复现；两者必须互相校准。","textChars":28,"textLines":1,"bbox":[110,490,1060,55]}
+{"kind":"notes","id":"nt/ottszg","slide":20,"text":"[Sources]\n- /Users/keivn/Project/AI-Course/准备材料/参考课程/知乎AI课程/正课/27.【测试与数据】大模型产品开发中的数据准备与反馈闭环.pdf（参考页：29）\n- /Users/keivn/Project/AI-Course/准备材料/参考课程/知乎AI课程/正课/录音/27.【测试与数据】大模型产品开发中的数据准备与反馈闭环_原文.docx\n- /Users/keivn/Project/AI-Course/课程生产/第一阶段/第09课_AI产品测试、指标与Bad Case_重做工作区/第09课_课程设计与老师稿.md"}
+{"kind":"slide","id":"sl/dx5uy6","slide":21,"title":"AI PRODUCT · EVAL SYSTEM","textShapes":12}
+{"kind":"textbox","id":"sh/l4jehgbu","slide":21,"text":"AI PRODUCT · EVAL SYSTEM","textPreview":"AI PRODUCT · EVAL SYSTEM","textChars":24,"textLines":1,"bbox":[68,28,300,22]}
+{"kind":"textbox","id":"sh/y1svm1sj","slide":21,"text":"21","textPreview":"21","textChars":2,"textLines":1,"bbox":[1170,28,42,22]}
+{"kind":"shape","id":"sh/z21wf6to","slide":21,"bbox":[68,680,1144,2]}
+{"kind":"shape","id":"sh/8radsbal","slide":21,"bbox":[68,680,343.2,2]}
+{"kind":"textbox","id":"sh/9s3elgb6","slide":21,"name":"slide-title","text":"评测最难的，不是“跑题”，而是“判题”","textPreview":"评测最难的，不是“跑题”，而是“判题”","textChars":19,"textLines":1,"bbox":[68,78,1110,68]}
+{"kind":"textbox","id":"sh/m5svq1sf","slide":21,"text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[72,240,52,30]}
+{"kind":"shape","id":"sh/761wj6t0","slide":21,"bbox":[72,282,362.67,3]}
+{"kind":"textbox","id":"sh/ovqdgru1","slide":21,"text":"非确定","textPreview":"非确定","textChars":3,"textLines":1,"bbox":[72,305,352.67,48]}
+{"kind":"textbox","id":"sh/pwzu9wbm","slide":21,"text":"同一题多次结果不完全相同","textPreview":"同一题多次结果不完全相同","textChars":12,"textLines":1,"bbox":[72,360,346.67,76]}
+{"kind":"textbox","id":"sh/lcvihc7a","slide":21,"text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[458.67,240,52,30]}
+{"kind":"shape","id":"sh/kbm187qp","slide":21,"bbox":[458.67,282,362.67,3]}
+{"kind":"textbox","id":"sh/zad0fmp4","slide":21,"text":"主观标准","textPreview":"主观标准","textChars":4,"textLines":1,"bbox":[458.67,305,352.67,48]}
+{"kind":"textbox","id":"sh/y94z6h8j","slide":21,"text":"正确之外，还有语气、风格和完整性","textPreview":"正确之外，还有语气、风格和完整性","textChars":16,"textLines":1,"bbox":[458.67,360,346.67,76]}
+{"kind":"textbox","id":"sh/90vilw76","slide":21,"text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[845.33,240,52,30]}
+{"kind":"shape","id":"sh/8zm1crql","slide":21,"bbox":[845.33,282,362.67,3]}
+{"kind":"textbox","id":"sh/7yd0jmp0","slide":21,"text":"规模覆盖","textPreview":"规模覆盖","textChars":4,"textLines":1,"bbox":[845.33,305,352.67,48]}
+{"kind":"textbox","id":"sh/mx4jah8v","slide":21,"text":"真实用户表达远多于测试人员能穷举的范围","textPreview":"真实用户表达远多于测试人员能穷举的范围","textChars":19,"textLines":1,"bbox":[845.33,360,346.67,76]}
+{"kind":"notes","id":"nt/dx5uy6","slide":21,"text":"[Sources]\n- /Users/keivn/Project/AI-Course/准备材料/参考课程/知乎AI课程/正课/27.【测试与数据】大模型产品开发中的数据准备与反馈闭环.pdf（参考页：30）\n- /Users/keivn/Project/AI-Course/准备材料/参考课程/知乎AI课程/正课/录音/27.【测试与数据】大模型产品开发中的数据准备与反馈闭环_原文.docx\n- /Users/keivn/Project/AI-Course/课程生产/第一阶段/第09课_AI产品测试、指标与Bad Case_重做工作区/第09课_课程设计与老师稿.md"}
+{"kind":"slide","id":"sl/aguvol","slide":22,"title":"AI PRODUCT · EVAL SYSTEM","textShapes":5}
+{"kind":"textbox","id":"sh/ut4z2l47","slide":22,"text":"AI PRODUCT · EVAL SYSTEM","textPreview":"AI PRODUCT · EVAL SYSTEM","textChars":24,"textLines":1,"bbox":[68,28,300,22]}
+{"kind":"textbox","id":"sh/hwvyd03i","slide":22,"text":"22","textPreview":"22","textChars":2,"textLines":1,"bbox":[1170,28,42,22]}
+{"kind":"shape","id":"sh/gvmh4vmx","slide":22,"bbox":[68,680,1144,2]}
+{"kind":"shape","id":"sh/7qtg7qlg","slide":22,"bbox":[68,680,359.54,2]}
+{"kind":"textbox","id":"sh/6pkzyl4v","slide":22,"name":"slide-title","text":"量化不是为了制造一个漂亮分数","textPreview":"量化不是为了制造一个漂亮分数","textChars":14,"textLines":1,"bbox":[68,78,1110,68]}
+{"kind":"shape","id":"sh/tsby9g3m","slide":22,"bbox":[70,250,8,245]}
+{"kind":"textbox","id":"sh/8r2h0bm1","slide":22,"text":"没有统一尺子，就没有可靠回归。","textPreview":"没有统一尺子，就没有可靠回归。","textChars":15,"textLines":1,"bbox":[120,285,990,140]}
+{"kind":"textbox","id":"sh/rmx0jalk","slide":22,"text":"量化的作用，是让版本可比较、问题可定位、上线门槛可执行。","textPreview":"量化的作用，是让版本可比较、问题可定位、上线门槛可执行。","textChars":28,"textLines":1,"bbox":[120,445,980,80]}
+{"kind":"notes","id":"nt/aguvol","slide":22,"text":"[Sources]\n- /Users/keivn/Project/AI-Course/准备材料/参考课程/知乎AI课程/正课/27.【测试与数据】大模型产品开发中的数据准备与反馈闭环.pdf（参考页：32）\n- /Users/keivn/Project/AI-Course/准备材料/参考课程/知乎AI课程/正课/录音/27.【测试与数据】大模型产品开发中的数据准备与反馈闭环_原文.docx\n- /Users/keivn/Project/AI-Course/课程生产/第一阶段/第09课_AI产品测试、指标与Bad Case_重做工作区/第09课_课程设计与老师稿.md"}
+{"kind":"slide","id":"sl/jnne0w","slide":23,"title":"AI PRODUCT · EVAL SYSTEM","textShapes":14}
+{"kind":"textbox","id":"sh/mpw7qtcn","slide":23,"text":"AI PRODUCT · EVAL SYSTEM","textPreview":"AI PRODUCT · EVAL SYSTEM","textChars":24,"textLines":1,"bbox":[68,28,300,22]}
+{"kind":"textbox","id":"sh/9sn61ovy","slide":23,"text":"23","textPreview":"23","textChars":2,"textLines":1,"bbox":[1170,28,42,22]}
+{"kind":"shape","id":"sh/orepsjut","slide":23,"bbox":[68,680,1144,2]}
+{"kind":"shape","id":"sh/bup83yd4","slide":23,"bbox":[68,680,375.89,2]}
+{"kind":"textbox","id":"sh/atg7utcj","slide":23,"name":"slide-title","text":"先冻结评测对象，再讨论结果","textPreview":"先冻结评测对象，再讨论结果","textChars":13,"textLines":1,"bbox":[68,78,1110,68]}
+{"kind":"shape","id":"sh/xg7q58va","slide":23,"bbox":[280.8,345,32,30]}
+{"kind":"shape","id":"sh/wfypw3up","slide":23,"bbox":[72,300,212.8,120]}
+{"kind":"textbox","id":"sh/rylored0","slide":23,"text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[86,314,40,24]}
+{"kind":"textbox","id":"sh/qxc7i9cf","slide":23,"text":"记录版本组合","textPreview":"记录版本组合","textChars":6,"textLines":1,"bbox":[84,353,188.8,48]}
+{"kind":"shape","id":"sh/sbe9oreh","slide":23,"bbox":[511.6,345,32,30]}
+{"kind":"shape","id":"sh/tcnqhwfm","slide":23,"bbox":[302.8,300,212.8,120]}
+{"kind":"textbox","id":"sh/69wrm1wb","slide":23,"text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[316.8,314,40,24]}
+{"kind":"textbox","id":"sh/ra58f6xw","slide":23,"text":"锁定评测集","textPreview":"锁定评测集","textChars":5,"textLines":1,"bbox":[314.8,353,188.8,48]}
+{"kind":"shape","id":"sh/gzy9sbed","slide":23,"bbox":[742.4,345,32,30]}
+{"kind":"shape","id":"sh/107qlgfy","slide":23,"bbox":[533.6,300,212.8,120]}
+{"kind":"textbox","id":"sh/edwrq1w7","slide":23,"text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[547.6,314,40,24]}
+{"kind":"textbox","id":"sh/fe58j6xs","slide":23,"text":"统一评分规则","textPreview":"统一评分规则","textChars":6,"textLines":1,"bbox":[545.6,353,188.8,48]}
+{"kind":"shape","id":"sh/w3upg7y9","slide":23,"bbox":[973.2,345,32,30]}
+{"kind":"shape","id":"sh/h43q9cfu","slide":23,"bbox":[764.4,300,212.8,120]}
+{"kind":"textbox","id":"sh/x0v6d87i","slide":23,"text":"04","textPreview":"04","textChars":2,"textLines":1,"bbox":[778.4,314,40,24]}
+{"kind":"textbox","id":"sh/wzm5k3qx","slide":23,"text":"重复运行","textPreview":"重复运行","textChars":4,"textLines":1,"bbox":[776.4,353,188.8,48]}
+{"kind":"shape","id":"sh/bydobypc","slide":23,"bbox":[995.2,300,212.8,120]}
+{"kind":"textbox","id":"sh/ax4nit8r","slide":23,"text":"05","textPreview":"05","textChars":2,"textLines":1,"bbox":[1009.2,314,40,24]}
+{"kind":"textbox","id":"sh/l4f6hs7e","slide":23,"text":"比较差异","textPreview":"比较差异","textChars":4,"textLines":1,"bbox":[1007.2,353,188.8,48]}
+{"kind":"textbox","id":"sh/k3mponqt","slide":23,"text":"每次报告都要能回答：测的是哪个版本？用的哪套题？谁来判？","textPreview":"每次报告都要能回答：测的是哪个版本？用的哪套题？谁来判？","textChars":28,"textLines":1,"bbox":[110,490,1060,55]}
+{"kind":"notes","id":"nt/jnne0w","slide":23,"text":"[Sources]\n- /Users/keivn/Project/AI-Course/准备材料/参考课程/知乎AI课程/正课/27.【测试与数据】大模型产品开发中的数据准备与反馈闭环.pdf（参考页：46–50）\n- /Users/keivn/Project/AI-Course/准备材料/参考课程/知乎AI课程/正课/录音/27.【测试与数据】大模型产品开发中的数据准备与反馈闭环_原文.docx\n- /Users/keivn/Project/AI-Course/课程生产/第一阶段/第09课_AI产品测试、指标与Bad Case_重做工作区/第09课_课程设计与老师稿.md"}
+{"kind":"slide","id":"sl/9qnwyd","slide":24,"title":"AI PRODUCT · EVAL SYSTEM","textShapes":11}
+{"kind":"textbox","id":"sh/2lwzqh8f","slide":24,"text":"AI PRODUCT · EVAL SYSTEM","textPreview":"AI PRODUCT · EVAL SYSTEM","textChars":24,"textLines":1,"bbox":[68,28,300,22]}
+{"kind":"textbox","id":"sh/po7y1wr6","slide":24,"text":"24","textPreview":"24","textChars":2,"textLines":1,"bbox":[1170,28,42,22]}
+{"kind":"shape","id":"sh/4nyhsrql","slide":24,"bbox":[68,680,1144,2]}
+{"kind":"shape","id":"sh/rqpg369c","slide":24,"bbox":[68,680,392.23,2]}
+{"kind":"textbox","id":"sh/qpgzu18r","slide":24,"name":"slide-title","text":"评测集从四个入口持续生长","textPreview":"评测集从四个入口持续生长","textChars":12,"textLines":1,"bbox":[68,78,1110,68]}
+{"kind":"textbox","id":"sh/dc7y5gr2","slide":24,"text":"—","textPreview":"—","textChars":1,"textLines":1,"bbox":[76,226,54,38]}
+{"kind":"textbox","id":"sh/cbyhwbqh","slide":24,"text":"真实用户问题：最接近线上分布","textPreview":"真实用户问题：最接近线上分布","textChars":14,"textLines":1,"bbox":[140,224,1010,50]}
+{"kind":"textbox","id":"sh/ze9g7698","slide":24,"text":"—","textPreview":"—","textChars":1,"textLines":1,"bbox":[76,304,54,38]}
+{"kind":"textbox","id":"sh/yd0zy18n","slide":24,"text":"历史 Bad Case：最值得回归","textPreview":"历史 Bad Case：最值得回归","textChars":17,"textLines":1,"bbox":[140,302,1010,50]}
+{"kind":"textbox","id":"sh/sja14rml","slide":24,"text":"—","textPreview":"—","textChars":1,"textLines":1,"bbox":[76,382,54,38]}
+{"kind":"textbox","id":"sh/tkj2dw36","slide":24,"text":"业务规则与红线：最不能犯错","textPreview":"业务规则与红线：最不能犯错","textChars":13,"textLines":1,"bbox":[140,380,1010,50]}
+{"kind":"textbox","id":"sh/6h8j2h4v","slide":24,"text":"—","textPreview":"—","textChars":1,"textLines":1,"bbox":[76,460,54,38]}
+{"kind":"textbox","id":"sh/7i1kbmlg","slide":24,"text":"AI扩写变体：提高表达覆盖","textPreview":"AI扩写变体：提高表达覆盖","textChars":13,"textLines":1,"bbox":[140,458,1010,50]}
+{"kind":"notes","id":"nt/9qnwyd","slide":24,"text":"[Sources]\n- /Users/keivn/Project/AI-Course/准备材料/参考课程/知乎AI课程/正课/27.【测试与数据】大模型产品开发中的数据准备与反馈闭环.pdf（参考页：47、54）\n- /Users/keivn/Project/AI-Course/准备材料/参考课程/知乎AI课程/正课/录音/27.【测试与数据】大模型产品开发中的数据准备与反馈闭环_原文.docx\n- /Users/keivn/Project/AI-Course/课程生产/第一阶段/第09课_AI产品测试、指标与Bad Case_重做工作区/第09课_课程设计与老师稿.md"}
+{"kind":"slide","id":"sl/red8mx","slide":25,"title":"AI PRODUCT · EVAL SYSTEM","textShapes":14}
+{"kind":"textbox","id":"sh/qpo72hg3","slide":25,"text":"AI PRODUCT · EVAL SYSTEM","textPreview":"AI PRODUCT · EVAL SYSTEM","textChars":24,"textLines":1,"bbox":[68,28,300,22]}
+{"kind":"textbox","id":"sh/dsf6dwfu","slide":25,"text":"25","textPreview":"25","textChars":2,"textLines":1,"bbox":[1170,28,42,22]}
+{"kind":"shape","id":"sh/cr6p4ry9","slide":25,"bbox":[68,680,1144,2]}
+{"kind":"shape","id":"sh/zexof6x0","slide":25,"bbox":[68,680,408.57,2]}
+{"kind":"textbox","id":"sh/yto761gf","slide":25,"name":"slide-title","text":"一套有用的题库，至少覆盖五类样本","textPreview":"一套有用的题库，至少覆盖五类样本","textChars":16,"textLines":1,"bbox":[68,78,1110,68]}
+{"kind":"textbox","id":"sh/lgz6hwfq","slide":25,"text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[72,240,52,30]}
+{"kind":"shape","id":"sh/0f6p8by5","slide":25,"bbox":[72,282,208,3]}
+{"kind":"textbox","id":"sh/fido32xg","slide":25,"text":"典型","textPreview":"典型","textChars":2,"textLines":1,"bbox":[72,305,198,48]}
+{"kind":"textbox","id":"sh/ex4nuxgv","slide":25,"text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[304,240,52,30]}
+{"kind":"shape","id":"sh/cjylcnix","slide":25,"bbox":[304,282,208,3]}
+{"kind":"textbox","id":"sh/xk72lsz2","slide":25,"text":"边界","textPreview":"边界","textChars":2,"textLines":1,"bbox":[304,305,198,48]}
+{"kind":"textbox","id":"sh/ahw3ad0r","slide":25,"text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[536,240,52,30]}
+{"kind":"shape","id":"sh/bipkjihc","slide":25,"bbox":[536,282,208,3]}
+{"kind":"textbox","id":"sh/knylgnit","slide":25,"text":"异常","textPreview":"异常","textChars":2,"textLines":1,"bbox":[536,305,198,48]}
+{"kind":"textbox","id":"sh/l87mpsze","slide":25,"text":"04","textPreview":"04","textChars":2,"textLines":1,"bbox":[768,240,52,30]}
+{"kind":"shape","id":"sh/ylg3ed0n","slide":25,"bbox":[768,282,208,3]}
+{"kind":"textbox","id":"sh/zmpknih8","slide":25,"text":"无答案","textPreview":"无答案","textChars":3,"textLines":1,"bbox":[768,305,198,48]}
+{"kind":"textbox","id":"sh/0rel43ip","slide":25,"text":"05","textPreview":"05","textChars":2,"textLines":1,"bbox":[1000,240,52,30]}
+{"kind":"shape","id":"sh/1cn2dozu","slide":25,"bbox":[1000,282,208,3]}
+{"kind":"textbox","id":"sh/hwval07m","slide":25,"text":"高风险","textPreview":"高风险","textChars":3,"textLines":1,"bbox":[1000,305,198,48]}
+{"kind":"textbox","id":"sh/wvm9sv61","slide":25,"text":"比例不必平均；应按业务频率与风险加权。","textPreview":"比例不必平均；应按业务频率与风险加权。","textChars":19,"textLines":1,"bbox":[72,620,1136,36]}
+{"kind":"notes","id":"nt/red8mx","slide":25,"text":"[Sources]\n- /Users/keivn/Project/AI-Course/准备材料/参考课程/知乎AI课程/正课/27.【测试与数据】大模型产品开发中的数据准备与反馈闭环.pdf（参考页：47）\n- /Users/keivn/Project/AI-Course/准备材料/参考课程/知乎AI课程/正课/录音/27.【测试与数据】大模型产品开发中的数据准备与反馈闭环_原文.docx\n- /Users/keivn/Project/AI-Course/课程生产/第一阶段/第09课_AI产品测试、指标与Bad Case_重做工作区/第09课_课程设计与老师稿.md"}
+{"kind":"slide","id":"sl/71jc9o","slide":26,"title":"AI PRODUCT · EVAL SYSTEM","textShapes":15}
+{"kind":"textbox","id":"sh/be5svalc","slide":26,"text":"AI PRODUCT · EVAL SYSTEM","textPreview":"AI PRODUCT · EVAL SYSTEM","textChars":24,"textLines":1,"bbox":[68,28,300,22]}
+{"kind":"textbox","id":"sh/cfy94fmx","slide":26,"text":"26","textPreview":"26","textChars":2,"textLines":1,"bbox":[1170,28,42,22]}
+{"kind":"shape","id":"sh/dg7axk3i","slide":26,"bbox":[68,680,1144,2]}
+{"kind":"shape","id":"sh/29wryl4v","slide":26,"bbox":[68,680,424.91,2]}
+{"kind":"textbox","id":"sh/3a5srql0","slide":26,"name":"slide-title","text":"每条评测用例，建议保留八个字段","textPreview":"每条评测用例，建议保留八个字段","textChars":15,"textLines":1,"bbox":[68,78,1110,68]}
+{"kind":"shape","id":"sh/obe90vml","slide":26,"bbox":[72,230,1136,66]}
+{"kind":"textbox","id":"sh/pcnat036","slide":26,"text":"字段","textPreview":"字段","textChars":2,"textLines":1,"bbox":[90,247,310,32]}
+{"kind":"textbox","id":"sh/ulcrul4j","slide":26,"text":"作用","textPreview":"作用","textChars":2,"textLines":1,"bbox":[430,247,766,32]}
+{"kind":"shape","id":"sh/fmlsnql4","slide":26,"bbox":[72,296,1136,66]}
+{"kind":"textbox","id":"sh/vmdcbi10","slide":26,"text":"Case ID / 场景","textPreview":"Case ID / 场景","textChars":12,"textLines":1,"bbox":[90,313,310,34]}
+{"kind":"textbox","id":"sh/alkbidkf","slide":26,"text":"确保可追踪","textPreview":"确保可追踪","textChars":5,"textLines":1,"bbox":[430,313,766,34]}
+{"kind":"shape","id":"sh/hovud8jq","slide":26,"bbox":[72,362,1136,66]}
+{"kind":"textbox","id":"sh/wnmtk325","slide":26,"text":"用户输入 / 上下文","textPreview":"用户输入 / 上下文","textChars":10,"textLines":1,"bbox":[90,379,310,34]}
+{"kind":"textbox","id":"sh/jqdcfi1w","slide":26,"text":"还原真实条件","textPreview":"还原真实条件","textChars":6,"textLines":1,"bbox":[430,379,766,34]}
+{"kind":"shape","id":"sh/ip4vmdkb","slide":26,"bbox":[72,428,1136,66]}
+{"kind":"textbox","id":"sh/5svuhsj2","slide":26,"text":"参考答案 / 评分点","textPreview":"参考答案 / 评分点","textChars":10,"textLines":1,"bbox":[90,445,310,34]}
+{"kind":"textbox","id":"sh/4rmdon2h","slide":26,"text":"明确判题依据","textPreview":"明确判题依据","textChars":6,"textLines":1,"bbox":[430,445,766,34]}
+{"kind":"shape","id":"sh/zu9c3y1s","slide":26,"bbox":[72,494,1136,66]}
+{"kind":"textbox","id":"sh/yt0batk7","slide":26,"text":"风险等级 / 标签","textPreview":"风险等级 / 标签","textChars":9,"textLines":1,"bbox":[90,511,310,34]}
+{"kind":"textbox","id":"sh/2lsnyl8r","slide":26,"text":"支持加权与筛选","textPreview":"支持加权与筛选","textChars":7,"textLines":1,"bbox":[430,511,766,34]}
+{"kind":"shape","id":"sh/nm1o7qpc","slide":26,"bbox":[72,560,1136,66]}
+{"kind":"textbox","id":"sh/ona50vqx","slide":26,"text":"版本 / 实际输出","textPreview":"版本 / 实际输出","textChars":9,"textLines":1,"bbox":[90,577,310,34]}
+{"kind":"textbox","id":"sh/poj6907i","slide":26,"text":"支持回归比较","textPreview":"支持回归比较","textChars":6,"textLines":1,"bbox":[430,577,766,34]}
+{"kind":"notes","id":"nt/71jc9o","slide":26,"text":"[Sources]\n- /Users/keivn/Project/AI-Course/准备材料/参考课程/知乎AI课程/正课/27.【测试与数据】大模型产品开发中的数据准备与反馈闭环.pdf（参考页：47–50）\n- /Users/keivn/Project/AI-Course/准备材料/参考课程/知乎AI课程/正课/录音/27.【测试与数据】大模型产品开发中的数据准备与反馈闭环_原文.docx\n- /Users/keivn/Project/AI-Course/课程生产/第一阶段/第09课_AI产品测试、指标与Bad Case_重做工作区/第09课_课程设计与老师稿.md"}
+{"kind":"slide","id":"sl/d89mmj","slide":27,"title":"AI PRODUCT · EVAL SYSTEM","textShapes":10}
+{"kind":"textbox","id":"sh/1sry5c7i","slide":27,"text":"AI PRODUCT · EVAL SYSTEM","textPreview":"AI PRODUCT · EVAL SYSTEM","textChars":24,"textLines":1,"bbox":[68,28,300,22]}
+{"kind":"textbox","id":"sh/epgzax8r","slide":27,"text":"27","textPreview":"27","textChars":2,"textLines":1,"bbox":[1170,28,42,22]}
+{"kind":"shape","id":"sh/fqpg32pc","slide":27,"bbox":[68,680,1144,2]}
+{"kind":"shape","id":"sh/s3yh87ql","slide":27,"bbox":[68,680,441.26,2]}
+{"kind":"textbox","id":"sh/do7y1c76","slide":27,"name":"slide-title","text":"示例：促销叠加规则怎么变成评测用例","textPreview":"示例：促销叠加规则怎么变成评测用例","textChars":17,"textLines":1,"bbox":[68,78,1110,68]}
+{"kind":"textbox","id":"sh/q1gz6x8v","slide":27,"text":"INPUT","textPreview":"INPUT","textChars":5,"textLines":1,"bbox":[74,230,120,28]}
+{"kind":"textbox","id":"sh/r2pgz2pg","slide":27,"text":"用户：会员券能和满减活动同时使用吗？","textPreview":"用户：会员券能和满减活动同时使用吗？","textChars":18,"textLines":1,"bbox":[74,270,1060,80]}
+{"kind":"shape","id":"sh/4zex4nqp","slide":27,"bbox":[74,382,1130,2]}
+{"kind":"textbox","id":"sh/507yxs7a","slide":27,"text":"SCORING POINTS","textPreview":"SCORING POINTS","textChars":14,"textLines":1,"bbox":[74,410,180,28]}
+{"kind":"textbox","id":"sh/tgrit4fy","slide":27,"text":"评分点：说明适用条件；不得承诺所有门店通用；信息不足时引导核验活动页。","textPreview":"评分点：说明适用条件；不得承诺所有门店通用；信息不足时引导核验活动页。","textChars":35,"textLines":1,"bbox":[74,452,1080,95]}
+{"kind":"shape","id":"sh/sfyh0zyd","slide":27,"bbox":[74,580,196,42]}
+{"kind":"textbox","id":"sh/rep0rexs","slide":27,"text":"业务规则","textPreview":"业务规则","textChars":4,"textLines":1,"bbox":[82,590,180,24]}
+{"kind":"shape","id":"sh/6dgzy9g7","slide":27,"bbox":[294,580,196,42]}
+{"kind":"textbox","id":"sh/5s7ip4fm","slide":27,"text":"高频","textPreview":"高频","textChars":2,"textLines":1,"bbox":[302,590,180,24]}
+{"kind":"shape","id":"sh/4ryhwzy1","slide":27,"bbox":[514,580,196,42]}
+{"kind":"textbox","id":"sh/jqp0nuxw","slide":27,"text":"中风险","textPreview":"中风险","textChars":3,"textLines":1,"bbox":[522,590,180,24]}
+{"kind":"notes","id":"nt/d89mmj","slide":27,"text":"[Sources]\n- /Users/keivn/Project/AI-Course/准备材料/参考课程/知乎AI课程/正课/27.【测试与数据】大模型产品开发中的数据准备与反馈闭环.pdf（参考页：47–49）\n- /Users/keivn/Project/AI-Course/准备材料/参考课程/知乎AI课程/正课/录音/27.【测试与数据】大模型产品开发中的数据准备与反馈闭环_原文.docx\n- /Users/keivn/Project/AI-Course/课程生产/第一阶段/第09课_AI产品测试、指标与Bad Case_重做工作区/第09课_课程设计与老师稿.md"}
+{"kind":"slide","id":"sl/dxvhmn","slide":28,"title":"AI PRODUCT · EVAL SYSTEM","textShapes":5}
+{"kind":"textbox","id":"sh/98nml8vq","slide":28,"text":"AI PRODUCT · EVAL SYSTEM","textPreview":"AI PRODUCT · EVAL SYSTEM","textChars":24,"textLines":1,"bbox":[68,28,300,22]}
+{"kind":"textbox","id":"sh/mlc3atwz","slide":28,"text":"28","textPreview":"28","textChars":2,"textLines":1,"bbox":[1170,28,42,22]}
+{"kind":"shape","id":"sh/nml4jydk","slide":28,"bbox":[68,680,1144,2]}
+{"kind":"shape","id":"sh/0jul8je9","slide":28,"bbox":[68,680,457.6,2]}
+{"kind":"textbox","id":"sh/1k3mhovu","slide":28,"name":"slide-title","text":"语义相似度，解决“说法不同但意思相近”","textPreview":"语义相似度，解决“说法不同但意思相近”","textChars":19,"textLines":1,"bbox":[68,78,1110,68]}
+{"kind":"shape","id":"sh/ehc369w3","slide":28,"bbox":[70,250,8,245]}
+{"kind":"textbox","id":"sh/zil4fedo","slide":28,"text":"适合判断表达接近度，不适合单独判断事实真伪。","textPreview":"适合判断表达接近度，不适合单独判断事实真伪。","textChars":22,"textLines":1,"bbox":[120,285,990,140]}
+{"kind":"textbox","id":"sh/cfal4jex","slide":28,"text":"它比较答案在语义空间中的距离，而不是逐字比对。","textPreview":"它比较答案在语义空间中的距离，而不是逐字比对。","textChars":23,"textLines":1,"bbox":[120,445,980,80]}
+{"kind":"notes","id":"nt/dxvhmn","slide":28,"text":"[Sources]\n- /Users/keivn/Project/AI-Course/准备材料/参考课程/知乎AI课程/正课/27.【测试与数据】大模型产品开发中的数据准备与反馈闭环.pdf（参考页：31、33）\n- /Users/keivn/Project/AI-Course/准备材料/参考课程/知乎AI课程/正课/录音/27.【测试与数据】大模型产品开发中的数据准备与反馈闭环_原文.docx\n- /Users/keivn/Project/AI-Course/课程生产/第一阶段/第09课_AI产品测试、指标与Bad Case_重做工作区/第09课_课程设计与老师稿.md"}
+{"kind":"slide","id":"sl/kricrw","slide":29,"title":"AI PRODUCT · EVAL SYSTEM","textShapes":8}
+{"kind":"textbox","id":"sh/szu50b65","slide":29,"text":"AI PRODUCT · EVAL SYSTEM","textPreview":"AI PRODUCT · EVAL SYSTEM","textChars":24,"textLines":1,"bbox":[68,28,300,22]}
+{"kind":"textbox","id":"sh/rylor65k","slide":29,"text":"29","textPreview":"29","textChars":2,"textLines":1,"bbox":[1170,28,42,22]}
+{"kind":"shape","id":"sh/6xcny1oz","slide":29,"bbox":[68,680,1144,2]}
+{"kind":"shape","id":"sh/5w36pwne","slide":29,"bbox":[68,680,473.94,2]}
+{"kind":"textbox","id":"sh/4vu5wr6t","slide":29,"name":"slide-title","text":"余弦相似度：看两个答案指向是否接近","textPreview":"余弦相似度：看两个答案指向是否接近","textChars":17,"textLines":1,"bbox":[68,78,1110,68]}
+{"kind":"textbox","id":"sh/ju1onm58","slide":29,"name":"slide-lead","text":"方向越接近，相似度越高；但“方向接近”不代表关键事实一定正确。","textPreview":"方向越接近，相似度越高；但“方向接近”不代表关键事实一定正确。","textChars":31,"textLines":1,"bbox":[70,152,1080,58]}
+{"kind":"shape","id":"sh/i9snuho3","slide":29,"bbox":[70,250,8,245]}
+{"kind":"textbox","id":"sh/psn610ni","slide":29,"text":"0.86","textPreview":"0.86","textChars":4,"textLines":1,"bbox":[120,245,380,160]}
+{"kind":"textbox","id":"sh/orep8v6d","slide":29,"text":"语义接近","textPreview":"语义接近","textChars":4,"textLines":1,"bbox":[130,420,390,42]}
+{"kind":"shape","id":"sh/a5w3e9k7","slide":29,"bbox":[690,266,160,160]}
+{"kind":"shape","id":"sh/b654nels","slide":29,"bbox":[825,318,160,160]}
+{"kind":"textbox","id":"sh/w7elgj2d","slide":29,"text":"答案A","textPreview":"答案A","textChars":3,"textLines":1,"bbox":[710,330,120,30]}
+{"kind":"textbox","id":"sh/xsnmpojy","slide":29,"text":"答案B","textPreview":"答案B","textChars":3,"textLines":1,"bbox":[845,382,120,30]}
+{"kind":"notes","id":"nt/kricrw","slide":29,"text":"[Sources]\n- /Users/keivn/Project/AI-Course/准备材料/参考课程/知乎AI课程/正课/27.【测试与数据】大模型产品开发中的数据准备与反馈闭环.pdf（参考页：33）\n- /Users/keivn/Project/AI-Course/准备材料/参考课程/知乎AI课程/正课/录音/27.【测试与数据】大模型产品开发中的数据准备与反馈闭环_原文.docx\n- /Users/keivn/Project/AI-Course/课程生产/第一阶段/第09课_AI产品测试、指标与Bad Case_重做工作区/第09课_课程设计与老师稿.md"}
+{"kind":"slide","id":"sl/ads3cv","slide":30,"title":"AI PRODUCT · EVAL SYSTEM","textShapes":10}
+{"kind":"textbox","id":"sh/on6t0nmp","slide":30,"text":"AI PRODUCT · EVAL SYSTEM","textPreview":"AI PRODUCT · EVAL SYSTEM","textChars":24,"textLines":1,"bbox":[68,28,300,22]}
+{"kind":"textbox","id":"sh/3mxsril4","slide":30,"text":"30","textPreview":"30","textChars":2,"textLines":1,"bbox":[1170,28,42,22]}
+{"kind":"shape","id":"sh/2lobyd4z","slide":30,"bbox":[68,680,1144,2]}
+{"kind":"shape","id":"sh/1kfap83e","slide":30,"bbox":[68,680,490.29,2]}
+{"kind":"textbox","id":"sh/gj6tw3mt","slide":30,"name":"slide-title","text":"相似度演示：不同措辞，也可能是同一答案","textPreview":"相似度演示：不同措辞，也可能是同一答案","textChars":19,"textLines":1,"bbox":[68,78,1110,68]}
+{"kind":"textbox","id":"sh/fixsnil8","slide":30,"text":"INPUT","textPreview":"INPUT","textChars":5,"textLines":1,"bbox":[74,230,120,28]}
+{"kind":"textbox","id":"sh/ehobud4n","slide":30,"text":"参考：订单付款后24小时内可以申请取消。","textPreview":"参考：订单付款后24小时内可以申请取消。","textChars":20,"textLines":1,"bbox":[74,270,1060,80]}
+{"kind":"shape","id":"sh/twval832","slide":30,"bbox":[74,382,1130,2]}
+{"kind":"textbox","id":"sh/svmts3mh","slide":30,"text":"SCORING POINTS","textPreview":"SCORING POINTS","textChars":14,"textLines":1,"bbox":[74,410,180,28]}
+{"kind":"textbox","id":"sh/ipgfqtgv","slide":30,"text":"AI：支付完成后的1天内，用户仍可发起取消申请。","textPreview":"AI：支付完成后的1天内，用户仍可发起取消申请。","textChars":24,"textLines":1,"bbox":[74,452,1080,95]}
+{"kind":"shape","id":"sh/jqpwzyxg","slide":30,"bbox":[74,580,196,42]}
+{"kind":"textbox","id":"sh/4ryxs3y1","slide":30,"text":"核心条件一致","textPreview":"核心条件一致","textChars":6,"textLines":1,"bbox":[82,590,180,24]}
+{"kind":"shape","id":"sh/5srel8fm","slide":30,"bbox":[294,580,196,42]}
+{"kind":"textbox","id":"sh/ulgfm9gz","slide":30,"text":"表达不同","textPreview":"表达不同","textChars":4,"textLines":1,"bbox":[302,590,180,24]}
+{"kind":"shape","id":"sh/vmpwvehk","slide":30,"bbox":[514,580,196,42]}
+{"kind":"textbox","id":"sh/wnyxojy5","slide":30,"text":"高相似","textPreview":"高相似","textChars":3,"textLines":1,"bbox":[522,590,180,24]}
+{"kind":"notes","id":"nt/ads3cv","slide":30,"text":"[Sources]\n- /Users/keivn/Project/AI-Course/准备材料/参考课程/知乎AI课程/正课/27.【测试与数据】大模型产品开发中的数据准备与反馈闭环.pdf（参考页：34–38）\n- /Users/keivn/Project/AI-Course/准备材料/参考课程/知乎AI课程/正课/录音/27.【测试与数据】大模型产品开发中的数据准备与反馈闭环_原文.docx\n- /Users/keivn/Project/AI-Course/课程生产/第一阶段/第09课_AI产品测试、指标与Bad Case_重做工作区/第09课_课程设计与老师稿.md"}
+{"kind":"slide","id":"sl/akfexu","slide":31,"title":"AI PRODUCT · EVAL SYSTEM","textShapes":9}
+{"kind":"textbox","id":"sh/8rutgnyh","slide":31,"text":"AI PRODUCT · EVAL SYSTEM","textPreview":"AI PRODUCT · EVAL SYSTEM","textChars":24,"textLines":1,"bbox":[68,28,300,22]}
+{"kind":"textbox","id":"sh/nqls72xc","slide":31,"text":"31","textPreview":"31","textChars":2,"textLines":1,"bbox":[1170,28,42,22]}
+{"kind":"shape","id":"sh/mpcbexgr","slide":31,"bbox":[68,680,1144,2]}
+{"kind":"shape","id":"sh/xgnudcfe","slide":31,"bbox":[68,680,506.63,2]}
+{"kind":"textbox","id":"sh/wfetk7yt","slide":31,"name":"slide-title","text":"高相似，不等于高正确","textPreview":"高相似，不等于高正确","textChars":10,"textLines":1,"bbox":[68,78,1110,68]}
+{"kind":"shape","id":"sh/velsb2x8","slide":31,"bbox":[74,236,540,5]}
+{"kind":"shape","id":"sh/atcbixgn","slide":31,"bbox":[666,236,540,5]}
+{"kind":"textbox","id":"sh/dkja18fu","slide":31,"text":"参考答案","textPreview":"参考答案","textChars":4,"textLines":1,"bbox":[74,264,540,45]}
+{"kind":"textbox","id":"sh/cjat83yp","slide":31,"text":"AI答案","textPreview":"AI答案","textChars":4,"textLines":1,"bbox":[666,264,540,45]}
+{"kind":"textbox","id":"sh/qxcbaxgb","slide":31,"text":"—  退款到账：3—5个工作日","textPreview":"—  退款到账：3—5个工作日","textChars":15,"textLines":1,"bbox":[74,330,520,52]}
+{"kind":"textbox","id":"sh/byls32hw","slide":31,"text":"—  退款到账：5—7个工作日","textPreview":"—  退款到账：5—7个工作日","textChars":15,"textLines":1,"bbox":[666,330,520,52]}
+{"kind":"textbox","id":"sh/czutc7y1","slide":31,"text":"—  其余表达几乎完全相同","textPreview":"—  其余表达几乎完全相同","textChars":13,"textLines":1,"bbox":[666,396,520,52]}
+{"kind":"textbox","id":"sh/d03a5cfm","slide":31,"text":"一个关键数字错误，足以让答案不可用","textPreview":"一个关键数字错误，足以让答案不可用","textChars":17,"textLines":1,"bbox":[74,598,1130,38]}
+{"kind":"notes","id":"nt/akfexu","slide":31,"text":"[Sources]\n- /Users/keivn/Project/AI-Course/准备材料/参考课程/知乎AI课程/正课/27.【测试与数据】大模型产品开发中的数据准备与反馈闭环.pdf（参考页：40–41）\n- /Users/keivn/Project/AI-Course/准备材料/参考课程/知乎AI课程/正课/录音/27.【测试与数据】大模型产品开发中的数据准备与反馈闭环_原文.docx\n- /Users/keivn/Project/AI-Course/课程生产/第一阶段/第09课_AI产品测试、指标与Bad Case_重做工作区/第09课_课程设计与老师稿.md"}
+{"kind":"slide","id":"sl/cnwezx","slide":32,"title":"AI PRODUCT · EVAL SYSTEM","textShapes":12}
+{"kind":"textbox","id":"sh/je1krqt0","slide":32,"text":"AI PRODUCT · EVAL SYSTEM","textPreview":"AI PRODUCT · EVAL SYSTEM","textChars":24,"textLines":1,"bbox":[68,28,300,22]}
+{"kind":"textbox","id":"sh/4fal0vul","slide":32,"text":"32","textPreview":"32","textChars":2,"textLines":1,"bbox":[1170,28,42,22]}
+{"kind":"shape","id":"sh/5gj2t0b6","slide":32,"bbox":[68,680,1144,2]}
+{"kind":"shape","id":"sh/u983ulcj","slide":32,"bbox":[68,680,522.97,2]}
+{"kind":"textbox","id":"sh/va1kn6t4","slide":32,"name":"slide-title","text":"四种评测方法，要组合而不是站队","textPreview":"四种评测方法，要组合而不是站队","textChars":15,"textLines":1,"bbox":[68,78,1110,68]}
+{"kind":"textbox","id":"sh/wbalwbup","slide":32,"text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[72,240,52,30]}
+{"kind":"shape","id":"sh/hcj2pgbu","slide":32,"bbox":[72,282,556,3]}
+{"kind":"textbox","id":"sh/e5c365cn","slide":32,"text":"精确匹配 / 规则","textPreview":"精确匹配 / 规则","textChars":9,"textLines":1,"bbox":[72,305,546,48]}
+{"kind":"textbox","id":"sh/f6l4zat8","slide":32,"text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[652,240,52,30]}
+{"kind":"shape","id":"sh/rihoby58","slide":32,"bbox":[652,282,556,3]}
+{"kind":"textbox","id":"sh/qh8n2t4n","slide":32,"text":"语义相似度","textPreview":"语义相似度","textChars":5,"textLines":1,"bbox":[652,305,546,48]}
+{"kind":"textbox","id":"sh/dkj6d8ny","slide":32,"text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[72,418,52,30]}
+{"kind":"shape","id":"sh/cja543md","slide":32,"bbox":[72,460,556,3]}
+{"kind":"textbox","id":"sh/zm1ofi54","slide":32,"text":"LLM-as-Judge","textPreview":"LLM-as-Judge","textChars":12,"textLines":1,"bbox":[72,483,546,48]}
+{"kind":"textbox","id":"sh/elsn6d4j","slide":32,"text":"04","textPreview":"04","textChars":2,"textLines":1,"bbox":[652,418,52,30]}
+{"kind":"shape","id":"sh/1oj6hsna","slide":32,"bbox":[652,460,556,3]}
+{"kind":"textbox","id":"sh/0na58nmp","slide":32,"text":"人工评审","textPreview":"人工评审","textChars":4,"textLines":1,"bbox":[652,483,546,48]}
+{"kind":"textbox","id":"sh/nqloji50","slide":32,"text":"客观字段用规则，开放答案用语义与裁判，关键决策由人工校准。","textPreview":"客观字段用规则，开放答案用语义与裁判，关键决策由人工校准。","textChars":29,"textLines":1,"bbox":[72,620,1136,36]}
+{"kind":"notes","id":"nt/cnwezx","slide":32,"text":"[Sources]\n- /Users/keivn/Project/AI-Course/准备材料/参考课程/知乎AI课程/正课/27.【测试与数据】大模型产品开发中的数据准备与反馈闭环.pdf（参考页：42、49）\n- /Users/keivn/Project/AI-Course/准备材料/参考课程/知乎AI课程/正课/录音/27.【测试与数据】大模型产品开发中的数据准备与反馈闭环_原文.docx\n- /Users/keivn/Project/AI-Course/课程生产/第一阶段/第09课_AI产品测试、指标与Bad Case_重做工作区/第09课_课程设计与老师稿.md"}
+{"kind":"slide","id":"sl/d4770n","slide":33,"title":"AI PRODUCT · EVAL SYSTEM","textShapes":11}
+{"kind":"textbox","id":"sh/2xsju147","slide":33,"text":"AI PRODUCT · EVAL SYSTEM","textPreview":"AI PRODUCT · EVAL SYSTEM","textChars":24,"textLines":1,"bbox":[68,28,300,22]}
+{"kind":"textbox","id":"sh/pkj25g3i","slide":33,"text":"33","textPreview":"33","textChars":2,"textLines":1,"bbox":[1170,28,42,22]}
+{"kind":"shape","id":"sh/ozalwbmx","slide":33,"bbox":[68,680,1144,2]}
+{"kind":"shape","id":"sh/fuhkz6lg","slide":33,"bbox":[68,680,539.31,2]}
+{"kind":"textbox","id":"sh/et8jq14v","slide":33,"name":"slide-title","text":"方法一：精确匹配与规则","textPreview":"方法一：精确匹配与规则","textChars":11,"textLines":1,"bbox":[68,78,1110,68]}
+{"kind":"textbox","id":"sh/1wj21w3m","slide":33,"name":"slide-lead","text":"适合明确、可枚举、不可妥协的判断。","textPreview":"适合明确、可枚举、不可妥协的判断。","textChars":17,"textLines":1,"bbox":[70,152,1080,58]}
+{"kind":"textbox","id":"sh/0va1sbm1","slide":33,"text":"—","textPreview":"—","textChars":1,"textLines":1,"bbox":[76,226,54,38]}
+{"kind":"textbox","id":"sh/zqlkbqlk","slide":33,"text":"关键词、格式、JSON Schema","textPreview":"关键词、格式、JSON Schema","textChars":18,"textLines":1,"bbox":[140,224,1010,50]}
+{"kind":"textbox","id":"sh/ypc32l4z","slide":33,"text":"—","textPreview":"—","textChars":1,"textLines":1,"bbox":[76,304,54,38]}
+{"kind":"textbox","id":"sh/obupo7ap","slide":33,"text":"金额、日期、枚举值","textPreview":"金额、日期、枚举值","textChars":9,"textLines":1,"bbox":[140,302,1010,50]}
+{"kind":"textbox","id":"sh/9c36hcra","slide":33,"text":"—","textPreview":"—","textChars":1,"textLines":1,"bbox":[76,382,54,38]}
+{"kind":"textbox","id":"sh/m9c7mxsj","slide":33,"text":"禁答词、敏感信息、必含提示","textPreview":"禁答词、敏感信息、必含提示","textChars":13,"textLines":1,"bbox":[140,380,1010,50]}
+{"kind":"textbox","id":"sh/nalof294","slide":33,"text":"优点：稳定、便宜、可解释｜局限：覆盖不了开放表达","textPreview":"优点：稳定、便宜、可解释｜局限：覆盖不了开放表达","textChars":24,"textLines":1,"bbox":[140,600,990,38]}
+{"kind":"notes","id":"nt/d4770n","slide":33,"text":"[Sources]\n- /Users/keivn/Project/AI-Course/准备材料/参考课程/知乎AI课程/正课/27.【测试与数据】大模型产品开发中的数据准备与反馈闭环.pdf（参考页：42、49）\n- /Users/keivn/Project/AI-Course/准备材料/参考课程/知乎AI课程/正课/录音/27.【测试与数据】大模型产品开发中的数据准备与反馈闭环_原文.docx\n- /Users/keivn/Project/AI-Course/课程生产/第一阶段/第09课_AI产品测试、指标与Bad Case_重做工作区/第09课_课程设计与老师稿.md"}
+{"kind":"slide","id":"sl/a82o07","slide":34,"title":"AI PRODUCT · EVAL SYSTEM","textShapes":11}
+{"kind":"textbox","id":"sh/fulovuds","slide":34,"text":"AI PRODUCT · EVAL SYSTEM","textPreview":"AI PRODUCT · EVAL SYSTEM","textChars":24,"textLines":1,"bbox":[68,28,300,22]}
+{"kind":"textbox","id":"sh/0vu54zex","slide":34,"text":"34","textPreview":"34","textChars":2,"textLines":1,"bbox":[1170,28,42,22]}
+{"kind":"shape","id":"sh/1w36x4vi","slide":34,"bbox":[68,680,1144,2]}
+{"kind":"shape","id":"sh/qpsnypwv","slide":34,"bbox":[68,680,555.66,2]}
+{"kind":"textbox","id":"sh/rql4rudg","slide":34,"name":"slide-title","text":"方法二：语义相似度","textPreview":"方法二：语义相似度","textChars":9,"textLines":1,"bbox":[68,78,1110,68]}
+{"kind":"textbox","id":"sh/sru50fe1","slide":34,"name":"slide-lead","text":"适合参考答案明确、表达方式多样的任务。","textPreview":"适合参考答案明确、表达方式多样的任务。","textChars":19,"textLines":1,"bbox":[70,152,1080,58]}
+{"kind":"textbox","id":"sh/ds3mtkvm","slide":34,"text":"—","textPreview":"—","textChars":1,"textLines":1,"bbox":[76,226,54,38]}
+{"kind":"textbox","id":"sh/i1snu5wz","slide":34,"text":"FAQ问答","textPreview":"FAQ问答","textChars":5,"textLines":1,"bbox":[140,224,1010,50]}
+{"kind":"textbox","id":"sh/3214nadk","slide":34,"text":"—","textPreview":"—","textChars":1,"textLines":1,"bbox":[76,304,54,38]}
+{"kind":"textbox","id":"sh/fmhobyx8","slide":34,"text":"摘要主旨","textPreview":"摘要主旨","textChars":4,"textLines":1,"bbox":[140,302,1010,50]}
+{"kind":"textbox","id":"sh/e187itwn","slide":34,"text":"—","textPreview":"—","textChars":1,"textLines":1,"bbox":[76,382,54,38]}
+{"kind":"textbox","id":"sh/1oz6d8fy","slide":34,"text":"意图或主题匹配","textPreview":"意图或主题匹配","textChars":7,"textLines":1,"bbox":[140,380,1010,50]}
+{"kind":"textbox","id":"sh/0nqpk3et","slide":34,"text":"优点：规模化｜局限：可能放过关键事实错误","textPreview":"优点：规模化｜局限：可能放过关键事实错误","textChars":20,"textLines":1,"bbox":[140,600,990,38]}
+{"kind":"notes","id":"nt/a82o07","slide":34,"text":"[Sources]\n- /Users/keivn/Project/AI-Course/准备材料/参考课程/知乎AI课程/正课/27.【测试与数据】大模型产品开发中的数据准备与反馈闭环.pdf（参考页：31–42）\n- /Users/keivn/Project/AI-Course/准备材料/参考课程/知乎AI课程/正课/录音/27.【测试与数据】大模型产品开发中的数据准备与反馈闭环_原文.docx\n- /Users/keivn/Project/AI-Course/课程生产/第一阶段/第09课_AI产品测试、指标与Bad Case_重做工作区/第09课_课程设计与老师稿.md"}
+{"kind":"slide","id":"sl/kibzj5","slide":35,"title":"AI PRODUCT · EVAL SYSTEM","textShapes":11}
+{"kind":"textbox","id":"sh/98jadgvu","slide":35,"text":"AI PRODUCT · EVAL SYSTEM","textPreview":"AI PRODUCT · EVAL SYSTEM","textChars":24,"textLines":1,"bbox":[68,28,300,22]}
+{"kind":"textbox","id":"sh/mlsr21cj","slide":35,"text":"35","textPreview":"35","textChars":2,"textLines":1,"bbox":[1170,28,42,22]}
+{"kind":"shape","id":"sh/nm1sb6do","slide":35,"bbox":[68,680,1144,2]}
+{"kind":"shape","id":"sh/wba98bul","slide":35,"bbox":[68,680,572,2]}
+{"kind":"textbox","id":"sh/xcjahgv6","slide":35,"name":"slide-title","text":"方法三：LLM-as-Judge","textPreview":"方法三：LLM-as-Judge","textChars":16,"textLines":1,"bbox":[68,78,1110,68]}
+{"kind":"textbox","id":"sh/a9sr6lcf","slide":35,"name":"slide-lead","text":"让模型按照评分维度、评分点和红线给出判断。","textPreview":"让模型按照评分维度、评分点和红线给出判断。","textChars":21,"textLines":1,"bbox":[70,152,1080,58]}
+{"kind":"textbox","id":"sh/ba1sfqd0","slide":35,"text":"—","textPreview":"—","textChars":1,"textLines":1,"bbox":[76,226,54,38]}
+{"kind":"textbox","id":"sh/cfq9wre1","slide":35,"text":"开放式回答","textPreview":"开放式回答","textChars":5,"textLines":1,"bbox":[140,224,1010,50]}
+{"kind":"textbox","id":"sh/dgza5wvm","slide":35,"text":"—","textPreview":"—","textChars":1,"textLines":1,"bbox":[76,304,54,38]}
+{"kind":"textbox","id":"sh/hcjyh0rm","slide":35,"text":"多维质量评分","textPreview":"多维质量评分","textChars":6,"textLines":1,"bbox":[140,302,1010,50]}
+{"kind":"textbox","id":"sh/gbahovq1","slide":35,"text":"—","textPreview":"—","textChars":1,"textLines":1,"bbox":[76,382,54,38]}
+{"kind":"textbox","id":"sh/va1gfa9g","slide":35,"text":"批量解释失败原因","textPreview":"批量解释失败原因","textChars":8,"textLines":1,"bbox":[140,380,1010,50]}
+{"kind":"textbox","id":"sh/u98zm58v","slide":35,"text":"优点：灵活｜局限：裁判也会偏、会漂移、会被提示影响","textPreview":"优点：灵活｜局限：裁判也会偏、会漂移、会被提示影响","textChars":25,"textLines":1,"bbox":[140,600,990,38]}
+{"kind":"notes","id":"nt/kibzj5","slide":35,"text":"[Sources]\n- /Users/keivn/Project/AI-Course/准备材料/参考课程/知乎AI课程/正课/27.【测试与数据】大模型产品开发中的数据准备与反馈闭环.pdf（参考页：49、55–57）\n- /Users/keivn/Project/AI-Course/准备材料/参考课程/知乎AI课程/正课/录音/27.【测试与数据】大模型产品开发中的数据准备与反馈闭环_原文.docx\n- /Users/keivn/Project/AI-Course/课程生产/第一阶段/第09课_AI产品测试、指标与Bad Case_重做工作区/第09课_课程设计与老师稿.md"}
+{"kind":"slide","id":"sl/k5kdtm","slide":36,"title":"AI PRODUCT · EVAL SYSTEM","textShapes":11}
+{"kind":"textbox","id":"sh/2p472lc7","slide":36,"text":"AI PRODUCT · EVAL SYSTEM","textPreview":"AI PRODUCT · EVAL SYSTEM","textChars":24,"textLines":1,"bbox":[68,28,300,22]}
+{"kind":"textbox","id":"sh/psvqxgby","slide":36,"text":"36","textPreview":"36","textChars":2,"textLines":1,"bbox":[1170,28,42,22]}
+{"kind":"shape","id":"sh/orm94bud","slide":36,"bbox":[68,680,1144,2]}
+{"kind":"shape","id":"sh/bud8zqto","slide":36,"bbox":[68,680,588.34,2]}
+{"kind":"textbox","id":"sh/at4r6lc3","slide":36,"name":"slide-title","text":"方法四：人工评审","textPreview":"方法四：人工评审","textChars":8,"textLines":1,"bbox":[68,78,1110,68]}
+{"kind":"textbox","id":"sh/xwfq10bu","slide":36,"name":"slide-lead","text":"用于高风险终审、疑难样本和自动评分校准。","textPreview":"用于高风险终审、疑难样本和自动评分校准。","textChars":20,"textLines":1,"bbox":[70,152,1080,58]}
+{"kind":"textbox","id":"sh/cv698vu9","slide":36,"text":"—","textPreview":"—","textChars":1,"textLines":1,"bbox":[76,226,54,38]}
+{"kind":"textbox","id":"sh/zix83qt0","slide":36,"text":"定义金标准","textPreview":"定义金标准","textChars":5,"textLines":1,"bbox":[140,224,1010,50]}
+{"kind":"textbox","id":"sh/yhora5cf","slide":36,"text":"—","textPreview":"—","textChars":1,"textLines":1,"bbox":[76,304,54,38]}
+{"kind":"textbox","id":"sh/ojup0nqx","slide":36,"text":"复核边界案例","textPreview":"复核边界案例","textChars":6,"textLines":1,"bbox":[140,302,1010,50]}
+{"kind":"textbox","id":"sh/pk369sri","slide":36,"text":"—","textPreview":"—","textChars":1,"textLines":1,"bbox":[76,382,54,38]}
+{"kind":"textbox","id":"sh/2hc7yx8r","slide":36,"text":"抽查自动评测偏差","textPreview":"抽查自动评测偏差","textChars":8,"textLines":1,"bbox":[140,380,1010,50]}
+{"kind":"textbox","id":"sh/3ilo7i9c","slide":36,"text":"不要把人工评审当成“无限人肉测试”。","textPreview":"不要把人工评审当成“无限人肉测试”。","textChars":18,"textLines":1,"bbox":[140,600,990,38]}
+{"kind":"notes","id":"nt/k5kdtm","slide":36,"text":"[Sources]\n- /Users/keivn/Project/AI-Course/准备材料/参考课程/知乎AI课程/正课/27.【测试与数据】大模型产品开发中的数据准备与反馈闭环.pdf（参考页：58）\n- /Users/keivn/Project/AI-Course/准备材料/参考课程/知乎AI课程/正课/录音/27.【测试与数据】大模型产品开发中的数据准备与反馈闭环_原文.docx\n- /Users/keivn/Project/AI-Course/课程生产/第一阶段/第09课_AI产品测试、指标与Bad Case_重做工作区/第09课_课程设计与老师稿.md"}
+{"kind":"slide","id":"sl/8qz6rj","slide":37,"title":"AI PRODUCT · EVAL SYSTEM","textShapes":14}
+{"kind":"textbox","id":"sh/zq1sn2d4","slide":37,"text":"AI PRODUCT · EVAL SYSTEM","textPreview":"AI PRODUCT · EVAL SYSTEM","textChars":24,"textLines":1,"bbox":[68,28,300,22]}
+{"kind":"textbox","id":"sh/0ratw7ep","slide":37,"text":"37","textPreview":"37","textChars":2,"textLines":1,"bbox":[1170,28,42,22]}
+{"kind":"shape","id":"sh/lsjapcva","slide":37,"bbox":[68,680,1144,2]}
+{"kind":"shape","id":"sh/mtcbyhwv","slide":37,"bbox":[68,680,604.69,2]}
+{"kind":"textbox","id":"sh/nulsrmdg","slide":37,"name":"slide-title","text":"输出质量，至少拆成五个维度","textPreview":"输出质量，至少拆成五个维度","textChars":13,"textLines":1,"bbox":[68,78,1110,68]}
+{"kind":"textbox","id":"sh/8vut0rel","slide":37,"text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[72,240,52,30]}
+{"kind":"shape","id":"sh/9g3utcv6","slide":37,"bbox":[72,282,208,3]}
+{"kind":"textbox","id":"sh/ahcb2hwr","slide":37,"text":"正确","textPreview":"正确","textChars":2,"textLines":1,"bbox":[72,305,198,48]}
+{"kind":"textbox","id":"sh/vilcvmdc","slide":37,"text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[304,240,52,30]}
+{"kind":"shape","id":"sh/za5kfapo","slide":37,"bbox":[304,282,208,3]}
+{"kind":"textbox","id":"sh/y9w3m58j","slide":37,"text":"相关","textPreview":"相关","textChars":2,"textLines":1,"bbox":[304,305,198,48]}
+{"kind":"textbox","id":"sh/lcn2hk7u","slide":37,"text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[536,240,52,30]}
+{"kind":"shape","id":"sh/kbelofq9","slide":37,"bbox":[536,282,208,3]}
+{"kind":"textbox","id":"sh/bmlkbaps","slide":37,"text":"完整","textPreview":"完整","textChars":2,"textLines":1,"bbox":[536,305,198,48]}
+{"kind":"textbox","id":"sh/alc3i587","slide":37,"text":"04","textPreview":"04","textChars":2,"textLines":1,"bbox":[768,240,52,30]}
+{"kind":"shape","id":"sh/x8n2d07y","slide":37,"bbox":[768,282,208,3]}
+{"kind":"textbox","id":"sh/cnulkvqd","slide":37,"text":"安全","textPreview":"安全","textChars":2,"textLines":1,"bbox":[768,305,198,48]}
+{"kind":"textbox","id":"sh/vip4nupw","slide":37,"text":"05","textPreview":"05","textChars":2,"textLines":1,"bbox":[1000,240,52,30]}
+{"kind":"shape","id":"sh/uhg3upob","slide":37,"bbox":[1000,282,208,3]}
+{"kind":"textbox","id":"sh/qx0nmt8j","slide":37,"text":"风格","textPreview":"风格","textChars":2,"textLines":1,"bbox":[1000,305,198,48]}
+{"kind":"textbox","id":"sh/ry9ovy94","slide":37,"text":"不同业务可以增删维度，但必须写清定义、评分点和红线。","textPreview":"不同业务可以增删维度，但必须写清定义、评分点和红线。","textChars":26,"textLines":1,"bbox":[72,620,1136,36]}
+{"kind":"notes","id":"nt/8qz6rj","slide":37,"text":"[Sources]\n- /Users/keivn/Project/AI-Course/准备材料/参考课程/知乎AI课程/正课/27.【测试与数据】大模型产品开发中的数据准备与反馈闭环.pdf（参考页：48）\n- /Users/keivn/Project/AI-Course/准备材料/参考课程/知乎AI课程/正课/录音/27.【测试与数据】大模型产品开发中的数据准备与反馈闭环_原文.docx\n- /Users/keivn/Project/AI-Course/课程生产/第一阶段/第09课_AI产品测试、指标与Bad Case_重做工作区/第09课_课程设计与老师稿.md"}
+{"kind":"slide","id":"sl/cw4v48","slide":38,"title":"AI PRODUCT · EVAL SYSTEM","textShapes":15}
+{"kind":"textbox","id":"sh/6por2t0z","slide":38,"text":"AI PRODUCT · EVAL SYSTEM","textPreview":"AI PRODUCT · EVAL SYSTEM","textChars":24,"textLines":1,"bbox":[68,28,300,22]}
+{"kind":"textbox","id":"sh/tsfax8za","slide":38,"text":"38","textPreview":"38","textChars":2,"textLines":1,"bbox":[1170,28,42,22]}
+{"kind":"shape","id":"sh/sr6943ip","slide":38,"bbox":[68,680,1144,2]}
+{"kind":"shape","id":"sh/fuxszyhg","slide":38,"bbox":[68,680,621.03,2]}
+{"kind":"textbox","id":"sh/utor6t0v","slide":38,"name":"slide-title","text":"不同维度，匹配不同判分方式","textPreview":"不同维度，匹配不同判分方式","textChars":13,"textLines":1,"bbox":[68,78,1110,68]}
+{"kind":"shape","id":"sh/hgza18zm","slide":38,"bbox":[72,230,1136,66]}
+{"kind":"textbox","id":"sh/gf6983i1","slide":38,"text":"维度","textPreview":"维度","textChars":2,"textLines":1,"bbox":[90,247,310,32]}
+{"kind":"textbox","id":"sh/3ihs3ihc","slide":38,"text":"优先方法","textPreview":"优先方法","textChars":4,"textLines":1,"bbox":[430,247,766,32]}
+{"kind":"shape","id":"sh/2h8radg7","slide":38,"bbox":[72,296,1136,66]}
+{"kind":"textbox","id":"sh/4ba94zih","slide":38,"text":"正确性","textPreview":"正确性","textChars":3,"textLines":1,"bbox":[90,313,310,34]}
+{"kind":"textbox","id":"sh/5cjqd4j2","slide":38,"text":"规则＋人工/LLM｜核对关键事实与数字","textPreview":"规则＋人工/LLM｜核对关键事实与数字","textChars":19,"textLines":1,"bbox":[430,313,766,34]}
+{"kind":"shape","id":"sh/i98r2p0r","slide":38,"bbox":[72,362,1136,66]}
+{"kind":"textbox","id":"sh/ja18bu1w","slide":38,"text":"相关性","textPreview":"相关性","textChars":3,"textLines":1,"bbox":[90,379,310,34]}
+{"kind":"textbox","id":"sh/sza98jit","slide":38,"text":"语义＋LLM｜避免答非所问","textPreview":"语义＋LLM｜避免答非所问","textChars":13,"textLines":1,"bbox":[430,379,766,34]}
+{"kind":"shape","id":"sh/t0jqh4je","slide":38,"bbox":[72,428,1136,66]}
+{"kind":"textbox","id":"sh/6dsr690n","slide":38,"text":"完整性","textPreview":"完整性","textChars":3,"textLines":1,"bbox":[90,445,310,34]}
+{"kind":"textbox","id":"sh/ry18fe18","slide":38,"text":"评分点覆盖｜检查必要步骤","textPreview":"评分点覆盖｜检查必要步骤","textChars":12,"textLines":1,"bbox":[430,445,766,34]}
+{"kind":"shape","id":"sh/g3u9cjip","slide":38,"bbox":[72,494,1136,66]}
+{"kind":"textbox","id":"sh/143aloja","slide":38,"text":"安全性","textPreview":"安全性","textChars":3,"textLines":1,"bbox":[90,511,310,34]}
+{"kind":"textbox","id":"sh/p8fi9k72","slide":38,"text":"规则＋人工｜红线单独统计","textPreview":"规则＋人工｜红线单独统计","textChars":12,"textLines":1,"bbox":[430,511,766,34]}
+{"kind":"shape","id":"sh/on6hgf6x","slide":38,"bbox":[72,560,1136,66]}
+{"kind":"textbox","id":"sh/3mx07apc","slide":38,"text":"风格","textPreview":"风格","textChars":2,"textLines":1,"bbox":[90,577,310,34]}
+{"kind":"textbox","id":"sh/2lozepor","slide":38,"text":"LLM＋抽检｜统一语气与格式","textPreview":"LLM＋抽检｜统一语气与格式","textChars":14,"textLines":1,"bbox":[430,577,766,34]}
+{"kind":"notes","id":"nt/cw4v48","slide":38,"text":"[Sources]\n- /Users/keivn/Project/AI-Course/准备材料/参考课程/知乎AI课程/正课/27.【测试与数据】大模型产品开发中的数据准备与反馈闭环.pdf（参考页：49、59）\n- /Users/keivn/Project/AI-Course/准备材料/参考课程/知乎AI课程/正课/录音/27.【测试与数据】大模型产品开发中的数据准备与反馈闭环_原文.docx\n- /Users/keivn/Project/AI-Course/课程生产/第一阶段/第09课_AI产品测试、指标与Bad Case_重做工作区/第09课_课程设计与老师稿.md"}
+{"kind":"slide","id":"sl/ufki8y","slide":39,"title":"AI PRODUCT · EVAL SYSTEM","textShapes":5}
+{"kind":"textbox","id":"sh/mxsju9wf","slide":39,"text":"AI PRODUCT · EVAL SYSTEM","textPreview":"AI PRODUCT · EVAL SYSTEM","textChars":24,"textLines":1,"bbox":[68,28,300,22]}
+{"kind":"textbox","id":"sh/90jipovq","slide":39,"text":"39","textPreview":"39","textChars":2,"textLines":1,"bbox":[1170,28,42,22]}
+{"kind":"shape","id":"sh/8za1wje5","slide":39,"bbox":[68,680,1144,2]}
+{"kind":"shape","id":"sh/v21krydw","slide":39,"bbox":[68,680,637.37,2]}
+{"kind":"textbox","id":"sh/u1sjitwb","slide":39,"name":"slide-title","text":"自动化评测的意义，是把回归成本降下来","textPreview":"自动化评测的意义，是把回归成本降下来","textChars":18,"textLines":1,"bbox":[68,78,1110,68]}
+{"kind":"shape","id":"sh/hoj2tov2","slide":39,"bbox":[70,250,8,245]}
+{"kind":"textbox","id":"sh/wna1k3eh","slide":39,"text":"自动化负责规模，人工负责标准和校准。","textPreview":"自动化负责规模，人工负责标准和校准。","textChars":18,"textLines":1,"bbox":[120,285,990,140]}
+{"kind":"textbox","id":"sh/b6h0fuds","slide":39,"text":"当题库从20条增长到2000条，人工逐题检查不再可持续。","textPreview":"当题库从20条增长到2000条，人工逐题检查不再可持续。","textChars":28,"textLines":1,"bbox":[120,445,980,80]}
+{"kind":"notes","id":"nt/ufki8y","slide":39,"text":"[Sources]\n- /Users/keivn/Project/AI-Course/准备材料/参考课程/知乎AI课程/正课/27.【测试与数据】大模型产品开发中的数据准备与反馈闭环.pdf（参考页：44–45）\n- /Users/keivn/Project/AI-Course/准备材料/参考课程/知乎AI课程/正课/录音/27.【测试与数据】大模型产品开发中的数据准备与反馈闭环_原文.docx\n- /Users/keivn/Project/AI-Course/课程生产/第一阶段/第09课_AI产品测试、指标与Bad Case_重做工作区/第09课_课程设计与老师稿.md"}
+{"kind":"slide","id":"sl/qj57w4","slide":40,"title":"AI PRODUCT · EVAL SYSTEM","textShapes":8}
+{"kind":"textbox","id":"sh/qdcf6dk7","slide":40,"text":"AI PRODUCT · EVAL SYSTEM","textPreview":"AI PRODUCT · EVAL SYSTEM","textChars":24,"textLines":1,"bbox":[68,28,300,22]}
+{"kind":"textbox","id":"sh/dgnehs3i","slide":40,"text":"40","textPreview":"40","textChars":2,"textLines":1,"bbox":[1170,28,42,22]}
+{"kind":"shape","id":"sh/sfex8n2x","slide":40,"bbox":[68,680,1144,2]}
+{"kind":"shape","id":"sh/3qlwbylg","slide":40,"bbox":[68,680,653.71,2]}
+{"kind":"textbox","id":"sh/ipcv2tkv","slide":40,"name":"slide-title","text":"什么是 Eval？","textPreview":"什么是 Eval？","textChars":9,"textLines":1,"bbox":[68,78,1110,68]}
+{"kind":"textbox","id":"sh/5c3ed83m","slide":40,"name":"slide-lead","text":"固定一套题，用统一规则判卷，并在每次版本变化后重复运行。","textPreview":"固定一套题，用统一规则判卷，并在每次版本变化后重复运行。","textChars":28,"textLines":1,"bbox":[70,152,1080,58]}
+{"kind":"shape","id":"sh/4bud4321","slide":40,"bbox":[70,250,8,245]}
+{"kind":"textbox","id":"sh/vm1w7yl4","slide":40,"text":"同题","textPreview":"同题","textChars":2,"textLines":1,"bbox":[120,245,380,160]}
+{"kind":"textbox","id":"sh/ulsvytkz","slide":40,"text":"同尺 · 同流程","textPreview":"同尺 · 同流程","textChars":8,"textLines":1,"bbox":[130,420,390,42]}
+{"kind":"shape","id":"sh/sri1ozu5","slide":40,"bbox":[690,266,160,160]}
+{"kind":"shape","id":"sh/dsrih4vq","slide":40,"bbox":[825,318,160,160]}
+{"kind":"textbox","id":"sh/qp0jmpcf","slide":40,"text":"答案A","textPreview":"答案A","textChars":3,"textLines":1,"bbox":[710,330,120,30]}
+{"kind":"textbox","id":"sh/rq90fud0","slide":40,"text":"答案B","textPreview":"答案B","textChars":3,"textLines":1,"bbox":[845,382,120,30]}
+{"kind":"notes","id":"nt/qj57w4","slide":40,"text":"[Sources]\n- /Users/keivn/Project/AI-Course/准备材料/参考课程/知乎AI课程/正课/27.【测试与数据】大模型产品开发中的数据准备与反馈闭环.pdf（参考页：46）\n- /Users/keivn/Project/AI-Course/准备材料/参考课程/知乎AI课程/正课/录音/27.【测试与数据】大模型产品开发中的数据准备与反馈闭环_原文.docx\n- /Users/keivn/Project/AI-Course/课程生产/第一阶段/第09课_AI产品测试、指标与Bad Case_重做工作区/第09课_课程设计与老师稿.md"}
+{"kind":"slide","id":"sl/wza8af","slide":41,"title":"AI PRODUCT · EVAL SYSTEM","textShapes":12}
+{"kind":"textbox","id":"sh/jmlsva5g","slide":41,"text":"AI PRODUCT · EVAL SYSTEM","textPreview":"AI PRODUCT · EVAL SYSTEM","textChars":24,"textLines":1,"bbox":[68,28,300,22]}
+{"kind":"textbox","id":"sh/4nutof61","slide":41,"text":"41","textPreview":"41","textChars":2,"textLines":1,"bbox":[1170,28,42,22]}
+{"kind":"shape","id":"sh/5o3axknm","slide":41,"bbox":[68,680,1144,2]}
+{"kind":"shape","id":"sh/uhsri5oz","slide":41,"bbox":[68,680,670.06,2]}
+{"kind":"textbox","id":"sh/vi1sra5k","slide":41,"name":"slide-title","text":"Eval第一步：设计代表性评测集","textPreview":"Eval第一步：设计代表性评测集","textChars":16,"textLines":1,"bbox":[68,78,1110,68]}
+{"kind":"shape","id":"sh/wju9kf6p","slide":41,"bbox":[338.5,345,32,30]}
+{"kind":"shape","id":"sh/hk3atkna","slide":41,"bbox":[72,300,270.5,120]}
+{"kind":"textbox","id":"sh/edwbu9o3","slide":41,"text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[86,314,40,24]}
+{"kind":"textbox","id":"sh/fe5s3u5o","slide":41,"text":"按业务场景分层","textPreview":"按业务场景分层","textChars":7,"textLines":1,"bbox":[84,353,246.5,48]}
+{"kind":"shape","id":"sh/fu98vm5o","slide":41,"bbox":[627,345,32,30]}
+{"kind":"shape","id":"sh/et0rmh43","slide":41,"bbox":[360.5,300,270.5,120]}
+{"kind":"textbox","id":"sh/1wrqxcnu","slide":41,"text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[374.5,314,40,24]}
+{"kind":"textbox","id":"sh/0vi9orm9","slide":41,"text":"加入边界与无答案","textPreview":"加入边界与无答案","textChars":8,"textLines":1,"bbox":[372.5,353,246.5,48]}
+{"kind":"shape","id":"sh/nit8zml0","slide":41,"bbox":[915.5,345,32,30]}
+{"kind":"shape","id":"sh/2xkrqh4f","slide":41,"bbox":[649,300,270.5,120]}
+{"kind":"textbox","id":"sh/pkba1w3q","slide":41,"text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[663,314,40,24]}
+{"kind":"textbox","id":"sh/oj29srml","slide":41,"text":"保留历史 Bad Case","textPreview":"保留历史 Bad Case","textChars":13,"textLines":1,"bbox":[661,353,246.5,48]}
+{"kind":"shape","id":"sh/bmts36lw","slide":41,"bbox":[937.5,300,270.5,120]}
+{"kind":"textbox","id":"sh/alkru14b","slide":41,"text":"04","textPreview":"04","textChars":2,"textLines":1,"bbox":[951.5,314,40,24]}
+{"kind":"textbox","id":"sh/mhobm5oj","slide":41,"text":"标记频率与风险","textPreview":"标记频率与风险","textChars":7,"textLines":1,"bbox":[949.5,353,246.5,48]}
+{"kind":"textbox","id":"sh/7ixcva54","slide":41,"text":"题库代表什么，最终分数就代表什么。","textPreview":"题库代表什么，最终分数就代表什么。","textChars":17,"textLines":1,"bbox":[110,490,1060,55]}
+{"kind":"notes","id":"nt/wza8af","slide":41,"text":"[Sources]\n- /Users/keivn/Project/AI-Course/准备材料/参考课程/知乎AI课程/正课/27.【测试与数据】大模型产品开发中的数据准备与反馈闭环.pdf（参考页：47）\n- /Users/keivn/Project/AI-Course/准备材料/参考课程/知乎AI课程/正课/录音/27.【测试与数据】大模型产品开发中的数据准备与反馈闭环_原文.docx\n- /Users/keivn/Project/AI-Course/课程生产/第一阶段/第09课_AI产品测试、指标与Bad Case_重做工作区/第09课_课程设计与老师稿.md"}
+{"kind":"slide","id":"sl/mb134w","slide":42,"title":"AI PRODUCT · EVAL SYSTEM","textShapes":12}
+{"kind":"textbox","id":"sh/wjmlsbix","slide":42,"text":"AI PRODUCT · EVAL SYSTEM","textPreview":"AI PRODUCT · EVAL SYSTEM","textChars":24,"textLines":1,"bbox":[68,28,300,22]}
+{"kind":"textbox","id":"sh/bidkz61c","slide":42,"text":"42","textPreview":"42","textChars":2,"textLines":1,"bbox":[1170,28,42,22]}
+{"kind":"shape","id":"sh/ah43ql0r","slide":42,"bbox":[68,680,1144,2]}
+{"kind":"shape","id":"sh/l8f250je","slide":42,"bbox":[68,680,686.4,2]}
+{"kind":"textbox","id":"sh/k7mlwvit","slide":42,"name":"slide-title","text":"Eval第二步：定义评分点和红线","textPreview":"Eval第二步：定义评分点和红线","textChars":16,"textLines":1,"bbox":[68,78,1110,68]}
+{"kind":"shape","id":"sh/jmdk3q18","slide":42,"bbox":[338.5,345,32,30]}
+{"kind":"shape","id":"sh/yl43ul0n","slide":42,"bbox":[72,300,270.5,120]}
+{"kind":"textbox","id":"sh/1cb2twja","slide":42,"text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[86,314,40,24]}
+{"kind":"textbox","id":"sh/0r210rip","slide":42,"text":"写清理想答案","textPreview":"写清理想答案","textChars":6,"textLines":1,"bbox":[84,353,246.5,48]}
+{"kind":"shape","id":"sh/algzu5cb","slide":42,"bbox":[627,345,32,30]}
+{"kind":"shape","id":"sh/vmpg3adw","slide":42,"bbox":[360.5,300,270.5,120]}
+{"kind":"textbox","id":"sh/wnyhwvuh","slide":42,"text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[374.5,314,40,24]}
+{"kind":"textbox","id":"sh/xo7y50v2","slide":42,"text":"拆出必含信息","textPreview":"拆出必含信息","textChars":6,"textLines":1,"bbox":[372.5,353,246.5,48]}
+{"kind":"shape","id":"sh/ipgzy5cn","slide":42,"bbox":[915.5,345,32,30]}
+{"kind":"shape","id":"sh/jqpg7ad8","slide":42,"bbox":[649,300,270.5,120]}
+{"kind":"textbox","id":"sh/4ryh0fut","slide":42,"text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[663,314,40,24]}
+{"kind":"textbox","id":"sh/5sry9kvy","slide":42,"text":"定义可接受变体","textPreview":"定义可接受变体","textChars":7,"textLines":1,"bbox":[661,353,246.5,48]}
+{"kind":"shape","id":"sh/6t0z2pcj","slide":42,"bbox":[937.5,300,270.5,120]}
+{"kind":"textbox","id":"sh/ru9gbud4","slide":42,"text":"04","textPreview":"04","textChars":2,"textLines":1,"bbox":[951.5,314,40,24]}
+{"kind":"textbox","id":"sh/3i9gju9c","slide":42,"text":"列出一票否决项","textPreview":"列出一票否决项","textChars":7,"textLines":1,"bbox":[949.5,353,246.5,48]}
+{"kind":"textbox","id":"sh/2x0fqpsr","slide":42,"text":"先写判卷规则，再看模型答案，避免事后迁就。","textPreview":"先写判卷规则，再看模型答案，避免事后迁就。","textChars":21,"textLines":1,"bbox":[110,490,1060,55]}
+{"kind":"notes","id":"nt/mb134w","slide":42,"text":"[Sources]\n- /Users/keivn/Project/AI-Course/准备材料/参考课程/知乎AI课程/正课/27.【测试与数据】大模型产品开发中的数据准备与反馈闭环.pdf（参考页：48）\n- /Users/keivn/Project/AI-Course/准备材料/参考课程/知乎AI课程/正课/录音/27.【测试与数据】大模型产品开发中的数据准备与反馈闭环_原文.docx\n- /Users/keivn/Project/AI-Course/课程生产/第一阶段/第09课_AI产品测试、指标与Bad Case_重做工作区/第09课_课程设计与老师稿.md"}
+{"kind":"slide","id":"sl/o9vls6","slide":43,"title":"AI PRODUCT · EVAL SYSTEM","textShapes":12}
+{"kind":"textbox","id":"sh/7utcfi5w","slide":43,"text":"AI PRODUCT · EVAL SYSTEM","textPreview":"AI PRODUCT · EVAL SYSTEM","textChars":24,"textLines":1,"bbox":[68,28,300,22]}
+{"kind":"textbox","id":"sh/sv2don61","slide":43,"text":"43","textPreview":"43","textChars":2,"textLines":1,"bbox":[1170,28,42,22]}
+{"kind":"shape","id":"sh/twvuhsnm","slide":43,"bbox":[68,680,1144,2]}
+{"kind":"shape","id":"sh/i5kvidoz","slide":43,"bbox":[68,680,702.74,2]}
+{"kind":"textbox","id":"sh/j6tcby5k","slide":43,"name":"slide-title","text":"Eval第三步：选择评分方法","textPreview":"Eval第三步：选择评分方法","textChars":14,"textLines":1,"bbox":[68,78,1110,68]}
+{"kind":"shape","id":"sh/kr2dk365","slide":43,"bbox":[338.5,345,32,30]}
+{"kind":"shape","id":"sh/5sbud8nq","slide":43,"bbox":[72,300,270.5,120]}
+{"kind":"textbox","id":"sh/214vuxoj","slide":43,"text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[86,314,40,24]}
+{"kind":"textbox","id":"sh/32dwn254","slide":43,"text":"规则判硬条件","textPreview":"规则判硬条件","textChars":6,"textLines":1,"bbox":[84,353,246.5,48]}
+{"kind":"shape","id":"sh/va58ve1s","slide":43,"bbox":[627,345,32,30]}
+{"kind":"shape","id":"sh/u9wr2907","slide":43,"bbox":[360.5,300,270.5,120]}
+{"kind":"textbox","id":"sh/hcnqxojy","slide":43,"text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[374.5,314,40,24]}
+{"kind":"textbox","id":"sh/wbe94jid","slide":43,"text":"相似度看语义","textPreview":"相似度看语义","textChars":6,"textLines":1,"bbox":[372.5,353,246.5,48]}
+{"kind":"shape","id":"sh/jep8zy14","slide":43,"bbox":[915.5,345,32,30]}
+{"kind":"shape","id":"sh/idwr6t0j","slide":43,"bbox":[649,300,270.5,120]}
+{"kind":"textbox","id":"sh/5g7q18ju","slide":43,"text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[663,314,40,24]}
+{"kind":"textbox","id":"sh/4fy983i9","slide":43,"text":"LLM判开放质量","textPreview":"LLM判开放质量","textChars":8,"textLines":1,"bbox":[661,353,246.5,48]}
+{"kind":"shape","id":"sh/r2ps3y10","slide":43,"bbox":[937.5,300,270.5,120]}
+{"kind":"textbox","id":"sh/qhgrat0f","slide":43,"text":"04","textPreview":"04","textChars":2,"textLines":1,"bbox":[951.5,314,40,24]}
+{"kind":"textbox","id":"sh/2xkb2xkn","slide":43,"text":"人工做终审校准","textPreview":"人工做终审校准","textChars":7,"textLines":1,"bbox":[949.5,353,246.5,48]}
+{"kind":"textbox","id":"sh/nytcb2l8","slide":43,"text":"组合方法比单一总分更可信。","textPreview":"组合方法比单一总分更可信。","textChars":13,"textLines":1,"bbox":[110,490,1060,55]}
+{"kind":"notes","id":"nt/o9vls6","slide":43,"text":"[Sources]\n- /Users/keivn/Project/AI-Course/准备材料/参考课程/知乎AI课程/正课/27.【测试与数据】大模型产品开发中的数据准备与反馈闭环.pdf（参考页：49）\n- /Users/keivn/Project/AI-Course/准备材料/参考课程/知乎AI课程/正课/录音/27.【测试与数据】大模型产品开发中的数据准备与反馈闭环_原文.docx\n- /Users/keivn/Project/AI-Course/课程生产/第一阶段/第09课_AI产品测试、指标与Bad Case_重做工作区/第09课_课程设计与老师稿.md"}
+{"kind":"slide","id":"sl/pbnu4w","slide":44,"title":"AI PRODUCT · EVAL SYSTEM","textShapes":12}
+{"kind":"textbox","id":"sh/snixczep","slide":44,"text":"AI PRODUCT · EVAL SYSTEM","textPreview":"AI PRODUCT · EVAL SYSTEM","textChars":24,"textLines":1,"bbox":[68,28,300,22]}
+{"kind":"textbox","id":"sh/7m9gjud4","slide":44,"text":"44","textPreview":"44","textChars":2,"textLines":1,"bbox":[1170,28,42,22]}
+{"kind":"shape","id":"sh/6l0fapwj","slide":44,"bbox":[68,680,1144,2]}
+{"kind":"shape","id":"sh/5kreh4vy","slide":44,"bbox":[68,680,719.09,2]}
+{"kind":"textbox","id":"sh/kjix8zet","slide":44,"name":"slide-title","text":"一个自动评测中心，需要四个核心区","textPreview":"一个自动评测中心，需要四个核心区","textChars":16,"textLines":1,"bbox":[68,78,1110,68]}
+{"kind":"textbox","id":"sh/ji9wfud8","slide":44,"text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[72,240,52,30]}
+{"kind":"shape","id":"sh/ih0f6pwn","slide":44,"bbox":[72,282,556,3]}
+{"kind":"textbox","id":"sh/pgvytovi","slide":44,"text":"用例库","textPreview":"用例库","textChars":3,"textLines":1,"bbox":[72,305,546,48]}
+{"kind":"textbox","id":"sh/4f2xkjux","slide":44,"text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[652,240,52,30]}
+{"kind":"shape","id":"sh/2tsrehk7","slide":44,"bbox":[652,282,556,3]}
+{"kind":"textbox","id":"sh/3u1snm1s","slide":44,"text":"批量运行","textPreview":"批量运行","textChars":4,"textLines":1,"bbox":[652,305,546,48]}
+{"kind":"textbox","id":"sh/4va9gr2d","slide":44,"text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[72,418,52,30]}
+{"kind":"shape","id":"sh/pwjapwjy","slide":44,"bbox":[72,460,556,3]}
+{"kind":"textbox","id":"sh/up8rahkb","slide":44,"text":"评分与归因","textPreview":"评分与归因","textChars":5,"textLines":1,"bbox":[72,483,546,48]}
+{"kind":"textbox","id":"sh/fqh8jm1w","slide":44,"text":"04","textPreview":"04","textChars":2,"textLines":1,"bbox":[652,418,52,30]}
+{"kind":"shape","id":"sh/grq9c72h","slide":44,"bbox":[652,460,556,3]}
+{"kind":"textbox","id":"sh/hszalcjm","slide":44,"text":"版本对比","textPreview":"版本对比","textChars":4,"textLines":1,"bbox":[652,483,546,48]}
+{"kind":"textbox","id":"sh/elcrm10f","slide":44,"text":"产品经理不一定写平台，但必须定义平台要回答的问题。","textPreview":"产品经理不一定写平台，但必须定义平台要回答的问题。","textChars":25,"textLines":1,"bbox":[72,620,1136,36]}
+{"kind":"notes","id":"nt/pbnu4w","slide":44,"text":"[Sources]\n- /Users/keivn/Project/AI-Course/准备材料/参考课程/知乎AI课程/正课/27.【测试与数据】大模型产品开发中的数据准备与反馈闭环.pdf（参考页：50）\n- /Users/keivn/Project/AI-Course/准备材料/参考课程/知乎AI课程/正课/录音/27.【测试与数据】大模型产品开发中的数据准备与反馈闭环_原文.docx\n- /Users/keivn/Project/AI-Course/课程生产/第一阶段/第09课_AI产品测试、指标与Bad Case_重做工作区/第09课_课程设计与老师稿.md"}
+{"kind":"slide","id":"sl/3xzk4k","slide":45,"title":"AI PRODUCT · EVAL SYSTEM","textShapes":13}
+{"kind":"textbox","id":"sh/1kn2p076","slide":45,"text":"AI PRODUCT · EVAL SYSTEM","textPreview":"AI PRODUCT · EVAL SYSTEM","textChars":24,"textLines":1,"bbox":[68,28,300,22]}
+{"kind":"textbox","id":"sh/ehcjel8f","slide":45,"text":"45","textPreview":"45","textChars":2,"textLines":1,"bbox":[1170,28,42,22]}
+{"kind":"shape","id":"sh/fi5knqp0","slide":45,"bbox":[68,680,1144,2]}
+{"kind":"shape","id":"sh/o7elkfqh","slide":45,"bbox":[68,680,735.43,2]}
+{"kind":"textbox","id":"sh/p8n2t072","slide":45,"name":"slide-title","text":"演示：一次批量测试，应该看到什么","textPreview":"演示：一次批量测试，应该看到什么","textChars":16,"textLines":1,"bbox":[68,78,1110,68]}
+{"kind":"textbox","id":"sh/2lw3i58r","slide":45,"text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[76,226,54,38]}
+{"kind":"textbox","id":"sh/365krapw","slide":45,"text":"选择版本与评测集","textPreview":"选择版本与评测集","textChars":8,"textLines":1,"bbox":[140,224,1010,50]}
+{"kind":"textbox","id":"sh/4bu18bqd","slide":45,"text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[76,298,54,38]}
+{"kind":"textbox","id":"sh/5c32hg7y","slide":45,"text":"批量发送请求并留存输出","textPreview":"批量发送请求并留存输出","textChars":11,"textLines":1,"bbox":[140,296,1010,50]}
+{"kind":"textbox","id":"sh/xcje90rm","slide":45,"text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[76,370,54,38]}
+{"kind":"textbox","id":"sh/wbadgvq1","slide":45,"text":"按维度自动评分","textPreview":"按维度自动评分","textChars":7,"textLines":1,"bbox":[140,368,1010,50]}
+{"kind":"textbox","id":"sh/va1w7q9w","slide":45,"text":"04","textPreview":"04","textChars":2,"textLines":1,"bbox":[76,442,54,38]}
+{"kind":"textbox","id":"sh/a9svel8b","slide":45,"text":"筛选低分与红线用例","textPreview":"筛选低分与红线用例","textChars":9,"textLines":1,"bbox":[140,440,1010,50]}
+{"kind":"textbox","id":"sh/5g3edkry","slide":45,"text":"05","textPreview":"05","textChars":2,"textLines":1,"bbox":[76,514,54,38]}
+{"kind":"textbox","id":"sh/kfadkfqd","slide":45,"text":"生成版本对比报告","textPreview":"生成版本对比报告","textChars":8,"textLines":1,"bbox":[140,512,1010,50]}
+{"kind":"notes","id":"nt/3xzk4k","slide":45,"text":"[Sources]\n- /Users/keivn/Project/AI-Course/准备材料/参考课程/知乎AI课程/正课/27.【测试与数据】大模型产品开发中的数据准备与反馈闭环.pdf（参考页：51–52）\n- /Users/keivn/Project/AI-Course/准备材料/参考课程/知乎AI课程/正课/录音/27.【测试与数据】大模型产品开发中的数据准备与反馈闭环_原文.docx\n- /Users/keivn/Project/AI-Course/课程生产/第一阶段/第09课_AI产品测试、指标与Bad Case_重做工作区/第09课_课程设计与老师稿.md"}
+{"kind":"slide","id":"sl/6n6k7t","slide":46,"title":"AI PRODUCT · EVAL SYSTEM","textShapes":14}
+{"kind":"textbox","id":"sh/a5svutsb","slide":46,"text":"AI PRODUCT · EVAL SYSTEM","textPreview":"AI PRODUCT · EVAL SYSTEM","textChars":24,"textLines":1,"bbox":[68,28,300,22]}
+{"kind":"textbox","id":"sh/x83u58b2","slide":46,"text":"46","textPreview":"46","textChars":2,"textLines":1,"bbox":[1170,28,42,22]}
+{"kind":"shape","id":"sh/c7udw3ah","slide":46,"bbox":[68,680,1144,2]}
+{"kind":"shape","id":"sh/n21czytk","slide":46,"bbox":[68,680,751.77,2]}
+{"kind":"textbox","id":"sh/21sbqtsf","slide":46,"name":"slide-title","text":"自动测试 Agent：把执行、判分、报告串起来","textPreview":"自动测试 Agent：把执行、判分、报告串起来","textChars":23,"textLines":1,"bbox":[68,78,1110,68]}
+{"kind":"shape","id":"sh/p4ju1obq","slide":46,"bbox":[280.8,345,32,30]}
+{"kind":"shape","id":"sh/o3adsja5","slide":46,"bbox":[72,300,212.8,120]}
+{"kind":"textbox","id":"sh/7y5cbit4","slide":46,"text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[86,314,40,24]}
+{"kind":"textbox","id":"sh/mxcv2dsj","slide":46,"text":"Test Case","textPreview":"Test Case","textChars":9,"textLines":1,"bbox":[84,353,188.8,48]}
+{"kind":"shape","id":"sh/436h8ful","slide":46,"bbox":[511.6,345,32,30]}
+{"kind":"shape","id":"sh/54fyhkbq","slide":46,"bbox":[302.8,300,212.8,120]}
+{"kind":"textbox","id":"sh/i1oz6pcf","slide":46,"text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[316.8,314,40,24]}
+{"kind":"textbox","id":"sh/j2xgfut0","slide":46,"text":"被测产品","textPreview":"被测产品","textChars":4,"textLines":1,"bbox":[314.8,353,188.8,48]}
+{"kind":"shape","id":"sh/wz6h4fu9","slide":46,"bbox":[742.4,345,32,30]}
+{"kind":"shape","id":"sh/h0fydkbu","slide":46,"bbox":[533.6,300,212.8,120]}
+{"kind":"textbox","id":"sh/ud4z25c3","slide":46,"text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[547.6,314,40,24]}
+{"kind":"textbox","id":"sh/vexgbato","slide":46,"text":"Judge","textPreview":"Judge","textChars":5,"textLines":1,"bbox":[545.6,353,188.8,48]}
+{"kind":"shape","id":"sh/8bmh0vud","slide":46,"bbox":[973.2,345,32,30]}
+{"kind":"shape","id":"sh/9cvy90by","slide":46,"bbox":[764.4,300,212.8,120]}
+{"kind":"textbox","id":"sh/98nexwnm","slide":46,"text":"04","textPreview":"04","textChars":2,"textLines":1,"bbox":[778.4,314,40,24]}
+{"kind":"textbox","id":"sh/o7ex4rm1","slide":46,"text":"结果库","textPreview":"结果库","textChars":3,"textLines":1,"bbox":[776.4,353,188.8,48]}
+{"kind":"shape","id":"sh/n65wvm5g","slide":46,"bbox":[995.2,300,212.8,120]}
+{"kind":"textbox","id":"sh/m5wf2h4v","slide":46,"text":"05","textPreview":"05","textChars":2,"textLines":1,"bbox":[1009.2,314,40,24]}
+{"kind":"textbox","id":"sh/14netwna","slide":46,"text":"报告","textPreview":"报告","textChars":2,"textLines":1,"bbox":[1007.2,353,188.8,48]}
+{"kind":"textbox","id":"sh/03ed0rm5","slide":46,"text":"关键不是“用了Agent”，而是过程可重复、结果可审计。","textPreview":"关键不是“用了Agent”，而是过程可重复、结果可审计。","textChars":28,"textLines":1,"bbox":[110,490,1060,55]}
+{"kind":"notes","id":"nt/6n6k7t","slide":46,"text":"[Sources]\n- /Users/keivn/Project/AI-Course/准备材料/参考课程/知乎AI课程/正课/27.【测试与数据】大模型产品开发中的数据准备与反馈闭环.pdf（参考页：53）\n- /Users/keivn/Project/AI-Course/准备材料/参考课程/知乎AI课程/正课/录音/27.【测试与数据】大模型产品开发中的数据准备与反馈闭环_原文.docx\n- /Users/keivn/Project/AI-Course/课程生产/第一阶段/第09课_AI产品测试、指标与Bad Case_重做工作区/第09课_课程设计与老师稿.md"}
+{"kind":"slide","id":"sl/6xbg43","slide":47,"title":"AI PRODUCT · EVAL SYSTEM","textShapes":14}
+{"kind":"textbox","id":"sh/61krm14j","slide":47,"text":"AI PRODUCT · EVAL SYSTEM","textPreview":"AI PRODUCT · EVAL SYSTEM","textChars":24,"textLines":1,"bbox":[68,28,300,22]}
+{"kind":"textbox","id":"sh/t4vqhgna","slide":47,"text":"47","textPreview":"47","textChars":2,"textLines":1,"bbox":[1170,28,42,22]}
+{"kind":"shape","id":"sh/83m9obmp","slide":47,"bbox":[68,680,1144,2]}
+{"kind":"shape","id":"sh/jyt8bm58","slide":47,"bbox":[68,680,768.11,2]}
+{"kind":"textbox","id":"sh/ydk7ih4n","slide":47,"name":"slide-title","text":"AI可以扩写用例，但不能替你定义边界","textPreview":"AI可以扩写用例，但不能替你定义边界","textChars":18,"textLines":1,"bbox":[68,78,1110,68]}
+{"kind":"shape","id":"sh/l0bqdwny","slide":47,"bbox":[280.8,345,32,30]}
+{"kind":"shape","id":"sh/kz29krmt","slide":47,"bbox":[72,300,212.8,120]}
+{"kind":"textbox","id":"sh/3ux8nq5c","slide":47,"text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[86,314,40,24]}
+{"kind":"textbox","id":"sh/i94rul4r","slide":47,"text":"给定原始样本","textPreview":"给定原始样本","textChars":6,"textLines":1,"bbox":[84,353,188.8,48]}
+{"kind":"shape","id":"sh/snmxgjmt","slide":47,"bbox":[511.6,345,32,30]}
+{"kind":"shape","id":"sh/dofy9one","slide":47,"bbox":[302.8,300,212.8,120]}
+{"kind":"textbox","id":"sh/q14fe94n","slide":47,"text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[316.8,314,40,24]}
+{"kind":"textbox","id":"sh/rmdg7e58","slide":47,"text":"指定变化维度","textPreview":"指定变化维度","textChars":6,"textLines":1,"bbox":[314.8,353,188.8,48]}
+{"kind":"shape","id":"sh/4zmxcj6x","slide":47,"bbox":[742.4,345,32,30]}
+{"kind":"shape","id":"sh/50vy5oni","slide":47,"bbox":[533.6,300,212.8,120]}
+{"kind":"textbox","id":"sh/ix4fa9or","slide":47,"text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[547.6,314,40,24]}
+{"kind":"textbox","id":"sh/3ydg3e5c","slide":47,"text":"生成表达变体","textPreview":"生成表达变体","textChars":6,"textLines":1,"bbox":[545.6,353,188.8,48]}
+{"kind":"shape","id":"sh/gv2x8z6l","slide":47,"bbox":[973.2,345,32,30]}
+{"kind":"shape","id":"sh/hwvy14n6","slide":47,"bbox":[764.4,300,212.8,120]}
+{"kind":"textbox","id":"sh/xsne50fa","slide":47,"text":"04","textPreview":"04","textChars":2,"textLines":1,"bbox":[778.4,314,40,24]}
+{"kind":"textbox","id":"sh/wrudwvyp","slide":47,"text":"人工抽检去重","textPreview":"人工抽检去重","textChars":6,"textLines":1,"bbox":[776.4,353,188.8,48]}
+{"kind":"shape","id":"sh/vqlw3qx4","slide":47,"bbox":[995.2,300,212.8,120]}
+{"kind":"textbox","id":"sh/apcvulgj","slide":47,"text":"05","textPreview":"05","textChars":2,"textLines":1,"bbox":[1009.2,314,40,24]}
+{"kind":"textbox","id":"sh/9o3u1gfy","slide":47,"text":"加入候选题库","textPreview":"加入候选题库","textChars":6,"textLines":1,"bbox":[1007.2,353,188.8,48]}
+{"kind":"textbox","id":"sh/8nud8byd","slide":47,"text":"扩写用于覆盖，不用于凭空创造业务规则。","textPreview":"扩写用于覆盖，不用于凭空创造业务规则。","textChars":19,"textLines":1,"bbox":[110,490,1060,55]}
+{"kind":"notes","id":"nt/6xbg43","slide":47,"text":"[Sources]\n- /Users/keivn/Project/AI-Course/准备材料/参考课程/知乎AI课程/正课/27.【测试与数据】大模型产品开发中的数据准备与反馈闭环.pdf（参考页：54）\n- /Users/keivn/Project/AI-Course/准备材料/参考课程/知乎AI课程/正课/录音/27.【测试与数据】大模型产品开发中的数据准备与反馈闭环_原文.docx\n- /Users/keivn/Project/AI-Course/课程生产/第一阶段/第09课_AI产品测试、指标与Bad Case_重做工作区/第09课_课程设计与老师稿.md"}
+{"kind":"slide","id":"sl/k2m5jl","slide":48,"title":"AI PRODUCT · EVAL SYSTEM","textShapes":10}
+{"kind":"textbox","id":"sh/xknu14ry","slide":48,"text":"AI PRODUCT · EVAL SYSTEM","textPreview":"AI PRODUCT · EVAL SYSTEM","textChars":24,"textLines":1,"bbox":[68,28,300,22]}
+{"kind":"textbox","id":"sh/ahwv69s7","slide":48,"text":"48","textPreview":"48","textChars":2,"textLines":1,"bbox":[1170,28,42,22]}
+{"kind":"shape","id":"sh/vi5cze9s","slide":48,"bbox":[68,680,1144,2]}
+{"kind":"shape","id":"sh/knydcjq9","slide":48,"bbox":[68,680,784.46,2]}
+{"kind":"textbox","id":"sh/5o7u5oru","slide":48,"name":"slide-title","text":"Judge Prompt要把“好不好”写成判分规则","textPreview":"Judge Prompt要把“好不好”写成判分规则","textChars":25,"textLines":1,"bbox":[68,78,1110,68]}
+{"kind":"textbox","id":"sh/ilwva983","slide":48,"text":"INPUT","textPreview":"INPUT","textChars":5,"textLines":1,"bbox":[74,230,120,28]}
+{"kind":"textbox","id":"sh/jmpc3e9o","slide":48,"text":"请按正确性、完整性、安全性分别评分，并引用答案证据。","textPreview":"请按正确性、完整性、安全性分别评分，并引用答案证据。","textChars":26,"textLines":1,"bbox":[74,270,1060,80]}
+{"kind":"shape","id":"sh/sbydg3ql","slide":48,"bbox":[74,382,1130,2]}
+{"kind":"textbox","id":"sh/tc7e9or6","slide":48,"text":"SCORING POINTS","textPreview":"SCORING POINTS","textChars":14,"textLines":1,"bbox":[74,410,180,28]}
+{"kind":"textbox","id":"sh/h4rulwfy","slide":48,"text":"红线：若虚构政策、越权承诺或泄露隐私，则安全性直接为0，并标记原因。","textPreview":"红线：若虚构政策、越权承诺或泄露隐私，则安全性直接为0，并标记原因。","textChars":34,"textLines":1,"bbox":[74,452,1080,95]}
+{"kind":"shape","id":"sh/w3itsryd","slide":48,"bbox":[74,580,196,42]}
+{"kind":"textbox","id":"sh/v29sjmhs","slide":48,"text":"维度定义","textPreview":"维度定义","textChars":4,"textLines":1,"bbox":[82,590,180,24]}
+{"kind":"shape","id":"sh/u10bq1g7","slide":48,"bbox":[294,580,196,42]}
+{"kind":"textbox","id":"sh/58bupgfu","slide":48,"text":"评分锚点","textPreview":"评分锚点","textChars":4,"textLines":1,"bbox":[302,590,180,24]}
+{"kind":"shape","id":"sh/472twby9","slide":48,"bbox":[514,580,196,42]}
+{"kind":"textbox","id":"sh/j6tcn6x4","slide":48,"text":"输出JSON","textPreview":"输出JSON","textChars":6,"textLines":1,"bbox":[522,590,180,24]}
+{"kind":"notes","id":"nt/k2m5jl","slide":48,"text":"[Sources]\n- /Users/keivn/Project/AI-Course/准备材料/参考课程/知乎AI课程/正课/27.【测试与数据】大模型产品开发中的数据准备与反馈闭环.pdf（参考页：55–57）\n- /Users/keivn/Project/AI-Course/准备材料/参考课程/知乎AI课程/正课/录音/27.【测试与数据】大模型产品开发中的数据准备与反馈闭环_原文.docx\n- /Users/keivn/Project/AI-Course/课程生产/第一阶段/第09课_AI产品测试、指标与Bad Case_重做工作区/第09课_课程设计与老师稿.md"}
+{"kind":"slide","id":"sl/aoyu48","slide":49,"title":"AI PRODUCT · EVAL SYSTEM","textShapes":12}
+{"kind":"textbox","id":"sh/87y50bqp","slide":49,"text":"AI PRODUCT · EVAL SYSTEM","textPreview":"AI PRODUCT · EVAL SYSTEM","textChars":24,"textLines":1,"bbox":[68,28,300,22]}
+{"kind":"textbox","id":"sh/nm5476p4","slide":49,"text":"49","textPreview":"49","textChars":2,"textLines":1,"bbox":[1170,28,42,22]}
+{"kind":"shape","id":"sh/mlwny18j","slide":49,"bbox":[68,680,1144,2]}
+{"kind":"shape","id":"sh/lknm5wry","slide":49,"bbox":[68,680,800.8,2]}
+{"kind":"textbox","id":"sh/0je5wrqd","slide":49,"name":"slide-title","text":"LLM裁判也有三个盲点","textPreview":"LLM裁判也有三个盲点","textChars":11,"textLines":1,"bbox":[68,78,1110,68]}
+{"kind":"textbox","id":"sh/zi543m9s","slide":49,"text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[72,240,52,30]}
+{"kind":"shape","id":"sh/yhw3u187","slide":49,"bbox":[72,282,362.67,3]}
+{"kind":"textbox","id":"sh/dgnm1wr2","slide":49,"text":"偏好漂移","textPreview":"偏好漂移","textChars":4,"textLines":1,"bbox":[72,305,352.67,48]}
+{"kind":"textbox","id":"sh/cfelsrqh","slide":49,"text":"模型或Prompt变化会改变评分尺度","textPreview":"模型或Prompt变化会改变评分尺度","textChars":18,"textLines":1,"bbox":[72,360,346.67,76]}
+{"kind":"textbox","id":"sh/6p0zmxsn","slide":49,"text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[458.67,240,52,30]}
+{"kind":"shape","id":"sh/7q90v298","slide":49,"bbox":[458.67,282,362.67,3]}
+{"kind":"textbox","id":"sh/8ri1o7at","slide":49,"text":"位置与措辞偏差","textPreview":"位置与措辞偏差","textChars":7,"textLines":1,"bbox":[458.67,305,352.67,48]}
+{"kind":"textbox","id":"sh/tsrixcre","slide":49,"text":"更长、更像参考答案的回答可能被高估","textPreview":"更长、更像参考答案的回答可能被高估","textChars":17,"textLines":1,"bbox":[458.67,360,346.67,76]}
+{"kind":"textbox","id":"sh/y1gzidsr","slide":49,"text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[845.33,240,52,30]}
+{"kind":"shape","id":"sh/jm90ri9w","slide":49,"bbox":[845.33,282,362.67,3]}
+{"kind":"textbox","id":"sh/knihknah","slide":49,"text":"自评偏差","textPreview":"自评偏差","textChars":4,"textLines":1,"bbox":[845.33,305,352.67,48]}
+{"kind":"textbox","id":"sh/loritsr2","slide":49,"text":"同源模型可能偏爱自己的表达方式","textPreview":"同源模型可能偏爱自己的表达方式","textChars":15,"textLines":1,"bbox":[845.33,360,346.67,76]}
+{"kind":"notes","id":"nt/aoyu48","slide":49,"text":"[Sources]\n- /Users/keivn/Project/AI-Course/准备材料/参考课程/知乎AI课程/正课/27.【测试与数据】大模型产品开发中的数据准备与反馈闭环.pdf（参考页：55–57）\n- /Users/keivn/Project/AI-Course/准备材料/参考课程/知乎AI课程/正课/录音/27.【测试与数据】大模型产品开发中的数据准备与反馈闭环_原文.docx\n- /Users/keivn/Project/AI-Course/课程生产/第一阶段/第09课_AI产品测试、指标与Bad Case_重做工作区/第09课_课程设计与老师稿.md"}
+{"kind":"slide","id":"sl/cmfhkd","slide":50,"title":"AI PRODUCT · EVAL SYSTEM","textShapes":5}
+{"kind":"textbox","id":"sh/lcvip0na","slide":50,"text":"AI PRODUCT · EVAL SYSTEM","textPreview":"AI PRODUCT · EVAL SYSTEM","textChars":24,"textLines":1,"bbox":[68,28,300,22]}
+{"kind":"textbox","id":"sh/y94zeloz","slide":50,"text":"50","textPreview":"50","textChars":2,"textLines":1,"bbox":[1170,28,42,22]}
+{"kind":"shape","id":"sh/zad0nq5k","slide":50,"bbox":[68,680,1144,2]}
+{"kind":"shape","id":"sh/8f6hkv61","slide":50,"bbox":[68,680,817.14,2]}
+{"kind":"textbox","id":"sh/9gfit0nm","slide":50,"name":"slide-title","text":"人工评审不是最后补一眼，而是校准系统","textPreview":"人工评审不是最后补一眼，而是校准系统","textChars":18,"textLines":1,"bbox":[68,78,1110,68]}
+{"kind":"shape","id":"sh/md4zi5ov","slide":50,"bbox":[70,250,8,245]}
+{"kind":"textbox","id":"sh/7ed0rq5g","slide":50,"text":"当裁判偏了，先修评分体系，再讨论被测模型。","textPreview":"当裁判偏了，先修评分体系，再讨论被测模型。","textChars":21,"textLines":1,"bbox":[120,285,990,140]}
+{"kind":"textbox","id":"sh/w36hofmx","slide":50,"text":"定期抽取自动高分、低分和争议样本，与人工金标准比较。","textPreview":"定期抽取自动高分、低分和争议样本，与人工金标准比较。","textChars":26,"textLines":1,"bbox":[120,445,980,80]}
+{"kind":"notes","id":"nt/cmfhkd","slide":50,"text":"[Sources]\n- /Users/keivn/Project/AI-Course/准备材料/参考课程/知乎AI课程/正课/27.【测试与数据】大模型产品开发中的数据准备与反馈闭环.pdf（参考页：58）\n- /Users/keivn/Project/AI-Course/准备材料/参考课程/知乎AI课程/正课/录音/27.【测试与数据】大模型产品开发中的数据准备与反馈闭环_原文.docx\n- /Users/keivn/Project/AI-Course/课程生产/第一阶段/第09课_AI产品测试、指标与Bad Case_重做工作区/第09课_课程设计与老师稿.md"}
+{"kind":"slide","id":"sl/beztz5","slide":51,"title":"AI PRODUCT · EVAL SYSTEM","textShapes":15}
+{"kind":"textbox","id":"sh/8b6po7et","slide":51,"text":"AI PRODUCT · EVAL SYSTEM","textPreview":"AI PRODUCT · EVAL SYSTEM","textChars":24,"textLines":1,"bbox":[68,28,300,22]}
+{"kind":"textbox","id":"sh/7axov2x8","slide":51,"text":"51","textPreview":"51","textChars":2,"textLines":1,"bbox":[1170,28,42,22]}
+{"kind":"shape","id":"sh/69o7mxw3","slide":51,"bbox":[68,680,1144,2]}
+{"kind":"shape","id":"sh/h0f61cvq","slide":51,"bbox":[68,680,833.49,2]}
+{"kind":"textbox","id":"sh/gf6ps7e5","slide":51,"name":"slide-title","text":"报告不要只有一个平均分","textPreview":"报告不要只有一个平均分","textChars":11,"textLines":1,"bbox":[68,78,1110,68]}
+{"kind":"shape","id":"sh/vexoz2xk","slide":51,"bbox":[72,230,1136,66]}
+{"kind":"textbox","id":"sh/udo7qxwz","slide":51,"text":"层级","textPreview":"层级","textChars":2,"textLines":1,"bbox":[90,247,310,32]}
+{"kind":"textbox","id":"sh/54z65cvm","slide":51,"text":"必须回答","textPreview":"必须回答","textChars":4,"textLines":1,"bbox":[430,247,766,32]}
+{"kind":"shape","id":"sh/43qpwre1","slide":51,"bbox":[72,296,1136,66]}
+{"kind":"textbox","id":"sh/ulkfi1oz","slide":51,"text":"总体","textPreview":"总体","textChars":2,"textLines":1,"bbox":[90,313,310,34]}
+{"kind":"textbox","id":"sh/fmtgr65k","slide":51,"text":"通过率、红线数、核心维度","textPreview":"通过率、红线数、核心维度","textChars":12,"textLines":1,"bbox":[430,313,766,34]}
+{"kind":"shape","id":"sh/gnmxkb65","slide":51,"bbox":[72,362,1136,66]}
+{"kind":"textbox","id":"sh/hovytgnq","slide":51,"text":"场景","textPreview":"场景","textChars":2,"textLines":1,"bbox":[90,379,310,34]}
+{"kind":"textbox","id":"sh/2p4fmlob","slide":51,"text":"哪个场景退化或提升","textPreview":"哪个场景退化或提升","textChars":9,"textLines":1,"bbox":[430,379,766,34]}
+{"kind":"shape","id":"sh/3qdgvq5w","slide":51,"bbox":[72,428,1136,66]}
+{"kind":"textbox","id":"sh/4rmxov61","slide":51,"text":"问题","textPreview":"问题","textChars":2,"textLines":1,"bbox":[90,445,310,34]}
+{"kind":"textbox","id":"sh/psvyx0nm","slide":51,"text":"低分样本为什么失败","textPreview":"低分样本为什么失败","textChars":9,"textLines":1,"bbox":[430,445,766,34]}
+{"kind":"shape","id":"sh/it0fahor","slide":51,"bbox":[72,494,1136,66]}
+{"kind":"textbox","id":"sh/ju9wjmpc","slide":51,"text":"版本","textPreview":"版本","textChars":2,"textLines":1,"bbox":[90,511,310,34]}
+{"kind":"textbox","id":"sh/nm54vy1s","slide":51,"text":"相对基线变化多少","textPreview":"相对基线变化多少","textChars":8,"textLines":1,"bbox":[430,511,766,34]}
+{"kind":"shape","id":"sh/2lw32t0n","slide":51,"bbox":[72,560,1136,66]}
+{"kind":"textbox","id":"sh/ponmx8zy","slide":51,"text":"决策","textPreview":"决策","textChars":2,"textLines":1,"bbox":[90,577,310,34]}
+{"kind":"textbox","id":"sh/onel43id","slide":51,"text":"上线、灰度、退回或转人工","textPreview":"上线、灰度、退回或转人工","textChars":12,"textLines":1,"bbox":[430,577,766,34]}
+{"kind":"notes","id":"nt/beztz5","slide":51,"text":"[Sources]\n- /Users/keivn/Project/AI-Course/准备材料/参考课程/知乎AI课程/正课/27.【测试与数据】大模型产品开发中的数据准备与反馈闭环.pdf（参考页：60–62）\n- /Users/keivn/Project/AI-Course/准备材料/参考课程/知乎AI课程/正课/录音/27.【测试与数据】大模型产品开发中的数据准备与反馈闭环_原文.docx\n- /Users/keivn/Project/AI-Course/课程生产/第一阶段/第09课_AI产品测试、指标与Bad Case_重做工作区/第09课_课程设计与老师稿.md"}
+{"kind":"slide","id":"sl/x9zky9","slide":52,"title":"AI PRODUCT · DATA LOOP","textShapes":12}
+{"kind":"textbox","id":"sh/wfet0v2x","slide":52,"text":"AI PRODUCT · DATA LOOP","textPreview":"AI PRODUCT · DATA LOOP","textChars":22,"textLines":1,"bbox":[68,28,300,22]}
+{"kind":"textbox","id":"sh/ve5crq1c","slide":52,"text":"52","textPreview":"52","textChars":2,"textLines":1,"bbox":[1170,28,42,22]}
+{"kind":"shape","id":"sh/adwbylkr","slide":52,"bbox":[68,680,1144,2]}
+{"kind":"shape","id":"sh/547uxkje","slide":52,"bbox":[68,680,849.83,2]}
+{"kind":"textbox","id":"sh/k3yt4f29","slide":52,"name":"slide-title","text":"评测成熟度：从抽查走向持续回归","textPreview":"评测成熟度：从抽查走向持续回归","textChars":15,"textLines":1,"bbox":[68,78,1110,68]}
+{"kind":"textbox","id":"sh/j2pcva1o","slide":52,"text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[72,240,52,30]}
+{"kind":"shape","id":"sh/i1wb25k3","slide":52,"bbox":[72,282,556,3]}
+{"kind":"textbox","id":"sh/l83algja","slide":52,"text":"L1 人工抽查","textPreview":"L1 人工抽查","textChars":7,"textLines":1,"bbox":[72,305,546,48]}
+{"kind":"textbox","id":"sh/07utsb2p","slide":52,"text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[652,240,52,30]}
+{"kind":"shape","id":"sh/qtcra9s7","slide":52,"bbox":[652,282,556,3]}
+{"kind":"textbox","id":"sh/ruls3etc","slide":52,"text":"L2 固定题库","textPreview":"L2 固定题库","textChars":7,"textLines":1,"bbox":[652,305,546,48]}
+{"kind":"textbox","id":"sh/svu9cjax","slide":52,"text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[72,418,52,30]}
+{"kind":"shape","id":"sh/dw3a5obi","slide":52,"bbox":[72,460,556,3]}
+{"kind":"textbox","id":"sh/exwrets3","slide":52,"text":"L3 自动评测","textPreview":"L3 自动评测","textChars":7,"textLines":1,"bbox":[72,483,546,48]}
+{"kind":"textbox","id":"sh/fy5s7yto","slide":52,"text":"04","textPreview":"04","textChars":2,"textLines":1,"bbox":[652,418,52,30]}
+{"kind":"shape","id":"sh/0ze90ja9","slide":52,"bbox":[652,460,556,3]}
+{"kind":"textbox","id":"sh/10na9obu","slide":52,"text":"L4 线上反馈驱动","textPreview":"L4 线上反馈驱动","textChars":9,"textLines":1,"bbox":[652,483,546,48]}
+{"kind":"textbox","id":"sh/21wr2tsz","slide":52,"text":"成熟度提升的标志：结果越来越可复现，反馈越来越快进入下一轮。","textPreview":"成熟度提升的标志：结果越来越可复现，反馈越来越快进入下一轮。","textChars":30,"textLines":1,"bbox":[72,620,1136,36]}
+{"kind":"notes","id":"nt/x9zky9","slide":52,"text":"[Sources]\n- /Users/keivn/Project/AI-Course/准备材料/参考课程/知乎AI课程/正课/27.【测试与数据】大模型产品开发中的数据准备与反馈闭环.pdf（参考页：60–62）\n- /Users/keivn/Project/AI-Course/准备材料/参考课程/知乎AI课程/正课/录音/27.【测试与数据】大模型产品开发中的数据准备与反馈闭环_原文.docx\n- /Users/keivn/Project/AI-Course/课程生产/第一阶段/第09课_AI产品测试、指标与Bad Case_重做工作区/第09课_课程设计与老师稿.md"}
+{"kind":"slide","id":"sl/uk2uzk","slide":53,"title":"AI PRODUCT · DATA LOOP","textShapes":12}
+{"kind":"textbox","id":"sh/g7ehkrud","slide":53,"text":"AI PRODUCT · DATA LOOP","textPreview":"AI PRODUCT · DATA LOOP","textChars":22,"textLines":1,"bbox":[68,28,300,22]}
+{"kind":"textbox","id":"sh/v650bmds","slide":53,"text":"53","textPreview":"53","textChars":2,"textLines":1,"bbox":[1170,28,42,22]}
+{"kind":"shape","id":"sh/u5czihc7","slide":53,"bbox":[68,680,1144,2]}
+{"kind":"shape","id":"sh/t43i9cvm","slide":53,"bbox":[68,680,866.17,2]}
+{"kind":"textbox","id":"sh/83uhg7e1","slide":53,"name":"slide-title","text":"PM的职责：定范围、定标准、定门槛、推闭环","textPreview":"PM的职责：定范围、定标准、定门槛、推闭环","textChars":21,"textLines":1,"bbox":[68,78,1110,68]}
+{"kind":"textbox","id":"sh/7il07mdw","slide":53,"text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[72,240,52,30]}
+{"kind":"shape","id":"sh/6hczehwb","slide":53,"bbox":[72,282,556,3]}
+{"kind":"textbox","id":"sh/d07ilgv6","slide":53,"text":"测什么","textPreview":"测什么","textChars":3,"textLines":1,"bbox":[72,305,546,48]}
+{"kind":"textbox","id":"sh/szy1sbul","slide":53,"text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[652,240,52,30]}
+{"kind":"shape","id":"sh/i1c3y9cn","slide":53,"bbox":[652,282,556,3]}
+{"kind":"textbox","id":"sh/j2lkred8","slide":53,"text":"怎样算好","textPreview":"怎样算好","textChars":4,"textLines":1,"bbox":[652,305,546,48]}
+{"kind":"textbox","id":"sh/k3ul0zut","slide":53,"text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[72,418,52,30]}
+{"kind":"shape","id":"sh/543mt4vy","slide":53,"bbox":[72,460,556,3]}
+{"kind":"textbox","id":"sh/ads3upcb","slide":53,"text":"何时能上线","textPreview":"何时能上线","textChars":5,"textLines":1,"bbox":[72,483,546,48]}
+{"kind":"textbox","id":"sh/ve1knudw","slide":53,"text":"04","textPreview":"04","textChars":2,"textLines":1,"bbox":[652,418,52,30]}
+{"kind":"shape","id":"sh/wfulwzuh","slide":53,"bbox":[652,460,556,3]}
+{"kind":"textbox","id":"sh/x032p4v2","slide":53,"text":"失败如何进入优化","textPreview":"失败如何进入优化","textChars":8,"textLines":1,"bbox":[652,483,546,48]}
+{"kind":"textbox","id":"sh/u9w36tcv","slide":53,"text":"评测不是测试同学的收尾工作，而是产品定义的一部分。","textPreview":"评测不是测试同学的收尾工作，而是产品定义的一部分。","textChars":25,"textLines":1,"bbox":[72,620,1136,36]}
+{"kind":"notes","id":"nt/uk2uzk","slide":53,"text":"[Sources]\n- /Users/keivn/Project/AI-Course/准备材料/参考课程/知乎AI课程/正课/27.【测试与数据】大模型产品开发中的数据准备与反馈闭环.pdf（参考页：63）\n- /Users/keivn/Project/AI-Course/准备材料/参考课程/知乎AI课程/正课/录音/27.【测试与数据】大模型产品开发中的数据准备与反馈闭环_原文.docx\n- /Users/keivn/Project/AI-Course/课程生产/第一阶段/第09课_AI产品测试、指标与Bad Case_重做工作区/第09课_课程设计与老师稿.md"}
+{"kind":"slide","id":"sl/9ooryp","slide":54,"title":"AI PRODUCT · DATA LOOP","textShapes":11}
+{"kind":"textbox","id":"sh/ihozit0j","slide":54,"text":"AI PRODUCT · DATA LOOP","textPreview":"AI PRODUCT · DATA LOOP","textChars":22,"textLines":1,"bbox":[68,28,300,22]}
+{"kind":"textbox","id":"sh/5kfidoju","slide":54,"text":"54","textPreview":"54","textChars":2,"textLines":1,"bbox":[1170,28,42,22]}
+{"kind":"shape","id":"sh/4j61kjip","slide":54,"bbox":[68,680,1144,2]}
+{"kind":"shape","id":"sh/rmh0fy10","slide":54,"bbox":[68,680,882.51,2]}
+{"kind":"textbox","id":"sh/6lojmt0f","slide":54,"name":"slide-title","text":"六类测试的其余部分：可用性与体验","textPreview":"六类测试的其余部分：可用性与体验","textChars":16,"textLines":1,"bbox":[68,78,1110,68]}
+{"kind":"shape","id":"sh/t8zih8z6","slide":54,"bbox":[74,236,540,5]}
+{"kind":"shape","id":"sh/snq1o3il","slide":54,"bbox":[666,236,540,5]}
+{"kind":"textbox","id":"sh/fah0jyhc","slide":54,"text":"可用性","textPreview":"可用性","textChars":3,"textLines":1,"bbox":[74,264,540,45]}
+{"kind":"textbox","id":"sh/e98jqd0r","slide":54,"text":"用户体验","textPreview":"用户体验","textChars":4,"textLines":1,"bbox":[666,264,540,45]}
+{"kind":"textbox","id":"sh/gfelkbih","slide":54,"text":"—  任务能否完成","textPreview":"—  任务能否完成","textChars":9,"textLines":1,"bbox":[74,330,520,52]}
+{"kind":"textbox","id":"sh/10nmtgj2","slide":54,"text":"—  提示与反馈是否清楚","textPreview":"—  提示与反馈是否清楚","textChars":12,"textLines":1,"bbox":[74,396,520,52]}
+{"kind":"textbox","id":"sh/udc3i10r","slide":54,"text":"—  失败后能否恢复","textPreview":"—  失败后能否恢复","textChars":10,"textLines":1,"bbox":[74,462,520,52]}
+{"kind":"textbox","id":"sh/felkr61c","slide":54,"text":"—  等待感与节奏","textPreview":"—  等待感与节奏","textChars":9,"textLines":1,"bbox":[666,330,520,52]}
+{"kind":"textbox","id":"sh/o3elobit","slide":54,"text":"—  结果可理解、可编辑","textPreview":"—  结果可理解、可编辑","textChars":12,"textLines":1,"bbox":[666,396,520,52]}
+{"kind":"textbox","id":"sh/p4nmxgje","slide":54,"text":"—  信任与控制感","textPreview":"—  信任与控制感","textChars":9,"textLines":1,"bbox":[666,462,520,52]}
+{"kind":"notes","id":"nt/9ooryp","slide":54,"text":"[Sources]\n- /Users/keivn/Project/AI-Course/准备材料/参考课程/知乎AI课程/正课/27.【测试与数据】大模型产品开发中的数据准备与反馈闭环.pdf（参考页：65–66）\n- /Users/keivn/Project/AI-Course/准备材料/参考课程/知乎AI课程/正课/录音/27.【测试与数据】大模型产品开发中的数据准备与反馈闭环_原文.docx\n- /Users/keivn/Project/AI-Course/课程生产/第一阶段/第09课_AI产品测试、指标与Bad Case_重做工作区/第09课_课程设计与老师稿.md"}
+{"kind":"slide","id":"sl/gsvhqr","slide":55,"title":"AI PRODUCT · DATA LOOP","textShapes":12}
+{"kind":"textbox","id":"sh/ry90nqhs","slide":55,"text":"AI PRODUCT · DATA LOOP","textPreview":"AI PRODUCT · DATA LOOP","textChars":22,"textLines":1,"bbox":[68,28,300,22]}
+{"kind":"textbox","id":"sh/czi1gbyd","slide":55,"text":"55","textPreview":"55","textChars":2,"textLines":1,"bbox":[1170,28,42,22]}
+{"kind":"shape","id":"sh/dkbipgzy","slide":55,"bbox":[68,680,1144,2]}
+{"kind":"shape","id":"sh/elkjilgj","slide":55,"bbox":[68,680,898.86,2]}
+{"kind":"textbox","id":"sh/zmt0rqh4","slide":55,"name":"slide-title","text":"还要关注：非功能、鲁棒性、安全与伦理","textPreview":"还要关注：非功能、鲁棒性、安全与伦理","textChars":18,"textLines":1,"bbox":[68,78,1110,68]}
+{"kind":"textbox","id":"sh/0n21kvyp","slide":55,"text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[72,240,52,30]}
+{"kind":"shape","id":"sh/1obit0za","slide":55,"bbox":[72,282,362.67,3]}
+{"kind":"textbox","id":"sh/mpkjm5gv","slide":55,"text":"非功能","textPreview":"非功能","textChars":3,"textLines":1,"bbox":[72,305,352.67,48]}
+{"kind":"textbox","id":"sh/nqt0vah0","slide":55,"text":"延迟、成本、并发、稳定性","textPreview":"延迟、成本、并发、稳定性","textChars":12,"textLines":1,"bbox":[72,360,346.67,76]}
+{"kind":"textbox","id":"sh/3q98zm1c","slide":55,"text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[458.67,240,52,30]}
+{"kind":"shape","id":"sh/ip0rqh0r","slide":55,"bbox":[458.67,282,362.67,3]}
+{"kind":"textbox","id":"sh/pcrq1wji","slide":55,"text":"鲁棒性","textPreview":"鲁棒性","textChars":3,"textLines":1,"bbox":[458.67,305,352.67,48]}
+{"kind":"textbox","id":"sh/4ri9srix","slide":55,"text":"错别字、噪声、提示攻击、异常输入","textPreview":"错别字、噪声、提示攻击、异常输入","textChars":16,"textLines":1,"bbox":[458.67,360,346.67,76]}
+{"kind":"textbox","id":"sh/vm98v21g","slide":55,"text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[845.33,240,52,30]}
+{"kind":"shape","id":"sh/ul07mhkv","slide":55,"bbox":[845.33,282,362.67,3]}
+{"kind":"textbox","id":"sh/horqxcj6","slide":55,"text":"安全与伦理","textPreview":"安全与伦理","textChars":5,"textLines":1,"bbox":[845.33,305,352.67,48]}
+{"kind":"textbox","id":"sh/gnipo7i1","slide":55,"text":"隐私、偏见、越权、合规与可追责","textPreview":"隐私、偏见、越权、合规与可追责","textChars":15,"textLines":1,"bbox":[845.33,360,346.67,76]}
+{"kind":"notes","id":"nt/gsvhqr","slide":55,"text":"[Sources]\n- /Users/keivn/Project/AI-Course/准备材料/参考课程/知乎AI课程/正课/27.【测试与数据】大模型产品开发中的数据准备与反馈闭环.pdf（参考页：67–71）\n- /Users/keivn/Project/AI-Course/准备材料/参考课程/知乎AI课程/正课/录音/27.【测试与数据】大模型产品开发中的数据准备与反馈闭环_原文.docx\n- /Users/keivn/Project/AI-Course/课程生产/第一阶段/第09课_AI产品测试、指标与Bad Case_重做工作区/第09课_课程设计与老师稿.md"}
+{"kind":"slide","id":"sl/makx4x","slide":56,"title":"02","textShapes":5}
+{"kind":"shape","id":"sh/l8z6dwrm","slide":56,"bbox":[0,0,1280,720]}
+{"kind":"textbox","id":"sh/y5oni18b","slide":56,"text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[72,100,240,170]}
+{"kind":"shape","id":"sh/z6hob69w","slide":56,"bbox":[74,300,100,5]}
+{"kind":"textbox","id":"sh/8bqpobqd","slide":56,"text":"从评测结果到数据反馈闭环","textPreview":"从评测结果到数据反馈闭环","textChars":12,"textLines":1,"bbox":[72,348,1080,80]}
+{"kind":"textbox","id":"sh/9cz6hgry","slide":56,"text":"让真实使用持续改进下一版","textPreview":"让真实使用持续改进下一版","textChars":12,"textLines":1,"bbox":[74,455,940,45]}
+{"kind":"textbox","id":"sh/m987m187","slide":56,"text":"AI PRODUCT · DATA LOOP","textPreview":"AI PRODUCT · DATA LOOP","textChars":22,"textLines":1,"bbox":[68,28,300,22]}
+{"kind":"textbox","id":"sh/7ahof69s","slide":56,"text":"56","textPreview":"56","textChars":2,"textLines":1,"bbox":[1170,28,42,22]}
+{"kind":"shape","id":"sh/of65cra9","slide":56,"bbox":[68,680,1144,2]}
+{"kind":"shape","id":"sh/pgf65cre","slide":56,"bbox":[68,680,915.2,2]}
+{"kind":"notes","id":"nt/makx4x","slide":56,"text":"[Sources]\n- /Users/keivn/Project/AI-Course/准备材料/参考课程/知乎AI课程/正课/27.【测试与数据】大模型产品开发中的数据准备与反馈闭环.pdf（参考页：72）\n- /Users/keivn/Project/AI-Course/准备材料/参考课程/知乎AI课程/正课/录音/27.【测试与数据】大模型产品开发中的数据准备与反馈闭环_原文.docx\n- /Users/keivn/Project/AI-Course/课程生产/第一阶段/第09课_AI产品测试、指标与Bad Case_重做工作区/第09课_课程设计与老师稿.md"}
+{"kind":"slide","id":"sl/3x8dfj","slide":57,"title":"AI PRODUCT · DATA LOOP","textShapes":5}
+{"kind":"textbox","id":"sh/vydofah0","slide":57,"text":"AI PRODUCT · DATA LOOP","textPreview":"AI PRODUCT · DATA LOOP","textChars":22,"textLines":1,"bbox":[68,28,300,22]}
+{"kind":"textbox","id":"sh/wjmp8fi5","slide":57,"text":"57","textPreview":"57","textChars":2,"textLines":1,"bbox":[1170,28,42,22]}
+{"kind":"shape","id":"sh/xkv6hkzq","slide":57,"bbox":[68,680,1144,2]}
+{"kind":"shape","id":"sh/mtk72503","slide":57,"bbox":[68,680,931.54,2]}
+{"kind":"textbox","id":"sh/nutobqho","slide":57,"name":"slide-title","text":"数据不是库存，而是持续学习的燃料","textPreview":"数据不是库存，而是持续学习的燃料","textChars":16,"textLines":1,"bbox":[68,78,1110,68]}
+{"kind":"shape","id":"sh/8v2p4vi9","slide":57,"bbox":[70,250,8,245]}
+{"kind":"textbox","id":"sh/9wb6d0zu","slide":57,"text":"采集—理解—修复—验证—再上线","textPreview":"采集—理解—修复—验证—再上线","textChars":15,"textLines":1,"bbox":[120,285,990,140]}
+{"kind":"textbox","id":"sh/yp07yl07","slide":57,"text":"真正的壁垒，不只是拥有数据，而是能把反馈稳定地转成更好的产品。","textPreview":"真正的壁垒，不只是拥有数据，而是能把反馈稳定地转成更好的产品。","textChars":31,"textLines":1,"bbox":[120,445,980,80]}
+{"kind":"notes","id":"nt/3x8dfj","slide":57,"text":"[Sources]\n- /Users/keivn/Project/AI-Course/准备材料/参考课程/知乎AI课程/正课/27.【测试与数据】大模型产品开发中的数据准备与反馈闭环.pdf（参考页：73）\n- /Users/keivn/Project/AI-Course/准备材料/参考课程/知乎AI课程/正课/录音/27.【测试与数据】大模型产品开发中的数据准备与反馈闭环_原文.docx\n- /Users/keivn/Project/AI-Course/课程生产/第一阶段/第09课_AI产品测试、指标与Bad Case_重做工作区/第09课_课程设计与老师稿.md"}
+{"kind":"slide","id":"sl/femjr0","slide":58,"title":"AI PRODUCT · DATA LOOP","textShapes":12}
+{"kind":"textbox","id":"sh/qxk7udsf","slide":58,"text":"AI PRODUCT · DATA LOOP","textPreview":"AI PRODUCT · DATA LOOP","textChars":22,"textLines":1,"bbox":[68,28,300,22]}
+{"kind":"textbox","id":"sh/d0b658rq","slide":58,"text":"58","textPreview":"58","textChars":2,"textLines":1,"bbox":[1170,28,42,22]}
+{"kind":"shape","id":"sh/cz2pwnql","slide":58,"bbox":[68,680,1144,2]}
+{"kind":"shape","id":"sh/3u9ozy9o","slide":58,"bbox":[68,680,947.89,2]}
+{"kind":"textbox","id":"sh/2t07qts3","slide":58,"name":"slide-title","text":"AI产品数据，通常来自四个入口","textPreview":"AI产品数据，通常来自四个入口","textChars":15,"textLines":1,"bbox":[68,78,1110,68]}
+{"kind":"textbox","id":"sh/pwr618ru","slide":58,"text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[72,240,52,30]}
+{"kind":"shape","id":"sh/4vips3a9","slide":58,"bbox":[72,282,556,3]}
+{"kind":"textbox","id":"sh/f69ovy9s","slide":58,"text":"业务原始数据","textPreview":"业务原始数据","textChars":6,"textLines":1,"bbox":[72,305,546,48]}
+{"kind":"textbox","id":"sh/u5g7mts7","slide":58,"text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[652,240,52,30]}
+{"kind":"shape","id":"sh/0fedcful","slide":58,"bbox":[652,282,556,3]}
+{"kind":"textbox","id":"sh/lgnelkv6","slide":58,"text":"用户输入与输出","textPreview":"用户输入与输出","textChars":7,"textLines":1,"bbox":[652,305,546,48]}
+{"kind":"textbox","id":"sh/ydwva5cf","slide":58,"text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[72,418,52,30]}
+{"kind":"shape","id":"sh/ze5wjad0","slide":58,"bbox":[72,460,556,3]}
+{"kind":"textbox","id":"sh/cbed8vu9","slide":58,"text":"显性反馈","textPreview":"显性反馈","textChars":4,"textLines":1,"bbox":[72,483,546,48]}
+{"kind":"textbox","id":"sh/dcneh0vu","slide":58,"text":"04","textPreview":"04","textChars":2,"textLines":1,"bbox":[652,418,52,30]}
+{"kind":"shape","id":"sh/q9cv65c3","slide":58,"bbox":[652,460,556,3]}
+{"kind":"textbox","id":"sh/balcfado","slide":58,"text":"隐性行为","textPreview":"隐性行为","textChars":4,"textLines":1,"bbox":[652,483,546,48]}
+{"kind":"textbox","id":"sh/w7ydkzut","slide":58,"text":"采集必须满足隐私、授权、最小必要和可追踪。","textPreview":"采集必须满足隐私、授权、最小必要和可追踪。","textChars":21,"textLines":1,"bbox":[72,620,1136,36]}
+{"kind":"notes","id":"nt/femjr0","slide":58,"text":"[Sources]\n- /Users/keivn/Project/AI-Course/准备材料/参考课程/知乎AI课程/正课/27.【测试与数据】大模型产品开发中的数据准备与反馈闭环.pdf（参考页：74–75）\n- /Users/keivn/Project/AI-Course/准备材料/参考课程/知乎AI课程/正课/录音/27.【测试与数据】大模型产品开发中的数据准备与反馈闭环_原文.docx\n- /Users/keivn/Project/AI-Course/课程生产/第一阶段/第09课_AI产品测试、指标与Bad Case_重做工作区/第09课_课程设计与老师稿.md"}
+{"kind":"slide","id":"sl/typ6uy","slide":59,"title":"AI PRODUCT · DATA LOOP","textShapes":14}
+{"kind":"textbox","id":"sh/zit4za5o","slide":59,"text":"AI PRODUCT · DATA LOOP","textPreview":"AI PRODUCT · DATA LOOP","textChars":22,"textLines":1,"bbox":[68,28,300,22]}
+{"kind":"textbox","id":"sh/0j25sf69","slide":59,"text":"59","textPreview":"59","textChars":2,"textLines":1,"bbox":[1170,28,42,22]}
+{"kind":"shape","id":"sh/1kbm1knu","slide":59,"bbox":[68,680,1144,2]}
+{"kind":"shape","id":"sh/mlknu5of","slide":59,"bbox":[68,680,964.23,2]}
+{"kind":"textbox","id":"sh/nmd43a50","slide":59,"name":"slide-title","text":"数据飞轮：每一轮都回到评测","textPreview":"数据飞轮：每一轮都回到评测","textChars":13,"textLines":1,"bbox":[68,78,1110,68]}
+{"kind":"shape","id":"sh/onm5wf6l","slide":59,"bbox":[280.8,345,32,30]}
+{"kind":"shape","id":"sh/9ovm5kn6","slide":59,"bbox":[72,300,212.8,120]}
+{"kind":"textbox","id":"sh/2p03ilob","slide":59,"text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[86,314,40,24]}
+{"kind":"textbox","id":"sh/3q94rq5w","slide":59,"text":"采集","textPreview":"采集","textChars":2,"textLines":1,"bbox":[84,353,188.8,48]}
+{"kind":"shape","id":"sh/vqt8zu10","slide":59,"bbox":[511.6,345,32,30]}
+{"kind":"shape","id":"sh/upkrqpkf","slide":59,"bbox":[302.8,300,212.8,120]}
+{"kind":"textbox","id":"sh/hsba14jq","slide":59,"text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[316.8,314,40,24]}
+{"kind":"textbox","id":"sh/wr29sz2l","slide":59,"text":"清洗与标注","textPreview":"清洗与标注","textChars":5,"textLines":1,"bbox":[314.8,353,188.8,48]}
+{"kind":"shape","id":"sh/7m98vu1o","slide":59,"bbox":[742.4,345,32,30]}
+{"kind":"shape","id":"sh/ml0rmpk3","slide":59,"bbox":[533.6,300,212.8,120]}
+{"kind":"textbox","id":"sh/9obqx4ju","slide":59,"text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[547.6,314,40,24]}
+{"kind":"textbox","id":"sh/8ni9oz29","slide":59,"text":"问题归因","textPreview":"问题归因","textChars":4,"textLines":1,"bbox":[545.6,353,188.8,48]}
+{"kind":"shape","id":"sh/zy98ra1s","slide":59,"bbox":[973.2,345,32,30]}
+{"kind":"shape","id":"sh/yx0ri5k7","slide":59,"bbox":[764.4,300,212.8,120]}
+{"kind":"textbox","id":"sh/2tgra54z","slide":59,"text":"04","textPreview":"04","textChars":2,"textLines":1,"bbox":[778.4,314,40,24]}
+{"kind":"textbox","id":"sh/nups3alk","slide":59,"text":"产品优化","textPreview":"产品优化","textChars":4,"textLines":1,"bbox":[776.4,353,188.8,48]}
+{"kind":"shape","id":"sh/ovy9cfm5","slide":59,"bbox":[995.2,300,212.8,120]}
+{"kind":"textbox","id":"sh/pw7a5k3q","slide":59,"text":"05","textPreview":"05","textChars":2,"textLines":1,"bbox":[1009.2,314,40,24]}
+{"kind":"textbox","id":"sh/ax0rep4b","slide":59,"text":"回归评测","textPreview":"回归评测","textChars":4,"textLines":1,"bbox":[1007.2,353,188.8,48]}
+{"kind":"textbox","id":"sh/bi9s7ulw","slide":59,"text":"没有回归验证的“数据优化”，只是未经证明的修改。","textPreview":"没有回归验证的“数据优化”，只是未经证明的修改。","textChars":24,"textLines":1,"bbox":[110,490,1060,55]}
+{"kind":"notes","id":"nt/typ6uy","slide":59,"text":"[Sources]\n- /Users/keivn/Project/AI-Course/准备材料/参考课程/知乎AI课程/正课/27.【测试与数据】大模型产品开发中的数据准备与反馈闭环.pdf（参考页：76）\n- /Users/keivn/Project/AI-Course/准备材料/参考课程/知乎AI课程/正课/录音/27.【测试与数据】大模型产品开发中的数据准备与反馈闭环_原文.docx\n- /Users/keivn/Project/AI-Course/课程生产/第一阶段/第09课_AI产品测试、指标与Bad Case_重做工作区/第09课_课程设计与老师稿.md"}
+{"kind":"slide","id":"sl/etpw2k","slide":60,"title":"AI PRODUCT · DATA LOOP","textShapes":11}
+{"kind":"textbox","id":"sh/fmpwn294","slide":60,"text":"AI PRODUCT · DATA LOOP","textPreview":"AI PRODUCT · DATA LOOP","textChars":22,"textLines":1,"bbox":[68,28,300,22]}
+{"kind":"textbox","id":"sh/0nydw7qp","slide":60,"text":"60","textPreview":"60","textChars":2,"textLines":1,"bbox":[1170,28,42,22]}
+{"kind":"shape","id":"sh/1o7epcra","slide":60,"bbox":[68,680,1144,2]}
+{"kind":"shape","id":"sh/qxwvqdsn","slide":60,"bbox":[68,680,980.57,2]}
+{"kind":"textbox","id":"sh/ry5wji98","slide":60,"name":"slide-title","text":"显性反馈告诉你态度，隐性反馈告诉你行为","textPreview":"显性反馈告诉你态度，隐性反馈告诉你行为","textChars":19,"textLines":1,"bbox":[68,78,1110,68]}
+{"kind":"shape","id":"sh/sjedsnat","slide":60,"bbox":[74,236,540,5]}
+{"kind":"shape","id":"sh/dk7elsry","slide":60,"bbox":[666,236,540,5]}
+{"kind":"textbox","id":"sh/at0f2h8r","slide":60,"text":"显性反馈","textPreview":"显性反馈","textChars":4,"textLines":1,"bbox":[74,264,540,45]}
+{"kind":"textbox","id":"sh/bu9wvm9c","slide":60,"text":"隐性反馈","textPreview":"隐性反馈","textChars":4,"textLines":1,"bbox":[666,264,540,45]}
+{"kind":"textbox","id":"sh/fipwv214","slide":60,"text":"—  点赞 / 点踩","textPreview":"—  点赞 / 点踩","textChars":10,"textLines":1,"bbox":[74,330,520,52]}
+{"kind":"textbox","id":"sh/ehgfmxkj","slide":60,"text":"—  原因选择","textPreview":"—  原因选择","textChars":7,"textLines":1,"bbox":[74,396,520,52]}
+{"kind":"textbox","id":"sh/1k7excju","slide":60,"text":"—  文字评价","textPreview":"—  文字评价","textChars":7,"textLines":1,"bbox":[74,462,520,52]}
+{"kind":"textbox","id":"sh/gjyxo72p","slide":60,"text":"—  复制、收藏、分享","textPreview":"—  复制、收藏、分享","textChars":11,"textLines":1,"bbox":[666,330,520,52]}
+{"kind":"textbox","id":"sh/3mpwzm10","slide":60,"text":"—  重生成、改写、放弃","textPreview":"—  重生成、改写、放弃","textChars":12,"textLines":1,"bbox":[666,396,520,52]}
+{"kind":"textbox","id":"sh/2lgfqhkf","slide":60,"text":"—  转人工、任务完成","textPreview":"—  转人工、任务完成","textChars":11,"textLines":1,"bbox":[666,462,520,52]}
+{"kind":"notes","id":"nt/etpw2k","slide":60,"text":"[Sources]\n- /Users/keivn/Project/AI-Course/准备材料/参考课程/知乎AI课程/正课/27.【测试与数据】大模型产品开发中的数据准备与反馈闭环.pdf（参考页：77–79）\n- /Users/keivn/Project/AI-Course/准备材料/参考课程/知乎AI课程/正课/录音/27.【测试与数据】大模型产品开发中的数据准备与反馈闭环_原文.docx\n- /Users/keivn/Project/AI-Course/课程生产/第一阶段/第09课_AI产品测试、指标与Bad Case_重做工作区/第09课_课程设计与老师稿.md"}
+{"kind":"slide","id":"sl/jspsyj","slide":61,"title":"AI PRODUCT · DATA LOOP","textShapes":12}
+{"kind":"textbox","id":"sh/hgjip4fe","slide":61,"text":"AI PRODUCT · DATA LOOP","textPreview":"AI PRODUCT · DATA LOOP","textChars":22,"textLines":1,"bbox":[68,28,300,22]}
+{"kind":"textbox","id":"sh/ut8zu9wn","slide":61,"text":"61","textPreview":"61","textChars":2,"textLines":1,"bbox":[1170,28,42,22]}
+{"kind":"shape","id":"sh/feh0nex8","slide":61,"bbox":[68,680,1144,2]}
+{"kind":"shape","id":"sh/srqhszeh","slide":61,"bbox":[68,680,996.91,2]}
+{"kind":"textbox","id":"sh/tszyl4f2","slide":61,"name":"slide-title","text":"作业类产品：记录用户怎样处理AI结果","textPreview":"作业类产品：记录用户怎样处理AI结果","textChars":18,"textLines":1,"bbox":[68,78,1110,68]}
+{"kind":"shape","id":"sh/6p8zqpgr","slide":61,"bbox":[338.5,345,32,30]}
+{"kind":"shape","id":"sh/7qhgjuxw","slide":61,"bbox":[72,300,270.5,120]}
+{"kind":"textbox","id":"sh/cnah43e1","slide":61,"text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[86,314,40,24]}
+{"kind":"textbox","id":"sh/do3ixof6","slide":61,"text":"直接采用","textPreview":"直接采用","textChars":4,"textLines":1,"bbox":[84,353,246.5,48]}
+{"kind":"shape","id":"sh/lkjih47e","slide":61,"bbox":[627,345,32,30]}
+{"kind":"shape","id":"sh/kjahozqt","slide":61,"bbox":[360.5,300,270.5,120]}
+{"kind":"textbox","id":"sh/zi10fep8","slide":61,"text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[374.5,314,40,24]}
+{"kind":"textbox","id":"sh/yxszm983","slide":61,"text":"部分采用","textPreview":"部分采用","textChars":4,"textLines":1,"bbox":[372.5,353,246.5,48]}
+{"kind":"shape","id":"sh/xwjyd47i","slide":61,"bbox":[915.5,345,32,30]}
+{"kind":"shape","id":"sh/cvqhkzqx","slide":61,"bbox":[649,300,270.5,120]}
+{"kind":"textbox","id":"sh/buhgbupc","slide":61,"text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[663,314,40,24]}
+{"kind":"textbox","id":"sh/at8zip8r","slide":61,"text":"大幅修改","textPreview":"大幅修改","textChars":4,"textLines":1,"bbox":[661,353,246.5,48]}
+{"kind":"shape","id":"sh/hs3ipo7m","slide":61,"bbox":[937.5,300,270.5,120]}
+{"kind":"textbox","id":"sh/wruhwjq1","slide":61,"text":"04","textPreview":"04","textChars":2,"textLines":1,"bbox":[951.5,314,40,24]}
+{"kind":"textbox","id":"sh/07mt8rip","slide":61,"text":"弃用","textPreview":"弃用","textChars":2,"textLines":1,"bbox":[949.5,353,246.5,48]}
+{"kind":"textbox","id":"sh/18vahwju","slide":61,"text":"修改前后差异，比一个“满意/不满意”更接近真实质量。","textPreview":"修改前后差异，比一个“满意/不满意”更接近真实质量。","textChars":26,"textLines":1,"bbox":[110,490,1060,55]}
+{"kind":"notes","id":"nt/jspsyj","slide":61,"text":"[Sources]\n- /Users/keivn/Project/AI-Course/准备材料/参考课程/知乎AI课程/正课/27.【测试与数据】大模型产品开发中的数据准备与反馈闭环.pdf（参考页：80–81）\n- /Users/keivn/Project/AI-Course/准备材料/参考课程/知乎AI课程/正课/录音/27.【测试与数据】大模型产品开发中的数据准备与反馈闭环_原文.docx\n- /Users/keivn/Project/AI-Course/课程生产/第一阶段/第09课_AI产品测试、指标与Bad Case_重做工作区/第09课_课程设计与老师稿.md"}
+{"kind":"slide","id":"sl/nntmpe","slide":62,"title":"AI PRODUCT · DATA LOOP","textShapes":13}
+{"kind":"textbox","id":"sh/itgra9wf","slide":62,"text":"AI PRODUCT · DATA LOOP","textPreview":"AI PRODUCT · DATA LOOP","textChars":22,"textLines":1,"bbox":[68,28,300,22]}
+{"kind":"textbox","id":"sh/5wralov6","slide":62,"text":"62","textPreview":"62","textChars":2,"textLines":1,"bbox":[1170,28,42,22]}
+{"kind":"shape","id":"sh/kvi9cjul","slide":62,"bbox":[68,680,1144,2]}
+{"kind":"shape","id":"sh/7y9snydw","slide":62,"bbox":[68,680,1013.26,2]}
+{"kind":"textbox","id":"sh/6x0retcb","slide":62,"name":"slide-title","text":"行为反馈常常比口头评价更诚实","textPreview":"行为反馈常常比口头评价更诚实","textChars":14,"textLines":1,"bbox":[68,78,1110,68]}
+{"kind":"textbox","id":"sh/tkrapov2","slide":62,"text":"—","textPreview":"—","textChars":1,"textLines":1,"bbox":[76,226,54,38]}
+{"kind":"textbox","id":"sh/sji9gjuh","slide":62,"text":"收藏：结果具有复用价值","textPreview":"收藏：结果具有复用价值","textChars":11,"textLines":1,"bbox":[140,224,1010,50]}
+{"kind":"textbox","id":"sh/n2p8buds","slide":62,"text":"—","textPreview":"—","textChars":1,"textLines":1,"bbox":[76,298,54,38]}
+{"kind":"textbox","id":"sh/m1wr2pw7","slide":62,"text":"重生成：当前答案未满足需求","textPreview":"重生成：当前答案未满足需求","textChars":13,"textLines":1,"bbox":[140,296,1010,50]}
+{"kind":"textbox","id":"sh/4zep87m9","slide":62,"text":"—","textPreview":"—","textChars":1,"textLines":1,"bbox":[76,370,54,38]}
+{"kind":"textbox","id":"sh/p0n61c3u","slide":62,"text":"放大/细看：内容值得进一步判断","textPreview":"放大/细看：内容值得进一步判断","textChars":15,"textLines":1,"bbox":[140,368,1010,50]}
+{"kind":"textbox","id":"sh/2xc76x43","slide":62,"text":"—","textPreview":"—","textChars":1,"textLines":1,"bbox":[76,442,54,38]}
+{"kind":"textbox","id":"sh/3yloz2lo","slide":62,"text":"复制/导出：可能进入真实工作流","textPreview":"复制/导出：可能进入真实工作流","textChars":15,"textLines":1,"bbox":[140,440,1010,50]}
+{"kind":"textbox","id":"sh/c3epcr25","slide":62,"text":"—","textPreview":"—","textChars":1,"textLines":1,"bbox":[76,514,54,38]}
+{"kind":"textbox","id":"sh/don65w3q","slide":62,"text":"迅速退出：可能无价值，也可能已完成任务","textPreview":"迅速退出：可能无价值，也可能已完成任务","textChars":19,"textLines":1,"bbox":[140,512,1010,50]}
+{"kind":"notes","id":"nt/nntmpe","slide":62,"text":"[Sources]\n- /Users/keivn/Project/AI-Course/准备材料/参考课程/知乎AI课程/正课/27.【测试与数据】大模型产品开发中的数据准备与反馈闭环.pdf（参考页：82–83）\n- /Users/keivn/Project/AI-Course/准备材料/参考课程/知乎AI课程/正课/录音/27.【测试与数据】大模型产品开发中的数据准备与反馈闭环_原文.docx\n- /Users/keivn/Project/AI-Course/课程生产/第一阶段/第09课_AI产品测试、指标与Bad Case_重做工作区/第09课_课程设计与老师稿.md"}
+{"kind":"slide","id":"sl/j8o6gh","slide":63,"title":"AI PRODUCT · DATA LOOP","textShapes":14}
+{"kind":"textbox","id":"sh/i1w32x4n","slide":63,"text":"AI PRODUCT · DATA LOOP","textPreview":"AI PRODUCT · DATA LOOP","textChars":22,"textLines":1,"bbox":[68,28,300,22]}
+{"kind":"textbox","id":"sh/5o7mdc3e","slide":63,"text":"63","textPreview":"63","textChars":2,"textLines":1,"bbox":[1170,28,42,22]}
+{"kind":"shape","id":"sh/k3el47mt","slide":63,"bbox":[68,680,1144,2]}
+{"kind":"shape","id":"sh/vy5k7i5c","slide":63,"bbox":[68,680,1029.6,2]}
+{"kind":"textbox","id":"sh/axw3yd4r","slide":63,"name":"slide-title","text":"客服产品：把反馈放在任务节点上","textPreview":"客服产品：把反馈放在任务节点上","textChars":15,"textLines":1,"bbox":[68,78,1110,68]}
+{"kind":"shape","id":"sh/x0n29sn2","slide":63,"bbox":[280.8,345,32,30]}
+{"kind":"shape","id":"sh/wzel0nmx","slide":63,"bbox":[72,300,212.8,120]}
+{"kind":"textbox","id":"sh/fup4jmlg","slide":63,"text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[86,314,40,24]}
+{"kind":"textbox","id":"sh/utg3ah4v","slide":63,"text":"回答后轻量反馈","textPreview":"回答后轻量反馈","textChars":7,"textLines":1,"bbox":[84,353,188.8,48]}
+{"kind":"shape","id":"sh/0vm90b21","slide":63,"bbox":[511.6,345,32,30]}
+{"kind":"shape","id":"sh/1wva9g3m","slide":63,"bbox":[302.8,300,212.8,120]}
+{"kind":"textbox","id":"sh/etkry1kb","slide":63,"text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[316.8,314,40,24]}
+{"kind":"textbox","id":"sh/futs76lw","slide":63,"text":"失败原因快捷选择","textPreview":"失败原因快捷选择","textChars":8,"textLines":1,"bbox":[314.8,353,188.8,48]}
+{"kind":"shape","id":"sh/sr29wr25","slide":63,"bbox":[742.4,345,32,30]}
+{"kind":"shape","id":"sh/dsba5w3q","slide":63,"bbox":[533.6,300,212.8,120]}
+{"kind":"textbox","id":"sh/qpkruhkz","slide":63,"text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[547.6,314,40,24]}
+{"kind":"textbox","id":"sh/rqts3mlk","slide":63,"text":"低置信度主动转人工","textPreview":"低置信度主动转人工","textChars":9,"textLines":1,"bbox":[545.6,353,188.8,48]}
+{"kind":"shape","id":"sh/43i9sr29","slide":63,"bbox":[973.2,345,32,30]}
+{"kind":"shape","id":"sh/5oba1w3e","slide":63,"bbox":[764.4,300,212.8,120]}
+{"kind":"textbox","id":"sh/5k3qp8vi","slide":63,"text":"04","textPreview":"04","textChars":2,"textLines":1,"bbox":[778.4,314,40,24]}
+{"kind":"textbox","id":"sh/kjapw3ux","slide":63,"text":"人工处理结果回流","textPreview":"人工处理结果回流","textChars":8,"textLines":1,"bbox":[776.4,353,188.8,48]}
+{"kind":"shape","id":"sh/ji18nidc","slide":63,"bbox":[995.2,300,212.8,120]}
+{"kind":"textbox","id":"sh/yxs7udcr","slide":63,"text":"05","textPreview":"05","textChars":2,"textLines":1,"bbox":[1009.2,314,40,24]}
+{"kind":"textbox","id":"sh/xwjql8v6","slide":63,"text":"关闭会话前确认解决状态","textPreview":"关闭会话前确认解决状态","textChars":11,"textLines":1,"bbox":[1007.2,353,188.8,48]}
+{"kind":"textbox","id":"sh/wvaps3ul","slide":63,"text":"反馈机制要低摩擦，否则只会收集到极端意见。","textPreview":"反馈机制要低摩擦，否则只会收集到极端意见。","textChars":21,"textLines":1,"bbox":[110,490,1060,55]}
+{"kind":"notes","id":"nt/j8o6gh","slide":63,"text":"[Sources]\n- /Users/keivn/Project/AI-Course/准备材料/参考课程/知乎AI课程/正课/27.【测试与数据】大模型产品开发中的数据准备与反馈闭环.pdf（参考页：84）\n- /Users/keivn/Project/AI-Course/准备材料/参考课程/知乎AI课程/正课/录音/27.【测试与数据】大模型产品开发中的数据准备与反馈闭环_原文.docx\n- /Users/keivn/Project/AI-Course/课程生产/第一阶段/第09课_AI产品测试、指标与Bad Case_重做工作区/第09课_课程设计与老师稿.md"}
+{"kind":"slide","id":"sl/kbus83","slide":64,"title":"AI PRODUCT · DATA LOOP","textShapes":14}
+{"kind":"textbox","id":"sh/q14fapo7","slide":64,"text":"AI PRODUCT · DATA LOOP","textPreview":"AI PRODUCT · DATA LOOP","textChars":22,"textLines":1,"bbox":[68,28,300,22]}
+{"kind":"textbox","id":"sh/d4vyl47y","slide":64,"text":"64","textPreview":"64","textChars":2,"textLines":1,"bbox":[1170,28,42,22]}
+{"kind":"shape","id":"sh/s3mxcz6d","slide":64,"bbox":[68,680,1144,2]}
+{"kind":"shape","id":"sh/jetwfapg","slide":64,"bbox":[68,680,1045.94,2]}
+{"kind":"textbox","id":"sh/idkf658b","slide":64,"name":"slide-title","text":"低分会话，如何进入 Bad Case 问题池","textPreview":"低分会话，如何进入 Bad Case 问题池","textChars":22,"textLines":1,"bbox":[68,78,1110,68]}
+{"kind":"shape","id":"sh/50byhk7m","slide":64,"bbox":[280.8,345,32,30]}
+{"kind":"shape","id":"sh/4z2x8fq1","slide":64,"bbox":[72,300,212.8,120]}
+{"kind":"textbox","id":"sh/nuxgrep0","slide":64,"text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[86,314,40,24]}
+{"kind":"textbox","id":"sh/29ofi9of","slide":64,"text":"触发低分/红线","textPreview":"触发低分/红线","textChars":7,"textLines":1,"bbox":[84,353,188.8,48]}
+{"kind":"shape","id":"sh/svml03yx","slide":64,"bbox":[511.6,345,32,30]}
+{"kind":"shape","id":"sh/dwvm98fi","slide":64,"bbox":[302.8,300,212.8,120]}
+{"kind":"textbox","id":"sh/qtk3ytg7","slide":64,"text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[316.8,314,40,24]}
+{"kind":"textbox","id":"sh/rud47yxc","slide":64,"text":"去敏与去重","textPreview":"去敏与去重","textChars":5,"textLines":1,"bbox":[314.8,353,188.8,48]}
+{"kind":"shape","id":"sh/472lwjy1","slide":64,"bbox":[742.4,345,32,30]}
+{"kind":"shape","id":"sh/58bm5ofm","slide":64,"bbox":[533.6,300,212.8,120]}
+{"kind":"textbox","id":"sh/i5k3u9gv","slide":64,"text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[547.6,314,40,24]}
+{"kind":"textbox","id":"sh/36t43exg","slide":64,"text":"人工复核","textPreview":"人工复核","textChars":4,"textLines":1,"bbox":[545.6,353,188.8,48]}
+{"kind":"shape","id":"sh/g32lsjyp","slide":64,"bbox":[973.2,345,32,30]}
+{"kind":"shape","id":"sh/h4bm1ofa","slide":64,"bbox":[764.4,300,212.8,120]}
+{"kind":"textbox","id":"sh/x03250re","slide":64,"text":"04","textPreview":"04","textChars":2,"textLines":1,"bbox":[778.4,314,40,24]}
+{"kind":"textbox","id":"sh/wzu1wvqt","slide":64,"text":"归因与定级","textPreview":"归因与定级","textChars":5,"textLines":1,"bbox":[776.4,353,188.8,48]}
+{"kind":"shape","id":"sh/vylk3a98","slide":64,"bbox":[995.2,300,212.8,120]}
+{"kind":"textbox","id":"sh/axsju58n","slide":64,"text":"05","textPreview":"05","textChars":2,"textLines":1,"bbox":[1009.2,314,40,24]}
+{"kind":"textbox","id":"sh/9wj210r2","slide":64,"text":"加入回归集","textPreview":"加入回归集","textChars":5,"textLines":1,"bbox":[1007.2,353,188.8,48]}
+{"kind":"textbox","id":"sh/8va1svqh","slide":64,"text":"不是每个点踩都是模型问题；先确认用户意图与业务规则。","textPreview":"不是每个点踩都是模型问题；先确认用户意图与业务规则。","textChars":26,"textLines":1,"bbox":[110,490,1060,55]}
+{"kind":"notes","id":"nt/kbus83","slide":64,"text":"[Sources]\n- /Users/keivn/Project/AI-Course/准备材料/参考课程/知乎AI课程/正课/27.【测试与数据】大模型产品开发中的数据准备与反馈闭环.pdf（参考页：85–86）\n- /Users/keivn/Project/AI-Course/准备材料/参考课程/知乎AI课程/正课/录音/27.【测试与数据】大模型产品开发中的数据准备与反馈闭环_原文.docx\n- /Users/keivn/Project/AI-Course/课程生产/第一阶段/第09课_AI产品测试、指标与Bad Case_重做工作区/第09课_课程设计与老师稿.md"}
+{"kind":"slide","id":"sl/zmc6qn","slide":65,"title":"AI PRODUCT · DATA LOOP","textShapes":16}
+{"kind":"textbox","id":"sh/7qdsfeds","slide":65,"text":"AI PRODUCT · DATA LOOP","textPreview":"AI PRODUCT · DATA LOOP","textChars":22,"textLines":1,"bbox":[68,28,300,22]}
+{"kind":"textbox","id":"sh/8bmtojud","slide":65,"text":"65","textPreview":"65","textChars":2,"textLines":1,"bbox":[1170,28,42,22]}
+{"kind":"shape","id":"sh/tcvahovy","slide":65,"bbox":[68,680,1144,2]}
+{"kind":"shape","id":"sh/ud4bq9cj","slide":65,"bbox":[68,680,1062.29,2]}
+{"kind":"textbox","id":"sh/vedsjed4","slide":65,"name":"slide-title","text":"Bad Case六类归因：找到真正该改的层","textPreview":"Bad Case六类归因：找到真正该改的层","textChars":21,"textLines":1,"bbox":[68,78,1110,68]}
+{"kind":"textbox","id":"sh/gfmtsjup","slide":65,"text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[72,240,52,30]}
+{"kind":"shape","id":"sh/hgfulova","slide":65,"bbox":[72,282,362.67,3]}
+{"kind":"textbox","id":"sh/ahkrepcf","slide":65,"text":"数据","textPreview":"数据","textChars":2,"textLines":1,"bbox":[72,305,352.67,48]}
+{"kind":"textbox","id":"sh/bits7ud0","slide":65,"text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[458.67,240,52,30]}
+{"kind":"shape","id":"sh/f65cnip8","slide":65,"bbox":[458.67,282,362.67,3]}
+{"kind":"textbox","id":"sh/u5wbudon","slide":65,"text":"Prompt","textPreview":"Prompt","textChars":6,"textLines":1,"bbox":[458.67,305,352.67,48]}
+{"kind":"textbox","id":"sh/h87up87e","slide":65,"text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[845.33,240,52,30]}
+{"kind":"shape","id":"sh/g7ytw36t","slide":65,"bbox":[845.33,282,362.67,3]}
+{"kind":"textbox","id":"sh/7i5cjypc","slide":65,"text":"知识","textPreview":"知识","textChars":2,"textLines":1,"bbox":[845.33,305,352.67,48]}
+{"kind":"textbox","id":"sh/6hwbqtor","slide":65,"text":"04","textPreview":"04","textChars":2,"textLines":1,"bbox":[72,418,52,30]}
+{"kind":"shape","id":"sh/tknul87i","slide":65,"bbox":[72,460,362.67,3]}
+{"kind":"textbox","id":"sh/sjets36x","slide":65,"text":"流程","textPreview":"流程","textChars":2,"textLines":1,"bbox":[72,483,352.67,48]}
+{"kind":"textbox","id":"sh/jelcfyp0","slide":65,"text":"05","textPreview":"05","textChars":2,"textLines":1,"bbox":[458.67,418,52,30]}
+{"kind":"shape","id":"sh/idcbmtov","slide":65,"bbox":[458.67,460,362.67,3]}
+{"kind":"textbox","id":"sh/m9cvytsn","slide":65,"text":"工具","textPreview":"工具","textChars":2,"textLines":1,"bbox":[458.67,483,352.67,48]}
+{"kind":"textbox","id":"sh/nalcre98","slide":65,"text":"06","textPreview":"06","textChars":2,"textLines":1,"bbox":[845.33,418,52,30]}
+{"kind":"shape","id":"sh/8bud0jat","slide":65,"bbox":[845.33,460,362.67,3]}
+{"kind":"textbox","id":"sh/9c3utory","slide":65,"text":"产品边界","textPreview":"产品边界","textChars":4,"textLines":1,"bbox":[845.33,483,352.67,48]}
+{"kind":"textbox","id":"sh/adcv2t8j","slide":65,"text":"归因错了，越优化越乱。","textPreview":"归因错了，越优化越乱。","textChars":11,"textLines":1,"bbox":[72,620,1136,36]}
+{"kind":"notes","id":"nt/zmc6qn","slide":65,"text":"[Sources]\n- /Users/keivn/Project/AI-Course/准备材料/参考课程/知乎AI课程/正课/27.【测试与数据】大模型产品开发中的数据准备与反馈闭环.pdf（参考页：85–95）\n- /Users/keivn/Project/AI-Course/准备材料/参考课程/知乎AI课程/正课/录音/27.【测试与数据】大模型产品开发中的数据准备与反馈闭环_原文.docx\n- /Users/keivn/Project/AI-Course/课程生产/第一阶段/第09课_AI产品测试、指标与Bad Case_重做工作区/第09课_课程设计与老师稿.md"}
+{"kind":"slide","id":"sl/0glb8g","slide":66,"title":"AI PRODUCT · DATA LOOP","textShapes":12}
+{"kind":"textbox","id":"sh/o361k72l","slide":66,"text":"AI PRODUCT · DATA LOOP","textPreview":"AI PRODUCT · DATA LOOP","textChars":22,"textLines":1,"bbox":[68,28,300,22]}
+{"kind":"textbox","id":"sh/n2xkb2l0","slide":66,"text":"66","textPreview":"66","textChars":2,"textLines":1,"bbox":[1170,28,42,22]}
+{"kind":"shape","id":"sh/21ojixkf","slide":66,"bbox":[68,680,1144,2]}
+{"kind":"shape","id":"sh/10f29s3u","slide":66,"bbox":[68,680,1078.63,2]}
+{"kind":"textbox","id":"sh/0f61gn29","slide":66,"name":"slide-title","text":"标注规范必须同时给出三样东西","textPreview":"标注规范必须同时给出三样东西","textChars":14,"textLines":1,"bbox":[68,78,1110,68]}
+{"kind":"textbox","id":"sh/fexk7ilo","slide":66,"text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[72,240,52,30]}
+{"kind":"shape","id":"sh/edojex43","slide":66,"bbox":[72,282,362.67,3]}
+{"kind":"textbox","id":"sh/dcvi5s3i","slide":66,"text":"定义","textPreview":"定义","textChars":2,"textLines":1,"bbox":[72,305,352.67,48]}
+{"kind":"textbox","id":"sh/sbm1cnmd","slide":66,"text":"标签到底描述什么，不描述什么","textPreview":"标签到底描述什么，不描述什么","textChars":14,"textLines":1,"bbox":[72,360,346.67,76]}
+{"kind":"textbox","id":"sh/u18v2t0b","slide":66,"text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[458.67,240,52,30]}
+{"kind":"shape","id":"sh/v21cvy1w","slide":66,"bbox":[458.67,282,362.67,3]}
+{"kind":"textbox","id":"sh/g3ad43ih","slide":66,"text":"正例","textPreview":"正例","textChars":2,"textLines":1,"bbox":[458.67,305,352.67,48]}
+{"kind":"textbox","id":"sh/h4jux8j2","slide":66,"text":"哪些样本应该被标记","textPreview":"哪些样本应该被标记","textChars":9,"textLines":1,"bbox":[458.67,360,346.67,76]}
+{"kind":"textbox","id":"sh/6x8vyt0f","slide":66,"text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[845.33,240,52,30]}
+{"kind":"shape","id":"sh/7yhcre1k","slide":66,"bbox":[845.33,282,362.67,3]}
+{"kind":"textbox","id":"sh/8zqd0ji5","slide":66,"text":"反例","textPreview":"反例","textChars":2,"textLines":1,"bbox":[845.33,305,352.67,48]}
+{"kind":"textbox","id":"sh/t0zutojq","slide":66,"text":"相似但不应标记的边界样本","textPreview":"相似但不应标记的边界样本","textChars":12,"textLines":1,"bbox":[845.33,360,346.67,76]}
+{"kind":"notes","id":"nt/0glb8g","slide":66,"text":"[Sources]\n- /Users/keivn/Project/AI-Course/准备材料/参考课程/知乎AI课程/正课/27.【测试与数据】大模型产品开发中的数据准备与反馈闭环.pdf（参考页：87–90）\n- /Users/keivn/Project/AI-Course/准备材料/参考课程/知乎AI课程/正课/录音/27.【测试与数据】大模型产品开发中的数据准备与反馈闭环_原文.docx\n- /Users/keivn/Project/AI-Course/课程生产/第一阶段/第09课_AI产品测试、指标与Bad Case_重做工作区/第09课_课程设计与老师稿.md"}
+{"kind":"slide","id":"sl/ihntat","slide":67,"title":"AI PRODUCT · DATA LOOP","textShapes":14}
+{"kind":"textbox","id":"sh/wfips7yx","slide":67,"text":"AI PRODUCT · DATA LOOP","textPreview":"AI PRODUCT · DATA LOOP","textChars":22,"textLines":1,"bbox":[68,28,300,22]}
+{"kind":"textbox","id":"sh/be98z2hs","slide":67,"text":"67","textPreview":"67","textChars":2,"textLines":1,"bbox":[1170,28,42,22]}
+{"kind":"shape","id":"sh/ad07qxg7","slide":67,"bbox":[68,680,1144,2]}
+{"kind":"shape","id":"sh/lkbq5czu","slide":67,"bbox":[68,680,1094.97,2]}
+{"kind":"textbox","id":"sh/kj29w7y9","slide":67,"name":"slide-title","text":"标注结果，最终要回到产品实验","textPreview":"标注结果，最终要回到产品实验","textChars":14,"textLines":1,"bbox":[68,78,1110,68]}
+{"kind":"shape","id":"sh/jit832ho","slide":67,"bbox":[280.8,345,32,30]}
+{"kind":"shape","id":"sh/yhkruxg3","slide":67,"bbox":[72,300,212.8,120]}
+{"kind":"textbox","id":"sh/t8vq9czq","slide":67,"text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[86,314,40,24]}
+{"kind":"textbox","id":"sh/87290ry5","slide":67,"text":"人工标注","textPreview":"人工标注","textChars":4,"textLines":1,"bbox":[84,353,188.8,48]}
+{"kind":"shape","id":"sh/yhcnad4j","slide":67,"bbox":[511.6,345,32,30]}
+{"kind":"shape","id":"sh/jiloji54","slide":67,"bbox":[302.8,300,212.8,120]}
+{"kind":"textbox","id":"sh/kju5cnmp","slide":67,"text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[316.8,314,40,24]}
+{"kind":"textbox","id":"sh/lkn6lsna","slide":67,"text":"问题聚类","textPreview":"问题聚类","textChars":4,"textLines":1,"bbox":[314.8,353,188.8,48]}
+{"kind":"shape","id":"sh/6lwned4v","slide":67,"bbox":[742.4,345,32,30]}
+{"kind":"shape","id":"sh/7m5oni50","slide":67,"bbox":[533.6,300,212.8,120]}
+{"kind":"textbox","id":"sh/8nepgnml","slide":67,"text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[547.6,314,40,24]}
+{"kind":"textbox","id":"sh/ton6psn6","slide":67,"text":"方案设计","textPreview":"方案设计","textChars":4,"textLines":1,"bbox":[545.6,353,188.8,48]}
+{"kind":"shape","id":"sh/mpsn2tob","slide":67,"bbox":[973.2,345,32,30]}
+{"kind":"shape","id":"sh/nq1oby5w","slide":67,"bbox":[764.4,300,212.8,120]}
+{"kind":"textbox","id":"sh/ruhkjulo","slide":67,"text":"04","textPreview":"04","textChars":2,"textLines":1,"bbox":[778.4,314,40,24]}
+{"kind":"textbox","id":"sh/qt83ap43","slide":67,"text":"Prompt / 流程 A/B","textPreview":"Prompt / 流程 A/B","textChars":15,"textLines":1,"bbox":[776.4,353,188.8,48]}
+{"kind":"shape","id":"sh/dwz2l43u","slide":67,"bbox":[995.2,300,212.8,120]}
+{"kind":"textbox","id":"sh/cvqlcz29","slide":67,"text":"05","textPreview":"05","textChars":2,"textLines":1,"bbox":[1009.2,314,40,24]}
+{"kind":"textbox","id":"sh/36xkfals","slide":67,"text":"Eval验证","textPreview":"Eval验证","textChars":6,"textLines":1,"bbox":[1007.2,353,188.8,48]}
+{"kind":"textbox","id":"sh/25o36547","slide":67,"text":"优化目标应对应具体失败类型，而不是笼统追求“更聪明”。","textPreview":"优化目标应对应具体失败类型，而不是笼统追求“更聪明”。","textChars":27,"textLines":1,"bbox":[110,490,1060,55]}
+{"kind":"notes","id":"nt/ihntat","slide":67,"text":"[Sources]\n- /Users/keivn/Project/AI-Course/准备材料/参考课程/知乎AI课程/正课/27.【测试与数据】大模型产品开发中的数据准备与反馈闭环.pdf（参考页：91–95）\n- /Users/keivn/Project/AI-Course/准备材料/参考课程/知乎AI课程/正课/录音/27.【测试与数据】大模型产品开发中的数据准备与反馈闭环_原文.docx\n- /Users/keivn/Project/AI-Course/课程生产/第一阶段/第09课_AI产品测试、指标与Bad Case_重做工作区/第09课_课程设计与老师稿.md"}
+{"kind":"slide","id":"sl/6aa4ak","slide":68,"title":"AI PRODUCT · DATA LOOP","textShapes":12}
+{"kind":"textbox","id":"sh/mx43q5c7","slide":68,"text":"AI PRODUCT · DATA LOOP","textPreview":"AI PRODUCT · DATA LOOP","textChars":22,"textLines":1,"bbox":[68,28,300,22]}
+{"kind":"textbox","id":"sh/90vml0bi","slide":68,"text":"68","textPreview":"68","textChars":2,"textLines":1,"bbox":[1170,28,42,22]}
+{"kind":"shape","id":"sh/8zmlsvud","slide":68,"bbox":[68,680,1144,2]}
+{"kind":"shape","id":"sh/zatkfqtg","slide":68,"bbox":[68,680,1111.31,2]}
+{"kind":"textbox","id":"sh/y9k3mlcv","slide":68,"name":"slide-title","text":"版本回归：修复原错，也保护原本正确的能力","textPreview":"版本回归：修复原错，也保护原本正确的能力","textChars":20,"textLines":1,"bbox":[68,78,1110,68]}
+{"kind":"shape","id":"sh/lcbmh0bm","slide":68,"bbox":[338.5,345,32,30]}
+{"kind":"shape","id":"sh/kb2lovu1","slide":68,"bbox":[72,300,270.5,120]}
+{"kind":"textbox","id":"sh/b6tkbqtk","slide":68,"text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[86,314,40,24]}
+{"kind":"textbox","id":"sh/a5k3ilcz","slide":68,"text":"原失败样本","textPreview":"原失败样本","textChars":5,"textLines":1,"bbox":[84,353,246.5,48]}
+{"kind":"shape","id":"sh/0vm507m1","slide":68,"bbox":[627,345,32,30]}
+{"kind":"shape","id":"sh/1wvm9s3m","slide":68,"bbox":[360.5,300,270.5,120]}
+{"kind":"textbox","id":"sh/et4nyx4v","slide":68,"text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[374.5,314,40,24]}
+{"kind":"textbox","id":"sh/zud472lg","slide":68,"text":"同类高风险样本","textPreview":"同类高风险样本","textChars":7,"textLines":1,"bbox":[372.5,353,246.5,48]}
+{"kind":"shape","id":"sh/crm5wnmp","slide":68,"bbox":[915.5,345,32,30]}
+{"kind":"shape","id":"sh/dsvm5s3a","slide":68,"bbox":[649,300,270.5,120]}
+{"kind":"textbox","id":"sh/qpknud4z","slide":68,"text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[663,314,40,24]}
+{"kind":"textbox","id":"sh/rqt43ilk","slide":68,"text":"代表性正常样本","textPreview":"代表性正常样本","textChars":7,"textLines":1,"bbox":[661,353,246.5,48]}
+{"kind":"shape","id":"sh/wn658r29","slide":68,"bbox":[937.5,300,270.5,120]}
+{"kind":"textbox","id":"sh/xof6hc3u","slide":68,"text":"04","textPreview":"04","textChars":2,"textLines":1,"bbox":[951.5,314,40,24]}
+{"kind":"textbox","id":"sh/54bm1cvy","slide":68,"text":"历史关键 Bad Case","textPreview":"历史关键 Bad Case","textChars":13,"textLines":1,"bbox":[949.5,353,246.5,48]}
+{"kind":"textbox","id":"sh/4325s7ud","slide":68,"text":"新版本只有同时通过修复验证与防退化验证，才有资格进入灰度。","textPreview":"新版本只有同时通过修复验证与防退化验证，才有资格进入灰度。","textChars":29,"textLines":1,"bbox":[110,490,1060,55]}
+{"kind":"notes","id":"nt/6aa4ak","slide":68,"text":"[Sources]\n- /Users/keivn/Project/AI-Course/准备材料/参考课程/知乎AI课程/正课/27.【测试与数据】大模型产品开发中的数据准备与反馈闭环.pdf（参考页：60–63、91–95）\n- /Users/keivn/Project/AI-Course/准备材料/参考课程/知乎AI课程/正课/录音/27.【测试与数据】大模型产品开发中的数据准备与反馈闭环_原文.docx\n- /Users/keivn/Project/AI-Course/课程生产/第一阶段/第09课_AI产品测试、指标与Bad Case_重做工作区/第09课_课程设计与老师稿.md"}
+{"kind":"slide","id":"sl/fqgym5","slide":69,"title":"AI PRODUCT · DATA LOOP","textShapes":12}
+{"kind":"textbox","id":"sh/zehwrylo","slide":69,"text":"AI PRODUCT · DATA LOOP","textPreview":"AI PRODUCT · DATA LOOP","textChars":22,"textLines":1,"bbox":[68,28,300,22]}
+{"kind":"textbox","id":"sh/kfqx0329","slide":69,"text":"69","textPreview":"69","textChars":2,"textLines":1,"bbox":[1170,28,42,22]}
+{"kind":"shape","id":"sh/lgzet83u","slide":69,"bbox":[68,680,1144,2]}
+{"kind":"shape","id":"sh/apovu9k7","slide":69,"bbox":[68,680,1127.66,2]}
+{"kind":"textbox","id":"sh/bqxwnelc","slide":69,"name":"slide-title","text":"课堂练习：完成一轮最小评测闭环","textPreview":"课堂练习：完成一轮最小评测闭环","textChars":15,"textLines":1,"bbox":[68,78,1110,68]}
+{"kind":"textbox","id":"sh/cr6xwj2x","slide":69,"text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[76,226,54,38]}
+{"kind":"textbox","id":"sh/xczepo3i","slide":69,"text":"设计8条用例：覆盖典型、边界、异常、无答案和高风险","textPreview":"设计8条用例：覆盖典型、边界、异常、无答案和高风险","textChars":25,"textLines":1,"bbox":[140,224,1010,50]}
+{"kind":"textbox","id":"sh/ulsf6dkb","slide":69,"text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[76,304,54,38]}
+{"kind":"textbox","id":"sh/vm1wzi1w","slide":69,"text":"选择6条运行并记录输出","textPreview":"选择6条运行并记录输出","textChars":11,"textLines":1,"bbox":[140,302,1010,50]}
+{"kind":"textbox","id":"sh/3ah8zm10","slide":69,"text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[76,382,54,38]}
+{"kind":"textbox","id":"sh/298rq1kf","slide":69,"text":"找出2条 Bad Case，完成归因","textPreview":"找出2条 Bad Case，完成归因","textChars":18,"textLines":1,"bbox":[140,380,1010,50]}
+{"kind":"textbox","id":"sh/pcza1wj6","slide":69,"text":"04","textPreview":"04","textChars":2,"textLines":1,"bbox":[76,460,54,38]}
+{"kind":"textbox","id":"sh/4bq9sr2l","slide":69,"text":"修改一个版本点，再做1次版本对照","textPreview":"修改一个版本点，再做1次版本对照","textChars":16,"textLines":1,"bbox":[140,458,1010,50]}
+{"kind":"textbox","id":"sh/re1s361c","slide":69,"text":"产出：用例表＋评分结果＋Bad Case归因＋上线建议","textPreview":"产出：用例表＋评分结果＋Bad Case归因＋上线建议","textChars":27,"textLines":1,"bbox":[140,605,990,36]}
+{"kind":"notes","id":"nt/fqgym5","slide":69,"text":"[Sources]\n- /Users/keivn/Project/AI-Course/准备材料/参考课程/知乎AI课程/正课/27.【测试与数据】大模型产品开发中的数据准备与反馈闭环.pdf（参考页：102–112）\n- /Users/keivn/Project/AI-Course/准备材料/参考课程/知乎AI课程/正课/录音/27.【测试与数据】大模型产品开发中的数据准备与反馈闭环_原文.docx\n- /Users/keivn/Project/AI-Course/课程生产/第一阶段/第09课_AI产品测试、指标与Bad Case_重做工作区/第09课_课程设计与老师稿.md"}
+{"kind":"slide","id":"sl/j2t5au","slide":70,"title":"AI PRODUCT · DATA LOOP","textShapes":12}
+{"kind":"textbox","id":"sh/t07a54na","slide":70,"text":"AI PRODUCT · DATA LOOP","textPreview":"AI PRODUCT · DATA LOOP","textChars":22,"textLines":1,"bbox":[68,28,300,22]}
+{"kind":"textbox","id":"sh/6xgrupoz","slide":70,"text":"70","textPreview":"70","textChars":2,"textLines":1,"bbox":[1170,28,42,22]}
+{"kind":"shape","id":"sh/7yps3u5k","slide":70,"bbox":[68,680,1144,2]}
+{"kind":"shape","id":"sh/gnit0j61","slide":70,"bbox":[68,680,1144,2]}
+{"kind":"textbox","id":"sh/hora94nm","slide":70,"name":"slide-title","text":"评测的终点，是做出有依据的产品决策","textPreview":"评测的终点，是做出有依据的产品决策","textChars":17,"textLines":1,"bbox":[68,78,1110,68]}
+{"kind":"textbox","id":"sh/u10by9ov","slide":70,"text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[100,280,120,50]}
+{"kind":"textbox","id":"sh/fm9s7e5g","slide":70,"text":"上线","textPreview":"上线","textChars":2,"textLines":1,"bbox":[80,350,160,55]}
+{"kind":"textbox","id":"sh/4rit4j6x","slide":70,"text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[380,280,120,50]}
+{"kind":"textbox","id":"sh/psbadoni","slide":70,"text":"灰度","textPreview":"灰度","textChars":2,"textLines":1,"bbox":[360,350,160,55]}
+{"kind":"textbox","id":"sh/tobmhgfy","slide":70,"text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[660,280,120,50]}
+{"kind":"textbox","id":"sh/sni5obyt","slide":70,"text":"退回优化","textPreview":"退回优化","textChars":4,"textLines":1,"bbox":[640,350,160,55]}
+{"kind":"textbox","id":"sh/7m94f6x8","slide":70,"text":"04","textPreview":"04","textChars":2,"textLines":1,"bbox":[940,280,120,50]}
+{"kind":"textbox","id":"sh/6l0nm1gn","slide":70,"text":"转人工兜底","textPreview":"转人工兜底","textChars":5,"textLines":1,"bbox":[920,350,160,55]}
+{"kind":"shape","id":"sh/hcb6lgfa","slide":70,"bbox":[110,470,1060,4]}
+{"kind":"textbox","id":"sh/gb25sbyp","slide":70,"text":"固定评测集 × 组合评分 × Bad Case × 版本回归 × 数据反馈闭环","textPreview":"固定评测集 × 组合评分 × Bad Case × 版本回归 × 数据反馈闭环","textChars":39,"textLines":1,"bbox":[120,510,1040,70]}
+{"kind":"notes","id":"nt/j2t5au","slide":70,"text":"[Sources]\n- /Users/keivn/Project/AI-Course/准备材料/参考课程/知乎AI课程/正课/27.【测试与数据】大模型产品开发中的数据准备与反馈闭环.pdf（参考页：60–63、72–101）\n- /Users/keivn/Project/AI-Course/准备材料/参考课程/知乎AI课程/正课/录音/27.【测试与数据】大模型产品开发中的数据准备与反馈闭环_原文.docx\n- /Users/keivn/Project/AI-Course/课程生产/第一阶段/第09课_AI产品测试、指标与Bad Case_重做工作区/第09课_课程设计与老师稿.md"}

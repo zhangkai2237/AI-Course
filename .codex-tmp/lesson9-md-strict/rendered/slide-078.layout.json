@@ -1,0 +1,1223 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/lwlweb",
+    "id": "lwlweb",
+    "slide": 78,
+    "layoutId": "df8893a8-b1af-4add-9e44-f29ca0f52e17",
+    "layoutName": "Title Slide",
+    "layoutType": "title",
+    "masterLayoutId": "2edc7d68-7016-43b2-89ea-58d1eaf6ce4c",
+    "masterLayoutName": "Master",
+    "backgroundColor": "#07151F",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "theme": {
+    "colorSchemeName": "ChatGPT",
+    "colors": {
+      "accent1": "#156082",
+      "accent2": "#E97132",
+      "accent3": "#196B24",
+      "accent4": "#0F9ED5",
+      "accent5": "#A02B93",
+      "accent6": "#4EA72E",
+      "bg1": "#FFFFFF",
+      "bg2": "#000000",
+      "tx1": "#1F1F1F",
+      "tx2": "#FFFFFF",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#0E2841",
+      "lt2": "#E8E8E8",
+      "hlink": "#467886",
+      "folHlink": "#96607D"
+    },
+    "typefaces": [
+      "+mn-lt"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "df8893a8-b1af-4add-9e44-f29ca0f52e17",
+      "name": "Title Slide",
+      "type": "title",
+      "parentLayoutId": "2edc7d68-7016-43b2-89ea-58d1eaf6ce4c",
+      "elements": []
+    },
+    {
+      "scope": "master",
+      "id": "2edc7d68-7016-43b2-89ea-58d1eaf6ce4c",
+      "name": "Master",
+      "type": "master",
+      "elements": []
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/7ml8b6ds",
+      "id": "1",
+      "bbox": [
+        68,
+        28,
+        340,
+        22
+      ],
+      "geometry": "rect",
+      "text": "AI PRODUCT · METHODS",
+      "textPreview": "AI PRODUCT · METHODS",
+      "resolvedFontSize": 13,
+      "resolvedTextStyle": {
+        "fontSize": 13,
+        "typeface": "+mn-lt",
+        "color": "#36D6C2",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "AI PRODUCT · METHODS"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "AI PRODUCT · METHODS",
+          "resolvedTextStyle": {
+            "fontSize": 13,
+            "color": "#36D6C2",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "AI PRODUCT · METHODS",
+              "fontSize": 13,
+              "color": "#36D6C2",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/8nup4bed",
+      "id": "2",
+      "bbox": [
+        1150,
+        28,
+        64,
+        22
+      ],
+      "geometry": "rect",
+      "text": "078",
+      "textPreview": "078",
+      "resolvedFontSize": 13,
+      "resolvedTextStyle": {
+        "fontSize": 13,
+        "typeface": "+mn-lt",
+        "color": "#A7B5BC",
+        "bold": true,
+        "alignment": "right",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "078"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "078",
+          "resolvedTextStyle": {
+            "fontSize": 13,
+            "color": "#A7B5BC",
+            "bold": true,
+            "alignment": "right"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "078",
+              "fontSize": 13,
+              "color": "#A7B5BC",
+              "bold": true,
+              "alignment": "right"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/9o3qdwvy",
+      "id": "3",
+      "bbox": [
+        68,
+        680,
+        1144,
+        2
+      ],
+      "geometry": "rect",
+      "fillColor": "#26404A",
+      "lineWidth": 0
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/upc761wj",
+      "id": "4",
+      "bbox": [
+        68,
+        680,
+        487.61,
+        2
+      ],
+      "geometry": "rect",
+      "fillColor": "#36D6C2",
+      "lineWidth": 0
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/vq58f6d4",
+      "id": "5",
+      "bbox": [
+        68,
+        78,
+        1125,
+        66
+      ],
+      "geometry": "rect",
+      "text": "评测方法的组合",
+      "textPreview": "评测方法的组合",
+      "resolvedFontSize": 38,
+      "resolvedTextStyle": {
+        "fontSize": 38,
+        "typeface": "+mn-lt",
+        "color": "#F5F2E9",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "评测方法的组合"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "评测方法的组合",
+          "resolvedTextStyle": {
+            "fontSize": 38,
+            "color": "#F5F2E9",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "评测方法的组合",
+              "fontSize": 38,
+              "color": "#F5F2E9",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 6,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/wrep8bep",
+      "id": "6",
+      "bbox": [
+        68,
+        158,
+        160,
+        4
+      ],
+      "geometry": "rect",
+      "fillColor": "#36D6C2",
+      "lineWidth": 0
+    },
+    {
+      "order": 7,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/hsnqhgvu",
+      "id": "7",
+      "bbox": [
+        88,
+        180,
+        1100,
+        32
+      ],
+      "geometry": "rect",
+      "text": "实际项目中，通常不会只使用一种方法。",
+      "textPreview": "实际项目中，通常不会只使用一种方法。",
+      "resolvedFontSize": 18,
+      "resolvedTextStyle": {
+        "fontSize": 18,
+        "typeface": "+mn-lt",
+        "color": "#F5F2E9",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "实际项目中，通常不会只使用一种方法。"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "实际项目中，通常不会只使用一种方法。",
+          "resolvedTextStyle": {
+            "fontSize": 18,
+            "color": "#F5F2E9",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "实际项目中，通常不会只使用一种方法。",
+              "fontSize": 18,
+              "color": "#F5F2E9",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 8,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ats7uhwz",
+      "id": "8",
+      "bbox": [
+        88,
+        220,
+        1100,
+        32
+      ],
+      "geometry": "rect",
+      "text": "可以按内容类型组合。",
+      "textPreview": "可以按内容类型组合。",
+      "resolvedFontSize": 18,
+      "resolvedTextStyle": {
+        "fontSize": 18,
+        "typeface": "+mn-lt",
+        "color": "#F5F2E9",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "可以按内容类型组合。"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "可以按内容类型组合。",
+          "resolvedTextStyle": {
+            "fontSize": 18,
+            "color": "#F5F2E9",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "可以按内容类型组合。",
+              "fontSize": 18,
+              "color": "#F5F2E9",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 9,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/bu1o3mdk",
+      "id": "9",
+      "bbox": [
+        88,
+        260,
+        1100,
+        32
+      ],
+      "geometry": "rect",
+      "text": "继续看住宿报销案例。",
+      "textPreview": "继续看住宿报销案例。",
+      "resolvedFontSize": 18,
+      "resolvedTextStyle": {
+        "fontSize": 18,
+        "typeface": "+mn-lt",
+        "color": "#F5F2E9",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "继续看住宿报销案例。"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "继续看住宿报销案例。",
+          "resolvedTextStyle": {
+            "fontSize": 18,
+            "color": "#F5F2E9",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "继续看住宿报销案例。",
+              "fontSize": 18,
+              "color": "#F5F2E9",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 10,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/futgfe1w",
+      "id": "10",
+      "bbox": [
+        88,
+        300,
+        1100,
+        32
+      ],
+      "geometry": "rect",
+      "text": "用户问：",
+      "textPreview": "用户问：",
+      "resolvedFontSize": 18,
+      "resolvedTextStyle": {
+        "fontSize": 18,
+        "typeface": "+mn-lt",
+        "color": "#F5F2E9",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "用户问："
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "用户问：",
+          "resolvedTextStyle": {
+            "fontSize": 18,
+            "color": "#F5F2E9",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "用户问：",
+              "fontSize": 18,
+              "color": "#F5F2E9",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 11,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/utkfm9kb",
+      "id": "11",
+      "bbox": [
+        86,
+        340,
+        1110,
+        61
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#0B202C",
+      "lineColor": "#26404A",
+      "lineWidth": 1
+    },
+    {
+      "order": 12,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/hgbyhojm",
+      "id": "12",
+      "bbox": [
+        86,
+        340,
+        7,
+        61
+      ],
+      "geometry": "rect",
+      "fillColor": "#FF7657",
+      "lineWidth": 0
+    },
+    {
+      "order": 13,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/gf2xoj21",
+      "id": "13",
+      "bbox": [
+        116,
+        355,
+        1048,
+        37
+      ],
+      "geometry": "rect",
+      "text": "普通员工去北京出差，住宿上限是多少？",
+      "textPreview": "普通员工去北京出差，住宿上限是多少？",
+      "resolvedFontSize": 20,
+      "resolvedTextStyle": {
+        "fontSize": 20,
+        "typeface": "+mn-lt",
+        "color": "#F5F2E9",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "普通员工去北京出差，住宿上限是多少？"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "普通员工去北京出差，住宿上限是多少？",
+          "resolvedTextStyle": {
+            "fontSize": 20,
+            "color": "#F5F2E9",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "普通员工去北京出差，住宿上限是多少？",
+              "fontSize": 20,
+              "color": "#F5F2E9",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 14,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/7q9wbu1k",
+      "id": "14",
+      "bbox": [
+        88,
+        411,
+        1100,
+        32
+      ],
+      "geometry": "rect",
+      "text": "AI回答：",
+      "textPreview": "AI回答：",
+      "resolvedFontSize": 18,
+      "resolvedTextStyle": {
+        "fontSize": 18,
+        "typeface": "+mn-lt",
+        "color": "#F5F2E9",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "AI回答："
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "AI回答：",
+          "resolvedTextStyle": {
+            "fontSize": 18,
+            "color": "#F5F2E9",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "AI回答：",
+              "fontSize": 18,
+              "color": "#F5F2E9",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 15,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/6p0fipkz",
+      "id": "15",
+      "bbox": [
+        86,
+        451,
+        1110,
+        61
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#0B202C",
+      "lineColor": "#26404A",
+      "lineWidth": 1
+    },
+    {
+      "order": 16,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/tsbed4jq",
+      "id": "16",
+      "bbox": [
+        86,
+        451,
+        7,
+        61
+      ],
+      "geometry": "rect",
+      "fillColor": "#FF7657",
+      "lineWidth": 0
+    },
+    {
+      "order": 17,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/srixkz25",
+      "id": "17",
+      "bbox": [
+        116,
+        466,
+        1048,
+        37
+      ],
+      "geometry": "rect",
+      "text": "普通员工在北京出差，住宿费最高为500元/晚。如果费用超过标准，超出部分通常需要个人承担。",
+      "textPreview": "普通员工在北京出差，住宿费最高为500元/晚。如果费用超过标准，超出部分通常需要个人承担。",
+      "resolvedFontSize": 20,
+      "resolvedTextStyle": {
+        "fontSize": 20,
+        "typeface": "+mn-lt",
+        "color": "#F5F2E9",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "普通员工在北京出差，住宿费最高为500元/晚。如果费用超过标准，超出部分通常需要个人承担。"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "普通员工在北京出差，住宿费最高为500元/晚。如果费用超过标准，超出部分通常需要个人承担。",
+          "resolvedTextStyle": {
+            "fontSize": 20,
+            "color": "#F5F2E9",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "普通员工在北京出差，住宿费最高为500元/晚。如果费用超过标准，超出部分通常需要个人承担。",
+              "fontSize": 20,
+              "color": "#F5F2E9",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 18,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/jm9w7u1o",
+      "id": "18",
+      "bbox": [
+        88,
+        522,
+        1100,
+        32
+      ],
+      "geometry": "rect",
+      "text": "可以这样评测：",
+      "textPreview": "可以这样评测：",
+      "resolvedFontSize": 18,
+      "resolvedTextStyle": {
+        "fontSize": 18,
+        "typeface": "+mn-lt",
+        "color": "#F5F2E9",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "可以这样评测："
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "可以这样评测：",
+          "resolvedTextStyle": {
+            "fontSize": 18,
+            "color": "#F5F2E9",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "可以这样评测：",
+              "fontSize": 18,
+              "color": "#F5F2E9",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 19,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/il0fepk3",
+      "id": "19",
+      "bbox": [
+        92,
+        566,
+        42,
+        28
+      ],
+      "geometry": "rect",
+      "text": "—",
+      "textPreview": "—",
+      "resolvedFontSize": 19,
+      "resolvedTextStyle": {
+        "fontSize": 19,
+        "typeface": "+mn-lt",
+        "color": "#FF7657",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "—"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "—",
+          "resolvedTextStyle": {
+            "fontSize": 19,
+            "color": "#FF7657",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "—",
+              "fontSize": 19,
+              "color": "#FF7657",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 20,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/mxgfqp4v",
+      "id": "20",
+      "bbox": [
+        144,
+        565,
+        1034,
+        29
+      ],
+      "geometry": "rect",
+      "text": "用规则检查是否出现正确金额500元；",
+      "textPreview": "用规则检查是否出现正确金额500元；",
+      "resolvedFontSize": 18,
+      "resolvedTextStyle": {
+        "fontSize": 18,
+        "typeface": "+mn-lt",
+        "color": "#F5F2E9",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "用规则检查是否出现正确金额500元；"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "用规则检查是否出现正确金额500元；",
+          "resolvedTextStyle": {
+            "fontSize": 18,
+            "color": "#F5F2E9",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "用规则检查是否出现正确金额500元；",
+              "fontSize": 18,
+              "color": "#F5F2E9",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 21,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/nipgzu5g",
+      "id": "21",
+      "bbox": [
+        92,
+        608,
+        42,
+        28
+      ],
+      "geometry": "rect",
+      "text": "—",
+      "textPreview": "—",
+      "resolvedFontSize": 19,
+      "resolvedTextStyle": {
+        "fontSize": 19,
+        "typeface": "+mn-lt",
+        "color": "#FF7657",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "—"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "—",
+          "resolvedTextStyle": {
+            "fontSize": 19,
+            "color": "#FF7657",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "—",
+              "fontSize": 19,
+              "color": "#FF7657",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 22,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/8jyxszm1",
+      "id": "22",
+      "bbox": [
+        144,
+        607,
+        1034,
+        29
+      ],
+      "geometry": "rect",
+      "text": "用规则检查单位是否为元/晚；",
+      "textPreview": "用规则检查单位是否为元/晚；",
+      "resolvedFontSize": 18,
+      "resolvedTextStyle": {
+        "fontSize": 18,
+        "typeface": "+mn-lt",
+        "color": "#F5F2E9",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "用规则检查单位是否为元/晚；"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "用规则检查单位是否为元/晚；",
+          "resolvedTextStyle": {
+            "fontSize": 18,
+            "color": "#F5F2E9",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "用规则检查单位是否为元/晚；",
+              "fontSize": 18,
+              "color": "#F5F2E9",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 23,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/9k7y1knm",
+      "id": "23",
+      "bbox": [
+        92,
+        650,
+        42,
+        28
+      ],
+      "geometry": "rect",
+      "text": "—",
+      "textPreview": "—",
+      "resolvedFontSize": 19,
+      "resolvedTextStyle": {
+        "fontSize": 19,
+        "typeface": "+mn-lt",
+        "color": "#FF7657",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "—"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "—",
+          "resolvedTextStyle": {
+            "fontSize": 19,
+            "color": "#FF7657",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "—",
+              "fontSize": 19,
+              "color": "#FF7657",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 24,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/al0zup47",
+      "id": "24",
+      "bbox": [
+        144,
+        649,
+        1034,
+        29
+      ],
+      "geometry": "rect",
+      "text": "用LLM裁判检查是否真正回答了问题；",
+      "textPreview": "用LLM裁判检查是否真正回答了问题；",
+      "resolvedFontSize": 18,
+      "resolvedTextStyle": {
+        "fontSize": 18,
+        "typeface": "+mn-lt",
+        "color": "#F5F2E9",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "用LLM裁判检查是否真正回答了问题；"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "用LLM裁判检查是否真正回答了问题；",
+          "resolvedTextStyle": {
+            "fontSize": 18,
+            "color": "#F5F2E9",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "用LLM裁判检查是否真正回答了问题；",
+              "fontSize": 18,
+              "color": "#F5F2E9",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    }
+  ],
+  "composeRuns": []
+}

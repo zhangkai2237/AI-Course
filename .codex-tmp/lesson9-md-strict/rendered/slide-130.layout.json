@@ -1,0 +1,422 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/2xu9uv",
+    "id": "2xu9uv",
+    "slide": 130,
+    "layoutId": "df8893a8-b1af-4add-9e44-f29ca0f52e17",
+    "layoutName": "Title Slide",
+    "layoutType": "title",
+    "masterLayoutId": "2edc7d68-7016-43b2-89ea-58d1eaf6ce4c",
+    "masterLayoutName": "Master",
+    "backgroundColor": "#07151F",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "theme": {
+    "colorSchemeName": "ChatGPT",
+    "colors": {
+      "accent1": "#156082",
+      "accent2": "#E97132",
+      "accent3": "#196B24",
+      "accent4": "#0F9ED5",
+      "accent5": "#A02B93",
+      "accent6": "#4EA72E",
+      "bg1": "#FFFFFF",
+      "bg2": "#000000",
+      "tx1": "#1F1F1F",
+      "tx2": "#FFFFFF",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#0E2841",
+      "lt2": "#E8E8E8",
+      "hlink": "#467886",
+      "folHlink": "#96607D"
+    },
+    "typefaces": [
+      "+mn-lt"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "df8893a8-b1af-4add-9e44-f29ca0f52e17",
+      "name": "Title Slide",
+      "type": "title",
+      "parentLayoutId": "2edc7d68-7016-43b2-89ea-58d1eaf6ce4c",
+      "elements": []
+    },
+    {
+      "scope": "master",
+      "id": "2edc7d68-7016-43b2-89ea-58d1eaf6ce4c",
+      "name": "Master",
+      "type": "master",
+      "elements": []
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/jm947u5c",
+      "id": "1",
+      "bbox": [
+        68,
+        28,
+        340,
+        22
+      ],
+      "geometry": "rect",
+      "text": "AI PRODUCT · BAD CASE",
+      "textPreview": "AI PRODUCT · BAD CASE",
+      "resolvedFontSize": 13,
+      "resolvedTextStyle": {
+        "fontSize": 13,
+        "typeface": "+mn-lt",
+        "color": "#36D6C2",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "AI PRODUCT · BAD CASE"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "AI PRODUCT · BAD CASE",
+          "resolvedTextStyle": {
+            "fontSize": 13,
+            "color": "#36D6C2",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "AI PRODUCT · BAD CASE",
+              "fontSize": 13,
+              "color": "#36D6C2",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/kni5gzmx",
+      "id": "2",
+      "bbox": [
+        1150,
+        28,
+        64,
+        22
+      ],
+      "geometry": "rect",
+      "text": "130",
+      "textPreview": "130",
+      "resolvedFontSize": 13,
+      "resolvedTextStyle": {
+        "fontSize": 13,
+        "typeface": "+mn-lt",
+        "color": "#A7B5BC",
+        "bold": true,
+        "alignment": "right",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "130"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "130",
+          "resolvedTextStyle": {
+            "fontSize": 13,
+            "color": "#A7B5BC",
+            "bold": true,
+            "alignment": "right"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "130",
+              "fontSize": 13,
+              "color": "#A7B5BC",
+              "bold": true,
+              "alignment": "right"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/lorm94ni",
+      "id": "3",
+      "bbox": [
+        68,
+        680,
+        1144,
+        2
+      ],
+      "geometry": "rect",
+      "fillColor": "#26404A",
+      "lineWidth": 0
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/6p0nip43",
+      "id": "4",
+      "bbox": [
+        68,
+        680,
+        812.68,
+        2
+      ],
+      "geometry": "rect",
+      "fillColor": "#36D6C2",
+      "lineWidth": 0
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/7q94bu5o",
+      "id": "5",
+      "bbox": [
+        68,
+        78,
+        1125,
+        66
+      ],
+      "geometry": "rect",
+      "text": "Bad Case问题池",
+      "textPreview": "Bad Case问题池",
+      "resolvedFontSize": 38,
+      "resolvedTextStyle": {
+        "fontSize": 38,
+        "typeface": "+mn-lt",
+        "color": "#F5F2E9",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Bad Case问题池"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Bad Case问题池",
+          "resolvedTextStyle": {
+            "fontSize": 38,
+            "color": "#F5F2E9",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Bad Case问题池",
+              "fontSize": 38,
+              "color": "#F5F2E9",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 6,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/8bi5kzm9",
+      "id": "6",
+      "bbox": [
+        68,
+        158,
+        160,
+        4
+      ],
+      "geometry": "rect",
+      "fillColor": "#36D6C2",
+      "lineWidth": 0
+    },
+    {
+      "order": 7,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/tcrmd4ne",
+      "id": "7",
+      "bbox": [
+        88,
+        180,
+        1100,
+        32
+      ],
+      "geometry": "rect",
+      "text": "发现Bad Case后，建议建立统一问题池，至少记录：",
+      "textPreview": "发现Bad Case后，建议建立统一问题池，至少记录：",
+      "resolvedFontSize": 18,
+      "resolvedTextStyle": {
+        "fontSize": 18,
+        "typeface": "+mn-lt",
+        "color": "#F5F2E9",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "发现Bad Case后，建议建立统一问题池，至少记录："
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "发现Bad Case后，建议建立统一问题池，至少记录：",
+          "resolvedTextStyle": {
+            "fontSize": 18,
+            "color": "#F5F2E9",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "发现Bad Case后，建议建立统一问题池，至少记录：",
+              "fontSize": 18,
+              "color": "#F5F2E9",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 8,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/udknm94z",
+      "id": "8",
+      "bbox": [
+        88,
+        220,
+        1100,
+        32
+      ],
+      "geometry": "rect",
+      "text": "这样Bad Case才不会停留在聊天记录、截图或群消息里。",
+      "textPreview": "这样Bad Case才不会停留在聊天记录、截图或群消息里。",
+      "resolvedFontSize": 18,
+      "resolvedTextStyle": {
+        "fontSize": 18,
+        "typeface": "+mn-lt",
+        "color": "#F5F2E9",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "这样Bad Case才不会停留在聊天记录、截图或群消息里。"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "这样Bad Case才不会停留在聊天记录、截图或群消息里。",
+          "resolvedTextStyle": {
+            "fontSize": 18,
+            "color": "#F5F2E9",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "这样Bad Case才不会停留在聊天记录、截图或群消息里。",
+              "fontSize": 18,
+              "color": "#F5F2E9",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    }
+  ],
+  "composeRuns": []
+}

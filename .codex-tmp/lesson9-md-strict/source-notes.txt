@@ -1,0 +1,4 @@
+Primary source:
+/Users/keivn/Project/AI-Course/课程生产/第一阶段/第09课_AI产品测试、指标与Bad Case_重做工作区/第9课 - AI产品评测与数据反馈.md
+
+The deck follows the Markdown section order. Obvious section-summary numbering typos are normalized only in slide titles.

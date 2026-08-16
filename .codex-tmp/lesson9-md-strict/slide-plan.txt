@@ -1,0 +1,183 @@
+1	cover	AI产品评测与数据反馈
+2	section	为什么AI产品不能只用传统软件的测试方法
+3	content	第一部分、为什么AI产品不能只用传统软件的测试方法
+4	content	同一个意思，可以有很多种问法
+5	content	AI的回答不是固定答案
+6	content	AI的回答不是固定答案
+7	content	AI可能“看起来会说”，但实际上说错了
+8	content	AI可能“看起来会说”，但实际上说错了
+9	content	AI产品的错误通常不是一个简单的程序Bug
+10	content	AI产品的错误通常不是一个简单的程序Bug
+11	content	为什么不能等上线后再看用户反馈
+12	content	为什么不能等上线后再看用户反馈
+13	content	第一部分的结论
+14	content	第一部分的结论
+15	section	在测试AI之前，先定义“什么叫好”
+16	content	第二部分、在测试AI之前，先定义“什么叫好”
+17	content	判断AI回答，通常看哪些维度｜正确性
+18	content	判断AI回答，通常看哪些维度｜相关性
+19	content	判断AI回答，通常看哪些维度｜完整性
+20	content	判断AI回答，通常看哪些维度｜有据可依，也叫忠实性
+21	content	判断AI回答，通常看哪些维度｜有据可依，也叫忠实性
+22	content	判断AI回答，通常看哪些维度｜安全性与合规性
+23	content	判断AI回答，通常看哪些维度｜表达质量
+24	content	判断AI回答，通常看哪些维度｜表达质量
+25	content	二、不是每个产品都使用完全相同的标准
+26	content	不是每个产品都使用完全相同的标准｜企业知识助手
+27	content	不是每个产品都使用完全相同的标准｜AI写作工具
+28	content	不是每个产品都使用完全相同的标准｜AI客服
+29	content	不是每个产品都使用完全相同的标准｜AI编程助手
+30	content	三、指标不能只有名字，还要有判断标准
+31	content	三、指标不能只有名字，还要有判断标准
+32	content	四、有些指标必须设置“一票否决”
+33	content	有些指标必须设置“一票否决”｜基础指标
+34	content	有些指标必须设置“一票否决”｜门槛指标
+35	content	五、产品指标、效果指标和系统指标不要混在一起
+36	content	产品指标、效果指标和系统指标不要混在一起｜第一层：业务指标
+37	content	产品指标、效果指标和系统指标不要混在一起｜第二层：AI效果指标
+38	content	产品指标、效果指标和系统指标不要混在一起｜第三层：系统指标
+39	content	第二部分的结论
+40	section	评测集的设计与准备
+41	content	第三部分：评测集的设计与准备
+42	content	评测集的基本定义
+43	content	评测集的五类样本
+44	content	评测集的五类样本
+45	content	评测集的五类样本
+46	content	评测集的五类样本
+47	content	评测集的五类样本
+48	content	样本不能平均分配
+49	content	评测样本的四类来源
+50	content	评测样本的四类来源
+51	content	评测样本的四类来源
+52	content	评测样本的四类来源
+53	content	参考答案与评分点的区别
+54	content	参考答案与评分点的区别
+55	content	评测集需要版本管理
+56	content	评测集需要版本管理
+57	content	第三部分总结
+58	section	AI产品的评测方法
+59	content	第四部分：AI产品的评测方法
+60	content	精确匹配与规则评测
+61	content	精确匹配与规则评测
+62	content	精确匹配与规则评测
+63	content	精确匹配与规则评测
+64	content	语义相似度评测
+65	content	语义相似度评测
+66	content	语义相似度评测
+67	content	语义相似度评测
+68	content	LLM-as-Judge
+69	content	LLM-as-Judge
+70	content	LLM-as-Judge
+71	content	LLM-as-Judge
+72	content	Judge Prompt的设计
+73	content	Judge Prompt的设计
+74	content	Judge Prompt的设计
+75	content	人工评审
+76	content	人工评审
+77	content	人工评审
+78	content	评测方法的组合
+79	content	评测方法的组合
+80	content	评测方法的选择原则
+81	content	第四部分总结
+82	section	自动化评测与评测报告
+83	content	第五部分：自动化评测与评测报告
+84	content	自动化评测的基本定义
+85	content	自动化评测的基本定义
+86	content	自动评测系统的基本结构
+87	content	自动评测系统的基本结构
+88	content	自动评测系统的基本结构
+89	content	自动化评测的运行流程
+90	content	自动化评测的运行流程
+91	content	自动化评测的运行流程
+92	content	自动化评测的运行流程
+93	content	自动测试Agent
+94	content	自动测试Agent
+95	content	评测报告的结构
+96	content	评测报告的结构
+97	content	评测报告的结构
+98	content	评测报告的结构
+99	content	平均分的局限
+100	content	平均分的局限
+101	content	上线门槛
+102	content	自动化评测的局限
+103	content	自动化评测的局限
+104	content	第五部分总结
+105	section	Bad Case分析与问题归因
+106	content	第六部分：Bad Case分析与问题归因
+107	content	Bad Case的基本定义
+108	content	Bad Case的基本定义
+109	content	Bad Case的基本定义
+110	content	Bad Case分析的基本流程
+111	content	Bad Case分析的基本流程
+112	content	Bad Case分析的基本流程
+113	content	Bad Case的六类问题归因
+114	content	数据问题
+115	content	数据问题
+116	content	Prompt问题
+117	content	Prompt问题
+118	content	知识问题
+119	content	知识问题
+120	content	流程问题
+121	content	流程问题
+122	content	流程问题
+123	content	工具问题
+124	content	工具问题
+125	content	产品边界问题
+126	content	产品边界问题
+127	content	一个完整的归因示例
+128	content	一个完整的归因示例
+129	content	一个完整的归因示例
+130	content	Bad Case问题池
+131	content	Bad Case的处理优先级
+132	content	Bad Case的处理优先级
+133	content	第六部分总结
+134	section	回归测试与版本管理
+135	content	第七部分：回归测试与版本管理
+136	content	回归测试的基本定义
+137	content	回归测试的基本定义
+138	content	修复验证与防退化验证
+139	content	修复验证与防退化验证
+140	content	修复验证与防退化验证
+141	content	回归评测集的组成
+142	content	回归评测集的组成
+143	content	AI产品版本的组成
+144	content	AI产品版本的组成
+145	content	评测集也需要版本管理
+146	content	评测集也需要版本管理
+147	content	Judge也需要版本管理
+148	content	Judge也需要版本管理
+149	content	AI输出的不确定性
+150	content	版本对比报告
+151	content	发布门槛
+152	content	灰度发布
+153	content	回滚机制
+154	content	持续评测
+155	content	第七部分总结
+156	section	数据反馈与产品迭代闭环
+157	content	第八部分：数据反馈与产品迭代闭环
+158	content	数据反馈闭环的基本定义
+159	content	AI产品数据的四类来源
+160	content	AI产品数据的四类来源
+161	content	AI产品数据的四类来源
+162	content	AI产品数据的四类来源
+163	content	显性反馈
+164	content	显性反馈
+165	content	隐性反馈
+166	content	隐性反馈
+167	content	隐性反馈
+168	content	不同产品的反馈设计
+169	content	不同产品的反馈设计
+170	content	不同产品的反馈设计
+171	content	低分会话进入Bad Case问题池
+172	content	低分会话进入Bad Case问题池
+173	content	数据清洗与标注
+174	content	数据清洗与标注
+175	content	标注规范
+176	content	标注规范
+177	content	从问题标注到产品实验
+178	content	从问题标注到产品实验
+179	content	数据飞轮
+180	content	数据飞轮
+181	content	数据隐私与合规
+182	content	数据隐私与合规
+183	content	第八部分总结

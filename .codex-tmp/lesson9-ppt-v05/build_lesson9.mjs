@@ -69,19 +69,20 @@ const slides = [
 
   {type:"two", title:"可用性与用户体验测试", leftTitle:"可用性", left:["任务能否完成","提示与反馈是否清楚","失败后能否恢复"], rightTitle:"用户体验", right:["等待感与节奏","结果可理解、可编辑","信任与控制感"], pages:"65–66"},
   {type:"three", title:"非功能、鲁棒性与安全伦理测试", items:[{h:"非功能",t:"延迟、成本、并发、稳定性"},{h:"鲁棒性",t:"错别字、噪声、提示攻击、异常输入"},{h:"安全与伦理",t:"隐私、偏见、越权、合规与可追责"}], pages:"67–71"},
-  {type:"section", no:"02", title:"从评测结果到数据反馈闭环", sub:"让真实使用持续改进下一版", pages:"72"},
+  {type:"section", no:"02", title:"Bad Case分析与版本回归", sub:"归因、修复、验证与发布", pages:"72、85–95"},
+  {type:"process", title:"低分会话的 Bad Case 入库流程", items:["触发低分/红线","去敏与去重","人工复核","归因与定级","加入回归集"], footer:"不是每个点踩都是模型问题；先确认用户意图与业务规则。", pages:"85–86"},
+  {type:"six", title:"Bad Case 的六类问题归因", items:["数据","Prompt","知识","流程","工具","产品边界"], footer:"归因错了，越优化越乱。", pages:"85–95"},
+  {type:"process", title:"修复方案与产品实验", items:["问题归因","方案设计","Prompt / 流程 A/B","Eval验证","发布决策"], footer:"优化目标应对应具体失败类型，而不是笼统追求“更聪明”。", pages:"91–95"},
+  {type:"process", title:"版本回归测试", items:["原失败样本","同类高风险样本","代表性正常样本","历史关键 Bad Case"], footer:"新版本只有同时通过修复验证与防退化验证，才有资格进入灰度。", pages:"60–63、91–95"},
+  {type:"section", no:"03", title:"数据反馈与持续迭代", sub:"让真实使用进入下一轮优化", pages:"72–90"},
   {type:"statement", title:"AI产品数据反馈的价值", lead:"真正的壁垒，不只是拥有数据，而是能把反馈稳定地转成更好的产品。", accent:"采集—理解—修复—验证—再上线", pages:"73"},
   {type:"four", title:"AI产品数据的四类来源", items:["业务原始数据","用户输入与输出","显性反馈","隐性行为"], footer:"采集必须满足隐私、授权、最小必要和可追踪。", pages:"74–75"},
-  {type:"process", title:"数据反馈闭环的基本流程", items:["采集","清洗与标注","问题归因","产品优化","回归评测"], footer:"没有回归验证的“数据优化”，只是未经证明的修改。", pages:"76"},
   {type:"compare", title:"显性反馈与隐性反馈", leftTitle:"显性反馈", left:["点赞 / 点踩","原因选择","文字评价"], rightTitle:"隐性反馈", right:["复制、收藏、分享","重生成、改写、放弃","转人工、任务完成"], pages:"77–79"},
   {type:"process", title:"作业类产品的行为反馈", items:["直接采用","部分采用","大幅修改","弃用"], footer:"修改前后差异，比一个“满意/不满意”更接近真实质量。", pages:"80–81"},
   {type:"bullets", title:"常见用户行为信号的解读", items:["收藏：结果具有复用价值","重生成：当前答案未满足需求","放大/细看：内容值得进一步判断","复制/导出：可能进入真实工作流","迅速退出：可能无价值，也可能已完成任务"], pages:"82–83"},
   {type:"process", title:"客服产品的反馈机制", items:["回答后轻量反馈","失败原因快捷选择","低置信度主动转人工","人工处理结果回流","关闭会话前确认解决状态"], footer:"反馈机制要低摩擦，否则只会收集到极端意见。", pages:"84"},
-  {type:"process", title:"低分会话的 Bad Case 入库流程", items:["触发低分/红线","去敏与去重","人工复核","归因与定级","加入回归集"], footer:"不是每个点踩都是模型问题；先确认用户意图与业务规则。", pages:"85–86"},
-  {type:"six", title:"Bad Case 的六类问题归因", items:["数据","Prompt","知识","流程","工具","产品边界"], footer:"归因错了，越优化越乱。", pages:"85–95"},
   {type:"three", title:"Bad Case 标注规范", items:[{h:"定义",t:"标签到底描述什么，不描述什么"},{h:"正例",t:"哪些样本应该被标记"},{h:"反例",t:"相似但不应标记的边界样本"}], pages:"87–90"},
-  {type:"process", title:"从问题标注到产品实验", items:["人工标注","问题聚类","方案设计","Prompt / 流程 A/B","Eval验证"], footer:"优化目标应对应具体失败类型，而不是笼统追求“更聪明”。", pages:"91–95"},
-  {type:"process", title:"版本回归测试", items:["原失败样本","同类高风险样本","代表性正常样本","历史关键 Bad Case"], footer:"新版本只有同时通过修复验证与防退化验证，才有资格进入灰度。", pages:"60–63、91–95"},
+  {type:"process", title:"数据反馈闭环的基本流程", items:["采集","清洗与标注","问题归因","产品优化","回归评测"], footer:"没有回归验证的“数据优化”，只是未经证明的修改。", pages:"76"},
   {type:"exercise", title:"课堂练习：完成一轮最小评测闭环", items:["设计8条用例：覆盖典型、边界、异常、无答案和高风险","选择6条运行并记录输出","找出2条 Bad Case，完成归因","修改一个版本点，再做1次版本对照"], footer:"产出：用例表＋评分结果＋Bad Case归因＋上线建议", pages:"102–112"},
   {type:"close", title:"评测结果与产品决策", items:["上线","灰度","退回优化","转人工兜底"], footer:"固定评测集 × 组合评分 × Bad Case × 版本回归 × 数据反馈闭环", pages:"60–63、72–101"},
 ];
@@ -151,11 +152,12 @@ function renderSlide(p, d, i) {
     addShape(slide,"rect",{left:74,top:300,width:100,height:5},C.orange);
     addText(slide,d.title,{left:72,top:348,width:1080,height:80},48,C.ink,true);
     addText(slide,d.sub,{left:74,top:455,width:940,height:45},24,C.muted,false);
-    addChrome(slide,i,d.no==="01"?"EVAL SYSTEM":"DATA LOOP");
+    const sectionLabel = d.no==="01" ? "EVAL SYSTEM" : d.no==="02" ? "BAD CASE" : "DATA LOOP";
+    addChrome(slide,i,sectionLabel);
     return slide;
   }
 
-  const sec = i<14?"WHY EVAL":i<51?"EVAL SYSTEM":"DATA LOOP";
+  const sec = i<14 ? "WHY EVAL" : i<55 ? "EVAL SYSTEM" : i<60 ? "BAD CASE" : "DATA LOOP";
   addChrome(slide,i,sec);
   titleBlock(slide,d.title,d.type === "statement" ? undefined : d.lead);
 

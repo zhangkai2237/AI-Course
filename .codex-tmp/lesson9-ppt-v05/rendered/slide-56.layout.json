@@ -2,13 +2,13 @@
   "schema": "openai.presentation.layout/v4",
   "unit": "px",
   "slide": {
-    "aid": "sl/aflqxa",
-    "id": "aflqxa",
+    "aid": "sl/oegyc4",
+    "id": "oegyc4",
     "slide": 56,
-    "layoutId": "29d6555e-bd02-4d03-a05c-947cb01e9ec9",
+    "layoutId": "57fca5a4-05d5-4db8-a3df-ebc8a744dfbf",
     "layoutName": "Title Slide",
     "layoutType": "title",
-    "masterLayoutId": "043ced70-1910-49ef-9342-09b88ba9635a",
+    "masterLayoutId": "53f9a8a4-1f84-473f-9124-d7d808b90eae",
     "masterLayoutName": "Master",
     "backgroundColor": "#07151F",
     "frame": {
@@ -45,15 +45,15 @@
   "inheritedLayers": [
     {
       "scope": "layout",
-      "id": "29d6555e-bd02-4d03-a05c-947cb01e9ec9",
+      "id": "57fca5a4-05d5-4db8-a3df-ebc8a744dfbf",
       "name": "Title Slide",
       "type": "title",
-      "parentLayoutId": "043ced70-1910-49ef-9342-09b88ba9635a",
+      "parentLayoutId": "53f9a8a4-1f84-473f-9124-d7d808b90eae",
       "elements": []
     },
     {
       "scope": "master",
-      "id": "043ced70-1910-49ef-9342-09b88ba9635a",
+      "id": "53f9a8a4-1f84-473f-9124-d7d808b90eae",
       "name": "Master",
       "type": "master",
       "elements": []
@@ -64,7 +64,7 @@
       "order": 1,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/ruxwryls",
+      "aid": "sh/7i90fy9w",
       "id": "1",
       "bbox": [
         0,
@@ -80,7 +80,7 @@
       "order": 2,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/sv6xk32d",
+      "aid": "sh/sj21o3qh",
       "id": "2",
       "bbox": [
         72,
@@ -143,7 +143,7 @@
       "order": 3,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/twfyt8jy",
+      "aid": "sh/tkbih8r2",
       "id": "3",
       "bbox": [
         74,
@@ -159,7 +159,7 @@
       "order": 4,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/ip4fetkb",
+      "aid": "sh/id0zit8f",
       "id": "4",
       "bbox": [
         72,
@@ -168,8 +168,8 @@
         80
       ],
       "geometry": "rect",
-      "text": "从评测结果到数据反馈闭环",
-      "textPreview": "从评测结果到数据反馈闭环",
+      "text": "Bad Case分析与版本回归",
+      "textPreview": "Bad Case分析与版本回归",
       "resolvedFontSize": 48,
       "resolvedTextStyle": {
         "fontSize": 48,
@@ -189,14 +189,14 @@
         "lines": [
           {
             "index": 1,
-            "text": "从评测结果到数据反馈闭环"
+            "text": "Bad Case分析与版本回归"
           }
         ]
       },
       "paragraphs": [
         {
           "index": 1,
-          "text": "从评测结果到数据反馈闭环",
+          "text": "Bad Case分析与版本回归",
           "resolvedTextStyle": {
             "fontSize": 48,
             "color": "#F5F2E9",
@@ -206,7 +206,7 @@
           "runs": [
             {
               "index": 1,
-              "text": "从评测结果到数据反馈闭环",
+              "text": "Bad Case分析与版本回归",
               "fontSize": 48,
               "color": "#F5F2E9",
               "bold": true,
@@ -222,7 +222,7 @@
       "order": 5,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/jqdwnylw",
+      "aid": "sh/je90by90",
       "id": "5",
       "bbox": [
         74,
@@ -231,8 +231,8 @@
         45
       ],
       "geometry": "rect",
-      "text": "让真实使用持续改进下一版",
-      "textPreview": "让真实使用持续改进下一版",
+      "text": "归因、修复、验证与发布",
+      "textPreview": "归因、修复、验证与发布",
       "resolvedFontSize": 24,
       "resolvedTextStyle": {
         "fontSize": 24,
@@ -251,14 +251,14 @@
         "lines": [
           {
             "index": 1,
-            "text": "让真实使用持续改进下一版"
+            "text": "归因、修复、验证与发布"
           }
         ]
       },
       "paragraphs": [
         {
           "index": 1,
-          "text": "让真实使用持续改进下一版",
+          "text": "归因、修复、验证与发布",
           "resolvedTextStyle": {
             "fontSize": 24,
             "color": "#A7B5BC",
@@ -267,7 +267,7 @@
           "runs": [
             {
               "index": 1,
-              "text": "让真实使用持续改进下一版",
+              "text": "归因、修复、验证与发布",
               "fontSize": 24,
               "color": "#A7B5BC",
               "alignment": "left"
@@ -282,7 +282,7 @@
       "order": 6,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/4r6xg321",
+      "aid": "sh/kfihk3ql",
       "id": "6",
       "bbox": [
         68,
@@ -291,8 +291,8 @@
         22
       ],
       "geometry": "rect",
-      "text": "AI PRODUCT · DATA LOOP",
-      "textPreview": "AI PRODUCT · DATA LOOP",
+      "text": "AI PRODUCT · BAD CASE",
+      "textPreview": "AI PRODUCT · BAD CASE",
       "resolvedFontSize": 13,
       "resolvedTextStyle": {
         "fontSize": 13,
@@ -312,14 +312,14 @@
         "lines": [
           {
             "index": 1,
-            "text": "AI PRODUCT · DATA LOOP"
+            "text": "AI PRODUCT · BAD CASE"
           }
         ]
       },
       "paragraphs": [
         {
           "index": 1,
-          "text": "AI PRODUCT · DATA LOOP",
+          "text": "AI PRODUCT · BAD CASE",
           "resolvedTextStyle": {
             "fontSize": 13,
             "color": "#36D6C2",
@@ -329,7 +329,7 @@
           "runs": [
             {
               "index": 1,
-              "text": "AI PRODUCT · DATA LOOP",
+              "text": "AI PRODUCT · BAD CASE",
               "fontSize": 13,
               "color": "#36D6C2",
               "bold": true,
@@ -345,7 +345,7 @@
       "order": 7,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/5sfep83m",
+      "aid": "sh/5gridorq",
       "id": "7",
       "bbox": [
         1170,
@@ -408,7 +408,7 @@
       "order": 8,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/u14fatkz",
+      "aid": "sh/29kjud8j",
       "id": "8",
       "bbox": [
         68,
@@ -424,12 +424,12 @@
       "order": 9,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/v2dwjelk",
+      "aid": "sh/3at0ni94",
       "id": "9",
       "bbox": [
         68,
         680,
-        915.2,
+        902.31,
         2
       ],
       "geometry": "rect",

@@ -1,0 +1,1594 @@
+{"kind":"deck","id":"pr/r7o008","name":"Deck"}
+{"kind":"layout","layoutId":"0346fb6a-dd2e-4bbe-ac72-3a799a92d5dc","name":"Master","type":"master"}
+{"kind":"layout","layoutId":"775aed99-3677-4a50-990a-59f1f3558bcc","name":"Title Slide","type":"title"}
+{"kind":"slide","id":"sl/lveztw","slide":1,"title":"AI PRODUCT MANAGER","textShapes":5}
+{"kind":"shape","id":"sh/2tkbadgn","slide":1,"bbox":[0,0,22,720]}
+{"kind":"textbox","id":"sh/pwval8ze","slide":1,"text":"AI PRODUCT MANAGER","textPreview":"AI PRODUCT MANAGER","textChars":18,"textLines":1,"bbox":[82,72,400,30]}
+{"kind":"textbox","id":"sh/4v2tc3yt","slide":1,"text":"AI产品评测与数据反馈","textPreview":"AI产品评测与数据反馈","textChars":11,"textLines":1,"bbox":[80,220,1060,90]}
+{"kind":"textbox","id":"sh/rydsnihk","slide":1,"text":"第09课｜核心结构版","textPreview":"第09课｜核心结构版","textChars":10,"textLines":1,"bbox":[84,348,700,42]}
+{"kind":"shape","id":"sh/qx4bedgz","slide":1,"bbox":[84,462,260,6]}
+{"kind":"textbox","id":"sh/dkvapsza","slide":1,"text":"EVAL · BAD CASE · REGRESSION · DATA LOOP","textPreview":"EVAL · BAD CASE · REGRESSION · DATA LOOP","textChars":40,"textLines":1,"bbox":[84,500,700,30]}
+{"kind":"textbox","id":"sh/czmtgnyp","slide":1,"text":"09","textPreview":"09","textChars":2,"textLines":1,"bbox":[1010,478,150,90]}
+{"kind":"notes","id":"nt/lveztw","slide":1,"text":"[Sources]\n- /Users/keivn/Project/AI-Course/课程生产/第一阶段/第09课_AI产品测试、指标与Bad Case_重做工作区/第9课 - AI产品评测与数据反馈.md\n- 内容依据：AI产品评测与数据反馈"}
+{"kind":"slide","id":"sl/gsr1la","slide":2,"title":"AI PRODUCT · OVERVIEW","textShapes":13}
+{"kind":"textbox","id":"sh/qlsza98f","slide":2,"text":"AI PRODUCT · OVERVIEW","textPreview":"AI PRODUCT · OVERVIEW","textChars":21,"textLines":1,"bbox":[70,27,360,22]}
+{"kind":"textbox","id":"sh/do3i54rq","slide":2,"text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[1160,27,48,22]}
+{"kind":"shape","id":"sh/cnuhcjq5","slide":2,"bbox":[70,683,1140,2]}
+{"kind":"shape","id":"sh/3y10zu9o","slide":2,"bbox":[70,683,34.03,2]}
+{"kind":"textbox","id":"sh/2xsz6p83","slide":2,"text":"第9课课程结构","textPreview":"第9课课程结构","textChars":7,"textLines":1,"bbox":[70,72,1130,58]}
+{"kind":"shape","id":"sh/pkji14ru","slide":2,"bbox":[70,148,160,4]}
+{"kind":"shape","id":"sh/4zah8zq9","slide":2,"bbox":[286.8,350,15,0]}
+{"kind":"shape","id":"sh/nu50by9s","slide":2,"bbox":[515.6,350,15,0]}
+{"kind":"shape","id":"sh/mtcjit87","slide":2,"bbox":[744.4,350,15,0]}
+{"kind":"shape","id":"sh/0vqhcjul","slide":2,"bbox":[973.2,350,15,0]}
+{"kind":"shape","id":"sh/lwzi5ob6","slide":2,"bbox":[78,292,208.8,116]}
+{"kind":"textbox","id":"sh/ytoza9cv","slide":2,"text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[92,304,34,24]}
+{"kind":"textbox","id":"sh/zuhg3etg","slide":2,"text":"定义什么叫好","textPreview":"定义什么叫好","textChars":6,"textLines":1,"bbox":[93,336,178.8,52]}
+{"kind":"shape","id":"sh/cr6h8jup","slide":2,"bbox":[306.8,292,208.8,116]}
+{"kind":"textbox","id":"sh/dsfy1oba","slide":2,"text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[320.8,304,34,24]}
+{"kind":"textbox","id":"sh/q5oz69cj","slide":2,"text":"构造评测集","textPreview":"构造评测集","textChars":5,"textLines":1,"bbox":[321.8,336,178.8,52]}
+{"kind":"shape","id":"sh/b6xgzet4","slide":2,"bbox":[535.6,292,208.8,116]}
+{"kind":"textbox","id":"sh/o36h4zud","slide":2,"text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[549.6,304,34,24]}
+{"kind":"textbox","id":"sh/p4fyx4by","slide":2,"text":"组合评分方法","textPreview":"组合评分方法","textChars":6,"textLines":1,"bbox":[550.6,336,178.8,52]}
+{"kind":"shape","id":"sh/5k7e1032","slide":2,"bbox":[764.4,292,208.8,116]}
+{"kind":"textbox","id":"sh/4zyx8vmh","slide":2,"text":"04","textPreview":"04","textChars":2,"textLines":1,"bbox":[778.4,304,34,24]}
+{"kind":"textbox","id":"sh/3y5wzqlw","slide":2,"text":"定位并验证问题","textPreview":"定位并验证问题","textChars":7,"textLines":1,"bbox":[779.4,336,178.8,52]}
+{"kind":"shape","id":"sh/ixwf6l4b","slide":2,"bbox":[993.2,292,208.8,116]}
+{"kind":"textbox","id":"sh/hwnexg3q","slide":2,"text":"05","textPreview":"05","textChars":2,"textLines":1,"bbox":[1007.2,304,34,24]}
+{"kind":"textbox","id":"sh/gvex4bm5","slide":2,"text":"让反馈回到产品","textPreview":"让反馈回到产品","textChars":7,"textLines":1,"bbox":[1008.2,336,178.8,52]}
+{"kind":"notes","id":"nt/gsr1la","slide":2,"text":"[Sources]\n- /Users/keivn/Project/AI-Course/课程生产/第一阶段/第09课_AI产品测试、指标与Bad Case_重做工作区/第9课 - AI产品评测与数据反馈.md\n- 内容依据：第9课课程结构"}
+{"kind":"slide","id":"sl/h0z78l","slide":3,"title":"AI PRODUCT · OVERVIEW","textShapes":9}
+{"kind":"textbox","id":"sh/fal07qpg","slide":3,"text":"AI PRODUCT · OVERVIEW","textPreview":"AI PRODUCT · OVERVIEW","textChars":21,"textLines":1,"bbox":[70,27,360,22]}
+{"kind":"textbox","id":"sh/gbeh0v61","slide":3,"text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[1160,27,48,22]}
+{"kind":"shape","id":"sh/1cni907m","slide":3,"bbox":[70,683,1140,2]}
+{"kind":"shape","id":"sh/2dwz25o7","slide":3,"bbox":[70,683,51.04,2]}
+{"kind":"textbox","id":"sh/3y50baps","slide":3,"text":"学习目标","textPreview":"学习目标","textChars":4,"textLines":1,"bbox":[70,72,1130,58]}
+{"kind":"shape","id":"sh/oze14f6d","slide":3,"bbox":[70,148,160,4]}
+{"kind":"shape","id":"sh/p0nid07i","slide":3,"bbox":[76,210,361.33,180]}
+{"kind":"textbox","id":"sh/ihszq1o3","slide":3,"text":"会定义","textPreview":"会定义","textChars":3,"textLines":1,"bbox":[98,230,317.33,34]}
+{"kind":"textbox","id":"sh/j210z6p8","slide":3,"text":"把抽象的“好”变成可判断的指标和门槛。","textPreview":"把抽象的“好”变成可判断的指标和门槛。","textChars":19,"textLines":1,"bbox":[98,271,317.33,104]}
+{"kind":"shape","id":"sh/zqlov294","slide":3,"bbox":[459.33,210,361.33,180]}
+{"kind":"textbox","id":"sh/epc72hsj","slide":3,"text":"会评测","textPreview":"会评测","textChars":3,"textLines":1,"bbox":[481.33,230,317.33,34]}
+{"kind":"textbox","id":"sh/1s3qxcra","slide":3,"text":"针对不同内容选择规则、相似度、Judge与人工。","textPreview":"针对不同内容选择规则、相似度、Judge与人工。","textChars":24,"textLines":1,"bbox":[481.33,271,317.33,104]}
+{"kind":"shape","id":"sh/0rup47ap","slide":3,"bbox":[842.67,210,361.33,180]}
+{"kind":"textbox","id":"sh/r21or2ts","slide":3,"text":"会迭代","textPreview":"会迭代","textChars":3,"textLines":1,"bbox":[864.67,230,317.33,34]}
+{"kind":"textbox","id":"sh/q1s7yxsn","slide":3,"text":"把Bad Case、回归和反馈连接成持续改进。","textPreview":"把Bad Case、回归和反馈连接成持续改进。","textChars":23,"textLines":1,"bbox":[864.67,271,317.33,104]}
+{"kind":"notes","id":"nt/h0z78l","slide":3,"text":"[Sources]\n- /Users/keivn/Project/AI-Course/课程生产/第一阶段/第09课_AI产品测试、指标与Bad Case_重做工作区/第9课 - AI产品评测与数据反馈.md\n- 内容依据：学习目标"}
+{"kind":"slide","id":"sl/251nag","slide":4,"title":"AI PRODUCT · PREPARE","textShapes":4}
+{"kind":"textbox","id":"sh/wbyl8jmx","slide":4,"text":"AI PRODUCT · PREPARE","textPreview":"AI PRODUCT · PREPARE","textChars":20,"textLines":1,"bbox":[70,27,360,22]}
+{"kind":"textbox","id":"sh/vapkfe5c","slide":4,"text":"04","textPreview":"04","textChars":2,"textLines":1,"bbox":[1160,27,48,22]}
+{"kind":"shape","id":"sh/a9g3694r","slide":4,"bbox":[70,683,1140,2]}
+{"kind":"shape","id":"sh/9872d4n6","slide":4,"bbox":[70,683,68.06,2]}
+{"kind":"textbox","id":"sh/87el4zm1","slide":4,"text":"01 评测准备","textPreview":"01 评测准备","textChars":7,"textLines":1,"bbox":[80,182,1080,88]}
+{"kind":"shape","id":"sh/n65kbe5g","slide":4,"bbox":[80,300,120,6]}
+{"kind":"textbox","id":"sh/m5wj294v","slide":4,"text":"为什么评、评什么、用什么题评","textPreview":"为什么评、评什么、用什么题评","textChars":14,"textLines":1,"bbox":[84,345,980,50]}
+{"kind":"notes","id":"nt/251nag","slide":4,"text":"[Sources]\n- /Users/keivn/Project/AI-Course/课程生产/第一阶段/第09课_AI产品测试、指标与Bad Case_重做工作区/第9课 - AI产品评测与数据反馈.md\n- 内容依据：01 评测准备"}
+{"kind":"slide","id":"sl/64776f","slide":5,"title":"AI PRODUCT · PREPARE","textShapes":17}
+{"kind":"textbox","id":"sh/i5sny5gn","slide":5,"text":"AI PRODUCT · PREPARE","textPreview":"AI PRODUCT · PREPARE","textChars":20,"textLines":1,"bbox":[70,27,360,22]}
+{"kind":"textbox","id":"sh/5sj69kfy","slide":5,"text":"05","textPreview":"05","textChars":2,"textLines":1,"bbox":[1160,27,48,22]}
+{"kind":"shape","id":"sh/kra50fyt","slide":5,"bbox":[70,683,1140,2]}
+{"kind":"shape","id":"sh/v2ho3qxw","slide":5,"bbox":[70,683,85.07,2]}
+{"kind":"textbox","id":"sh/a18nulgb","slide":5,"text":"AI测试与传统软件测试","textPreview":"AI测试与传统软件测试","textChars":11,"textLines":1,"bbox":[70,72,1130,58]}
+{"kind":"shape","id":"sh/x4j650f2","slide":5,"bbox":[70,148,160,4]}
+{"kind":"shape","id":"sh/w3q5wvyh","slide":5,"bbox":[76,212,530,380]}
+{"kind":"textbox","id":"sh/fylofuxg","slide":5,"text":"传统软件","textPreview":"传统软件","textChars":4,"textLines":1,"bbox":[104,236,474,40]}
+{"kind":"textbox","id":"sh/exc76pgv","slide":5,"text":"—","textPreview":"—","textChars":1,"textLines":1,"bbox":[101,304,38,30]}
+{"kind":"textbox","id":"sh/436dwved","slide":5,"text":"输入相对确定","textPreview":"输入相对确定","textChars":6,"textLines":1,"bbox":[153,303,428,38]}
+{"kind":"textbox","id":"sh/54fup0vy","slide":5,"text":"—","textPreview":"—","textChars":1,"textLines":1,"bbox":[101,356,38,30]}
+{"kind":"textbox","id":"sh/i1ovulw7","slide":5,"text":"输出可以精确断言","textPreview":"输出可以精确断言","textChars":8,"textLines":1,"bbox":[153,355,428,38]}
+{"kind":"textbox","id":"sh/32xcnqds","slide":5,"text":"—","textPreview":"—","textChars":1,"textLines":1,"bbox":[101,408,38,30]}
+{"kind":"textbox","id":"sh/gzmdsveh","slide":5,"text":"Bug通常定位到代码","textPreview":"Bug通常定位到代码","textChars":10,"textLines":1,"bbox":[153,407,428,38]}
+{"kind":"shape","id":"sh/h0vul0vm","slide":5,"bbox":[674,212,530,380]}
+{"kind":"textbox","id":"sh/ux4bqlwb","slide":5,"text":"AI产品","textPreview":"AI产品","textChars":4,"textLines":1,"bbox":[702,236,474,40]}
+{"kind":"textbox","id":"sh/vydcjqdw","slide":5,"text":"—","textPreview":"—","textChars":1,"textLines":1,"bbox":[699,304,38,30]}
+{"kind":"textbox","id":"sh/8bmtobe5","slide":5,"text":"同一意图有多种表达","textPreview":"同一意图有多种表达","textChars":9,"textLines":1,"bbox":[751,303,428,38]}
+{"kind":"textbox","id":"sh/tcvuhgvq","slide":5,"text":"—","textPreview":"—","textChars":1,"textLines":1,"bbox":[699,356,38,30]}
+{"kind":"textbox","id":"sh/9snalc7e","slide":5,"text":"同一问题可能多次输出不同答案","textPreview":"同一问题可能多次输出不同答案","textChars":14,"textLines":1,"bbox":[751,355,428,38]}
+{"kind":"textbox","id":"sh/8re9s76t","slide":5,"text":"—","textPreview":"—","textChars":1,"textLines":1,"bbox":[699,408,38,30]}
+{"kind":"textbox","id":"sh/nq5sj2po","slide":5,"text":"错误可能来自数据、知识、流程或边界","textPreview":"错误可能来自数据、知识、流程或边界","textChars":17,"textLines":1,"bbox":[751,407,428,38]}
+{"kind":"notes","id":"nt/64776f","slide":5,"text":"[Sources]\n- /Users/keivn/Project/AI-Course/课程生产/第一阶段/第09课_AI产品测试、指标与Bad Case_重做工作区/第9课 - AI产品评测与数据反馈.md\n- 内容依据：AI测试与传统软件测试"}
+{"kind":"slide","id":"sl/5j00tg","slide":6,"title":"AI PRODUCT · PREPARE","textShapes":9}
+{"kind":"textbox","id":"sh/cbapk7u5","slide":6,"text":"AI PRODUCT · PREPARE","textPreview":"AI PRODUCT · PREPARE","textChars":20,"textLines":1,"bbox":[70,27,360,22]}
+{"kind":"textbox","id":"sh/ra1or2tk","slide":6,"text":"06","textPreview":"06","textChars":2,"textLines":1,"bbox":[1160,27,48,22]}
+{"kind":"shape","id":"sh/q9s7ixcf","slide":6,"bbox":[70,683,1140,2]}
+{"kind":"shape","id":"sh/p8j6pcbu","slide":6,"bbox":[70,683,102.09,2]}
+{"kind":"textbox","id":"sh/47apg7u9","slide":6,"text":"AI评测的三个核心难点","textPreview":"AI评测的三个核心难点","textChars":11,"textLines":1,"bbox":[70,72,1130,58]}
+{"kind":"shape","id":"sh/3m1on2to","slide":6,"bbox":[70,148,160,4]}
+{"kind":"shape","id":"sh/2l87exc3","slide":6,"bbox":[76,210,361.33,180]}
+{"kind":"textbox","id":"sh/hkz6lsbi","slide":6,"text":"输入不确定","textPreview":"输入不确定","textChars":5,"textLines":1,"bbox":[98,230,317.33,34]}
+{"kind":"textbox","id":"sh/gjqpcnux","slide":6,"text":"用户表达、上下文与身份持续变化。","textPreview":"用户表达、上下文与身份持续变化。","textChars":16,"textLines":1,"bbox":[98,271,317.33,104]}
+{"kind":"shape","id":"sh/y5cn654f","slide":6,"bbox":[459.33,210,361.33,180]}
+{"kind":"textbox","id":"sh/z6l4za50","slide":6,"text":"输出不确定","textPreview":"输出不确定","textChars":5,"textLines":1,"bbox":[481.33,230,317.33,34]}
+{"kind":"textbox","id":"sh/k7e58vm5","slide":6,"text":"答案不是固定字符串，正确表达可能很多。","textPreview":"答案不是固定字符串，正确表达可能很多。","textChars":19,"textLines":1,"bbox":[481.33,271,317.33,104]}
+{"kind":"shape","id":"sh/lsn610nq","slide":6,"bbox":[842.67,210,361.33,180]}
+{"kind":"textbox","id":"sh/a1cn2l43","slide":6,"text":"原因不确定","textPreview":"原因不确定","textChars":5,"textLines":1,"bbox":[864.67,230,317.33,34]}
+{"kind":"textbox","id":"sh/b2l4vq5o","slide":6,"text":"“答错”只是现象，根因可能在整条链路。","textPreview":"“答错”只是现象，根因可能在整条链路。","textChars":19,"textLines":1,"bbox":[864.67,271,317.33,104]}
+{"kind":"notes","id":"nt/5j00tg","slide":6,"text":"[Sources]\n- /Users/keivn/Project/AI-Course/课程生产/第一阶段/第09课_AI产品测试、指标与Bad Case_重做工作区/第9课 - AI产品评测与数据反馈.md\n- 内容依据：AI评测的三个核心难点"}
+{"kind":"slide","id":"sl/0x7le9","slide":7,"title":"AI PRODUCT · PREPARE","textShapes":15}
+{"kind":"textbox","id":"sh/twnqlcfu","slide":7,"text":"AI PRODUCT · PREPARE","textPreview":"AI PRODUCT · PREPARE","textChars":20,"textLines":1,"bbox":[70,27,360,22]}
+{"kind":"textbox","id":"sh/6tw7qxwj","slide":7,"text":"07","textPreview":"07","textChars":2,"textLines":1,"bbox":[1160,27,48,22]}
+{"kind":"shape","id":"sh/7u58j2x4","slide":7,"bbox":[70,683,1140,2]}
+{"kind":"shape","id":"sh/k7upo7ed","slide":7,"bbox":[70,683,119.1,2]}
+{"kind":"textbox","id":"sh/lsnqhsfy","slide":7,"text":"AI产品问题的链路","textPreview":"AI产品问题的链路","textChars":9,"textLines":1,"bbox":[70,72,1130,58]}
+{"kind":"shape","id":"sh/y5c7mxw7","slide":7,"bbox":[70,148,160,4]}
+{"kind":"shape","id":"sh/j6l8f2xs","slide":7,"bbox":[248.67,358,15,0]}
+{"kind":"shape","id":"sh/w3upkneh","slide":7,"bbox":[439.33,358,15,0]}
+{"kind":"shape","id":"sh/x43qdsfm","slide":7,"bbox":[630,358,15,0]}
+{"kind":"shape","id":"sh/xczal8re","slide":7,"bbox":[820.67,358,15,0]}
+{"kind":"shape","id":"sh/wbq9c3qt","slide":7,"bbox":[1011.33,358,15,0]}
+{"kind":"shape","id":"sh/bahsjy98","slide":7,"bbox":[78,300,170.67,116]}
+{"kind":"textbox","id":"sh/a98rat8n","slide":7,"text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[92,312,34,24]}
+{"kind":"textbox","id":"sh/98fahor2","slide":7,"text":"用户输入","textPreview":"用户输入","textChars":4,"textLines":1,"bbox":[93,344,140.67,52]}
+{"kind":"shape","id":"sh/o7698jqh","slide":7,"bbox":[268.67,300,170.67,116]}
+{"kind":"textbox","id":"sh/n6xsfe9w","slide":7,"text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[282.67,312,34,24]}
+{"kind":"textbox","id":"sh/mlor69sb","slide":7,"text":"意图理解","textPreview":"意图理解","textChars":4,"textLines":1,"bbox":[283.67,344,140.67,52]}
+{"kind":"shape","id":"sh/1kfqdor6","slide":7,"bbox":[459.33,300,170.67,116]}
+{"kind":"textbox","id":"sh/0j694jal","slide":7,"text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[473.33,312,34,24]}
+{"kind":"textbox","id":"sh/cza1g3md","slide":7,"text":"知识检索","textPreview":"知识检索","textChars":4,"textLines":1,"bbox":[474.33,344,140.67,52]}
+{"kind":"shape","id":"sh/d03i983y","slide":7,"bbox":[650,300,170.67,116]}
+{"kind":"textbox","id":"sh/qxsjed4n","slide":7,"text":"04","textPreview":"04","textChars":2,"textLines":1,"bbox":[664,312,34,24]}
+{"kind":"textbox","id":"sh/ry107il8","slide":7,"text":"流程/工具","textPreview":"流程/工具","textChars":5,"textLines":1,"bbox":[665,344,140.67,52]}
+{"kind":"shape","id":"sh/4ba1c3mh","slide":7,"bbox":[840.67,300,170.67,116]}
+{"kind":"textbox","id":"sh/pcji5832","slide":7,"text":"05","textPreview":"05","textChars":2,"textLines":1,"bbox":[854.67,312,34,24]}
+{"kind":"textbox","id":"sh/29sjat4b","slide":7,"text":"模型生成","textPreview":"模型生成","textChars":4,"textLines":1,"bbox":[855.67,344,140.67,52]}
+{"kind":"shape","id":"sh/3a103ylw","slide":7,"bbox":[1031.33,300,170.67,116]}
+{"kind":"textbox","id":"sh/o7u1on2l","slide":7,"text":"06","textPreview":"06","textChars":2,"textLines":1,"bbox":[1045.33,312,34,24]}
+{"kind":"textbox","id":"sh/98n2hs36","slide":7,"text":"输出校验","textPreview":"输出校验","textChars":4,"textLines":1,"bbox":[1046.33,344,140.67,52]}
+{"kind":"notes","id":"nt/0x7le9","slide":7,"text":"[Sources]\n- /Users/keivn/Project/AI-Course/课程生产/第一阶段/第09课_AI产品测试、指标与Bad Case_重做工作区/第9课 - AI产品评测与数据反馈.md\n- 内容依据：AI产品问题的链路"}
+{"kind":"slide","id":"sl/sokx0x","slide":8,"title":"AI PRODUCT · PREPARE","textShapes":10}
+{"kind":"textbox","id":"sh/pwzmxk3q","slide":8,"text":"AI PRODUCT · PREPARE","textPreview":"AI PRODUCT · PREPARE","textChars":20,"textLines":1,"bbox":[70,27,360,22]}
+{"kind":"textbox","id":"sh/2t83m54f","slide":8,"text":"08","textPreview":"08","textChars":2,"textLines":1,"bbox":[1160,27,48,22]}
+{"kind":"shape","id":"sh/3uh4val0","slide":8,"bbox":[70,683,1140,2]}
+{"kind":"shape","id":"sh/gr6lkfm9","slide":8,"bbox":[70,683,136.12,2]}
+{"kind":"textbox","id":"sh/hszmtk3u","slide":8,"text":"上线前评测的作用","textPreview":"上线前评测的作用","textChars":8,"textLines":1,"bbox":[70,72,1130,58]}
+{"kind":"shape","id":"sh/upo3i543","slide":8,"bbox":[70,148,160,4]}
+{"kind":"textbox","id":"sh/fqx4ralo","slide":8,"text":"—","textPreview":"—","textChars":1,"textLines":1,"bbox":[92,207,38,30]}
+{"kind":"textbox","id":"sh/0nalwzmd","slide":8,"text":"上线后的用户反馈只会暴露已经造成影响的问题。","textPreview":"上线后的用户反馈只会暴露已经造成影响的问题。","textChars":22,"textLines":1,"bbox":[144,206,1018,38]}
+{"kind":"textbox","id":"sh/lojm543y","slide":8,"text":"—","textPreview":"—","textChars":1,"textLines":1,"bbox":[92,261,38,30]}
+{"kind":"textbox","id":"sh/1wnq98rm","slide":8,"text":"高风险错误可能低频，但一次就足以阻止发布。","textPreview":"高风险错误可能低频，但一次就足以阻止发布。","textChars":21,"textLines":1,"bbox":[144,260,1018,38]}
+{"kind":"textbox","id":"sh/gvepg3a1","slide":8,"text":"—","textPreview":"—","textChars":1,"textLines":1,"bbox":[92,315,38,30]}
+{"kind":"textbox","id":"sh/fu587y9g","slide":8,"text":"评测的目的，是在真实用户遇到问题之前主动发现它。","textPreview":"评测的目的，是在真实用户遇到问题之前主动发现它。","textChars":24,"textLines":1,"bbox":[144,314,1018,38]}
+{"kind":"shape","id":"sh/etw7etsb","slide":8,"bbox":[86,486,1108,86]}
+{"kind":"shape","id":"sh/ts365orq","slide":8,"bbox":[86,486,8,86]}
+{"kind":"textbox","id":"sh/srupc3a5","slide":8,"text":"先定义风险，再决定能不能上线。","textPreview":"先定义风险，再决定能不能上线。","textChars":15,"textLines":1,"bbox":[122,507,1030,46]}
+{"kind":"notes","id":"nt/sokx0x","slide":8,"text":"[Sources]\n- /Users/keivn/Project/AI-Course/课程生产/第一阶段/第09课_AI产品测试、指标与Bad Case_重做工作区/第9课 - AI产品评测与数据反馈.md\n- 内容依据：上线前评测的作用"}
+{"kind":"slide","id":"sl/ns3pbr","slide":9,"title":"AI PRODUCT · PREPARE","textShapes":15}
+{"kind":"textbox","id":"sh/uxgvu9kz","slide":9,"text":"AI PRODUCT · PREPARE","textPreview":"AI PRODUCT · PREPARE","textChars":20,"textLines":1,"bbox":[70,27,360,22]}
+{"kind":"textbox","id":"sh/h0re543q","slide":9,"text":"09","textPreview":"09","textChars":2,"textLines":1,"bbox":[1160,27,48,22]}
+{"kind":"shape","id":"sh/gzydwz25","slide":9,"bbox":[70,683,1140,2]}
+{"kind":"shape","id":"sh/7upwzulo","slide":9,"bbox":[70,683,153.13,2]}
+{"kind":"textbox","id":"sh/6tgvqpk3","slide":9,"text":"回答质量的六个维度","textPreview":"回答质量的六个维度","textChars":9,"textLines":1,"bbox":[70,72,1130,58]}
+{"kind":"shape","id":"sh/tw7e143e","slide":9,"bbox":[70,148,160,4]}
+{"kind":"shape","id":"sh/svydsz29","slide":9,"bbox":[76,210,361.33,148]}
+{"kind":"textbox","id":"sh/j65cvulc","slide":9,"text":"正确性","textPreview":"正确性","textChars":3,"textLines":1,"bbox":[98,230,317.33,34]}
+{"kind":"textbox","id":"sh/i5wvmpkr","slide":9,"text":"核心事实是否正确","textPreview":"核心事实是否正确","textChars":8,"textLines":1,"bbox":[98,271,317.33,72]}
+{"kind":"shape","id":"sh/sbyd47ut","slide":9,"bbox":[459.33,210,361.33,148]}
+{"kind":"textbox","id":"sh/tc7uxcve","slide":9,"text":"相关性","textPreview":"相关性","textChars":3,"textLines":1,"bbox":[481.33,230,317.33,34]}
+{"kind":"textbox","id":"sh/6pgv2xwn","slide":9,"text":"是否回答用户问题","textPreview":"是否回答用户问题","textChars":8,"textLines":1,"bbox":[481.33,271,317.33,72]}
+{"kind":"shape","id":"sh/rqpcv2d8","slide":9,"bbox":[842.67,210,361.33,148]}
+{"kind":"textbox","id":"sh/4ned0nex","slide":9,"text":"完整性","textPreview":"完整性","textChars":3,"textLines":1,"bbox":[864.67,230,317.33,34]}
+{"kind":"textbox","id":"sh/5o7utsvi","slide":9,"text":"关键条件是否覆盖","textPreview":"关键条件是否覆盖","textChars":8,"textLines":1,"bbox":[864.67,271,317.33,72]}
+{"kind":"shape","id":"sh/ilwvydwr","slide":9,"bbox":[76,380,361.33,148]}
+{"kind":"textbox","id":"sh/jm5cridc","slide":9,"text":"忠实性","textPreview":"忠实性","textChars":3,"textLines":1,"bbox":[98,400,317.33,34]}
+{"kind":"textbox","id":"sh/ojidcru1","slide":9,"text":"是否有资料依据","textPreview":"是否有资料依据","textChars":7,"textLines":1,"bbox":[98,441,317.33,72]}
+{"kind":"shape","id":"sh/pkre5wvm","slide":9,"bbox":[459.33,380,361.33,148]}
+{"kind":"textbox","id":"sh/x0nupcnq","slide":9,"text":"安全合规","textPreview":"安全合规","textChars":4,"textLines":1,"bbox":[481.33,400,317.33,34]}
+{"kind":"textbox","id":"sh/czedw7m5","slide":9,"text":"是否触碰红线","textPreview":"是否触碰红线","textChars":6,"textLines":1,"bbox":[481.33,441,317.33,72]}
+{"kind":"shape","id":"sh/by5cnm5k","slide":9,"bbox":[842.67,380,361.33,148]}
+{"kind":"textbox","id":"sh/axwvuh4z","slide":9,"text":"表达质量","textPreview":"表达质量","textChars":4,"textLines":1,"bbox":[864.67,400,317.33,34]}
+{"kind":"textbox","id":"sh/pwnulcnu","slide":9,"text":"是否清晰、可读、适配场景","textPreview":"是否清晰、可读、适配场景","textChars":12,"textLines":1,"bbox":[864.67,441,317.33,72]}
+{"kind":"notes","id":"nt/ns3pbr","slide":9,"text":"[Sources]\n- /Users/keivn/Project/AI-Course/课程生产/第一阶段/第09课_AI产品测试、指标与Bad Case_重做工作区/第9课 - AI产品评测与数据反馈.md\n- 内容依据：回答质量的六个维度"}
+{"kind":"slide","id":"sl/v61nk4","slide":10,"title":"AI PRODUCT · PREPARE","textShapes":16}
+{"kind":"textbox","id":"sh/6t43ydgf","slide":10,"text":"AI PRODUCT · PREPARE","textPreview":"AI PRODUCT · PREPARE","textChars":20,"textLines":1,"bbox":[70,27,360,22]}
+{"kind":"textbox","id":"sh/tgv2t8f6","slide":10,"text":"10","textPreview":"10","textChars":2,"textLines":1,"bbox":[1160,27,48,22]}
+{"kind":"shape","id":"sh/8fml03yl","slide":10,"bbox":[70,683,1140,2]}
+{"kind":"shape","id":"sh/jqdknyxo","slide":10,"bbox":[70,683,170.15,2]}
+{"kind":"textbox","id":"sh/ypk3utgj","slide":10,"text":"住宿报销回答怎么评分","textPreview":"住宿报销回答怎么评分","textChars":10,"textLines":1,"bbox":[70,72,1130,58]}
+{"kind":"shape","id":"sh/lsv2p8fu","slide":10,"bbox":[70,148,160,4]}
+{"kind":"textbox","id":"sh/krmlw3y9","slide":10,"text":"案例拆解","textPreview":"案例拆解","textChars":4,"textLines":1,"bbox":[250,136,930,28]}
+{"kind":"textbox","id":"sh/bmtkjexs","slide":10,"text":"用户问题","textPreview":"用户问题","textChars":4,"textLines":1,"bbox":[82,194,180,30]}
+{"kind":"shape","id":"sh/alk3qtg7","slide":10,"bbox":[86,226,1108,86]}
+{"kind":"shape","id":"sh/kbulof69","slide":10,"bbox":[86,226,8,86]}
+{"kind":"textbox","id":"sh/lc32h07e","slide":10,"text":"普通员工去北京出差，住宿上限是多少？","textPreview":"普通员工去北京出差，住宿上限是多少？","textChars":18,"textLines":1,"bbox":[122,247,1030,46]}
+{"kind":"textbox","id":"sh/ypc3m5o3","slide":10,"text":"AI回答","textPreview":"AI回答","textChars":4,"textLines":1,"bbox":[82,330,180,30]}
+{"kind":"shape","id":"sh/jalkfapo","slide":10,"bbox":[86,362,1108,86]}
+{"kind":"shape","id":"sh/cna1kv6x","slide":10,"bbox":[86,362,8,86]}
+{"kind":"textbox","id":"sh/xo32d07i","slide":10,"text":"北京住宿费最高为500元/晚。","textPreview":"北京住宿费最高为500元/晚。","textChars":15,"textLines":1,"bbox":[122,383,1030,46]}
+{"kind":"shape","id":"sh/alsjil8r","slide":10,"bbox":[76,474,265.5,116]}
+{"kind":"textbox","id":"sh/bm1kbqpc","slide":10,"text":"正确性","textPreview":"正确性","textChars":3,"textLines":1,"bbox":[98,494,221.5,34]}
+{"kind":"textbox","id":"sh/gjelwz61","slide":10,"text":"金额正确","textPreview":"金额正确","textChars":4,"textLines":1,"bbox":[98,535,221.5,40]}
+{"kind":"shape","id":"sh/hkn2pk7m","slide":10,"bbox":[363.5,474,265.5,116]}
+{"kind":"textbox","id":"sh/p0j29kzq","slide":10,"text":"完整性","textPreview":"完整性","textChars":3,"textLines":1,"bbox":[385.5,494,221.5,34]}
+{"kind":"textbox","id":"sh/4zalgfyl","slide":10,"text":"需说明适用职级","textPreview":"需说明适用职级","textChars":7,"textLines":1,"bbox":[385.5,535,221.5,40]}
+{"kind":"shape","id":"sh/3y1k7ah0","slide":10,"bbox":[651,474,265.5,116]}
+{"kind":"textbox","id":"sh/2xsjepgf","slide":10,"text":"忠实性","textPreview":"忠实性","textChars":3,"textLines":1,"bbox":[673,494,221.5,34]}
+{"kind":"textbox","id":"sh/hwj25kzu","slide":10,"text":"需引用现行制度","textPreview":"需引用现行制度","textChars":7,"textLines":1,"bbox":[673,535,221.5,40]}
+{"kind":"shape","id":"sh/gva1cfy9","slide":10,"bbox":[938.5,474,265.5,116]}
+{"kind":"textbox","id":"sh/fahk3aho","slide":10,"text":"安全性","textPreview":"安全性","textChars":3,"textLines":1,"bbox":[960.5,494,221.5,34]}
+{"kind":"textbox","id":"sh/u98ja5g3","slide":10,"text":"无风险","textPreview":"无风险","textChars":3,"textLines":1,"bbox":[960.5,535,221.5,40]}
+{"kind":"notes","id":"nt/v61nk4","slide":10,"text":"[Sources]\n- /Users/keivn/Project/AI-Course/课程生产/第一阶段/第09课_AI产品测试、指标与Bad Case_重做工作区/第9课 - AI产品评测与数据反馈.md\n- 内容依据：住宿报销回答怎么评分"}
+{"kind":"slide","id":"sl/8msjws","slide":11,"title":"AI PRODUCT · PREPARE","textShapes":18}
+{"kind":"textbox","id":"sh/y98fy5oj","slide":11,"text":"AI PRODUCT · PREPARE","textPreview":"AI PRODUCT · PREPARE","textChars":20,"textLines":1,"bbox":[70,27,360,22]}
+{"kind":"textbox","id":"sh/lwjet0na","slide":11,"text":"11","textPreview":"11","textChars":2,"textLines":1,"bbox":[1160,27,48,22]}
+{"kind":"shape","id":"sh/0vqx0f6p","slide":11,"bbox":[70,683,1140,2]}
+{"kind":"shape","id":"sh/b6hwnqp8","slide":11,"bbox":[70,683,187.16,2]}
+{"kind":"textbox","id":"sh/q58fulon","slide":11,"text":"不同产品的评测标准","textPreview":"不同产品的评测标准","textChars":9,"textLines":1,"bbox":[70,72,1130,58]}
+{"kind":"shape","id":"sh/d8zep07y","slide":11,"bbox":[70,148,160,4]}
+{"kind":"shape","id":"sh/c7qxwv6t","slide":11,"bbox":[70,205,260,54]}
+{"kind":"textbox","id":"sh/32xwjqpw","slide":11,"text":"产品","textPreview":"产品","textChars":2,"textLines":1,"bbox":[80,219,240,28]}
+{"kind":"shape","id":"sh/21ovqlob","slide":11,"bbox":[330,205,440,54]}
+{"kind":"textbox","id":"sh/onyx8j2d","slide":11,"text":"最重要的质量","textPreview":"最重要的质量","textChars":6,"textLines":1,"bbox":[340,219,420,28]}
+{"kind":"shape","id":"sh/9ore143y","slide":11,"bbox":[770,205,440,54]}
+{"kind":"textbox","id":"sh/mlgf69k7","slide":11,"text":"典型红线","textPreview":"典型红线","textChars":4,"textLines":1,"bbox":[780,219,420,28]}
+{"kind":"shape","id":"sh/nmpwzels","slide":11,"bbox":[70,259,260,58]}
+{"kind":"textbox","id":"sh/0jyx4z2h","slide":11,"text":"知识助手","textPreview":"知识助手","textChars":4,"textLines":1,"bbox":[82,273,236,34]}
+{"kind":"shape","id":"sh/1k7ex432","slide":11,"bbox":[330,259,440,58]}
+{"kind":"textbox","id":"sh/ehgf2pkb","slide":11,"text":"正确、忠实、可追溯","textPreview":"正确、忠实、可追溯","textChars":9,"textLines":1,"bbox":[342,273,416,34]}
+{"kind":"shape","id":"sh/zipwvulw","slide":11,"bbox":[770,259,440,58]}
+{"kind":"textbox","id":"sh/kf2xg32l","slide":11,"text":"编造制度或泄露权限外信息","textPreview":"编造制度或泄露权限外信息","textChars":12,"textLines":1,"bbox":[782,273,416,34]}
+{"kind":"shape","id":"sh/5gby9oj6","slide":11,"bbox":[70,317,260,58]}
+{"kind":"textbox","id":"sh/tkn6d47y","slide":11,"text":"写作工具","textPreview":"写作工具","textChars":4,"textLines":1,"bbox":[82,331,236,34]}
+{"kind":"shape","id":"sh/sje54zqd","slide":11,"bbox":[330,317,440,58]}
+{"kind":"textbox","id":"sh/7i5obup8","slide":11,"text":"可用性、风格、修改成本","textPreview":"可用性、风格、修改成本","textChars":11,"textLines":1,"bbox":[342,331,416,34]}
+{"kind":"shape","id":"sh/6xwn2p8n","slide":11,"bbox":[770,317,440,58]}
+{"kind":"textbox","id":"sh/lw369k72","slide":11,"text":"抄袭或不当内容","textPreview":"抄袭或不当内容","textChars":7,"textLines":1,"bbox":[782,331,416,34]}
+{"kind":"shape","id":"sh/kvu50fqh","slide":11,"bbox":[70,375,260,58]}
+{"kind":"textbox","id":"sh/julo7a9w","slide":11,"text":"AI客服","textPreview":"AI客服","textChars":4,"textLines":1,"bbox":[82,389,236,34]}
+{"kind":"shape","id":"sh/ytcnyp8b","slide":11,"bbox":[330,375,440,58]}
+{"kind":"textbox","id":"sh/xs365krq","slide":11,"text":"任务解决、流程正确","textPreview":"任务解决、流程正确","textChars":9,"textLines":1,"bbox":[342,389,416,34]}
+{"kind":"shape","id":"sh/wru5wfql","slide":11,"bbox":[770,375,440,58]}
+{"kind":"textbox","id":"sh/mx836lo3","slide":11,"text":"错误承诺或违规退款","textPreview":"错误承诺或违规退款","textChars":9,"textLines":1,"bbox":[782,389,416,34]}
+{"kind":"shape","id":"sh/ny1kfq5o","slide":11,"bbox":[70,433,260,58]}
+{"kind":"textbox","id":"sh/ozal8b69","slide":11,"text":"编程助手","textPreview":"编程助手","textChars":4,"textLines":1,"bbox":[82,447,236,34]}
+{"kind":"shape","id":"sh/90j2hgnu","slide":11,"bbox":[330,433,440,58]}
+{"kind":"textbox","id":"sh/et8321o7","slide":11,"text":"代码正确、可执行、安全","textPreview":"代码正确、可执行、安全","textChars":11,"textLines":1,"bbox":[342,447,416,34]}
+{"kind":"shape","id":"sh/zuhkb6ps","slide":11,"bbox":[770,433,440,58]}
+{"kind":"textbox","id":"sh/0vql4b6d","slide":11,"text":"高危漏洞或破坏数据","textPreview":"高危漏洞或破坏数据","textChars":9,"textLines":1,"bbox":[782,447,416,34]}
+{"kind":"notes","id":"nt/8msjws","slide":11,"text":"[Sources]\n- /Users/keivn/Project/AI-Course/课程生产/第一阶段/第09课_AI产品测试、指标与Bad Case_重做工作区/第9课 - AI产品评测与数据反馈.md\n- 内容依据：不同产品的评测标准"}
+{"kind":"slide","id":"sl/sgztw9","slide":12,"title":"AI PRODUCT · PREPARE","textShapes":9}
+{"kind":"textbox","id":"sh/ql836ts3","slide":12,"text":"AI PRODUCT · PREPARE","textPreview":"AI PRODUCT · PREPARE","textChars":20,"textLines":1,"bbox":[70,27,360,22]}
+{"kind":"textbox","id":"sh/d8zm18bu","slide":12,"text":"12","textPreview":"12","textChars":2,"textLines":1,"bbox":[1160,27,48,22]}
+{"kind":"shape","id":"sh/c7ql83a9","slide":12,"bbox":[70,683,1140,2]}
+{"kind":"shape","id":"sh/zah43itk","slide":12,"bbox":[70,683,204.18,2]}
+{"kind":"textbox","id":"sh/y983adsf","slide":12,"text":"指标的判断标准","textPreview":"指标的判断标准","textChars":7,"textLines":1,"bbox":[70,72,1130,58]}
+{"kind":"shape","id":"sh/lczm5srq","slide":12,"bbox":[70,148,160,4]}
+{"kind":"shape","id":"sh/0bq5cna5","slide":12,"bbox":[76,210,361.33,180]}
+{"kind":"textbox","id":"sh/fex4retg","slide":12,"text":"定义","textPreview":"定义","textChars":2,"textLines":1,"bbox":[98,230,317.33,34]}
+{"kind":"textbox","id":"sh/ed43y9sv","slide":12,"text":"这个指标究竟判断什么","textPreview":"这个指标究竟判断什么","textChars":10,"textLines":1,"bbox":[98,271,317.33,104]}
+{"kind":"shape","id":"sh/cb698f61","slide":12,"bbox":[459.33,210,361.33,180]}
+{"kind":"textbox","id":"sh/xcfahknm","slide":12,"text":"评分锚点","textPreview":"评分锚点","textChars":4,"textLines":1,"bbox":[481.33,230,317.33,34]}
+{"kind":"textbox","id":"sh/q9or6pov","slide":12,"text":"0分、1分、2分分别长什么样","textPreview":"0分、1分、2分分别长什么样","textChars":14,"textLines":1,"bbox":[481.33,271,317.33,104]}
+{"kind":"shape","id":"sh/baxsfa5g","slide":12,"bbox":[842.67,210,361.33,180]}
+{"kind":"textbox","id":"sh/kf69cz6x","slide":12,"text":"证据","textPreview":"证据","textChars":2,"textLines":1,"bbox":[864.67,230,317.33,34]}
+{"kind":"textbox","id":"sh/l0zal4ni","slide":12,"text":"判断必须引用回答中的具体内容","textPreview":"判断必须引用回答中的具体内容","textChars":14,"textLines":1,"bbox":[864.67,271,317.33,104]}
+{"kind":"notes","id":"nt/sgztw9","slide":12,"text":"[Sources]\n- /Users/keivn/Project/AI-Course/课程生产/第一阶段/第09课_AI产品测试、指标与Bad Case_重做工作区/第9课 - AI产品评测与数据反馈.md\n- 内容依据：指标的判断标准"}
+{"kind":"slide","id":"sl/57v3xa","slide":13,"title":"AI PRODUCT · PREPARE","textShapes":9}
+{"kind":"textbox","id":"sh/ylsra9ov","slide":13,"text":"AI PRODUCT · PREPARE","textPreview":"AI PRODUCT · PREPARE","textChars":20,"textLines":1,"bbox":[70,27,360,22]}
+{"kind":"textbox","id":"sh/lojalo7m","slide":13,"text":"13","textPreview":"13","textChars":2,"textLines":1,"bbox":[1160,27,48,22]}
+{"kind":"shape","id":"sh/kna9cj61","slide":13,"bbox":[70,683,1140,2]}
+{"kind":"shape","id":"sh/7q1snyps","slide":13,"bbox":[70,683,221.19,2]}
+{"kind":"textbox","id":"sh/6psreto7","slide":13,"text":"指标门槛的三层结构","textPreview":"指标门槛的三层结构","textChars":9,"textLines":1,"bbox":[70,72,1130,58]}
+{"kind":"shape","id":"sh/tsjapo7i","slide":13,"bbox":[70,148,160,4]}
+{"kind":"shape","id":"sh/8ra9gj6x","slide":13,"bbox":[150,210,980,94]}
+{"kind":"textbox","id":"sh/nuh8bup8","slide":13,"text":"一票否决","textPreview":"一票否决","textChars":4,"textLines":1,"bbox":[174,228,220,34]}
+{"kind":"textbox","id":"sh/mtor2pon","slide":13,"text":"隐私、合规、危险建议、错误资金承诺","textPreview":"隐私、合规、危险建议、错误资金承诺","textChars":17,"textLines":1,"bbox":[400,229,700,42]}
+{"kind":"shape","id":"sh/4nepgf65","slide":13,"bbox":[200,330,880,94]}
+{"kind":"textbox","id":"sh/5on6pk7q","slide":13,"text":"上线门槛","textPreview":"上线门槛","textChars":4,"textLines":1,"bbox":[224,348,220,34]}
+{"kind":"textbox","id":"sh/ilw7e5of","slide":13,"text":"核心任务正确率、总体通过率、响应时间、成本","textPreview":"核心任务正确率、总体通过率、响应时间、成本","textChars":21,"textLines":1,"bbox":[450,349,600,42]}
+{"kind":"shape","id":"sh/jm5onap0","slide":13,"bbox":[250,450,780,94]}
+{"kind":"textbox","id":"sh/sbypkz6h","slide":13,"text":"优化指标","textPreview":"优化指标","textChars":4,"textLines":1,"bbox":[274,468,220,34]}
+{"kind":"textbox","id":"sh/dc76tk72","slide":13,"text":"表达风格、篇幅、细节丰富度","textPreview":"表达风格、篇幅、细节丰富度","textChars":13,"textLines":1,"bbox":[500,469,500,42]}
+{"kind":"notes","id":"nt/57v3xa","slide":13,"text":"[Sources]\n- /Users/keivn/Project/AI-Course/课程生产/第一阶段/第09课_AI产品测试、指标与Bad Case_重做工作区/第9课 - AI产品评测与数据反馈.md\n- 内容依据：指标门槛的三层结构"}
+{"kind":"slide","id":"sl/6qw03o","slide":14,"title":"AI PRODUCT · PREPARE","textShapes":9}
+{"kind":"textbox","id":"sh/q5wj2tk7","slide":14,"text":"AI PRODUCT · PREPARE","textPreview":"AI PRODUCT · PREPARE","textChars":20,"textLines":1,"bbox":[70,27,360,22]}
+{"kind":"textbox","id":"sh/d8nid83i","slide":14,"text":"14","textPreview":"14","textChars":2,"textLines":1,"bbox":[1160,27,48,22]}
+{"kind":"shape","id":"sh/s7e1432x","slide":14,"bbox":[70,683,1140,2]}
+{"kind":"shape","id":"sh/fap0fylo","slide":14,"bbox":[70,683,238.21,2]}
+{"kind":"textbox","id":"sh/e9gj6dk3","slide":14,"text":"三类指标的区别","textPreview":"三类指标的区别","textChars":7,"textLines":1,"bbox":[70,72,1130,58]}
+{"kind":"shape","id":"sh/1c7ih83u","slide":14,"bbox":[70,148,160,4]}
+{"kind":"shape","id":"sh/0by18329","slide":14,"bbox":[439.33,358,15,0]}
+{"kind":"shape","id":"sh/vel03elk","slide":14,"bbox":[820.67,358,15,0]}
+{"kind":"shape","id":"sh/udczu94z","slide":14,"bbox":[78,300,361.33,116]}
+{"kind":"textbox","id":"sh/4jaxsn21","slide":14,"text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[92,312,34,24]}
+{"kind":"textbox","id":"sh/5kje18jm","slide":14,"text":"业务结果\n任务是否完成","textPreview":"业务结果 | 任务是否完成","textChars":11,"textLines":2,"bbox":[93,344,331.33,52]}
+{"kind":"shape","id":"sh/ixsvqdkv","slide":14,"bbox":[459.33,300,361.33,116]}
+{"kind":"textbox","id":"sh/3y1wzi1g","slide":14,"text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[473.33,312,34,24]}
+{"kind":"textbox","id":"sh/snaxwn2x","slide":14,"text":"AI效果\n回答是否优质","textPreview":"AI效果 | 回答是否优质","textChars":11,"textLines":2,"bbox":[474.33,344,331.33,52]}
+{"kind":"shape","id":"sh/do3e5sji","slide":14,"bbox":[840.67,300,361.33,116]}
+{"kind":"textbox","id":"sh/qlsfudk7","slide":14,"text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[854.67,312,34,24]}
+{"kind":"textbox","id":"sh/rm1w3i1s","slide":14,"text":"系统表现\n速度与成本","textPreview":"系统表现 | 速度与成本","textChars":10,"textLines":2,"bbox":[855.67,344,331.33,52]}
+{"kind":"notes","id":"nt/6qw03o","slide":14,"text":"[Sources]\n- /Users/keivn/Project/AI-Course/课程生产/第一阶段/第09课_AI产品测试、指标与Bad Case_重做工作区/第9课 - AI产品评测与数据反馈.md\n- 内容依据：三类指标的区别"}
+{"kind":"slide","id":"sl/cns5um","slide":15,"title":"AI PRODUCT · PREPARE","textShapes":13}
+{"kind":"textbox","id":"sh/fm50jm1w","slide":15,"text":"AI PRODUCT · PREPARE","textPreview":"AI PRODUCT · PREPARE","textChars":20,"textLines":1,"bbox":[70,27,360,22]}
+{"kind":"textbox","id":"sh/0nehcr2h","slide":15,"text":"15","textPreview":"15","textChars":2,"textLines":1,"bbox":[1160,27,48,22]}
+{"kind":"shape","id":"sh/1onilcj2","slide":15,"bbox":[70,683,1140,2]}
+{"kind":"shape","id":"sh/2pwzehk7","slide":15,"bbox":[70,683,255.22,2]}
+{"kind":"textbox","id":"sh/nq50nm1s","slide":15,"text":"评测集的五类样本","textPreview":"评测集的五类样本","textChars":8,"textLines":1,"bbox":[70,72,1130,58]}
+{"kind":"shape","id":"sh/ory1gr2d","slide":15,"bbox":[70,148,160,4]}
+{"kind":"shape","id":"sh/pc7ipwjy","slide":15,"bbox":[76,210,361.33,148]}
+{"kind":"textbox","id":"sh/itcz2xk3","slide":15,"text":"典型","textPreview":"典型","textChars":2,"textLines":1,"bbox":[98,230,317.33,34]}
+{"kind":"textbox","id":"sh/3ul0b2lo","slide":15,"text":"高频正常问题","textPreview":"高频正常问题","textChars":6,"textLines":1,"bbox":[98,271,317.33,72]}
+{"kind":"shape","id":"sh/3a1kf6ds","slide":15,"bbox":[459.33,210,361.33,148]}
+{"kind":"textbox","id":"sh/298j61c7","slide":15,"text":"边界","textPreview":"边界","textChars":2,"textLines":1,"bbox":[481.33,230,317.33,34]}
+{"kind":"textbox","id":"sh/pcj2hgvy","slide":15,"text":"接近规则边缘","textPreview":"接近规则边缘","textChars":6,"textLines":1,"bbox":[481.33,271,317.33,72]}
+{"kind":"shape","id":"sh/oba18bud","slide":15,"bbox":[842.67,210,361.33,148]}
+{"kind":"textbox","id":"sh/f6hkb6dw","slide":15,"text":"异常","textPreview":"异常","textChars":2,"textLines":1,"bbox":[864.67,230,317.33,34]}
+{"kind":"textbox","id":"sh/e58j21cb","slide":15,"text":"错别字、缺字段、冲突信息","textPreview":"错别字、缺字段、冲突信息","textChars":12,"textLines":1,"bbox":[864.67,271,317.33,72]}
+{"kind":"shape","id":"sh/18z2dwvm","slide":15,"bbox":[76,380,361.33,148]}
+{"kind":"textbox","id":"sh/g7q14ruh","slide":15,"text":"无答案","textPreview":"无答案","textChars":3,"textLines":1,"bbox":[98,400,317.33,34]}
+{"kind":"textbox","id":"sh/rih07mdk","slide":15,"text":"资料不存在或不应回答","textPreview":"资料不存在或不应回答","textChars":10,"textLines":1,"bbox":[98,441,317.33,72]}
+{"kind":"shape","id":"sh/6hojyhcz","slide":15,"bbox":[459.33,380,361.33,148]}
+{"kind":"textbox","id":"sh/udo3ahg7","slide":15,"text":"高风险","textPreview":"高风险","textChars":3,"textLines":1,"bbox":[481.33,400,317.33,34]}
+{"kind":"textbox","id":"sh/vexkjmxs","slide":15,"text":"隐私、资金、合规与权限","textPreview":"隐私、资金、合规与权限","textChars":11,"textLines":1,"bbox":[481.33,441,317.33,72]}
+{"kind":"notes","id":"nt/cns5um","slide":15,"text":"[Sources]\n- /Users/keivn/Project/AI-Course/课程生产/第一阶段/第09课_AI产品测试、指标与Bad Case_重做工作区/第9课 - AI产品评测与数据反馈.md\n- 内容依据：评测集的五类样本"}
+{"kind":"slide","id":"sl/zt5tjx","slide":16,"title":"AI PRODUCT · PREPARE","textShapes":21}
+{"kind":"textbox","id":"sh/dczm1kjy","slide":16,"text":"AI PRODUCT · PREPARE","textPreview":"AI PRODUCT · PREPARE","textChars":20,"textLines":1,"bbox":[70,27,360,22]}
+{"kind":"textbox","id":"sh/q98nqp07","slide":16,"text":"16","textPreview":"16","textChars":2,"textLines":1,"bbox":[1160,27,48,22]}
+{"kind":"shape","id":"sh/rah4zu1s","slide":16,"bbox":[70,683,1140,2]}
+{"kind":"shape","id":"sh/0zq5wzi9","slide":16,"bbox":[70,683,272.24,2]}
+{"kind":"textbox","id":"sh/10jm54ju","slide":16,"text":"五类样本如何落到住宿场景","textPreview":"五类样本如何落到住宿场景","textChars":12,"textLines":1,"bbox":[70,72,1130,58]}
+{"kind":"shape","id":"sh/ed8nup0j","slide":16,"bbox":[70,148,160,4]}
+{"kind":"shape","id":"sh/zeh43u14","slide":16,"bbox":[70,205,180,54]}
+{"kind":"textbox","id":"sh/gj6lkfi5","slide":16,"text":"类型","textPreview":"类型","textChars":2,"textLines":1,"bbox":[80,219,160,28]}
+{"kind":"shape","id":"sh/h4fmt0jq","slide":16,"bbox":[250,205,570,54]}
+{"kind":"textbox","id":"sh/9ojup836","slide":16,"text":"示例","textPreview":"示例","textChars":2,"textLines":1,"bbox":[260,219,550,28]}
+{"kind":"shape","id":"sh/onadw3ml","slide":16,"bbox":[820,205,390,54]}
+{"kind":"textbox","id":"sh/nm1cnyl0","slide":16,"text":"要验证什么","textPreview":"要验证什么","textChars":5,"textLines":1,"bbox":[830,219,370,28]}
+{"kind":"shape","id":"sh/mlsvud4f","slide":16,"bbox":[70,259,180,58]}
+{"kind":"textbox","id":"sh/xs3uts32","slide":16,"text":"典型","textPreview":"典型","textChars":2,"textLines":1,"bbox":[82,273,156,34]}
+{"kind":"shape","id":"sh/wrud0n2h","slide":16,"bbox":[250,259,570,58]}
+{"kind":"textbox","id":"sh/bqlcrilw","slide":16,"text":"北京普通员工住宿上限？","textPreview":"北京普通员工住宿上限？","textChars":11,"textLines":1,"bbox":[262,273,546,34]}
+{"kind":"shape","id":"sh/apsvydkr","slide":16,"bbox":[820,259,390,58]}
+{"kind":"textbox","id":"sh/5g3exs3e","slide":16,"text":"能否答出500元/晚","textPreview":"能否答出500元/晚","textChars":10,"textLines":1,"bbox":[832,273,366,34]}
+{"kind":"shape","id":"sh/kfud4n2t","slide":16,"bbox":[70,317,180,58]}
+{"kind":"textbox","id":"sh/4z2x0bap","slide":16,"text":"边界","textPreview":"边界","textChars":2,"textLines":1,"bbox":[82,331,156,34]}
+{"kind":"shape","id":"sh/5kbe9wba","slide":16,"bbox":[250,317,570,58]}
+{"kind":"textbox","id":"sh/ixkfy1sz","slide":16,"text":"住600元能否全额报销？","textPreview":"住600元能否全额报销？","textChars":12,"textLines":1,"bbox":[262,331,546,34]}
+{"kind":"shape","id":"sh/3ytw76t4","slide":16,"bbox":[820,317,390,58]}
+{"kind":"textbox","id":"sh/snmx4ba1","slide":16,"text":"能否说明超标处理","textPreview":"能否说明超标处理","textChars":8,"textLines":1,"bbox":[832,331,366,34]}
+{"kind":"shape","id":"sh/dovydgbm","slide":16,"bbox":[70,375,180,58]}
+{"kind":"textbox","id":"sh/ql4f21sv","slide":16,"text":"异常","textPreview":"异常","textChars":2,"textLines":1,"bbox":[82,389,156,34]}
+{"kind":"shape","id":"sh/rmdwb6tg","slide":16,"bbox":[250,375,570,58]}
+{"kind":"textbox","id":"sh/8rixsrah","slide":16,"text":"北景住缩报销上现？","textPreview":"北景住缩报销上现？","textChars":9,"textLines":1,"bbox":[262,389,546,34]}
+{"kind":"shape","id":"sh/tsre1cb2","slide":16,"bbox":[820,375,390,58]}
+{"kind":"textbox","id":"sh/bmh07udk","slide":16,"text":"能否识别错别字","textPreview":"能否识别错别字","textChars":7,"textLines":1,"bbox":[832,389,366,34]}
+{"kind":"shape","id":"sh/al8zypcf","slide":16,"bbox":[70,433,180,58]}
+{"kind":"textbox","id":"sh/xozi9kvq","slide":16,"text":"无答案","textPreview":"无答案","textChars":3,"textLines":1,"bbox":[82,447,156,34]}
+{"kind":"shape","id":"sh/cnqh0fu5","slide":16,"bbox":[250,433,570,58]}
+{"kind":"textbox","id":"sh/nix03ado","slide":16,"text":"海外城市没有制度时怎么办？","textPreview":"海外城市没有制度时怎么办？","textChars":13,"textLines":1,"bbox":[262,447,546,34]}
+{"kind":"shape","id":"sh/2hozu5c3","slide":16,"bbox":[820,433,390,58]}
+{"kind":"textbox","id":"sh/pkfi5kvu","slide":16,"text":"能否承认资料不足","textPreview":"能否承认资料不足","textChars":8,"textLines":1,"bbox":[832,447,366,34]}
+{"kind":"shape","id":"sh/oj6hwfu9","slide":16,"bbox":[70,491,180,58]}
+{"kind":"textbox","id":"sh/fex0zadc","slide":16,"text":"高风险","textPreview":"高风险","textChars":3,"textLines":1,"bbox":[82,505,156,34]}
+{"kind":"shape","id":"sh/etozq5c7","slide":16,"bbox":[250,491,570,58]}
+{"kind":"textbox","id":"sh/u183ut8r","slide":16,"text":"帮我修改发票金额","textPreview":"帮我修改发票金额","textChars":8,"textLines":1,"bbox":[262,505,546,34]}
+{"kind":"shape","id":"sh/fmh43y9c","slide":16,"bbox":[820,491,390,58]}
+{"kind":"textbox","id":"sh/gnqlw3qh","slide":16,"text":"能否拒绝违规请求","textPreview":"能否拒绝违规请求","textChars":8,"textLines":1,"bbox":[832,505,366,34]}
+{"kind":"notes","id":"nt/zt5tjx","slide":16,"text":"[Sources]\n- /Users/keivn/Project/AI-Course/课程生产/第一阶段/第09课_AI产品测试、指标与Bad Case_重做工作区/第9课 - AI产品评测与数据反馈.md\n- 内容依据：五类样本如何落到住宿场景"}
+{"kind":"slide","id":"sl/4qk211","slide":17,"title":"AI PRODUCT · PREPARE","textShapes":11}
+{"kind":"textbox","id":"sh/yxonalgz","slide":17,"text":"AI PRODUCT · PREPARE","textPreview":"AI PRODUCT · PREPARE","textChars":20,"textLines":1,"bbox":[70,27,360,22]}
+{"kind":"textbox","id":"sh/lkz6l0zq","slide":17,"text":"17","textPreview":"17","textChars":2,"textLines":1,"bbox":[1160,27,48,22]}
+{"kind":"shape","id":"sh/kjq5cvy5","slide":17,"bbox":[70,683,1140,2]}
+{"kind":"shape","id":"sh/7mhonahw","slide":17,"bbox":[70,683,289.25,2]}
+{"kind":"textbox","id":"sh/ml8ne5gb","slide":17,"text":"评测样本的建议比例","textPreview":"评测样本的建议比例","textChars":9,"textLines":1,"bbox":[70,72,1130,58]}
+{"kind":"shape","id":"sh/9oz6pkzm","slide":17,"bbox":[70,148,160,4]}
+{"kind":"textbox","id":"sh/8nq5gfy1","slide":17,"text":"高频核心场景","textPreview":"高频核心场景","textChars":6,"textLines":1,"bbox":[86,216,250,30]}
+{"kind":"shape","id":"sh/nqd4b6hc","slide":17,"bbox":[340,219,760,24]}
+{"kind":"shape","id":"sh/2p4n21gr","slide":17,"bbox":[340,219,760,24]}
+{"kind":"textbox","id":"sh/s3qx47yx","slide":17,"text":"35%","textPreview":"35%","textChars":3,"textLines":1,"bbox":[1120,216,80,30]}
+{"kind":"textbox","id":"sh/d4zedcfi","slide":17,"text":"历史Bad Case","textPreview":"历史Bad Case","textChars":10,"textLines":1,"bbox":[86,283,250,30]}
+{"kind":"shape","id":"sh/q1of2xgr","slide":17,"bbox":[340,286,760,24]}
+{"kind":"shape","id":"sh/r2xwb2xc","slide":17,"bbox":[340,286,542.86,24]}
+{"kind":"textbox","id":"sh/0rqx87yt","slide":17,"text":"25%","textPreview":"25%","textChars":3,"textLines":1,"bbox":[1120,283,80,30]}
+{"kind":"textbox","id":"sh/1szehcfe","slide":17,"text":"边界与异常","textPreview":"边界与异常","textChars":5,"textLines":1,"bbox":[86,350,250,30]}
+{"kind":"shape","id":"sh/e58f6hgn","slide":17,"bbox":[340,353,760,24]}
+{"kind":"shape","id":"sh/fqhwf2x8","slide":17,"bbox":[340,353,434.29,24]}
+{"kind":"textbox","id":"sh/gvmdwnyp","slide":17,"text":"20%","textPreview":"20%","textChars":3,"textLines":1,"bbox":[1120,350,80,30]}
+{"kind":"textbox","id":"sh/hwfe5sfa","slide":17,"text":"高风险与无答案","textPreview":"高风险与无答案","textChars":7,"textLines":1,"bbox":[86,417,250,30]}
+{"kind":"shape","id":"sh/xgn2dk3m","slide":17,"bbox":[340,420,760,24]}
+{"kind":"shape","id":"sh/cfelkfm1","slide":17,"bbox":[340,420,434.29,24]}
+{"kind":"textbox","id":"sh/belkba5w","slide":17,"text":"20%","textPreview":"20%","textChars":3,"textLines":1,"bbox":[1120,417,80,30]}
+{"kind":"notes","id":"nt/4qk211","slide":17,"text":"[Sources]\n- /Users/keivn/Project/AI-Course/课程生产/第一阶段/第09课_AI产品测试、指标与Bad Case_重做工作区/第9课 - AI产品评测与数据反馈.md\n- 内容依据：评测样本的建议比例"}
+{"kind":"slide","id":"sl/v3ryr0","slide":18,"title":"AI PRODUCT · PREPARE","textShapes":11}
+{"kind":"textbox","id":"sh/29ofut07","slide":18,"text":"AI PRODUCT · PREPARE","textPreview":"AI PRODUCT · PREPARE","textChars":20,"textLines":1,"bbox":[70,27,360,22]}
+{"kind":"textbox","id":"sh/pcfy58ji","slide":18,"text":"18","textPreview":"18","textChars":2,"textLines":1,"bbox":[1160,27,48,22]}
+{"kind":"shape","id":"sh/ob6xw3ix","slide":18,"bbox":[70,683,1140,2]}
+{"kind":"shape","id":"sh/f6dwze1g","slide":18,"bbox":[70,683,306.27,2]}
+{"kind":"textbox","id":"sh/el4fq90v","slide":18,"text":"评测样本的四个来源","textPreview":"评测样本的四个来源","textChars":9,"textLines":1,"bbox":[70,72,1130,58]}
+{"kind":"shape","id":"sh/18ve1ojm","slide":18,"bbox":[70,148,160,4]}
+{"kind":"shape","id":"sh/07mxsji1","slide":18,"bbox":[76,210,553,180]}
+{"kind":"textbox","id":"sh/z2hgbi1k","slide":18,"text":"真实用户问题","textPreview":"真实用户问题","textChars":6,"textLines":1,"bbox":[98,230,509,34]}
+{"kind":"textbox","id":"sh/yh8f2d0f","slide":18,"text":"覆盖用户真实表达与上下文","textPreview":"覆盖用户真实表达与上下文","textChars":12,"textLines":1,"bbox":[98,271,509,104]}
+{"kind":"shape","id":"sh/kru9wvyh","slide":18,"bbox":[651,210,553,180]}
+{"kind":"textbox","id":"sh/ls3q50f2","slide":18,"text":"历史Bad Case","textPreview":"历史Bad Case","textChars":10,"textLines":1,"bbox":[673,230,509,34]}
+{"kind":"textbox","id":"sh/y5crulgr","slide":18,"text":"防止已经修过的问题复发","textPreview":"防止已经修过的问题复发","textChars":11,"textLines":1,"bbox":[673,271,509,104]}
+{"kind":"shape","id":"sh/j6l83qhc","slide":18,"bbox":[76,412,553,180]}
+{"kind":"textbox","id":"sh/w3u9sbyl","slide":18,"text":"业务规则与红线","textPreview":"业务规则与红线","textChars":7,"textLines":1,"bbox":[98,432,509,34]}
+{"kind":"textbox","id":"sh/x43q1gz6","slide":18,"text":"把制度和风险转成可测试样本","textPreview":"把制度和风险转成可测试样本","textChars":13,"textLines":1,"bbox":[98,473,509,104]}
+{"kind":"shape","id":"sh/a1crq1gf","slide":18,"bbox":[651,412,553,180]}
+{"kind":"textbox","id":"sh/b2l8z6h0","slide":18,"text":"AI扩写变体","textPreview":"AI扩写变体","textChars":6,"textLines":1,"bbox":[673,432,509,34]}
+{"kind":"textbox","id":"sh/oza9oby9","slide":18,"text":"扩大表达覆盖，但必须人工抽查","textPreview":"扩大表达覆盖，但必须人工抽查","textChars":14,"textLines":1,"bbox":[673,473,509,104]}
+{"kind":"notes","id":"nt/v3ryr0","slide":18,"text":"[Sources]\n- /Users/keivn/Project/AI-Course/课程生产/第一阶段/第09课_AI产品测试、指标与Bad Case_重做工作区/第9课 - AI产品评测与数据反馈.md\n- 内容依据：评测样本的四个来源"}
+{"kind":"slide","id":"sl/huvy0a","slide":19,"title":"AI PRODUCT · PREPARE","textShapes":17}
+{"kind":"textbox","id":"sh/5k3eh0bq","slide":19,"text":"AI PRODUCT · PREPARE","textPreview":"AI PRODUCT · PREPARE","textChars":20,"textLines":1,"bbox":[70,27,360,22]}
+{"kind":"textbox","id":"sh/ihsvmlsz","slide":19,"text":"19","textPreview":"19","textChars":2,"textLines":1,"bbox":[1160,27,48,22]}
+{"kind":"shape","id":"sh/3i1wfqtk","slide":19,"bbox":[70,683,1140,2]}
+{"kind":"shape","id":"sh/gfadkbat","slide":19,"bbox":[70,683,323.28,2]}
+{"kind":"textbox","id":"sh/hgjudgbe","slide":19,"text":"参考答案与评分点","textPreview":"参考答案与评分点","textChars":8,"textLines":1,"bbox":[70,72,1130,58]}
+{"kind":"shape","id":"sh/utsvi1s3","slide":19,"bbox":[70,148,160,4]}
+{"kind":"shape","id":"sh/vu1cb6t8","slide":19,"bbox":[76,212,530,380]}
+{"kind":"textbox","id":"sh/0bedwfad","slide":19,"text":"参考答案","textPreview":"参考答案","textChars":4,"textLines":1,"bbox":[104,236,474,40]}
+{"kind":"textbox","id":"sh/1cnepkby","slide":19,"text":"—","textPreview":"—","textChars":1,"textLines":1,"bbox":[101,304,38,30]}
+{"kind":"textbox","id":"sh/xgjet8je","slide":19,"text":"描述理想回答长什么样","textPreview":"描述理想回答长什么样","textChars":10,"textLines":1,"bbox":[153,303,428,38]}
+{"kind":"textbox","id":"sh/wfaxk32t","slide":19,"text":"—","textPreview":"—","textChars":1,"textLines":1,"bbox":[101,356,38,30]}
+{"kind":"textbox","id":"sh/bu1wry18","slide":19,"text":"帮助理解问题与业务事实","textPreview":"帮助理解问题与业务事实","textChars":11,"textLines":1,"bbox":[153,355,428,38]}
+{"kind":"textbox","id":"sh/atsfitk3","slide":19,"text":"—","textPreview":"—","textChars":1,"textLines":1,"bbox":[101,408,38,30]}
+{"kind":"textbox","id":"sh/9szepoji","slide":19,"text":"不要求逐字匹配","textPreview":"不要求逐字匹配","textChars":7,"textLines":1,"bbox":[153,407,428,38]}
+{"kind":"shape","id":"sh/orqdgj2x","slide":19,"bbox":[674,212,530,380]}
+{"kind":"textbox","id":"sh/nqhwne1c","slide":19,"text":"评分点","textPreview":"评分点","textChars":3,"textLines":1,"bbox":[702,236,474,40]}
+{"kind":"textbox","id":"sh/2p8vetkr","slide":19,"text":"—","textPreview":"—","textChars":1,"textLines":1,"bbox":[699,304,38,30]}
+{"kind":"textbox","id":"sh/to3e1sjm","slide":19,"text":"规定实际如何判分","textPreview":"规定实际如何判分","textChars":8,"textLines":1,"bbox":[751,303,428,38]}
+{"kind":"textbox","id":"sh/8nuxsni1","slide":19,"text":"—","textPreview":"—","textChars":1,"textLines":1,"bbox":[699,356,38,30]}
+{"kind":"textbox","id":"sh/s3mpkvup","slide":19,"text":"允许不同表达方式","textPreview":"允许不同表达方式","textChars":8,"textLines":1,"bbox":[751,355,428,38]}
+{"kind":"textbox","id":"sh/d4vqd0va","slide":19,"text":"—","textPreview":"—","textChars":1,"textLines":1,"bbox":[699,408,38,30]}
+{"kind":"textbox","id":"sh/q1k7ilcj","slide":19,"text":"开放式回答中更重要","textPreview":"开放式回答中更重要","textChars":9,"textLines":1,"bbox":[751,407,428,38]}
+{"kind":"notes","id":"nt/huvy0a","slide":19,"text":"[Sources]\n- /Users/keivn/Project/AI-Course/课程生产/第一阶段/第09课_AI产品测试、指标与Bad Case_重做工作区/第9课 - AI产品评测与数据反馈.md\n- 内容依据：参考答案与评分点"}
+{"kind":"slide","id":"sl/kr79cs","slide":20,"title":"AI PRODUCT · PREPARE","textShapes":9}
+{"kind":"textbox","id":"sh/7alojmxc","slide":20,"text":"AI PRODUCT · PREPARE","textPreview":"AI PRODUCT · PREPARE","textChars":20,"textLines":1,"bbox":[70,27,360,22]}
+{"kind":"textbox","id":"sh/8bupcrex","slide":20,"text":"20","textPreview":"20","textChars":2,"textLines":1,"bbox":[1160,27,48,22]}
+{"kind":"shape","id":"sh/tc36lwfi","slide":20,"bbox":[70,683,1140,2]}
+{"kind":"shape","id":"sh/udc7e1w3","slide":20,"bbox":[70,683,340.3,2]}
+{"kind":"textbox","id":"sh/velon6x8","slide":20,"text":"评测集的版本结构","textPreview":"评测集的版本结构","textChars":8,"textLines":1,"bbox":[70,72,1130,58]}
+{"kind":"shape","id":"sh/gfupgbet","slide":20,"bbox":[70,148,160,4]}
+{"kind":"shape","id":"sh/h0n6pgfe","slide":20,"bbox":[439.33,358,15,0]}
+{"kind":"shape","id":"sh/i1w7ilwz","slide":20,"bbox":[820.67,358,15,0]}
+{"kind":"shape","id":"sh/325or6xk","slide":20,"bbox":[78,300,361.33,116]}
+{"kind":"textbox","id":"sh/rudkjyxo","slide":20,"text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[92,312,34,24]}
+{"kind":"textbox","id":"sh/6t4jatw3","slide":20,"text":"固定核心集\n用于跨版本比较","textPreview":"固定核心集 | 用于跨版本比较","textChars":13,"textLines":2,"bbox":[93,344,331.33,52]}
+{"kind":"shape","id":"sh/twv2l8fu","slide":20,"bbox":[459.33,300,361.33,116]}
+{"kind":"textbox","id":"sh/svm1c3e9","slide":20,"text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[473.33,312,34,24]}
+{"kind":"textbox","id":"sh/jqtkfyxs","slide":20,"text":"动态增量集\n加入新问题与风险","textPreview":"动态增量集 | 加入新问题与风险","textChars":14,"textLines":2,"bbox":[474.33,344,331.33,52]}
+{"kind":"shape","id":"sh/ipkj6tw7","slide":20,"bbox":[840.67,300,361.33,116]}
+{"kind":"textbox","id":"sh/5sv2hofi","slide":20,"text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[854.67,312,34,24]}
+{"kind":"textbox","id":"sh/4rm18jex","slide":20,"text":"专项评测集\n验证本次改动","textPreview":"专项评测集 | 验证本次改动","textChars":12,"textLines":2,"bbox":[855.67,344,331.33,52]}
+{"kind":"notes","id":"nt/kr79cs","slide":20,"text":"[Sources]\n- /Users/keivn/Project/AI-Course/课程生产/第一阶段/第09课_AI产品测试、指标与Bad Case_重做工作区/第9课 - AI产品评测与数据反馈.md\n- 内容依据：评测集的版本结构"}
+{"kind":"slide","id":"sl/lh9we7","slide":21,"title":"AI PRODUCT · PREPARE","textShapes":11}
+{"kind":"textbox","id":"sh/mp4z21kv","slide":21,"text":"AI PRODUCT · PREPARE","textPreview":"AI PRODUCT · PREPARE","textChars":20,"textLines":1,"bbox":[70,27,360,22]}
+{"kind":"textbox","id":"sh/9svidw36","slide":21,"text":"21","textPreview":"21","textChars":2,"textLines":1,"bbox":[1160,27,48,22]}
+{"kind":"shape","id":"sh/8rmh4b2l","slide":21,"bbox":[70,683,1140,2]}
+{"kind":"shape","id":"sh/ved0z61c","slide":21,"bbox":[70,683,357.31,2]}
+{"kind":"textbox","id":"sh/ut4z61kr","slide":21,"text":"评测准备的核心产物","textPreview":"评测准备的核心产物","textChars":9,"textLines":1,"bbox":[70,72,1130,58]}
+{"kind":"shape","id":"sh/hgfi1gji","slide":21,"bbox":[70,148,160,4]}
+{"kind":"shape","id":"sh/wfmh8b2x","slide":21,"bbox":[76,220,553,140]}
+{"kind":"textbox","id":"sh/jix03q18","slide":21,"text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[98,240,509,34]}
+{"kind":"textbox","id":"sh/ihozalkn","slide":21,"text":"质量标准与评分锚点","textPreview":"质量标准与评分锚点","textChars":9,"textLines":1,"bbox":[98,281,509,64]}
+{"kind":"shape","id":"sh/wrqlc369","slide":21,"bbox":[651,220,553,140]}
+{"kind":"textbox","id":"sh/xszm587u","slide":21,"text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[673,240,509,34]}
+{"kind":"textbox","id":"sh/ap83ado3","slide":21,"text":"红线与上线门槛","textPreview":"红线与上线门槛","textChars":7,"textLines":1,"bbox":[673,281,509,64]}
+{"kind":"shape","id":"sh/bqhk3ipo","slide":21,"bbox":[76,382,553,140]}
+{"kind":"textbox","id":"sh/kfqlgn65","slide":21,"text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[98,402,509,34]}
+{"kind":"textbox","id":"sh/lgjm9s7q","slide":21,"text":"代表真实业务的评测集","textPreview":"代表真实业务的评测集","textChars":10,"textLines":1,"bbox":[98,443,509,64]}
+{"kind":"shape","id":"sh/yt83edoz","slide":21,"bbox":[651,382,553,140]}
+{"kind":"textbox","id":"sh/juh47ipk","slide":21,"text":"04","textPreview":"04","textChars":2,"textLines":1,"bbox":[673,402,509,34]}
+{"kind":"textbox","id":"sh/8jalkn6h","slide":21,"text":"可比较的固定核心集","textPreview":"可比较的固定核心集","textChars":9,"textLines":1,"bbox":[673,443,509,64]}
+{"kind":"notes","id":"nt/lh9we7","slide":21,"text":"[Sources]\n- /Users/keivn/Project/AI-Course/课程生产/第一阶段/第09课_AI产品测试、指标与Bad Case_重做工作区/第9课 - AI产品评测与数据反馈.md\n- 内容依据：评测准备的核心产物"}
+{"kind":"slide","id":"sl/pucx7i","slide":22,"title":"AI PRODUCT · METHODS","textShapes":4}
+{"kind":"textbox","id":"sh/i18fu1sn","slide":22,"text":"AI PRODUCT · METHODS","textPreview":"AI PRODUCT · METHODS","textChars":20,"textLines":1,"bbox":[70,27,360,22]}
+{"kind":"textbox","id":"sh/5ojepwre","slide":22,"text":"22","textPreview":"22","textChars":2,"textLines":1,"bbox":[1160,27,48,22]}
+{"kind":"shape","id":"sh/43axwrat","slide":22,"bbox":[70,683,1140,2]}
+{"kind":"shape","id":"sh/rq1wr694","slide":22,"bbox":[70,683,374.33,2]}
+{"kind":"textbox","id":"sh/6psfy1sz","slide":22,"text":"02 评分方法","textPreview":"02 评分方法","textChars":7,"textLines":1,"bbox":[80,182,1080,88]}
+{"kind":"shape","id":"sh/tsjytgra","slide":22,"bbox":[80,300,120,6]}
+{"kind":"textbox","id":"sh/srax0bap","slide":22,"text":"不同问题，交给不同评测器","textPreview":"不同问题，交给不同评测器","textChars":12,"textLines":1,"bbox":[84,345,980,50]}
+{"kind":"notes","id":"nt/pucx7i","slide":22,"text":"[Sources]\n- /Users/keivn/Project/AI-Course/课程生产/第一阶段/第09课_AI产品测试、指标与Bad Case_重做工作区/第9课 - AI产品评测与数据反馈.md\n- 内容依据：02 评分方法"}
+{"kind":"slide","id":"sl/ua91ww","slide":23,"title":"AI PRODUCT · METHODS","textShapes":11}
+{"kind":"textbox","id":"sh/ovi1o3id","slide":23,"text":"AI PRODUCT · METHODS","textPreview":"AI PRODUCT · METHODS","textChars":20,"textLines":1,"bbox":[70,27,360,22]}
+{"kind":"textbox","id":"sh/nu90fy1s","slide":23,"text":"23","textPreview":"23","textChars":2,"textLines":1,"bbox":[1160,27,48,22]}
+{"kind":"shape","id":"sh/2t0zmt07","slide":23,"bbox":[70,683,1140,2]}
+{"kind":"shape","id":"sh/x0bil8ju","slide":23,"bbox":[70,683,391.34,2]}
+{"kind":"textbox","id":"sh/cz21s3ip","slide":23,"text":"评测方法的选择顺序","textPreview":"评测方法的选择顺序","textChars":9,"textLines":1,"bbox":[70,72,1130,58]}
+{"kind":"shape","id":"sh/byt0jy14","slide":23,"bbox":[70,148,160,4]}
+{"kind":"shape","id":"sh/axkjqt0j","slide":23,"bbox":[344,358,15,0]}
+{"kind":"shape","id":"sh/d47i94jq","slide":23,"bbox":[630,358,15,0]}
+{"kind":"shape","id":"sh/s3yhgji5","slide":23,"bbox":[916,358,15,0]}
+{"kind":"shape","id":"sh/atk7yx8b","slide":23,"bbox":[78,300,266,116]}
+{"kind":"textbox","id":"sh/butor2pw","slide":23,"text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[92,312,34,24]}
+{"kind":"textbox","id":"sh/wvmp07qh","slide":23,"text":"硬条件？\n规则","textPreview":"硬条件？ | 规则","textChars":7,"textLines":2,"bbox":[93,344,236,52]}
+{"kind":"shape","id":"sh/xwv6ts72","slide":23,"bbox":[364,300,266,116]}
+{"kind":"textbox","id":"sh/yx472x8n","slide":23,"text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[378,312,34,24]}
+{"kind":"textbox","id":"sh/jydov2p8","slide":23,"text":"允许改写？\n相似度","textPreview":"允许改写？ | 相似度","textChars":9,"textLines":2,"bbox":[379,344,236,52]}
+{"kind":"shape","id":"sh/kjmp47qd","slide":23,"bbox":[650,300,266,116]}
+{"kind":"textbox","id":"sh/lkv6xc7y","slide":23,"text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[664,312,34,24]}
+{"kind":"textbox","id":"sh/6l476h8j","slide":23,"text":"开放质量？\nLLM Judge","textPreview":"开放质量？ | LLM Judge","textChars":15,"textLines":2,"bbox":[665,344,236,52]}
+{"kind":"shape","id":"sh/7mx8zmp4","slide":23,"bbox":[936,300,266,116]}
+{"kind":"textbox","id":"sh/3qxonm5c","slide":23,"text":"04","textPreview":"04","textChars":2,"textLines":1,"bbox":[950,312,34,24]}
+{"kind":"textbox","id":"sh/iponuh4r","slide":23,"text":"高风险？\n人工","textPreview":"高风险？ | 人工","textChars":7,"textLines":2,"bbox":[951,344,236,52]}
+{"kind":"notes","id":"nt/ua91ww","slide":23,"text":"[Sources]\n- /Users/keivn/Project/AI-Course/课程生产/第一阶段/第09课_AI产品测试、指标与Bad Case_重做工作区/第9课 - AI产品评测与数据反馈.md\n- 内容依据：评测方法的选择顺序"}
+{"kind":"slide","id":"sl/fwbpge","slide":24,"title":"AI PRODUCT · METHODS","textShapes":16}
+{"kind":"textbox","id":"sh/tgni9ovq","slide":24,"text":"AI PRODUCT · METHODS","textPreview":"AI PRODUCT · METHODS","textChars":20,"textLines":1,"bbox":[70,27,360,22]}
+{"kind":"textbox","id":"sh/6dcjy9cf","slide":24,"text":"24","textPreview":"24","textChars":2,"textLines":1,"bbox":[1160,27,48,22]}
+{"kind":"shape","id":"sh/rel07ed0","slide":24,"bbox":[70,683,1140,2]}
+{"kind":"shape","id":"sh/4bu1wzu9","slide":24,"bbox":[70,683,408.36,2]}
+{"kind":"textbox","id":"sh/5c3i54vu","slide":24,"text":"规则评测：检查明确条件","textPreview":"规则评测：检查明确条件","textChars":11,"textLines":1,"bbox":[70,72,1130,58]}
+{"kind":"shape","id":"sh/i9cjupc3","slide":24,"bbox":[70,148,160,4]}
+{"kind":"textbox","id":"sh/jal03udo","slide":24,"text":"案例拆解","textPreview":"案例拆解","textChars":4,"textLines":1,"bbox":[250,136,930,28]}
+{"kind":"textbox","id":"sh/wna1szud","slide":24,"text":"用户问题","textPreview":"用户问题","textChars":4,"textLines":1,"bbox":[82,194,180,30]}
+{"kind":"shape","id":"sh/ho3i1kvi","slide":24,"bbox":[86,226,1108,86]}
+{"kind":"shape","id":"sh/h8bu10bm","slide":24,"bbox":[86,226,8,86]}
+{"kind":"textbox","id":"sh/w72tsvu1","slide":24,"text":"北京住宿报销上限是多少？","textPreview":"北京住宿报销上限是多少？","textChars":12,"textLines":1,"bbox":[122,247,1030,46]}
+{"kind":"textbox","id":"sh/v6tczqtw","slide":24,"text":"AI回答","textPreview":"AI回答","textChars":4,"textLines":1,"bbox":[82,330,180,30]}
+{"kind":"shape","id":"sh/u5kbqlcb","slide":24,"bbox":[86,362,1108,86]}
+{"kind":"shape","id":"sh/94ruxgbq","slide":24,"bbox":[86,362,8,86]}
+{"kind":"textbox","id":"sh/83itovu5","slide":24,"text":"{\"city\":\"北京\",\"limit\":500,\"unit\":\"元/晚\"}","textPreview":"{\"city\":\"北京\",\"limit\":500,\"unit\":\"元/晚\"}","textChars":38,"textLines":1,"bbox":[122,383,1030,46]}
+{"kind":"shape","id":"sh/729cvqtk","slide":24,"bbox":[76,474,265.5,116]}
+{"kind":"textbox","id":"sh/m10bmlcz","slide":24,"text":"字段","textPreview":"字段","textChars":2,"textLines":1,"bbox":[98,494,221.5,34]}
+{"kind":"textbox","id":"sh/l0rutgbe","slide":24,"text":"完整","textPreview":"完整","textChars":2,"textLines":1,"bbox":[98,535,221.5,40]}
+{"kind":"shape","id":"sh/kfitkbu9","slide":24,"bbox":[363.5,474,265.5,116]}
+{"kind":"textbox","id":"sh/cvmlwf61","slide":24,"text":"类型","textPreview":"类型","textChars":2,"textLines":1,"bbox":[385.5,494,221.5,34]}
+{"kind":"textbox","id":"sh/xwf2pknm","slide":24,"text":"正确","textPreview":"正确","textChars":2,"textLines":1,"bbox":[385.5,535,221.5,40]}
+{"kind":"shape","id":"sh/at43u5ob","slide":24,"bbox":[651,474,265.5,116]}
+{"kind":"textbox","id":"sh/budkna5g","slide":24,"text":"金额","textPreview":"金额","textChars":2,"textLines":1,"bbox":[673,494,221.5,34]}
+{"kind":"textbox","id":"sh/ormlsv65","slide":24,"text":"等于500","textPreview":"等于500","textChars":5,"textLines":1,"bbox":[673,535,221.5,40]}
+{"kind":"shape","id":"sh/psv2l07q","slide":24,"bbox":[938.5,474,265.5,116]}
+{"kind":"textbox","id":"sh/2543q5oz","slide":24,"text":"城市","textPreview":"城市","textChars":2,"textLines":1,"bbox":[960.5,494,221.5,34]}
+{"kind":"textbox","id":"sh/nqdkjqpk","slide":24,"text":"等于北京","textPreview":"等于北京","textChars":4,"textLines":1,"bbox":[960.5,535,221.5,40]}
+{"kind":"notes","id":"nt/fwbpge","slide":24,"text":"[Sources]\n- /Users/keivn/Project/AI-Course/课程生产/第一阶段/第09课_AI产品测试、指标与Bad Case_重做工作区/第9课 - AI产品评测与数据反馈.md\n- 内容依据：规则评测：检查明确条件"}
+{"kind":"slide","id":"sl/3eyytm","slide":25,"title":"AI PRODUCT · METHODS","textShapes":17}
+{"kind":"textbox","id":"sh/tcbqhkbq","slide":25,"text":"AI PRODUCT · METHODS","textPreview":"AI PRODUCT · METHODS","textChars":20,"textLines":1,"bbox":[70,27,360,22]}
+{"kind":"textbox","id":"sh/690765cz","slide":25,"text":"25","textPreview":"25","textChars":2,"textLines":1,"bbox":[1160,27,48,22]}
+{"kind":"shape","id":"sh/rat8fatk","slide":25,"bbox":[70,683,1140,2]}
+{"kind":"shape","id":"sh/gz2pcfu1","slide":25,"bbox":[70,683,425.37,2]}
+{"kind":"textbox","id":"sh/10bqlkbm","slide":25,"text":"规则评测的适用边界","textPreview":"规则评测的适用边界","textChars":9,"textLines":1,"bbox":[70,72,1130,58]}
+{"kind":"shape","id":"sh/exk7apcv","slide":25,"bbox":[70,148,160,4]}
+{"kind":"shape","id":"sh/fyt8jutg","slide":25,"bbox":[76,212,530,380]}
+{"kind":"textbox","id":"sh/w3ip0vux","slide":25,"text":"适合","textPreview":"适合","textChars":2,"textLines":1,"bbox":[104,236,474,40]}
+{"kind":"textbox","id":"sh/h4rq90vi","slide":25,"text":"—","textPreview":"—","textChars":1,"textLines":1,"bbox":[101,304,38,30]}
+{"kind":"textbox","id":"sh/pgbq1cja","slide":25,"text":"金额、日期、枚举值","textPreview":"金额、日期、枚举值","textChars":9,"textLines":1,"bbox":[153,303,428,38]}
+{"kind":"textbox","id":"sh/4vip87ip","slide":25,"text":"—","textPreview":"—","textChars":1,"textLines":1,"bbox":[101,356,38,30]}
+{"kind":"textbox","id":"sh/3u98zm14","slide":25,"text":"JSON格式与字段","textPreview":"JSON格式与字段","textChars":9,"textLines":1,"bbox":[153,355,428,38]}
+{"kind":"textbox","id":"sh/2t076h0j","slide":25,"text":"—","textPreview":"—","textChars":1,"textLines":1,"bbox":[101,408,38,30]}
+{"kind":"textbox","id":"sh/dkbq5wj6","slide":25,"text":"敏感词与工具调用","textPreview":"敏感词与工具调用","textChars":8,"textLines":1,"bbox":[153,407,428,38]}
+{"kind":"shape","id":"sh/cj2pcri1","slide":25,"bbox":[674,212,530,380]}
+{"kind":"textbox","id":"sh/bit83m1g","slide":25,"text":"不适合","textPreview":"不适合","textChars":3,"textLines":1,"bbox":[702,236,474,40]}
+{"kind":"textbox","id":"sh/qhk7ah0v","slide":25,"text":"—","textPreview":"—","textChars":1,"textLines":1,"bbox":[699,304,38,30]}
+{"kind":"textbox","id":"sh/lovq9wzi","slide":25,"text":"开放式解释","textPreview":"开放式解释","textChars":5,"textLines":1,"bbox":[751,303,428,38]}
+{"kind":"textbox","id":"sh/0n2pgrix","slide":25,"text":"—","textPreview":"—","textChars":1,"textLines":1,"bbox":[699,356,38,30]}
+{"kind":"textbox","id":"sh/kra9cfq9","slide":25,"text":"同义改写","textPreview":"同义改写","textChars":4,"textLines":1,"bbox":[751,355,428,38]}
+{"kind":"textbox","id":"sh/ls3alk7u","slide":25,"text":"—","textPreview":"—","textChars":1,"textLines":1,"bbox":[699,408,38,30]}
+{"kind":"textbox","id":"sh/ypsra583","slide":25,"text":"整体表达质量","textPreview":"整体表达质量","textChars":6,"textLines":1,"bbox":[751,407,428,38]}
+{"kind":"notes","id":"nt/3eyytm","slide":25,"text":"[Sources]\n- /Users/keivn/Project/AI-Course/课程生产/第一阶段/第09课_AI产品测试、指标与Bad Case_重做工作区/第9课 - AI产品评测与数据反馈.md\n- 内容依据：规则评测的适用边界"}
+{"kind":"slide","id":"sl/08iqwc","slide":26,"title":"AI PRODUCT · METHODS","textShapes":14}
+{"kind":"textbox","id":"sh/2tg3mhcf","slide":26,"text":"AI PRODUCT · METHODS","textPreview":"AI PRODUCT · METHODS","textChars":20,"textLines":1,"bbox":[70,27,360,22]}
+{"kind":"textbox","id":"sh/pw7mhcbq","slide":26,"text":"26","textPreview":"26","textChars":2,"textLines":1,"bbox":[1160,27,48,22]}
+{"kind":"shape","id":"sh/ovylo7u5","slide":26,"bbox":[70,683,1140,2]}
+{"kind":"shape","id":"sh/byp4jmtw","slide":26,"bbox":[70,683,442.39,2]}
+{"kind":"textbox","id":"sh/qxg3qhcb","slide":26,"text":"语义相似度的局限","textPreview":"语义相似度的局限","textChars":8,"textLines":1,"bbox":[70,72,1130,58]}
+{"kind":"shape","id":"sh/dkrmlwb2","slide":26,"bbox":[70,148,160,4]}
+{"kind":"textbox","id":"sh/cjylsruh","slide":26,"text":"案例拆解","textPreview":"案例拆解","textChars":4,"textLines":1,"bbox":[250,136,930,28]}
+{"kind":"textbox","id":"sh/zm94n6t8","slide":26,"text":"用户问题","textPreview":"用户问题","textChars":4,"textLines":1,"bbox":[82,194,180,30]}
+{"kind":"shape","id":"sh/yl03u1cn","slide":26,"bbox":[86,226,1108,86]}
+{"kind":"shape","id":"sh/g3m5wvq5","slide":26,"bbox":[86,226,8,86]}
+{"kind":"textbox","id":"sh/14v6507a","slide":26,"text":"参考答案：退款将在3至5个工作日到账。","textPreview":"参考答案：退款将在3至5个工作日到账。","textChars":19,"textLines":1,"bbox":[122,247,1030,46]}
+{"kind":"textbox","id":"sh/eh4nul8z","slide":26,"text":"AI回答","textPreview":"AI回答","textChars":4,"textLines":1,"bbox":[82,330,180,30]}
+{"kind":"shape","id":"sh/fido3qpk","slide":26,"bbox":[86,362,1108,86]}
+{"kind":"shape","id":"sh/o7m50fq1","slide":26,"bbox":[86,362,8,86]}
+{"kind":"textbox","id":"sh/p8f6907m","slide":26,"text":"退款将在5至7个工作日到账。","textPreview":"退款将在5至7个工作日到账。","textChars":14,"textLines":1,"bbox":[122,383,1030,46]}
+{"kind":"shape","id":"sh/254ny58v","slide":26,"bbox":[76,474,361.33,116]}
+{"kind":"textbox","id":"sh/36do7apg","slide":26,"text":"相似度","textPreview":"相似度","textChars":3,"textLines":1,"bbox":[98,494,317.33,34]}
+{"kind":"textbox","id":"sh/cb6p4fqx","slide":26,"text":"可能很高","textPreview":"可能很高","textChars":4,"textLines":1,"bbox":[98,535,317.33,40]}
+{"kind":"shape","id":"sh/dcf6dk7i","slide":26,"bbox":[459.33,474,361.33,116]}
+{"kind":"textbox","id":"sh/lsb6hkzm","slide":26,"text":"关键数字","textPreview":"关键数字","textChars":4,"textLines":1,"bbox":[481.33,494,317.33,34]}
+{"kind":"textbox","id":"sh/kr25ofih","slide":26,"text":"实际错误","textPreview":"实际错误","textChars":4,"textLines":1,"bbox":[481.33,535,317.33,40]}
+{"kind":"shape","id":"sh/zqtofahw","slide":26,"bbox":[842.67,474,361.33,116]}
+{"kind":"textbox","id":"sh/ypknm50b","slide":26,"text":"结论","textPreview":"结论","textChars":2,"textLines":1,"bbox":[864.67,494,317.33,34]}
+{"kind":"textbox","id":"sh/9wv6lkzy","slide":26,"text":"仍需规则或人工","textPreview":"仍需规则或人工","textChars":7,"textLines":1,"bbox":[864.67,535,317.33,40]}
+{"kind":"notes","id":"nt/08iqwc","slide":26,"text":"[Sources]\n- /Users/keivn/Project/AI-Course/课程生产/第一阶段/第09课_AI产品测试、指标与Bad Case_重做工作区/第9课 - AI产品评测与数据反馈.md\n- 内容依据：语义相似度的局限"}
+{"kind":"slide","id":"sl/6r1prp","slide":27,"title":"AI PRODUCT · METHODS","textShapes":13}
+{"kind":"textbox","id":"sh/ruh4nylw","slide":27,"text":"AI PRODUCT · METHODS","textPreview":"AI PRODUCT · METHODS","textChars":20,"textLines":1,"bbox":[70,27,360,22]}
+{"kind":"textbox","id":"sh/svq5g32h","slide":27,"text":"27","textPreview":"27","textChars":2,"textLines":1,"bbox":[1160,27,48,22]}
+{"kind":"shape","id":"sh/dwzmp83m","slide":27,"bbox":[70,683,1140,2]}
+{"kind":"shape","id":"sh/i58nq9kz","slide":27,"bbox":[70,683,459.4,2]}
+{"kind":"textbox","id":"sh/36h4jelk","slide":27,"text":"LLM-as-Judge需要哪些输入","textPreview":"LLM-as-Judge需要哪些输入","textChars":18,"textLines":1,"bbox":[70,72,1130,58]}
+{"kind":"shape","id":"sh/4rq5sj25","slide":27,"bbox":[70,148,160,4]}
+{"kind":"shape","id":"sh/5szmlo3q","slide":27,"bbox":[286.8,358,15,0]}
+{"kind":"shape","id":"sh/21snmdkj","slide":27,"bbox":[515.6,358,15,0]}
+{"kind":"shape","id":"sh/n21ovil4","slide":27,"bbox":[744.4,358,15,0]}
+{"kind":"shape","id":"sh/3ihcnixk","slide":27,"bbox":[973.2,358,15,0]}
+{"kind":"shape","id":"sh/ih8bedwz","slide":27,"bbox":[78,300,208.8,116]}
+{"kind":"textbox","id":"sh/5kjup8fq","slide":27,"text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[92,312,34,24]}
+{"kind":"textbox","id":"sh/4jqtg3e5","slide":27,"text":"用户问题","textPreview":"用户问题","textChars":4,"textLines":1,"bbox":[93,344,178.8,52]}
+{"kind":"shape","id":"sh/rm1crixw","slide":27,"bbox":[306.8,300,208.8,116]}
+{"kind":"textbox","id":"sh/qlsbidwb","slide":27,"text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[320.8,312,34,24]}
+{"kind":"textbox","id":"sh/d8jutsfm","slide":27,"text":"必要上下文","textPreview":"必要上下文","textChars":5,"textLines":1,"bbox":[321.8,344,178.8,52]}
+{"kind":"shape","id":"sh/s7atkneh","slide":27,"bbox":[535.6,300,208.8,116]}
+{"kind":"textbox","id":"sh/fa1cv2xs","slide":27,"text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[549.6,312,34,24]}
+{"kind":"textbox","id":"sh/e9sbmxw7","slide":27,"text":"参考答案","textPreview":"参考答案","textChars":4,"textLines":1,"bbox":[550.6,344,178.8,52]}
+{"kind":"shape","id":"sh/a5wfe1gf","slide":27,"bbox":[764.4,300,208.8,116]}
+{"kind":"textbox","id":"sh/b65wnmh0","slide":27,"text":"04","textPreview":"04","textChars":2,"textLines":1,"bbox":[778.4,312,34,24]}
+{"kind":"textbox","id":"sh/c7exgryl","slide":27,"text":"评分维度","textPreview":"评分维度","textChars":4,"textLines":1,"bbox":[779.4,344,178.8,52]}
+{"kind":"shape","id":"sh/x8nepwz6","slide":27,"bbox":[993.2,300,208.8,116]}
+{"kind":"textbox","id":"sh/21cvahgj","slide":27,"text":"05","textPreview":"05","textChars":2,"textLines":1,"bbox":[1007.2,312,34,24]}
+{"kind":"textbox","id":"sh/n2lwjmh4","slide":27,"text":"被测回答","textPreview":"被测回答","textChars":4,"textLines":1,"bbox":[1008.2,344,178.8,52]}
+{"kind":"notes","id":"nt/6r1prp","slide":27,"text":"[Sources]\n- /Users/keivn/Project/AI-Course/课程生产/第一阶段/第09课_AI产品测试、指标与Bad Case_重做工作区/第9课 - AI产品评测与数据反馈.md\n- 内容依据：LLM-as-Judge需要哪些输入"}
+{"kind":"slide","id":"sl/ub2sty","slide":28,"title":"AI PRODUCT · METHODS","textShapes":13}
+{"kind":"textbox","id":"sh/nalonep8","slide":28,"text":"AI PRODUCT · METHODS","textPreview":"AI PRODUCT · METHODS","textChars":20,"textLines":1,"bbox":[70,27,360,22]}
+{"kind":"textbox","id":"sh/obupgj6t","slide":28,"text":"28","textPreview":"28","textChars":2,"textLines":1,"bbox":[1160,27,48,22]}
+{"kind":"shape","id":"sh/9cn6po7e","slide":28,"bbox":[70,683,1140,2]}
+{"kind":"shape","id":"sh/elc7a98r","slide":28,"bbox":[70,683,476.42,2]}
+{"kind":"textbox","id":"sh/zmlojupc","slide":28,"text":"Judge Prompt的五个组成","textPreview":"Judge Prompt的五个组成","textChars":17,"textLines":1,"bbox":[70,72,1130,58]}
+{"kind":"shape","id":"sh/07upczqx","slide":28,"bbox":[70,148,160,4]}
+{"kind":"shape","id":"sh/1836l472","slide":28,"bbox":[76,210,361.33,148]}
+{"kind":"textbox","id":"sh/ihw7mtov","slide":28,"text":"任务","textPreview":"任务","textChars":2,"textLines":1,"bbox":[98,230,317.33,34]}
+{"kind":"textbox","id":"sh/j258vypg","slide":28,"text":"明确裁判要判断什么","textPreview":"明确裁判要判断什么","textChars":9,"textLines":1,"bbox":[98,271,317.33,72]}
+{"kind":"shape","id":"sh/rqls72xw","slide":28,"bbox":[459.33,210,361.33,148]}
+{"kind":"textbox","id":"sh/qpcbexwb","slide":28,"text":"维度","textPreview":"维度","textChars":2,"textLines":1,"bbox":[481.33,230,317.33,34]}
+{"kind":"textbox","id":"sh/dsna9cf2","slide":28,"text":"正确、相关、完整、安全","textPreview":"正确、相关、完整、安全","textChars":11,"textLines":1,"bbox":[481.33,271,317.33,72]}
+{"kind":"shape","id":"sh/sretg7eh","slide":28,"bbox":[842.67,210,361.33,148]}
+{"kind":"textbox","id":"sh/zu5sb2xs","slide":28,"text":"锚点","textPreview":"锚点","textChars":2,"textLines":1,"bbox":[864.67,230,317.33,34]}
+{"kind":"textbox","id":"sh/etwbihw7","slide":28,"text":"0/1/2分的清晰边界","textPreview":"0/1/2分的清晰边界","textChars":11,"textLines":1,"bbox":[864.67,271,317.33,72]}
+{"kind":"shape","id":"sh/1wnadcfy","slide":28,"bbox":[76,380,361.33,148]}
+{"kind":"textbox","id":"sh/0vetk7ed","slide":28,"text":"红线","textPreview":"红线","textChars":2,"textLines":1,"bbox":[98,400,317.33,34]}
+{"kind":"textbox","id":"sh/nypsfmx4","slide":28,"text":"触发即不合格","textPreview":"触发即不合格","textChars":6,"textLines":1,"bbox":[98,441,317.33,72]}
+{"kind":"shape","id":"sh/mxwbmhwj","slide":28,"bbox":[459.33,380,361.33,148]}
+{"kind":"textbox","id":"sh/yd0velgr","slide":28,"text":"格式","textPreview":"格式","textChars":2,"textLines":1,"bbox":[481.33,400,317.33,34]}
+{"kind":"textbox","id":"sh/je9w7qhc","slide":28,"text":"结构化输出与证据","textPreview":"结构化输出与证据","textChars":8,"textLines":1,"bbox":[481.33,441,317.33,72]}
+{"kind":"notes","id":"nt/ub2sty","slide":28,"text":"[Sources]\n- /Users/keivn/Project/AI-Course/课程生产/第一阶段/第09课_AI产品测试、指标与Bad Case_重做工作区/第9课 - AI产品评测与数据反馈.md\n- 内容依据：Judge Prompt的五个组成"}
+{"kind":"slide","id":"sl/80wtu8","slide":29,"title":"AI PRODUCT · METHODS","textShapes":4}
+{"kind":"textbox","id":"sh/kjmxwnm5","slide":29,"text":"AI PRODUCT · METHODS","textPreview":"AI PRODUCT · METHODS","textChars":20,"textLines":1,"bbox":[70,27,360,22]}
+{"kind":"textbox","id":"sh/jydwni5k","slide":29,"text":"29","textPreview":"29","textChars":2,"textLines":1,"bbox":[1160,27,48,22]}
+{"kind":"shape","id":"sh/ix4fux4z","slide":29,"bbox":[70,683,1140,2]}
+{"kind":"shape","id":"sh/tofetcnm","slide":29,"bbox":[70,683,493.43,2]}
+{"kind":"textbox","id":"sh/snmx07m1","slide":29,"text":"Judge输出示例","textPreview":"Judge输出示例","textChars":9,"textLines":1,"bbox":[70,72,1130,58]}
+{"kind":"shape","id":"sh/7mdwr25g","slide":29,"bbox":[70,148,160,4]}
+{"kind":"shape","id":"sh/6l4fyx4v","slide":29,"bbox":[150,220,980,360]}
+{"kind":"textbox","id":"sh/1sfyxc3i","slide":29,"text":"{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"completeness\": 1,\n  \"safety\": 2,\n  \"reason\": \"金额正确，但未说明职级差异\"\n}","textPreview":"{ |   \"correctness\": 2, |   \"relevance\": 2, |   \"completeness\": 1, |   \"safety\": 2, |   \"reason\": \"金额正确，但未说明职级差异\" | }","textChars":105,"textLines":7,"bbox":[196,262,890,280]}
+{"kind":"notes","id":"nt/80wtu8","slide":29,"text":"[Sources]\n- /Users/keivn/Project/AI-Course/课程生产/第一阶段/第09课_AI产品测试、指标与Bad Case_重做工作区/第9课 - AI产品评测与数据反馈.md\n- 内容依据：Judge输出示例"}
+{"kind":"slide","id":"sl/uefatb","slide":30,"title":"AI PRODUCT · METHODS","textShapes":9}
+{"kind":"textbox","id":"sh/d8vul0ve","slide":30,"text":"AI PRODUCT · METHODS","textPreview":"AI PRODUCT · METHODS","textChars":20,"textLines":1,"bbox":[70,27,360,22]}
+{"kind":"textbox","id":"sh/q5kbqlw3","slide":30,"text":"30","textPreview":"30","textChars":2,"textLines":1,"bbox":[1160,27,48,22]}
+{"kind":"shape","id":"sh/r6dsjqd8","slide":30,"bbox":[70,683,1140,2]}
+{"kind":"shape","id":"sh/0bmtwfe5","slide":30,"bbox":[70,683,510.45,2]}
+{"kind":"textbox","id":"sh/lcvup0vq","slide":30,"text":"人工评审的三个角色","textPreview":"人工评审的三个角色","textChars":9,"textLines":1,"bbox":[70,72,1130,58]}
+{"kind":"shape","id":"sh/y94bu5wz","slide":30,"bbox":[70,148,160,4]}
+{"kind":"shape","id":"sh/zadcnadk","slide":30,"bbox":[76,210,361.33,180]}
+{"kind":"textbox","id":"sh/gf2tkbel","slide":30,"text":"定义金标准","textPreview":"定义金标准","textChars":5,"textLines":1,"bbox":[98,230,317.33,34]}
+{"kind":"textbox","id":"sh/hgbadgv6","slide":30,"text":"确定哪些答案应该得多少分","textPreview":"确定哪些答案应该得多少分","textChars":12,"textLines":1,"bbox":[98,271,317.33,104]}
+{"kind":"shape","id":"sh/l0jedw7a","slide":30,"bbox":[459.33,210,361.33,180]}
+{"kind":"textbox","id":"sh/0zaxkr6p","slide":30,"text":"处理争议","textPreview":"处理争议","textChars":4,"textLines":1,"bbox":[481.33,230,317.33,34]}
+{"kind":"textbox","id":"sh/zy1wbmp4","slide":30,"text":"复核高风险和边界样本","textPreview":"复核高风险和边界样本","textChars":10,"textLines":1,"bbox":[481.33,271,317.33,104]}
+{"kind":"shape","id":"sh/yxsfihoj","slide":30,"bbox":[842.67,210,361.33,180]}
+{"kind":"textbox","id":"sh/943ehg76","slide":30,"text":"校准自动评分","textPreview":"校准自动评分","textChars":6,"textLines":1,"bbox":[864.67,230,317.33,34]}
+{"kind":"textbox","id":"sh/83uxob6l","slide":30,"text":"比较人工与Judge结果，发现漂移","textPreview":"比较人工与Judge结果，发现漂移","textChars":17,"textLines":1,"bbox":[864.67,271,317.33,104]}
+{"kind":"notes","id":"nt/uefatb","slide":30,"text":"[Sources]\n- /Users/keivn/Project/AI-Course/课程生产/第一阶段/第09课_AI产品测试、指标与Bad Case_重做工作区/第9课 - AI产品评测与数据反馈.md\n- 内容依据：人工评审的三个角色"}
+{"kind":"slide","id":"sl/cmdshf","slide":31,"title":"AI PRODUCT · METHODS","textShapes":11}
+{"kind":"textbox","id":"sh/76t8be5c","slide":31,"text":"AI PRODUCT · METHODS","textPreview":"AI PRODUCT · METHODS","textChars":20,"textLines":1,"bbox":[70,27,360,22]}
+{"kind":"textbox","id":"sh/s7294jmx","slide":31,"text":"31","textPreview":"31","textChars":2,"textLines":1,"bbox":[1160,27,48,22]}
+{"kind":"shape","id":"sh/t8bqd4ni","slide":31,"bbox":[70,683,1140,2]}
+{"kind":"shape","id":"sh/u94r6943","slide":31,"bbox":[70,683,527.46,2]}
+{"kind":"textbox","id":"sh/fad8fel8","slide":31,"text":"住宿案例的组合评测","textPreview":"住宿案例的组合评测","textChars":9,"textLines":1,"bbox":[70,72,1130,58]}
+{"kind":"shape","id":"sh/gbm98jmt","slide":31,"bbox":[70,148,160,4]}
+{"kind":"shape","id":"sh/hcvqho3e","slide":31,"bbox":[344,358,15,0]}
+{"kind":"shape","id":"sh/2d4rat4z","slide":31,"bbox":[630,358,15,0]}
+{"kind":"shape","id":"sh/3ed8jylk","slide":31,"bbox":[916,358,15,0]}
+{"kind":"shape","id":"sh/r6psj2l0","slide":31,"bbox":[78,300,266,116]}
+{"kind":"textbox","id":"sh/q5gbqx4f","slide":31,"text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[92,312,34,24]}
+{"kind":"textbox","id":"sh/d87alc3q","slide":31,"text":"规则\n金额与单位","textPreview":"规则 | 金额与单位","textChars":8,"textLines":2,"bbox":[93,344,236,52]}
+{"kind":"shape","id":"sh/s7yts7m5","slide":31,"bbox":[364,300,266,116]}
+{"kind":"textbox","id":"sh/j25sfi5o","slide":31,"text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[378,312,34,24]}
+{"kind":"textbox","id":"sh/i1wrmx43","slide":31,"text":"Judge\n是否真正回答","textPreview":"Judge | 是否真正回答","textChars":12,"textLines":2,"bbox":[379,344,236,52]}
+{"kind":"shape","id":"sh/54nahs3u","slide":31,"bbox":[650,300,266,116]}
+{"kind":"textbox","id":"sh/43etonm9","slide":31,"text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[664,312,34,24]}
+{"kind":"textbox","id":"sh/ny9srmls","slide":31,"text":"Judge\n是否遗漏职级","textPreview":"Judge | 是否遗漏职级","textChars":12,"textLines":2,"bbox":[665,344,236,52]}
+{"kind":"shape","id":"sh/2x0byh4n","slide":31,"bbox":[936,300,266,116]}
+{"kind":"textbox","id":"sh/ytkvqlov","slide":31,"text":"04","textPreview":"04","textChars":2,"textLines":1,"bbox":[950,312,34,24]}
+{"kind":"textbox","id":"sh/zutwzq50","slide":31,"text":"人工\n抽查高风险","textPreview":"人工 | 抽查高风险","textChars":8,"textLines":2,"bbox":[951,344,236,52]}
+{"kind":"notes","id":"nt/cmdshf","slide":31,"text":"[Sources]\n- /Users/keivn/Project/AI-Course/课程生产/第一阶段/第09课_AI产品测试、指标与Bad Case_重做工作区/第9课 - AI产品评测与数据反馈.md\n- 内容依据：住宿案例的组合评测"}
+{"kind":"slide","id":"sl/922kpf","slide":32,"title":"AI PRODUCT · METHODS","textShapes":11}
+{"kind":"textbox","id":"sh/snqdwrel","slide":32,"text":"AI PRODUCT · METHODS","textPreview":"AI PRODUCT · METHODS","textChars":20,"textLines":1,"bbox":[70,27,360,22]}
+{"kind":"textbox","id":"sh/rmhw3mdg","slide":32,"text":"32","textPreview":"32","textChars":2,"textLines":1,"bbox":[1160,27,48,22]}
+{"kind":"shape","id":"sh/ql8vuhwv","slide":32,"bbox":[70,683,1140,2]}
+{"kind":"shape","id":"sh/5kze1cva","slide":32,"bbox":[70,683,544.48,2]}
+{"kind":"textbox","id":"sh/4jqds7ep","slide":32,"text":"评分方法的组合原则","textPreview":"评分方法的组合原则","textChars":9,"textLines":1,"bbox":[70,72,1130,58]}
+{"kind":"shape","id":"sh/3ixwz2d4","slide":32,"bbox":[70,148,160,4]}
+{"kind":"shape","id":"sh/ihovqxwj","slide":32,"bbox":[76,220,553,140]}
+{"kind":"textbox","id":"sh/pgjexgve","slide":32,"text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[98,240,509,34]}
+{"kind":"textbox","id":"sh/ofax4bet","slide":32,"text":"硬条件交给规则","textPreview":"硬条件交给规则","textChars":7,"textLines":1,"bbox":[98,281,509,64]}
+{"kind":"shape","id":"sh/udg3udsr","slide":32,"bbox":[651,220,553,140]}
+{"kind":"textbox","id":"sh/fepkni9c","slide":32,"text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[673,240,509,34]}
+{"kind":"textbox","id":"sh/gfylwnax","slide":32,"text":"多样表达交给相似度","textPreview":"多样表达交给相似度","textChars":9,"textLines":1,"bbox":[673,281,509,64]}
+{"kind":"shape","id":"sh/hg72psri","slide":32,"bbox":[76,382,553,140]}
+{"kind":"textbox","id":"sh/6pw3qdsv","slide":32,"text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[98,402,509,34]}
+{"kind":"textbox","id":"sh/7q5kjytg","slide":32,"text":"开放质量交给LLM Judge","textPreview":"开放质量交给LLM Judge","textChars":15,"textLines":1,"bbox":[98,443,509,64]}
+{"kind":"shape","id":"sh/srels3a1","slide":32,"bbox":[651,382,553,140]}
+{"kind":"textbox","id":"sh/tcn2l8r6","slide":32,"text":"04","textPreview":"04","textChars":2,"textLines":1,"bbox":[673,402,509,34]}
+{"kind":"textbox","id":"sh/ql032xsz","slide":32,"text":"关键风险交给人工","textPreview":"关键风险交给人工","textChars":8,"textLines":1,"bbox":[673,443,509,64]}
+{"kind":"notes","id":"nt/922kpf","slide":32,"text":"[Sources]\n- /Users/keivn/Project/AI-Course/课程生产/第一阶段/第09课_AI产品测试、指标与Bad Case_重做工作区/第9课 - AI产品评测与数据反馈.md\n- 内容依据：评分方法的组合原则"}
+{"kind":"slide","id":"sl/c6nivh","slide":33,"title":"AI PRODUCT · AUTOMATION","textShapes":4}
+{"kind":"textbox","id":"sh/sn61g3id","slide":33,"text":"AI PRODUCT · AUTOMATION","textPreview":"AI PRODUCT · AUTOMATION","textChars":23,"textLines":1,"bbox":[70,27,360,22]}
+{"kind":"textbox","id":"sh/rmx07yh8","slide":33,"text":"33","textPreview":"33","textChars":2,"textLines":1,"bbox":[1160,27,48,22]}
+{"kind":"shape","id":"sh/6lojet0n","slide":33,"bbox":[70,683,1140,2]}
+{"kind":"shape","id":"sh/1czid8za","slide":33,"bbox":[70,683,561.49,2]}
+{"kind":"textbox","id":"sh/gbq1knip","slide":33,"text":"03 自动化评测","textPreview":"03 自动化评测","textChars":8,"textLines":1,"bbox":[80,182,1080,88]}
+{"kind":"shape","id":"sh/fah0bih4","slide":33,"bbox":[80,300,120,6]}
+{"kind":"textbox","id":"sh/e9ojid0j","slide":33,"text":"让同一套考试可重复运行","textPreview":"让同一套考试可重复运行","textChars":11,"textLines":1,"bbox":[84,345,980,50]}
+{"kind":"notes","id":"nt/c6nivh","slide":33,"text":"[Sources]\n- /Users/keivn/Project/AI-Course/课程生产/第一阶段/第09课_AI产品测试、指标与Bad Case_重做工作区/第9课 - AI产品评测与数据反馈.md\n- 内容依据：03 自动化评测"}
+{"kind":"slide","id":"sl/37qb25","slide":34,"title":"AI PRODUCT · AUTOMATION","textShapes":13}
+{"kind":"textbox","id":"sh/m907ut8b","slide":34,"text":"AI PRODUCT · AUTOMATION","textPreview":"AI PRODUCT · AUTOMATION","textChars":23,"textLines":1,"bbox":[70,27,360,22]}
+{"kind":"textbox","id":"sh/9wrqpor2","slide":34,"text":"34","textPreview":"34","textChars":2,"textLines":1,"bbox":[1160,27,48,22]}
+{"kind":"shape","id":"sh/8vi9wjqh","slide":34,"bbox":[70,683,1140,2]}
+{"kind":"shape","id":"sh/z6p8je90","slide":34,"bbox":[70,683,578.51,2]}
+{"kind":"textbox","id":"sh/y5g7q98f","slide":34,"text":"自动评测系统的基本结构","textPreview":"自动评测系统的基本结构","textChars":11,"textLines":1,"bbox":[70,72,1130,58]}
+{"kind":"shape","id":"sh/l8rqlorq","slide":34,"bbox":[70,148,160,4]}
+{"kind":"shape","id":"sh/07ypsjql","slide":34,"bbox":[286.8,358,15,0]}
+{"kind":"shape","id":"sh/b2p8fu9o","slide":34,"bbox":[515.6,358,15,0]}
+{"kind":"shape","id":"sh/q1g7m983","slide":34,"bbox":[744.4,358,15,0]}
+{"kind":"shape","id":"sh/43a9g7mp","slide":34,"bbox":[973.2,358,15,0]}
+{"kind":"shape","id":"sh/54ja9s3a","slide":34,"bbox":[78,300,208.8,116]}
+{"kind":"textbox","id":"sh/i18rex4j","slide":34,"text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[92,312,34,24]}
+{"kind":"textbox","id":"sh/321s72l4","slide":34,"text":"用例库","textPreview":"用例库","textChars":3,"textLines":1,"bbox":[93,344,178.8,52]}
+{"kind":"shape","id":"sh/gzq9cnmd","slide":34,"bbox":[306.8,300,208.8,116]}
+{"kind":"textbox","id":"sh/h0za5s3y","slide":34,"text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[320.8,312,34,24]}
+{"kind":"textbox","id":"sh/ux8rad4n","slide":34,"text":"批量运行","textPreview":"批量运行","textChars":4,"textLines":1,"bbox":[321.8,344,178.8,52]}
+{"kind":"shape","id":"sh/vyh83il8","slide":34,"bbox":[535.6,300,208.8,116]}
+{"kind":"textbox","id":"sh/0vu9ormx","slide":34,"text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[549.6,312,34,24]}
+{"kind":"textbox","id":"sh/1w3ahw3i","slide":34,"text":"评分模块","textPreview":"评分模块","textChars":4,"textLines":1,"bbox":[550.6,344,178.8,52]}
+{"kind":"shape","id":"sh/p0filsra","slide":34,"bbox":[764.4,300,208.8,116]}
+{"kind":"textbox","id":"sh/oz61cnap","slide":34,"text":"04","textPreview":"04","textChars":2,"textLines":1,"bbox":[778.4,312,34,24]}
+{"kind":"textbox","id":"sh/nex0ji94","slide":34,"text":"结果库","textPreview":"结果库","textChars":3,"textLines":1,"bbox":[779.4,344,178.8,52]}
+{"kind":"shape","id":"sh/2dozadsj","slide":34,"bbox":[993.2,300,208.8,116]}
+{"kind":"textbox","id":"sh/1cfih8re","slide":34,"text":"05","textPreview":"05","textChars":2,"textLines":1,"bbox":[1007.2,312,34,24]}
+{"kind":"textbox","id":"sh/0b6h83at","slide":34,"text":"评测报告","textPreview":"评测报告","textChars":4,"textLines":1,"bbox":[1008.2,344,178.8,52]}
+{"kind":"notes","id":"nt/37qb25","slide":34,"text":"[Sources]\n- /Users/keivn/Project/AI-Course/课程生产/第一阶段/第09课_AI产品测试、指标与Bad Case_重做工作区/第9课 - AI产品评测与数据反馈.md\n- 内容依据：自动评测系统的基本结构"}
+{"kind":"slide","id":"sl/i5xh3g","slide":35,"title":"AI PRODUCT · AUTOMATION","textShapes":15}
+{"kind":"textbox","id":"sh/yd4fixwz","slide":35,"text":"AI PRODUCT · AUTOMATION","textPreview":"AI PRODUCT · AUTOMATION","textChars":23,"textLines":1,"bbox":[70,27,360,22]}
+{"kind":"textbox","id":"sh/lgvytcfq","slide":35,"text":"35","textPreview":"35","textChars":2,"textLines":1,"bbox":[1160,27,48,22]}
+{"kind":"shape","id":"sh/kfmxk7e5","slide":35,"bbox":[70,683,1140,2]}
+{"kind":"shape","id":"sh/batwnixo","slide":35,"bbox":[70,683,595.52,2]}
+{"kind":"textbox","id":"sh/a9kfexw3","slide":35,"text":"一次自动化评测的六个步骤","textPreview":"一次自动化评测的六个步骤","textChars":12,"textLines":1,"bbox":[70,72,1130,58]}
+{"kind":"shape","id":"sh/xcvepsfe","slide":35,"bbox":[70,148,160,4]}
+{"kind":"shape","id":"sh/cb2xgne9","slide":35,"bbox":[248.67,346,15,0]}
+{"kind":"shape","id":"sh/v6xgzmds","slide":35,"bbox":[439.33,346,15,0]}
+{"kind":"shape","id":"sh/u5ofqhw7","slide":35,"bbox":[630,346,15,0]}
+{"kind":"shape","id":"sh/w3qlcbqt","slide":35,"bbox":[820.67,346,15,0]}
+{"kind":"shape","id":"sh/x4z25gre","slide":35,"bbox":[1011.33,346,15,0]}
+{"kind":"shape","id":"sh/a183alsn","slide":35,"bbox":[78,300,170.67,92]}
+{"kind":"textbox","id":"sh/v2hk3q98","slide":35,"text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[92,312,34,24]}
+{"kind":"textbox","id":"sh/8zql8bah","slide":35,"text":"选版本","textPreview":"选版本","textChars":3,"textLines":1,"bbox":[93,342,140.67,52]}
+{"kind":"shape","id":"sh/90z21gr2","slide":35,"bbox":[268.67,300,170.67,92]}
+{"kind":"textbox","id":"sh/mxo361sr","slide":35,"text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[282.67,312,34,24]}
+{"kind":"textbox","id":"sh/nyxkz69w","slide":35,"text":"选题集","textPreview":"选题集","textChars":3,"textLines":1,"bbox":[283.67,342,140.67,52]}
+{"kind":"shape","id":"sh/0b6l4ral","slide":35,"bbox":[459.33,300,170.67,92]}
+{"kind":"textbox","id":"sh/lwf2xwr6","slide":35,"text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[473.33,312,34,24]}
+{"kind":"textbox","id":"sh/1s7i1sju","slide":35,"text":"批量运行","textPreview":"批量运行","textChars":4,"textLines":1,"bbox":[474.33,342,140.67,52]}
+{"kind":"shape","id":"sh/0ry18n29","slide":35,"bbox":[650,300,170.67,92]}
+{"kind":"textbox","id":"sh/fqp0zi1o","slide":35,"text":"04","textPreview":"04","textChars":2,"textLines":1,"bbox":[664,312,34,24]}
+{"kind":"textbox","id":"sh/epgj6dk3","slide":35,"text":"自动评分","textPreview":"自动评分","textChars":4,"textLines":1,"bbox":[665,342,140.67,52]}
+{"kind":"shape","id":"sh/d47ix8jy","slide":35,"bbox":[840.67,300,170.67,92]}
+{"kind":"textbox","id":"sh/s3yh4n2d","slide":35,"text":"05","textPreview":"05","textChars":2,"textLines":1,"bbox":[854.67,312,34,24]}
+{"kind":"textbox","id":"sh/r250vi1s","slide":35,"text":"生成报告","textPreview":"生成报告","textChars":4,"textLines":1,"bbox":[855.67,342,140.67,52]}
+{"kind":"shape","id":"sh/q1wz2dk7","slide":35,"bbox":[1031.33,300,170.67,92]}
+{"kind":"textbox","id":"sh/x0ri9cj2","slide":35,"text":"06","textPreview":"06","textChars":2,"textLines":1,"bbox":[1045.33,312,34,24]}
+{"kind":"textbox","id":"sh/czi1g72h","slide":35,"text":"版本比较","textPreview":"版本比较","textChars":4,"textLines":1,"bbox":[1046.33,342,140.67,52]}
+{"kind":"notes","id":"nt/i5xh3g","slide":35,"text":"[Sources]\n- /Users/keivn/Project/AI-Course/课程生产/第一阶段/第09课_AI产品测试、指标与Bad Case_重做工作区/第9课 - AI产品评测与数据反馈.md\n- 内容依据：一次自动化评测的六个步骤"}
+{"kind":"slide","id":"sl/ogcv3h","slide":36,"title":"AI PRODUCT · AUTOMATION","textShapes":11}
+{"kind":"textbox","id":"sh/6hwfqps3","slide":36,"text":"AI PRODUCT · AUTOMATION","textPreview":"AI PRODUCT · AUTOMATION","textChars":23,"textLines":1,"bbox":[70,27,360,22]}
+{"kind":"textbox","id":"sh/tknel4re","slide":36,"text":"36","textPreview":"36","textChars":2,"textLines":1,"bbox":[1160,27,48,22]}
+{"kind":"shape","id":"sh/sjexszat","slide":36,"bbox":[70,683,1140,2]}
+{"kind":"shape","id":"sh/fm5gne9k","slide":36,"bbox":[70,683,612.54,2]}
+{"kind":"textbox","id":"sh/elwfu9sz","slide":36,"text":"自动测试Agent是什么","textPreview":"自动测试Agent是什么","textChars":12,"textLines":1,"bbox":[70,72,1130,58]}
+{"kind":"shape","id":"sh/187yporq","slide":36,"bbox":[70,148,160,4]}
+{"kind":"shape","id":"sh/g7exwja5","slide":36,"bbox":[76,210,553,180]}
+{"kind":"textbox","id":"sh/vqlwba9g","slide":36,"text":"执行者","textPreview":"执行者","textChars":3,"textLines":1,"bbox":[98,230,509,34]}
+{"kind":"textbox","id":"sh/upcfi5sv","slide":36,"text":"读取用例、调用产品、收集回答、运行评分器","textPreview":"读取用例、调用产品、收集回答、运行评分器","textChars":20,"textLines":1,"bbox":[98,271,509,104]}
+{"kind":"shape","id":"sh/s7edofil","slide":36,"bbox":[651,210,553,180]}
+{"kind":"textbox","id":"sh/d8nehkz6","slide":36,"text":"记录者","textPreview":"记录者","textChars":3,"textLines":1,"bbox":[673,230,509,34]}
+{"kind":"textbox","id":"sh/q5wvmp0f","slide":36,"text":"保存模型、Prompt、知识库、工具、时间与成本版本","textPreview":"保存模型、Prompt、知识库、工具、时间与成本版本","textChars":26,"textLines":1,"bbox":[673,271,509,104]}
+{"kind":"shape","id":"sh/r65wfuh0","slide":36,"bbox":[76,412,553,180]}
+{"kind":"textbox","id":"sh/0vyxszih","slide":36,"text":"报告者","textPreview":"报告者","textChars":3,"textLines":1,"bbox":[98,432,509,34]}
+{"kind":"textbox","id":"sh/1w7el4z2","slide":36,"text":"汇总场景结果，标记低分与红线问题","textPreview":"汇总场景结果，标记低分与红线问题","textChars":16,"textLines":1,"bbox":[98,473,509,104]}
+{"kind":"shape","id":"sh/e9gvqp0b","slide":36,"bbox":[651,412,553,180]}
+{"kind":"textbox","id":"sh/fapwjuhw","slide":36,"text":"转交者","textPreview":"转交者","textChars":3,"textLines":1,"bbox":[673,432,509,34]}
+{"kind":"textbox","id":"sh/wzudgvid","slide":36,"text":"把高风险和争议样本交给人工处理","textPreview":"把高风险和争议样本交给人工处理","textChars":15,"textLines":1,"bbox":[673,473,509,104]}
+{"kind":"notes","id":"nt/ogcv3h","slide":36,"text":"[Sources]\n- /Users/keivn/Project/AI-Course/课程生产/第一阶段/第09课_AI产品测试、指标与Bad Case_重做工作区/第9课 - AI产品评测与数据反馈.md\n- 内容依据：自动测试Agent是什么"}
+{"kind":"slide","id":"sl/i8swvr","slide":37,"title":"AI PRODUCT · AUTOMATION","textShapes":13}
+{"kind":"textbox","id":"sh/zmpsra18","slide":37,"text":"AI PRODUCT · AUTOMATION","textPreview":"AI PRODUCT · AUTOMATION","textChars":23,"textLines":1,"bbox":[70,27,360,22]}
+{"kind":"textbox","id":"sh/kni90fit","slide":37,"text":"37","textPreview":"37","textChars":2,"textLines":1,"bbox":[1160,27,48,22]}
+{"kind":"shape","id":"sh/loratkje","slide":37,"bbox":[70,683,1140,2]}
+{"kind":"shape","id":"sh/mp0r250z","slide":37,"bbox":[70,683,629.55,2]}
+{"kind":"textbox","id":"sh/7q9sva14","slide":37,"text":"评测报告的五层结构","textPreview":"评测报告的五层结构","textChars":9,"textLines":1,"bbox":[70,72,1130,58]}
+{"kind":"shape","id":"sh/8ri94fip","slide":37,"bbox":[70,148,160,4]}
+{"kind":"shape","id":"sh/9sraxkja","slide":37,"bbox":[286.8,358,15,0]}
+{"kind":"shape","id":"sh/ut0r6p0v","slide":37,"bbox":[515.6,358,15,0]}
+{"kind":"shape","id":"sh/vutszuhg","slide":37,"bbox":[744.4,358,15,0]}
+{"kind":"shape","id":"sh/3i9cj2d0","slide":37,"bbox":[973.2,358,15,0]}
+{"kind":"shape","id":"sh/2x0bahcf","slide":37,"bbox":[78,300,208.8,116]}
+{"kind":"textbox","id":"sh/pkrulcv6","slide":37,"text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[92,312,34,24]}
+{"kind":"textbox","id":"sh/ojitc7ul","slide":37,"text":"总体结果","textPreview":"总体结果","textChars":4,"textLines":1,"bbox":[93,344,178.8,52]}
+{"kind":"shape","id":"sh/fu9sf2d4","slide":37,"bbox":[306.8,300,208.8,116]}
+{"kind":"textbox","id":"sh/et0b6xcj","slide":37,"text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[320.8,312,34,24]}
+{"kind":"textbox","id":"sh/1wruhcvu","slide":37,"text":"场景结果","textPreview":"场景结果","textChars":4,"textLines":1,"bbox":[321.8,344,178.8,52]}
+{"kind":"shape","id":"sh/gvit87u9","slide":37,"bbox":[535.6,300,208.8,116]}
+{"kind":"textbox","id":"sh/zqtcrmt8","slide":37,"text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[549.6,312,34,24]}
+{"kind":"textbox","id":"sh/ypkbi1cn","slide":37,"text":"失败问题","textPreview":"失败问题","textChars":4,"textLines":1,"bbox":[550.6,344,178.8,52]}
+{"kind":"shape","id":"sh/ulofqlwv","slide":37,"bbox":[764.4,300,208.8,116]}
+{"kind":"textbox","id":"sh/vmxwjqxg","slide":37,"text":"04","textPreview":"04","textChars":2,"textLines":1,"bbox":[778.4,312,34,24]}
+{"kind":"textbox","id":"sh/w76xsve1","slide":37,"text":"版本变化","textPreview":"版本变化","textChars":4,"textLines":1,"bbox":[779.4,344,178.8,52]}
+{"kind":"shape","id":"sh/h8fel0vm","slide":37,"bbox":[993.2,300,208.8,116]}
+{"kind":"textbox","id":"sh/i9ofu5wr","slide":37,"text":"05","textPreview":"05","textChars":2,"textLines":1,"bbox":[1007.2,312,34,24]}
+{"kind":"textbox","id":"sh/jaxwnadc","slide":37,"text":"产品决策","textPreview":"产品决策","textChars":4,"textLines":1,"bbox":[1008.2,344,178.8,52]}
+{"kind":"notes","id":"nt/i8swvr","slide":37,"text":"[Sources]\n- /Users/keivn/Project/AI-Course/课程生产/第一阶段/第09课_AI产品测试、指标与Bad Case_重做工作区/第9课 - AI产品评测与数据反馈.md\n- 内容依据：评测报告的五层结构"}
+{"kind":"slide","id":"sl/3la1au","slide":38,"title":"AI PRODUCT · AUTOMATION","textShapes":14}
+{"kind":"textbox","id":"sh/fqt43yxk","slide":38,"text":"AI PRODUCT · AUTOMATION","textPreview":"AI PRODUCT · AUTOMATION","textChars":23,"textLines":1,"bbox":[70,27,360,22]}
+{"kind":"textbox","id":"sh/grmlw3e5","slide":38,"text":"38","textPreview":"38","textChars":2,"textLines":1,"bbox":[1160,27,48,22]}
+{"kind":"shape","id":"sh/hsvm58fq","slide":38,"bbox":[70,683,1140,2]}
+{"kind":"shape","id":"sh/2t43ydwv","slide":38,"bbox":[70,683,646.57,2]}
+{"kind":"textbox","id":"sh/3ud47yxg","slide":38,"text":"总体通过率与红线风险","textPreview":"总体通过率与红线风险","textChars":10,"textLines":1,"bbox":[70,72,1130,58]}
+{"kind":"shape","id":"sh/4vml03e1","slide":38,"bbox":[70,148,160,4]}
+{"kind":"textbox","id":"sh/pwvm98fm","slide":38,"text":"案例拆解","textPreview":"案例拆解","textChars":4,"textLines":1,"bbox":[250,136,930,28]}
+{"kind":"textbox","id":"sh/qh4n2dw7","slide":38,"text":"用户问题","textPreview":"用户问题","textChars":4,"textLines":1,"bbox":[82,194,180,30]}
+{"kind":"shape","id":"sh/rid4bixs","slide":38,"bbox":[86,226,1108,86]}
+{"kind":"shape","id":"sh/re1c3qp0","slide":38,"bbox":[86,226,8,86]}
+{"kind":"textbox","id":"sh/6dsbalov","slide":38,"text":"100道题中99道普通题正确，1道隐私题泄露工资。","textPreview":"100道题中99道普通题正确，1道隐私题泄露工资。","textChars":25,"textLines":1,"bbox":[122,247,1030,46]}
+{"kind":"textbox","id":"sh/tgju5g76","slide":38,"text":"AI回答","textPreview":"AI回答","textChars":4,"textLines":1,"bbox":[82,330,180,30]}
+{"kind":"shape","id":"sh/sfatcv6l","slide":38,"bbox":[86,362,1108,86]}
+{"kind":"shape","id":"sh/jahcz6p4","slide":38,"bbox":[86,362,8,86]}
+{"kind":"textbox","id":"sh/i98b61oj","slide":38,"text":"总体通过率仍然是99%。","textPreview":"总体通过率仍然是99%。","textChars":12,"textLines":1,"bbox":[122,383,1030,46]}
+{"kind":"shape","id":"sh/5cju1g7a","slide":38,"bbox":[76,474,361.33,116]}
+{"kind":"textbox","id":"sh/4bqt8b6p","slide":38,"text":"平均分","textPreview":"平均分","textChars":3,"textLines":1,"bbox":[98,494,317.33,34]}
+{"kind":"textbox","id":"sh/n6lcbap8","slide":38,"text":"看起来优秀","textPreview":"看起来优秀","textChars":5,"textLines":1,"bbox":[98,535,317.33,40]}
+{"kind":"shape","id":"sh/25cbi5on","slide":38,"bbox":[459.33,474,361.33,116]}
+{"kind":"textbox","id":"sh/y1wfa98v","slide":38,"text":"红线","textPreview":"红线","textChars":2,"textLines":1,"bbox":[481.33,494,317.33,34]}
+{"kind":"textbox","id":"sh/z2pwje9g","slide":38,"text":"已经阻止上线","textPreview":"已经阻止上线","textChars":6,"textLines":1,"bbox":[481.33,535,317.33,40]}
+{"kind":"shape","id":"sh/k3yxcjq1","slide":38,"bbox":[842.67,474,361.33,116]}
+{"kind":"textbox","id":"sh/l47el4rm","slide":38,"text":"报告要求","textPreview":"报告要求","textChars":4,"textLines":1,"bbox":[864.67,494,317.33,34]}
+{"kind":"textbox","id":"sh/m5gfe987","slide":38,"text":"高风险单独展示","textPreview":"高风险单独展示","textChars":7,"textLines":1,"bbox":[864.67,535,317.33,40]}
+{"kind":"notes","id":"nt/3la1au","slide":38,"text":"[Sources]\n- /Users/keivn/Project/AI-Course/课程生产/第一阶段/第09课_AI产品测试、指标与Bad Case_重做工作区/第9课 - AI产品评测与数据反馈.md\n- 内容依据：总体通过率与红线风险"}
+{"kind":"slide","id":"sl/oc7urz","slide":39,"title":"AI PRODUCT · AUTOMATION","textShapes":9}
+{"kind":"textbox","id":"sh/4nml4fi1","slide":39,"text":"AI PRODUCT · AUTOMATION","textPreview":"AI PRODUCT · AUTOMATION","textChars":23,"textLines":1,"bbox":[70,27,360,22]}
+{"kind":"textbox","id":"sh/3mt4ba1w","slide":39,"text":"39","textPreview":"39","textChars":2,"textLines":1,"bbox":[1160,27,48,22]}
+{"kind":"shape","id":"sh/ilk3250b","slide":39,"bbox":[70,683,1140,2]}
+{"kind":"shape","id":"sh/hkbm90jq","slide":39,"bbox":[70,683,663.58,2]}
+{"kind":"textbox","id":"sh/gj2l0f25","slide":39,"text":"上线门槛示例","textPreview":"上线门槛示例","textChars":6,"textLines":1,"bbox":[70,72,1130,58]}
+{"kind":"shape","id":"sh/vitk7a1k","slide":39,"bbox":[70,148,160,4]}
+{"kind":"shape","id":"sh/uhk3y5kz","slide":39,"bbox":[150,210,980,94]}
+{"kind":"textbox","id":"sh/1gfml4ju","slide":39,"text":"红线","textPreview":"红线","textChars":2,"textLines":1,"bbox":[174,228,220,34]}
+{"kind":"textbox","id":"sh/0f6lczi9","slide":39,"text":"隐私与安全问题必须为0","textPreview":"隐私与安全问题必须为0","textChars":11,"textLines":1,"bbox":[400,229,700,42]}
+{"kind":"shape","id":"sh/2tkvm9s7","slide":39,"bbox":[200,330,880,94]}
+{"kind":"textbox","id":"sh/3utwvets","slide":39,"text":"核心能力","textPreview":"核心能力","textChars":4,"textLines":1,"bbox":[224,348,220,34]}
+{"kind":"textbox","id":"sh/of2dojax","slide":39,"text":"核心事实正确率≥95%，高风险通过率≥98%","textPreview":"核心事实正确率≥95%，高风险通过率≥98%","textChars":22,"textLines":1,"bbox":[450,349,600,42]}
+{"kind":"shape","id":"sh/pgvexobi","slide":39,"bbox":[250,450,780,94]}
+{"kind":"textbox","id":"sh/epkvipsv","slide":39,"text":"效率成本","textPreview":"效率成本","textChars":4,"textLines":1,"bbox":[274,468,220,34]}
+{"kind":"textbox","id":"sh/fqtwrutg","slide":39,"text":"P95≤5秒，单次成本≤0.10元","textPreview":"P95≤5秒，单次成本≤0.10元","textChars":17,"textLines":1,"bbox":[500,469,500,42]}
+{"kind":"notes","id":"nt/oc7urz","slide":39,"text":"[Sources]\n- /Users/keivn/Project/AI-Course/课程生产/第一阶段/第09课_AI产品测试、指标与Bad Case_重做工作区/第9课 - AI产品评测与数据反馈.md\n- 内容依据：上线门槛示例"}
+{"kind":"slide","id":"sl/uznz9a","slide":40,"title":"AI PRODUCT · AUTOMATION","textShapes":12}
+{"kind":"textbox","id":"sh/tcfelkfq","slide":40,"text":"AI PRODUCT · AUTOMATION","textPreview":"AI PRODUCT · AUTOMATION","textChars":23,"textLines":1,"bbox":[70,27,360,22]}
+{"kind":"textbox","id":"sh/69ofq5wz","slide":40,"text":"40","textPreview":"40","textChars":2,"textLines":1,"bbox":[1160,27,48,22]}
+{"kind":"shape","id":"sh/raxwjaxk","slide":40,"bbox":[70,683,1140,2]}
+{"kind":"shape","id":"sh/gf6xwze1","slide":40,"bbox":[70,683,680.6,2]}
+{"kind":"textbox","id":"sh/1gfypkfm","slide":40,"text":"自动化评测中的人工校准","textPreview":"自动化评测中的人工校准","textChars":11,"textLines":1,"bbox":[70,72,1130,58]}
+{"kind":"shape","id":"sh/edofupwv","slide":40,"bbox":[70,148,160,4]}
+{"kind":"textbox","id":"sh/fexwnuxg","slide":40,"text":"—","textPreview":"—","textChars":1,"textLines":1,"bbox":[92,207,38,30]}
+{"kind":"textbox","id":"sh/o3qx0zed","slide":40,"text":"评测集可能不代表真实用户。","textPreview":"评测集可能不代表真实用户。","textChars":13,"textLines":1,"bbox":[144,206,1018,38]}
+{"kind":"textbox","id":"sh/p4zyt4vi","slide":40,"text":"—","textPreview":"—","textChars":1,"textLines":1,"bbox":[92,261,38,30]}
+{"kind":"textbox","id":"sh/t0zalc3q","slide":40,"text":"参考答案、规则和相似度阈值可能过期。","textPreview":"参考答案、规则和相似度阈值可能过期。","textChars":18,"textLines":1,"bbox":[144,260,1018,38]}
+{"kind":"textbox","id":"sh/szq9s725","slide":40,"text":"—","textPreview":"—","textChars":1,"textLines":1,"bbox":[92,315,38,30]}
+{"kind":"textbox","id":"sh/7yhsj2l0","slide":40,"text":"LLM Judge会发生尺度漂移。","textPreview":"LLM Judge会发生尺度漂移。","textChars":17,"textLines":1,"bbox":[144,314,1018,38]}
+{"kind":"textbox","id":"sh/6x8rqxkf","slide":40,"text":"—","textPreview":"—","textChars":1,"textLines":1,"bbox":[92,369,38,30]}
+{"kind":"textbox","id":"sh/hojapc32","slide":40,"text":"高分、低分和红线样本要定期人工抽查。","textPreview":"高分、低分和红线样本要定期人工抽查。","textChars":18,"textLines":1,"bbox":[144,368,1018,38]}
+{"kind":"shape","id":"sh/g3atw72h","slide":40,"bbox":[86,486,1108,86]}
+{"kind":"shape","id":"sh/f2hsn2lw","slide":40,"bbox":[86,486,8,86]}
+{"kind":"textbox","id":"sh/u18buxkb","slide":40,"text":"自动化负责扩大覆盖，人工负责维护标准。","textPreview":"自动化负责扩大覆盖，人工负责维护标准。","textChars":19,"textLines":1,"bbox":[122,507,1030,46]}
+{"kind":"notes","id":"nt/uznz9a","slide":40,"text":"[Sources]\n- /Users/keivn/Project/AI-Course/课程生产/第一阶段/第09课_AI产品测试、指标与Bad Case_重做工作区/第9课 - AI产品评测与数据反馈.md\n- 内容依据：自动化评测中的人工校准"}
+{"kind":"slide","id":"sl/jvv0qq","slide":41,"title":"AI PRODUCT · IMPROVE","textShapes":4}
+{"kind":"textbox","id":"sh/2to7ydgv","slide":41,"text":"AI PRODUCT · IMPROVE","textPreview":"AI PRODUCT · IMPROVE","textChars":20,"textLines":1,"bbox":[70,27,360,22]}
+{"kind":"textbox","id":"sh/pwzq9szm","slide":41,"text":"41","textPreview":"41","textChars":2,"textLines":1,"bbox":[1160,27,48,22]}
+{"kind":"shape","id":"sh/ovqp0ny1","slide":41,"bbox":[70,683,1140,2]}
+{"kind":"shape","id":"sh/fqx83yh4","slide":41,"bbox":[70,683,697.61,2]}
+{"kind":"textbox","id":"sh/epo7ud0z","slide":41,"text":"04 Bad Case与回归","textPreview":"04 Bad Case与回归","textChars":14,"textLines":1,"bbox":[80,182,1080,88]}
+{"kind":"shape","id":"sh/1sfq58za","slide":41,"bbox":[80,300,120,6]}
+{"kind":"textbox","id":"sh/0r6pw3ip","slide":41,"text":"从发现错误，到证明修复没有副作用","textPreview":"从发现错误，到证明修复没有副作用","textChars":16,"textLines":1,"bbox":[84,345,980,50]}
+{"kind":"notes","id":"nt/jvv0qq","slide":41,"text":"[Sources]\n- /Users/keivn/Project/AI-Course/课程生产/第一阶段/第09课_AI产品测试、指标与Bad Case_重做工作区/第9课 - AI产品评测与数据反馈.md\n- 内容依据：04 Bad Case与回归"}
+{"kind":"slide","id":"sl/hrpiao","slide":42,"title":"AI PRODUCT · IMPROVE","textShapes":13}
+{"kind":"textbox","id":"sh/pgjm94fm","slide":42,"text":"AI PRODUCT · IMPROVE","textPreview":"AI PRODUCT · IMPROVE","textChars":20,"textLines":1,"bbox":[70,27,360,22]}
+{"kind":"textbox","id":"sh/2dsnepgv","slide":42,"text":"42","textPreview":"42","textChars":2,"textLines":1,"bbox":[1160,27,48,22]}
+{"kind":"shape","id":"sh/3e147uxg","slide":42,"bbox":[70,683,1140,2]}
+{"kind":"shape","id":"sh/cja54zex","slide":42,"bbox":[70,683,714.63,2]}
+{"kind":"textbox","id":"sh/dk3md4fi","slide":42,"text":"Bad Case分析的五步流程","textPreview":"Bad Case分析的五步流程","textChars":15,"textLines":1,"bbox":[70,72,1130,58]}
+{"kind":"shape","id":"sh/qhsn29g7","slide":42,"bbox":[70,148,160,4]}
+{"kind":"shape","id":"sh/bi14bexc","slide":42,"bbox":[286.8,358,15,0]}
+{"kind":"shape","id":"sh/snql8fyt","slide":42,"bbox":[515.6,358,15,0]}
+{"kind":"shape","id":"sh/tozm1kfe","slide":42,"bbox":[744.4,358,15,0]}
+{"kind":"shape","id":"sh/9c3yt8nu","slide":42,"bbox":[973.2,358,15,0]}
+{"kind":"shape","id":"sh/8buxk369","slide":42,"bbox":[78,300,208.8,116]}
+{"kind":"textbox","id":"sh/na1gri5o","slide":42,"text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[92,312,34,24]}
+{"kind":"textbox","id":"sh/m9sfido3","slide":42,"text":"复现问题","textPreview":"复现问题","textChars":4,"textLines":1,"bbox":[93,344,178.8,52]}
+{"kind":"shape","id":"sh/x03yxsnq","slide":42,"bbox":[306.8,300,208.8,116]}
+{"kind":"textbox","id":"sh/wfuxon65","slide":42,"text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[320.8,312,34,24]}
+{"kind":"textbox","id":"sh/velgvi50","slide":42,"text":"判断预期","textPreview":"判断预期","textChars":4,"textLines":1,"bbox":[321.8,344,178.8,52]}
+{"kind":"shape","id":"sh/adcfmdof","slide":42,"bbox":[535.6,300,208.8,116]}
+{"kind":"textbox","id":"sh/54ny1sn2","slide":42,"text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[549.6,312,34,24]}
+{"kind":"textbox","id":"sh/k3exsn6h","slide":42,"text":"定位环节","textPreview":"定位环节","textChars":4,"textLines":1,"bbox":[550.6,344,178.8,52]}
+{"kind":"shape","id":"sh/4j69kvyp","slide":42,"bbox":[764.4,300,208.8,116]}
+{"kind":"textbox","id":"sh/pkfqd0za","slide":42,"text":"04","textPreview":"04","textChars":2,"textLines":1,"bbox":[778.4,312,34,24]}
+{"kind":"textbox","id":"sh/2x4rilgz","slide":42,"text":"问题归因","textPreview":"问题归因","textChars":4,"textLines":1,"bbox":[779.4,344,178.8,52]}
+{"kind":"shape","id":"sh/3yd8bqh4","slide":42,"bbox":[993.2,300,208.8,116]}
+{"kind":"textbox","id":"sh/cn69ofy1","slide":42,"text":"05","textPreview":"05","textChars":2,"textLines":1,"bbox":[1007.2,312,34,24]}
+{"kind":"textbox","id":"sh/dofqhkzm","slide":42,"text":"修复与验证","textPreview":"修复与验证","textChars":5,"textLines":1,"bbox":[1008.2,344,178.8,52]}
+{"kind":"notes","id":"nt/hrpiao","slide":42,"text":"[Sources]\n- /Users/keivn/Project/AI-Course/课程生产/第一阶段/第09课_AI产品测试、指标与Bad Case_重做工作区/第9课 - AI产品评测与数据反馈.md\n- 内容依据：Bad Case分析的五步流程"}
+{"kind":"slide","id":"sl/65iyny","slide":43,"title":"AI PRODUCT · IMPROVE","textShapes":15}
+{"kind":"textbox","id":"sh/kza98rat","slide":43,"text":"AI PRODUCT · IMPROVE","textPreview":"AI PRODUCT · IMPROVE","textChars":20,"textLines":1,"bbox":[70,27,360,22]}
+{"kind":"textbox","id":"sh/zy18fm98","slide":43,"text":"43","textPreview":"43","textChars":2,"textLines":1,"bbox":[1160,27,48,22]}
+{"kind":"shape","id":"sh/yxsr6hsn","slide":43,"bbox":[70,683,1140,2]}
+{"kind":"shape","id":"sh/943qlwra","slide":43,"bbox":[70,683,731.64,2]}
+{"kind":"textbox","id":"sh/83a9cra5","slide":43,"text":"Bad Case的六类根因","textPreview":"Bad Case的六类根因","textChars":13,"textLines":1,"bbox":[70,72,1130,58]}
+{"kind":"shape","id":"sh/7218j69k","slide":43,"bbox":[70,148,160,4]}
+{"kind":"shape","id":"sh/m1sra1sz","slide":43,"bbox":[76,210,361.33,148]}
+{"kind":"textbox","id":"sh/hs3apgrm","slide":43,"text":"数据","textPreview":"数据","textChars":2,"textLines":1,"bbox":[98,230,317.33,34]}
+{"kind":"textbox","id":"sh/wru9gba1","slide":43,"text":"样本缺失、标签错误","textPreview":"样本缺失、标签错误","textChars":9,"textLines":1,"bbox":[98,271,317.33,72]}
+{"kind":"shape","id":"sh/yt8rahwn","slide":43,"bbox":[459.33,210,361.33,148]}
+{"kind":"textbox","id":"sh/zu183mx8","slide":43,"text":"Prompt","textPreview":"Prompt","textChars":6,"textLines":1,"bbox":[481.33,230,317.33,34]}
+{"kind":"textbox","id":"sh/kva9cret","slide":43,"text":"约束、步骤或格式不清","textPreview":"约束、步骤或格式不清","textChars":10,"textLines":1,"bbox":[481.33,271,317.33,72]}
+{"kind":"shape","id":"sh/lgjq5wfe","slide":43,"bbox":[842.67,210,361.33,148]}
+{"kind":"textbox","id":"sh/mhsrehwz","slide":43,"text":"知识","textPreview":"知识","textChars":2,"textLines":1,"bbox":[864.67,230,317.33,34]}
+{"kind":"textbox","id":"sh/7i1s7mxk","slide":43,"text":"资料缺失、过期或召回错误","textPreview":"资料缺失、过期或召回错误","textChars":12,"textLines":1,"bbox":[864.67,271,317.33,72]}
+{"kind":"shape","id":"sh/8ja9grep","slide":43,"bbox":[76,380,361.33,148]}
+{"kind":"textbox","id":"sh/9kja9wfa","slide":43,"text":"流程","textPreview":"流程","textChars":2,"textLines":1,"bbox":[98,400,317.33,34]}
+{"kind":"textbox","id":"sh/2lor2xwf","slide":43,"text":"追问、权限、工具顺序错误","textPreview":"追问、权限、工具顺序错误","textChars":12,"textLines":1,"bbox":[98,441,317.33,72]}
+{"kind":"shape","id":"sh/3mx8v2x0","slide":43,"bbox":[459.33,380,361.33,148]}
+{"kind":"textbox","id":"sh/rqdo3yds","slide":43,"text":"工具","textPreview":"工具","textChars":2,"textLines":1,"bbox":[481.33,400,317.33,34]}
+{"kind":"textbox","id":"sh/654natc7","slide":43,"text":"API失败、参数或缓存错误","textPreview":"API失败、参数或缓存错误","textChars":13,"textLines":1,"bbox":[481.33,441,317.33,72]}
+{"kind":"shape","id":"sh/tsv658vy","slide":43,"bbox":[842.67,380,361.33,148]}
+{"kind":"textbox","id":"sh/srm5c3ud","slide":43,"text":"产品边界","textPreview":"产品边界","textChars":4,"textLines":1,"bbox":[864.67,400,317.33,34]}
+{"kind":"textbox","id":"sh/j2tozedw","slide":43,"text":"需求本身不应由产品处理","textPreview":"需求本身不应由产品处理","textChars":11,"textLines":1,"bbox":[864.67,441,317.33,72]}
+{"kind":"notes","id":"nt/65iyny","slide":43,"text":"[Sources]\n- /Users/keivn/Project/AI-Course/课程生产/第一阶段/第09课_AI产品测试、指标与Bad Case_重做工作区/第9课 - AI产品评测与数据反馈.md\n- 内容依据：Bad Case的六类根因"}
+{"kind":"slide","id":"sl/zg8x2a","slide":44,"title":"AI PRODUCT · IMPROVE","textShapes":14}
+{"kind":"textbox","id":"sh/8rylo76d","slide":44,"text":"AI PRODUCT · IMPROVE","textPreview":"AI PRODUCT · IMPROVE","textChars":20,"textLines":1,"bbox":[70,27,360,22]}
+{"kind":"textbox","id":"sh/nqpkf25s","slide":44,"text":"44","textPreview":"44","textChars":2,"textLines":1,"bbox":[1160,27,48,22]}
+{"kind":"shape","id":"sh/mpg3mxo7","slide":44,"bbox":[70,683,1140,2]}
+{"kind":"shape","id":"sh/xgr2lcnu","slide":44,"bbox":[70,683,748.66,2]}
+{"kind":"textbox","id":"sh/wfils7mp","slide":44,"text":"住宿标准错误的完整归因","textPreview":"住宿标准错误的完整归因","textChars":11,"textLines":1,"bbox":[70,72,1130,58]}
+{"kind":"shape","id":"sh/ve9kj254","slide":44,"bbox":[70,148,160,4]}
+{"kind":"textbox","id":"sh/at03qxoj","slide":44,"text":"案例拆解","textPreview":"案例拆解","textChars":4,"textLines":1,"bbox":[250,136,930,28]}
+{"kind":"textbox","id":"sh/5kbmpwn6","slide":44,"text":"用户问题","textPreview":"用户问题","textChars":4,"textLines":1,"bbox":[82,194,180,30]}
+{"kind":"shape","id":"sh/kjilwrml","slide":44,"bbox":[86,226,1108,86]}
+{"kind":"shape","id":"sh/yxgvud47","slide":44,"bbox":[86,226,8,86]}
+{"kind":"textbox","id":"sh/jypwnils","slide":44,"text":"我去北京出差，酒店能报多少？","textPreview":"我去北京出差，酒店能报多少？","textChars":14,"textLines":1,"bbox":[122,247,1030,46]}
+{"kind":"textbox","id":"sh/kzydwnmx","slide":44,"text":"AI回答","textPreview":"AI回答","textChars":4,"textLines":1,"bbox":[82,330,180,30]}
+{"kind":"shape","id":"sh/lkreps3i","slide":44,"bbox":[86,362,1108,86]}
+{"kind":"shape","id":"sh/6l0vyx43","slide":44,"bbox":[86,362,8,86]}
+{"kind":"textbox","id":"sh/7m9wr2lo","slide":44,"text":"北京住宿标准是600元/晚。","textPreview":"北京住宿标准是600元/晚。","textChars":14,"textLines":1,"bbox":[122,383,1030,46]}
+{"kind":"shape","id":"sh/8nid07m9","slide":44,"bbox":[76,474,361.33,116]}
+{"kind":"textbox","id":"sh/toretc3u","slide":44,"text":"直接原因","textPreview":"直接原因","textChars":4,"textLines":1,"bbox":[98,494,317.33,34]}
+{"kind":"textbox","id":"sh/mpwvmt4z","slide":44,"text":"召回旧版制度","textPreview":"召回旧版制度","textChars":6,"textLines":1,"bbox":[98,535,317.33,40]}
+{"kind":"shape","id":"sh/nq5cfy5k","slide":44,"bbox":[459.33,474,361.33,116]}
+{"kind":"textbox","id":"sh/ry107ah0","slide":44,"text":"次要原因","textPreview":"次要原因","textChars":4,"textLines":1,"bbox":[481.33,494,317.33,34]}
+{"kind":"textbox","id":"sh/6xsjy5gf","slide":44,"text":"未追问用户职级","textPreview":"未追问用户职级","textChars":7,"textLines":1,"bbox":[481.33,535,317.33,40]}
+{"kind":"shape","id":"sh/tkj29kf6","slide":44,"bbox":[842.67,474,361.33,116]}
+{"kind":"textbox","id":"sh/sja10fyl","slide":44,"text":"拦截缺失","textPreview":"拦截缺失","textChars":4,"textLines":1,"bbox":[864.67,494,317.33,34]}
+{"kind":"textbox","id":"sh/juh03qho","slide":44,"text":"输出前未校验版本","textPreview":"输出前未校验版本","textChars":8,"textLines":1,"bbox":[864.67,535,317.33,40]}
+{"kind":"notes","id":"nt/zg8x2a","slide":44,"text":"[Sources]\n- /Users/keivn/Project/AI-Course/课程生产/第一阶段/第09课_AI产品测试、指标与Bad Case_重做工作区/第9课 - AI产品评测与数据反馈.md\n- 内容依据：住宿标准错误的完整归因"}
+{"kind":"slide","id":"sl/14l86e","slide":45,"title":"AI PRODUCT · IMPROVE","textShapes":11}
+{"kind":"textbox","id":"sh/ulgfu9g3","slide":45,"text":"AI PRODUCT · IMPROVE","textPreview":"AI PRODUCT · IMPROVE","textChars":20,"textLines":1,"bbox":[70,27,360,22]}
+{"kind":"textbox","id":"sh/h8re54ze","slide":45,"text":"45","textPreview":"45","textChars":2,"textLines":1,"bbox":[1160,27,48,22]}
+{"kind":"shape","id":"sh/g7yxwjyt","slide":45,"bbox":[70,683,1140,2]}
+{"kind":"shape","id":"sh/3a9g7ehk","slide":45,"bbox":[70,683,765.67,2]}
+{"kind":"textbox","id":"sh/290fy9gz","slide":45,"text":"归因记录如何指导修复","textPreview":"归因记录如何指导修复","textChars":10,"textLines":1,"bbox":[70,72,1130,58]}
+{"kind":"shape","id":"sh/pcry9ozq","slide":45,"bbox":[70,148,160,4]}
+{"kind":"shape","id":"sh/4bix0jy5","slide":45,"bbox":[344,358,15,0]}
+{"kind":"shape","id":"sh/re9gbyhg","slide":45,"bbox":[630,358,15,0]}
+{"kind":"shape","id":"sh/qd0f2tgb","slide":45,"bbox":[916,358,15,0]}
+{"kind":"shape","id":"sh/kvy1oj2x","slide":45,"bbox":[78,300,266,116]}
+{"kind":"textbox","id":"sh/lg72xo3i","slide":45,"text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[92,312,34,24]}
+{"kind":"textbox","id":"sh/ytgjm9k7","slide":45,"text":"主要原因\n知识优先级","textPreview":"主要原因 | 知识优先级","textChars":10,"textLines":2,"bbox":[93,344,236,52]}
+{"kind":"shape","id":"sh/jup0velc","slide":45,"bbox":[364,300,266,116]}
+{"kind":"textbox","id":"sh/8ji1sj29","slide":45,"text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[378,312,34,24]}
+{"kind":"textbox","id":"sh/tkr21o3u","slide":45,"text":"次要原因\n追问节点","textPreview":"次要原因 | 追问节点","textChars":9,"textLines":2,"bbox":[379,344,236,52]}
+{"kind":"shape","id":"sh/6hgjqtk3","slide":45,"bbox":[650,300,266,116]}
+{"kind":"textbox","id":"sh/7ipkzylo","slide":45,"text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[664,312,34,24]}
+{"kind":"textbox","id":"sh/gni1w325","slide":45,"text":"拦截缺失\n输出校验","textPreview":"拦截缺失 | 输出校验","textChars":9,"textLines":2,"bbox":[665,344,236,52]}
+{"kind":"shape","id":"sh/hor2583q","slide":45,"bbox":[936,300,266,116]}
+{"kind":"textbox","id":"sh/p4nip8bu","slide":45,"text":"04","textPreview":"04","textChars":2,"textLines":1,"bbox":[950,312,34,24]}
+{"kind":"textbox","id":"sh/43e1g3u9","slide":45,"text":"回归样本\n同类城市与职级","textPreview":"回归样本 | 同类城市与职级","textChars":12,"textLines":2,"bbox":[951,344,236,52]}
+{"kind":"notes","id":"nt/14l86e","slide":45,"text":"[Sources]\n- /Users/keivn/Project/AI-Course/课程生产/第一阶段/第09课_AI产品测试、指标与Bad Case_重做工作区/第9课 - AI产品评测与数据反馈.md\n- 内容依据：归因记录如何指导修复"}
+{"kind":"slide","id":"sl/fd76gg","slide":46,"title":"AI PRODUCT · IMPROVE","textShapes":10}
+{"kind":"textbox","id":"sh/5cze1gna","slide":46,"text":"AI PRODUCT · IMPROVE","textPreview":"AI PRODUCT · IMPROVE","textChars":20,"textLines":1,"bbox":[70,27,360,22]}
+{"kind":"textbox","id":"sh/i98fq1oj","slide":46,"text":"46","textPreview":"46","textChars":2,"textLines":1,"bbox":[1160,27,48,22]}
+{"kind":"shape","id":"sh/3ahwz654","slide":46,"bbox":[70,683,1140,2]}
+{"kind":"shape","id":"sh/g7qdor6t","slide":46,"bbox":[70,683,782.69,2]}
+{"kind":"textbox","id":"sh/h8zexwny","slide":46,"text":"Bad Case处理优先级","textPreview":"Bad Case处理优先级","textChars":13,"textLines":1,"bbox":[70,72,1130,58]}
+{"kind":"shape","id":"sh/u58vmhon","slide":46,"bbox":[70,148,160,4]}
+{"kind":"shape","id":"sh/v6hwvm58","slide":46,"bbox":[86,226,1108,86]}
+{"kind":"shape","id":"sh/836dkr6h","slide":46,"bbox":[86,226,8,86]}
+{"kind":"textbox","id":"sh/t4fetc72","slide":46,"text":"发生频率 × 影响程度 × 可修复性","textPreview":"发生频率 × 影响程度 × 可修复性","textChars":18,"textLines":1,"bbox":[122,247,1030,46]}
+{"kind":"textbox","id":"sh/1gre1sj6","slide":46,"text":"—","textPreview":"—","textChars":1,"textLines":1,"bbox":[150,362,38,30]}
+{"kind":"textbox","id":"sh/0fixs721","slide":46,"text":"安全与合规红线优先","textPreview":"安全与合规红线优先","textChars":9,"textLines":1,"bbox":[202,361,898,38]}
+{"kind":"textbox","id":"sh/fe9wz21g","slide":46,"text":"—","textPreview":"—","textChars":1,"textLines":1,"bbox":[150,420,38,30]}
+{"kind":"textbox","id":"sh/ed0vqxkv","slide":46,"text":"高频核心任务失败优先","textPreview":"高频核心任务失败优先","textChars":10,"textLines":1,"bbox":[202,419,898,38]}
+{"kind":"textbox","id":"sh/dcrexsja","slide":46,"text":"—","textPreview":"—","textChars":1,"textLines":1,"bbox":[150,478,38,30]}
+{"kind":"textbox","id":"sh/sbidon2p","slide":46,"text":"低频低影响问题可暂时兜底","textPreview":"低频低影响问题可暂时兜底","textChars":12,"textLines":1,"bbox":[202,477,898,38]}
+{"kind":"notes","id":"nt/fd76gg","slide":46,"text":"[Sources]\n- /Users/keivn/Project/AI-Course/课程生产/第一阶段/第09课_AI产品测试、指标与Bad Case_重做工作区/第9课 - AI产品评测与数据反馈.md\n- 内容依据：Bad Case处理优先级"}
+{"kind":"slide","id":"sl/1q070r","slide":47,"title":"AI PRODUCT · IMPROVE","textShapes":17}
+{"kind":"textbox","id":"sh/1szu943a","slide":47,"text":"AI PRODUCT · IMPROVE","textPreview":"AI PRODUCT · IMPROVE","textChars":20,"textLines":1,"bbox":[70,27,360,22]}
+{"kind":"textbox","id":"sh/ep8vyp4z","slide":47,"text":"47","textPreview":"47","textChars":2,"textLines":1,"bbox":[1160,27,48,22]}
+{"kind":"shape","id":"sh/fqhc7ulk","slide":47,"bbox":[70,683,1140,2]}
+{"kind":"shape","id":"sh/ovad4jm1","slide":47,"bbox":[70,683,799.7,2]}
+{"kind":"textbox","id":"sh/pwjedo3m","slide":47,"text":"回归测试的两个目标","textPreview":"回归测试的两个目标","textChars":9,"textLines":1,"bbox":[70,72,1130,58]}
+{"kind":"shape","id":"sh/2t8v294v","slide":47,"bbox":[70,148,160,4]}
+{"kind":"shape","id":"sh/nuhwbelg","slide":47,"bbox":[76,212,530,380]}
+{"kind":"textbox","id":"sh/cjad8jmx","slide":47,"text":"修复验证","textPreview":"修复验证","textChars":4,"textLines":1,"bbox":[104,236,474,40]}
+{"kind":"textbox","id":"sh/xkjeho3i","slide":47,"text":"—","textPreview":"—","textChars":1,"textLines":1,"bbox":[101,304,38,30]}
+{"kind":"textbox","id":"sh/1c3i1cju","slide":47,"text":"原失败问题是否解决","textPreview":"原失败问题是否解决","textChars":9,"textLines":1,"bbox":[153,303,428,38]}
+{"kind":"textbox","id":"sh/0buh8r29","slide":47,"text":"—","textPreview":"—","textChars":1,"textLines":1,"bbox":[101,356,38,30]}
+{"kind":"textbox","id":"sh/zql0zm1o","slide":47,"text":"不同表达是否也解决","textPreview":"不同表达是否也解决","textChars":9,"textLines":1,"bbox":[153,355,428,38]}
+{"kind":"textbox","id":"sh/epsz6hk3","slide":47,"text":"—","textPreview":"—","textChars":1,"textLines":1,"bbox":[101,408,38,30]}
+{"kind":"textbox","id":"sh/9g3i5wjq","slide":47,"text":"相邻业务边界是否覆盖","textPreview":"相邻业务边界是否覆盖","textChars":10,"textLines":1,"bbox":[153,407,428,38]}
+{"kind":"shape","id":"sh/ofu1cr25","slide":47,"bbox":[674,212,530,380]}
+{"kind":"textbox","id":"sh/nel03m10","slide":47,"text":"防退化验证","textPreview":"防退化验证","textChars":5,"textLines":1,"bbox":[702,236,474,40]}
+{"kind":"textbox","id":"sh/mdcjahkf","slide":47,"text":"—","textPreview":"—","textChars":1,"textLines":1,"bbox":[699,304,38,30]}
+{"kind":"textbox","id":"sh/pkjitsjm","slide":47,"text":"原本正常能力是否仍正常","textPreview":"原本正常能力是否仍正常","textChars":11,"textLines":1,"bbox":[751,303,428,38]}
+{"kind":"textbox","id":"sh/4jah0721","slide":47,"text":"—","textPreview":"—","textChars":1,"textLines":1,"bbox":[699,356,38,30]}
+{"kind":"textbox","id":"sh/w3uhg7ax","slide":47,"text":"是否出现新的拒答或错误","textPreview":"是否出现新的拒答或错误","textChars":11,"textLines":1,"bbox":[751,355,428,38]}
+{"kind":"textbox","id":"sh/h4ni9cri","slide":47,"text":"—","textPreview":"—","textChars":1,"textLines":1,"bbox":[699,408,38,30]}
+{"kind":"textbox","id":"sh/u1czexsr","slide":47,"text":"响应时间与成本是否恶化","textPreview":"响应时间与成本是否恶化","textChars":11,"textLines":1,"bbox":[751,407,428,38]}
+{"kind":"notes","id":"nt/1q070r","slide":47,"text":"[Sources]\n- /Users/keivn/Project/AI-Course/课程生产/第一阶段/第09课_AI产品测试、指标与Bad Case_重做工作区/第9课 - AI产品评测与数据反馈.md\n- 内容依据：回归测试的两个目标"}
+{"kind":"slide","id":"sl/r23whz","slide":48,"title":"AI PRODUCT · IMPROVE","textShapes":11}
+{"kind":"textbox","id":"sh/ahkbep4v","slide":48,"text":"AI PRODUCT · IMPROVE","textPreview":"AI PRODUCT · IMPROVE","textChars":20,"textLines":1,"bbox":[70,27,360,22]}
+{"kind":"textbox","id":"sh/xkbup436","slide":48,"text":"48","textPreview":"48","textChars":2,"textLines":1,"bbox":[1160,27,48,22]}
+{"kind":"shape","id":"sh/cj2tgzm1","slide":48,"bbox":[70,683,1140,2]}
+{"kind":"shape","id":"sh/zmtcrelc","slide":48,"bbox":[70,683,816.72,2]}
+{"kind":"textbox","id":"sh/ylkbi94r","slide":48,"text":"回归评测集的四类样本","textPreview":"回归评测集的四类样本","textChars":10,"textLines":1,"bbox":[70,72,1130,58]}
+{"kind":"shape","id":"sh/lovut43i","slide":48,"bbox":[70,148,160,4]}
+{"kind":"shape","id":"sh/knmtkjmx","slide":48,"bbox":[76,210,553,180]}
+{"kind":"textbox","id":"sh/fq9sfa58","slide":48,"text":"原失败样本","textPreview":"原失败样本","textChars":5,"textLines":1,"bbox":[98,230,509,34]}
+{"kind":"textbox","id":"sh/ep0b654n","slide":48,"text":"确认本次问题已修复","textPreview":"确认本次问题已修复","textChars":9,"textLines":1,"bbox":[98,271,509,104]}
+{"kind":"shape","id":"sh/8nq5w32d","slide":48,"bbox":[651,210,553,180]}
+{"kind":"textbox","id":"sh/toz6p8jy","slide":48,"text":"同类高风险样本","textPreview":"同类高风险样本","textChars":7,"textLines":1,"bbox":[673,230,509,34]}
+{"kind":"textbox","id":"sh/6lonudk7","slide":48,"text":"确认不是只记住原题","textPreview":"确认不是只记住原题","textChars":9,"textLines":1,"bbox":[673,271,509,104]}
+{"kind":"shape","id":"sh/7mhonils","slide":48,"bbox":[76,412,553,180]}
+{"kind":"textbox","id":"sh/gbqp0n29","slide":48,"text":"代表性正常样本","textPreview":"代表性正常样本","textChars":7,"textLines":1,"bbox":[98,432,509,34]}
+{"kind":"textbox","id":"sh/hcz6tsju","slide":48,"text":"保护产品基础能力","textPreview":"保护产品基础能力","textChars":8,"textLines":1,"bbox":[98,473,509,104]}
+{"kind":"shape","id":"sh/u987ydkj","slide":48,"bbox":[651,412,553,180]}
+{"kind":"textbox","id":"sh/fahori14","slide":48,"text":"历史关键Bad Case","textPreview":"历史关键Bad Case","textChars":12,"textLines":1,"bbox":[673,432,509,34]}
+{"kind":"textbox","id":"sh/wf65oj25","slide":48,"text":"防止旧问题再次出现","textPreview":"防止旧问题再次出现","textChars":9,"textLines":1,"bbox":[673,473,509,104]}
+{"kind":"notes","id":"nt/r23whz","slide":48,"text":"[Sources]\n- /Users/keivn/Project/AI-Course/课程生产/第一阶段/第09课_AI产品测试、指标与Bad Case_重做工作区/第9课 - AI产品评测与数据反馈.md\n- 内容依据：回归评测集的四类样本"}
+{"kind":"slide","id":"sl/uoobm9","slide":49,"title":"AI PRODUCT · IMPROVE","textShapes":19}
+{"kind":"textbox","id":"sh/36dw3yxs","slide":49,"text":"AI PRODUCT · IMPROVE","textPreview":"AI PRODUCT · IMPROVE","textChars":20,"textLines":1,"bbox":[70,27,360,22]}
+{"kind":"textbox","id":"sh/47mdw3yd","slide":49,"text":"49","textPreview":"49","textChars":2,"textLines":1,"bbox":[1160,27,48,22]}
+{"kind":"shape","id":"sh/p8ve58fy","slide":49,"bbox":[70,683,1140,2]}
+{"kind":"shape","id":"sh/u1kvqtgb","slide":49,"bbox":[70,683,833.73,2]}
+{"kind":"textbox","id":"sh/f2twzyxw","slide":49,"text":"一个AI产品版本由什么组成","textPreview":"一个AI产品版本由什么组成","textChars":13,"textLines":1,"bbox":[70,72,1130,58]}
+{"kind":"shape","id":"sh/g3mdsjyh","slide":49,"bbox":[70,148,160,4]}
+{"kind":"shape","id":"sh/h4ve1of2","slide":49,"bbox":[201,346,15,0]}
+{"kind":"shape","id":"sh/exof2dwf","slide":49,"bbox":[344,346,15,0]}
+{"kind":"shape","id":"sh/zyxwbix0","slide":49,"bbox":[487,346,15,0]}
+{"kind":"shape","id":"sh/repwnutw","slide":49,"bbox":[630,346,15,0]}
+{"kind":"shape","id":"sh/qdgfe9cb","slide":49,"bbox":[773,346,15,0]}
+{"kind":"shape","id":"sh/dgryp4b2","slide":49,"bbox":[916,346,15,0]}
+{"kind":"shape","id":"sh/sfyxgzuh","slide":49,"bbox":[1059,346,15,0]}
+{"kind":"shape","id":"sh/f29gret8","slide":49,"bbox":[78,300,123,92]}
+{"kind":"textbox","id":"sh/eh0fi9cn","slide":49,"text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[92,312,34,24]}
+{"kind":"textbox","id":"sh/14rytoby","slide":49,"text":"模型","textPreview":"模型","textChars":2,"textLines":1,"bbox":[93,342,93,52]}
+{"kind":"shape","id":"sh/03ixkjud","slide":49,"bbox":[221,300,123,92]}
+{"kind":"textbox","id":"sh/n69gvet4","slide":49,"text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[235,312,34,24]}
+{"kind":"textbox","id":"sh/250fmtcj","slide":49,"text":"Prompt","textPreview":"Prompt","textChars":6,"textLines":1,"bbox":[236,342,93,52]}
+{"kind":"shape","id":"sh/idorah03","slide":49,"bbox":[364,300,123,92]}
+{"kind":"textbox","id":"sh/jex83mho","slide":49,"text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[378,312,34,24]}
+{"kind":"textbox","id":"sh/kf69cri9","slide":49,"text":"知识库","textPreview":"知识库","textChars":3,"textLines":1,"bbox":[379,342,93,52]}
+{"kind":"shape","id":"sh/5gfa5wze","slide":49,"bbox":[507,300,123,92]}
+{"kind":"textbox","id":"sh/a94r6h0r","slide":49,"text":"04","textPreview":"04","textChars":2,"textLines":1,"bbox":[521,312,34,24]}
+{"kind":"textbox","id":"sh/vad8z2hc","slide":49,"text":"检索配置","textPreview":"检索配置","textChars":4,"textLines":1,"bbox":[522,342,93,52]}
+{"kind":"shape","id":"sh/wbm987ix","slide":49,"bbox":[650,300,123,92]}
+{"kind":"textbox","id":"sh/xcvq1czi","slide":49,"text":"05","textPreview":"05","textChars":2,"textLines":1,"bbox":[664,312,34,24]}
+{"kind":"textbox","id":"sh/u58ri10b","slide":49,"text":"工作流","textPreview":"工作流","textChars":3,"textLines":1,"bbox":[665,342,93,52]}
+{"kind":"shape","id":"sh/f6hsb6hw","slide":49,"bbox":[793,300,123,92]}
+{"kind":"textbox","id":"sh/p0ju10jy","slide":49,"text":"06","textPreview":"06","textChars":2,"textLines":1,"bbox":[807,312,34,24]}
+{"kind":"textbox","id":"sh/4zat8v2d","slide":49,"text":"工具/API","textPreview":"工具/API","textChars":6,"textLines":1,"bbox":[808,342,93,52]}
+{"kind":"shape","id":"sh/3y1czq1s","slide":49,"bbox":[936,300,123,92]}
+{"kind":"textbox","id":"sh/2xsb6lk7","slide":49,"text":"07","textPreview":"07","textChars":2,"textLines":1,"bbox":[950,312,34,24]}
+{"kind":"textbox","id":"sh/hcjux0jm","slide":49,"text":"评测集","textPreview":"评测集","textChars":3,"textLines":1,"bbox":[951,342,93,52]}
+{"kind":"shape","id":"sh/gbqt4v2h","slide":49,"bbox":[1079,300,123,92]}
+{"kind":"textbox","id":"sh/fahcvq1w","slide":49,"text":"08","textPreview":"08","textChars":2,"textLines":1,"bbox":[1093,312,34,24]}
+{"kind":"textbox","id":"sh/u98b2lkb","slide":49,"text":"Judge","textPreview":"Judge","textChars":5,"textLines":1,"bbox":[1094,342,93,52]}
+{"kind":"notes","id":"nt/uoobm9","slide":49,"text":"[Sources]\n- /Users/keivn/Project/AI-Course/课程生产/第一阶段/第09课_AI产品测试、指标与Bad Case_重做工作区/第9课 - AI产品评测与数据反馈.md\n- 内容依据：一个AI产品版本由什么组成"}
+{"kind":"slide","id":"sl/z5ah1t","slide":50,"title":"AI PRODUCT · IMPROVE","textShapes":9}
+{"kind":"textbox","id":"sh/lov6xgna","slide":50,"text":"AI PRODUCT · IMPROVE","textPreview":"AI PRODUCT · IMPROVE","textChars":20,"textLines":1,"bbox":[70,27,360,22]}
+{"kind":"textbox","id":"sh/yl4nm14j","slide":50,"text":"50","textPreview":"50","textChars":2,"textLines":1,"bbox":[1160,27,48,22]}
+{"kind":"shape","id":"sh/jmdov654","slide":50,"bbox":[70,683,1140,2]}
+{"kind":"shape","id":"sh/8r65svml","slide":50,"bbox":[70,683,850.75,2]}
+{"kind":"textbox","id":"sh/tcf610n6","slide":50,"text":"稳定性评测方法","textPreview":"稳定性评测方法","textChars":7,"textLines":1,"bbox":[70,72,1130,58]}
+{"kind":"shape","id":"sh/6p4nql4v","slide":50,"bbox":[70,148,160,4]}
+{"kind":"textbox","id":"sh/7qxozq5g","slide":50,"text":"第1次","textPreview":"第1次","textChars":3,"textLines":1,"bbox":[86,216,250,30]}
+{"kind":"shape","id":"sh/ov25grmh","slide":50,"bbox":[340,219,760,24]}
+{"kind":"shape","id":"sh/pgb6pwn2","slide":50,"bbox":[340,219,190,24]}
+{"kind":"textbox","id":"sh/l0za5s76","slide":50,"text":"1/1","textPreview":"1/1","textChars":3,"textLines":1,"bbox":[1120,216,80,30]}
+{"kind":"textbox","id":"sh/kfq9c76l","slide":50,"text":"连续5次通过","textPreview":"连续5次通过","textChars":6,"textLines":1,"bbox":[86,283,250,30]}
+{"kind":"shape","id":"sh/zehs32p0","slide":50,"bbox":[340,286,760,24]}
+{"kind":"shape","id":"sh/yd8rax8f","slide":50,"bbox":[340,286,760,24]}
+{"kind":"textbox","id":"sh/94ja9c72","slide":50,"text":"4/5","textPreview":"4/5","textChars":3,"textLines":1,"bbox":[1120,283,80,30]}
+{"kind":"textbox","id":"sh/83q9g76x","slide":50,"text":"最差表现","textPreview":"最差表现","textChars":4,"textLines":1,"bbox":[86,350,250,30]}
+{"kind":"shape","id":"sh/72hs72pc","slide":50,"bbox":[340,353,760,24]}
+{"kind":"shape","id":"sh/m18rexor","slide":50,"bbox":[340,353,190,24]}
+{"kind":"textbox","id":"sh/h8jadc7e","slide":50,"text":"1次失败","textPreview":"1次失败","textChars":4,"textLines":1,"bbox":[1120,350,80,30]}
+{"kind":"notes","id":"nt/z5ah1t","slide":50,"text":"[Sources]\n- /Users/keivn/Project/AI-Course/课程生产/第一阶段/第09课_AI产品测试、指标与Bad Case_重做工作区/第9课 - AI产品评测与数据反馈.md\n- 内容依据：稳定性评测方法"}
+{"kind":"slide","id":"sl/z2njlh","slide":51,"title":"AI PRODUCT · IMPROVE","textShapes":27}
+{"kind":"textbox","id":"sh/adgzqdc7","slide":51,"text":"AI PRODUCT · IMPROVE","textPreview":"AI PRODUCT · IMPROVE","textChars":20,"textLines":1,"bbox":[70,27,360,22]}
+{"kind":"textbox","id":"sh/xg7ylsbi","slide":51,"text":"51","textPreview":"51","textChars":2,"textLines":1,"bbox":[1160,27,48,22]}
+{"kind":"shape","id":"sh/wfyhsnux","slide":51,"bbox":[70,683,1140,2]}
+{"kind":"shape","id":"sh/ji9gnito","slide":51,"bbox":[70,683,867.76,2]}
+{"kind":"textbox","id":"sh/yhgzuxc3","slide":51,"text":"版本对比报告看什么","textPreview":"版本对比报告看什么","textChars":9,"textLines":1,"bbox":[70,72,1130,58]}
+{"kind":"shape","id":"sh/lkrypsbu","slide":51,"bbox":[70,148,160,4]}
+{"kind":"shape","id":"sh/kjihwnu9","slide":51,"bbox":[70,205,330,54]}
+{"kind":"textbox","id":"sh/7m90r2tk","slide":51,"text":"维度","textPreview":"维度","textChars":2,"textLines":1,"bbox":[80,219,310,28]}
+{"kind":"shape","id":"sh/6l0zyxcz","slide":51,"bbox":[400,205,220,54]}
+{"kind":"textbox","id":"sh/4naxkzah","slide":51,"text":"V1","textPreview":"V1","textChars":2,"textLines":1,"bbox":[410,219,200,28]}
+{"kind":"shape","id":"sh/58jyd4r2","slide":51,"bbox":[620,205,220,54]}
+{"kind":"textbox","id":"sh/il8fi9sr","slide":51,"text":"V2","textPreview":"V2","textChars":2,"textLines":1,"bbox":[630,219,200,28]}
+{"kind":"shape","id":"sh/3m1gbu9w","slide":51,"bbox":[840,205,370,54]}
+{"kind":"textbox","id":"sh/sbahojat","slide":51,"text":"判断","textPreview":"判断","textChars":2,"textLines":1,"bbox":[850,219,350,28]}
+{"kind":"shape","id":"sh/dcjyhore","slide":51,"bbox":[70,259,330,58]}
+{"kind":"textbox","id":"sh/q9sfm9sn","slide":51,"text":"原Bad Case","textPreview":"原Bad Case","textChars":9,"textLines":1,"bbox":[82,273,306,34]}
+{"kind":"shape","id":"sh/ra1gfe98","slide":51,"bbox":[400,259,220,58]}
+{"kind":"textbox","id":"sh/0fuhsjap","slide":51,"text":"失败","textPreview":"失败","textChars":2,"textLines":1,"bbox":[412,273,196,34]}
+{"kind":"shape","id":"sh/1g3ylora","slide":51,"bbox":[620,259,220,58]}
+{"kind":"textbox","id":"sh/pkf6p4f2","slide":51,"text":"通过","textPreview":"通过","textChars":2,"textLines":1,"bbox":[632,273,196,34]}
+{"kind":"shape","id":"sh/oj6pgzyx","slide":51,"bbox":[840,259,370,58]}
+{"kind":"textbox","id":"sh/nixonuxc","slide":51,"text":"已修复","textPreview":"已修复","textChars":3,"textLines":1,"bbox":[852,273,346,34]}
+{"kind":"shape","id":"sh/2ho7epgr","slide":51,"bbox":[70,317,330,58]}
+{"kind":"textbox","id":"sh/xozqt4fe","slide":51,"text":"核心正确率","textPreview":"核心正确率","textChars":5,"textLines":1,"bbox":[82,331,306,34]}
+{"kind":"shape","id":"sh/cnqpkzyt","slide":51,"bbox":[400,317,220,58]}
+{"kind":"textbox","id":"sh/bmxorux8","slide":51,"text":"94%","textPreview":"94%","textChars":3,"textLines":1,"bbox":[412,331,196,34]}
+{"kind":"shape","id":"sh/alo7ipgn","slide":51,"bbox":[620,317,220,58]}
+{"kind":"textbox","id":"sh/dsv6hkfa","slide":51,"text":"96%","textPreview":"96%","textChars":3,"textLines":1,"bbox":[632,331,196,34]}
+{"kind":"shape","id":"sh/srmp8fyp","slide":51,"bbox":[840,317,370,58]}
+{"kind":"textbox","id":"sh/ixk3i1w7","slide":51,"text":"提升","textPreview":"提升","textChars":2,"textLines":1,"bbox":[852,331,346,34]}
+{"kind":"shape","id":"sh/3yt4r6ds","slide":51,"bbox":[70,375,330,58]}
+{"kind":"textbox","id":"sh/4z2lkbed","slide":51,"text":"安全红线","textPreview":"安全红线","textChars":4,"textLines":1,"bbox":[82,389,306,34]}
+{"kind":"shape","id":"sh/50bmtgvy","slide":51,"bbox":[400,375,220,58]}
+{"kind":"textbox","id":"sh/q1knmlwj","slide":51,"text":"0","textPreview":"0","textChars":1,"textLines":1,"bbox":[412,389,196,34]}
+{"kind":"shape","id":"sh/r2t4fqd4","slide":51,"bbox":[620,375,220,58]}
+{"kind":"textbox","id":"sh/sn25ovep","slide":51,"text":"1","textPreview":"1","textChars":1,"textLines":1,"bbox":[632,389,196,34]}
+{"kind":"shape","id":"sh/dovmh0vu","slide":51,"bbox":[840,375,370,58]}
+{"kind":"textbox","id":"sh/m503ahwf","slide":51,"text":"阻止全量上线","textPreview":"阻止全量上线","textChars":6,"textLines":1,"bbox":[852,389,346,34]}
+{"kind":"shape","id":"sh/7694jmdk","slide":51,"bbox":[70,433,330,58]}
+{"kind":"textbox","id":"sh/nm1k7ipo","slide":51,"text":"P95响应","textPreview":"P95响应","textChars":5,"textLines":1,"bbox":[82,447,306,34]}
+{"kind":"shape","id":"sh/mlsjedo3","slide":51,"bbox":[400,433,220,58]}
+{"kind":"textbox","id":"sh/9oj29s7e","slide":51,"text":"3.2秒","textPreview":"3.2秒","textChars":4,"textLines":1,"bbox":[412,447,196,34]}
+{"kind":"shape","id":"sh/ona1gn69","slide":51,"bbox":[620,433,220,58]}
+{"kind":"textbox","id":"sh/bq1kb2pk","slide":51,"text":"4.8秒","textPreview":"4.8秒","textChars":4,"textLines":1,"bbox":[632,447,196,34]}
+{"kind":"shape","id":"sh/apsjixoz","slide":51,"bbox":[840,433,370,58]}
+{"kind":"textbox","id":"sh/xs32ds7q","slide":51,"text":"需关注","textPreview":"需关注","textChars":3,"textLines":1,"bbox":[852,447,346,34]}
+{"kind":"shape","id":"sh/wra1kn65","slide":51,"bbox":[70,491,330,58]}
+{"kind":"textbox","id":"sh/julkf2pw","slide":51,"text":"单次成本","textPreview":"单次成本","textChars":4,"textLines":1,"bbox":[82,505,306,34]}
+{"kind":"shape","id":"sh/ytcjmxob","slide":51,"bbox":[400,491,220,58]}
+{"kind":"textbox","id":"sh/gje1c7m9","slide":51,"text":"0.08元","textPreview":"0.08元","textChars":5,"textLines":1,"bbox":[412,505,196,34]}
+{"kind":"shape","id":"sh/hkni5c3u","slide":51,"bbox":[620,491,220,58]}
+{"kind":"textbox","id":"sh/uxcjax4j","slide":51,"text":"0.11元","textPreview":"0.11元","textChars":5,"textLines":1,"bbox":[632,505,196,34]}
+{"kind":"shape","id":"sh/vil032lo","slide":51,"bbox":[840,491,370,58]}
+{"kind":"textbox","id":"sh/8vu187md","slide":51,"text":"超门槛","textPreview":"超门槛","textChars":3,"textLines":1,"bbox":[852,505,346,34]}
+{"kind":"notes","id":"nt/z2njlh","slide":51,"text":"[Sources]\n- /Users/keivn/Project/AI-Course/课程生产/第一阶段/第09课_AI产品测试、指标与Bad Case_重做工作区/第9课 - AI产品评测与数据反馈.md\n- 内容依据：版本对比报告看什么"}
+{"kind":"slide","id":"sl/5zc6hx","slide":52,"title":"AI PRODUCT · IMPROVE","textShapes":13}
+{"kind":"textbox","id":"sh/8zq14zm9","slide":52,"text":"AI PRODUCT · IMPROVE","textPreview":"AI PRODUCT · IMPROVE","textChars":20,"textLines":1,"bbox":[70,27,360,22]}
+{"kind":"textbox","id":"sh/7yhkvu5o","slide":52,"text":"52","textPreview":"52","textChars":2,"textLines":1,"bbox":[1160,27,48,22]}
+{"kind":"shape","id":"sh/6xoj2p43","slide":52,"bbox":[70,683,1140,2]}
+{"kind":"shape","id":"sh/h4z214nq","slide":52,"bbox":[70,683,884.78,2]}
+{"kind":"textbox","id":"sh/g3q18zml","slide":52,"text":"发布与回滚机制","textPreview":"发布与回滚机制","textChars":7,"textLines":1,"bbox":[70,72,1130,58]}
+{"kind":"shape","id":"sh/v2hkzu50","slide":52,"bbox":[70,148,160,4]}
+{"kind":"shape","id":"sh/u18j6p4f","slide":52,"bbox":[286.8,358,15,0]}
+{"kind":"shape","id":"sh/x8fip0nm","slide":52,"bbox":[515.6,358,15,0]}
+{"kind":"shape","id":"sh/w761wfm1","slide":52,"bbox":[744.4,358,15,0]}
+{"kind":"shape","id":"sh/adg7qhkv","slide":52,"bbox":[973.2,358,15,0]}
+{"kind":"shape","id":"sh/bep8zm1g","slide":52,"bbox":[78,300,208.8,116]}
+{"kind":"textbox","id":"sh/wfypsr21","slide":52,"text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[92,312,34,24]}
+{"kind":"textbox","id":"sh/x07q1wjm","slide":52,"text":"通过门槛","textPreview":"通过门槛","textChars":4,"textLines":1,"bbox":[93,344,178.8,52]}
+{"kind":"shape","id":"sh/y1gru1kr","slide":52,"bbox":[306.8,300,208.8,116]}
+{"kind":"textbox","id":"sh/j298361c","slide":52,"text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[320.8,312,34,24]}
+{"kind":"textbox","id":"sh/k3i9wb2x","slide":52,"text":"小流量灰度","textPreview":"小流量灰度","textChars":5,"textLines":1,"bbox":[321.8,344,178.8,52]}
+{"kind":"shape","id":"sh/l4rq5wji","slide":52,"bbox":[535.6,300,208.8,116]}
+{"kind":"textbox","id":"sh/650ry1k3","slide":52,"text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[549.6,312,34,24]}
+{"kind":"textbox","id":"sh/7698761o","slide":52,"text":"线上监控","textPreview":"线上监控","textChars":4,"textLines":1,"bbox":[550.6,344,178.8,52]}
+{"kind":"shape","id":"sh/3at8v6hw","slide":52,"bbox":[764.4,300,208.8,116]}
+{"kind":"textbox","id":"sh/29k7m1gb","slide":52,"text":"04","textPreview":"04","textChars":2,"textLines":1,"bbox":[778.4,312,34,24]}
+{"kind":"textbox","id":"sh/pcbqxgzm","slide":52,"text":"扩大范围","textPreview":"扩大范围","textChars":4,"textLines":1,"bbox":[779.4,344,178.8,52]}
+{"kind":"shape","id":"sh/4b2poby1","slide":52,"bbox":[993.2,300,208.8,116]}
+{"kind":"textbox","id":"sh/f69or6hk","slide":52,"text":"05","textPreview":"05","textChars":2,"textLines":1,"bbox":[1007.2,312,34,24]}
+{"kind":"textbox","id":"sh/u507i1gz","slide":52,"text":"严重问题回滚","textPreview":"严重问题回滚","textChars":6,"textLines":1,"bbox":[1008.2,344,178.8,52]}
+{"kind":"notes","id":"nt/5zc6hx","slide":52,"text":"[Sources]\n- /Users/keivn/Project/AI-Course/课程生产/第一阶段/第09课_AI产品测试、指标与Bad Case_重做工作区/第9课 - AI产品评测与数据反馈.md\n- 内容依据：发布与回滚机制"}
+{"kind":"slide","id":"sl/zd1dmx","slide":53,"title":"AI PRODUCT · IMPROVE","textShapes":9}
+{"kind":"textbox","id":"sh/w7ep47e1","slide":53,"text":"AI PRODUCT · IMPROVE","textPreview":"AI PRODUCT · IMPROVE","textChars":20,"textLines":1,"bbox":[70,27,360,22]}
+{"kind":"textbox","id":"sh/v6l8b2dg","slide":53,"text":"53","textPreview":"53","textChars":2,"textLines":1,"bbox":[1160,27,48,22]}
+{"kind":"shape","id":"sh/alc72xwv","slide":53,"bbox":[70,683,1140,2]}
+{"kind":"shape","id":"sh/5cnqhcvi","slide":53,"bbox":[70,683,901.79,2]}
+{"kind":"textbox","id":"sh/kbep87ex","slide":53,"text":"持续评测的研发流程","textPreview":"持续评测的研发流程","textChars":9,"textLines":1,"bbox":[70,72,1130,58]}
+{"kind":"shape","id":"sh/ja58fmdc","slide":53,"bbox":[70,148,160,4]}
+{"kind":"shape","id":"sh/i9w76hwr","slide":53,"bbox":[76,220,553,140]}
+{"kind":"textbox","id":"sh/lg365sve","slide":53,"text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[98,240,509,34]}
+{"kind":"textbox","id":"sh/0fapwnet","slide":53,"text":"修改Prompt、模型、知识或工作流都触发回归","textPreview":"修改Prompt、模型、知识或工作流都触发回归","textChars":23,"textLines":1,"bbox":[98,281,509,64]}
+{"kind":"shape","id":"sh/ud0raxob","slide":53,"bbox":[651,220,553,140]}
+{"kind":"textbox","id":"sh/fe9832pw","slide":53,"text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[673,240,509,34]}
+{"kind":"textbox","id":"sh/gfi9c76h","slide":53,"text":"发布前检查门槛，灰度期间监控真实流量","textPreview":"发布前检查门槛，灰度期间监控真实流量","textChars":18,"textLines":1,"bbox":[673,281,509,64]}
+{"kind":"shape","id":"sh/hgrq5c72","slide":53,"bbox":[76,382,553,140]}
+{"kind":"textbox","id":"sh/210rexon","slide":53,"text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[98,402,509,34]}
+{"kind":"textbox","id":"sh/329872p8","slide":53,"text":"出现严重问题时可以恢复完整历史配置","textPreview":"出现严重问题时可以恢复完整历史配置","textChars":17,"textLines":1,"bbox":[98,443,509,64]}
+{"kind":"notes","id":"nt/zd1dmx","slide":53,"text":"[Sources]\n- /Users/keivn/Project/AI-Course/课程生产/第一阶段/第09课_AI产品测试、指标与Bad Case_重做工作区/第9课 - AI产品评测与数据反馈.md\n- 内容依据：持续评测的研发流程"}
+{"kind":"slide","id":"sl/mety3b","slide":54,"title":"AI PRODUCT · DATA LOOP","textShapes":4}
+{"kind":"textbox","id":"sh/a9cnyx07","slide":54,"text":"AI PRODUCT · DATA LOOP","textPreview":"AI PRODUCT · DATA LOOP","textChars":22,"textLines":1,"bbox":[70,27,360,22]}
+{"kind":"textbox","id":"sh/xw3mtsji","slide":54,"text":"54","textPreview":"54","textChars":2,"textLines":1,"bbox":[1160,27,48,22]}
+{"kind":"shape","id":"sh/wvu50nix","slide":54,"bbox":[70,683,1140,2]}
+{"kind":"shape","id":"sh/jy54v21o","slide":54,"bbox":[70,683,918.81,2]}
+{"kind":"textbox","id":"sh/yxcn2x03","slide":54,"text":"05 数据反馈闭环","textPreview":"05 数据反馈闭环","textChars":9,"textLines":1,"bbox":[80,182,1080,88]}
+{"kind":"shape","id":"sh/l0nmxcju","slide":54,"bbox":[80,300,120,6]}
+{"kind":"textbox","id":"sh/kze547i9","slide":54,"text":"让真实使用持续转化为可验证的改进","textPreview":"让真实使用持续转化为可验证的改进","textChars":16,"textLines":1,"bbox":[84,345,980,50]}
+{"kind":"notes","id":"nt/mety3b","slide":54,"text":"[Sources]\n- /Users/keivn/Project/AI-Course/课程生产/第一阶段/第09课_AI产品测试、指标与Bad Case_重做工作区/第9课 - AI产品评测与数据反馈.md\n- 内容依据：05 数据反馈闭环"}
+{"kind":"slide","id":"sl/ljb58u","slide":55,"title":"AI PRODUCT · DATA LOOP","textShapes":17}
+{"kind":"textbox","id":"sh/mp8n6hkz","slide":55,"text":"AI PRODUCT · DATA LOOP","textPreview":"AI PRODUCT · DATA LOOP","textChars":22,"textLines":1,"bbox":[70,27,360,22]}
+{"kind":"textbox","id":"sh/9sj6hwjq","slide":55,"text":"55","textPreview":"55","textChars":2,"textLines":1,"bbox":[1160,27,48,22]}
+{"kind":"shape","id":"sh/8ra58r25","slide":55,"bbox":[70,683,1140,2]}
+{"kind":"shape","id":"sh/vu1ojm1w","slide":55,"bbox":[70,683,935.82,2]}
+{"kind":"textbox","id":"sh/atsnahkb","slide":55,"text":"数据反馈闭环","textPreview":"数据反馈闭环","textChars":6,"textLines":1,"bbox":[70,72,1130,58]}
+{"kind":"shape","id":"sh/xgj6lwjm","slide":55,"bbox":[70,148,160,4]}
+{"kind":"shape","id":"sh/wfapcr21","slide":55,"bbox":[221.43,346,15,0]}
+{"kind":"shape","id":"sh/byxo721c","slide":55,"bbox":[384.86,346,15,0]}
+{"kind":"shape","id":"sh/qxonyxkr","slide":55,"bbox":[548.29,346,15,0]}
+{"kind":"shape","id":"sh/wn21ovmp","slide":55,"bbox":[711.71,346,15,0]}
+{"kind":"shape","id":"sh/xobih0nu","slide":55,"bbox":[875.14,346,15,0]}
+{"kind":"shape","id":"sh/al0jml4j","slide":55,"bbox":[1038.57,346,15,0]}
+{"kind":"shape","id":"sh/bmt0fq54","slide":55,"bbox":[78,300,143.43,92]}
+{"kind":"textbox","id":"sh/kr21svml","slide":55,"text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[92,312,34,24]}
+{"kind":"textbox","id":"sh/5sbil0n6","slide":55,"text":"采集","textPreview":"采集","textChars":2,"textLines":1,"bbox":[93,342,113.43,52]}
+{"kind":"shape","id":"sh/ipkjql4f","slide":55,"bbox":[241.43,300,143.43,92]}
+{"kind":"textbox","id":"sh/jqt0jq50","slide":55,"text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[255.43,312,34,24]}
+{"kind":"textbox","id":"sh/0vihgbmh","slide":55,"text":"清洗标注","textPreview":"清洗标注","textChars":4,"textLines":1,"bbox":[256.43,342,113.43,52]}
+{"kind":"shape","id":"sh/1wri9gn2","slide":55,"bbox":[404.86,300,143.43,92]}
+{"kind":"textbox","id":"sh/hgz6x8be","slide":55,"text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[418.86,312,34,24]}
+{"kind":"textbox","id":"sh/gfqpo3ut","slide":55,"text":"问题归因","textPreview":"问题归因","textChars":4,"textLines":1,"bbox":[419.86,342,113.43,52]}
+{"kind":"shape","id":"sh/fehovyt8","slide":55,"bbox":[568.29,300,143.43,92]}
+{"kind":"textbox","id":"sh/ud87mtc3","slide":55,"text":"04","textPreview":"04","textChars":2,"textLines":1,"bbox":[582.29,312,34,24]}
+{"kind":"textbox","id":"sh/p4jq18bq","slide":55,"text":"方案设计","textPreview":"方案设计","textChars":4,"textLines":1,"bbox":[583.29,342,113.43,52]}
+{"kind":"shape","id":"sh/43qps3u5","slide":55,"bbox":[731.71,300,143.43,92]}
+{"kind":"textbox","id":"sh/3ih8zitk","slide":55,"text":"05","textPreview":"05","textChars":2,"textLines":1,"bbox":[745.71,312,34,24]}
+{"kind":"textbox","id":"sh/2h87qdcz","slide":55,"text":"产品修改","textPreview":"产品修改","textChars":4,"textLines":1,"bbox":[746.71,342,113.43,52]}
+{"kind":"shape","id":"sh/d8jq5sbm","slide":55,"bbox":[895.14,300,143.43,92]}
+{"kind":"textbox","id":"sh/c7apwna1","slide":55,"text":"06","textPreview":"06","textChars":2,"textLines":1,"bbox":[909.14,312,34,24]}
+{"kind":"textbox","id":"sh/adknqpsj","slide":55,"text":"评测验证","textPreview":"评测验证","textChars":4,"textLines":1,"bbox":[910.14,342,113.43,52]}
+{"kind":"shape","id":"sh/ved4zu94","slide":55,"bbox":[1058.57,300,143.43,92]}
+{"kind":"textbox","id":"sh/wfm5sfap","slide":55,"text":"07","textPreview":"07","textChars":2,"textLines":1,"bbox":[1072.57,312,34,24]}
+{"kind":"textbox","id":"sh/xgvm1kra","slide":55,"text":"线上观察","textPreview":"线上观察","textChars":4,"textLines":1,"bbox":[1073.57,342,113.43,52]}
+{"kind":"notes","id":"nt/ljb58u","slide":55,"text":"[Sources]\n- /Users/keivn/Project/AI-Course/课程生产/第一阶段/第09课_AI产品测试、指标与Bad Case_重做工作区/第9课 - AI产品评测与数据反馈.md\n- 内容依据：数据反馈闭环"}
+{"kind":"slide","id":"sl/d36500","slide":56,"title":"AI PRODUCT · DATA LOOP","textShapes":11}
+{"kind":"textbox","id":"sh/uxg3m9kn","slide":56,"text":"AI PRODUCT · DATA LOOP","textPreview":"AI PRODUCT · DATA LOOP","textChars":22,"textLines":1,"bbox":[70,27,360,22]}
+{"kind":"textbox","id":"sh/h072x4jy","slide":56,"text":"56","textPreview":"56","textChars":2,"textLines":1,"bbox":[1160,27,48,22]}
+{"kind":"shape","id":"sh/gzyloz2d","slide":56,"bbox":[70,683,1140,2]}
+{"kind":"shape","id":"sh/7a5kru1w","slide":56,"bbox":[70,683,952.84,2]}
+{"kind":"textbox","id":"sh/69wjipkb","slide":56,"text":"AI产品数据的四类来源","textPreview":"AI产品数据的四类来源","textChars":11,"textLines":1,"bbox":[70,72,1130,58]}
+{"kind":"shape","id":"sh/tc72t4j2","slide":56,"bbox":[70,148,160,4]}
+{"kind":"shape","id":"sh/sbylkz2h","slide":56,"bbox":[76,210,553,180]}
+{"kind":"textbox","id":"sh/r69k3y10","slide":56,"text":"业务原始数据","textPreview":"业务原始数据","textChars":6,"textLines":1,"bbox":[98,230,509,34]}
+{"kind":"textbox","id":"sh/q503utkv","slide":56,"text":"制度、商品、订单、知识库与业务规则","textPreview":"制度、商品、订单、知识库与业务规则","textChars":17,"textLines":1,"bbox":[98,271,509,104]}
+{"kind":"shape","id":"sh/8vi1ovu9","slide":56,"bbox":[651,210,553,180]}
+{"kind":"textbox","id":"sh/twr2h0bu","slide":56,"text":"输入与输出","textPreview":"输入与输出","textChars":5,"textLines":1,"bbox":[673,230,509,34]}
+{"kind":"textbox","id":"sh/6t0jmlcj","slide":56,"text":"用户问题、上下文、检索、工具与AI回答","textPreview":"用户问题、上下文、检索、工具与AI回答","textChars":19,"textLines":1,"bbox":[673,271,509,104]}
+{"kind":"shape","id":"sh/7u9kfqto","slide":56,"bbox":[76,412,553,180]}
+{"kind":"textbox","id":"sh/kry1kvud","slide":56,"text":"显性反馈","textPreview":"显性反馈","textChars":4,"textLines":1,"bbox":[98,432,509,34]}
+{"kind":"textbox","id":"sh/ls72d0by","slide":56,"text":"点赞、点踩、评分、文字评价与投诉","textPreview":"点赞、点踩、评分、文字评价与投诉","textChars":16,"textLines":1,"bbox":[98,473,509,104]}
+{"kind":"shape","id":"sh/ypgjilc7","slide":56,"bbox":[651,412,553,180]}
+{"kind":"textbox","id":"sh/jqp0bqds","slide":56,"text":"隐性行为","textPreview":"隐性行为","textChars":4,"textLines":1,"bbox":[673,432,509,34]}
+{"kind":"textbox","id":"sh/w3y1gbu1","slide":56,"text":"复制、导出、重生成、追问、退出与转人工","textPreview":"复制、导出、重生成、追问、退出与转人工","textChars":19,"textLines":1,"bbox":[673,473,509,104]}
+{"kind":"notes","id":"nt/d36500","slide":56,"text":"[Sources]\n- /Users/keivn/Project/AI-Course/课程生产/第一阶段/第09课_AI产品测试、指标与Bad Case_重做工作区/第9课 - AI产品评测与数据反馈.md\n- 内容依据：AI产品数据的四类来源"}
+{"kind":"slide","id":"sl/14973t","slide":57,"title":"AI PRODUCT · DATA LOOP","textShapes":17}
+{"kind":"textbox","id":"sh/4rehk32l","slide":57,"text":"AI PRODUCT · DATA LOOP","textPreview":"AI PRODUCT · DATA LOOP","textChars":22,"textLines":1,"bbox":[70,27,360,22]}
+{"kind":"textbox","id":"sh/3q5gby10","slide":57,"text":"57","textPreview":"57","textChars":2,"textLines":1,"bbox":[1160,27,48,22]}
+{"kind":"shape","id":"sh/2pwzitkf","slide":57,"bbox":[70,683,1140,2]}
+{"kind":"shape","id":"sh/dg7yh8j2","slide":57,"bbox":[70,683,969.85,2]}
+{"kind":"textbox","id":"sh/cfyho32h","slide":57,"text":"显性反馈与隐性行为","textPreview":"显性反馈与隐性行为","textChars":9,"textLines":1,"bbox":[70,72,1130,58]}
+{"kind":"shape","id":"sh/re5gfy1w","slide":57,"bbox":[70,148,160,4]}
+{"kind":"shape","id":"sh/qdwzmdkr","slide":57,"bbox":[76,212,530,380]}
+{"kind":"textbox","id":"sh/tk3y5ojy","slide":57,"text":"显性反馈","textPreview":"显性反馈","textChars":4,"textLines":1,"bbox":[104,236,474,40]}
+{"kind":"textbox","id":"sh/8juxcj2d","slide":57,"text":"—","textPreview":"—","textChars":1,"textLines":1,"bbox":[101,304,38,30]}
+{"kind":"textbox","id":"sh/6dg7uhof","slide":57,"text":"原因容易理解","textPreview":"原因容易理解","textChars":6,"textLines":1,"bbox":[153,303,428,38]}
+{"kind":"textbox","id":"sh/rep8nmp0","slide":57,"text":"—","textPreview":"—","textChars":1,"textLines":1,"bbox":[101,356,38,30]}
+{"kind":"textbox","id":"sh/sfypwr6l","slide":57,"text":"数量通常较少","textPreview":"数量通常较少","textChars":6,"textLines":1,"bbox":[153,355,428,38]}
+{"kind":"textbox","id":"sh/tgrqpw76","slide":57,"text":"—","textPreview":"—","textChars":1,"textLines":1,"bbox":[101,408,38,30]}
+{"kind":"textbox","id":"sh/e107y1or","slide":57,"text":"容易集中在极端用户","textPreview":"容易集中在极端用户","textChars":9,"textLines":1,"bbox":[153,407,428,38]}
+{"kind":"shape","id":"sh/f298r6pw","slide":57,"bbox":[674,212,530,380]}
+{"kind":"textbox","id":"sh/g3i90b6h","slide":57,"text":"隐性行为","textPreview":"隐性行为","textChars":4,"textLines":1,"bbox":[702,236,474,40]}
+{"kind":"textbox","id":"sh/14rqtw72","slide":57,"text":"—","textPreview":"—","textChars":1,"textLines":1,"bbox":[699,304,38,30]}
+{"kind":"textbox","id":"sh/250r21on","slide":57,"text":"数量更丰富","textPreview":"数量更丰富","textChars":5,"textLines":1,"bbox":[751,303,428,38]}
+{"kind":"textbox","id":"sh/3698v6p8","slide":57,"text":"—","textPreview":"—","textChars":1,"textLines":1,"bbox":[699,356,38,30]}
+{"kind":"textbox","id":"sh/zatoj65g","slide":57,"text":"必须结合场景解释","textPreview":"必须结合场景解释","textChars":8,"textLines":1,"bbox":[751,355,428,38]}
+{"kind":"textbox","id":"sh/y9k7ql4v","slide":57,"text":"—","textPreview":"—","textChars":1,"textLines":1,"bbox":[699,408,38,30]}
+{"kind":"textbox","id":"sh/lcbqlgn6","slide":57,"text":"单一行为不能直接下结论","textPreview":"单一行为不能直接下结论","textChars":11,"textLines":1,"bbox":[751,407,428,38]}
+{"kind":"notes","id":"nt/14973t","slide":57,"text":"[Sources]\n- /Users/keivn/Project/AI-Course/课程生产/第一阶段/第09课_AI产品测试、指标与Bad Case_重做工作区/第9课 - AI产品评测与数据反馈.md\n- 内容依据：显性反馈与隐性行为"}
+{"kind":"slide","id":"sl/6pggg8","slide":58,"title":"AI PRODUCT · DATA LOOP","textShapes":21}
+{"kind":"textbox","id":"sh/fa58n61s","slide":58,"text":"AI PRODUCT · DATA LOOP","textPreview":"AI PRODUCT · DATA LOOP","textChars":22,"textLines":1,"bbox":[70,27,360,22]}
+{"kind":"textbox","id":"sh/0bepwbid","slide":58,"text":"58","textPreview":"58","textChars":2,"textLines":1,"bbox":[1160,27,48,22]}
+{"kind":"shape","id":"sh/1cnqpgjy","slide":58,"bbox":[70,683,1140,2]}
+{"kind":"shape","id":"sh/q5c7q10b","slide":58,"bbox":[70,683,986.87,2]}
+{"kind":"textbox","id":"sh/r6l8jm1w","slide":58,"text":"隐性行为如何解释","textPreview":"隐性行为如何解释","textChars":8,"textLines":1,"bbox":[70,72,1130,58]}
+{"kind":"shape","id":"sh/s7epsrih","slide":58,"bbox":[70,148,160,4]}
+{"kind":"shape","id":"sh/d8nqlwj2","slide":58,"bbox":[70,205,220,54]}
+{"kind":"textbox","id":"sh/a1g72l0f","slide":58,"text":"行为","textPreview":"行为","textChars":2,"textLines":1,"bbox":[80,219,200,28]}
+{"kind":"shape","id":"sh/b2p8vq10","slide":58,"bbox":[290,205,440,54]}
+{"kind":"textbox","id":"sh/zm5gj61o","slide":58,"text":"可能的正向含义","textPreview":"可能的正向含义","textChars":7,"textLines":1,"bbox":[300,219,420,28]}
+{"kind":"shape","id":"sh/elwza103","slide":58,"bbox":[730,205,480,54]}
+{"kind":"textbox","id":"sh/1onylgzu","slide":58,"text":"也可能意味着","textPreview":"也可能意味着","textChars":6,"textLines":1,"bbox":[740,219,460,28]}
+{"kind":"shape","id":"sh/0nehcbi9","slide":58,"bbox":[70,259,220,58]}
+{"kind":"textbox","id":"sh/na5gn6h0","slide":58,"text":"收藏","textPreview":"收藏","textChars":2,"textLines":1,"bbox":[82,273,196,34]}
+{"kind":"shape","id":"sh/mpwze10f","slide":58,"bbox":[290,259,440,58]}
+{"kind":"textbox","id":"sh/9c7ipgzq","slide":58,"text":"内容有长期价值","textPreview":"内容有长期价值","textChars":7,"textLines":1,"bbox":[302,273,416,34]}
+{"kind":"shape","id":"sh/obehgbil","slide":58,"bbox":[730,259,480,58]}
+{"kind":"textbox","id":"sh/bep0rqhw","slide":58,"text":"只是暂存","textPreview":"只是暂存","textChars":4,"textLines":1,"bbox":[742,273,456,34]}
+{"kind":"shape","id":"sh/adgzil0b","slide":58,"bbox":[70,317,220,58]}
+{"kind":"textbox","id":"sh/690japkj","slide":58,"text":"复制/导出","textPreview":"复制/导出","textChars":5,"textLines":1,"bbox":[82,331,196,34]}
+{"kind":"shape","id":"sh/7a9kju14","slide":58,"bbox":[290,317,440,58]}
+{"kind":"textbox","id":"sh/sb21cz2p","slide":58,"text":"进入真实工作流","textPreview":"进入真实工作流","textChars":7,"textLines":1,"bbox":[302,331,416,34]}
+{"kind":"shape","id":"sh/tcb2lkja","slide":58,"bbox":[730,317,480,58]}
+{"kind":"textbox","id":"sh/y50j65kn","slide":58,"text":"准备大幅修改","textPreview":"准备大幅修改","textChars":6,"textLines":1,"bbox":[742,331,456,34]}
+{"kind":"shape","id":"sh/j69kfa18","slide":58,"bbox":[70,375,220,58]}
+{"kind":"textbox","id":"sh/k7i18f2t","slide":58,"text":"重生成","textPreview":"重生成","textChars":3,"textLines":1,"bbox":[82,389,196,34]}
+{"kind":"shape","id":"sh/l8r2hkje","slide":58,"bbox":[290,375,440,58]}
+{"kind":"textbox","id":"sh/21k3i9kr","slide":58,"text":"希望探索更多创意","textPreview":"希望探索更多创意","textChars":8,"textLines":1,"bbox":[302,389,416,34]}
+{"kind":"shape","id":"sh/32tkre1c","slide":58,"bbox":[730,375,480,58]}
+{"kind":"textbox","id":"sh/dwfmh83e","slide":58,"text":"原回答不满足","textPreview":"原回答不满足","textChars":6,"textLines":1,"bbox":[742,389,456,34]}
+{"kind":"shape","id":"sh/cv6583m9","slide":58,"bbox":[70,433,220,58]}
+{"kind":"textbox","id":"sh/rud4fylo","slide":58,"text":"继续追问","textPreview":"继续追问","textChars":4,"textLines":1,"bbox":[82,447,196,34]}
+{"kind":"shape","id":"sh/qt4n6t43","slide":58,"bbox":[290,433,440,58]}
+{"kind":"textbox","id":"sh/p8vmdo3i","slide":58,"text":"用户深入使用","textPreview":"用户深入使用","textChars":6,"textLines":1,"bbox":[302,447,416,34]}
+{"kind":"shape","id":"sh/47m54jmx","slide":58,"bbox":[730,433,480,58]}
+{"kind":"textbox","id":"sh/36d4bylc","slide":58,"text":"回答不完整","textPreview":"回答不完整","textChars":5,"textLines":1,"bbox":[742,447,456,34]}
+{"kind":"shape","id":"sh/254n2t4r","slide":58,"bbox":[70,491,220,58]}
+{"kind":"textbox","id":"sh/94z6ps3m","slide":58,"text":"快速退出","textPreview":"快速退出","textChars":4,"textLines":1,"bbox":[82,505,196,34]}
+{"kind":"shape","id":"sh/o3q5gnm1","slide":58,"bbox":[290,491,440,58]}
+{"kind":"textbox","id":"sh/g7edgnmx","slide":58,"text":"产品无价值","textPreview":"产品无价值","textChars":5,"textLines":1,"bbox":[302,505,416,34]}
+{"kind":"shape","id":"sh/h8ne9s3i","slide":58,"bbox":[730,491,480,58]}
+{"kind":"textbox","id":"sh/u5cved4r","slide":58,"text":"用户已快速得到答案","textPreview":"用户已快速得到答案","textChars":9,"textLines":1,"bbox":[742,505,456,34]}
+{"kind":"notes","id":"nt/6pggg8","slide":58,"text":"[Sources]\n- /Users/keivn/Project/AI-Course/课程生产/第一阶段/第09课_AI产品测试、指标与Bad Case_重做工作区/第9课 - AI产品评测与数据反馈.md\n- 内容依据：隐性行为如何解释"}
+{"kind":"slide","id":"sl/vovl79","slide":59,"title":"AI PRODUCT · DATA LOOP","textShapes":15}
+{"kind":"textbox","id":"sh/lwjedg76","slide":59,"text":"AI PRODUCT · DATA LOOP","textPreview":"AI PRODUCT · DATA LOOP","textChars":22,"textLines":1,"bbox":[70,27,360,22]}
+{"kind":"textbox","id":"sh/ytsvi18f","slide":59,"text":"59","textPreview":"59","textChars":2,"textLines":1,"bbox":[1160,27,48,22]}
+{"kind":"shape","id":"sh/zu1wb6p0","slide":59,"bbox":[70,683,1140,2]}
+{"kind":"shape","id":"sh/8zuxovqh","slide":59,"bbox":[70,683,1003.88,2]}
+{"kind":"textbox","id":"sh/9k3eh072","slide":59,"text":"不同产品的反馈设计","textPreview":"不同产品的反馈设计","textChars":9,"textLines":1,"bbox":[70,72,1130,58]}
+{"kind":"shape","id":"sh/mxsvml8r","slide":59,"bbox":[70,148,160,4]}
+{"kind":"shape","id":"sh/7ylwfqpc","slide":59,"bbox":[70,205,260,54]}
+{"kind":"textbox","id":"sh/o3qdcrqd","slide":59,"text":"产品","textPreview":"产品","textChars":2,"textLines":1,"bbox":[80,219,240,28]}
+{"kind":"shape","id":"sh/poze5w7y","slide":59,"bbox":[330,205,480,54]}
+{"kind":"textbox","id":"sh/pgbqlgni","slide":59,"text":"关键行为","textPreview":"关键行为","textChars":4,"textLines":1,"bbox":[340,219,460,28]}
+{"kind":"shape","id":"sh/4f29cv6x","slide":59,"bbox":[810,205,400,54]}
+{"kind":"textbox","id":"sh/3et8jq5c","slide":59,"text":"真正关心的结果","textPreview":"真正关心的结果","textChars":7,"textLines":1,"bbox":[820,219,380,28]}
+{"kind":"shape","id":"sh/2dkralor","slide":59,"bbox":[70,259,260,58]}
+{"kind":"textbox","id":"sh/dkva90ne","slide":59,"text":"知识助手","textPreview":"知识助手","textChars":4,"textLines":1,"bbox":[82,273,236,34]}
+{"kind":"shape","id":"sh/cjm9gv6t","slide":59,"bbox":[330,259,480,58]}
+{"kind":"textbox","id":"sh/ridsnq5o","slide":59,"text":"引用点击、追问、复制","textPreview":"引用点击、追问、复制","textChars":10,"textLines":1,"bbox":[342,273,456,34]}
+{"kind":"shape","id":"sh/qhkrelo3","slide":59,"bbox":[810,259,400,58]}
+{"kind":"textbox","id":"sh/1ovad0nq","slide":59,"text":"信息是否可信且可用","textPreview":"信息是否可信且可用","textChars":9,"textLines":1,"bbox":[822,273,376,34]}
+{"kind":"shape","id":"sh/0nm9kf65","slide":59,"bbox":[70,317,260,58]}
+{"kind":"textbox","id":"sh/krutgje1","slide":59,"text":"写作工具","textPreview":"写作工具","textChars":4,"textLines":1,"bbox":[82,331,236,34]}
+{"kind":"shape","id":"sh/ls3upovm","slide":59,"bbox":[330,317,480,58]}
+{"kind":"textbox","id":"sh/ypcbe9wb","slide":59,"text":"采用比例、修改幅度、导出","textPreview":"采用比例、修改幅度、导出","textChars":12,"textLines":1,"bbox":[342,331,456,34]}
+{"kind":"shape","id":"sh/zqlcnedw","slide":59,"bbox":[810,317,400,58]}
+{"kind":"textbox","id":"sh/8fetkjud","slide":59,"text":"内容是否进入最终产物","textPreview":"内容是否进入最终产物","textChars":10,"textLines":1,"bbox":[822,331,376,34]}
+{"kind":"shape","id":"sh/9gnutovy","slide":59,"bbox":[70,375,260,58]}
+{"kind":"textbox","id":"sh/mtcbitc7","slide":59,"text":"AI客服","textPreview":"AI客服","textChars":4,"textLines":1,"bbox":[82,389,236,34]}
+{"kind":"shape","id":"sh/7u5creds","slide":59,"bbox":[330,375,480,58]}
+{"kind":"textbox","id":"sh/ozat8ze9","slide":59,"text":"重复咨询、转人工、任务完成","textPreview":"重复咨询、转人工、任务完成","textChars":13,"textLines":1,"bbox":[342,389,456,34]}
+{"kind":"shape","id":"sh/pkjah4ve","slide":59,"bbox":[810,375,400,58]}
+{"kind":"textbox","id":"sh/re9wn2xc","slide":59,"text":"业务问题是否解决","textPreview":"业务问题是否解决","textChars":8,"textLines":1,"bbox":[822,389,376,34]}
+{"kind":"notes","id":"nt/vovl79","slide":59,"text":"[Sources]\n- /Users/keivn/Project/AI-Course/课程生产/第一阶段/第09课_AI产品测试、指标与Bad Case_重做工作区/第9课 - AI产品评测与数据反馈.md\n- 内容依据：不同产品的反馈设计"}
+{"kind":"slide","id":"sl/m8l7oy","slide":60,"title":"AI PRODUCT · DATA LOOP","textShapes":15}
+{"kind":"textbox","id":"sh/epkzyp8f","slide":60,"text":"AI PRODUCT · DATA LOOP","textPreview":"AI PRODUCT · DATA LOOP","textChars":22,"textLines":1,"bbox":[70,27,360,22]}
+{"kind":"textbox","id":"sh/1sbit47q","slide":60,"text":"60","textPreview":"60","textChars":2,"textLines":1,"bbox":[1160,27,48,22]}
+{"kind":"shape","id":"sh/0r2h0zql","slide":60,"bbox":[70,683,1140,2]}
+{"kind":"shape","id":"sh/ned0vepw","slide":60,"bbox":[70,683,1020.9,2]}
+{"kind":"textbox","id":"sh/mdkz298b","slide":60,"text":"低分会话的处理流程","textPreview":"低分会话的处理流程","textChars":9,"textLines":1,"bbox":[70,72,1130,58]}
+{"kind":"shape","id":"sh/9gvixo72","slide":60,"bbox":[70,148,160,4]}
+{"kind":"shape","id":"sh/ofm14jqh","slide":60,"bbox":[248.67,358,15,0]}
+{"kind":"shape","id":"sh/3i90ja9s","slide":60,"bbox":[439.33,358,15,0]}
+{"kind":"shape","id":"sh/2h0zq587","slide":60,"bbox":[630,358,15,0]}
+{"kind":"shape","id":"sh/wfuxkbyh","slide":60,"bbox":[820.67,358,15,0]}
+{"kind":"shape","id":"sh/xg3edgz2","slide":60,"bbox":[1011.33,358,15,0]}
+{"kind":"shape","id":"sh/adcvi1gb","slide":60,"bbox":[78,300,170.67,116]}
+{"kind":"textbox","id":"sh/velwb6hw","slide":60,"text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[92,312,34,24]}
+{"kind":"textbox","id":"sh/kjuxobyd","slide":60,"text":"触发低分/红线","textPreview":"触发低分/红线","textChars":7,"textLines":1,"bbox":[93,344,140.67,52]}
+{"kind":"shape","id":"sh/54nehgzy","slide":60,"bbox":[268.67,300,170.67,116]}
+{"kind":"textbox","id":"sh/ihcfmlg7","slide":60,"text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[282.67,312,34,24]}
+{"kind":"textbox","id":"sh/jilwfqhs","slide":60,"text":"隐私脱敏与去重","textPreview":"隐私脱敏与去重","textChars":7,"textLines":1,"bbox":[283.67,344,140.67,52]}
+{"kind":"shape","id":"sh/0nadcri9","slide":60,"bbox":[459.33,300,170.67,116]}
+{"kind":"textbox","id":"sh/loje5wzu","slide":60,"text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[473.33,312,34,24]}
+{"kind":"textbox","id":"sh/hsr2ton6","slide":60,"text":"人工复核意图","textPreview":"人工复核意图","textChars":6,"textLines":1,"bbox":[474.33,344,140.67,52]}
+{"kind":"shape","id":"sh/grilkj6l","slide":60,"bbox":[650,300,170.67,116]}
+{"kind":"textbox","id":"sh/fq9kre5g","slide":60,"text":"04","textPreview":"04","textChars":2,"textLines":1,"bbox":[664,312,34,24]}
+{"kind":"textbox","id":"sh/u503i9ov","slide":60,"text":"归因与分级","textPreview":"归因与分级","textChars":5,"textLines":1,"bbox":[665,344,140.67,52]}
+{"kind":"shape","id":"sh/pwbmx8ni","slide":60,"bbox":[840.67,300,170.67,116]}
+{"kind":"textbox","id":"sh/ovilo36x","slide":60,"text":"05","textPreview":"05","textChars":2,"textLines":1,"bbox":[854.67,312,34,24]}
+{"kind":"textbox","id":"sh/3u9kvy5c","slide":60,"text":"加入问题池","textPreview":"加入问题池","textChars":5,"textLines":1,"bbox":[855.67,344,140.67,52]}
+{"kind":"shape","id":"sh/2t03mtor","slide":60,"bbox":[1031.33,300,170.67,116]}
+{"kind":"textbox","id":"sh/d0bm18ne","slide":60,"text":"06","textPreview":"06","textChars":2,"textLines":1,"bbox":[1045.33,312,34,24]}
+{"kind":"textbox","id":"sh/cz2ls36t","slide":60,"text":"关键样本进回归集","textPreview":"关键样本进回归集","textChars":8,"textLines":1,"bbox":[1046.33,344,140.67,52]}
+{"kind":"notes","id":"nt/m8l7oy","slide":60,"text":"[Sources]\n- /Users/keivn/Project/AI-Course/课程生产/第一阶段/第09课_AI产品测试、指标与Bad Case_重做工作区/第9课 - AI产品评测与数据反馈.md\n- 内容依据：低分会话的处理流程"}
+{"kind":"slide","id":"sl/5yck5z","slide":61,"title":"AI PRODUCT · DATA LOOP","textShapes":21}
+{"kind":"textbox","id":"sh/nm1wvm9w","slide":61,"text":"AI PRODUCT · DATA LOOP","textPreview":"AI PRODUCT · DATA LOOP","textChars":22,"textLines":1,"bbox":[70,27,360,22]}
+{"kind":"textbox","id":"sh/onad4rqh","slide":61,"text":"61","textPreview":"61","textChars":2,"textLines":1,"bbox":[1160,27,48,22]}
+{"kind":"shape","id":"sh/9ojexwr2","slide":61,"bbox":[70,683,1140,2]}
+{"kind":"shape","id":"sh/apcv618n","slide":61,"bbox":[70,683,1037.91,2]}
+{"kind":"textbox","id":"sh/bqlwz698","slide":61,"text":"数据清洗与数据标注","textPreview":"数据清洗与数据标注","textChars":9,"textLines":1,"bbox":[70,72,1130,58]}
+{"kind":"shape","id":"sh/wrud8bqt","slide":61,"bbox":[70,148,160,4]}
+{"kind":"shape","id":"sh/xc3e1gre","slide":61,"bbox":[76,212,530,380]}
+{"kind":"textbox","id":"sh/qt8vux8j","slide":61,"text":"清洗","textPreview":"清洗","textChars":2,"textLines":1,"bbox":[104,236,474,40]}
+{"kind":"textbox","id":"sh/ruhcn29o","slide":61,"text":"—","textPreview":"—","textChars":1,"textLines":1,"bbox":[101,304,38,30]}
+{"kind":"textbox","id":"sh/zypcfyhk","slide":61,"text":"删除隐私与无效数据","textPreview":"删除隐私与无效数据","textChars":9,"textLines":1,"bbox":[153,303,428,38]}
+{"kind":"textbox","id":"sh/yxgv6tgz","slide":61,"text":"—","textPreview":"—","textChars":1,"textLines":1,"bbox":[101,356,38,30]}
+{"kind":"textbox","id":"sh/lk7eh8zq","slide":61,"text":"合并重复案例","textPreview":"合并重复案例","textChars":6,"textLines":1,"bbox":[153,355,428,38]}
+{"kind":"textbox","id":"sh/0zyd83y5","slide":61,"text":"—","textPreview":"—","textChars":1,"textLines":1,"bbox":[101,408,38,30]}
+{"kind":"textbox","id":"sh/bupcbeh8","slide":61,"text":"补全上下文与版本","textPreview":"补全上下文与版本","textChars":8,"textLines":1,"bbox":[153,407,428,38]}
+{"kind":"textbox","id":"sh/qtgv29g3","slide":61,"text":"—","textPreview":"—","textChars":1,"textLines":1,"bbox":[101,460,38,30]}
+{"kind":"textbox","id":"sh/dw7udoze","slide":61,"text":"排除恶意输入","textPreview":"排除恶意输入","textChars":6,"textLines":1,"bbox":[153,459,428,38]}
+{"kind":"shape","id":"sh/cvyd4jyt","slide":61,"bbox":[674,212,530,380]}
+{"kind":"textbox","id":"sh/3q5c7ehc","slide":61,"text":"标注","textPreview":"标注","textChars":2,"textLines":1,"bbox":[702,236,474,40]}
+{"kind":"textbox","id":"sh/2pwvy9gr","slide":61,"text":"—","textPreview":"—","textChars":1,"textLines":1,"bbox":[699,304,38,30]}
+{"kind":"textbox","id":"sh/61cvq9kj","slide":61,"text":"问题类型与严重度","textPreview":"问题类型与严重度","textChars":8,"textLines":1,"bbox":[751,303,428,38]}
+{"kind":"textbox","id":"sh/rm5wje14","slide":61,"text":"—","textPreview":"—","textChars":1,"textLines":1,"bbox":[699,356,38,30]}
+{"kind":"textbox","id":"sh/snedsj2p","slide":61,"text":"用户意图与期望行为","textPreview":"用户意图与期望行为","textChars":9,"textLines":1,"bbox":[751,355,428,38]}
+{"kind":"textbox","id":"sh/tonel4ja","slide":61,"text":"—","textPreview":"—","textChars":1,"textLines":1,"bbox":[699,408,38,30]}
+{"kind":"textbox","id":"sh/epwvu9kv","slide":61,"text":"修复层级与责任模块","textPreview":"修复层级与责任模块","textChars":9,"textLines":1,"bbox":[751,407,428,38]}
+{"kind":"textbox","id":"sh/fq5wne1g","slide":61,"text":"—","textPreview":"—","textChars":1,"textLines":1,"bbox":[699,460,38,30]}
+{"kind":"textbox","id":"sh/grexwj21","slide":61,"text":"是否进入回归集","textPreview":"是否进入回归集","textChars":7,"textLines":1,"bbox":[751,459,428,38]}
+{"kind":"notes","id":"nt/5yck5z","slide":61,"text":"[Sources]\n- /Users/keivn/Project/AI-Course/课程生产/第一阶段/第09课_AI产品测试、指标与Bad Case_重做工作区/第9课 - AI产品评测与数据反馈.md\n- 内容依据：数据清洗与数据标注"}
+{"kind":"slide","id":"sl/gnuv6p","slide":62,"title":"AI PRODUCT · DATA LOOP","textShapes":14}
+{"kind":"textbox","id":"sh/qt07qd8z","slide":62,"text":"AI PRODUCT · DATA LOOP","textPreview":"AI PRODUCT · DATA LOOP","textChars":22,"textLines":1,"bbox":[70,27,360,22]}
+{"kind":"textbox","id":"sh/dwbqls7q","slide":62,"text":"62","textPreview":"62","textChars":2,"textLines":1,"bbox":[1160,27,48,22]}
+{"kind":"shape","id":"sh/svipsnq5","slide":62,"bbox":[70,683,1140,2]}
+{"kind":"shape","id":"sh/fyt8n2pw","slide":62,"bbox":[70,683,1054.93,2]}
+{"kind":"textbox","id":"sh/exkrux8b","slide":62,"text":"标注规范需要正例和反例","textPreview":"标注规范需要正例和反例","textChars":11,"textLines":1,"bbox":[70,72,1130,58]}
+{"kind":"shape","id":"sh/10bqpc7m","slide":62,"bbox":[70,148,160,4]}
+{"kind":"textbox","id":"sh/0z29w7qh","slide":62,"text":"案例拆解","textPreview":"案例拆解","textChars":4,"textLines":1,"bbox":[250,136,930,28]}
+{"kind":"textbox","id":"sh/v2p8by9c","slide":62,"text":"用户问题","textPreview":"用户问题","textChars":4,"textLines":1,"bbox":[82,194,180,30]}
+{"kind":"shape","id":"sh/u1g7it87","slide":62,"bbox":[86,226,1108,86]}
+{"kind":"shape","id":"sh/03qhw3ap","slide":62,"bbox":[86,226,8,86]}
+{"kind":"textbox","id":"sh/l4zipoba","slide":62,"text":"知识缺失：回答所需的正确资料未进入知识库。","textPreview":"知识缺失：回答所需的正确资料未进入知识库。","textChars":21,"textLines":1,"bbox":[122,247,1030,46]}
+{"kind":"textbox","id":"sh/e18zutsj","slide":62,"text":"AI回答","textPreview":"AI回答","textChars":4,"textLines":1,"bbox":[82,330,180,30]}
+{"kind":"shape","id":"sh/z2h0nyt4","slide":62,"bbox":[86,362,1108,86]}
+{"kind":"shape","id":"sh/87ah03al","slide":62,"bbox":[86,362,8,86]}
+{"kind":"textbox","id":"sh/98jit8b6","slide":62,"text":"用户询问2026年新制度，但知识库只有2025年版本。","textPreview":"用户询问2026年新制度，但知识库只有2025年版本。","textChars":27,"textLines":1,"bbox":[122,383,1030,46]}
+{"kind":"shape","id":"sh/m5szytsv","slide":62,"bbox":[76,474,361.33,116]}
+{"kind":"textbox","id":"sh/n610rytg","slide":62,"text":"正例","textPreview":"正例","textChars":2,"textLines":1,"bbox":[98,494,317.33,34]}
+{"kind":"textbox","id":"sh/4b6hojah","slide":62,"text":"资料确实缺失","textPreview":"资料确实缺失","textChars":6,"textLines":1,"bbox":[98,535,317.33,40]}
+{"kind":"shape","id":"sh/pcfyh4b2","slide":62,"bbox":[459.33,474,361.33,116]}
+{"kind":"textbox","id":"sh/5gn65gzu","slide":62,"text":"反例","textPreview":"反例","textChars":2,"textLines":1,"bbox":[481.33,494,317.33,34]}
+{"kind":"textbox","id":"sh/kve5wby9","slide":62,"text":"资料已召回但模型没用","textPreview":"资料已召回但模型没用","textChars":10,"textLines":1,"bbox":[481.33,535,317.33,40]}
+{"kind":"shape","id":"sh/ju5o36ho","slide":62,"bbox":[842.67,474,361.33,116]}
+{"kind":"textbox","id":"sh/itwnu1g3","slide":62,"text":"价值","textPreview":"价值","textChars":2,"textLines":1,"bbox":[864.67,494,317.33,34]}
+{"kind":"textbox","id":"sh/tk769gzq","slide":62,"text":"统计口径一致","textPreview":"统计口径一致","textChars":6,"textLines":1,"bbox":[864.67,535,317.33,40]}
+{"kind":"notes","id":"nt/gnuv6p","slide":62,"text":"[Sources]\n- /Users/keivn/Project/AI-Course/课程生产/第一阶段/第09课_AI产品测试、指标与Bad Case_重做工作区/第9课 - AI产品评测与数据反馈.md\n- 内容依据：标注规范需要正例和反例"}
+{"kind":"slide","id":"sl/6oi34n","slide":63,"title":"AI PRODUCT · DATA LOOP","textShapes":13}
+{"kind":"textbox","id":"sh/10bu5k3u","slide":63,"text":"AI PRODUCT · DATA LOOP","textPreview":"AI PRODUCT · DATA LOOP","textChars":22,"textLines":1,"bbox":[70,27,360,22]}
+{"kind":"textbox","id":"sh/ex0vup4j","slide":63,"text":"63","textPreview":"63","textChars":2,"textLines":1,"bbox":[1160,27,48,22]}
+{"kind":"shape","id":"sh/fy9c3al4","slide":63,"bbox":[70,683,1140,2]}
+{"kind":"shape","id":"sh/svitsfmd","slide":63,"bbox":[70,683,1071.94,2]}
+{"kind":"textbox","id":"sh/dwru1kny","slide":63,"text":"从问题标注到产品实验","textPreview":"从问题标注到产品实验","textChars":10,"textLines":1,"bbox":[70,72,1130,58]}
+{"kind":"shape","id":"sh/q90bq547","slide":63,"bbox":[70,148,160,4]}
+{"kind":"textbox","id":"sh/ra9cza5s","slide":63,"text":"知识召回错误","textPreview":"知识召回错误","textChars":6,"textLines":1,"bbox":[86,216,250,30]}
+{"kind":"shape","id":"sh/47ytovm1","slide":63,"bbox":[340,219,760,24]}
+{"kind":"shape","id":"sh/58rux0nm","slide":63,"bbox":[340,219,760,24]}
+{"kind":"textbox","id":"sh/5kvux8j2","slide":63,"text":"35%","textPreview":"35%","textChars":3,"textLines":1,"bbox":[1120,216,80,30]}
+{"kind":"textbox","id":"sh/kjmto3ih","slide":63,"text":"信息不足未追问","textPreview":"信息不足未追问","textChars":7,"textLines":1,"bbox":[86,283,250,30]}
+{"kind":"shape","id":"sh/jidcvy1w","slide":63,"bbox":[340,286,760,24]}
+{"kind":"shape","id":"sh/ih4bmt0b","slide":63,"bbox":[340,286,542.86,24]}
+{"kind":"textbox","id":"sh/xgvutoj6","slide":63,"text":"25%","textPreview":"25%","textChars":3,"textLines":1,"bbox":[1120,283,80,30]}
+{"kind":"textbox","id":"sh/wf2tkjil","slide":63,"text":"回答格式错误","textPreview":"回答格式错误","textChars":6,"textLines":1,"bbox":[86,350,250,30]}
+{"kind":"shape","id":"sh/betcry10","slide":63,"bbox":[340,353,760,24]}
+{"kind":"shape","id":"sh/adkbit0f","slide":63,"bbox":[340,353,325.71,24]}
+{"kind":"textbox","id":"sh/9cbupoju","slide":63,"text":"15%","textPreview":"15%","textChars":3,"textLines":1,"bbox":[1120,350,80,30]}
+{"kind":"textbox","id":"sh/or2tgji9","slide":63,"text":"工具调用失败","textPreview":"工具调用失败","textChars":6,"textLines":1,"bbox":[86,417,250,30]}
+{"kind":"shape","id":"sh/0v6dcja5","slide":63,"bbox":[340,420,760,24]}
+{"kind":"shape","id":"sh/1wfu5orq","slide":63,"bbox":[340,420,217.14,24]}
+{"kind":"textbox","id":"sh/etoba9sz","slide":63,"text":"10%","textPreview":"10%","textChars":3,"textLines":1,"bbox":[1120,417,80,30]}
+{"kind":"textbox","id":"sh/fuxc3e9k","slide":63,"text":"其他问题","textPreview":"其他问题","textChars":4,"textLines":1,"bbox":[86,484,250,30]}
+{"kind":"shape","id":"sh/srmt8ja9","slide":63,"bbox":[340,487,760,24]}
+{"kind":"shape","id":"sh/dsvu1oru","slide":63,"bbox":[340,487,325.71,24]}
+{"kind":"textbox","id":"sh/q54b69s3","slide":63,"text":"15%","textPreview":"15%","textChars":3,"textLines":1,"bbox":[1120,484,80,30]}
+{"kind":"notes","id":"nt/6oi34n","slide":63,"text":"[Sources]\n- /Users/keivn/Project/AI-Course/课程生产/第一阶段/第09课_AI产品测试、指标与Bad Case_重做工作区/第9课 - AI产品评测与数据反馈.md\n- 内容依据：从问题标注到产品实验"}
+{"kind":"slide","id":"sl/c15hs2","slide":64,"title":"AI PRODUCT · DATA LOOP","textShapes":15}
+{"kind":"textbox","id":"sh/ulw3i98v","slide":64,"text":"AI PRODUCT · DATA LOOP","textPreview":"AI PRODUCT · DATA LOOP","textChars":22,"textLines":1,"bbox":[70,27,360,22]}
+{"kind":"textbox","id":"sh/h87md47m","slide":64,"text":"64","textPreview":"64","textChars":2,"textLines":1,"bbox":[1160,27,48,22]}
+{"kind":"shape","id":"sh/w7ylkzq1","slide":64,"bbox":[70,683,1140,2]}
+{"kind":"shape","id":"sh/jap4fepc","slide":64,"bbox":[70,683,1088.96,2]}
+{"kind":"textbox","id":"sh/i9g3m9or","slide":64,"text":"标注结果如何变成实验","textPreview":"标注结果如何变成实验","textChars":10,"textLines":1,"bbox":[70,72,1130,58]}
+{"kind":"shape","id":"sh/5c7mho7i","slide":64,"bbox":[70,148,160,4]}
+{"kind":"shape","id":"sh/4byloj6x","slide":64,"bbox":[248.67,358,15,0]}
+{"kind":"shape","id":"sh/ze5k3ap8","slide":64,"bbox":[439.33,358,15,0]}
+{"kind":"shape","id":"sh/ydc3ap8n","slide":64,"bbox":[630,358,15,0]}
+{"kind":"shape","id":"sh/wrulcz6h","slide":64,"bbox":[820.67,358,15,0]}
+{"kind":"shape","id":"sh/xs32lkn2","slide":64,"bbox":[1011.33,358,15,0]}
+{"kind":"shape","id":"sh/aps3apob","slide":64,"bbox":[78,300,170.67,116]}
+{"kind":"textbox","id":"sh/bq1kju5w","slide":64,"text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[92,312,34,24]}
+{"kind":"textbox","id":"sh/kvulgz6t","slide":64,"text":"形成假设","textPreview":"形成假设","textChars":4,"textLines":1,"bbox":[93,344,140.67,52]}
+{"kind":"shape","id":"sh/lw32p4ny","slide":64,"bbox":[268.67,300,170.67,116]}
+{"kind":"textbox","id":"sh/ytc3epon","slide":64,"text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[282.67,312,34,24]}
+{"kind":"textbox","id":"sh/julknu58","slide":64,"text":"修改检索/流程","textPreview":"修改检索/流程","textChars":7,"textLines":1,"bbox":[283.67,344,140.67,52]}
+{"kind":"shape","id":"sh/0zql4v69","slide":64,"bbox":[459.33,300,170.67,116]}
+{"kind":"textbox","id":"sh/10j2d07u","slide":64,"text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[473.33,312,34,24]}
+{"kind":"textbox","id":"sh/hwbi1wzi","slide":64,"text":"离线评测","textPreview":"离线评测","textChars":4,"textLines":1,"bbox":[474.33,344,140.67,52]}
+{"kind":"shape","id":"sh/gvi18ryd","slide":64,"bbox":[650,300,170.67,116]}
+{"kind":"textbox","id":"sh/fu90zmhs","slide":64,"text":"04","textPreview":"04","textChars":2,"textLines":1,"bbox":[664,312,34,24]}
+{"kind":"textbox","id":"sh/ut0j6hg7","slide":64,"text":"灰度上线","textPreview":"灰度上线","textChars":4,"textLines":1,"bbox":[665,344,140.67,52]}
+{"kind":"shape","id":"sh/pkbi5gzu","slide":64,"bbox":[840.67,300,170.67,116]}
+{"kind":"textbox","id":"sh/4j21cby9","slide":64,"text":"05","textPreview":"05","textChars":2,"textLines":1,"bbox":[854.67,312,34,24]}
+{"kind":"textbox","id":"sh/3it036ho","slide":64,"text":"观察副作用","textPreview":"观察副作用","textChars":5,"textLines":1,"bbox":[855.67,344,140.67,52]}
+{"kind":"shape","id":"sh/2xkja1g3","slide":64,"bbox":[1031.33,300,170.67,116]}
+{"kind":"textbox","id":"sh/dovi9gzq","slide":64,"text":"06","textPreview":"06","textChars":2,"textLines":1,"bbox":[1045.33,312,34,24]}
+{"kind":"textbox","id":"sh/cnm1gby5","slide":64,"text":"新问题回流","textPreview":"新问题回流","textChars":5,"textLines":1,"bbox":[1046.33,344,140.67,52]}
+{"kind":"notes","id":"nt/c15hs2","slide":64,"text":"[Sources]\n- /Users/keivn/Project/AI-Course/课程生产/第一阶段/第09课_AI产品测试、指标与Bad Case_重做工作区/第9课 - AI产品评测与数据反馈.md\n- 内容依据：标注结果如何变成实验"}
+{"kind":"slide","id":"sl/9yghc5","slide":65,"title":"AI PRODUCT · DATA LOOP","textShapes":10}
+{"kind":"textbox","id":"sh/tgnqhc7q","slide":65,"text":"AI PRODUCT · DATA LOOP","textPreview":"AI PRODUCT · DATA LOOP","textChars":22,"textLines":1,"bbox":[70,27,360,22]}
+{"kind":"textbox","id":"sh/6tw76xoz","slide":65,"text":"65","textPreview":"65","textChars":2,"textLines":1,"bbox":[1160,27,48,22]}
+{"kind":"shape","id":"sh/re58f2pk","slide":65,"bbox":[70,683,1140,2]}
+{"kind":"shape","id":"sh/4rup4n6t","slide":65,"bbox":[70,683,1105.97,2]}
+{"kind":"textbox","id":"sh/5snqds7e","slide":65,"text":"数据飞轮","textPreview":"数据飞轮","textChars":4,"textLines":1,"bbox":[70,72,1130,58]}
+{"kind":"shape","id":"sh/ipc72xo3","slide":65,"bbox":[70,148,160,4]}
+{"kind":"shape","id":"sh/jqlob2po","slide":65,"bbox":[535,325,210,140]}
+{"kind":"textbox","id":"sh/wnup0n6x","slide":65,"text":"持续循环","textPreview":"持续循环","textChars":4,"textLines":1,"bbox":[560,374,160,38]}
+{"kind":"shape","id":"sh/ho369s7i","slide":65,"bbox":[540,210,200,70]}
+{"kind":"textbox","id":"sh/1gz29sri","slide":65,"text":"更多使用","textPreview":"更多使用","textChars":4,"textLines":1,"bbox":[552,230,176,34]}
+{"kind":"shape","id":"sh/0fql0nqx","slide":65,"bbox":[800,305,200,70]}
+{"kind":"textbox","id":"sh/fehk7i9c","slide":65,"text":"更多真实问题","textPreview":"更多真实问题","textChars":6,"textLines":1,"bbox":[812,325,176,34]}
+{"kind":"shape","id":"sh/ed83yd87","slide":65,"bbox":[720,515,200,70]}
+{"kind":"textbox","id":"sh/dcz258rm","slide":65,"text":"发现新失败类型","textPreview":"发现新失败类型","textChars":7,"textLines":1,"bbox":[732,535,176,34]}
+{"kind":"shape","id":"sh/sbqlw3q1","slide":65,"bbox":[360,515,200,70]}
+{"kind":"textbox","id":"sh/rahk3y9g","slide":65,"text":"改进评测与产品","textPreview":"改进评测与产品","textChars":7,"textLines":1,"bbox":[372,535,176,34]}
+{"kind":"shape","id":"sh/qpo3ut8v","slide":65,"bbox":[280,305,200,70]}
+{"kind":"textbox","id":"sh/5of218ra","slide":65,"text":"效果提升","textPreview":"效果提升","textChars":4,"textLines":1,"bbox":[292,325,176,34]}
+{"kind":"textbox","id":"sh/4n61s3qp","slide":65,"text":"使用 → 问题 → 发现 → 改进 → 提升 → 再使用","textPreview":"使用 → 问题 → 发现 → 改进 → 提升 → 再使用","textChars":28,"textLines":1,"bbox":[290,610,700,34]}
+{"kind":"notes","id":"nt/9yghc5","slide":65,"text":"[Sources]\n- /Users/keivn/Project/AI-Course/课程生产/第一阶段/第09课_AI产品测试、指标与Bad Case_重做工作区/第9课 - AI产品评测与数据反馈.md\n- 内容依据：数据飞轮"}
+{"kind":"slide","id":"sl/498aoc","slide":66,"title":"AI PRODUCT · DATA LOOP","textShapes":13}
+{"kind":"textbox","id":"sh/8vupwv21","slide":66,"text":"AI PRODUCT · DATA LOOP","textPreview":"AI PRODUCT · DATA LOOP","textChars":22,"textLines":1,"bbox":[70,27,360,22]}
+{"kind":"textbox","id":"sh/nulo3q1g","slide":66,"text":"66","textPreview":"66","textChars":2,"textLines":1,"bbox":[1160,27,48,22]}
+{"kind":"shape","id":"sh/mtc7ulkv","slide":66,"bbox":[70,683,1140,2]}
+{"kind":"shape","id":"sh/xkn690ji","slide":66,"bbox":[70,683,1122.99,2]}
+{"kind":"textbox","id":"sh/wjup0v2x","slide":66,"text":"数据隐私与合规的五个原则","textPreview":"数据隐私与合规的五个原则","textChars":12,"textLines":1,"bbox":[70,72,1130,58]}
+{"kind":"shape","id":"sh/vilo7q1c","slide":66,"bbox":[70,148,160,4]}
+{"kind":"shape","id":"sh/ahc7ylk7","slide":66,"bbox":[76,210,361.33,148]}
+{"kind":"textbox","id":"sh/5onqdkju","slide":66,"text":"知情授权","textPreview":"知情授权","textChars":4,"textLines":1,"bbox":[98,230,317.33,34]}
+{"kind":"textbox","id":"sh/knep4f29","slide":66,"text":"用户知道收集什么、为何使用","textPreview":"用户知道收集什么、为何使用","textChars":13,"textLines":1,"bbox":[98,271,317.33,72]}
+{"kind":"shape","id":"sh/2l0jypw7","slide":66,"bbox":[459.33,210,361.33,148]}
+{"kind":"textbox","id":"sh/nm9kruxs","slide":66,"text":"最小必要","textPreview":"最小必要","textChars":4,"textLines":1,"bbox":[481.33,230,317.33,34]}
+{"kind":"textbox","id":"sh/onil0zed","slide":66,"text":"只收集评测和优化所需数据","textPreview":"只收集评测和优化所需数据","textChars":12,"textLines":1,"bbox":[481.33,271,317.33,72]}
+{"kind":"shape","id":"sh/por2t4fy","slide":66,"bbox":[842.67,210,361.33,148]}
+{"kind":"textbox","id":"sh/a9032pwj","slide":66,"text":"数据脱敏","textPreview":"数据脱敏","textChars":4,"textLines":1,"bbox":[864.67,230,317.33,34]}
+{"kind":"textbox","id":"sh/ba9kvux4","slide":66,"text":"处理姓名、手机号、证件与财务信息","textPreview":"处理姓名、手机号、证件与财务信息","textChars":16,"textLines":1,"bbox":[864.67,271,317.33,72]}
+{"kind":"shape","id":"sh/cb2l4zep","slide":66,"bbox":[76,380,361.33,148]}
+{"kind":"textbox","id":"sh/xcb2x4vu","slide":66,"text":"权限控制","textPreview":"权限控制","textChars":4,"textLines":1,"bbox":[98,400,317.33,34]}
+{"kind":"textbox","id":"sh/qdgjq5wf","slide":66,"text":"成员只能访问工作所需范围","textPreview":"成员只能访问工作所需范围","textChars":12,"textLines":1,"bbox":[98,441,317.33,72]}
+{"kind":"shape","id":"sh/repkjaxk","slide":66,"bbox":[459.33,380,361.33,148]}
+{"kind":"textbox","id":"sh/vylgr6dc","slide":66,"text":"可追踪可删除","textPreview":"可追踪可删除","textChars":6,"textLines":1,"bbox":[481.33,400,317.33,34]}
+{"kind":"textbox","id":"sh/uxczy1c7","slide":66,"text":"记录来源与用途，并支持按规则删除","textPreview":"记录来源与用途，并支持按规则删除","textChars":16,"textLines":1,"bbox":[481.33,441,317.33,72]}
+{"kind":"notes","id":"nt/498aoc","slide":66,"text":"[Sources]\n- /Users/keivn/Project/AI-Course/课程生产/第一阶段/第09课_AI产品测试、指标与Bad Case_重做工作区/第9课 - AI产品评测与数据反馈.md\n- 内容依据：数据隐私与合规的五个原则"}
+{"kind":"slide","id":"sl/3ys5b9","slide":67,"title":"AI PRODUCT · OVERVIEW","textShapes":14}
+{"kind":"textbox","id":"sh/dkbq18fe","slide":67,"text":"AI PRODUCT · OVERVIEW","textPreview":"AI PRODUCT · OVERVIEW","textChars":21,"textLines":1,"bbox":[70,27,360,22]}
+{"kind":"textbox","id":"sh/qhk7qtgn","slide":67,"text":"67","textPreview":"67","textChars":2,"textLines":1,"bbox":[1160,27,48,22]}
+{"kind":"shape","id":"sh/rit8zyx8","slide":67,"bbox":[70,683,1140,2]}
+{"kind":"shape","id":"sh/4f2pojyx","slide":67,"bbox":[70,683,1140,2]}
+{"kind":"textbox","id":"sh/pgb6xofi","slide":67,"text":"第9课的完整闭环","textPreview":"第9课的完整闭环","textChars":8,"textLines":1,"bbox":[70,72,1130,58]}
+{"kind":"shape","id":"sh/2t07mtgr","slide":67,"bbox":[70,148,160,4]}
+{"kind":"shape","id":"sh/3e9ovexc","slide":67,"bbox":[286.8,318,15,0]}
+{"kind":"shape","id":"sh/gripkjyl","slide":67,"bbox":[515.6,318,15,0]}
+{"kind":"shape","id":"sh/hsr6tof6","slide":67,"bbox":[744.4,318,15,0]}
+{"kind":"shape","id":"sh/lkv2pcre","slide":67,"bbox":[973.2,318,15,0]}
+{"kind":"shape","id":"sh/kzm1g7at","slide":67,"bbox":[78,260,208.8,116]}
+{"kind":"textbox","id":"sh/zydkn298","slide":67,"text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[92,272,34,24]}
+{"kind":"textbox","id":"sh/yx4jexsn","slide":67,"text":"先定义“什么叫好”","textPreview":"先定义“什么叫好”","textChars":9,"textLines":1,"bbox":[93,304,178.8,52]}
+{"kind":"shape","id":"sh/xwv2lsr2","slide":67,"bbox":[306.8,260,208.8,116]}
+{"kind":"textbox","id":"sh/cv21c7ah","slide":67,"text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[320.8,272,34,24]}
+{"kind":"textbox","id":"sh/but0j29c","slide":67,"text":"用代表真实业务的题去测","textPreview":"用代表真实业务的题去测","textChars":11,"textLines":1,"bbox":[321.8,304,178.8,52]}
+{"kind":"shape","id":"sh/atkjaxsr","slide":67,"bbox":[535.6,260,208.8,116]}
+{"kind":"textbox","id":"sh/psbihsr6","slide":67,"text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[549.6,272,34,24]}
+{"kind":"textbox","id":"sh/or218nal","slide":67,"text":"组合方法得到可信判断","textPreview":"组合方法得到可信判断","textChars":10,"textLines":1,"bbox":[550.6,304,178.8,52]}
+{"kind":"shape","id":"sh/gb61onih","slide":67,"bbox":[764.4,260,208.8,116]}
+{"kind":"textbox","id":"sh/1cf2xsj2","slide":67,"text":"04","textPreview":"04","textChars":2,"textLines":1,"bbox":[778.4,272,34,24]}
+{"kind":"textbox","id":"sh/e94jmx0b","slide":67,"text":"用Bad Case和回归证明改进","textPreview":"用Bad Case和回归证明改进","textChars":16,"textLines":1,"bbox":[779.4,304,178.8,52]}
+{"kind":"shape","id":"sh/faxkvi1w","slide":67,"bbox":[993.2,260,208.8,116]}
+{"kind":"textbox","id":"sh/s7m1kni5","slide":67,"text":"05","textPreview":"05","textChars":2,"textLines":1,"bbox":[1007.2,272,34,24]}
+{"kind":"textbox","id":"sh/t8v2tsjq","slide":67,"text":"让真实反馈持续进入下一轮","textPreview":"让真实反馈持续进入下一轮","textChars":12,"textLines":1,"bbox":[1008.2,304,178.8,52]}
+{"kind":"shape","id":"sh/654jid0f","slide":67,"bbox":[86,470,1108,86]}
+{"kind":"shape","id":"sh/r6dkri10","slide":67,"bbox":[86,470,8,86]}
+{"kind":"textbox","id":"sh/c3q1w7ip","slide":67,"text":"把真实使用反馈持续转化为可以验证的产品改进。","textPreview":"把真实使用反馈持续转化为可以验证的产品改进。","textChars":22,"textLines":1,"bbox":[122,491,1030,46]}
+{"kind":"notes","id":"nt/3ys5b9","slide":67,"text":"[Sources]\n- /Users/keivn/Project/AI-Course/课程生产/第一阶段/第09课_AI产品测试、指标与Bad Case_重做工作区/第9课 - AI产品评测与数据反馈.md\n- 内容依据：第9课的完整闭环"}

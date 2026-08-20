@@ -1,0 +1,452 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/fy43ls",
+    "id": "fy43ls",
+    "slide": 72,
+    "layoutId": "/ppt/slideLayouts/slideLayout2.xml",
+    "layoutName": "BLANK_DARK",
+    "masterLayoutId": "/ppt/slideMasters/slideMaster1.xml",
+    "backgroundColor": "#07151F",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "theme": {
+    "colorSchemeName": "Office",
+    "colors": {
+      "accent1": "#4472C4",
+      "accent2": "#ED7D31",
+      "accent3": "#A5A5A5",
+      "accent4": "#FFC000",
+      "accent5": "#5B9BD5",
+      "accent6": "#70AD47",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#44546A",
+      "lt2": "#E7E6E6",
+      "hlink": "#0563C1",
+      "folHlink": "#954F72"
+    },
+    "fontScheme": {
+      "name": "Office",
+      "majorFont": {
+        "latinTypeface": "PingFang SC"
+      },
+      "minorFont": {
+        "latinTypeface": "PingFang SC"
+      }
+    },
+    "typefaces": [
+      "PingFang SC"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "/ppt/slideLayouts/slideLayout2.xml",
+      "name": "BLANK_DARK",
+      "parentLayoutId": "/ppt/slideMasters/slideMaster1.xml",
+      "backgroundColor": "#07151F",
+      "elements": [
+        {
+          "order": 1,
+          "kind": "shape",
+          "scope": "layout",
+          "aid": "template/layout//ppt/slideLayouts/slideLayout2.xml/25",
+          "id": "25",
+          "name": "Slide Number Placeholder 0",
+          "bbox": [
+            1156.8,
+            25.92,
+            52.8,
+            21.12
+          ],
+          "geometry": "rect",
+          "text": "1002",
+          "textPreview": "1002",
+          "resolvedTextStyle": {
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "1002",
+              "resolvedTextStyle": {
+                "alignment": "right"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "1002",
+                  "bold": true
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "scope": "master",
+      "id": "/ppt/slideMasters/slideMaster1.xml",
+      "type": "master",
+      "elements": [
+        {
+          "order": 1,
+          "kind": "shape",
+          "scope": "master",
+          "aid": "template/master//ppt/slideMasters/slideMaster1.xml/25",
+          "id": "25",
+          "name": "Slide Number Placeholder 0",
+          "bbox": [
+            1156.8,
+            25.92,
+            52.8,
+            21.12
+          ],
+          "geometry": "rect",
+          "text": "null",
+          "textPreview": "null",
+          "resolvedTextStyle": {
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "null",
+              "resolvedTextStyle": {
+                "alignment": "right"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "null",
+                  "bold": true
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/3qt8nylw",
+      "id": "3",
+      "name": "Text 0",
+      "bbox": [
+        70,
+        27,
+        450,
+        22
+      ],
+      "geometry": "rect",
+      "text": "AI PRODUCT · PRD",
+      "textPreview": "AI PRODUCT · PRD",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 24,
+        "typeface": "PingFang SC",
+        "color": "tx1",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "AI PRODUCT · PRD"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "AI PRODUCT · PRD",
+          "lineSpacingPercent": 100000,
+          "resolvedTextStyle": {
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "AI PRODUCT · PRD",
+              "fontSize": 12.8,
+              "typeface": "PingFang SC",
+              "color": "#36D6C2",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/gn2pcjm5",
+      "id": "4",
+      "name": "Shape 1",
+      "bbox": [
+        70,
+        683,
+        1140,
+        2
+      ],
+      "geometry": "rect",
+      "fillColor": "#294550",
+      "lineColor": "rgba(7, 21, 31, 0)",
+      "lineWidth": 1.33
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/hobqlo3q",
+      "id": "5",
+      "name": "Shape 2",
+      "bbox": [
+        70,
+        683,
+        1013.33,
+        2
+      ],
+      "geometry": "rect",
+      "fillColor": "#36D6C2",
+      "lineColor": "rgba(7, 21, 31, 0)",
+      "lineWidth": 1.33
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ulk7a94z",
+      "id": "6",
+      "name": "Text 3",
+      "bbox": [
+        80,
+        182,
+        1080,
+        88
+      ],
+      "geometry": "rect",
+      "text": "07 组装完整AI产品PRD",
+      "textPreview": "07 组装完整AI产品PRD",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 24,
+        "typeface": "PingFang SC",
+        "color": "tx1",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "07 组装完整AI产品PRD"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "07 组装完整AI产品PRD",
+          "lineSpacingPercent": 100000,
+          "resolvedTextStyle": {
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "07 组装完整AI产品PRD",
+              "fontSize": 54.4,
+              "typeface": "PingFang SC",
+              "color": "#F5F2E9",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/fmt8jelk",
+      "id": "7",
+      "name": "Shape 4",
+      "bbox": [
+        80,
+        300,
+        120,
+        6
+      ],
+      "geometry": "rect",
+      "fillColor": "#FF7657",
+      "lineColor": "rgba(7, 21, 31, 0)",
+      "lineWidth": 1.33
+    },
+    {
+      "order": 6,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/sjip8zm9",
+      "id": "8",
+      "name": "Text 5",
+      "bbox": [
+        84,
+        345,
+        980,
+        50
+      ],
+      "geometry": "rect",
+      "text": "把前六节的产品判断装进一份可执行文档",
+      "textPreview": "把前六节的产品判断装进一份可执行文档",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 24,
+        "typeface": "PingFang SC",
+        "color": "tx1",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "把前六节的产品判断装进一份可执行文档"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "把前六节的产品判断装进一份可执行文档",
+          "lineSpacingPercent": 100000,
+          "resolvedTextStyle": {
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "把前六节的产品判断装进一份可执行文档",
+              "fontSize": 26.4,
+              "typeface": "PingFang SC",
+              "color": "#A7B5BC"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 7,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/h0fy1gvm",
+      "id": "25",
+      "name": "Slide Number Placeholder 0",
+      "bbox": [
+        1156.8,
+        25.92,
+        52.8,
+        21.12
+      ],
+      "geometry": "rect",
+      "text": "72",
+      "textPreview": "72",
+      "resolvedFontSize": 12.67,
+      "resolvedTextStyle": {
+        "fontSize": 12.67,
+        "typeface": "PingFang SC",
+        "color": "#A7B5BC",
+        "alignment": "left",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "72"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "72",
+          "resolvedTextStyle": {
+            "alignment": "right"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "72",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    }
+  ],
+  "composeRuns": []
+}

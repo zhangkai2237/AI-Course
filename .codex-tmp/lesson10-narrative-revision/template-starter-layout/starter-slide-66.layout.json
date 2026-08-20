@@ -1,0 +1,824 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/o1repz",
+    "id": "o1repz",
+    "slide": 66,
+    "layoutId": "/ppt/slideLayouts/slideLayout2.xml",
+    "layoutName": "BLANK_DARK",
+    "masterLayoutId": "/ppt/slideMasters/slideMaster1.xml",
+    "backgroundColor": "#07151F",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "theme": {
+    "colorSchemeName": "Office",
+    "colors": {
+      "accent1": "#4472C4",
+      "accent2": "#ED7D31",
+      "accent3": "#A5A5A5",
+      "accent4": "#FFC000",
+      "accent5": "#5B9BD5",
+      "accent6": "#70AD47",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#44546A",
+      "lt2": "#E7E6E6",
+      "hlink": "#0563C1",
+      "folHlink": "#954F72"
+    },
+    "fontScheme": {
+      "name": "Office",
+      "majorFont": {
+        "latinTypeface": "PingFang SC"
+      },
+      "minorFont": {
+        "latinTypeface": "PingFang SC"
+      }
+    },
+    "typefaces": [
+      "PingFang SC"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "/ppt/slideLayouts/slideLayout2.xml",
+      "name": "BLANK_DARK",
+      "parentLayoutId": "/ppt/slideMasters/slideMaster1.xml",
+      "backgroundColor": "#07151F",
+      "elements": [
+        {
+          "order": 1,
+          "kind": "shape",
+          "scope": "layout",
+          "aid": "template/layout//ppt/slideLayouts/slideLayout2.xml/25",
+          "id": "25",
+          "name": "Slide Number Placeholder 0",
+          "bbox": [
+            1156.8,
+            25.92,
+            52.8,
+            21.12
+          ],
+          "geometry": "rect",
+          "text": "1002",
+          "textPreview": "1002",
+          "resolvedTextStyle": {
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "1002",
+              "resolvedTextStyle": {
+                "alignment": "right"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "1002",
+                  "bold": true
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "scope": "master",
+      "id": "/ppt/slideMasters/slideMaster1.xml",
+      "type": "master",
+      "elements": [
+        {
+          "order": 1,
+          "kind": "shape",
+          "scope": "master",
+          "aid": "template/master//ppt/slideMasters/slideMaster1.xml/25",
+          "id": "25",
+          "name": "Slide Number Placeholder 0",
+          "bbox": [
+            1156.8,
+            25.92,
+            52.8,
+            21.12
+          ],
+          "geometry": "rect",
+          "text": "null",
+          "textPreview": "null",
+          "resolvedTextStyle": {
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "null",
+              "resolvedTextStyle": {
+                "alignment": "right"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "null",
+                  "bold": true
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/p0jq9cv2",
+      "id": "3",
+      "name": "Text 0",
+      "bbox": [
+        70,
+        27,
+        450,
+        22
+      ],
+      "geometry": "rect",
+      "text": "AI PRODUCT · EVALUATION",
+      "textPreview": "AI PRODUCT · EVALUATION",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 24,
+        "typeface": "PingFang SC",
+        "color": "tx1",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "AI PRODUCT · EVALUATION"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "AI PRODUCT · EVALUATION",
+          "lineSpacingPercent": 100000,
+          "resolvedTextStyle": {
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "AI PRODUCT · EVALUATION",
+              "fontSize": 12.8,
+              "typeface": "PingFang SC",
+              "color": "#36D6C2",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/a1s72hcn",
+      "id": "4",
+      "name": "Shape 1",
+      "bbox": [
+        70,
+        683,
+        1140,
+        2
+      ],
+      "geometry": "rect",
+      "fillColor": "#294550",
+      "lineColor": "rgba(7, 21, 31, 0)",
+      "lineWidth": 1.33
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/b218b2d8",
+      "id": "5",
+      "name": "Shape 2",
+      "bbox": [
+        70,
+        683,
+        928.89,
+        2
+      ],
+      "geometry": "rect",
+      "fillColor": "#36D6C2",
+      "lineColor": "rgba(7, 21, 31, 0)",
+      "lineWidth": 1.33
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/c3ap47ut",
+      "id": "6",
+      "name": "Text 3",
+      "bbox": [
+        70,
+        72,
+        1130,
+        58
+      ],
+      "geometry": "rect",
+      "text": "历史标签不能直接等于标准答案",
+      "textPreview": "历史标签不能直接等于标准答案",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 24,
+        "typeface": "PingFang SC",
+        "color": "tx1",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "历史标签不能直接等于标准答案"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "历史标签不能直接等于标准答案",
+          "lineSpacingPercent": 100000,
+          "resolvedTextStyle": {
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "历史标签不能直接等于标准答案",
+              "fontSize": 40,
+              "typeface": "PingFang SC",
+              "color": "#F5F2E9",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/x4jqdcve",
+      "id": "7",
+      "name": "Shape 4",
+      "bbox": [
+        70,
+        148,
+        160,
+        4
+      ],
+      "geometry": "rect",
+      "fillColor": "#36D6C2",
+      "lineColor": "rgba(7, 21, 31, 0)",
+      "lineWidth": 1.33
+    },
+    {
+      "order": 6,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/y5c76hcz",
+      "id": "8",
+      "name": "Shape 5",
+      "bbox": [
+        150,
+        210,
+        980,
+        94
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#31191B",
+      "lineColor": "#FF8A7A",
+      "lineWidth": 1.33
+    },
+    {
+      "order": 7,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/j6l8fmdk",
+      "id": "9",
+      "name": "Text 6",
+      "bbox": [
+        174,
+        225,
+        230,
+        36
+      ],
+      "geometry": "rect",
+      "text": "历史数据的价值",
+      "textPreview": "历史数据的价值",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 24,
+        "typeface": "PingFang SC",
+        "color": "tx1",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "历史数据的价值"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "历史数据的价值",
+          "lineSpacingPercent": 100000,
+          "resolvedTextStyle": {
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "历史数据的价值",
+              "fontSize": 23.2,
+              "typeface": "PingFang SC",
+              "color": "#FF8A7A",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 8,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/nyxs7axo",
+      "id": "10",
+      "name": "Text 7",
+      "bbox": [
+        405,
+        225,
+        695,
+        55
+      ],
+      "geometry": "rect",
+      "text": "来自真实业务，能够反映常见表达、风险分布和人工流程。",
+      "textPreview": "来自真实业务，能够反映常见表达、风险分布和人工流程。",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 24,
+        "typeface": "PingFang SC",
+        "color": "tx1",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "来自真实业务，能够反映常见表达、风险分布和人工流程。"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "来自真实业务，能够反映常见表达、风险分布和人工流程。",
+          "lineSpacingPercent": 100000,
+          "resolvedTextStyle": {
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "来自真实业务，能够反映常见表达、风险分布和人工流程。",
+              "fontSize": 19.2,
+              "typeface": "PingFang SC",
+              "color": "#F5F2E9"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 9,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/mx4ry5gj",
+      "id": "11",
+      "name": "Shape 8",
+      "bbox": [
+        200,
+        330,
+        880,
+        94
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#102B37",
+      "lineColor": "#294550",
+      "lineWidth": 1.33
+    },
+    {
+      "order": 10,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/90fa90fu",
+      "id": "12",
+      "name": "Text 9",
+      "bbox": [
+        224,
+        345,
+        230,
+        36
+      ],
+      "geometry": "rect",
+      "text": "历史数据的问题",
+      "textPreview": "历史数据的问题",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 24,
+        "typeface": "PingFang SC",
+        "color": "tx1",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "历史数据的问题"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "历史数据的问题",
+          "lineSpacingPercent": 100000,
+          "resolvedTextStyle": {
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "历史数据的问题",
+              "fontSize": 23.2,
+              "typeface": "PingFang SC",
+              "color": "#36D6C2",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 11,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/8z690fy9",
+      "id": "13",
+      "name": "Text 10",
+      "bbox": [
+        455,
+        345,
+        595,
+        55
+      ],
+      "geometry": "rect",
+      "text": "人工标准不一、规则可能失效、备注不完整、旧错误可能被保留。",
+      "textPreview": "人工标准不一、规则可能失效、备注不完整、旧错误可能被保留。",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 24,
+        "typeface": "PingFang SC",
+        "color": "tx1",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "人工标准不一、规则可能失效、备注不完整、旧错误可能被保留。"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "人工标准不一、规则可能失效、备注不完整、旧错误可能被保留。",
+          "lineSpacingPercent": 100000,
+          "resolvedTextStyle": {
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "人工标准不一、规则可能失效、备注不完整、旧错误可能被保留。",
+              "fontSize": 19.2,
+              "typeface": "PingFang SC",
+              "color": "#F5F2E9"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 12,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/zad83qxs",
+      "id": "14",
+      "name": "Shape 11",
+      "bbox": [
+        250,
+        450,
+        780,
+        94
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#0B202C",
+      "lineColor": "#294550",
+      "lineWidth": 1.33
+    },
+    {
+      "order": 13,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/y94rulg7",
+      "id": "15",
+      "name": "Text 12",
+      "bbox": [
+        274,
+        465,
+        230,
+        36
+      ],
+      "geometry": "rect",
+      "text": "进入评测集前",
+      "textPreview": "进入评测集前",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 24,
+        "typeface": "PingFang SC",
+        "color": "tx1",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "进入评测集前"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "进入评测集前",
+          "lineSpacingPercent": 100000,
+          "resolvedTextStyle": {
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "进入评测集前",
+              "fontSize": 23.2,
+              "typeface": "PingFang SC",
+              "color": "#36D6C2",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 14,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/lwvq50fy",
+      "id": "16",
+      "name": "Text 13",
+      "bbox": [
+        505,
+        465,
+        495,
+        55
+      ],
+      "geometry": "rect",
+      "text": "历史样本抽样复核；高风险和争议样本逐条确认。",
+      "textPreview": "历史样本抽样复核；高风险和争议样本逐条确认。",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 24,
+        "typeface": "PingFang SC",
+        "color": "tx1",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "历史样本抽样复核；高风险和争议样本逐条确认。"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "历史样本抽样复核；高风险和争议样本逐条确认。",
+          "lineSpacingPercent": 100000,
+          "resolvedTextStyle": {
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "历史样本抽样复核；高风险和争议样本逐条确认。",
+              "fontSize": 19.2,
+              "typeface": "PingFang SC",
+              "color": "#F5F2E9"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 15,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/3qlcbyhg",
+      "id": "25",
+      "name": "Slide Number Placeholder 0",
+      "bbox": [
+        1156.8,
+        25.92,
+        52.8,
+        21.12
+      ],
+      "geometry": "rect",
+      "text": "66",
+      "textPreview": "66",
+      "resolvedFontSize": 12.67,
+      "resolvedTextStyle": {
+        "fontSize": 12.67,
+        "typeface": "PingFang SC",
+        "color": "#A7B5BC",
+        "alignment": "left",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "66"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "66",
+          "resolvedTextStyle": {
+            "alignment": "right"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "66",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    }
+  ],
+  "composeRuns": []
+}

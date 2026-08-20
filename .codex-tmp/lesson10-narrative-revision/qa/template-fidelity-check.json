@@ -1,0 +1,13 @@
+{
+  "status": "pass",
+  "checkedAt": "2026-08-20T11:24:37.816Z",
+  "workspace": "/Users/keivn/Project/AI-Course/.codex-tmp/lesson10-narrative-revision",
+  "finalPptx": "/Users/keivn/Project/AI-Course/课程生产/第一阶段/第10课_AI产品方案与PRD设计实战_重做工作区/第10课_正式PPT_教学主线修订版.pptx",
+  "starterPptx": "/Users/keivn/Project/AI-Course/.codex-tmp/lesson10-narrative-revision/template-starter.pptx",
+  "mapPath": "/Users/keivn/Project/AI-Course/.codex-tmp/lesson10-narrative-revision/template-frame-map.json",
+  "starterLayoutDir": "/Users/keivn/Project/AI-Course/.codex-tmp/lesson10-narrative-revision/template-starter-layout",
+  "finalLayoutDir": "/Users/keivn/Project/AI-Course/.codex-tmp/lesson10-narrative-revision/final-layout",
+  "editDir": "/Users/keivn/Project/AI-Course/.codex-tmp/lesson10-narrative-revision",
+  "issueCount": 0,
+  "issues": []
+}

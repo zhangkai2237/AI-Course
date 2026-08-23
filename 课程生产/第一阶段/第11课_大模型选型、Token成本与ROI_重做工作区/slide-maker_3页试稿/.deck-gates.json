@@ -1,0 +1,63 @@
+{
+ "content": {
+  "slides": [
+   {
+    "slide": 1,
+    "role": "cover",
+    "takeaway": "把调用大模型推进为可评审的选型与价值决策",
+    "evidence": [
+     "讲义第1、8—21、1923—1934行"
+    ],
+    "units": 3
+   },
+   {
+    "slide": 2,
+    "role": "objective",
+    "takeaway": "课程依次回答怎么选、多少钱、值不值得做",
+    "evidence": [
+     "六节标题",
+     "讲义第1472—1482、1923—1934行"
+    ],
+    "units": 4
+   },
+   {
+    "slide": 3,
+    "role": "worked-example",
+    "takeaway": "最强模型不等于最适合的模型",
+    "evidence": [
+     "讲义第31—63行"
+    ],
+    "units": 5
+   }
+  ],
+  "arc": {
+   "chosen": "先给地图，再拆误区",
+   "candidates": [
+    "先给地图，再拆误区",
+    "误区开场",
+    "从PRD缺口进入"
+   ],
+   "rejected": [
+    "误区开场：三页试稿结构感较弱",
+    "从PRD缺口进入：案例冲击不足"
+   ]
+  }
+ },
+ "design_plan": {
+  "mode": "Mode A mimic",
+  "style_pick": "n/a — locked mimic of lesson 9/10 course system",
+  "boldness": "balanced+",
+  "signature_move": "把模型、成本、ROI三段判断做成一条可视化决策轨道",
+  "interior_register": "青绿色课程进度轨与右上页码贯穿普通页面",
+  "density": {
+   "median_words": 58,
+   "over_70": 0,
+   "non_text_protagonist": 2
+  },
+  "checkpoint": {
+   "mode": "auto",
+   "record": "User requested the PPT immediately after the three-slide trial scope was established."
+  }
+ },
+ "delivery": "presented"
+}

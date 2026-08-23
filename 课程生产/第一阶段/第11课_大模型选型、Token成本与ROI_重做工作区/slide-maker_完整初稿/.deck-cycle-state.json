@@ -1,0 +1,38 @@
+{
+  "script": "build_lesson11_full.py",
+  "streaks": {
+    "deck:slide 38:WIDOW": 3,
+    "deck:slide 43:TEXT NOT VISIBLE": 3,
+    "deck:slide 29:TEXT NOT VISIBLE": 3,
+    "deck:slide 35:TEXT PADDING": 3,
+    "deck:slide 42:TEXT NOT VISIBLE": 3,
+    "deck:slide 27:TEXT PADDING": 3,
+    "deck:slide 27:WIDOW": 3,
+    "deck:slide 45:WIDOW": 3,
+    "deck:slide 10:OVERLAP 2.69x0.17in TABLE'' x": 1,
+    "deck:slide 4:TEXT PADDING": 3,
+    "deck:slide 6:TEXT NOT VISIBLE": 3,
+    "deck:slide 35:ORPHANED PUNCTUATION": 3,
+    "deck:slide 39:TEXT PADDING": 3,
+    "deck:slide 13:WIDOW": 3,
+    "deck:slide 36:TEXT PADDING": 3,
+    "deck:slide 10:OVERLAP 2.79x0.17in TABLE'' x": 1
+  },
+  "escalated": [
+    "deck:slide 13:WIDOW",
+    "deck:slide 27:TEXT PADDING",
+    "deck:slide 27:WIDOW",
+    "deck:slide 29:TEXT NOT VISIBLE",
+    "deck:slide 35:ORPHANED PUNCTUATION",
+    "deck:slide 35:TEXT PADDING",
+    "deck:slide 36:TEXT PADDING",
+    "deck:slide 38:WIDOW",
+    "deck:slide 39:TEXT PADDING",
+    "deck:slide 42:TEXT NOT VISIBLE",
+    "deck:slide 43:TEXT NOT VISIBLE",
+    "deck:slide 45:WIDOW",
+    "deck:slide 4:TEXT PADDING",
+    "deck:slide 6:TEXT NOT VISIBLE"
+  ],
+  "fingerprint": "7273d1f59aafb3afabf74ca3e5e4aa6fb967ef7c3eb1975cd46856edeb8f25da"
+}

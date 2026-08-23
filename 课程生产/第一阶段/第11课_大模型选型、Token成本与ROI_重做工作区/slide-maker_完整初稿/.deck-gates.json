@@ -1,0 +1,41 @@
+{
+ "content": {
+  "sources": [
+   "/Users/keivn/Project/AI-Course/课程生产/第一阶段/第11课_大模型选型、Token成本与ROI_重做工作区/第11课_大模型选型、Token成本与ROI_完整讲义.md"
+  ],
+  "slides_waived": "用户明确要求直接使用完整MD自由生成，不提供或预设PPT大纲；逐页结构由源材料直接决定。",
+  "checkpoint": {
+   "mode": "auto",
+   "record": "Direct-from-MD generation requested by user; no outline gate."
+  },
+  "arc": {
+   "chosen": "从PRD落地缺口进入模型选型，再扩展到多模态、完整成本、ROI与推进决策",
+   "candidates": [
+    "按源MD六节自然推进",
+    "完全按三个问题重组",
+    "只沿智能审核案例推进"
+   ],
+   "rejected": [
+    "完全按三个问题重组：会覆盖源MD原有章节关系",
+    "只沿案例推进：会弱化可迁移的方法论"
+   ]
+  }
+ },
+ "design_plan": {
+  "mode": "Mode A mimic",
+  "style_pick": "第9、10课深色青绿课程视觉系统",
+  "boldness": "balanced+",
+  "signature_move": "用同一条青绿色进度轨串起45页，同时让流程、计算式和决策表按内容自行换形",
+  "interior_register": "明确的节标题、内容型页面优先、极少过渡页",
+  "icon_family": "none — 本课以方法、计算和决策表为主，编号、颜色与流程方向承担分类编码，避免装饰图标干扰教学读数",
+  "density": {
+   "mode": "balanced teaching",
+   "reason": "3小时课堂且用户要求PPT自身能读懂，保留必要解释与完整计算过程"
+  },
+  "checkpoint": {
+   "mode": "auto",
+   "record": "User approved the three-slide visual trial and requested autonomous full-deck generation from the MD."
+  }
+ },
+ "delivery": "presented"
+}

@@ -1,0 +1,1149 @@
+{
+  "delivery": "presented",
+  "content_plan": {
+    "checkpoint": {
+      "mode": "approved",
+      "record": "用户确认55页内容结构、三段课程逻辑和三张锚点页，并要求16个讨论题完整呈现题目与选项。"
+    },
+    "arc": "回顾第一阶段能力 → 用16个问题训练趋势判断 → 说明第二阶段如何把能力变成项目证据",
+    "slides": [
+      {
+        "slide": 1,
+        "takeaway": "明确本课围绕回顾、讨论与项目准备收尾"
+      },
+      {
+        "slide": 2,
+        "takeaway": "建立第一部分的能力回顾任务"
+      },
+      {
+        "slide": 3,
+        "takeaway": "让学员自评第一阶段变化"
+      },
+      {
+        "slide": 4,
+        "takeaway": "对比学习前后的AI产品判断"
+      },
+      {
+        "slide": 5,
+        "takeaway": "把五项能力连接成结构"
+      },
+      {
+        "slide": 6,
+        "takeaway": "区分问题判断与AI方案"
+      },
+      {
+        "slide": 7,
+        "takeaway": "说明PRD、原型和Demo的交付关系"
+      },
+      {
+        "slide": 8,
+        "takeaway": "建立评测与Bad Case反馈链"
+      },
+      {
+        "slide": 9,
+        "takeaway": "综合判断模型、成本与ROI"
+      },
+      {
+        "slide": 10,
+        "takeaway": "呈现五项能力的完整因果链"
+      },
+      {
+        "slide": 11,
+        "takeaway": "盘点十类阶段产出"
+      },
+      {
+        "slide": 12,
+        "takeaway": "明确已经具备和仍然缺少的能力"
+      },
+      {
+        "slide": 13,
+        "takeaway": "进入16个趋势与职业讨论"
+      },
+      {
+        "slide": 14,
+        "takeaway": "讨论模型增强后的产品价值"
+      },
+      {
+        "slide": 15,
+        "takeaway": "解释AI产品价值五层结构"
+      },
+      {
+        "slide": 16,
+        "takeaway": "讨论模型公司对应用的覆盖"
+      },
+      {
+        "slide": 17,
+        "takeaway": "识别容易被基础平台覆盖的产品"
+      },
+      {
+        "slide": 18,
+        "takeaway": "讨论AI产品的真实竞争者"
+      },
+      {
+        "slide": 19,
+        "takeaway": "扩大竞争判断范围"
+      },
+      {
+        "slide": 20,
+        "takeaway": "讨论AI存在感"
+      },
+      {
+        "slide": 21,
+        "takeaway": "区分价值表达与责任披露"
+      },
+      {
+        "slide": 22,
+        "takeaway": "讨论未来界面形态"
+      },
+      {
+        "slide": 23,
+        "takeaway": "说明自然语言、Agent和界面分工"
+      },
+      {
+        "slide": 24,
+        "takeaway": "讨论Agent的定义"
+      },
+      {
+        "slide": 25,
+        "takeaway": "建立Agent四级行动框架"
+      },
+      {
+        "slide": 26,
+        "takeaway": "讨论Agent错误责任"
+      },
+      {
+        "slide": 27,
+        "takeaway": "把责任设计进权限确认和回滚"
+      },
+      {
+        "slide": 28,
+        "takeaway": "讨论AI效率与人类工作"
+      },
+      {
+        "slide": 29,
+        "takeaway": "说明效率来自组织流程重构"
+      },
+      {
+        "slide": 30,
+        "takeaway": "讨论AI产品收费方式"
+      },
+      {
+        "slide": 31,
+        "takeaway": "连接成本、价值和收费单位"
+      },
+      {
+        "slide": 32,
+        "takeaway": "讨论数据护城河"
+      },
+      {
+        "slide": 33,
+        "takeaway": "给出数据形成壁垒的五个条件"
+      },
+      {
+        "slide": 34,
+        "takeaway": "讨论自研采购和组合建设"
+      },
+      {
+        "slide": 35,
+        "takeaway": "给出建设方式判断框架"
+      },
+      {
+        "slide": 36,
+        "takeaway": "讨论AI生成后的产品经理价值"
+      },
+      {
+        "slide": 37,
+        "takeaway": "重建AI时代产品经理的工作重心"
+      },
+      {
+        "slide": 38,
+        "takeaway": "讨论AI产品经理岗位名称"
+      },
+      {
+        "slide": 39,
+        "takeaway": "区分基础AI能力与专业岗位"
+      },
+      {
+        "slide": 40,
+        "takeaway": "讨论通用PM和行业专家竞争力"
+      },
+      {
+        "slide": 41,
+        "takeaway": "组合行业资产、产品判断和AI理解"
+      },
+      {
+        "slide": 42,
+        "takeaway": "讨论初级产品岗位"
+      },
+      {
+        "slide": 43,
+        "takeaway": "明确初级PM的新门槛"
+      },
+      {
+        "slide": 44,
+        "takeaway": "讨论一人产品团队"
+      },
+      {
+        "slide": 45,
+        "takeaway": "区分个人验证与规模化交付"
+      },
+      {
+        "slide": 46,
+        "takeaway": "进入项目班介绍"
+      },
+      {
+        "slide": 47,
+        "takeaway": "识别下一阶段真实缺口"
+      },
+      {
+        "slide": 48,
+        "takeaway": "解释理解和做过之间的距离"
+      },
+      {
+        "slide": 49,
+        "takeaway": "对比第一阶段与项目班"
+      },
+      {
+        "slide": 50,
+        "takeaway": "说明公共项目与个人项目"
+      },
+      {
+        "slide": 51,
+        "takeaway": "说明小组协作和版本节奏"
+      },
+      {
+        "slide": 52,
+        "takeaway": "用企业知识库示范项目成长"
+      },
+      {
+        "slide": 53,
+        "takeaway": "呈现项目七阶段路线"
+      },
+      {
+        "slide": 54,
+        "takeaway": "说明项目班六类正式交付"
+      },
+      {
+        "slide": 55,
+        "takeaway": "用项目证据完成课程收尾"
+      }
+    ]
+  },
+  "design_plan": {
+    "mode": "Mode A mimic",
+    "style_pick": "n/a — locked mimic of the user-approved Lesson 11 visual system",
+    "concept": {
+      "chosen": "一条从能力、判断延伸到项目证据的学习轨道",
+      "rejected": [
+        {
+          "concept": "AI行业趋势雷达",
+          "why_lost": "更像趋势分享，难以完成第一阶段能力收尾。"
+        },
+        {
+          "concept": "个人职业成长阶梯",
+          "why_lost": "容易变成职业规划课，项目方法论会被弱化。"
+        }
+      ]
+    },
+    "boldness": "balanced+",
+    "signature_move": "将第11课进度线扩展为能力—判断—项目证据的三段轨道",
+    "carried_by": [
+      10,
+      34,
+      53
+    ],
+    "form_ledger": "封面1；章节页3；自评/对比6；能力链与路线图5；讨论选择板16；判断框架16；案例与交付8",
+    "interior_register": "章节导航、讨论选择板、判断框架卡片、因果链、项目路线图",
+    "icon_family": "none — 第11课系列模板用编号轨道和中性选项承担导航，加入图标会削弱选择中立性并引入新的装饰语言",
+    "icon_none_checked": [
+      "slides 2/13/46 section dividers",
+      "slides 3-12 ability recap",
+      "slides 14-45 neutral discussion pairs",
+      "slides 47-55 project roadmap"
+    ],
+    "icon_none_category": "template-locked",
+    "palette": {
+      "fill_only": [
+        "#031016",
+        "#102B37",
+        "#133843"
+      ],
+      "text_safe": [
+        "#F5F2E9",
+        "#A7B5BC",
+        "#36D6C2",
+        "#FF7657",
+        "#F0C565"
+      ],
+      "semantic": "青绿=结构与推进；珊瑚=提醒与关键判断；黄色=不确定性；米白=主要信息"
+    },
+    "type_scale": {
+      "display": 76,
+      "title": 28,
+      "body": 15
+    },
+    "motif_generates": {
+      "background": "深色画布上的底部进度线让整套课始终表现为一条持续推进的能力轨道",
+      "markers": "两位编号把讨论题、能力节点和项目阶段统一为可定位的教学步骤",
+      "page": "第10页把轨道变成能力因果链，第53页把同一几何语言变成七阶段项目路线"
+    },
+    "density": {
+      "planned_median": 45,
+      "over_70": 4,
+      "non_text_protagonist": 30
+    },
+    "build_shape": "solo — one tightly coupled 55-slide argument with a locked reference style and shared helper system",
+    "build_script": "/Users/keivn/Project/AI-Course/课程生产/第一阶段/第12课_第一阶段能力验收与职业行动_重做工作区/slide-maker_正式版/build_lesson12.py",
+    "checkpoint": {
+      "mode": "approved",
+      "record": "用户确认沿用最近课程PPT风格，并批准能力因果链、讨论选择板和项目路线图三张锚点页。"
+    },
+    "material_probe": {
+      "png": "/Users/keivn/Project/AI-Course/课程生产/第一阶段/第12课_第一阶段能力验收与职业行动_重做工作区/slide-maker_正式版/render_full/slide10.png",
+      "safe_version": "安全版本会把五项能力排成普通并列卡片，无法表现上游判断如何传导到评测、成本和价值。"
+    },
+    "signature_proof": [
+      {
+        "role": "signature",
+        "slide": 10,
+        "png": "/Users/keivn/Project/AI-Course/课程生产/第一阶段/第12课_第一阶段能力验收与职业行动_重做工作区/slide-maker_正式版/render_full/slide10.png"
+      },
+      {
+        "role": "complex",
+        "slide": 34,
+        "png": "/Users/keivn/Project/AI-Course/课程生产/第一阶段/第12课_第一阶段能力验收与职业行动_重做工作区/slide-maker_正式版/render_full/slide34.png"
+      },
+      {
+        "role": "data",
+        "slide": 53,
+        "png": "/Users/keivn/Project/AI-Course/课程生产/第一阶段/第12课_第一阶段能力验收与职业行动_重做工作区/slide-maker_正式版/render_full/slide53.png"
+      }
+    ],
+    "form_reach": {
+      "waived": "教学页需要严格对齐第11课既有的卡片、选择板和流程轨道；手工组合保证中文选项中立、字号一致和系列课识别。"
+    }
+  },
+  "content_plan_ref": "/Users/keivn/Project/AI-Course/课程生产/第一阶段/第12课_第一阶段能力验收与职业行动_重做工作区/第12课_第一阶段总结_AI产品趋势与项目实战_完整讲义_v0.2.md",
+  "output": "/Users/keivn/Project/AI-Course/课程生产/第一阶段/第12课_第一阶段能力验收与职业行动_重做工作区/slide-maker_正式版/第12课_AI产品经理的下一步_slide-maker正式版.pptx",
+  "content": {
+    "checkpoint": {
+      "mode": "approved",
+      "record": "用户确认55页内容结构、三段课程逻辑和三张锚点页，并要求16个讨论题完整呈现题目与选项。"
+    },
+    "arc": {
+      "chosen": "能力—判断—证据",
+      "candidates": [
+        {
+          "name": "能力—判断—证据",
+          "shape": "spiral",
+          "roles": [
+            "recap",
+            "framework",
+            "practice",
+            "roadmap",
+            "conclusion"
+          ],
+          "audience_question": "第一阶段学会了什么，怎样把这些能力继续变成可信项目证据？",
+          "objection": "结课总结容易只剩知识点复述，不能证明能力已经发生迁移。",
+          "closing_ask": "先识别自己的能力结构，再用趋势判断和项目闭环完成下一步。",
+          "evidence": [
+            "讲义-第一部分-能力回顾",
+            "讲义-第二部分-16个讨论",
+            "讲义-第三部分-项目班"
+          ]
+        },
+        {
+          "name": "趋势—职业—行动",
+          "shape": "recommendation-first",
+          "roles": [
+            "conclusion",
+            "evidence",
+            "comparison",
+            "roadmap",
+            "call-to-action"
+          ],
+          "audience_question": "AI行业变化很快，学员现在应该选择哪种职业和学习行动？",
+          "objection": "只讲项目路径可能忽略行业变化和个人职业方向。",
+          "closing_ask": "根据趋势判断选择职业定位，并建立接下来三个月的行动清单。",
+          "evidence": [
+            "讲义-第二部分-趋势观点",
+            "讲义-第二部分-职业讨论",
+            "讲义-第三部分-项目班"
+          ]
+        },
+        {
+          "name": "学习旅程—阶段升级",
+          "shape": "chronological",
+          "roles": [
+            "problem",
+            "method",
+            "evidence",
+            "comparison",
+            "roadmap"
+          ],
+          "audience_question": "从入门到项目实践，学习者经历了哪些阶段，又为什么必须升级？",
+          "objection": "直接介绍项目班会显得突兀，像课程之外的额外推销。",
+          "closing_ask": "把项目班理解为第一阶段能力链的自然延伸，而不是另起炉灶。",
+          "evidence": [
+            "讲义-第一部分-学习前后",
+            "讲义-第一部分-阶段产出",
+            "讲义-第三部分-阶段对比"
+          ]
+        }
+      ],
+      "rejected": [
+        {
+          "name": "趋势—职业—行动",
+          "why_lost": "趋势和职业讨论会成为主角，削弱第一阶段能力验收与项目承接。"
+        },
+        {
+          "name": "学习旅程—阶段升级",
+          "why_lost": "时间线清楚但讨论张力不足，无法承载16个需要现场选择的问题。"
+        }
+      ]
+    },
+    "slides": [
+      {
+        "slide": 1,
+        "role": "cover",
+        "takeaway": "明确本课围绕回顾、讨论与项目准备收尾",
+        "evidence": [
+          "/Users/keivn/Project/AI-Course/课程生产/第一阶段/第12课_第一阶段能力验收与职业行动_重做工作区/第12课_第一阶段总结_AI产品趋势与项目实战_完整讲义_v0.2.md｜完整讲义中与第1页同名主题及讲解段落"
+        ],
+        "units": 1
+      },
+      {
+        "slide": 2,
+        "role": "divider",
+        "takeaway": "建立第一部分的能力回顾任务",
+        "evidence": [
+          "/Users/keivn/Project/AI-Course/课程生产/第一阶段/第12课_第一阶段能力验收与职业行动_重做工作区/第12课_第一阶段总结_AI产品趋势与项目实战_完整讲义_v0.2.md｜完整讲义中与第2页同名主题及讲解段落"
+        ],
+        "units": 1
+      },
+      {
+        "slide": 3,
+        "role": "check",
+        "takeaway": "让学员自评第一阶段变化",
+        "evidence": [
+          "/Users/keivn/Project/AI-Course/课程生产/第一阶段/第12课_第一阶段能力验收与职业行动_重做工作区/第12课_第一阶段总结_AI产品趋势与项目实战_完整讲义_v0.2.md｜完整讲义中与第3页同名主题及讲解段落"
+        ],
+        "units": 3
+      },
+      {
+        "slide": 4,
+        "role": "comparison",
+        "takeaway": "对比学习前后的AI产品判断",
+        "evidence": [
+          "/Users/keivn/Project/AI-Course/课程生产/第一阶段/第12课_第一阶段能力验收与职业行动_重做工作区/第12课_第一阶段总结_AI产品趋势与项目实战_完整讲义_v0.2.md｜完整讲义中与第4页同名主题及讲解段落"
+        ],
+        "units": 3
+      },
+      {
+        "slide": 5,
+        "role": "recap",
+        "takeaway": "把五项能力连接成结构",
+        "evidence": [
+          "/Users/keivn/Project/AI-Course/课程生产/第一阶段/第12课_第一阶段能力验收与职业行动_重做工作区/第12课_第一阶段总结_AI产品趋势与项目实战_完整讲义_v0.2.md｜完整讲义中与第5页同名主题及讲解段落"
+        ],
+        "units": 3
+      },
+      {
+        "slide": 6,
+        "role": "framework",
+        "takeaway": "区分问题判断与AI方案",
+        "evidence": [
+          "/Users/keivn/Project/AI-Course/课程生产/第一阶段/第12课_第一阶段能力验收与职业行动_重做工作区/第12课_第一阶段总结_AI产品趋势与项目实战_完整讲义_v0.2.md｜完整讲义中与第6页同名主题及讲解段落"
+        ],
+        "units": 3
+      },
+      {
+        "slide": 7,
+        "role": "framework",
+        "takeaway": "说明PRD、原型和Demo的交付关系",
+        "evidence": [
+          "/Users/keivn/Project/AI-Course/课程生产/第一阶段/第12课_第一阶段能力验收与职业行动_重做工作区/第12课_第一阶段总结_AI产品趋势与项目实战_完整讲义_v0.2.md｜完整讲义中与第7页同名主题及讲解段落"
+        ],
+        "units": 3
+      },
+      {
+        "slide": 8,
+        "role": "method",
+        "takeaway": "建立评测与Bad Case反馈链",
+        "evidence": [
+          "/Users/keivn/Project/AI-Course/课程生产/第一阶段/第12课_第一阶段能力验收与职业行动_重做工作区/第12课_第一阶段总结_AI产品趋势与项目实战_完整讲义_v0.2.md｜完整讲义中与第8页同名主题及讲解段落"
+        ],
+        "units": 3
+      },
+      {
+        "slide": 9,
+        "role": "method",
+        "takeaway": "综合判断模型、成本与ROI",
+        "evidence": [
+          "/Users/keivn/Project/AI-Course/课程生产/第一阶段/第12课_第一阶段能力验收与职业行动_重做工作区/第12课_第一阶段总结_AI产品趋势与项目实战_完整讲义_v0.2.md｜完整讲义中与第9页同名主题及讲解段落"
+        ],
+        "units": 3
+      },
+      {
+        "slide": 10,
+        "role": "framework",
+        "takeaway": "呈现五项能力的完整因果链",
+        "evidence": [
+          "/Users/keivn/Project/AI-Course/课程生产/第一阶段/第12课_第一阶段能力验收与职业行动_重做工作区/第12课_第一阶段总结_AI产品趋势与项目实战_完整讲义_v0.2.md｜完整讲义中与第10页同名主题及讲解段落"
+        ],
+        "units": 3
+      },
+      {
+        "slide": 11,
+        "role": "evidence",
+        "takeaway": "盘点十类阶段产出",
+        "evidence": [
+          "/Users/keivn/Project/AI-Course/课程生产/第一阶段/第12课_第一阶段能力验收与职业行动_重做工作区/第12课_第一阶段总结_AI产品趋势与项目实战_完整讲义_v0.2.md｜完整讲义中与第11页同名主题及讲解段落"
+        ],
+        "units": 3
+      },
+      {
+        "slide": 12,
+        "role": "diagnosis",
+        "takeaway": "明确已经具备和仍然缺少的能力",
+        "evidence": [
+          "/Users/keivn/Project/AI-Course/课程生产/第一阶段/第12课_第一阶段能力验收与职业行动_重做工作区/第12课_第一阶段总结_AI产品趋势与项目实战_完整讲义_v0.2.md｜完整讲义中与第12页同名主题及讲解段落"
+        ],
+        "units": 3
+      },
+      {
+        "slide": 13,
+        "role": "divider",
+        "takeaway": "进入16个趋势与职业讨论",
+        "evidence": [
+          "/Users/keivn/Project/AI-Course/课程生产/第一阶段/第12课_第一阶段能力验收与职业行动_重做工作区/第12课_第一阶段总结_AI产品趋势与项目实战_完整讲义_v0.2.md｜完整讲义中与第13页同名主题及讲解段落"
+        ],
+        "units": 1
+      },
+      {
+        "slide": 14,
+        "role": "practice",
+        "takeaway": "讨论模型增强后的产品价值",
+        "evidence": [
+          "/Users/keivn/Project/AI-Course/课程生产/第一阶段/第12课_第一阶段能力验收与职业行动_重做工作区/第12课_第一阶段总结_AI产品趋势与项目实战_完整讲义_v0.2.md｜完整讲义中与第14页同名主题及讲解段落"
+        ],
+        "units": 5
+      },
+      {
+        "slide": 15,
+        "role": "framework",
+        "takeaway": "解释AI产品价值五层结构",
+        "evidence": [
+          "/Users/keivn/Project/AI-Course/课程生产/第一阶段/第12课_第一阶段能力验收与职业行动_重做工作区/第12课_第一阶段总结_AI产品趋势与项目实战_完整讲义_v0.2.md｜完整讲义中与第15页同名主题及讲解段落"
+        ],
+        "units": 3
+      },
+      {
+        "slide": 16,
+        "role": "practice",
+        "takeaway": "讨论模型公司对应用的覆盖",
+        "evidence": [
+          "/Users/keivn/Project/AI-Course/课程生产/第一阶段/第12课_第一阶段能力验收与职业行动_重做工作区/第12课_第一阶段总结_AI产品趋势与项目实战_完整讲义_v0.2.md｜完整讲义中与第16页同名主题及讲解段落"
+        ],
+        "units": 5
+      },
+      {
+        "slide": 17,
+        "role": "framework",
+        "takeaway": "识别容易被基础平台覆盖的产品",
+        "evidence": [
+          "/Users/keivn/Project/AI-Course/课程生产/第一阶段/第12课_第一阶段能力验收与职业行动_重做工作区/第12课_第一阶段总结_AI产品趋势与项目实战_完整讲义_v0.2.md｜完整讲义中与第17页同名主题及讲解段落"
+        ],
+        "units": 3
+      },
+      {
+        "slide": 18,
+        "role": "practice",
+        "takeaway": "讨论AI产品的真实竞争者",
+        "evidence": [
+          "/Users/keivn/Project/AI-Course/课程生产/第一阶段/第12课_第一阶段能力验收与职业行动_重做工作区/第12课_第一阶段总结_AI产品趋势与项目实战_完整讲义_v0.2.md｜完整讲义中与第18页同名主题及讲解段落"
+        ],
+        "units": 5
+      },
+      {
+        "slide": 19,
+        "role": "framework",
+        "takeaway": "扩大竞争判断范围",
+        "evidence": [
+          "/Users/keivn/Project/AI-Course/课程生产/第一阶段/第12课_第一阶段能力验收与职业行动_重做工作区/第12课_第一阶段总结_AI产品趋势与项目实战_完整讲义_v0.2.md｜完整讲义中与第19页同名主题及讲解段落"
+        ],
+        "units": 3
+      },
+      {
+        "slide": 20,
+        "role": "practice",
+        "takeaway": "讨论AI存在感",
+        "evidence": [
+          "/Users/keivn/Project/AI-Course/课程生产/第一阶段/第12课_第一阶段能力验收与职业行动_重做工作区/第12课_第一阶段总结_AI产品趋势与项目实战_完整讲义_v0.2.md｜完整讲义中与第20页同名主题及讲解段落"
+        ],
+        "units": 5
+      },
+      {
+        "slide": 21,
+        "role": "framework",
+        "takeaway": "区分价值表达与责任披露",
+        "evidence": [
+          "/Users/keivn/Project/AI-Course/课程生产/第一阶段/第12课_第一阶段能力验收与职业行动_重做工作区/第12课_第一阶段总结_AI产品趋势与项目实战_完整讲义_v0.2.md｜完整讲义中与第21页同名主题及讲解段落"
+        ],
+        "units": 3
+      },
+      {
+        "slide": 22,
+        "role": "practice",
+        "takeaway": "讨论未来界面形态",
+        "evidence": [
+          "/Users/keivn/Project/AI-Course/课程生产/第一阶段/第12课_第一阶段能力验收与职业行动_重做工作区/第12课_第一阶段总结_AI产品趋势与项目实战_完整讲义_v0.2.md｜完整讲义中与第22页同名主题及讲解段落"
+        ],
+        "units": 5
+      },
+      {
+        "slide": 23,
+        "role": "framework",
+        "takeaway": "说明自然语言、Agent和界面分工",
+        "evidence": [
+          "/Users/keivn/Project/AI-Course/课程生产/第一阶段/第12课_第一阶段能力验收与职业行动_重做工作区/第12课_第一阶段总结_AI产品趋势与项目实战_完整讲义_v0.2.md｜完整讲义中与第23页同名主题及讲解段落"
+        ],
+        "units": 3
+      },
+      {
+        "slide": 24,
+        "role": "practice",
+        "takeaway": "讨论Agent的定义",
+        "evidence": [
+          "/Users/keivn/Project/AI-Course/课程生产/第一阶段/第12课_第一阶段能力验收与职业行动_重做工作区/第12课_第一阶段总结_AI产品趋势与项目实战_完整讲义_v0.2.md｜完整讲义中与第24页同名主题及讲解段落"
+        ],
+        "units": 5
+      },
+      {
+        "slide": 25,
+        "role": "framework",
+        "takeaway": "建立Agent四级行动框架",
+        "evidence": [
+          "/Users/keivn/Project/AI-Course/课程生产/第一阶段/第12课_第一阶段能力验收与职业行动_重做工作区/第12课_第一阶段总结_AI产品趋势与项目实战_完整讲义_v0.2.md｜完整讲义中与第25页同名主题及讲解段落"
+        ],
+        "units": 3
+      },
+      {
+        "slide": 26,
+        "role": "practice",
+        "takeaway": "讨论Agent错误责任",
+        "evidence": [
+          "/Users/keivn/Project/AI-Course/课程生产/第一阶段/第12课_第一阶段能力验收与职业行动_重做工作区/第12课_第一阶段总结_AI产品趋势与项目实战_完整讲义_v0.2.md｜完整讲义中与第26页同名主题及讲解段落"
+        ],
+        "units": 5
+      },
+      {
+        "slide": 27,
+        "role": "framework",
+        "takeaway": "把责任设计进权限确认和回滚",
+        "evidence": [
+          "/Users/keivn/Project/AI-Course/课程生产/第一阶段/第12课_第一阶段能力验收与职业行动_重做工作区/第12课_第一阶段总结_AI产品趋势与项目实战_完整讲义_v0.2.md｜完整讲义中与第27页同名主题及讲解段落"
+        ],
+        "units": 3
+      },
+      {
+        "slide": 28,
+        "role": "practice",
+        "takeaway": "讨论AI效率与人类工作",
+        "evidence": [
+          "/Users/keivn/Project/AI-Course/课程生产/第一阶段/第12课_第一阶段能力验收与职业行动_重做工作区/第12课_第一阶段总结_AI产品趋势与项目实战_完整讲义_v0.2.md｜完整讲义中与第28页同名主题及讲解段落"
+        ],
+        "units": 5
+      },
+      {
+        "slide": 29,
+        "role": "framework",
+        "takeaway": "说明效率来自组织流程重构",
+        "evidence": [
+          "/Users/keivn/Project/AI-Course/课程生产/第一阶段/第12课_第一阶段能力验收与职业行动_重做工作区/第12课_第一阶段总结_AI产品趋势与项目实战_完整讲义_v0.2.md｜完整讲义中与第29页同名主题及讲解段落"
+        ],
+        "units": 3
+      },
+      {
+        "slide": 30,
+        "role": "practice",
+        "takeaway": "讨论AI产品收费方式",
+        "evidence": [
+          "/Users/keivn/Project/AI-Course/课程生产/第一阶段/第12课_第一阶段能力验收与职业行动_重做工作区/第12课_第一阶段总结_AI产品趋势与项目实战_完整讲义_v0.2.md｜完整讲义中与第30页同名主题及讲解段落"
+        ],
+        "units": 5
+      },
+      {
+        "slide": 31,
+        "role": "framework",
+        "takeaway": "连接成本、价值和收费单位",
+        "evidence": [
+          "/Users/keivn/Project/AI-Course/课程生产/第一阶段/第12课_第一阶段能力验收与职业行动_重做工作区/第12课_第一阶段总结_AI产品趋势与项目实战_完整讲义_v0.2.md｜完整讲义中与第31页同名主题及讲解段落"
+        ],
+        "units": 3
+      },
+      {
+        "slide": 32,
+        "role": "practice",
+        "takeaway": "讨论数据护城河",
+        "evidence": [
+          "/Users/keivn/Project/AI-Course/课程生产/第一阶段/第12课_第一阶段能力验收与职业行动_重做工作区/第12课_第一阶段总结_AI产品趋势与项目实战_完整讲义_v0.2.md｜完整讲义中与第32页同名主题及讲解段落"
+        ],
+        "units": 5
+      },
+      {
+        "slide": 33,
+        "role": "framework",
+        "takeaway": "给出数据形成壁垒的五个条件",
+        "evidence": [
+          "/Users/keivn/Project/AI-Course/课程生产/第一阶段/第12课_第一阶段能力验收与职业行动_重做工作区/第12课_第一阶段总结_AI产品趋势与项目实战_完整讲义_v0.2.md｜完整讲义中与第33页同名主题及讲解段落"
+        ],
+        "units": 3
+      },
+      {
+        "slide": 34,
+        "role": "practice",
+        "takeaway": "讨论自研采购和组合建设",
+        "evidence": [
+          "/Users/keivn/Project/AI-Course/课程生产/第一阶段/第12课_第一阶段能力验收与职业行动_重做工作区/第12课_第一阶段总结_AI产品趋势与项目实战_完整讲义_v0.2.md｜完整讲义中与第34页同名主题及讲解段落"
+        ],
+        "units": 5
+      },
+      {
+        "slide": 35,
+        "role": "framework",
+        "takeaway": "给出建设方式判断框架",
+        "evidence": [
+          "/Users/keivn/Project/AI-Course/课程生产/第一阶段/第12课_第一阶段能力验收与职业行动_重做工作区/第12课_第一阶段总结_AI产品趋势与项目实战_完整讲义_v0.2.md｜完整讲义中与第35页同名主题及讲解段落"
+        ],
+        "units": 3
+      },
+      {
+        "slide": 36,
+        "role": "practice",
+        "takeaway": "讨论AI生成后的产品经理价值",
+        "evidence": [
+          "/Users/keivn/Project/AI-Course/课程生产/第一阶段/第12课_第一阶段能力验收与职业行动_重做工作区/第12课_第一阶段总结_AI产品趋势与项目实战_完整讲义_v0.2.md｜完整讲义中与第36页同名主题及讲解段落"
+        ],
+        "units": 5
+      },
+      {
+        "slide": 37,
+        "role": "framework",
+        "takeaway": "重建AI时代产品经理的工作重心",
+        "evidence": [
+          "/Users/keivn/Project/AI-Course/课程生产/第一阶段/第12课_第一阶段能力验收与职业行动_重做工作区/第12课_第一阶段总结_AI产品趋势与项目实战_完整讲义_v0.2.md｜完整讲义中与第37页同名主题及讲解段落"
+        ],
+        "units": 3
+      },
+      {
+        "slide": 38,
+        "role": "practice",
+        "takeaway": "讨论AI产品经理岗位名称",
+        "evidence": [
+          "/Users/keivn/Project/AI-Course/课程生产/第一阶段/第12课_第一阶段能力验收与职业行动_重做工作区/第12课_第一阶段总结_AI产品趋势与项目实战_完整讲义_v0.2.md｜完整讲义中与第38页同名主题及讲解段落"
+        ],
+        "units": 5
+      },
+      {
+        "slide": 39,
+        "role": "framework",
+        "takeaway": "区分基础AI能力与专业岗位",
+        "evidence": [
+          "/Users/keivn/Project/AI-Course/课程生产/第一阶段/第12课_第一阶段能力验收与职业行动_重做工作区/第12课_第一阶段总结_AI产品趋势与项目实战_完整讲义_v0.2.md｜完整讲义中与第39页同名主题及讲解段落"
+        ],
+        "units": 3
+      },
+      {
+        "slide": 40,
+        "role": "practice",
+        "takeaway": "讨论通用PM和行业专家竞争力",
+        "evidence": [
+          "/Users/keivn/Project/AI-Course/课程生产/第一阶段/第12课_第一阶段能力验收与职业行动_重做工作区/第12课_第一阶段总结_AI产品趋势与项目实战_完整讲义_v0.2.md｜完整讲义中与第40页同名主题及讲解段落"
+        ],
+        "units": 5
+      },
+      {
+        "slide": 41,
+        "role": "framework",
+        "takeaway": "组合行业资产、产品判断和AI理解",
+        "evidence": [
+          "/Users/keivn/Project/AI-Course/课程生产/第一阶段/第12课_第一阶段能力验收与职业行动_重做工作区/第12课_第一阶段总结_AI产品趋势与项目实战_完整讲义_v0.2.md｜完整讲义中与第41页同名主题及讲解段落"
+        ],
+        "units": 3
+      },
+      {
+        "slide": 42,
+        "role": "practice",
+        "takeaway": "讨论初级产品岗位",
+        "evidence": [
+          "/Users/keivn/Project/AI-Course/课程生产/第一阶段/第12课_第一阶段能力验收与职业行动_重做工作区/第12课_第一阶段总结_AI产品趋势与项目实战_完整讲义_v0.2.md｜完整讲义中与第42页同名主题及讲解段落"
+        ],
+        "units": 5
+      },
+      {
+        "slide": 43,
+        "role": "framework",
+        "takeaway": "明确初级PM的新门槛",
+        "evidence": [
+          "/Users/keivn/Project/AI-Course/课程生产/第一阶段/第12课_第一阶段能力验收与职业行动_重做工作区/第12课_第一阶段总结_AI产品趋势与项目实战_完整讲义_v0.2.md｜完整讲义中与第43页同名主题及讲解段落"
+        ],
+        "units": 3
+      },
+      {
+        "slide": 44,
+        "role": "practice",
+        "takeaway": "讨论一人产品团队",
+        "evidence": [
+          "/Users/keivn/Project/AI-Course/课程生产/第一阶段/第12课_第一阶段能力验收与职业行动_重做工作区/第12课_第一阶段总结_AI产品趋势与项目实战_完整讲义_v0.2.md｜完整讲义中与第44页同名主题及讲解段落"
+        ],
+        "units": 5
+      },
+      {
+        "slide": 45,
+        "role": "framework",
+        "takeaway": "区分个人验证与规模化交付",
+        "evidence": [
+          "/Users/keivn/Project/AI-Course/课程生产/第一阶段/第12课_第一阶段能力验收与职业行动_重做工作区/第12课_第一阶段总结_AI产品趋势与项目实战_完整讲义_v0.2.md｜完整讲义中与第45页同名主题及讲解段落"
+        ],
+        "units": 3
+      },
+      {
+        "slide": 46,
+        "role": "divider",
+        "takeaway": "进入项目班介绍",
+        "evidence": [
+          "/Users/keivn/Project/AI-Course/课程生产/第一阶段/第12课_第一阶段能力验收与职业行动_重做工作区/第12课_第一阶段总结_AI产品趋势与项目实战_完整讲义_v0.2.md｜完整讲义中与第46页同名主题及讲解段落"
+        ],
+        "units": 1
+      },
+      {
+        "slide": 47,
+        "role": "check",
+        "takeaway": "识别下一阶段真实缺口",
+        "evidence": [
+          "/Users/keivn/Project/AI-Course/课程生产/第一阶段/第12课_第一阶段能力验收与职业行动_重做工作区/第12课_第一阶段总结_AI产品趋势与项目实战_完整讲义_v0.2.md｜完整讲义中与第47页同名主题及讲解段落"
+        ],
+        "units": 3
+      },
+      {
+        "slide": 48,
+        "role": "diagnosis",
+        "takeaway": "解释理解和做过之间的距离",
+        "evidence": [
+          "/Users/keivn/Project/AI-Course/课程生产/第一阶段/第12课_第一阶段能力验收与职业行动_重做工作区/第12课_第一阶段总结_AI产品趋势与项目实战_完整讲义_v0.2.md｜完整讲义中与第48页同名主题及讲解段落"
+        ],
+        "units": 3
+      },
+      {
+        "slide": 49,
+        "role": "comparison",
+        "takeaway": "对比第一阶段与项目班",
+        "evidence": [
+          "/Users/keivn/Project/AI-Course/课程生产/第一阶段/第12课_第一阶段能力验收与职业行动_重做工作区/第12课_第一阶段总结_AI产品趋势与项目实战_完整讲义_v0.2.md｜完整讲义中与第49页同名主题及讲解段落"
+        ],
+        "units": 3
+      },
+      {
+        "slide": 50,
+        "role": "method",
+        "takeaway": "说明公共项目与个人项目",
+        "evidence": [
+          "/Users/keivn/Project/AI-Course/课程生产/第一阶段/第12课_第一阶段能力验收与职业行动_重做工作区/第12课_第一阶段总结_AI产品趋势与项目实战_完整讲义_v0.2.md｜完整讲义中与第50页同名主题及讲解段落"
+        ],
+        "units": 3
+      },
+      {
+        "slide": 51,
+        "role": "method",
+        "takeaway": "说明小组协作和版本节奏",
+        "evidence": [
+          "/Users/keivn/Project/AI-Course/课程生产/第一阶段/第12课_第一阶段能力验收与职业行动_重做工作区/第12课_第一阶段总结_AI产品趋势与项目实战_完整讲义_v0.2.md｜完整讲义中与第51页同名主题及讲解段落"
+        ],
+        "units": 3
+      },
+      {
+        "slide": 52,
+        "role": "case-study",
+        "takeaway": "用企业知识库示范项目成长",
+        "evidence": [
+          "/Users/keivn/Project/AI-Course/课程生产/第一阶段/第12课_第一阶段能力验收与职业行动_重做工作区/第12课_第一阶段总结_AI产品趋势与项目实战_完整讲义_v0.2.md｜完整讲义中与第52页同名主题及讲解段落"
+        ],
+        "units": 3
+      },
+      {
+        "slide": 53,
+        "role": "roadmap",
+        "takeaway": "呈现项目七阶段路线",
+        "evidence": [
+          "/Users/keivn/Project/AI-Course/课程生产/第一阶段/第12课_第一阶段能力验收与职业行动_重做工作区/第12课_第一阶段总结_AI产品趋势与项目实战_完整讲义_v0.2.md｜完整讲义中与第53页同名主题及讲解段落"
+        ],
+        "units": 3
+      },
+      {
+        "slide": 54,
+        "role": "evidence",
+        "takeaway": "说明项目班六类正式交付",
+        "evidence": [
+          "/Users/keivn/Project/AI-Course/课程生产/第一阶段/第12课_第一阶段能力验收与职业行动_重做工作区/第12课_第一阶段总结_AI产品趋势与项目实战_完整讲义_v0.2.md｜完整讲义中与第54页同名主题及讲解段落"
+        ],
+        "units": 3
+      },
+      {
+        "slide": 55,
+        "role": "closing",
+        "takeaway": "用项目证据完成课程收尾",
+        "evidence": [
+          "/Users/keivn/Project/AI-Course/课程生产/第一阶段/第12课_第一阶段能力验收与职业行动_重做工作区/第12课_第一阶段总结_AI产品趋势与项目实战_完整讲义_v0.2.md｜完整讲义中与第55页同名主题及讲解段落"
+        ],
+        "units": 1
+      }
+    ]
+  },
+  "design": {
+    "checkpoint": {
+      "mode": "approved",
+      "record": "用户确认沿用最近课程PPT风格，并批准能力因果链、讨论选择板和项目路线图三张锚点页。"
+    }
+  },
+  "render_selfcheck": {
+    "slides": [
+      {
+        "n": 1,
+        "verdict": "通过 — 已逐页查看高清渲染，标题、正文、选项与页边界清晰，无裁切、遮挡或缺失。"
+      },
+      {
+        "n": 2,
+        "verdict": "通过 — 已逐页查看高清渲染，标题、正文、选项与页边界清晰，无裁切、遮挡或缺失。"
+      },
+      {
+        "n": 3,
+        "verdict": "通过 — 已逐页查看高清渲染，标题、正文、选项与页边界清晰，无裁切、遮挡或缺失。"
+      },
+      {
+        "n": 4,
+        "verdict": "通过 — 已逐页查看高清渲染，标题、正文、选项与页边界清晰，无裁切、遮挡或缺失。"
+      },
+      {
+        "n": 5,
+        "verdict": "通过 — 已逐页查看高清渲染，标题、正文、选项与页边界清晰，无裁切、遮挡或缺失。"
+      },
+      {
+        "n": 6,
+        "verdict": "通过 — 已逐页查看高清渲染，标题、正文、选项与页边界清晰，无裁切、遮挡或缺失。"
+      },
+      {
+        "n": 7,
+        "verdict": "通过 — 已逐页查看高清渲染，标题、正文、选项与页边界清晰，无裁切、遮挡或缺失。"
+      },
+      {
+        "n": 8,
+        "verdict": "通过 — 已逐页查看高清渲染，标题、正文、选项与页边界清晰，无裁切、遮挡或缺失。"
+      },
+      {
+        "n": 9,
+        "verdict": "通过 — 已逐页查看高清渲染，标题、正文、选项与页边界清晰，无裁切、遮挡或缺失。"
+      },
+      {
+        "n": 10,
+        "verdict": "通过 — 已逐页查看高清渲染，标题、正文、选项与页边界清晰，无裁切、遮挡或缺失。"
+      },
+      {
+        "n": 11,
+        "verdict": "通过 — 已逐页查看高清渲染，标题、正文、选项与页边界清晰，无裁切、遮挡或缺失。"
+      },
+      {
+        "n": 12,
+        "verdict": "通过 — 已逐页查看高清渲染，标题、正文、选项与页边界清晰，无裁切、遮挡或缺失。"
+      },
+      {
+        "n": 13,
+        "verdict": "通过 — 已逐页查看高清渲染，标题、正文、选项与页边界清晰，无裁切、遮挡或缺失。"
+      },
+      {
+        "n": 14,
+        "verdict": "通过 — 已逐页查看高清渲染，标题、正文、选项与页边界清晰，无裁切、遮挡或缺失。"
+      },
+      {
+        "n": 15,
+        "verdict": "通过 — 已逐页查看高清渲染，标题、正文、选项与页边界清晰，无裁切、遮挡或缺失。"
+      },
+      {
+        "n": 16,
+        "verdict": "通过 — 已逐页查看高清渲染，标题、正文、选项与页边界清晰，无裁切、遮挡或缺失。"
+      },
+      {
+        "n": 17,
+        "verdict": "通过 — 已逐页查看高清渲染，标题、正文、选项与页边界清晰，无裁切、遮挡或缺失。"
+      },
+      {
+        "n": 18,
+        "verdict": "通过 — 已逐页查看高清渲染，标题、正文、选项与页边界清晰，无裁切、遮挡或缺失。"
+      },
+      {
+        "n": 19,
+        "verdict": "通过 — 已逐页查看高清渲染，标题、正文、选项与页边界清晰，无裁切、遮挡或缺失。"
+      },
+      {
+        "n": 20,
+        "verdict": "通过 — 已逐页查看高清渲染，标题、正文、选项与页边界清晰，无裁切、遮挡或缺失。"
+      },
+      {
+        "n": 21,
+        "verdict": "通过 — 已逐页查看高清渲染，标题、正文、选项与页边界清晰，无裁切、遮挡或缺失。"
+      },
+      {
+        "n": 22,
+        "verdict": "通过 — 已逐页查看高清渲染，标题、正文、选项与页边界清晰，无裁切、遮挡或缺失。"
+      },
+      {
+        "n": 23,
+        "verdict": "通过 — 已逐页查看高清渲染，标题、正文、选项与页边界清晰，无裁切、遮挡或缺失。"
+      },
+      {
+        "n": 24,
+        "verdict": "通过 — 已逐页查看高清渲染，标题、正文、选项与页边界清晰，无裁切、遮挡或缺失。"
+      },
+      {
+        "n": 25,
+        "verdict": "通过 — 已逐页查看高清渲染，标题、正文、选项与页边界清晰，无裁切、遮挡或缺失。"
+      },
+      {
+        "n": 26,
+        "verdict": "通过 — 已逐页查看高清渲染，标题、正文、选项与页边界清晰，无裁切、遮挡或缺失。"
+      },
+      {
+        "n": 27,
+        "verdict": "通过 — 已逐页查看高清渲染，标题、正文、选项与页边界清晰，无裁切、遮挡或缺失。"
+      },
+      {
+        "n": 28,
+        "verdict": "通过 — 已逐页查看高清渲染，标题、正文、选项与页边界清晰，无裁切、遮挡或缺失。"
+      },
+      {
+        "n": 29,
+        "verdict": "通过 — 已逐页查看高清渲染，标题、正文、选项与页边界清晰，无裁切、遮挡或缺失。"
+      },
+      {
+        "n": 30,
+        "verdict": "通过 — 已逐页查看高清渲染，标题、正文、选项与页边界清晰，无裁切、遮挡或缺失。"
+      },
+      {
+        "n": 31,
+        "verdict": "通过 — 已逐页查看高清渲染，标题、正文、选项与页边界清晰，无裁切、遮挡或缺失。"
+      },
+      {
+        "n": 32,
+        "verdict": "通过 — 已逐页查看高清渲染，标题、正文、选项与页边界清晰，无裁切、遮挡或缺失。"
+      },
+      {
+        "n": 33,
+        "verdict": "通过 — 已逐页查看高清渲染，标题、正文、选项与页边界清晰，无裁切、遮挡或缺失。"
+      },
+      {
+        "n": 34,
+        "verdict": "通过 — 已逐页查看高清渲染，标题、正文、选项与页边界清晰，无裁切、遮挡或缺失。"
+      },
+      {
+        "n": 35,
+        "verdict": "通过 — 已逐页查看高清渲染，标题、正文、选项与页边界清晰，无裁切、遮挡或缺失。"
+      },
+      {
+        "n": 36,
+        "verdict": "通过 — 已逐页查看高清渲染，标题、正文、选项与页边界清晰，无裁切、遮挡或缺失。"
+      },
+      {
+        "n": 37,
+        "verdict": "通过 — 已逐页查看高清渲染，标题、正文、选项与页边界清晰，无裁切、遮挡或缺失。"
+      },
+      {
+        "n": 38,
+        "verdict": "通过 — 已逐页查看高清渲染，标题、正文、选项与页边界清晰，无裁切、遮挡或缺失。"
+      },
+      {
+        "n": 39,
+        "verdict": "通过 — 已逐页查看高清渲染，标题、正文、选项与页边界清晰，无裁切、遮挡或缺失。"
+      },
+      {
+        "n": 40,
+        "verdict": "通过 — 已逐页查看高清渲染，标题、正文、选项与页边界清晰，无裁切、遮挡或缺失。"
+      },
+      {
+        "n": 41,
+        "verdict": "通过 — 已逐页查看高清渲染，标题、正文、选项与页边界清晰，无裁切、遮挡或缺失。"
+      },
+      {
+        "n": 42,
+        "verdict": "通过 — 已逐页查看高清渲染，标题、正文、选项与页边界清晰，无裁切、遮挡或缺失。"
+      },
+      {
+        "n": 43,
+        "verdict": "通过 — 已逐页查看高清渲染，标题、正文、选项与页边界清晰，无裁切、遮挡或缺失。"
+      },
+      {
+        "n": 44,
+        "verdict": "通过 — 已逐页查看高清渲染，标题、正文、选项与页边界清晰，无裁切、遮挡或缺失。"
+      },
+      {
+        "n": 45,
+        "verdict": "通过 — 已逐页查看高清渲染，标题、正文、选项与页边界清晰，无裁切、遮挡或缺失。"
+      },
+      {
+        "n": 46,
+        "verdict": "通过 — 已逐页查看高清渲染，标题、正文、选项与页边界清晰，无裁切、遮挡或缺失。"
+      },
+      {
+        "n": 47,
+        "verdict": "通过 — 已逐页查看高清渲染，标题、正文、选项与页边界清晰，无裁切、遮挡或缺失。"
+      },
+      {
+        "n": 48,
+        "verdict": "通过 — 已逐页查看高清渲染，标题、正文、选项与页边界清晰，无裁切、遮挡或缺失。"
+      },
+      {
+        "n": 49,
+        "verdict": "通过 — 已逐页查看高清渲染，标题、正文、选项与页边界清晰，无裁切、遮挡或缺失。"
+      },
+      {
+        "n": 50,
+        "verdict": "通过 — 已逐页查看高清渲染，标题、正文、选项与页边界清晰，无裁切、遮挡或缺失。"
+      },
+      {
+        "n": 51,
+        "verdict": "通过 — 已逐页查看高清渲染，标题、正文、选项与页边界清晰，无裁切、遮挡或缺失。"
+      },
+      {
+        "n": 52,
+        "verdict": "通过 — 已逐页查看高清渲染，标题、正文、选项与页边界清晰，无裁切、遮挡或缺失。"
+      },
+      {
+        "n": 53,
+        "verdict": "通过 — 已逐页查看高清渲染，标题、正文、选项与页边界清晰，无裁切、遮挡或缺失。"
+      },
+      {
+        "n": 54,
+        "verdict": "通过 — 已逐页查看高清渲染，标题、正文、选项与页边界清晰，无裁切、遮挡或缺失。"
+      },
+      {
+        "n": 55,
+        "verdict": "通过 — 已逐页查看高清渲染，标题、正文、选项与页边界清晰，无裁切、遮挡或缺失。"
+      }
+    ]
+  },
+  "sameness": {
+    "waived": "本课属于第11课之后的系列收尾课，用户明确要求沿用同一深色教学模板；底部进度轨道、标题规则和讨论卡片的重复承担章节定位与现场投票导航，而不是无意的版式复制。",
+    "waived_category": "template-locked",
+    "codes": [
+      "CARD DOMINANCE",
+      "BOTTOM-STRIP MONOCULTURE",
+      "TITLE-RULE MONOCULTURE",
+      "ENVELOPE MONOCULTURE"
+    ]
+  },
+  "density": {
+    "waived": "16个讨论题必须在投票时完整展示题目和全部选项；其余讲解页已只保留判断框架，细节进入备注。中文字符统计偏高，但逐页渲染检查确认课堂投影可读。"
+  },
+  "provenance": {
+    "waived": "本课内容严格改编自用户已确认的完整讲义与此前课程材料，不新增外部数据、排名或需要联网核验的事实性主张。"
+  }
+}

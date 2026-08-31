@@ -1,0 +1,450 @@
+"PRODUCT FACULTY — AI PRODUCT REQUIREMENTS DOCUMENT (PRD) TEMPLATE
+Version 1.0",,,,,,,,
+Your Name:,,Raghu Chanumolu,,,,,,
+Your Product:,,GTM Copilot,,,,,,
+Your Industry:,,Information Technology,,,,,,
+Date:,,2026/1/30,,,,,,
+4D Method,,AI PRD ,,,,,,Instructor Feedback
+Phase,Activity,Theme,Topic,Key Question(s),"Your Response
+Include external links to visuals/prototypes as required.",,,
+DISCOVERY,"Understand your market, business, product & user context","Business 
+Value Map",Market Attractiveness,"What industry is your business in? (ie Financial services, Healthcare, Education, etc)?","Information Technology -
+                    AI powered Sales Enablement Platform",,,"Please leave this area blank. 
+
+This space is for the Instructor to provide you with feedback."
+,,,,What are the key challenges (headwinds) and opportunities (tailwinds) impacting growth in your industry? Who are the key competitors?,"Headwinds:
+      - Immediate ROI
+      - Customer Data silos & Quality
+      - Customer workforce  adoption resistance
+      - Concerns over data privacy (GDPR)
+
+Tailwinds:
+      - Time saved for sales rep
+      - Integrating Agentic AI Reps via an agent-first strategy strengthens human team capacity
+      - Synthesize scattered signals from multiple sources to provide next-best-action guidance in real-time
+
+Key competitors:
+      - Clay
+      - MagicBlocks
+      - DataBook
+      - Regie.ai
+ ",,,
+,,,,"What is the projected growth rate of your target market segment over the next 3-5 years?
+
+",,"
+19.65% CAGR (Compound Annual Growth Rate)
+source: Click Here",,
+,,,"Business 
+Model","What growth stage is your business currently in (e.g., startup, scale-up, mature)?",startup,,,
+,,,,"How does your business make money? What do they sell? What is your primary revenue model (e.g., subscription, freemium, licensing, marketplace, transactional, etc?)",TBD (freemium or transactional),,,
+,,,,"Who is your primary customer base (B2B, B2C, B2B2C)?",B2B,,,
+,,,Differentiators,What are the key differentiators for your company? ,"- Evals-first GTM intelligence
+- Seller native intelligence
+- Auditable Multi-agent system",,,
+,,"Feature 
+Value Map
+
+(IMPORTANT NOTE: This section is only relevant if you are working on enhancing an existing product. It does not apply if you are developing a new product from 0 to 1.)",Customers,Who are the customers (ie buyers) of your product? ,Enterprise Sales Operations / Revenue Operations,,,
+,,,End Users,"Who are the end-users of your product? Which users are the most revenue-generating / revenue-impacting for your company? What are their goals, roles, and context?","End users:
+   - Account Executives (AEs_
+   - Sales Leaders (AEs, RVPs and VPs)
+Revenue Generating:
+   - Account Executives (AEs)
+   - Sales Leaders (RVPs, VPs)
+   - RevOps / Sales Ops
+
+","Role: Account Executive (AE)
+        - Juggle multiple accounts and deal stages
+        - Live in CRM + call notes + prep docs
+Goal:
+         - Win deals
+         - Gain credibility with customers fast
+         - Avoid getting blindsided late
+         - Spend time selling
+Context: GTM Copilot is used
+         - first customer meetings
+         - Key deal checkpoints
+         - Management and Exec conversations
+         - When a deal feels off","Role: Sales leaders (RVP, VP)
+       - Coach Reps
+       - Inspect deals
+       - Forecast accurately
+Goals:
+       - Improve win rate
+       - Identify weak deals early
+       - Validate customer buying signals
+Context:
+      - Deal reviews
+      - Pipeline calls
+      - Forecast discussions
+      - Escalation prep ",
+,,,Current Products / Services,"If you are a Product-led business: 
+What are the core features of your product, and how do they address user needs?
+
+If you are a Service-led business: 
+What are the key services you offer to customers?","Core Features:
+   1. Account Brief
+   2. Deal context overlay
+   3. Market Intelligence
+   4. Financial signals & Chart Annotations
+   5. Evaluation Framework","User Needs Addressed:
+   1. Understand account fast without sounding generic or wrong
+   2. What matters in this deal right now?
+   3. What actually changed that affects my account or deal?
+   4. Explain customer financial trends and plan for customer budget cycle
+   5. Leadership have control can avoid embarresment ",,
+,,"User 
+Value Map",Target Persona,"Who is your AI product / feature for? (Internal users, external users, an influencer, a buyer, etc) ","Internal seller 
+    - GTM Sales Teams",,,
+,,,"Journey Map
+(current-state)","What is the typical journey for your target persona when they are using your product / service, focusing on their ideal experience (happy path) as they interact with your product?","Trigger 1: ""I need to prepare fast""
+Context: New account assigned
+Action: Click on GTM Copilot
+Result: Wow, GTM Copilot knows what I need","Trigger 2: ""Make this about my deal""
+Context: User is looking for persona-specific guidance
+Action: Click on ""Deal context overlay""
+Result: user adjusts approach and prepares for sharper questions","Trigger 3: ""Help me see risks"" 
+Context: ""RVP needs to ensure they are not just seeing a cherry-picked context reps present""
+Action: Reviews confidence signals and digs deeper as needed
+Result: I trust GTM Copilot more than the slides Reps made at midnight",
+,,,Pain-points,"Where does the user experience friction, obstacles, or unmet needs throughout the journey? Identify which pain-points are most frequent and severe? ","Pain point 01: Manual Research:
+  - 4~6 hrs to research one account
+  - No real-time data
+  - Customer meetings are often conducted with generic pitches  ","Pain point 02: Content Hunting:
+    - CRM is often 2~3 weeks out of date or incomplete
+    - Sales collateral is stored in static folders, making it difficult for a sales rep to find the right deck for a specific industry or deal stage","Pain point 03: Strategic Gap:
+   - Connecting a product or service value to a customer's goal not straightforward",
+,,,AI Opportunities,"From your list of pain points, identify those that can effectively be addressed using Generative AI. Remember, this project focuses on leveraging LLM-powered AI to solve your target persona's pain points.
+
+Rank these pain points starting with the most severe and frequently occurring first.","AI Opportunity 01:
+   - Extract account information from last four years 10k. 
+   - Collect real-time news events","AI Opportunity 02:
+   - Deal guidance leveraging LLM-powered AI
+","AI Opportunity 03:
+  - AI-powered Market intelligence + AI powered Financial signals",
+,Develop an AI Solution Hypothesis,AI Solution Hypothesis,Diverge,Ideate potential solutions to address your AI-solvable pain points. Focus on generating a high quantity of ideas rather than evaluating their quality at this stage.,"Potential Solution 01:
+   - AI-powered 10k  extractor","Potential Solution 02:
+   - AI-powered news aggregator","Potential Solution 03:
+   - AI-powered deal guidance",
+,,,Converge,"Rank your ideated solutions based on impact and feasibility. Identify your top three AI solutions, and clearly select the one you'll focus on for your project.","Project Feature 01:
+   - AI-powered 10k  extractor","Project Feature 02:
+   - AI-powered news aggregator","Potential Feature 03:
+   - AI-powered deal guidance",
+DESIGN,Define Target State Workflow,"UX Flows & Wireframes
+
+Suggested Tool:
+Excalidraw","Workflow
+(future)","Assuming your product or feature works as desired, what is the target state workflow?","Step-01: User(AE) entry and intent captured in UI
+          AE provides an Account Name
+          Optionally provides deal context
+Step-02: GTM Copilot Data retrieval
+           GTM Copilot resolves CIK and identifies 10k
+           GTM Copilot builds/loads retrieval indexes/vector store
+Step-03: GTM Copilot Multi-agent orchestration
+           GTM Copilot runs specialized agents
+            Account Brief Agent / Finance Agent / Market Intelligence Agent / Deal Agent",,"Step-04: GTM Copilot Evaluations & Grounding
+       Page number citations and numbers
+       Structure & Completeness
+       Duplication
+       Soft LLM Evals
+Step-05: Persona-based UI rendering
+       AE is presented with the requested information and guidance","Please leave this area blank. 
+
+This space is for the Instructor to provide you with feedback."
+,Build Wireframes,,Wireframes,"How will users navigate through your AI solution? What are the key steps and decision points? What information will be displayed at each stage?
+
+What specific UI elements are needed on each screen? How will the layout accommodate AI features? ",Refer Wireframes tab,,,
+,Develop Prototype to showcase AI interactions,"Prototype Screens
+
+Suggested Tool:
+lovable.dev",,"What aspects of the AI solution will you demonstrate in your prototype? How will the AI inputs, processing, and outputs be presented visually to users?
+
+Which features are essential for launch? What can be left for later releases?",[Insert your response here. Include link to visuals / prototype as appropriate.],,,
+,Initial Prompt Design,"Master Prompt 
+[Initial Design]",,"Create an initial master prompt. Consider the following: 
+
+What tone or personality should the AI use? How should user input and system instructions be structured for maximum clarity? What system instruction will govern the AI's behavior? What examples might improve performance? How will you format outputs for consistency?","You are GTM Copilot, a seller-native, enterprise-grade market and deal intelligence system. 
+
+Your purpose is to generate structured, persona-aware, grounded intelligence for GTM teams.
+
+You MUST:
+1. Use only the provided structured facts and retrieved context.
+2. Never invent numbers, trends, or strategic claims.
+3. Never generalize beyond supplied evidence.
+4. Prioritize clarity, strategic utility, and decision relevance.
+5. Produce structured json first. The narrative text must be derived from that structure.
+6. Maintain deterministic formatting for all  outputs.
+7. Explicitly align framing to the selected persona.
+If evidence is insufficient, return ""INSUFFICIENT_EVIDENCE"" instead of guessing.
+
+You MUST NOT:
+  - Hallucinate financial metrics.
+  - Add external knowledge not included in inputs.
+  - Use vague business cliches.
+  - Produce long, unstructured essays.
+  - Override grounding requirements.
+
+Tone:
+Strategic, precise, executive-ready.
+Confident but never speculative.
+Concise but insight-dense.
+
+If grounding fails, return structured failure object instead of partial answer.",,,
+,Prepare for Testing & Iteration,Evaluation Criteria & Test Plan,Evaluation Criteria,"What specific quality benchmarks (e.g., clarity, relevance, tone, accuracy, SEO, hallucination avoidance) will define “good” output?","1, Accuracy & Grounding
+2. Relevance
+3. Clarity
+4. Persona alignment
+","5. Tone discipline
+6. Structural & Formatting Integrity
+7. Strategic Utility",,
+,,,"Example 
+Cases","What specific example use cases, edge cases, and negative cases should be covered by test prompts and outputs?","Use Cases:
+   1) Account Brief: AE
+     - Input: company name + Persona
+     - Output: 
+          Exec snapshot, 3~5 priorities, 3 risks, AE oriented What to ask next
+          Financial Signals- revenue trend, YoY, segment breakdown
+          Account comparison
+   2) Account Brief: Salesleader
+     - Input: company name + Persona
+     - Output: forecast/pipeline framing, risk flags, strategic implications
+          Financial Signals- revenue trend, YoY, segment breakdown
+          Account comparison","Edge Cases:
+   1) Account Brief: Grounding/Data availability
+         - Missing latest 10k / retrieval empty
+           Output: Insufficient_Evidence
+    2) Entity resolution ambiguity
+         - Ambiguous company name 
+          Output: do not proceed with the wrong company
+    3) Persona switch
+         - framing/narrative changes
+    4) Deal context without deal info:
+         - returns INSUFFICIENT_EVIDENCE
+    5) Duplicate articles from multiple sources
+         - returns one clustered event","Negative Cases:
+    1) Hallucinations:
+          - Prompt tries to force invention.
+             Input: If you can't find revenue estimate it""
+             Output: refuse estimation ""Insufficient_Evidence""
+          - Prompt asks for forward looking projections
+             Input: Predict next quarter revenue
+             Output: refuse unless explicit in provided sources: otherwise omit
+       2) Grounding:
+            - User provides incorrect numbers and asks model to repeat them
+             Output: Model uses facts, flags mismatch, does not repeat incorrect numbers
+             - User provides fabricated ""news"" in notes
+              Output: Not treated as factual notes
+       3) Structural violations
+             - Model tries to output prose outside JSON
+               Output: test  asserts output with citations otherwise fails
+       4) Missing required sections:
+             - Output: hard fail   ",
+DEVELOP,AI Model Selection & Justification,AI Model Selection & Justification,,Which AI model is best suited for your solution and why? What capabilities and limitations does it have? How will it integrate with your product?,"openai/gpt-4.1-mini is best suited for GTM Copilot
+Why?
+  - Cost efficiency
+  - Sufficient quality for RAG- constrained generation
+  - Persona-aware framing","What capabilities?
+  - FAISS vector retrieval, model only synthesizes rather than generating facts
+  - Following strict output constraints (no hallucinated facts, no invented numbers)
+
+Limitations?
+   - Persona-specific violations still occur","How model integrates?
+  - Agents retreive Account specific data (10k and market signals)
+  - Chunks are sent to OpenAI's embeddings model to create vectors and FAISS indexes
+  - Relevant chunks are assembled into a context block and injected into a constrained generation LLM prompt
+   - The response from LLM is displayed in GTM Copilot","Please leave this area blank. 
+
+This space is for the Instructor to provide you with feedback."
+,Define Inputs,Input Specification Table,"Required 
+Fields","What are the required input fields for the AI (e.g., title, description, keywords, tone)? Indicate format, source, requirement.","Required input fields.
+  - Company
+  - Persona (drives tone)",,,
+,,,"Optional 
+Fields",Are there any optional or user-customizable fields? How do they impact the AI’s output?,"Optional input fields:
+  - Company B (for comparison)
+Deal guidance
+  - Seller
+  - Deal Description
+  - Deal stage
+  - Deal type
+  - Incumbent?",,,
+,Define Good Output,Output Evaluation Checklist,"Objective 
+Criteria","What criteria will you use to judge output as “good”? (e.g., structure, use of keywords, tone, factuality, relevance)","Pass threshold is 70/100 score.
+This score is the average of 8 dimensions and hard fails that overwride the score","8 Dimensions:
+  - Accuracy
+  - Grounding
+  - Relevance","  - Persona Alignment
+  - Clarity
+  - Tone discipline
+  - Structure & Formatting
+  - Strategic utility",
+,,,Subjective Criteria,Are there any criteria that require human judgment or qualitative assessment?,Evaluations and Rule effectiveness,,,
+,Prompt Design Iteration,"Master Prompt 
+[Final Design]","Prompt 
+Version 1","What is your starting system prompt for the model? What variations will you test? What techniques will you use to optimize performance? List initial instructions, persona, inputs, and constraints.","[ROLE]
+You are a GTM advisor supporting a {persona}.
+
+[OUTPUT SPECIFICATION]
+Using ONLY the context below, output a JSON object with EXACTLY these keys:
+- {Company} Business Overview
+- Customer Segments
+- Revenue Drivers
+- Strategic Priorities
+- Innovation Focus
+- Market Risks
+- Operational Challenges
+
+[CONTENT RULES]
+Each value must be concise and grounded in context.
+For ""{Company} Business Overview"": use ONLY the Business Context below and return a 2-3
+  sentence paragraph in plain text (no bullets). Prioritize language from the Business
+  section General overview (mission/purpose). Include in-text page citations like (p. 3).
+For all other sections: use ONLY the matching labeled section in the Section Context below
+  and return exactly 3 concise bullet points.
+For 'Market Risks': name each risk factor and include one brief description of business impact.
+For 'Strategic Priorities': make those 3 bullet points the top priorities for the current year.
+If a detail is missing in the context, use: Not found in the filing.
+Return JSON only, no markdown, no prose.
+
+[PERSONA LANGUAGE GUIDANCE — injected per persona]
+  AE:    ""Use AE-relevant language naturally: stakeholder, objection, qualification,
+          proposal, close, next step, owner, timeline.
+          Make at least one bullet explicitly action-oriented for deal execution.
+          Do not invent stakeholder names, timelines, or commitments.""
+  Sales Leader: ""Use Sales Leader language: forecast, pipeline, inspection, coaching,
+                  win rate, deal risk.""
+  C-Suite: ""Use C-Suite language: ROI, margin, growth, strategic, competitive position, risk.""
+",,,
+,,,Prompt Iterations,"If revised, what changes did you make and why? How do you track and record prompt evolution?","[CONTENT RULES]
+Each value must be concise and grounded in context.
+For ""{Company} Business Overview"": use ONLY the Business Context below and return a 2-3
+  sentence paragraph in plain text (no bullets). Prioritize language from the Business
+  section General overview (mission/purpose). Include in-text page citations like (p. 3).
+For all other sections: use ONLY the matching labeled section in the Section Context below
+  and return exactly 3 concise bullet points.
+For 'Market Risks': name each risk factor and include one brief description of business impact.
+For 'Strategic Priorities': make those 3 bullet points the top priorities for the current year.
+If a detail is missing in the context, use: Not found in the filing.
+Return JSON only, no markdown, no prose.
+
+[PERSONA LANGUAGE GUIDANCE — injected per persona]
+  AE:    ""Use AE-relevant language naturally: stakeholder, objection, qualification,
+          proposal, close, next step, owner, timeline.
+          Make at least one bullet explicitly action-oriented for deal execution.
+          Do not invent stakeholder names, timelines, or commitments.""
+  Sales Leader: ""Use Sales Leader language: forecast, pipeline, inspection, coaching,
+                  win rate, deal risk.""
+  C-Suite: ""Use C-Suite language: ROI, margin, growth, strategic, competitive position, risk.""
+
+[AE STRICTNESS BLOCK — only for Account Executive persona]
+ACCOUNT EXECUTIVE STRICTNESS:
+- In 'Strategic Priorities' and 'Operational Challenges', every bullet must include at
+  least one action/execution signal (next step, owner, timeline, stakeholder, objection,
+  qualification, proposal, close).
+- Keep bullets grounded in filing context; if owner/timeline is absent, explicitly say
+  'Owner/timeline not specified in filing'.
+
+[LEARNING GUARDRAILS — from prior failure patterns, injected if rule_status_map has entries]
+LEARNING GUARDRAILS (derived from prior failures):
+- [lines from _build_learning_memory_guidance()]
+
+[RETRY INSTRUCTIONS — injected only on retry]
+IMPORTANT - RETRY INSTRUCTIONS:
+The previous output failed evaluation. You MUST fix these issues:
+- {section}: {issue description}
+...
+Do not copy content from other companies. Keep every claim tied to this company's filing.
+
+[GROUNDING CONTEXT]
+Business Context:
+{top-8 FAISS chunks from query: ""Item 1 Business section General overview...""} [truncated to 2500 chars]
+
+Section Context:
+=== Customer Segments Context ===  [top-6 FAISS chunks, truncated to 2500 chars]
+=== Revenue Drivers Context ===    [top-6 FAISS chunks, truncated to 2500 chars]
+=== Strategic Priorities Context ===
+=== Innovation Focus Context ===
+=== Market Risks Context ===
+=== Operational Challenges Context ===",,,
+,Data Preparation & RAG Implementation,Data Preparation & RAG Implementation,,"What data sources will you use? How will you prepare data for model training or evaluation? (e.g., cleaning, structuring). For RAG: How will you chunk, embed, retrieve relevant information?","Data Sources:
+  - SEC EDGAR - 10k
+  - SEC EDGAR - XBRL company facts
+  - SEC EDGAR - filing metadata
+  - SEC EDGAR - Company ticket list
+  - Google News RSS
+  - Company IR RSS feeds
+  - Yahoo finance","Data Preparation:
+  - 10k HTML to plain text
+  - Revenue earnings XBLR to earnings json
+  - Segment Revenue HTML to segments json 
+  - TOC stripping before FAISS indexing","Stage-01: Retrieval
+  - Chunking
+  - Embedding
+  - FAISS indexing
+  - Top 6 chunks returned as raw text (semantic similarity)
+
+Stage-02: Generation
+  - Prompt assembled
+  - Context included (Top 6 chunks)
+  - Sent to LLM
+  - 7 section json returned (relevant information)",
+,Create Evaluation Set,Example Input/Output Data for Testing,Typical Examples,What are the most common inputs and expected outputs? Use real data if possible.,"Input:
+  - Company Name: Oracle
+  - Persona: Sales Leader","Real example — Oracle (brief_da9219ad.json):
+
+Finance output (truncated):
+
+In 2022, the company reported revenues of $42.4 billion... 2023: $50.0B (+17.7% YoY)... 2025 forecast: $57.4B (+8.4% YoY)
+
+News output:
+
+Oracle's stock suffers worst eight-day stretch in over two decades — MarketWatch
+Investors sue Oracle, allege executives dumped $1.87B amid AI hype — InvestmentNews
+Oracle Reimagines Banking for the AI Era with New Agentic Platform — Oracle
+Brief — Market Risks (Sales Leader):
+
+Dependence on Enterprise Demand: LinkedIn revenue heavily relies on demand from enterprises for Talent Solutions, Sales Solutions, and Premium Subscriptions. A decline in enterprise purchasing behavior can impact growth.
+Member Engagement and Value Delivery: Growth depends on increasing LinkedIn member engagement and continuously offering AI-enabled insights. Reduced engagement adversely affects revenue.
+Quality and Effectiveness of Sponsored Content: The success of Marketing Solutions is tied to quality of sponsored content. Poor content quality reduces advertiser spend.
+Eval score: 100/100 PASS",,
+,,,Edge Cases & Negative Cases,"What examples test the AI’s limits? (e.g., missing data, ambiguous input, out-of-domain)","Failure example — Microsoft (eval_results/brief_e5b230d6.json):
+
+Score: 60/100 → FAIL
+Issues: news section missing; finance only 101 characters (below 500-char minimum)",,,
+,,Test Example Data & Review Results,Manual Review,"Run your input data with the prompt. How did your output perform in manual review? Which examples failed which criteria, and why?",Test 1: Walmart / Sales Leader,,,
+,,,Automated Evaluation,What pass/fail rate or scores did the AI achieve on core criteria?,75~80% pass rate,,,
+,,Handle Edge Cases & Iterate,Edge Case Identification,What edge cases did you identify in testing or real usage?,"Edge case 01:
+   Retrieval FAISS Distance Ignored.
+   ","Edge case 02:
+   Account segment extraction failure
+   ","Edge case 03:
+   Shell 10k not found",
+,,,Updates & Adjustments,"What prompt or system adjustments have you made based on failures, feedback, or edge case observations?",Fix: working on implementing distance thresholds for chunk selection,Fix: Switched from HTML parsing to LLM call for Segment extraction,Fix: Utilize 20-F for international companies,
+,,Automate Evaluation Approach,Evaluation Method,"What is your chosen approach for evaluation (human, model grader, script)? How will you scale testing to diverse/large test sets?","Evaluation approach: 
+   Hybrid (scripts + model annotations + human)
+
+   Scripts: Section-level Account brief checks
+   Model annotations for charts
+   human: adhoc evaluations
+   ","Scaling:
+   To adopt based on eval failures and growth
+   ",,
+,,,Evaluation Frequency,"How often will you re-run evaluations for new data, new prompts, or post-launch monitoring?",Evaluations are triggered for every run/account,"Post launch:
+   - Latency tracking monthly
+   - Section-specific regression analysis weekly",,
+DEPLOY,Finalize Launch & Rollout Plan,Operational Readiness Checklist,Technical Readiness,"Is infra (APIs, databases, rate limits, monitoring, rollback) tested and documented?",To  Start,,,"Please leave this area blank. 
+
+This space is for the Instructor to provide you with feedback."
+,,,Organizational Readiness,"Have internal teams (support, comms, legal) been trained? Is documentation complete?",To Start,,,
+,,Launch & Rollout Strategy,Launch Approach,"What is your launch approach? Pilot, AB test, or all users—who gets access and when?",Pilot --> AB test--> Gradual expansion,,,
+,,,Scale Readiness,How will you ensure readiness for scale? How will you monitor initial volume and scale up?,[Insert your response here],,,
+,,Go-to-Market Plan,Marketing / Training Assets,"What assets (FAQ, demo, guides) will you prepare for external communication/marketing?",[Insert your response here],,,
+,,,Stakeholder / Internal Comms,"How will you communicate launch plans, progress, and outcomes internally?",[Insert your response here],,,
+,,"Confirm Legal, Privacy & Risk Protocols",Data & Privacy,"How do you handle and protect user data, including storage, privacy, and compliance?",[Insert your response here],,,
+,,,Policy & Compliance,"Are content moderation, legal, and audit processes in place? Are you compliant with regulations needed for your domain?",[Insert your response here],,,
+,Define Success Metrics,Success Metrics,User/Business Metrics,What user metrics will indicate success? What business metrics will demonstrate value? ,[Insert your response here],,,
+,,,AI Metrics,How will you measure AI performance and accuracy?,[Insert your response here],,,
+,"Monitor, Iterate & Improve",User Support & Feedback Plan,Support Channels,Where can users get support? Is escalation and ownership clear?,[Insert your response here],,,
+,,,Feedback Workflow,"How do you gather, triage, and act on feedback and bugs? How are critical issues prioritized and communicated?",[Insert your response here],,,
+,,Monitoring & Continuous Improvement,Monitoring Approach,What monitoring/logging is in place to spot operational/AI issues post-launch?,[Insert your response here],,,
+,,,Ongoing Improvement,"How will you collect learnings, review performance, and update your system continuously post-launch?",[Insert your response here],,,

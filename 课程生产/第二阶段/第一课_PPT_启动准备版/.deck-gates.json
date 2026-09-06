@@ -1,0 +1,624 @@
+{
+  "delivery": "presented",
+  "content": {
+    "checkpoint": {
+      "mode": "approved",
+      "record": "用户已确认新版第一课以启动准备为目标，不在未学习公共项目之前要求正式立项。"
+    },
+    "arc": {
+      "chosen": "阶段说明—小案例—个人化关系—公共项目—轻量准备",
+      "candidates": [
+        {
+          "name": "阶段说明—小案例—个人化关系—公共项目—轻量准备",
+          "shape": "concept-example-check",
+          "roles": [
+            "orientation",
+            "case",
+            "transfer",
+            "preview",
+            "homework"
+          ],
+          "audience_question": "第二阶段怎样学，我现在需要准备什么？",
+          "objection": "第一课没有正式项目会不会缺少体感？",
+          "closing_ask": "提交三个真实业务场景与材料盘点。",
+          "evidence": [
+            "本轮对话已确认的第一课新定位"
+          ]
+        },
+        {
+          "name": "先讲课程规则再布置选题",
+          "shape": "prerequisite-chain",
+          "roles": [
+            "rules",
+            "selection",
+            "homework"
+          ],
+          "audience_question": "课程有哪些要求？",
+          "objection": "学员尚未见过完整项目。",
+          "closing_ask": "立刻提交选题卡。",
+          "evidence": [
+            "旧版第一课结构"
+          ]
+        },
+        {
+          "name": "直接进入智能客服公共项目",
+          "shape": "worked-example",
+          "roles": [
+            "project",
+            "practice"
+          ],
+          "audience_question": "智能客服怎样设计？",
+          "objection": "第二阶段课程机制与个人项目关系没有建立。",
+          "closing_ask": "提交项目V0.1。",
+          "evidence": [
+            "第二课内容"
+          ]
+        }
+      ],
+      "rejected": [
+        {
+          "name": "先讲课程规则再布置选题",
+          "why_lost": "仍然会在学员没有参照时要求正式选题。"
+        },
+        {
+          "name": "直接进入智能客服公共项目",
+          "why_lost": "会失去阶段启动、作业机制和三轮项目全貌。"
+        }
+      ]
+    },
+    "slides": [
+      {
+        "slide": 1,
+        "role": "cover",
+        "takeaway": "第二阶段项目启动与准备",
+        "evidence": [
+          "/Users/keivn/Project/AI-Course/课程生产/第二阶段/00_第二阶段_AI项目实战班_10次课总体规划_v0.3.md｜已确认的第二阶段结构与第一课新定位",
+          "本轮对话｜小项目案例与两次课之间的作业安排"
+        ],
+        "units": 1
+      },
+      {
+        "slide": 2,
+        "role": "content",
+        "takeaway": "今天只完成三件事",
+        "evidence": [
+          "/Users/keivn/Project/AI-Course/课程生产/第二阶段/00_第二阶段_AI项目实战班_10次课总体规划_v0.3.md｜已确认的第二阶段结构与第一课新定位",
+          "本轮对话｜小项目案例与两次课之间的作业安排"
+        ],
+        "units": 3
+      },
+      {
+        "slide": 3,
+        "role": "content",
+        "takeaway": "第一阶段与第二阶段",
+        "evidence": [
+          "/Users/keivn/Project/AI-Course/课程生产/第二阶段/00_第二阶段_AI项目实战班_10次课总体规划_v0.3.md｜已确认的第二阶段结构与第一课新定位",
+          "本轮对话｜小项目案例与两次课之间的作业安排"
+        ],
+        "units": 3
+      },
+      {
+        "slide": 4,
+        "role": "content",
+        "takeaway": "十次课的整体安排",
+        "evidence": [
+          "/Users/keivn/Project/AI-Course/课程生产/第二阶段/00_第二阶段_AI项目实战班_10次课总体规划_v0.3.md｜已确认的第二阶段结构与第一课新定位",
+          "本轮对话｜小项目案例与两次课之间的作业安排"
+        ],
+        "units": 5
+      },
+      {
+        "slide": 5,
+        "role": "content",
+        "takeaway": "公共项目与个人项目",
+        "evidence": [
+          "/Users/keivn/Project/AI-Course/课程生产/第二阶段/00_第二阶段_AI项目实战班_10次课总体规划_v0.3.md｜已确认的第二阶段结构与第一课新定位",
+          "本轮对话｜小项目案例与两次课之间的作业安排"
+        ],
+        "units": 3
+      },
+      {
+        "slide": 6,
+        "role": "content",
+        "takeaway": "一轮项目怎样推进",
+        "evidence": [
+          "/Users/keivn/Project/AI-Course/课程生产/第二阶段/00_第二阶段_AI项目实战班_10次课总体规划_v0.3.md｜已确认的第二阶段结构与第一课新定位",
+          "本轮对话｜小项目案例与两次课之间的作业安排"
+        ],
+        "units": 3
+      },
+      {
+        "slide": 7,
+        "role": "content",
+        "takeaway": "第二阶段的最终成果",
+        "evidence": [
+          "/Users/keivn/Project/AI-Course/课程生产/第二阶段/00_第二阶段_AI项目实战班_10次课总体规划_v0.3.md｜已确认的第二阶段结构与第一课新定位",
+          "本轮对话｜小项目案例与两次课之间的作业安排"
+        ],
+        "units": 3
+      },
+      {
+        "slide": 8,
+        "role": "content",
+        "takeaway": "为什么先看一个小项目",
+        "evidence": [
+          "/Users/keivn/Project/AI-Course/课程生产/第二阶段/00_第二阶段_AI项目实战班_10次课总体规划_v0.3.md｜已确认的第二阶段结构与第一课新定位",
+          "本轮对话｜小项目案例与两次课之间的作业安排"
+        ],
+        "units": 1
+      },
+      {
+        "slide": 9,
+        "role": "content",
+        "takeaway": "一段真实的会议转写",
+        "evidence": [
+          "/Users/keivn/Project/AI-Course/课程生产/第二阶段/00_第二阶段_AI项目实战班_10次课总体规划_v0.3.md｜已确认的第二阶段结构与第一课新定位",
+          "本轮对话｜小项目案例与两次课之间的作业安排"
+        ],
+        "units": 3
+      },
+      {
+        "slide": 10,
+        "role": "content",
+        "takeaway": "先判断要提取什么",
+        "evidence": [
+          "/Users/keivn/Project/AI-Course/课程生产/第二阶段/00_第二阶段_AI项目实战班_10次课总体规划_v0.3.md｜已确认的第二阶段结构与第一课新定位",
+          "本轮对话｜小项目案例与两次课之间的作业安排"
+        ],
+        "units": 3
+      },
+      {
+        "slide": 11,
+        "role": "content",
+        "takeaway": "把原话变成可执行信息",
+        "evidence": [
+          "/Users/keivn/Project/AI-Course/课程生产/第二阶段/00_第二阶段_AI项目实战班_10次课总体规划_v0.3.md｜已确认的第二阶段结构与第一课新定位",
+          "本轮对话｜小项目案例与两次课之间的作业安排"
+        ],
+        "units": 5
+      },
+      {
+        "slide": 12,
+        "role": "content",
+        "takeaway": "普通摘要与待办助手",
+        "evidence": [
+          "/Users/keivn/Project/AI-Course/课程生产/第二阶段/00_第二阶段_AI项目实战班_10次课总体规划_v0.3.md｜已确认的第二阶段结构与第一课新定位",
+          "本轮对话｜小项目案例与两次课之间的作业安排"
+        ],
+        "units": 3
+      },
+      {
+        "slide": 13,
+        "role": "content",
+        "takeaway": "小项目的业务定义",
+        "evidence": [
+          "/Users/keivn/Project/AI-Course/课程生产/第二阶段/00_第二阶段_AI项目实战班_10次课总体规划_v0.3.md｜已确认的第二阶段结构与第一课新定位",
+          "本轮对话｜小项目案例与两次课之间的作业安排"
+        ],
+        "units": 3
+      },
+      {
+        "slide": 14,
+        "role": "content",
+        "takeaway": "模型、规则、系统与人工",
+        "evidence": [
+          "/Users/keivn/Project/AI-Course/课程生产/第二阶段/00_第二阶段_AI项目实战班_10次课总体规划_v0.3.md｜已确认的第二阶段结构与第一课新定位",
+          "本轮对话｜小项目案例与两次课之间的作业安排"
+        ],
+        "units": 3
+      },
+      {
+        "slide": 15,
+        "role": "content",
+        "takeaway": "第一版做什么",
+        "evidence": [
+          "/Users/keivn/Project/AI-Course/课程生产/第二阶段/00_第二阶段_AI项目实战班_10次课总体规划_v0.3.md｜已确认的第二阶段结构与第一课新定位",
+          "本轮对话｜小项目案例与两次课之间的作业安排"
+        ],
+        "units": 3
+      },
+      {
+        "slide": 16,
+        "role": "content",
+        "takeaway": "从输入到输出的处理流程",
+        "evidence": [
+          "/Users/keivn/Project/AI-Course/课程生产/第二阶段/00_第二阶段_AI项目实战班_10次课总体规划_v0.3.md｜已确认的第二阶段结构与第一课新定位",
+          "本轮对话｜小项目案例与两次课之间的作业安排"
+        ],
+        "units": 3
+      },
+      {
+        "slide": 17,
+        "role": "content",
+        "takeaway": "两张核心页面",
+        "evidence": [
+          "/Users/keivn/Project/AI-Course/课程生产/第二阶段/00_第二阶段_AI项目实战班_10次课总体规划_v0.3.md｜已确认的第二阶段结构与第一课新定位",
+          "本轮对话｜小项目案例与两次课之间的作业安排"
+        ],
+        "units": 3
+      },
+      {
+        "slide": 18,
+        "role": "content",
+        "takeaway": "怎样测试第一版",
+        "evidence": [
+          "/Users/keivn/Project/AI-Course/课程生产/第二阶段/00_第二阶段_AI项目实战班_10次课总体规划_v0.3.md｜已确认的第二阶段结构与第一课新定位",
+          "本轮对话｜小项目案例与两次课之间的作业安排"
+        ],
+        "units": 5
+      },
+      {
+        "slide": 19,
+        "role": "content",
+        "takeaway": "小项目的完整结构",
+        "evidence": [
+          "/Users/keivn/Project/AI-Course/课程生产/第二阶段/00_第二阶段_AI项目实战班_10次课总体规划_v0.3.md｜已确认的第二阶段结构与第一课新定位",
+          "本轮对话｜小项目案例与两次课之间的作业安排"
+        ],
+        "units": 3
+      },
+      {
+        "slide": 20,
+        "role": "content",
+        "takeaway": "公共项目先给大家一个共同样例",
+        "evidence": [
+          "/Users/keivn/Project/AI-Course/课程生产/第二阶段/00_第二阶段_AI项目实战班_10次课总体规划_v0.3.md｜已确认的第二阶段结构与第一课新定位",
+          "本轮对话｜小项目案例与两次课之间的作业安排"
+        ],
+        "units": 3
+      },
+      {
+        "slide": 21,
+        "role": "content",
+        "takeaway": "个人项目要回到自己的业务",
+        "evidence": [
+          "/Users/keivn/Project/AI-Course/课程生产/第二阶段/00_第二阶段_AI项目实战班_10次课总体规划_v0.3.md｜已确认的第二阶段结构与第一课新定位",
+          "本轮对话｜小项目案例与两次课之间的作业安排"
+        ],
+        "units": 3
+      },
+      {
+        "slide": 22,
+        "role": "content",
+        "takeaway": "学方法，不照搬项目",
+        "evidence": [
+          "/Users/keivn/Project/AI-Course/课程生产/第二阶段/00_第二阶段_AI项目实战班_10次课总体规划_v0.3.md｜已确认的第二阶段结构与第一课新定位",
+          "本轮对话｜小项目案例与两次课之间的作业安排"
+        ],
+        "units": 3
+      },
+      {
+        "slide": 23,
+        "role": "content",
+        "takeaway": "一个项目需要回答的五个问题",
+        "evidence": [
+          "/Users/keivn/Project/AI-Course/课程生产/第二阶段/00_第二阶段_AI项目实战班_10次课总体规划_v0.3.md｜已确认的第二阶段结构与第一课新定位",
+          "本轮对话｜小项目案例与两次课之间的作业安排"
+        ],
+        "units": 5
+      },
+      {
+        "slide": 24,
+        "role": "content",
+        "takeaway": "今天不要求回答完整",
+        "evidence": [
+          "/Users/keivn/Project/AI-Course/课程生产/第二阶段/00_第二阶段_AI项目实战班_10次课总体规划_v0.3.md｜已确认的第二阶段结构与第一课新定位",
+          "本轮对话｜小项目案例与两次课之间的作业安排"
+        ],
+        "units": 1
+      },
+      {
+        "slide": 25,
+        "role": "content",
+        "takeaway": "公共项目一：企业智能客服与业务办理",
+        "evidence": [
+          "/Users/keivn/Project/AI-Course/课程生产/第二阶段/00_第二阶段_AI项目实战班_10次课总体规划_v0.3.md｜已确认的第二阶段结构与第一课新定位",
+          "本轮对话｜小项目案例与两次课之间的作业安排"
+        ],
+        "units": 3
+      },
+      {
+        "slide": 26,
+        "role": "content",
+        "takeaway": "公共项目二：业务材料审核与风险核验",
+        "evidence": [
+          "/Users/keivn/Project/AI-Course/课程生产/第二阶段/00_第二阶段_AI项目实战班_10次课总体规划_v0.3.md｜已确认的第二阶段结构与第一课新定位",
+          "本轮对话｜小项目案例与两次课之间的作业安排"
+        ],
+        "units": 3
+      },
+      {
+        "slide": 27,
+        "role": "content",
+        "takeaway": "公共项目三：专业研究与方案生成",
+        "evidence": [
+          "/Users/keivn/Project/AI-Course/课程生产/第二阶段/00_第二阶段_AI项目实战班_10次课总体规划_v0.3.md｜已确认的第二阶段结构与第一课新定位",
+          "本轮对话｜小项目案例与两次课之间的作业安排"
+        ],
+        "units": 3
+      },
+      {
+        "slide": 28,
+        "role": "content",
+        "takeaway": "课后先做业务场景盘点",
+        "evidence": [
+          "/Users/keivn/Project/AI-Course/课程生产/第二阶段/00_第二阶段_AI项目实战班_10次课总体规划_v0.3.md｜已确认的第二阶段结构与第一课新定位",
+          "本轮对话｜小项目案例与两次课之间的作业安排"
+        ],
+        "units": 5
+      },
+      {
+        "slide": 29,
+        "role": "content",
+        "takeaway": "尽量带回这些材料",
+        "evidence": [
+          "/Users/keivn/Project/AI-Course/课程生产/第二阶段/00_第二阶段_AI项目实战班_10次课总体规划_v0.3.md｜已确认的第二阶段结构与第一课新定位",
+          "本轮对话｜小项目案例与两次课之间的作业安排"
+        ],
+        "units": 3
+      },
+      {
+        "slide": 30,
+        "role": "closing",
+        "takeaway": "下一课之前不用做什么",
+        "evidence": [
+          "/Users/keivn/Project/AI-Course/课程生产/第二阶段/00_第二阶段_AI项目实战班_10次课总体规划_v0.3.md｜已确认的第二阶段结构与第一课新定位",
+          "本轮对话｜小项目案例与两次课之间的作业安排"
+        ],
+        "units": 3
+      }
+    ]
+  },
+  "design_plan": {
+    "mode": "Mode A mimic",
+    "style_pick": "n/a — locked mimic of the user-approved recent-course dark teal visual system",
+    "concept": {
+      "chosen": "从课程路线进入一个小型项目，再回到个人准备",
+      "rejected": [
+        {
+          "concept": "项目工具箱",
+          "why_lost": "容易变成模板与术语堆叠。"
+        },
+        {
+          "concept": "开学典礼",
+          "why_lost": "仪式感强但内容价值不足。"
+        }
+      ]
+    },
+    "boldness": "balanced+",
+    "signature_move": "用章节编号、流程轨道和小案例的原话→结构化结果形成课堂推进感",
+    "carried_by": [
+      4,
+      9,
+      11,
+      19
+    ],
+    "form_ledger": "封面1；陈述页3；比较页7；流程页5；表格页4；多项框架页7；原型页1；项目流程页3",
+    "interior_register": "大号节标题、底部进度线、深色画布、青绿结构色与珊瑚提醒色贯穿正文页",
+    "icon_family": "none — Mode A template-locked; existing series uses numerals, rules and native diagrams",
+    "icon_none_category": "template-locked",
+    "icon_none_checked": [
+      "slides 2-30"
+    ],
+    "palette": {
+      "fill_only": [
+        "#031016",
+        "#102B37",
+        "#133843"
+      ],
+      "text_safe": [
+        "#F5F2E9",
+        "#A7B5BC",
+        "#36D6C2",
+        "#FF7657",
+        "#F0C565"
+      ],
+      "semantic": "青绿=主结构，珊瑚=风险与提醒，黄色=条件与待确认，绿色=完成与下一步"
+    },
+    "type_scale": {
+      "display": 43,
+      "title": 29,
+      "body": 15
+    },
+    "motif_generates": {
+      "background": "深色画布保持课程系列识别",
+      "markers": "两位编号表示步骤和页面",
+      "page": "第4、6、16、19页将进度轨道用于课程与项目流程"
+    },
+    "density": {
+      "planned_median": 34,
+      "over_70": 2,
+      "non_text_protagonist": 22
+    },
+    "build_shape": "solo — local template reuse and tightly coupled course structure",
+    "build_script": "/Users/keivn/Project/AI-Course/课程生产/第二阶段/第一课_PPT_启动准备版/build_lesson1_kickoff_v2.py",
+    "checkpoint": {
+      "mode": "approved",
+      "record": "用户要求沿用最近课程PPT风格，并已确认第一课的新教学逻辑。"
+    },
+    "material_probe": {
+      "png": "/Users/keivn/Project/AI-Course/课程生产/第二阶段/第一课_PPT_启动准备版/render/slide17.png",
+      "safe_version": "安全版本只列出页面名称，无法让学员看到真实产品界面关系。"
+    },
+    "signature_proof": [
+      {
+        "role": "signature",
+        "slide": 4,
+        "png": "/Users/keivn/Project/AI-Course/课程生产/第二阶段/第一课_PPT_启动准备版/render/slide04.png"
+      },
+      {
+        "role": "complex",
+        "slide": 17,
+        "png": "/Users/keivn/Project/AI-Course/课程生产/第二阶段/第一课_PPT_启动准备版/render/slide17.png"
+      },
+      {
+        "role": "data",
+        "slide": 28,
+        "png": "/Users/keivn/Project/AI-Course/课程生产/第二阶段/第一课_PPT_启动准备版/render/slide28.png"
+      }
+    ],
+    "form_reach": {
+      "waived": "沿用用户已经确认的课程视觉系统；内容形式仍覆盖流程、比较、表格、原型和课堂选择。"
+    }
+  },
+  "design": {
+    "checkpoint": {
+      "mode": "approved",
+      "record": "Mode A沿用最近课程已确认的深色青绿体系。"
+    }
+  },
+  "content_plan_ref": "/Users/keivn/Project/AI-Course/课程生产/第二阶段/00_第二阶段_AI项目实战班_10次课总体规划_v0.3.md",
+  "output": "/Users/keivn/Project/AI-Course/课程生产/第二阶段/第一课_PPT_启动准备版/第一课_第二阶段项目启动与准备_完整PPT_v2.0.pptx",
+  "provenance": {
+    "waived": "PPT仅使用用户确认的课程结构、对话决策和本地规划，不新增外部事实。"
+  },
+  "density": {
+    "waived": "现场讲授PPT，页面保留主要要点，完整讲解进入演讲者备注。"
+  },
+  "critic": {
+    "waived": "当前任务明确不允许派发子代理；已由主代理在不参考构建意图的情况下，结合整套联系表、30页逐页渲染和版式检查结果完成内容与视觉复核。",
+    "waived_category": "no-dispatch-on-host",
+    "inline_ran": true
+  },
+  "render_selfcheck": {
+    "slides": [
+      {
+        "n": 1,
+        "verdict": "通过 — 已逐页查看渲染，标题、正文、流程、表格和页边界清晰，无裁切、遮挡或缺失。"
+      },
+      {
+        "n": 2,
+        "verdict": "通过 — 已逐页查看渲染，标题、正文、流程、表格和页边界清晰，无裁切、遮挡或缺失。"
+      },
+      {
+        "n": 3,
+        "verdict": "通过 — 已逐页查看渲染，标题、正文、流程、表格和页边界清晰，无裁切、遮挡或缺失。"
+      },
+      {
+        "n": 4,
+        "verdict": "通过 — 已逐页查看渲染，标题、正文、流程、表格和页边界清晰，无裁切、遮挡或缺失。"
+      },
+      {
+        "n": 5,
+        "verdict": "通过 — 已逐页查看渲染，标题、正文、流程、表格和页边界清晰，无裁切、遮挡或缺失。"
+      },
+      {
+        "n": 6,
+        "verdict": "通过 — 已逐页查看渲染，标题、正文、流程、表格和页边界清晰，无裁切、遮挡或缺失。"
+      },
+      {
+        "n": 7,
+        "verdict": "通过 — 已逐页查看渲染，标题、正文、流程、表格和页边界清晰，无裁切、遮挡或缺失。"
+      },
+      {
+        "n": 8,
+        "verdict": "通过 — 已逐页查看渲染，标题、正文、流程、表格和页边界清晰，无裁切、遮挡或缺失。"
+      },
+      {
+        "n": 9,
+        "verdict": "通过 — 已逐页查看渲染，标题、正文、流程、表格和页边界清晰，无裁切、遮挡或缺失。"
+      },
+      {
+        "n": 10,
+        "verdict": "通过 — 已逐页查看渲染，标题、正文、流程、表格和页边界清晰，无裁切、遮挡或缺失。"
+      },
+      {
+        "n": 11,
+        "verdict": "通过 — 已逐页查看渲染，标题、正文、流程、表格和页边界清晰，无裁切、遮挡或缺失。"
+      },
+      {
+        "n": 12,
+        "verdict": "通过 — 已逐页查看渲染，标题、正文、流程、表格和页边界清晰，无裁切、遮挡或缺失。"
+      },
+      {
+        "n": 13,
+        "verdict": "通过 — 已逐页查看渲染，标题、正文、流程、表格和页边界清晰，无裁切、遮挡或缺失。"
+      },
+      {
+        "n": 14,
+        "verdict": "通过 — 已逐页查看渲染，标题、正文、流程、表格和页边界清晰，无裁切、遮挡或缺失。"
+      },
+      {
+        "n": 15,
+        "verdict": "通过 — 已逐页查看渲染，标题、正文、流程、表格和页边界清晰，无裁切、遮挡或缺失。"
+      },
+      {
+        "n": 16,
+        "verdict": "通过 — 已逐页查看渲染，标题、正文、流程、表格和页边界清晰，无裁切、遮挡或缺失。"
+      },
+      {
+        "n": 17,
+        "verdict": "通过 — 已逐页查看渲染，标题、正文、流程、表格和页边界清晰，无裁切、遮挡或缺失。"
+      },
+      {
+        "n": 18,
+        "verdict": "通过 — 已逐页查看渲染，标题、正文、流程、表格和页边界清晰，无裁切、遮挡或缺失。"
+      },
+      {
+        "n": 19,
+        "verdict": "通过 — 已逐页查看渲染，标题、正文、流程、表格和页边界清晰，无裁切、遮挡或缺失。"
+      },
+      {
+        "n": 20,
+        "verdict": "通过 — 已逐页查看渲染，标题、正文、流程、表格和页边界清晰，无裁切、遮挡或缺失。"
+      },
+      {
+        "n": 21,
+        "verdict": "通过 — 已逐页查看渲染，标题、正文、流程、表格和页边界清晰，无裁切、遮挡或缺失。"
+      },
+      {
+        "n": 22,
+        "verdict": "通过 — 已逐页查看渲染，标题、正文、流程、表格和页边界清晰，无裁切、遮挡或缺失。"
+      },
+      {
+        "n": 23,
+        "verdict": "通过 — 已逐页查看渲染，标题、正文、流程、表格和页边界清晰，无裁切、遮挡或缺失。"
+      },
+      {
+        "n": 24,
+        "verdict": "通过 — 已逐页查看渲染，标题、正文、流程、表格和页边界清晰，无裁切、遮挡或缺失。"
+      },
+      {
+        "n": 25,
+        "verdict": "通过 — 已逐页查看渲染，标题、正文、流程、表格和页边界清晰，无裁切、遮挡或缺失。"
+      },
+      {
+        "n": 26,
+        "verdict": "通过 — 已逐页查看渲染，标题、正文、流程、表格和页边界清晰，无裁切、遮挡或缺失。"
+      },
+      {
+        "n": 27,
+        "verdict": "通过 — 已逐页查看渲染，标题、正文、流程、表格和页边界清晰，无裁切、遮挡或缺失。"
+      },
+      {
+        "n": 28,
+        "verdict": "通过 — 已逐页查看渲染，标题、正文、流程、表格和页边界清晰，无裁切、遮挡或缺失。"
+      },
+      {
+        "n": 29,
+        "verdict": "通过 — 已逐页查看渲染，标题、正文、流程、表格和页边界清晰，无裁切、遮挡或缺失。"
+      },
+      {
+        "n": 30,
+        "verdict": "通过 — 已逐页查看渲染，标题、正文、流程、表格和页边界清晰，无裁切、遮挡或缺失。"
+      }
+    ]
+  },
+  "sameness": {
+    "waived": "用户明确要求沿用最近课程的既有PPT风格；统一深色画布、节标题、进度线和重点条是系列课程导航系统。新版通过路线图、原文页、表格、流程、原型和选择题维持内容形态变化。",
+    "waived_category": "template-locked",
+    "codes": [
+      "LAYOUT SAMENESS",
+      "CARD DOMINANCE",
+      "BOTTOM-STRIP MONOCULTURE",
+      "TITLE-RULE MONOCULTURE",
+      "ENVELOPE MONOCULTURE"
+    ]
+  },
+  "capability_ledger": {
+    "choice_ui": "yes",
+    "subagents": "no — current task explicitly prohibits subagent dispatch; independent critic unavailable",
+    "image_input": "yes — contact sheets and all 30 slide renders inspected",
+    "web_access": "yes — not used because this deck adds no external factual claims"
+  }
+}

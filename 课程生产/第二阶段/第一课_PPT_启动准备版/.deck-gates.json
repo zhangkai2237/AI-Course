@@ -1,435 +1,435 @@
 {
-  "delivery": "presented",
-  "content": {
-    "checkpoint": {
-      "mode": "approved",
-      "record": "用户逐节确认第一课内容，并要求据此生成讲义后修改旧PPT。"
-    },
-    "arc": {
-      "chosen": "学习方式—选择逻辑—项目变种—轻量准备",
-      "candidates": [
-        {
-          "name": "学习方式—选择逻辑—项目变种—轻量准备",
-          "shape": "orientation-map-action",
-          "roles": [
-            "orientation",
-            "selection",
-            "transfer",
-            "homework"
-          ],
-          "audience_question": "第二阶段怎样学，这三个项目与我有什么关系？",
-          "objection": "项目方向离自己的工作太远。",
-          "closing_ask": "提交三个业务场景和一组基础材料。",
-          "evidence": [
-            "/Users/keivn/Project/AI-Course/课程生产/第二阶段/03_第一课_第二阶段项目启动与准备_老师版完整讲义_v2.0.md"
-          ]
-        },
-        {
-          "name": "小案例—项目结构—个人选题",
-          "shape": "worked-example",
-          "roles": [
-            "case",
-            "method",
-            "selection"
-          ],
-          "audience_question": "一个项目怎样完成？",
-          "objection": "第一课提前讲项目细节，与第二课重复。",
-          "closing_ask": "立即选题。",
-          "evidence": [
-            "PPT v2.0"
-          ]
-        },
-        {
-          "name": "课程规则—作业要求",
-          "shape": "policy-first",
-          "roles": [
-            "rules",
-            "homework"
-          ],
-          "audience_question": "课程有哪些要求？",
-          "objection": "缺少项目价值和个人代入感。",
-          "closing_ask": "准备材料。",
-          "evidence": [
-            "旧版课程设计"
-          ]
-        }
-      ],
-      "rejected": [
-        {
-          "name": "小案例—项目结构—个人选题",
-          "why_lost": "独立小案例与第二课重复，也会让第一课像第四个公共项目。"
-        },
-        {
-          "name": "课程规则—作业要求",
-          "why_lost": "说教感较强，无法解释三个项目与学员背景的关系。"
-        }
-      ]
-    },
-    "slides": [
-      {
-        "slide": 1,
-        "role": "cover",
-        "takeaway": "第二阶段项目启动与准备",
-        "evidence": [
-          "/Users/keivn/Project/AI-Course/课程生产/第二阶段/03_第一课_第二阶段项目启动与准备_老师版完整讲义_v2.0.md｜对应章节"
-        ],
-        "units": 1
-      },
-      {
-        "slide": 2,
-        "role": "content",
-        "takeaway": "今天主要讲四件事",
-        "evidence": [
-          "/Users/keivn/Project/AI-Course/课程生产/第二阶段/03_第一课_第二阶段项目启动与准备_老师版完整讲义_v2.0.md｜对应章节"
-        ],
-        "units": 3
-      },
-      {
-        "slide": 3,
-        "role": "content",
-        "takeaway": "第二阶段的学习目标",
-        "evidence": [
-          "/Users/keivn/Project/AI-Course/课程生产/第二阶段/03_第一课_第二阶段项目启动与准备_老师版完整讲义_v2.0.md｜对应章节"
-        ],
-        "units": 1
-      },
-      {
-        "slide": 4,
-        "role": "content",
-        "takeaway": "第一阶段与第二阶段",
-        "evidence": [
-          "/Users/keivn/Project/AI-Course/课程生产/第二阶段/03_第一课_第二阶段项目启动与准备_老师版完整讲义_v2.0.md｜对应章节"
-        ],
-        "units": 3
-      },
-      {
-        "slide": 5,
-        "role": "content",
-        "takeaway": "公共项目、个人项目与主项目",
-        "evidence": [
-          "/Users/keivn/Project/AI-Course/课程生产/第二阶段/03_第一课_第二阶段项目启动与准备_老师版完整讲义_v2.0.md｜对应章节"
-        ],
-        "units": 3
-      },
-      {
-        "slide": 6,
-        "role": "content",
-        "takeaway": "一轮项目的推进方式",
-        "evidence": [
-          "/Users/keivn/Project/AI-Course/课程生产/第二阶段/03_第一课_第二阶段项目启动与准备_老师版完整讲义_v2.0.md｜对应章节"
-        ],
-        "units": 5
-      },
-      {
-        "slide": 7,
-        "role": "content",
-        "takeaway": "互评小组怎样工作",
-        "evidence": [
-          "/Users/keivn/Project/AI-Course/课程生产/第二阶段/03_第一课_第二阶段项目启动与准备_老师版完整讲义_v2.0.md｜对应章节"
-        ],
-        "units": 3
-      },
-      {
-        "slide": 8,
-        "role": "content",
-        "takeaway": "十次课的整体安排",
-        "evidence": [
-          "/Users/keivn/Project/AI-Course/课程生产/第二阶段/03_第一课_第二阶段项目启动与准备_老师版完整讲义_v2.0.md｜对应章节"
-        ],
-        "units": 5
-      },
-      {
-        "slide": 9,
-        "role": "content",
-        "takeaway": "第二阶段的最终成果",
-        "evidence": [
-          "/Users/keivn/Project/AI-Course/课程生产/第二阶段/03_第一课_第二阶段项目启动与准备_老师版完整讲义_v2.0.md｜对应章节"
-        ],
-        "units": 3
-      },
-      {
-        "slide": 10,
-        "role": "content",
-        "takeaway": "公共项目的选择标准",
-        "evidence": [
-          "/Users/keivn/Project/AI-Course/课程生产/第二阶段/03_第一课_第二阶段项目启动与准备_老师版完整讲义_v2.0.md｜对应章节"
-        ],
-        "units": 3
-      },
-      {
-        "slide": 11,
-        "role": "content",
-        "takeaway": "四项筛选条件",
-        "evidence": [
-          "/Users/keivn/Project/AI-Course/课程生产/第二阶段/03_第一课_第二阶段项目启动与准备_老师版完整讲义_v2.0.md｜对应章节"
-        ],
-        "units": 3
-      },
-      {
-        "slide": 12,
-        "role": "content",
-        "takeaway": "项目不按技术方向划分",
-        "evidence": [
-          "/Users/keivn/Project/AI-Course/课程生产/第二阶段/03_第一课_第二阶段项目启动与准备_老师版完整讲义_v2.0.md｜对应章节"
-        ],
-        "units": 1
-      },
-      {
-        "slide": 13,
-        "role": "content",
-        "takeaway": "三个公共项目覆盖的问题",
-        "evidence": [
-          "/Users/keivn/Project/AI-Course/课程生产/第二阶段/03_第一课_第二阶段项目启动与准备_老师版完整讲义_v2.0.md｜对应章节"
-        ],
-        "units": 5
-      },
-      {
-        "slide": 14,
-        "role": "content",
-        "takeaway": "为什么没有单独设置C端公共项目",
-        "evidence": [
-          "/Users/keivn/Project/AI-Course/课程生产/第二阶段/03_第一课_第二阶段项目启动与准备_老师版完整讲义_v2.0.md｜对应章节"
-        ],
-        "units": 3
-      },
-      {
-        "slide": 15,
-        "role": "content",
-        "takeaway": "三个公共项目与个人项目方向",
-        "evidence": [
-          "/Users/keivn/Project/AI-Course/课程生产/第二阶段/03_第一课_第二阶段项目启动与准备_老师版完整讲义_v2.0.md｜对应章节"
-        ],
-        "units": 1
-      },
-      {
-        "slide": 16,
-        "role": "content",
-        "takeaway": "公共项目一：企业智能客服与业务办理",
-        "evidence": [
-          "/Users/keivn/Project/AI-Course/课程生产/第二阶段/03_第一课_第二阶段项目启动与准备_老师版完整讲义_v2.0.md｜对应章节"
-        ],
-        "units": 3
-      },
-      {
-        "slide": 17,
-        "role": "content",
-        "takeaway": "智能客服变种：面向消费者",
-        "evidence": [
-          "/Users/keivn/Project/AI-Course/课程生产/第二阶段/03_第一课_第二阶段项目启动与准备_老师版完整讲义_v2.0.md｜对应章节"
-        ],
-        "units": 3
-      },
-      {
-        "slide": 18,
-        "role": "content",
-        "takeaway": "智能客服变种：企业与内部服务",
-        "evidence": [
-          "/Users/keivn/Project/AI-Course/课程生产/第二阶段/03_第一课_第二阶段项目启动与准备_老师版完整讲义_v2.0.md｜对应章节"
-        ],
-        "units": 3
-      },
-      {
-        "slide": 19,
-        "role": "content",
-        "takeaway": "公共项目二：业务材料审核与风险核验",
-        "evidence": [
-          "/Users/keivn/Project/AI-Course/课程生产/第二阶段/03_第一课_第二阶段项目启动与准备_老师版完整讲义_v2.0.md｜对应章节"
-        ],
-        "units": 3
-      },
-      {
-        "slide": 20,
-        "role": "content",
-        "takeaway": "材料审核变种：财务、合同与采购",
-        "evidence": [
-          "/Users/keivn/Project/AI-Course/课程生产/第二阶段/03_第一课_第二阶段项目启动与准备_老师版完整讲义_v2.0.md｜对应章节"
-        ],
-        "units": 3
-      },
-      {
-        "slide": 21,
-        "role": "content",
-        "takeaway": "材料审核变种：金融、人事与公共服务",
-        "evidence": [
-          "/Users/keivn/Project/AI-Course/课程生产/第二阶段/03_第一课_第二阶段项目启动与准备_老师版完整讲义_v2.0.md｜对应章节"
-        ],
-        "units": 3
-      },
-      {
-        "slide": 22,
-        "role": "content",
-        "takeaway": "公共项目三：专业研究与方案生成",
-        "evidence": [
-          "/Users/keivn/Project/AI-Course/课程生产/第二阶段/03_第一课_第二阶段项目启动与准备_老师版完整讲义_v2.0.md｜对应章节"
-        ],
-        "units": 3
-      },
-      {
-        "slide": 23,
-        "role": "content",
-        "takeaway": "研究与方案变种：销售、产品与运营",
-        "evidence": [
-          "/Users/keivn/Project/AI-Course/课程生产/第二阶段/03_第一课_第二阶段项目启动与准备_老师版完整讲义_v2.0.md｜对应章节"
-        ],
-        "units": 3
-      },
-      {
-        "slide": 24,
-        "role": "content",
-        "takeaway": "研究与方案变种：行业、管理与专业服务",
-        "evidence": [
-          "/Users/keivn/Project/AI-Course/课程生产/第二阶段/03_第一课_第二阶段项目启动与准备_老师版完整讲义_v2.0.md｜对应章节"
-        ],
-        "units": 3
-      },
-      {
-        "slide": 25,
-        "role": "content",
-        "takeaway": "从公共项目到个人项目",
-        "evidence": [
-          "/Users/keivn/Project/AI-Course/课程生产/第二阶段/03_第一课_第二阶段项目启动与准备_老师版完整讲义_v2.0.md｜对应章节"
-        ],
-        "units": 5
-      },
-      {
-        "slide": 26,
-        "role": "content",
-        "takeaway": "个人方向的课堂选择",
-        "evidence": [
-          "/Users/keivn/Project/AI-Course/课程生产/第二阶段/03_第一课_第二阶段项目启动与准备_老师版完整讲义_v2.0.md｜对应章节"
-        ],
-        "units": 3
-      },
-      {
-        "slide": 27,
-        "role": "content",
-        "takeaway": "第一课课后准备",
-        "evidence": [
-          "/Users/keivn/Project/AI-Course/课程生产/第二阶段/03_第一课_第二阶段项目启动与准备_老师版完整讲义_v2.0.md｜对应章节"
-        ],
-        "units": 1
-      },
-      {
-        "slide": 28,
-        "role": "content",
-        "takeaway": "三个候选业务场景",
-        "evidence": [
-          "/Users/keivn/Project/AI-Course/课程生产/第二阶段/03_第一课_第二阶段项目启动与准备_老师版完整讲义_v2.0.md｜对应章节"
-        ],
-        "units": 3
-      },
-      {
-        "slide": 29,
-        "role": "content",
-        "takeaway": "最熟悉场景的基础材料",
-        "evidence": [
-          "/Users/keivn/Project/AI-Course/课程生产/第二阶段/03_第一课_第二阶段项目启动与准备_老师版完整讲义_v2.0.md｜对应章节"
-        ],
-        "units": 5
-      },
-      {
-        "slide": 30,
-        "role": "closing",
-        "takeaway": "下一课之前不用做什么",
-        "evidence": [
-          "/Users/keivn/Project/AI-Course/课程生产/第二阶段/03_第一课_第二阶段项目启动与准备_老师版完整讲义_v2.0.md｜对应章节"
-        ],
-        "units": 3
-      }
-    ]
+ "delivery": "presented",
+ "content": {
+  "checkpoint": {
+   "mode": "approved",
+   "record": "用户逐节确认第一课内容，并要求据此生成讲义后修改旧PPT。"
   },
-  "design_plan": {
-    "mode": "Mode A mimic",
-    "style_pick": "n/a — locked mimic of the user-approved recent-course dark teal visual system",
-    "boldness": "balanced+",
-    "signature_move": "用三组分层变种地图把公共项目与不同岗位背景连接起来",
-    "carried_by": [
-      17,
-      18,
-      20,
-      21,
-      23,
-      24
-    ],
-    "palette": {
-      "fill_only": [
-        "#031016",
-        "#102B37",
-        "#133843"
-      ],
-      "text_safe": [
-        "#F5F2E9",
-        "#A7B5BC",
-        "#36D6C2",
-        "#FF7657",
-        "#F0C565"
-      ],
-      "semantic": "青绿=主结构，珊瑚=风险与提醒，黄色=条件与研究，绿色=完成与下一步"
+  "arc": {
+   "chosen": "学习方式—选择逻辑—项目变种—轻量准备",
+   "candidates": [
+    {
+     "name": "学习方式—选择逻辑—项目变种—轻量准备",
+     "shape": "orientation-map-action",
+     "roles": [
+      "orientation",
+      "selection",
+      "transfer",
+      "homework"
+     ],
+     "audience_question": "第二阶段怎样学，这三个项目与我有什么关系？",
+     "objection": "项目方向离自己的工作太远。",
+     "closing_ask": "提交三个业务场景和一组基础材料。",
+     "evidence": [
+      "/Users/keivn/Project/AI-Course/课程生产/第二阶段/03_第一课_第二阶段项目启动与准备_老师版完整讲义_v2.0.md"
+     ]
     },
-    "type_scale": {
-      "display": 43,
-      "title": 29,
-      "body": 15
+    {
+     "name": "小案例—项目结构—个人选题",
+     "shape": "worked-example",
+     "roles": [
+      "case",
+      "method",
+      "selection"
+     ],
+     "audience_question": "一个项目怎样完成？",
+     "objection": "第一课提前讲项目细节，与第二课重复。",
+     "closing_ask": "立即选题。",
+     "evidence": [
+      "PPT v2.0"
+     ]
     },
-    "motif_generates": {
-      "background": "沿用深色课程画布",
-      "markers": "章节编号和项目序号",
-      "page": "第8页课程路线与三组项目流程"
-    },
-    "density": {
-      "planned_median": 34,
-      "over_70": 0,
-      "non_text_protagonist": 18
-    },
-    "build_shape": "solo — template reuse and tightly coupled course narrative",
-    "build_script": "/Users/keivn/Project/AI-Course/课程生产/第二阶段/第一课_PPT_启动准备版/build_lesson1_kickoff_v3.py",
-    "checkpoint": {
-      "mode": "approved",
-      "record": "用户此前确认沿用最近课程PPT风格，并要求强化章节结构。"
-    },
-    "form_ledger": "封面1；陈述页2；比较页4；流程页2；表格页9；多项框架页12",
-    "interior_register": "大号节标题、底部进度线、深色画布、青绿结构色与珊瑚提醒色",
-    "icon_family": "none — template-locked; categories are carried by numbered structure and tables",
-    "icon_none_category": "template-locked",
-    "icon_none_checked": [
-      "slides 2-30"
-    ],
-    "form_reach": {
-      "waived": "沿用用户确认的课程模板，内容形态覆盖路线、流程、比较、选择与表格。"
+    {
+     "name": "课程规则—作业要求",
+     "shape": "policy-first",
+     "roles": [
+      "rules",
+      "homework"
+     ],
+     "audience_question": "课程有哪些要求？",
+     "objection": "缺少项目价值和个人代入感。",
+     "closing_ask": "准备材料。",
+     "evidence": [
+      "旧版课程设计"
+     ]
     }
-  },
-  "design": {
-    "checkpoint": {
-      "mode": "approved",
-      "record": "Mode A沿用最近课程已确认的深色青绿体系。"
+   ],
+   "rejected": [
+    {
+     "name": "小案例—项目结构—个人选题",
+     "why_lost": "独立小案例与第二课重复，也会让第一课像第四个公共项目。"
+    },
+    {
+     "name": "课程规则—作业要求",
+     "why_lost": "说教感较强，无法解释三个项目与学员背景的关系。"
     }
+   ]
   },
-  "content_plan_ref": "/Users/keivn/Project/AI-Course/课程生产/第二阶段/03_第一课_第二阶段项目启动与准备_老师版完整讲义_v2.0.md",
-  "output": "/Users/keivn/Project/AI-Course/课程生产/第二阶段/第一课_PPT_启动准备版/第一课_第二阶段项目启动与准备_完整PPT_v3.0.pptx",
-  "provenance": {
-    "waived": "仅使用用户逐节确认的课程内容和本地讲义，不新增外部事实。"
+  "slides": [
+   {
+    "slide": 1,
+    "role": "cover",
+    "takeaway": "第二阶段项目启动与准备",
+    "evidence": [
+     "/Users/keivn/Project/AI-Course/课程生产/第二阶段/03_第一课_第二阶段项目启动与准备_老师版完整讲义_v2.0.md｜对应章节"
+    ],
+    "units": 1
+   },
+   {
+    "slide": 2,
+    "role": "content",
+    "takeaway": "今天主要讲四件事",
+    "evidence": [
+     "/Users/keivn/Project/AI-Course/课程生产/第二阶段/03_第一课_第二阶段项目启动与准备_老师版完整讲义_v2.0.md｜对应章节"
+    ],
+    "units": 3
+   },
+   {
+    "slide": 3,
+    "role": "content",
+    "takeaway": "第二阶段的学习目标",
+    "evidence": [
+     "/Users/keivn/Project/AI-Course/课程生产/第二阶段/03_第一课_第二阶段项目启动与准备_老师版完整讲义_v2.0.md｜对应章节"
+    ],
+    "units": 1
+   },
+   {
+    "slide": 4,
+    "role": "content",
+    "takeaway": "第一阶段与第二阶段",
+    "evidence": [
+     "/Users/keivn/Project/AI-Course/课程生产/第二阶段/03_第一课_第二阶段项目启动与准备_老师版完整讲义_v2.0.md｜对应章节"
+    ],
+    "units": 3
+   },
+   {
+    "slide": 5,
+    "role": "content",
+    "takeaway": "公共项目、个人项目与主项目",
+    "evidence": [
+     "/Users/keivn/Project/AI-Course/课程生产/第二阶段/03_第一课_第二阶段项目启动与准备_老师版完整讲义_v2.0.md｜对应章节"
+    ],
+    "units": 3
+   },
+   {
+    "slide": 6,
+    "role": "content",
+    "takeaway": "一轮项目的推进方式",
+    "evidence": [
+     "/Users/keivn/Project/AI-Course/课程生产/第二阶段/03_第一课_第二阶段项目启动与准备_老师版完整讲义_v2.0.md｜对应章节"
+    ],
+    "units": 5
+   },
+   {
+    "slide": 7,
+    "role": "content",
+    "takeaway": "互评小组怎样工作",
+    "evidence": [
+     "/Users/keivn/Project/AI-Course/课程生产/第二阶段/03_第一课_第二阶段项目启动与准备_老师版完整讲义_v2.0.md｜对应章节"
+    ],
+    "units": 3
+   },
+   {
+    "slide": 8,
+    "role": "content",
+    "takeaway": "十次课的整体安排",
+    "evidence": [
+     "/Users/keivn/Project/AI-Course/课程生产/第二阶段/03_第一课_第二阶段项目启动与准备_老师版完整讲义_v2.0.md｜对应章节"
+    ],
+    "units": 5
+   },
+   {
+    "slide": 9,
+    "role": "content",
+    "takeaway": "第二阶段的最终成果",
+    "evidence": [
+     "/Users/keivn/Project/AI-Course/课程生产/第二阶段/03_第一课_第二阶段项目启动与准备_老师版完整讲义_v2.0.md｜对应章节"
+    ],
+    "units": 3
+   },
+   {
+    "slide": 10,
+    "role": "content",
+    "takeaway": "公共项目的选择标准",
+    "evidence": [
+     "/Users/keivn/Project/AI-Course/课程生产/第二阶段/03_第一课_第二阶段项目启动与准备_老师版完整讲义_v2.0.md｜对应章节"
+    ],
+    "units": 3
+   },
+   {
+    "slide": 11,
+    "role": "content",
+    "takeaway": "四项筛选条件",
+    "evidence": [
+     "/Users/keivn/Project/AI-Course/课程生产/第二阶段/03_第一课_第二阶段项目启动与准备_老师版完整讲义_v2.0.md｜对应章节"
+    ],
+    "units": 3
+   },
+   {
+    "slide": 12,
+    "role": "content",
+    "takeaway": "项目不按技术方向划分",
+    "evidence": [
+     "/Users/keivn/Project/AI-Course/课程生产/第二阶段/03_第一课_第二阶段项目启动与准备_老师版完整讲义_v2.0.md｜对应章节"
+    ],
+    "units": 1
+   },
+   {
+    "slide": 13,
+    "role": "content",
+    "takeaway": "三个公共项目覆盖的问题",
+    "evidence": [
+     "/Users/keivn/Project/AI-Course/课程生产/第二阶段/03_第一课_第二阶段项目启动与准备_老师版完整讲义_v2.0.md｜对应章节"
+    ],
+    "units": 5
+   },
+   {
+    "slide": 14,
+    "role": "content",
+    "takeaway": "为什么没有单独设置C端公共项目",
+    "evidence": [
+     "/Users/keivn/Project/AI-Course/课程生产/第二阶段/03_第一课_第二阶段项目启动与准备_老师版完整讲义_v2.0.md｜对应章节"
+    ],
+    "units": 3
+   },
+   {
+    "slide": 15,
+    "role": "content",
+    "takeaway": "三个公共项目与个人项目方向",
+    "evidence": [
+     "/Users/keivn/Project/AI-Course/课程生产/第二阶段/03_第一课_第二阶段项目启动与准备_老师版完整讲义_v2.0.md｜对应章节"
+    ],
+    "units": 1
+   },
+   {
+    "slide": 16,
+    "role": "content",
+    "takeaway": "公共项目一：企业智能客服与业务办理",
+    "evidence": [
+     "/Users/keivn/Project/AI-Course/课程生产/第二阶段/03_第一课_第二阶段项目启动与准备_老师版完整讲义_v2.0.md｜对应章节"
+    ],
+    "units": 3
+   },
+   {
+    "slide": 17,
+    "role": "content",
+    "takeaway": "智能客服变种：面向消费者",
+    "evidence": [
+     "/Users/keivn/Project/AI-Course/课程生产/第二阶段/03_第一课_第二阶段项目启动与准备_老师版完整讲义_v2.0.md｜对应章节"
+    ],
+    "units": 3
+   },
+   {
+    "slide": 18,
+    "role": "content",
+    "takeaway": "智能客服变种：企业与内部服务",
+    "evidence": [
+     "/Users/keivn/Project/AI-Course/课程生产/第二阶段/03_第一课_第二阶段项目启动与准备_老师版完整讲义_v2.0.md｜对应章节"
+    ],
+    "units": 3
+   },
+   {
+    "slide": 19,
+    "role": "content",
+    "takeaway": "公共项目二：业务材料审核与风险核验",
+    "evidence": [
+     "/Users/keivn/Project/AI-Course/课程生产/第二阶段/03_第一课_第二阶段项目启动与准备_老师版完整讲义_v2.0.md｜对应章节"
+    ],
+    "units": 3
+   },
+   {
+    "slide": 20,
+    "role": "content",
+    "takeaway": "材料审核变种：财务、合同与采购",
+    "evidence": [
+     "/Users/keivn/Project/AI-Course/课程生产/第二阶段/03_第一课_第二阶段项目启动与准备_老师版完整讲义_v2.0.md｜对应章节"
+    ],
+    "units": 3
+   },
+   {
+    "slide": 21,
+    "role": "content",
+    "takeaway": "材料审核变种：金融、人事与公共服务",
+    "evidence": [
+     "/Users/keivn/Project/AI-Course/课程生产/第二阶段/03_第一课_第二阶段项目启动与准备_老师版完整讲义_v2.0.md｜对应章节"
+    ],
+    "units": 3
+   },
+   {
+    "slide": 22,
+    "role": "content",
+    "takeaway": "公共项目三：专业研究与方案生成",
+    "evidence": [
+     "/Users/keivn/Project/AI-Course/课程生产/第二阶段/03_第一课_第二阶段项目启动与准备_老师版完整讲义_v2.0.md｜对应章节"
+    ],
+    "units": 3
+   },
+   {
+    "slide": 23,
+    "role": "content",
+    "takeaway": "研究与方案变种：销售、产品与运营",
+    "evidence": [
+     "/Users/keivn/Project/AI-Course/课程生产/第二阶段/03_第一课_第二阶段项目启动与准备_老师版完整讲义_v2.0.md｜对应章节"
+    ],
+    "units": 3
+   },
+   {
+    "slide": 24,
+    "role": "content",
+    "takeaway": "研究与方案变种：行业、管理与专业服务",
+    "evidence": [
+     "/Users/keivn/Project/AI-Course/课程生产/第二阶段/03_第一课_第二阶段项目启动与准备_老师版完整讲义_v2.0.md｜对应章节"
+    ],
+    "units": 3
+   },
+   {
+    "slide": 25,
+    "role": "content",
+    "takeaway": "从公共项目到个人项目",
+    "evidence": [
+     "/Users/keivn/Project/AI-Course/课程生产/第二阶段/03_第一课_第二阶段项目启动与准备_老师版完整讲义_v2.0.md｜对应章节"
+    ],
+    "units": 5
+   },
+   {
+    "slide": 26,
+    "role": "content",
+    "takeaway": "个人方向的课堂选择",
+    "evidence": [
+     "/Users/keivn/Project/AI-Course/课程生产/第二阶段/03_第一课_第二阶段项目启动与准备_老师版完整讲义_v2.0.md｜对应章节"
+    ],
+    "units": 3
+   },
+   {
+    "slide": 27,
+    "role": "content",
+    "takeaway": "第一课课后准备",
+    "evidence": [
+     "/Users/keivn/Project/AI-Course/课程生产/第二阶段/03_第一课_第二阶段项目启动与准备_老师版完整讲义_v2.0.md｜对应章节"
+    ],
+    "units": 1
+   },
+   {
+    "slide": 28,
+    "role": "content",
+    "takeaway": "三个候选业务场景",
+    "evidence": [
+     "/Users/keivn/Project/AI-Course/课程生产/第二阶段/03_第一课_第二阶段项目启动与准备_老师版完整讲义_v2.0.md｜对应章节"
+    ],
+    "units": 3
+   },
+   {
+    "slide": 29,
+    "role": "content",
+    "takeaway": "最熟悉场景的基础材料",
+    "evidence": [
+     "/Users/keivn/Project/AI-Course/课程生产/第二阶段/03_第一课_第二阶段项目启动与准备_老师版完整讲义_v2.0.md｜对应章节"
+    ],
+    "units": 5
+   },
+   {
+    "slide": 30,
+    "role": "closing",
+    "takeaway": "下一课之前不用做什么",
+    "evidence": [
+     "/Users/keivn/Project/AI-Course/课程生产/第二阶段/03_第一课_第二阶段项目启动与准备_老师版完整讲义_v2.0.md｜对应章节"
+    ],
+    "units": 3
+   }
+  ]
+ },
+ "design_plan": {
+  "mode": "Mode A mimic",
+  "style_pick": "n/a — locked mimic of the user-approved recent-course dark teal visual system",
+  "boldness": "balanced+",
+  "signature_move": "用三组分层变种地图把公共项目与不同岗位背景连接起来",
+  "carried_by": [
+   17,
+   18,
+   20,
+   21,
+   23,
+   24
+  ],
+  "palette": {
+   "fill_only": [
+    "#031016",
+    "#102B37",
+    "#133843"
+   ],
+   "text_safe": [
+    "#F5F2E9",
+    "#A7B5BC",
+    "#36D6C2",
+    "#FF7657",
+    "#F0C565"
+   ],
+   "semantic": "青绿=主结构，珊瑚=风险与提醒，黄色=条件与研究，绿色=完成与下一步"
+  },
+  "type_scale": {
+   "display": 43,
+   "title": 29,
+   "body": 15
+  },
+  "motif_generates": {
+   "background": "沿用深色课程画布",
+   "markers": "章节编号和项目序号",
+   "page": "第8页课程路线与三组项目流程"
   },
   "density": {
-    "waived": "现场讲授PPT保留主要要点，完整解释进入老师版讲义和演讲者备注。"
+   "planned_median": 34,
+   "over_70": 0,
+   "non_text_protagonist": 18
   },
-  "critic": {
-    "waived": "当前环境未派发独立评审，主代理依据逐页渲染、版式检查和内容对照完成自审。",
-    "waived_category": "no-dispatch-on-host",
-    "inline_ran": true
+  "build_shape": "solo — template reuse and tightly coupled course narrative",
+  "build_script": "/Users/keivn/Project/AI-Course/课程生产/第二阶段/第一课_PPT_启动准备版/build_lesson1_kickoff_v3.py",
+  "checkpoint": {
+   "mode": "approved",
+   "record": "用户此前确认沿用最近课程PPT风格，并要求强化章节结构。"
   },
-  "sameness": {
-    "waived": "用户要求沿用最近课程的既有视觉系统。",
-    "waived_category": "template-locked",
-    "codes": [
-      "LAYOUT SAMENESS",
-      "CARD DOMINANCE",
-      "TITLE-RULE MONOCULTURE"
-    ]
-  },
-  "capability_ledger": {
-    "choice_ui": "yes",
-    "subagents": "no — not requested",
-    "image_input": "yes — rendered pages inspected",
-    "web_access": "not used — no external factual claims"
+  "form_ledger": "封面1；陈述页2；比较页4；流程页2；表格页9；多项框架页12",
+  "interior_register": "大号节标题、底部进度线、深色画布、青绿结构色与珊瑚提醒色",
+  "icon_family": "none — template-locked; categories are carried by numbered structure and tables",
+  "icon_none_category": "template-locked",
+  "icon_none_checked": [
+   "slides 2-30"
+  ],
+  "form_reach": {
+   "waived": "沿用用户确认的课程模板，内容形态覆盖路线、流程、比较、选择与表格。"
   }
+ },
+ "design": {
+  "checkpoint": {
+   "mode": "approved",
+   "record": "Mode A沿用最近课程已确认的深色青绿体系。"
+  }
+ },
+ "content_plan_ref": "/Users/keivn/Project/AI-Course/课程生产/第二阶段/03_第一课_第二阶段项目启动与准备_老师版完整讲义_v2.0.md",
+ "output": "/Users/keivn/Project/AI-Course/课程生产/第二阶段/第一课_PPT_启动准备版/第一课_第二阶段项目启动与准备_完整PPT_v3.0.pptx",
+ "provenance": {
+  "waived": "仅使用用户逐节确认的课程内容和本地讲义，不新增外部事实。"
+ },
+ "density": {
+  "waived": "现场讲授PPT保留主要要点，完整解释进入老师版讲义和演讲者备注。"
+ },
+ "critic": {
+  "waived": "当前环境未派发独立评审，主代理依据逐页渲染、版式检查和内容对照完成自审。",
+  "waived_category": "no-dispatch-on-host",
+  "inline_ran": true
+ },
+ "sameness": {
+  "waived": "用户要求沿用最近课程的既有视觉系统。",
+  "waived_category": "template-locked",
+  "codes": [
+   "LAYOUT SAMENESS",
+   "CARD DOMINANCE",
+   "TITLE-RULE MONOCULTURE"
+  ]
+ },
+ "capability_ledger": {
+  "choice_ui": "yes",
+  "subagents": "no — not requested",
+  "image_input": "yes — rendered pages inspected",
+  "web_access": "not used — no external factual claims"
+ }
 }

@@ -1,0 +1,720 @@
+{
+  "delivery": "presented",
+  "content": {
+    "checkpoint": {
+      "mode": "approved",
+      "record": "用户已确认以最新讲义为内容来源，沿用先案例、再判断、最后总结方法的完整PPT结构。"
+    },
+    "arc": {
+      "chosen": "小案例带路，再进入三个公共项目和个人选题",
+      "candidates": [
+        {
+          "name": "小案例带路，再进入三个公共项目和个人选题",
+          "shape": "case-first",
+          "roles": [
+            "setup",
+            "case",
+            "method",
+            "projects",
+            "practice",
+            "roadmap"
+          ],
+          "audience_question": "怎样判断并启动第一个个人AI项目？",
+          "objection": "直接讲立项标准会显得抽象。",
+          "closing_ask": "提交项目一选题卡并保留修改过程。",
+          "evidence": [
+            "讲义第一至第八部分"
+          ]
+        },
+        {
+          "name": "先讲完整标准，再逐项举例",
+          "shape": "framework-first",
+          "roles": [
+            "framework",
+            "examples",
+            "practice"
+          ],
+          "audience_question": "完整项目包含哪些部分？",
+          "objection": "标准较多，需要系统呈现。",
+          "closing_ask": "按清单补齐项目。",
+          "evidence": [
+            "讲义第二、六部分"
+          ]
+        },
+        {
+          "name": "先介绍三个项目，再回到个人选题",
+          "shape": "portfolio-first",
+          "roles": [
+            "projects",
+            "comparison",
+            "selection",
+            "roadmap"
+          ],
+          "audience_question": "第二阶段要做哪三个项目？",
+          "objection": "学员需要先看到课程全貌。",
+          "closing_ask": "从三个方向中选择项目。",
+          "evidence": [
+            "讲义第一、四、五部分"
+          ]
+        }
+      ],
+      "rejected": [
+        {
+          "name": "先讲完整标准，再逐项举例",
+          "why_lost": "开场抽象，容易出现说教感。"
+        },
+        {
+          "name": "先介绍三个项目，再回到个人选题",
+          "why_lost": "项目介绍过早，学员还没有完整度判断标准。"
+        }
+      ]
+    },
+    "slides": [
+      {
+        "slide": 1,
+        "role": "cover",
+        "takeaway": "AI项目立项、选题与完成标准",
+        "evidence": [
+          "/Users/keivn/Project/AI-Course/课程生产/第二阶段/02_第一课_AI项目立项选题与完成标准_老师版完整讲义_v1.0.md｜对应讲义章节与示例"
+        ],
+        "units": 1
+      },
+      {
+        "slide": 2,
+        "role": "content",
+        "takeaway": "第二阶段的学习任务",
+        "evidence": [
+          "/Users/keivn/Project/AI-Course/课程生产/第二阶段/02_第一课_AI项目立项选题与完成标准_老师版完整讲义_v1.0.md｜对应讲义章节与示例"
+        ],
+        "units": 1
+      },
+      {
+        "slide": 3,
+        "role": "content",
+        "takeaway": "从知识点到完整项目",
+        "evidence": [
+          "/Users/keivn/Project/AI-Course/课程生产/第二阶段/02_第一课_AI项目立项选题与完成标准_老师版完整讲义_v1.0.md｜对应讲义章节与示例"
+        ],
+        "units": 3
+      },
+      {
+        "slide": 4,
+        "role": "content",
+        "takeaway": "三个个人项目",
+        "evidence": [
+          "/Users/keivn/Project/AI-Course/课程生产/第二阶段/02_第一课_AI项目立项选题与完成标准_老师版完整讲义_v1.0.md｜对应讲义章节与示例"
+        ],
+        "units": 3
+      },
+      {
+        "slide": 5,
+        "role": "content",
+        "takeaway": "三个项目的完成深度",
+        "evidence": [
+          "/Users/keivn/Project/AI-Course/课程生产/第二阶段/02_第一课_AI项目立项选题与完成标准_老师版完整讲义_v1.0.md｜对应讲义章节与示例"
+        ],
+        "units": 3
+      },
+      {
+        "slide": 6,
+        "role": "content",
+        "takeaway": "两个选修方向",
+        "evidence": [
+          "/Users/keivn/Project/AI-Course/课程生产/第二阶段/02_第一课_AI项目立项选题与完成标准_老师版完整讲义_v1.0.md｜对应讲义章节与示例"
+        ],
+        "units": 3
+      },
+      {
+        "slide": 7,
+        "role": "content",
+        "takeaway": "公共项目和个人项目",
+        "evidence": [
+          "/Users/keivn/Project/AI-Course/课程生产/第二阶段/02_第一课_AI项目立项选题与完成标准_老师版完整讲义_v1.0.md｜对应讲义章节与示例"
+        ],
+        "units": 3
+      },
+      {
+        "slide": 8,
+        "role": "content",
+        "takeaway": "第二阶段的学习方式",
+        "evidence": [
+          "/Users/keivn/Project/AI-Course/课程生产/第二阶段/02_第一课_AI项目立项选题与完成标准_老师版完整讲义_v1.0.md｜对应讲义章节与示例"
+        ],
+        "units": 3
+      },
+      {
+        "slide": 9,
+        "role": "content",
+        "takeaway": "从一句项目名称开始",
+        "evidence": [
+          "/Users/keivn/Project/AI-Course/课程生产/第二阶段/02_第一课_AI项目立项选题与完成标准_老师版完整讲义_v1.0.md｜对应讲义章节与示例"
+        ],
+        "units": 3
+      },
+      {
+        "slide": 10,
+        "role": "content",
+        "takeaway": "功能清单还缺什么",
+        "evidence": [
+          "/Users/keivn/Project/AI-Course/课程生产/第二阶段/02_第一课_AI项目立项选题与完成标准_老师版完整讲义_v1.0.md｜对应讲义章节与示例"
+        ],
+        "units": 3
+      },
+      {
+        "slide": 11,
+        "role": "content",
+        "takeaway": "PRD和Demo各自能说明什么",
+        "evidence": [
+          "/Users/keivn/Project/AI-Course/课程生产/第二阶段/02_第一课_AI项目立项选题与完成标准_老师版完整讲义_v1.0.md｜对应讲义章节与示例"
+        ],
+        "units": 3
+      },
+      {
+        "slide": 12,
+        "role": "content",
+        "takeaway": "一个完整项目需要回答的问题",
+        "evidence": [
+          "/Users/keivn/Project/AI-Course/课程生产/第二阶段/02_第一课_AI项目立项选题与完成标准_老师版完整讲义_v1.0.md｜对应讲义章节与示例"
+        ],
+        "units": 3
+      },
+      {
+        "slide": 13,
+        "role": "content",
+        "takeaway": "项目例会待办整理助手的业务背景",
+        "evidence": [
+          "/Users/keivn/Project/AI-Course/课程生产/第二阶段/02_第一课_AI项目立项选题与完成标准_老师版完整讲义_v1.0.md｜对应讲义章节与示例"
+        ],
+        "units": 3
+      },
+      {
+        "slide": 14,
+        "role": "content",
+        "takeaway": "项目定义",
+        "evidence": [
+          "/Users/keivn/Project/AI-Course/课程生产/第二阶段/02_第一课_AI项目立项选题与完成标准_老师版完整讲义_v1.0.md｜对应讲义章节与示例"
+        ],
+        "units": 1
+      },
+      {
+        "slide": 15,
+        "role": "content",
+        "takeaway": "一段会议转写里有什么",
+        "evidence": [
+          "/Users/keivn/Project/AI-Course/课程生产/第二阶段/02_第一课_AI项目立项选题与完成标准_老师版完整讲义_v1.0.md｜对应讲义章节与示例"
+        ],
+        "units": 3
+      },
+      {
+        "slide": 16,
+        "role": "content",
+        "takeaway": "AI、规则、系统和人工的分工",
+        "evidence": [
+          "/Users/keivn/Project/AI-Course/课程生产/第二阶段/02_第一课_AI项目立项选题与完成标准_老师版完整讲义_v1.0.md｜对应讲义章节与示例"
+        ],
+        "units": 3
+      },
+      {
+        "slide": 17,
+        "role": "content",
+        "takeaway": "第一版的范围",
+        "evidence": [
+          "/Users/keivn/Project/AI-Course/课程生产/第二阶段/02_第一课_AI项目立项选题与完成标准_老师版完整讲义_v1.0.md｜对应讲义章节与示例"
+        ],
+        "units": 3
+      },
+      {
+        "slide": 18,
+        "role": "content",
+        "takeaway": "两个核心页面",
+        "evidence": [
+          "/Users/keivn/Project/AI-Course/课程生产/第二阶段/02_第一课_AI项目立项选题与完成标准_老师版完整讲义_v1.0.md｜对应讲义章节与示例"
+        ],
+        "units": 3
+      },
+      {
+        "slide": 19,
+        "role": "content",
+        "takeaway": "会议转写输入",
+        "evidence": [
+          "/Users/keivn/Project/AI-Course/课程生产/第二阶段/02_第一课_AI项目立项选题与完成标准_老师版完整讲义_v1.0.md｜对应讲义章节与示例"
+        ],
+        "units": 1
+      },
+      {
+        "slide": 20,
+        "role": "content",
+        "takeaway": "结构化输出",
+        "evidence": [
+          "/Users/keivn/Project/AI-Course/课程生产/第二阶段/02_第一课_AI项目立项选题与完成标准_老师版完整讲义_v1.0.md｜对应讲义章节与示例"
+        ],
+        "units": 3
+      },
+      {
+        "slide": 21,
+        "role": "content",
+        "takeaway": "最小测试集",
+        "evidence": [
+          "/Users/keivn/Project/AI-Course/课程生产/第二阶段/02_第一课_AI项目立项选题与完成标准_老师版完整讲义_v1.0.md｜对应讲义章节与示例"
+        ],
+        "units": 3
+      },
+      {
+        "slide": 22,
+        "role": "content",
+        "takeaway": "一个典型Bad Case",
+        "evidence": [
+          "/Users/keivn/Project/AI-Course/课程生产/第二阶段/02_第一课_AI项目立项选题与完成标准_老师版完整讲义_v1.0.md｜对应讲义章节与示例"
+        ],
+        "units": 3
+      },
+      {
+        "slide": 23,
+        "role": "content",
+        "takeaway": "小项目的完整性",
+        "evidence": [
+          "/Users/keivn/Project/AI-Course/课程生产/第二阶段/02_第一课_AI项目立项选题与完成标准_老师版完整讲义_v1.0.md｜对应讲义章节与示例"
+        ],
+        "units": 3
+      },
+      {
+        "slide": 24,
+        "role": "content",
+        "takeaway": "三种项目描述",
+        "evidence": [
+          "/Users/keivn/Project/AI-Course/课程生产/第二阶段/02_第一课_AI项目立项选题与完成标准_老师版完整讲义_v1.0.md｜对应讲义章节与示例"
+        ],
+        "units": 3
+      },
+      {
+        "slide": 25,
+        "role": "content",
+        "takeaway": "项目材料的可信度",
+        "evidence": [
+          "/Users/keivn/Project/AI-Course/课程生产/第二阶段/02_第一课_AI项目立项选题与完成标准_老师版完整讲义_v1.0.md｜对应讲义章节与示例"
+        ],
+        "units": 3
+      },
+      {
+        "slide": 26,
+        "role": "content",
+        "takeaway": "课程项目怎样写进简历",
+        "evidence": [
+          "/Users/keivn/Project/AI-Course/课程生产/第二阶段/02_第一课_AI项目立项选题与完成标准_老师版完整讲义_v1.0.md｜对应讲义章节与示例"
+        ],
+        "units": 3
+      },
+      {
+        "slide": 27,
+        "role": "content",
+        "takeaway": "两种简历描述",
+        "evidence": [
+          "/Users/keivn/Project/AI-Course/课程生产/第二阶段/02_第一课_AI项目立项选题与完成标准_老师版完整讲义_v1.0.md｜对应讲义章节与示例"
+        ],
+        "units": 3
+      },
+      {
+        "slide": 28,
+        "role": "content",
+        "takeaway": "能看出个人工作的材料",
+        "evidence": [
+          "/Users/keivn/Project/AI-Course/课程生产/第二阶段/02_第一课_AI项目立项选题与完成标准_老师版完整讲义_v1.0.md｜对应讲义章节与示例"
+        ],
+        "units": 3
+      },
+      {
+        "slide": 29,
+        "role": "content",
+        "takeaway": "项目中不能虚构的内容",
+        "evidence": [
+          "/Users/keivn/Project/AI-Course/课程生产/第二阶段/02_第一课_AI项目立项选题与完成标准_老师版完整讲义_v1.0.md｜对应讲义章节与示例"
+        ],
+        "units": 3
+      },
+      {
+        "slide": 30,
+        "role": "content",
+        "takeaway": "真实结果、测试结果和估算",
+        "evidence": [
+          "/Users/keivn/Project/AI-Course/课程生产/第二阶段/02_第一课_AI项目立项选题与完成标准_老师版完整讲义_v1.0.md｜对应讲义章节与示例"
+        ],
+        "units": 3
+      },
+      {
+        "slide": 31,
+        "role": "content",
+        "takeaway": "面试官常见追问",
+        "evidence": [
+          "/Users/keivn/Project/AI-Course/课程生产/第二阶段/02_第一课_AI项目立项选题与完成标准_老师版完整讲义_v1.0.md｜对应讲义章节与示例"
+        ],
+        "units": 3
+      },
+      {
+        "slide": 32,
+        "role": "content",
+        "takeaway": "一段可信的项目描述",
+        "evidence": [
+          "/Users/keivn/Project/AI-Course/课程生产/第二阶段/02_第一课_AI项目立项选题与完成标准_老师版完整讲义_v1.0.md｜对应讲义章节与示例"
+        ],
+        "units": 3
+      },
+      {
+        "slide": 33,
+        "role": "content",
+        "takeaway": "三个公共项目的选择逻辑",
+        "evidence": [
+          "/Users/keivn/Project/AI-Course/课程生产/第二阶段/02_第一课_AI项目立项选题与完成标准_老师版完整讲义_v1.0.md｜对应讲义章节与示例"
+        ],
+        "units": 1
+      },
+      {
+        "slide": 34,
+        "role": "content",
+        "takeaway": "三个公共项目",
+        "evidence": [
+          "/Users/keivn/Project/AI-Course/课程生产/第二阶段/02_第一课_AI项目立项选题与完成标准_老师版完整讲义_v1.0.md｜对应讲义章节与示例"
+        ],
+        "units": 3
+      },
+      {
+        "slide": 35,
+        "role": "content",
+        "takeaway": "企业智能客服与业务办理",
+        "evidence": [
+          "/Users/keivn/Project/AI-Course/课程生产/第二阶段/02_第一课_AI项目立项选题与完成标准_老师版完整讲义_v1.0.md｜对应讲义章节与示例"
+        ],
+        "units": 3
+      },
+      {
+        "slide": 36,
+        "role": "content",
+        "takeaway": "智能客服的处理流程",
+        "evidence": [
+          "/Users/keivn/Project/AI-Course/课程生产/第二阶段/02_第一课_AI项目立项选题与完成标准_老师版完整讲义_v1.0.md｜对应讲义章节与示例"
+        ],
+        "units": 3
+      },
+      {
+        "slide": 37,
+        "role": "content",
+        "takeaway": "智能客服项目的练习重点",
+        "evidence": [
+          "/Users/keivn/Project/AI-Course/课程生产/第二阶段/02_第一课_AI项目立项选题与完成标准_老师版完整讲义_v1.0.md｜对应讲义章节与示例"
+        ],
+        "units": 3
+      },
+      {
+        "slide": 38,
+        "role": "content",
+        "takeaway": "采购单据核验的业务场景",
+        "evidence": [
+          "/Users/keivn/Project/AI-Course/课程生产/第二阶段/02_第一课_AI项目立项选题与完成标准_老师版完整讲义_v1.0.md｜对应讲义章节与示例"
+        ],
+        "units": 3
+      },
+      {
+        "slide": 39,
+        "role": "content",
+        "takeaway": "材料核验的处理流程",
+        "evidence": [
+          "/Users/keivn/Project/AI-Course/课程生产/第二阶段/02_第一课_AI项目立项选题与完成标准_老师版完整讲义_v1.0.md｜对应讲义章节与示例"
+        ],
+        "units": 3
+      },
+      {
+        "slide": 40,
+        "role": "content",
+        "takeaway": "材料核验项目的练习重点",
+        "evidence": [
+          "/Users/keivn/Project/AI-Course/课程生产/第二阶段/02_第一课_AI项目立项选题与完成标准_老师版完整讲义_v1.0.md｜对应讲义章节与示例"
+        ],
+        "units": 3
+      },
+      {
+        "slide": 41,
+        "role": "content",
+        "takeaway": "RFP需求拆解与智能标书",
+        "evidence": [
+          "/Users/keivn/Project/AI-Course/课程生产/第二阶段/02_第一课_AI项目立项选题与完成标准_老师版完整讲义_v1.0.md｜对应讲义章节与示例"
+        ],
+        "units": 3
+      },
+      {
+        "slide": 42,
+        "role": "content",
+        "takeaway": "专业方案生成的处理流程",
+        "evidence": [
+          "/Users/keivn/Project/AI-Course/课程生产/第二阶段/02_第一课_AI项目立项选题与完成标准_老师版完整讲义_v1.0.md｜对应讲义章节与示例"
+        ],
+        "units": 3
+      },
+      {
+        "slide": 43,
+        "role": "content",
+        "takeaway": "专业方案生成项目的练习重点",
+        "evidence": [
+          "/Users/keivn/Project/AI-Course/课程生产/第二阶段/02_第一课_AI项目立项选题与完成标准_老师版完整讲义_v1.0.md｜对应讲义章节与示例"
+        ],
+        "units": 3
+      },
+      {
+        "slide": 44,
+        "role": "content",
+        "takeaway": "三个必修项目和两个选修方向",
+        "evidence": [
+          "/Users/keivn/Project/AI-Course/课程生产/第二阶段/02_第一课_AI项目立项选题与完成标准_老师版完整讲义_v1.0.md｜对应讲义章节与示例"
+        ],
+        "units": 3
+      },
+      {
+        "slide": 45,
+        "role": "content",
+        "takeaway": "项目迁移和改名的区别",
+        "evidence": [
+          "/Users/keivn/Project/AI-Course/课程生产/第二阶段/02_第一课_AI项目立项选题与完成标准_老师版完整讲义_v1.0.md｜对应讲义章节与示例"
+        ],
+        "units": 3
+      },
+      {
+        "slide": 46,
+        "role": "content",
+        "takeaway": "三类公共项目的个人化方向",
+        "evidence": [
+          "/Users/keivn/Project/AI-Course/课程生产/第二阶段/02_第一课_AI项目立项选题与完成标准_老师版完整讲义_v1.0.md｜对应讲义章节与示例"
+        ],
+        "units": 3
+      },
+      {
+        "slide": 47,
+        "role": "content",
+        "takeaway": "个人项目的三个入口",
+        "evidence": [
+          "/Users/keivn/Project/AI-Course/课程生产/第二阶段/02_第一课_AI项目立项选题与完成标准_老师版完整讲义_v1.0.md｜对应讲义章节与示例"
+        ],
+        "units": 3
+      },
+      {
+        "slide": 48,
+        "role": "content",
+        "takeaway": "选题的六项标准",
+        "evidence": [
+          "/Users/keivn/Project/AI-Course/课程生产/第二阶段/02_第一课_AI项目立项选题与完成标准_老师版完整讲义_v1.0.md｜对应讲义章节与示例"
+        ],
+        "units": 3
+      },
+      {
+        "slide": 49,
+        "role": "content",
+        "takeaway": "六项评分表",
+        "evidence": [
+          "/Users/keivn/Project/AI-Course/课程生产/第二阶段/02_第一课_AI项目立项选题与完成标准_老师版完整讲义_v1.0.md｜对应讲义章节与示例"
+        ],
+        "units": 3
+      },
+      {
+        "slide": 50,
+        "role": "content",
+        "takeaway": "三个选题的评分示例",
+        "evidence": [
+          "/Users/keivn/Project/AI-Course/课程生产/第二阶段/02_第一课_AI项目立项选题与完成标准_老师版完整讲义_v1.0.md｜对应讲义章节与示例"
+        ],
+        "units": 3
+      },
+      {
+        "slide": 51,
+        "role": "content",
+        "takeaway": "需要暂停的四类选题",
+        "evidence": [
+          "/Users/keivn/Project/AI-Course/课程生产/第二阶段/02_第一课_AI项目立项选题与完成标准_老师版完整讲义_v1.0.md｜对应讲义章节与示例"
+        ],
+        "units": 3
+      },
+      {
+        "slide": 52,
+        "role": "content",
+        "takeaway": "现场诊断的八个问题",
+        "evidence": [
+          "/Users/keivn/Project/AI-Course/课程生产/第二阶段/02_第一课_AI项目立项选题与完成标准_老师版完整讲义_v1.0.md｜对应讲义章节与示例"
+        ],
+        "units": 3
+      },
+      {
+        "slide": 53,
+        "role": "content",
+        "takeaway": "课堂选择与项目收缩",
+        "evidence": [
+          "/Users/keivn/Project/AI-Course/课程生产/第二阶段/02_第一课_AI项目立项选题与完成标准_老师版完整讲义_v1.0.md｜对应讲义章节与示例"
+        ],
+        "units": 3
+      },
+      {
+        "slide": 54,
+        "role": "content",
+        "takeaway": "项目一选题卡",
+        "evidence": [
+          "/Users/keivn/Project/AI-Course/课程生产/第二阶段/02_第一课_AI项目立项选题与完成标准_老师版完整讲义_v1.0.md｜对应讲义章节与示例"
+        ],
+        "units": 3
+      },
+      {
+        "slide": 55,
+        "role": "content",
+        "takeaway": "选题卡的三种处理结果",
+        "evidence": [
+          "/Users/keivn/Project/AI-Course/课程生产/第二阶段/02_第一课_AI项目立项选题与完成标准_老师版完整讲义_v1.0.md｜对应讲义章节与示例"
+        ],
+        "units": 3
+      },
+      {
+        "slide": 56,
+        "role": "content",
+        "takeaway": "最近三次课怎样衔接",
+        "evidence": [
+          "/Users/keivn/Project/AI-Course/课程生产/第二阶段/02_第一课_AI项目立项选题与完成标准_老师版完整讲义_v1.0.md｜对应讲义章节与示例"
+        ],
+        "units": 3
+      },
+      {
+        "slide": 57,
+        "role": "content",
+        "takeaway": "课后24小时和3天",
+        "evidence": [
+          "/Users/keivn/Project/AI-Course/课程生产/第二阶段/02_第一课_AI项目立项选题与完成标准_老师版完整讲义_v1.0.md｜对应讲义章节与示例"
+        ],
+        "units": 3
+      },
+      {
+        "slide": 58,
+        "role": "content",
+        "takeaway": "项目一V0.1",
+        "evidence": [
+          "/Users/keivn/Project/AI-Course/课程生产/第二阶段/02_第一课_AI项目立项选题与完成标准_老师版完整讲义_v1.0.md｜对应讲义章节与示例"
+        ],
+        "units": 3
+      },
+      {
+        "slide": 59,
+        "role": "content",
+        "takeaway": "点评课怎样进行",
+        "evidence": [
+          "/Users/keivn/Project/AI-Course/课程生产/第二阶段/02_第一课_AI项目立项选题与完成标准_老师版完整讲义_v1.0.md｜对应讲义章节与示例"
+        ],
+        "units": 3
+      },
+      {
+        "slide": 60,
+        "role": "closing",
+        "takeaway": "修改记录和本课总结",
+        "evidence": [
+          "/Users/keivn/Project/AI-Course/课程生产/第二阶段/02_第一课_AI项目立项选题与完成标准_老师版完整讲义_v1.0.md｜对应讲义章节与示例"
+        ],
+        "units": 1
+      }
+    ]
+  },
+  "design_plan": {
+    "mode": "Mode A mimic",
+    "style_pick": "n/a — locked mimic of the user-approved Lesson 11 and Lesson 12 visual system",
+    "concept": {
+      "chosen": "一条从项目想法逐步收束到可推进项目的轨道",
+      "rejected": [
+        {
+          "concept": "项目工具箱",
+          "why_lost": "容易变成功能和模板罗列。"
+        },
+        {
+          "concept": "职业作品集画廊",
+          "why_lost": "会削弱立项判断和课堂练习。"
+        }
+      ]
+    },
+    "boldness": "balanced+",
+    "signature_move": "把项目从一句名称到可推进方案的变化做成贯穿全课的进度轨道",
+    "carried_by": [
+      12,
+      24,
+      56
+    ],
+    "form_ledger": "陈述页6；比较页12；流程轨道页11；表格页8；案例拆解页5；多项框架页17；封面1",
+    "interior_register": "加大章节标题、底部进度线、深色画布、青绿结构色和珊瑚提醒色贯穿全部正文页",
+    "icon_family": "none — Mode A模板锁定，既有系列课使用编号、色块和流程轨道承担分类，增加图标会改变已确认的课程识别",
+    "icon_none_category": "template-locked",
+    "icon_none_checked": [
+      "slides 2-60"
+    ],
+    "palette": {
+      "fill_only": [
+        "#031016",
+        "#102B37",
+        "#133843"
+      ],
+      "text_safe": [
+        "#F5F2E9",
+        "#A7B5BC",
+        "#36D6C2",
+        "#FF7657",
+        "#F0C565"
+      ],
+      "semantic": "青绿表示结构和正常推进，珊瑚表示提醒和风险，黄色表示待确认，绿色表示可继续"
+    },
+    "type_scale": {
+      "display": 42,
+      "title": 29,
+      "body": 15
+    },
+    "motif_generates": {
+      "background": "深色画布保持系列识别",
+      "markers": "两位编号表示项目步骤和判断项",
+      "page": "第12、24、56页把进度轨道变成项目链路和课程节奏"
+    },
+    "density": {
+      "planned_median": 34,
+      "over_70": 2,
+      "non_text_protagonist": 49
+    },
+    "build_shape": "solo — host instruction prohibits subagent delegation; one locked reference style and one tightly coupled source lecture",
+    "build_script": "/Users/keivn/Project/AI-Course/课程生产/第二阶段/第一课_PPT_正式版/build_lesson1_stage2.py",
+    "checkpoint": {
+      "mode": "approved",
+      "record": "用户要求沿用最近课程PPT风格，并已确认案例先行、自然中文、强化章节结构。"
+    },
+    "material_probe": {
+      "png": "/Users/keivn/Project/AI-Course/课程生产/第二阶段/第一课_PPT_正式版/render/slide12.png",
+      "safe_version": "安全版本会把完整项目列成普通清单，无法看出前后怎样衔接。"
+    },
+    "signature_proof": [
+      {
+        "role": "signature",
+        "slide": 12,
+        "png": "/Users/keivn/Project/AI-Course/课程生产/第二阶段/第一课_PPT_正式版/render/slide12.png"
+      },
+      {
+        "role": "complex",
+        "slide": 49,
+        "png": "/Users/keivn/Project/AI-Course/课程生产/第二阶段/第一课_PPT_正式版/render/slide49.png"
+      },
+      {
+        "role": "data",
+        "slide": 56,
+        "png": "/Users/keivn/Project/AI-Course/课程生产/第二阶段/第一课_PPT_正式版/render/slide56.png"
+      }
+    ],
+    "form_reach": {
+      "waived": "本课复用学员已经熟悉的系列教学模板。表格使用原生组件，其余页面按内容需要组合比较、流程和案例，不以组件数量作为设计目标。"
+    }
+  },
+  "design": {
+    "checkpoint": {
+      "mode": "approved",
+      "record": "Mode A沿用第11、12课已确认的深色青绿视觉体系。"
+    }
+  },
+  "content_plan_ref": "/Users/keivn/Project/AI-Course/课程生产/第二阶段/02_第一课_AI项目立项选题与完成标准_老师版完整讲义_v1.0.md",
+  "output": "/Users/keivn/Project/AI-Course/课程生产/第二阶段/第一课_PPT_正式版/第一课_AI项目立项、选题与完成标准_完整PPT_v1.0.pptx",
+  "provenance": {
+    "waived": "PPT仅改编用户已确认的本地讲义，不新增需要联网核验的外部事实。"
+  },
+  "density": {
+    "waived": "这是老师现场讲授的课程PPT。主要页面只保留核心信息，完整解释放在演讲者备注中。"
+  }
+}

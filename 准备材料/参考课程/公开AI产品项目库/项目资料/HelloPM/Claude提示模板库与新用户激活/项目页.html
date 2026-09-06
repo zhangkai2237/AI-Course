@@ -1,0 +1,195 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Analyzing Claude AI&#x27;s UX, Monetization, and User Segments — Improving Product Sense example by Praveen Ancha | HelloPM</title>
+<meta name="description" content="A regular user&#x27;s teardown of Claude AI: navigation, feature design, user segments and how it makes money">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://hellopm.co/app/pub/examples/assets/css/site.css">
+<script>(function(){try{var t=localStorage.getItem("hpm-examples-theme");if(t){document.documentElement.setAttribute("data-theme",t);}}catch(e){}})();</script>
+
+<link rel="canonical" href="https://hellopm.co/app/p/assignment_examples/examples/praveen-ancha-a1">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="HelloPM">
+<meta property="og:url" content="https://hellopm.co/app/p/assignment_examples/examples/praveen-ancha-a1">
+<meta name="twitter:card" content="summary">
+<meta property="og:image" content="https://hellopm.co/app/pub/examples/logos/claude-ai.png">
+<meta property="og:title" content="Analyzing Claude AI&#039;s UX, Monetization, and User Segments — Improving Product Sense example by Praveen Ancha | HelloPM">
+<meta property="og:description" content="A regular user&#039;s teardown of Claude AI: navigation, feature design, user segments and how it makes money">
+</head>
+<body>
+<header class="topbar"><div class="topbar-inner">
+  <a class="brand" href="https://hellopm.co/app/p/assignment_examples"><span class="brand-mark"></span>HelloPM <span class="brand-sub">· Assignment Examples</span></a>
+  <nav class="nav">
+    <a class="nav-link" href="https://hellopm.co/app/p/assignment_examples#browse">Browse examples</a>
+    <a class="nav-link" href="https://hellopm.co/app/p/assignment_examples#assignments">The assignments</a>
+    <a class="nav-link" href="https://hellopm.co/app/p/assignment_examples/how-to-use">How to use them</a>
+  </nav>
+  <a class="nav-cta" href="https://hellopm.co/app/p/assignment_examples#browse">Browse 149 examples &rarr;</a>
+  <button class="theme-toggle" type="button" aria-label="Switch between light and dark"><span class="icon-light">☾</span><span class="icon-dark">☀</span></button>
+</div></header>
+<div class="container">
+<div class="breadcrumb"><a href="https://hellopm.co/app/p/assignment_examples">Assignment Examples</a><span class="sep">/</span><a href="https://hellopm.co/app/p/assignment_examples/assignments/improving-product-sense">Improving Product Sense</a><span class="sep">/</span>Claude AI</div>
+<section class="case-hero">
+<span class="eyebrow">Improving Product Sense · Claude AI</span>
+<h1 class="page-title">Analyzing Claude AI&#x27;s UX, Monetization, and User Segments</h1>
+<p class="subtitle">A regular user&#x27;s teardown of Claude AI: navigation, feature design, user segments and how it makes money</p>
+<a class="byline" href="https://hellopm.co/app/p/assignment_examples/students/praveen-ancha"><span class="byline-avatar">PA</span><span class="byline-name">Praveen Ancha</span><span class="byline-cohort">HelloPM alum</span></a>
+</section>
+<div class="chip-row reveal">
+  <a class="chip" href="https://hellopm.co/app/p/assignment_examples/assignments/improving-product-sense">Improving Product Sense</a>
+  <a class="chip" href="https://hellopm.co/app/p/assignment_examples?industry=artificial-intelligence">Artificial Intelligence</a>
+  <span class="chip">Claude AI</span>
+</div>
+<div class="logo-banner"><img class="logo-banner-img" loading="lazy" src="https://hellopm.co/app/pub/examples/logos/claude-ai.png" alt="Claude AI logo" onerror="this.style.display='none';this.nextElementSibling.style.display='flex';"><div class="logo-banner-fallback" style="display:none;"><span class="initial">C</span><span class="name">Claude AI</span></div></div>
+<div class="phase-bar reveal" role="tablist" aria-label="Phases of this submission"><span class="phase-bar-label">Phases</span>
+  <button class="phase-tab is-active" type="button" role="tab" id="tab-1" aria-controls="phase-1" aria-selected="true" tabindex="0" data-phase="phase-1"><span class="num">01</span>Product teardown</button>
+  <button class="phase-tab" type="button" role="tab" id="tab-2" aria-controls="phase-2" aria-selected="false" tabindex="-1" data-phase="phase-2"><span class="num">02</span>User research</button>
+  <button class="phase-tab" type="button" role="tab" id="tab-3" aria-controls="phase-3" aria-selected="false" tabindex="-1" data-phase="phase-3"><span class="num">03</span>Ideation and ICE</button>
+  <button class="phase-tab" type="button" role="tab" id="tab-4" aria-controls="phase-4" aria-selected="false" tabindex="-1" data-phase="phase-4"><span class="num">04</span>The PRD</button>
+</div>
+<div class="phase-panel" id="phase-1" role="tabpanel" aria-labelledby="tab-1">
+<div class="assignment reveal">
+  <p class="assignment-label">Phase 01 · Product teardown</p>
+  <p class="assignment-text">Analyzing Claude AI&#x27;s UX, Monetization, and User Segments</p>
+</div>
+<div class="case-block reveal"><h2><span class="dot">✳</span>The problem they went after</h2>
+<p class="case-about">Claude AI is built for work that runs from coding and research to creative writing and analysis, and this teardown asks where the experience gets in the way of that. The friction it names is concrete: small navigation icons in the sidebar, language switching that needs a separate keyboard change, free-tier model limits with Opus 4.1 capped at three chats, and no image or video generation.</p></div>
+<div class="case-block reveal"><h2><span class="dot">✳</span>What they actually did</h2>
+<p class="case-about">The analysis walks login flows, UI navigation and feature design, then reverse-engineers three features against the problem each solves: incognito chat for data privacy worries, language selection for reach, code generation for developer productivity. Segments follow, from students managing deadlines to professional coders and content creators, enterprises building on the API, and casual home users. Revenue is lined up against them across API licensing, individual subscriptions and enterprise deals, with positioning against ChatGPT, Gemini and Perplexity resting on writing quality and code generation.</p></div>
+<div class="case-block reveal"><h2><span class="dot">✳</span>What you can take from it</h2>
+<div class="assess-grid">
+<div class="assess-col"><p class="assess-h">Worth stealing</p><ul class="assess-list">
+<li>Three features reverse-engineered to their user problem</li>
+<li>Segments mapped against API, subscription, enterprise revenue</li>
+<li>Friction list kept specific rather than general</li>
+<li>Competitive framing versus ChatGPT, Gemini, Perplexity</li>
+</ul></div>
+<div class="assess-col"><p class="assess-h">Read this if</p>
+<p class="case-about">Anyone about to write their first product teardown</p></div>
+</div>
+<p class="assess-take"><span class="assess-take-label">The transferable bit</span>A clean template for a teardown that does not stop at UI complaints. Strengths get named alongside gaps, incognito mode and multi-language support among them, and each feature is tied back to a segment who feels it and a revenue line it touches. That pairing is what turns an opinion piece into something a product team could act on.</p>
+</div>
+<div class="pdf-panel reveal">
+  <div class="pdf-panel-head"><h2><span class="dot">✳</span>The submission itself</h2>
+  <a class="cta-button" href="https://hellopm.co/app/pub/examples/pdfs/praveen-ancha-c47a1p1.pdf" target="_blank" rel="noopener">Open the PDF &rarr;</a></div>
+  <div class="pdf-frame"><iframe src="https://hellopm.co/app/pub/examples/pdfs/praveen-ancha-c47a1p1.pdf" title="Analyzing Claude AI&#x27;s UX, Monetization, and User Segments" loading="lazy"></iframe></div>
+  <p class="pdf-note">Reading on a phone? The embedded viewer is cramped — open the PDF in a new tab instead.</p>
+</div>
+<div class="case-block reveal"><h2><span class="dot">✳</span>Everything else they shared</h2>
+<div class="doc-links">
+  <a class="doc-link" href="https://www.notion.so/Assignment-1-Phase-1-Praveen-ancha-C47-2743869d50ad80a39222cf30ccdb1e21?source=copy_link" target="_blank" rel="noopener"><span class="doc-icon">↗</span>Notion</a>
+</div></div>
+</div>
+<div class="phase-panel" id="phase-2" role="tabpanel" aria-labelledby="tab-2" hidden>
+<div class="assignment reveal">
+  <p class="assignment-label">Phase 02 · User research</p>
+  <p class="assignment-text">Understanding How Students and Developers Use Claude AI</p>
+</div>
+<div class="case-block reveal"><h2><span class="dot">✳</span>The problem they went after</h2>
+<p class="case-about">Two frustrations kept surfacing among students and developers who rely on Claude. Free-tier message limits push people to ration every prompt. And output behaves unpredictably: HTML code comes back where an image was expected, or a long answer arrives when brevity was asked for. Both cost time in exactly the moments the tool was meant to save it.</p></div>
+<div class="case-block reveal"><h2><span class="dot">✳</span>What they actually did</h2>
+<p class="case-about">Five in-depth interviews and nineteen survey responses tested two hypotheses: that students struggle to finish assignments efficiently because of information overload, and that developers lose productivity when Claude returns inaccurate or mismatched output. Both held up. The interviews also caught something the hypotheses did not anticipate, which is that users treat Claude as a premium tool and work around its shortcomings rather than abandoning it.</p></div>
+<div class="case-block reveal"><h2><span class="dot">✳</span>What you can take from it</h2>
+<div class="assess-grid">
+<div class="assess-col"><p class="assess-h">Worth stealing</p><ul class="assess-list">
+<li>Two hypotheses stated up front, then tested</li>
+<li>Five interviews paired with nineteen survey responses</li>
+<li>Finding: docs and rephrasing beat code generation</li>
+<li>Parallel tool use read as an output quality signal</li>
+</ul></div>
+<div class="assess-col"><p class="assess-h">Read this if</p>
+<p class="case-about">PMs designing a small research round that has to defend a hypothesis</p></div>
+</div>
+<p class="assess-take"><span class="assess-take-label">The transferable bit</span>One finding cut against expectation: technical users lean on Claude more for documentation and rephrasing than for code generation, and many keep a parallel ChatGPT session running to cover output quality gaps. That is the kind of detail only interviews surface, and it is what moved the priority to access reliability and output precision.</p>
+</div>
+<div class="pdf-panel reveal">
+  <div class="pdf-panel-head"><h2><span class="dot">✳</span>The submission itself</h2>
+  <a class="cta-button" href="https://hellopm.co/app/pub/examples/pdfs/praveen-ancha-c47a1p2.pdf" target="_blank" rel="noopener">Open the PDF &rarr;</a></div>
+  <div class="pdf-frame"><iframe src="https://hellopm.co/app/pub/examples/pdfs/praveen-ancha-c47a1p2.pdf" title="Understanding How Students and Developers Use Claude AI" loading="lazy"></iframe></div>
+  <p class="pdf-note">Reading on a phone? The embedded viewer is cramped — open the PDF in a new tab instead.</p>
+</div>
+<div class="case-block reveal"><h2><span class="dot">✳</span>Everything else they shared</h2>
+<div class="doc-links">
+  <a class="doc-link" href="https://docs.google.com/spreadsheets/d/1Du0h90SYA13p_JZJn-6RjVWbDuV9H9pIqEqiq4Gu0WU/edit?usp=sharing" target="_blank" rel="noopener"><span class="doc-icon">↗</span>Google Doc</a>
+</div></div>
+</div>
+<div class="phase-panel" id="phase-3" role="tabpanel" aria-labelledby="tab-3" hidden>
+<div class="assignment reveal">
+  <p class="assignment-label">Phase 03 · Ideation and ICE</p>
+  <p class="assignment-text">Lowering the Prompt Engineering Barrier for Claude AI Users</p>
+</div>
+<div class="case-block reveal"><h2><span class="dot">✳</span>The problem they went after</h2>
+<p class="case-about">People struggle to write effective prompts, get irrelevant output, grow frustrated, and eventually stop coming back. The write-up traces it to missing structure inside the product rather than user skill: no guidance on how to frame an input, no clarifying questions coming back from Claude, and no feedback mechanism that explains why a prompt failed.</p></div>
+<div class="case-block reveal"><h2><span class="dot">✳</span>What they actually did</h2>
+<p class="case-about">Ideas came out of competitor analysis, analogy thinking and root cause mapping, fifteen in all, ranging from a prompt template library and interactive prompt builder to real-time helpers, beginner tutorials and voice-to-prompt conversion, each tagged by confidence and feasibility. ICE scoring put the Prompt Template Library first on high impact and low effort, supported by four of five users asking for examples and by competitors having already validated the pattern. A beginner onboarding tutorial ranked second, and both got high-fidelity desktop and mobile wireframes.</p></div>
+<div class="case-block reveal"><h2><span class="dot">✳</span>What you can take from it</h2>
+<div class="assess-grid">
+<div class="assess-col"><p class="assess-h">Worth stealing</p><ul class="assess-list">
+<li>Three named ideation techniques, fifteen ideas</li>
+<li>Every idea tagged by confidence and feasibility</li>
+<li>ICE score backed by research and competitor precedent</li>
+<li>High-fidelity wireframes for desktop and mobile</li>
+</ul></div>
+<div class="assess-col"><p class="assess-h">Read this if</p>
+<p class="case-about">Anyone whose brainstorms produce plenty of ideas but no clear ranking</p></div>
+</div>
+<p class="assess-take"><span class="assess-take-label">The transferable bit</span>A worked example of getting from a wide idea set to a shortlist you can defend in a room. The ideation techniques are named rather than implied, every idea carries a confidence tag, and the winning score is justified with a research number and a competitor precedent instead of instinct.</p>
+</div>
+<div class="pdf-panel reveal">
+  <div class="pdf-panel-head"><h2><span class="dot">✳</span>The submission itself</h2>
+  <a class="cta-button" href="https://hellopm.co/app/pub/examples/pdfs/praveen-ancha-c47a1p3.pdf" target="_blank" rel="noopener">Open the PDF &rarr;</a></div>
+  <div class="pdf-frame"><iframe src="https://hellopm.co/app/pub/examples/pdfs/praveen-ancha-c47a1p3.pdf" title="Lowering the Prompt Engineering Barrier for Claude AI Users" loading="lazy"></iframe></div>
+  <p class="pdf-note">Reading on a phone? The embedded viewer is cramped — open the PDF in a new tab instead.</p>
+</div>
+</div>
+<div class="phase-panel" id="phase-4" role="tabpanel" aria-labelledby="tab-4" hidden>
+<div class="assignment reveal">
+  <p class="assignment-label">Phase 04 · The PRD</p>
+  <p class="assignment-text">Reducing Prompt Friction for New Claude AI Users with Templates</p>
+</div>
+<div class="case-block reveal"><h2><span class="dot">✳</span>The problem they went after</h2>
+<p class="case-about">New Claude users struggle to write effective prompts, get irrelevant output, reformulate, and some leave for competing tools. All five interview participants hit the prompt engineering barrier, and 80 percent of survey respondents reported the same difficulty. The telling detail is that people treat each prompt as a scarce resource rather than a conversation, and that anxiety undercuts the product&#x27;s core value.</p></div>
+<div class="case-block reveal"><h2><span class="dot">✳</span>What they actually did</h2>
+<p class="case-about">The solution is a curated Prompt Template Library: pre-built, customisable templates covering the tasks research showed come up most, so users fill in context instead of constructing intent from zero. The PRD targets a 20 percent lift in 30-day retention and 40 percent template adoption among new users within their first session. Three metrics carry it, with template adoption as the primary indicator, first-prompt success rate to confirm templates actually resolve the core problem, and prompt reformulation rate as a secondary read.</p></div>
+<div class="case-block reveal"><h2><span class="dot">✳</span>What you can take from it</h2>
+<div class="assess-grid">
+<div class="assess-col"><p class="assess-h">Worth stealing</p><ul class="assess-list">
+<li>Adoption metric paired with first-prompt success rate</li>
+<li>Guardrails on template abandonment and satisfaction</li>
+<li>Two-week iteration loop driven by usage patterns</li>
+<li>Blank-prompt frequency used as an input signal</li>
+</ul></div>
+<div class="assess-col"><p class="assess-h">Read this if</p>
+<p class="case-about">PMs writing a PRD where the obvious metric would flatter the feature</p></div>
+</div>
+<p class="assess-take"><span class="assess-take-label">The transferable bit</span>Adoption alone would only prove people clicked; first-prompt success checks whether the underlying problem moved. Guardrails on template abandonment and satisfaction catch the case where templates add friction instead of removing it, and a two-week iteration loop driven by usage and blank-prompt data keeps the library from going stale.</p>
+</div>
+<div class="pdf-panel reveal">
+  <div class="pdf-panel-head"><h2><span class="dot">✳</span>The submission itself</h2>
+  <a class="cta-button" href="https://hellopm.co/app/pub/examples/pdfs/praveen-ancha-c47a1p4.pdf" target="_blank" rel="noopener">Open the PDF &rarr;</a></div>
+  <div class="pdf-frame"><iframe src="https://hellopm.co/app/pub/examples/pdfs/praveen-ancha-c47a1p4.pdf" title="Reducing Prompt Friction for New Claude AI Users with Templates" loading="lazy"></iframe></div>
+  <p class="pdf-note">Reading on a phone? The embedded viewer is cramped — open the PDF in a new tab instead.</p>
+</div>
+</div>
+<section><h2 class="section-head reveal"><span class="idx">&#43;</span><span class="label">Same industry, different take</span><span class="line"></span><span class="meta">Artificial Intelligence</span></h2>
+<div class="mini-list reveal">
+<a class="mini-row" href="https://hellopm.co/app/p/assignment_examples/examples/jincy-shibu-a1"><span class="mini-logo"><img loading="lazy" src="https://hellopm.co/app/pub/examples/logos/chatgpt.svg" alt="" onerror="this.style.display='none';this.nextElementSibling.style.display='block';"><span class="initial" style="display:none;">C</span></span><span class="mini-body"><span class="mini-title">Converting Free ChatGPT Users to Paid Through Personalised Features</span><span class="mini-meta">Jincy Shibu · ChatGPT</span></span><span class="mini-arrow">&rarr;</span></a>
+<a class="mini-row" href="https://hellopm.co/app/p/assignment_examples/examples/jincy-shibu-a2"><span class="mini-logo"><img loading="lazy" src="https://hellopm.co/app/pub/examples/logos/chatgpt.svg" alt="" onerror="this.style.display='none';this.nextElementSibling.style.display='block';"><span class="initial" style="display:none;">C</span></span><span class="mini-body"><span class="mini-title">Smart Threads: Context-Aware Memory for ChatGPT</span><span class="mini-meta">Jincy Shibu · ChatGPT</span></span><span class="mini-arrow">&rarr;</span></a>
+<a class="mini-row" href="https://hellopm.co/app/p/assignment_examples/examples/kaushal-kulkarni-a1"><span class="mini-logo"><img loading="lazy" src="https://hellopm.co/app/pub/examples/logos/google-ai-mode.svg" alt="" onerror="this.style.display='none';this.nextElementSibling.style.display='block';"><span class="initial" style="display:none;">G</span></span><span class="mini-body"><span class="mini-title">Improving Source Trust and Onboarding for Google AI Mode Users</span><span class="mini-meta">Kaushal Kulkarni · Google AI Mode</span></span><span class="mini-arrow">&rarr;</span></a>
+<a class="mini-row" href="https://hellopm.co/app/p/assignment_examples/examples/mayank-m-a1"><span class="mini-logo"><img loading="lazy" src="https://hellopm.co/app/pub/examples/logos/chatgpt.svg" alt="" onerror="this.style.display='none';this.nextElementSibling.style.display='block';"><span class="initial" style="display:none;">C</span></span><span class="mini-body"><span class="mini-title">Activating Advanced ChatGPT Features Through Contextual Micro-Tours</span><span class="mini-meta">Mayank M · ChatGPT</span></span><span class="mini-arrow">&rarr;</span></a>
+</div></section>
+<div class="page-nav">
+  <a class="footer-link" href="https://hellopm.co/app/p/assignment_examples/assignments/improving-product-sense">&larr; All Improving Product Sense examples</a>
+  <a class="footer-link" href="https://hellopm.co/app/p/assignment_examples#browse">Browse everything &rarr;</a>
+</div>
+<div class="site-footer">
+  <span>HelloPM · Assignment Examples — real submissions from HelloPM cohorts</span>
+  <span>149 examples · 134 product managers</span>
+</div>
+</div>
+<script src="https://hellopm.co/app/pub/examples/assets/js/site.js" defer></script>
+</body>
+</html>

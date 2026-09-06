@@ -1,0 +1,229 @@
+"PRODUCT FACULTY — AI PRODUCT REQUIREMENTS DOCUMENT (PRD) TEMPLATE
+Version 1.0",,,,,,
+Your Name:,,Russell Schmidt,,,,
+Your Product:,,"Nimra.ai, an AI-based procurement tool for sales teams",,,,
+Your Industry:,,B2B Services,,,,
+Date:,,2026/5/5,,,,
+4D Method,,AI PRD ,,,,Instructor Feedback
+Phase,Activity,Theme,Topic,Key Question(s),"Your Response
+Include external links to visuals/prototypes as required.",
+DISCOVERY,"Understand your market, business, product & user context","Business 
+Value Map",Market Attractiveness,"What industry is your business in? (ie Financial services, Healthcare, Education, etc)?","Business Services, specifically sales enablement, with an eye towards the procurement side next.","Please leave this area blank. 
+
+This space is for the Instructor to provide you with feedback."
+,,,,What are the key challenges (headwinds) and opportunities (tailwinds) impacting growth in your industry? Who are the key competitors?,"Generally, the supply of procurement bids, if correlated to industry health, is pretty cyclical on the nonprofit side, and follows government budgets on the Federal, State, and Local levels. The opportunity is that this is an underserved niche where a lot of manual work is done today. Specifically in my target industry, the competitors are Loopio, Responsive, Qorus Docs, Inventive.AI, and Iris AI. They are based around document creation and knowledge base management, focusing on the process of creating RFPs rather than finding them. This represents an opportunity to partner with established players to enhance their services. For my specific focus, I think my competitor is Google in terms of the mind-share of people searching; there's always a chance that Google starts to pay attention to this niche and I am squashed by an elephant.",
+,,,,What is the projected growth rate of your target market segment over the next 3-5 years?,"Realistically, 2-4% annually, assuming we don't have a slowdown or slashed government budgets.",
+,,,"Business 
+Model","What growth stage is your business currently in (e.g., startup, scale-up, mature)?",Startup,
+,,,,"How does your business make money? What do they sell? What is your primary revenue model (e.g., subscription, freemium, licensing, marketplace, transactional, etc?)","Nimra follows a subscription model, providing access to search while the subscription is active. The market is hard to estimate precisely; there is no single labor code for 'B2B salesperson'. Looking at likely categories, there could be 3 million salespople and sales engineers in the USA; 5% share yields 150,000 subscribers. At $25/mo, this could be a $45M/yr business serving a very particular niche well.",
+,,,,"Who is your primary customer base (B2B, B2C, B2B2C)?",B2B,
+,,,Differentiators,What are the key differentiators for your company? ,Hyperfocus on a single feature that delivers the core value of the product.An AI-native product may have inherent speed advantages against incumbents.,
+,,"Feature 
+Value Map
+
+(IMPORTANT NOTE: This section is only relevant if you are working on enhancing an existing product. It does not apply if you are developing a new product from 0 to 1.)",Customers,Who are the customers (ie buyers) of your product? ,Sales teams that pursue government and nonprofit enterprise-sized sales.,
+,,,End Users,"Who are the end-users of your product? Which users are the most revenue-generating / revenue-impacting for your company? What are their goals, roles, and context?",Salespeople and marketers looking for prospective deals. ,
+,,,Current Products / Services,"If you are a Product-led business: 
+What are the core features of your product, and how do they address user needs?
+
+If you are a Service-led business: 
+What are the key services you offer to customers?","The core feature 1 is providing a single unified search for finding the latest RFPs. This solves the problem of finding all of the RFPs open for bidding right now. Core feature 2 is using AI to simplify parsing an AI to decide whether to bid, whether you are qualified, and boil it down to what is required to apply.",
+,,"User 
+Value Map",Target Persona,"Who is your AI product / feature for? (Internal users, external users, an influencer, a buyer, etc) ","This is a business development enablement tool designed for a salesperson that is pursuing sales opportunities with medium-to-large-sized organizations; a sales engineer often tasked with drafting the response to these opportunities; grant and application writers. We envision a mid-career, successful salesperson with some technical acumen and domain expertise.",
+,,,"Journey Map
+(current-state)","What is the typical journey for your target persona when they are using your product / service, focusing on their ideal experience (happy path) as they interact with your product?","A typical journey is a salesperson uses Google or if sophisticated one of 20 different APIs that collect RFPs from various sources. They have to hope they have the right keywords to find the opportunities that are good for them, and then read 10-200 page documents with dense requirements and lots of legal boilerplate to determine if they qualify, if the opportunity is right, how hard the document will be to fill out or reply to, if the requirements are too onerous, and if it is even in the right geography.
+
+The happy path with Nimra begins when a salesperson arrives at the application, and enters a search term or uploads a brochure in order to try to find relevant RFPs. The system has 24x7 been searching for RFPs and pre-chewing them when saved to reduce the latency inherent to processing 40-200pg documents. We use semantic search to find related RFPs. Our user selects an RFP that appeals to them, and the system is able to provide them with an interactive checklist they can use to systematically respond to the RFP without having to read a bunch of boilerplate with hidden requirements that can disqualify a bidder that missed some buried text. We place the opportunity description and bidder requirements at the top so a respondent can decide if this opportunity is worth investing in, and if their organization qualifies. The bidder finds an RFP they like and fills out their response using our software as a checklist.",
+,,,Pain-points,"Where does the user experience friction, obstacles, or unmet needs throughout the journey? Identify which pain-points are most frequent and severe? ","The only thing worse that finding suitable RFPs is reading them and cobbling together a response to them. They are so boring. The quality of RFPs is so uneven - some are wonderful and organized, many are not. They are found with dated government websites or aggregators that cost a fortune, and then when you finally get some results, you have to download and read these behemoths that are covered in legalese and often written hastily or copy-pasted from some other RFPs. And you can invest time and treasure answering these things and miss something critical that can disqualify your bid, or you misinterpret something required that you read once and that disqualifies your bid. It is expensive to search, expensive to parse, and expensive to respond to, and for all that, you can be up against 20 other bids. 
+
+1. missing requirements is fatal - if your reviewers are strict, they can disqualify your bid over small misses
+2. parsing the document for requirements is expensive - you can die of boredeom reading these things
+3. finding good opportunities is expensive - either you pay through the nose for an aggregator or you spend a lot of time on government websites downloading PDFs
+4. knowing what the opportunity even consists of is not always obvious so valuing the RFP is tough
+5. writing RFP responses and grant applications is very expensive",
+,,,AI Opportunities,"From your list of pain points, identify those that can effectively be addressed using Generative AI. Remember, this project focuses on leveraging LLM-powered AI to solve your target persona's pain points.
+
+Rank these pain points starting with the most severe and frequently occurring first.","All 4 can be addressed with AI. 
+
+1. Gen AI can parse the doc and generate requirements.
+2. Gen AI can 
+3. use an input that enables semantic search to go beyond knowing all the relevant keywords.
+4. use AI to summarize RFP opportunities at the top of the page
+5. AI can draft a response",
+,Develop an AI Solution Hypothesis,AI Solution Hypothesis,Diverge,Ideate potential solutions to address your AI-solvable pain points. Focus on generating a high quantity of ideas rather than evaluating their quality at this stage.,"AI can read RFPs and give you a summary. AI can web crawl and scrape for you based on your needs. Create the world's greatest marketplace for RFPs and get the data on both sides to then optimize things. AI writes your RFP responses. AI creates a checklist for you. AI creates generic reply templates that can be customized for opportunities as soon as it sees them, or when a user tells it to apply. AI looks at winning bids and constructs a winner out of those for future bids. AI takes your sales materials and turns that into an RFP response. AI uses your brochure instead of text search.",
+,,,Converge,"Rank your ideated solutions based on impact and feasibility. Identify your top three AI solutions, and clearly select the one you'll focus on for your project.","Top 3 solutions. 1. AI requirement checklist 2. AI-led RFP seeker 3. AI RFP writer.
+
+I'm doing 1 with 2 as a stretch goal",
+DESIGN,Define Target State Workflow,"UX Flows & Wireframes
+
+Suggested Tool:
+Excalidraw","Workflow
+(future)","Assuming your product or feature works as desired, what is the target state workflow?","The happy path begins when a salesperson arrives at the application, and enters a search term or uploads a brochure in order to try to find relevant RFPs. The system has 24x7 been searching for RFPs and pre-chewing them when saved to reduce the latency inherent to processing 40-200pg documents. Our user selects an RFP that appeals to them, and the system is able to provide them with an interactive checklist they can use to systematically respond to the RFP without having to read a bunch of boilerplate with hidden requirements that can disqualify a bidder that missed some buried text. We place the opportunity size and bidder requirements at the top so a respondent can decide if this opportunity is worth investing in, and if their organization qualifies. The bidder finds an RFP they like and fills out their response using our software as a checklist. In the future, the system will fill out the RFP for the user, remembering past entries. It will also look at winning bids and offer advice on winning these bids.","Please leave this area blank. 
+
+This space is for the Instructor to provide you with feedback."
+,Build Wireframes,,Wireframes,"How will users navigate through your AI solution? What are the key steps and decision points? What information will be displayed at each stage?
+
+What specific UI elements are needed on each screen? How will the layout accommodate AI features? ","The interface is designed to be very simple. The user begins by deciding to upload a document or search for an opportunity. If they search, they can just upload a brochure instead of typing anything. They then see a list of opportunities. These can be pre-filtered by location as well. Then, with either initial choice, they see a representation of the RFP and an interactive checklist to assist with filling out a response. Requirements are shown as action items or informational, and then also divided into required and optional items. Items that apply to winning bids are shown for informational purposes. The AI features are kept intentionally abstracted by the interface so the user is not engaging in a chat with an LLM directly.",
+,Develop Prototype to showcase AI interactions,"Prototype Screens
+
+Suggested Tool:
+lovable.dev",,"What aspects of the AI solution will you demonstrate in your prototype? How will the AI inputs, processing, and outputs be presented visually to users?
+
+Which features are essential for launch? What can be left for later releases?","I will show the basic flow of searching for an opportunity, using the interface to fill out the checklist, and seeing the AI agents create the checklist in real time. With some gating around login and moving everything to the cloud, I would launch with this feature set to get feedback from pilot users. That will help me understand what items should be on the checklist and what qualified as a requirement for salespeople that are our target users.",
+,Initial Prompt Design,"Master Prompt 
+[Initial Design]",,"Create an initial master prompt. Consider the following: 
+
+What tone or personality should the AI use? How should user input and system instructions be structured for maximum clarity? What system instruction will govern the AI's behavior? What examples might improve performance? How will you format outputs for consistency?","
+This initial prompt was very amateurish but you have to start somewhere. The project has since morphed into a system prompt that is orchestrating 7 agents. 
+
+<<<You are Nimra, an AI assistant that helps users find government and nonprofit RFPs. You are a helpful, professional, terse assistant that sticks to the facts. 
+
+Your job is to look at opportunities and tell users if they should bid on them.
+
+When a user asks about an RFP, review it and provide a summary. Explain the requirements, risks, deadlines, and important information. If you think it is a good opportunity, tell the user they should pursue it. If it is not a good opportunity, tell them not to pursue it.
+
+Always try to be helpful and accurate.
+
+Answer questions about procurement, contracts, grants, and proposals.
+
+Provide recommendations whenever possible based on user input on what they are looking for. Always cite references and admit if you do not know something instead of making it up.>>>",
+,Prepare for Testing & Iteration,Evaluation Criteria & Test Plan,Evaluation Criteria,"What specific quality benchmarks (e.g., clarity, relevance, tone, accuracy, SEO, hallucination avoidance) will define “good” output?",Accuracy and latency are the only two benchmakrs I care about. A missed requirement can doom an RFP response. Users will be somewhat patient but I show results in real time to try to get users to stick around as we take a couple minutes to process a document. We track performance of the system against benchmarked gold standard examples for latency and accuracy in labeling to make sure new features don't hurt performance.,
+,,,"Example 
+Cases","What specific example use cases, edge cases, and negative cases should be covered by test prompts and outputs?","We tracked missed requirements, inaccurate labeling, false positives (requirements spam), and overall time-to-process. All of these are covered by test prompts and an eval harness that I run after major updates.",
+DEVELOP,AI Model Selection & Justification,AI Model Selection & Justification,,Which AI model is best suited for your solution and why? What capabilities and limitations does it have? How will it integrate with your product?,"The main agent models are running Sonnet 4.6 as of June 15 when Sonnet 4 was retired (5 agents) and Haiku 4-5 (2 agents). I wanted to use higher end frontier models to get the prompts and flows right, and then I will start to test performance, latency, and cost by moving some of the Sonnet agents to Haiku to cut costs. Sonnet has advanced reasoning capabilities and is good at inferring meaning from the text, which is great for labeling and summarizing.
+
+Long term, I need to migrate to open source models such as Qwen 2.5, Llama 3.1 to save on token costs for Haiku, and then experiment with higher parameter open source models for the current Sonnet agents. I also plan on making the API connectors to Anthropic more generic to use OpenAI, Gemini, Grok etc. more easily. Grok in particular may be promising for affordably labeling lots of tokens.","Please leave this area blank. 
+
+This space is for the Instructor to provide you with feedback."
+,Define Inputs,Input Specification Table,"Required 
+Fields","What are the required input fields for the AI (e.g., title, description, keywords, tone)? Indicate format, source, requirement.","Users can enter keywords, describe what they are looking for in English, or upload a document to have the model extract the appropriate keywords and context from the document upload.",
+,,,"Optional 
+Fields",Are there any optional or user-customizable fields? How do they impact the AI’s output?,"Beyond the above, no.",
+,Define Good Output,Output Evaluation Checklist,"Objective 
+Criteria","What criteria will you use to judge output as “good”? (e.g., structure, use of keywords, tone, factuality, relevance)","Accuracy in labeling and avoiding missed requirements, minimizing false positives (requirements spam) for the RFP analysis, and then in the search we provide highly relevant responses, and accurate summaries of RFPs that are selected.",
+,,,Subjective Criteria,Are there any criteria that require human judgment or qualitative assessment?,"Yes; first all of the test cases (""gold cases"") are created by hand and then the system runs the eval harness against them to allow for iterative improvement and benchmarking. Then, if the system isn't sure about a requirement, it labels it ""for review"" and the user will decide if it makes sense or not, which is feedback we capture.",
+,Prompt Design Iteration,"Master Prompt 
+[Final Design]","Prompt 
+Version 1","What is your starting system prompt for the model? What variations will you test? What techniques will you use to optimize performance? List initial instructions, persona, inputs, and constraints.","<<<# Nimra — Project Context for Claude Code
+
+Operating manual for coding agents in this repo. It does **not** restate the
+architecture, file tree, models, or commands — those live in the sources below.
+Its job: priorities, philosophy, where each fact lives, the contracts/IO rules,
+guardrails, and the working agreement.
+
+## What this is
+A web app where a user uploads an RFP/RFI and a multi-agent pipeline produces a
+reviewable requirements checklist, plus a discovery flow to search collected RFPs.
+See `README.md` for what it does and how it's built.
+
+## Two mandates (hold both)
+1. **Graded school assignment, due Monday 2026-06-15.** A working, demoable product
+   + the graded eval harness. When the two mandates conflict, **shipping a working
+   demo wins.**
+2. **A long-term product** (the owner's serious venture; vision in `roadmap.md`).
+
+Reconcile by choosing **cheap seams that don't corner the roadmap** over hard-coded
+shortcuts (a store seam → S3, a repository seam → DB/pgvector, source anchors → semantic
+search). When unsure a seam is worth it, optimize for the deadline first.
+
+## Guiding philosophy
+- **Favor recall over precision.** A missed requirement can disqualify a bid; an
+  extra one costs a few minutes. When in doubt, INCLUDE and flag — never silently drop.
+- **Every agent has exactly one testable job** (so each prompt is evaluable alone).
+- **Strict JSON between agents** — JSON, not prose.
+
+## Where each fact lives (single source of truth — point, never restate)
+| Fact | Source of truth |
+|------|-----------------|
+| Architecture, agent roster, file tree, commands, setup, behavior overview | **`README.md`** |
+| Agent behavior (the prompts themselves) | **`/prompts/*.md`** — imported at runtime; don't paraphrase in code or docs |
+| Model assignments (which model per agent) | **`lib/anthropic.ts`** (`MODELS`) |
+| Shared data contracts | **`lib/types.ts`** (eval contracts: `evals/types.ts`) |
+| Eval methodology + score log | **`evals/EVALS.md`** |
+| Project history / what changed when | **`CHANGELOG.md`** |
+| Design records (the ""why"" of built features) | **`docs/*-plan.md`** |
+| Visual identity — design tokens, components, typography, a11y | **`docs/brand/style_guide.md`** |
+| Future product items | **`roadmap.md`** |
+
+The pipeline is Brule → Shakalu → Heiter → Robby → Riviera; supporting agents are
+Bones (ingestion), Dr. Cox (eval audit), Dr. Rockzo (discovery). The README roster
+has the model + role for each. **Rule:** never copy a fact that lives in code or
+another doc — link to it. When code and a doc disagree, **the code wins**; fix the doc.
+
+Key seams when editing: `lib/agents/pipeline.ts` (orchestrator), `lib/anthropic.ts`
+(SDK client, `MODELS`, prompt loader, defensive JSON parse + input cap),
+`lib/types.ts` (contracts), `app/api/analyze/route.ts` (run + stream NDJSON),
+`app/analyzer.tsx` + `app/components/` (UI).
+
+## Data contracts
+Live in `lib/types.ts` — the single source of truth; read them there. **Recall-first
+corollary:** any new field that can fail to resolve (e.g. a source anchor) must be
+**optional**, so a miss never drops or crashes an item.
+
+## Agent I/O rules
+- Every agent returns **strict JSON only** — no prose, no fences.
+- Parse **defensively** (`parseJsonStrict` in `lib/anthropic.ts`): strip fences /
+  prose preambles, then `JSON.parse` in a try/catch; on failure log the raw output
+  and surface a graceful error — never crash the pipeline.
+
+## Scope guardrails
+- **No auth** (out of scope).
+- **No DOCX/XLSX parsing** — `lib/parse/extractText.ts` is PDF + TXT only and throws
+  `UnsupportedFileError` otherwise; add `mammoth`/`xlsx` only when needed.
+- The old ""no database / no discovery"" rules were **lifted** (owner-approved) — both
+  shipped. See `README.md`.
+
+## Eval harness — GRADED DELIVERABLE, do not skip
+Recall-first scoring against hand-labeled gold (the moat). `npm run eval` reports
+recall-weighted Fβ (β=2) via an LLM judge; `--compare` A/Bs two prompts;
+`--post-heiter` scores after the LLM dedup; **Dr. Cox** (`evals/tools/audit-fps.ts`)
+audits false positives into an adjusted precision. Full method + score log:
+`evals/EVALS.md`.
+
+## Working agreement (for coding agents)
+- **Git:** never push to `main`. Branch → `pull --rebase` before push → open a PR for
+  the owner to merge. Multiple Claude instances share this private repo from different
+  machines; **stay off another instance's branch.**
+- **Shared context:** this file is the repo-tracked cross-instance context. `~/.claude`
+  memory/settings are per-machine and do **not** sync.
+- **Update the README with every commit** that touches setup, structure, behavior, a
+  command, or a contract — in the **same commit**. A change that lands without its
+  README update is incomplete.
+- **Consult the style guide for every UI change.** Before adding or editing any
+  component, read `docs/brand/style_guide.md` and adhere to it — Swiss/editorial:
+  flat hairline-bordered blocks (dividers over shadows), sharp corners, the design
+  tokens in `app/globals.css` (one accent), mono for labels/metadata + Archivo for
+  copy, and the a11y rules (visible focus, ≥44px targets). **Reuse the existing
+  primitives** (`.btn`/`.btn--accent`/`.btn--ghost`, `.field`/`.field__input`)
+  rather than re-styling from scratch, so the look stays consistent and single-source.
+- **Record history in `CHANGELOG.md`**, not in the core docs — keep README/CLAUDE/
+  `docs/*` present-tense.
+>>>",
+,,,Prompt Iterations,"If revised, what changes did you make and why? How do you track and record prompt evolution?","I ended up miles from where I started. I have 7 agents with their own prompts now. The system prompt is more for orchestration and so I didn't need a persona so much. Since I had multiple instances running to speed development, the pipeline became something to be concerned with as is coordination and documentation. 
+
+I'm using git to track iterations and a code-based eval harness to benchmark major versions' performance metrics. I have made a number of changes already to basic architecture, mostly having to do with performance issues and throttling experienced by the Claude API. I've had to refactor the prompt to slice up and parallelize the documents submitted. As I've added more agents to check the work, I have had to keep changing the prompts of the agents to make sure the flow of data is kept intact. I enforce a changelog and README to track changes.",
+,Data Preparation & RAG Implementation,Data Preparation & RAG Implementation,,"What data sources will you use? How will you prepare data for model training or evaluation? (e.g., cleaning, structuring). For RAG: How will you chunk, embed, retrieve relevant information?","I built a web crawler and scraper and use two agents to collect RFPs. They use a list of sources that is kept updated and API keys where appropriate for various services, and a connector for each API to handle syntax quirks. For RAG, I'm using vectorpg to store embedded data on a postgres database alongside postgres for deterministic search and the Voyage AI API to handle chunking and retrieval. The records are sent to an agent who then decides what to display to the user.",
+,Create Evaluation Set,Example Input/Output Data for Testing,Typical Examples,What are the most common inputs and expected outputs? Use real data if possible.,I used actual RFPs and Grant Invitations I had in my possession. All the test data save an initial perfect test sample are actual RFPs.,
+,,,Edge Cases & Negative Cases,"What examples test the AI’s limits? (e.g., missing data, ambiguous input, out-of-domain)","The problems I faced are: multiple file formats, PDF parsing especially with text call outs and tables, document size issues causing latency and rate limits and API data limits, de-duplicating, getting AI to understand nuances around what a user would care about so ambiguous input from the documents.",
+,,Test Example Data & Review Results,Manual Review,"Run your input data with the prompt. How did your output perform in manual review? Which examples failed which criteria, and why?","It created far too many duplicates and spammed requirements (over 300 instead of 156 human-found), and had 12 missed requirements",
+,,,Automated Evaluation,What pass/fail rate or scores did the AI achieve on core criteria?,Then: 92% accuracy but high latency (over 5min for a 20pg RFP) and 119% answer bloat.,
+,,Handle Edge Cases & Iterate,Edge Case Identification,What edge cases did you identify in testing or real usage?,"Excessive size of RFPs crashing the Claude APIs, parallelization causing rate limit throttling, spending $40-80/day on the API during testing was making my wife upset, RFP formatting is all over the place and can be hard to parse, vague language makes pulling requirements out challenging, lots of boilerplate legalese to wade through, hard to figure out what is even being bid, parsing tables and callouts in a PDF is tough, old file formats are more prevalent than I thought, multi-document RFPs are a whole different animal, TONS of duplicate requirements, lots of requirements that don't result in an action item for a bidder (ex: agrees not to break the law, agrees to arbitration in a dispute) to sift through.",
+,,,Updates & Adjustments,"What prompt or system adjustments have you made based on failures, feedback, or edge case observations?",Several rounds of performance improvements around parallelization and building a proper multi-agent system with single responsibility for agents to help them check each others' work. We needed many rounds of Agents scoring the labeling to get it right and rethink how we process data in order to get the latency down.,
+,,Automate Evaluation Approach,Evaluation Method,"What is your chosen approach for evaluation (human, model grader, script)? How will you scale testing to diverse/large test sets?","I created an eval harness based on ""gold case"" actual RFPs with human scoring that I test against programmatically. This allows for benchmarking across releases. Over time I want to go from two RFP gold cases to ten. Its very time consuming to create the requirements by hand so maybe some mix of AI-led and human-edited will help.",
+,,,Evaluation Frequency,"How often will you re-run evaluations for new data, new prompts, or post-launch monitoring?",I will re-run evaluations every time we merge major features and track performance in terms of accuracy and latency. This has already caught some bottleneck issues and enhancements that caused our accuracy to dip. The evaluations are automated and can be run as regression tests are used ahead of pushing to production with deterministic coding.,
+DEPLOY,Finalize Launch & Rollout Plan,Operational Readiness Checklist,Technical Readiness,"Is infra (APIs, databases, rate limits, monitoring, rollback) tested and documented?","Rate limits and APIs are tested and tracked, and I've had a couple rounds already of optimizations around latency and token use, which are documented as part of testing. See tab: ""Admin Panel""","Please leave this area blank. 
+
+This space is for the Instructor to provide you with feedback."
+,,,Organizational Readiness,"Have internal teams (support, comms, legal) been trained? Is documentation complete?","I'm a solo-preneur but I am religious about documenting, and everything is kept in the repo.",
+,,Launch & Rollout Strategy,Launch Approach,"What is your launch approach? Pilot, AB test, or all users—who gets access and when?","I'll have a limited pilot to help further develop around solving pain points for our personas. Once I observe that the tool is being used and delivering value, the next plan would be to work on a social media campaign for wider adoption utilizing invitations and a queue to manage initial growth and scaling issues. My biggest concern is I don't actually know what my token and infrastructure costs will look like in practice which would inform my pricing. Once that is understood, I would open the general sign ups and use advertising to scale. ",
+,,,Scale Readiness,How will you ensure readiness for scale? How will you monitor initial volume and scale up?,I'm relying on the eval harness benchmarking tools to track how long things are taking but I will need to implement an analytics tool ahead of the pilot to follow users through the journey and find bottlenecks. I think an agent that can use a Chromium type browser reader and is instructed to pick RFPs at random and track performance will also be incredibly helpful in the future to benchmark user performance metrics.,
+,,Go-to-Market Plan,Marketing / Training Assets,"What assets (FAQ, demo, guides) will you prepare for external communication/marketing?",I'd like to integrate a guide or interactive help in-app with a tool like Intercom to make onboarding pretty straightforward. There are only a couple of decision points for a user so I want to focus on keeping the experience simple.,
+,,,Stakeholder / Internal Comms,"How will you communicate launch plans, progress, and outcomes internally?","There is a roadmap.md and a docs/ directory that is part of the project, alongside documents describing the brand, overall vision, and engineering decisions that were already made and need to be made. This keeps the internal team up to speed. Code cannot be pushed to the repo without a README.md entry, also, serving as a history of what we did.",
+,,"Confirm Legal, Privacy & Risk Protocols",Data & Privacy,"How do you handle and protect user data, including storage, privacy, and compliance?","As of right now, I don't have user gating. The product is in development. The plan would be to use a service such as Clerk or Firebase to store user credentials separate from data, and to store any user data in an encrypted state. I want to add popups for accepting our Terms of Service and Privacy policies and enforce CCPA, PIPEDA. GDPR can hopefully wait.",
+,,,Policy & Compliance,"Are content moderation, legal, and audit processes in place? Are you compliant with regulations needed for your domain?",Yes; our agent prompts include instructions to read robots.txt files and Terms of Service to avoid scraping websites that request we not do so. I have anti-prompt-injection and illegal activity prompts for each agent as they all touch user-provided content and data entry fields.,
+,Define Success Metrics,Success Metrics,User/Business Metrics,What user metrics will indicate success? What business metrics will demonstrate value? ,"Ultimately I hope this is a paid service where revenue and repeat usage are my ultimate north stars for success. For value, I think the number of searches completed per user is a positive metric, and searches per user / selections per user tells me roughly how well my search is performing, where 1 is perfect search. ",
+,,,AI Metrics,How will you measure AI performance and accuracy?,The eval harness is doing a lot of work here where we are testing against gold test cases for performance and accuracy. We also flag requirements for review and ask users to give us direct feedback.,
+,"Monitor, Iterate & Improve",User Support & Feedback Plan,Support Channels,Where can users get support? Is escalation and ownership clear?,I'm a solo-preneur so am pretty clear on responsibilities :) but I provide an email (help@nimra.ai) for help in the footer.,
+,,,Feedback Workflow,"How do you gather, triage, and act on feedback and bugs? How are critical issues prioritized and communicated?","I am tracking issues on Github in a private repo, and working with my AI agents and LLMs to help prioritize and correct issues as they arise. I allow users to provide feedback via email and on requirements where the model was unsure of the answer and sought human intervention. I triage with my LLM homies and the basic procedure is report bug and request plan, ask me relevant questions, and implement the decided course after some back and forth.  I am personally smoke testing and filing issues.",
+,,Monitoring & Continuous Improvement,Monitoring Approach,What monitoring/logging is in place to spot operational/AI issues post-launch?,"We have user response tracking requirements that confused the model, and thumbs up/down on the requirements page to gauge sentiment overall. These reports feed to an admin panel that we'll eventually hide from users once we gate this. I also have a developer panel built that shows error messages that also is only visible to internal users at some point in the future when I gate this.",
+,,,Ongoing Improvement,"How will you collect learnings, review performance, and update your system continuously post-launch?","I hope to add a feedback button via a tool like Userback that can allow users to give direct feedback. Each release runs the eval harness so we continuously benchmark latency and accuracy. I want to install an analytics tool and screen capture tool to watch users and get data, and build a QA agent that can smoketest for me and track actual user performance. My favorite thing to do is watch users with the product so hopefully as these systems become reliable and automated I can do more of that.",

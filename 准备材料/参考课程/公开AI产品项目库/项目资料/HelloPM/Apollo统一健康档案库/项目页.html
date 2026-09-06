@@ -1,0 +1,187 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Improving Health Record Access and Care Continuity on Apollo 24/7 — Improving Product Sense example by Lalith Koushik Ganganapalli | HelloPM</title>
+<meta name="description" content="A walk through three Apollo 24/7 flows, what works in them, and where patients get stuck">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://hellopm.co/app/pub/examples/assets/css/site.css">
+<script>(function(){try{var t=localStorage.getItem("hpm-examples-theme");if(t){document.documentElement.setAttribute("data-theme",t);}}catch(e){}})();</script>
+
+<link rel="canonical" href="https://hellopm.co/app/p/assignment_examples/examples/lalith-koushik-ganganapalli-a1">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="HelloPM">
+<meta property="og:url" content="https://hellopm.co/app/p/assignment_examples/examples/lalith-koushik-ganganapalli-a1">
+<meta name="twitter:card" content="summary">
+<meta property="og:image" content="https://hellopm.co/app/pub/examples/logos/apollo-24-7.png">
+<meta property="og:title" content="Improving Health Record Access and Care Continuity on Apollo 24/7 — Improving Product Sense example by Lalith Koushik Ganganapalli | HelloPM">
+<meta property="og:description" content="A walk through three Apollo 24/7 flows, what works in them, and where patients get stuck">
+</head>
+<body>
+<header class="topbar"><div class="topbar-inner">
+  <a class="brand" href="https://hellopm.co/app/p/assignment_examples"><span class="brand-mark"></span>HelloPM <span class="brand-sub">· Assignment Examples</span></a>
+  <nav class="nav">
+    <a class="nav-link" href="https://hellopm.co/app/p/assignment_examples#browse">Browse examples</a>
+    <a class="nav-link" href="https://hellopm.co/app/p/assignment_examples#assignments">The assignments</a>
+    <a class="nav-link" href="https://hellopm.co/app/p/assignment_examples/how-to-use">How to use them</a>
+  </nav>
+  <a class="nav-cta" href="https://hellopm.co/app/p/assignment_examples#browse">Browse 149 examples &rarr;</a>
+  <button class="theme-toggle" type="button" aria-label="Switch between light and dark"><span class="icon-light">☾</span><span class="icon-dark">☀</span></button>
+</div></header>
+<div class="container">
+<div class="breadcrumb"><a href="https://hellopm.co/app/p/assignment_examples">Assignment Examples</a><span class="sep">/</span><a href="https://hellopm.co/app/p/assignment_examples/assignments/improving-product-sense">Improving Product Sense</a><span class="sep">/</span>Apollo 24/7</div>
+<section class="case-hero">
+<span class="eyebrow">Improving Product Sense · Apollo 24/7</span>
+<h1 class="page-title">Improving Health Record Access and Care Continuity on Apollo 24/7</h1>
+<p class="subtitle">A walk through three Apollo 24/7 flows, what works in them, and where patients get stuck</p>
+<a class="byline" href="https://hellopm.co/app/p/assignment_examples/students/lalith-koushik-ganganapalli"><span class="byline-avatar">LG</span><span class="byline-name">Lalith Koushik Ganganapalli</span><span class="byline-cohort">HelloPM alum</span></a>
+</section>
+<div class="chip-row reveal">
+  <a class="chip" href="https://hellopm.co/app/p/assignment_examples/assignments/improving-product-sense">Improving Product Sense</a>
+  <a class="chip" href="https://hellopm.co/app/p/assignment_examples?industry=healthtech">HealthTech</a>
+  <span class="chip">Apollo 24/7</span>
+</div>
+<div class="logo-banner"><img class="logo-banner-img" loading="lazy" src="https://hellopm.co/app/pub/examples/logos/apollo-24-7.png" alt="Apollo 24/7 logo" onerror="this.style.display='none';this.nextElementSibling.style.display='flex';"><div class="logo-banner-fallback" style="display:none;"><span class="initial">A</span><span class="name">Apollo 24/7</span></div></div>
+<div class="phase-bar reveal" role="tablist" aria-label="Phases of this submission"><span class="phase-bar-label">Phases</span>
+  <button class="phase-tab is-active" type="button" role="tab" id="tab-1" aria-controls="phase-1" aria-selected="true" tabindex="0" data-phase="phase-1"><span class="num">01</span>Product teardown</button>
+  <button class="phase-tab" type="button" role="tab" id="tab-2" aria-controls="phase-2" aria-selected="false" tabindex="-1" data-phase="phase-2"><span class="num">02</span>User research</button>
+  <button class="phase-tab" type="button" role="tab" id="tab-3" aria-controls="phase-3" aria-selected="false" tabindex="-1" data-phase="phase-3"><span class="num">03</span>Solution design</button>
+  <button class="phase-tab" type="button" role="tab" id="tab-4" aria-controls="phase-4" aria-selected="false" tabindex="-1" data-phase="phase-4"><span class="num">04</span>The PRD</button>
+</div>
+<div class="phase-panel" id="phase-1" role="tabpanel" aria-labelledby="tab-1">
+<div class="assignment reveal">
+  <p class="assignment-label">Phase 01 · Product teardown</p>
+  <p class="assignment-text">Improving Health Record Access and Care Continuity on Apollo 24/7</p>
+</div>
+<div class="case-block reveal"><h2><span class="dot">✳</span>The problem they went after</h2>
+<p class="case-about">Apollo 24/7 bundles doctor consultations, lab bookings, medicine delivery and health records into one app, which makes it easy to assume the experience is joined up. This teardown tests that assumption across the three flows patients actually live in: sign-up and profile creation, service booking and payment, and getting to health records.</p></div>
+<div class="case-block reveal"><h2><span class="dot">✳</span>What they actually did</h2>
+<p class="case-about">The teardown names what works before what does not. Multi-profile management for families, a clean booking-to-payment handoff and centralised lab reports hold up well. Friction shows up as missing doctor ratings, no way for a patient to reschedule an appointment themselves, and health package reports split by department rather than grouped under the package that was bought. Three problem hypotheses follow, ranked by impact on retention and revenue, alongside a competitive map against Fortis, Max Healthcare and Manipal.</p></div>
+<div class="case-block reveal"><h2><span class="dot">✳</span>What you can take from it</h2>
+<div class="assess-grid">
+<div class="assess-col"><p class="assess-h">Worth stealing</p><ul class="assess-list">
+<li>Three flows audited: sign-up, booking and payment, records</li>
+<li>Friction logged next to what already works well</li>
+<li>Problem hypotheses ranked by retention and revenue impact</li>
+<li>Competitive map against Fortis, Max Healthcare and Manipal</li>
+</ul></div>
+<div class="assess-col"><p class="assess-h">Read this if</p>
+<p class="case-about">Writing your first teardown and unsure how to end it</p></div>
+</div>
+<p class="assess-take"><span class="assess-take-label">The transferable bit</span>A teardown earns its keep when it ends somewhere. This one converts observations into three ranked hypotheses instead of a list of gripes, and ranks them on retention and revenue rather than on how annoying each felt in the moment. That ordering step is what separates a teardown from a review.</p>
+</div>
+<div class="pdf-panel reveal">
+  <div class="pdf-panel-head"><h2><span class="dot">✳</span>The submission itself</h2>
+  <a class="cta-button" href="https://hellopm.co/app/pub/examples/pdfs/lalith-koushik-ganganapalli-c47a1p1.pdf" target="_blank" rel="noopener">Open the PDF &rarr;</a></div>
+  <div class="pdf-frame"><iframe src="https://hellopm.co/app/pub/examples/pdfs/lalith-koushik-ganganapalli-c47a1p1.pdf" title="Improving Health Record Access and Care Continuity on Apollo 24/7" loading="lazy"></iframe></div>
+  <p class="pdf-note">Reading on a phone? The embedded viewer is cramped — open the PDF in a new tab instead.</p>
+</div>
+</div>
+<div class="phase-panel" id="phase-2" role="tabpanel" aria-labelledby="tab-2" hidden>
+<div class="assignment reveal">
+  <p class="assignment-label">Phase 02 · User research</p>
+  <p class="assignment-text">Fixing Fragmented Health Records on Apollo 24/7</p>
+</div>
+<div class="case-block reveal"><h2><span class="dot">✳</span>The problem they went after</h2>
+<p class="case-about">Patients using Apollo 24/7 alongside non-Apollo hospitals cannot get their records into one place. Caregivers keep paper files and digital folders by hand, non-Apollo doctors reject Apollo lab results and order the tests again, and symptom-to-specialist triage misfires often enough to notice. The cost lands as wasted money, wasted time and eroding trust in the platform.</p></div>
+<div class="case-block reveal"><h2><span class="dot">✳</span>What they actually did</h2>
+<p class="case-about">Three pain points come out of the research: records fragmented across providers, lab package choices with no clear differentiation, and no post-visit reminders or follow-up orchestration. Two interviews, one with a product manager handling family care and one with a caregiver for elderly parents, surfaced identical workarounds independently: spreadsheets, physical folders, calls to the local pharmacy. The direction that follows is a Universal Health Vault with camera, upload and email capture, where OCR and medical entity recognition auto-tag each document onto one timeline.</p></div>
+<div class="case-block reveal"><h2><span class="dot">✳</span>What you can take from it</h2>
+<div class="assess-grid">
+<div class="assess-col"><p class="assess-h">Worth stealing</p><ul class="assess-list">
+<li>Repeated workarounds across interviews treated as signal</li>
+<li>Retests ordered by non-Apollo doctors as a concrete cost</li>
+<li>OCR plus medical entity recognition tagging onto one timeline</li>
+<li>Follow-up orchestration turning advice into one-tap rebooking</li>
+</ul></div>
+<div class="assess-col"><p class="assess-h">Read this if</p>
+<p class="case-about">Turning a handful of interviews into a defensible problem statement</p></div>
+</div>
+<p class="assess-take"><span class="assess-take-label">The transferable bit</span>Watch how the same workaround appearing in two unrelated interviews gets treated as evidence. Spreadsheets and physical folders are users building the product themselves, and the proposal here is largely a faster version of what they already do. Copying an existing workaround is usually a safer first bet than inventing a new behaviour.</p>
+</div>
+<div class="pdf-panel reveal">
+  <div class="pdf-panel-head"><h2><span class="dot">✳</span>The submission itself</h2>
+  <a class="cta-button" href="https://hellopm.co/app/pub/examples/pdfs/lalith-koushik-ganganapalli-c47a1p2.pdf" target="_blank" rel="noopener">Open the PDF &rarr;</a></div>
+  <div class="pdf-frame"><iframe src="https://hellopm.co/app/pub/examples/pdfs/lalith-koushik-ganganapalli-c47a1p2.pdf" title="Fixing Fragmented Health Records on Apollo 24/7" loading="lazy"></iframe></div>
+  <p class="pdf-note">Reading on a phone? The embedded viewer is cramped — open the PDF in a new tab instead.</p>
+</div>
+</div>
+<div class="phase-panel" id="phase-3" role="tabpanel" aria-labelledby="tab-3" hidden>
+<div class="assignment reveal">
+  <p class="assignment-label">Phase 03 · Solution design</p>
+  <p class="assignment-text">Building a Unified Health Records Vault on Apollo&#x27;s Platform</p>
+</div>
+<div class="case-block reveal"><h2><span class="dot">✳</span>The problem they went after</h2>
+<p class="case-about">Patients moving between Apollo and other providers have nowhere to store, retrieve or share their history. Records sit in physical files, email attachments and third-party apps. The bill arrives as repeat diagnostic tests, doctors consulting without context, and Apollo looking less like the comprehensive health platform it claims to be.</p></div>
+<div class="case-block reveal"><h2><span class="dot">✳</span>What they actually did</h2>
+<p class="case-about">Records come in three ways: camera capture, file upload and email parsing. OCR and medical entity recognition tag each one by patient, test name, date, lab and diagnosis. An account-aggregator model, essentially UPI but for health data, would pull verified imports from partner labs and hospitals, while ABDM and DigiLocker integrations bring in government-verified records under explicit, time-bound consent. On top of that structured base sit longitudinal summaries, trend comparisons, care plans with reminders and reorder flows, and a Medical Passport view for fast clinical handoff.</p></div>
+<div class="case-block reveal"><h2><span class="dot">✳</span>What you can take from it</h2>
+<div class="assess-grid">
+<div class="assess-col"><p class="assess-h">Worth stealing</p><ul class="assess-list">
+<li>Account-aggregator model borrowed from UPI for financial data</li>
+<li>ABDM and DigiLocker imports under time-bound consent</li>
+<li>Medical Passport view built for fast clinical handoffs</li>
+<li>Gamified vault rewards driving consistent record consolidation</li>
+</ul></div>
+<div class="assess-col"><p class="assess-h">Read this if</p>
+<p class="case-about">Designing data ingestion where consent and verification are part of the product</p></div>
+</div>
+<p class="assess-take"><span class="assess-take-label">The transferable bit</span>Ingestion, structuring and the features patients see are treated as separate layers, so the summaries and Medical Passport only exist because the tagging happened first. Consent is designed in rather than bolted on, which matters in any product touching regulated records.</p>
+</div>
+<div class="pdf-panel reveal">
+  <div class="pdf-panel-head"><h2><span class="dot">✳</span>The submission itself</h2>
+  <a class="cta-button" href="https://hellopm.co/app/pub/examples/pdfs/lalith-koushik-ganganapalli-c47a1p3.pdf" target="_blank" rel="noopener">Open the PDF &rarr;</a></div>
+  <div class="pdf-frame"><iframe src="https://hellopm.co/app/pub/examples/pdfs/lalith-koushik-ganganapalli-c47a1p3.pdf" title="Building a Unified Health Records Vault on Apollo&#x27;s Platform" loading="lazy"></iframe></div>
+  <p class="pdf-note">Reading on a phone? The embedded viewer is cramped — open the PDF in a new tab instead.</p>
+</div>
+</div>
+<div class="phase-panel" id="phase-4" role="tabpanel" aria-labelledby="tab-4" hidden>
+<div class="assignment reveal">
+  <p class="assignment-label">Phase 04 · The PRD</p>
+  <p class="assignment-text">Building a Universal Health Vault Inside Apollo 24/7</p>
+</div>
+<div class="case-block reveal"><h2><span class="dot">✳</span>The problem they went after</h2>
+<p class="case-about">Patients and caregivers split across Apollo and non-Apollo hospitals cannot see all their records in one place. They repeat lab tests, keep files by hand across folders and cloud drives, and treat Apollo as a booking tool rather than a health companion. Three personas carry the problem: someone managing family care across providers, a caregiver for elderly parents, and a health manager coordinating chronic care.</p></div>
+<div class="case-block reveal"><h2><span class="dot">✳</span>What they actually did</h2>
+<p class="case-about">The PRD proposes three features that depend on each other. The Universal Health Vault captures records by camera, upload or email, with OCR and medical entity recognition tagging by person, date, test type and diagnosis onto one timeline. Structured Summaries turn raw documents into actionable insights and trend comparisons. Follow-up Orchestration converts doctor recommendations into reminders, rebooking shortcuts and medicine top-up prompts. The serviceable market is sized at 7.4 million Apollo active users who visit other providers or manage family members, with a year-one target of 2.4 million uploading external records.</p></div>
+<div class="case-block reveal"><h2><span class="dot">✳</span>What you can take from it</h2>
+<div class="assess-grid">
+<div class="assess-col"><p class="assess-h">Worth stealing</p><ul class="assess-list">
+<li>Three features scoped so each one feeds the next</li>
+<li>Market narrowed to 7.4 million multi-provider and caregiving users</li>
+<li>Metrics chosen to test the retention thesis directly</li>
+<li>Personas mapped to distinct care coordination jobs</li>
+</ul></div>
+<div class="assess-col"><p class="assess-h">Read this if</p>
+<p class="case-about">Writing a PRD and struggling to connect market sizing to success metrics</p></div>
+</div>
+<p class="assess-take"><span class="assess-take-label">The transferable bit</span>Reduced 30-day churn, weekly active days among uploading users and multi-profile household growth all test the same claim: that keeping your records here is what makes you stay. Tying a PRD&#x27;s metrics back to its thesis that tightly is rare. Note too that the market number is carved down to the users the feature actually serves.</p>
+</div>
+<div class="pdf-panel reveal">
+  <div class="pdf-panel-head"><h2><span class="dot">✳</span>The submission itself</h2>
+  <a class="cta-button" href="https://hellopm.co/app/pub/examples/pdfs/lalith-koushik-ganganapalli-c47a1p4.pdf" target="_blank" rel="noopener">Open the PDF &rarr;</a></div>
+  <div class="pdf-frame"><iframe src="https://hellopm.co/app/pub/examples/pdfs/lalith-koushik-ganganapalli-c47a1p4.pdf" title="Building a Universal Health Vault Inside Apollo 24/7" loading="lazy"></iframe></div>
+  <p class="pdf-note">Reading on a phone? The embedded viewer is cramped — open the PDF in a new tab instead.</p>
+</div>
+</div>
+<section><h2 class="section-head reveal"><span class="idx">&#43;</span><span class="label">Same industry, different take</span><span class="line"></span><span class="meta">HealthTech</span></h2>
+<div class="mini-list reveal">
+<a class="mini-row" href="https://hellopm.co/app/p/assignment_examples/examples/gauri-yadav-a1"><span class="mini-logo"><img loading="lazy" src="https://hellopm.co/app/pub/examples/logos/strava.svg" alt="" onerror="this.style.display='none';this.nextElementSibling.style.display='block';"><span class="initial" style="display:none;">S</span></span><span class="mini-body"><span class="mini-title">Helping Beginner Runners Stay Consistent with Strava Guidance</span><span class="mini-meta">Gauri Yadav · Strava</span></span><span class="mini-arrow">&rarr;</span></a>
+<a class="mini-row" href="https://hellopm.co/app/p/assignment_examples/examples/gurender-singh-a1"><span class="mini-logo"><img loading="lazy" src="https://hellopm.co/app/pub/examples/logos/cult-fit.png" alt="" onerror="this.style.display='none';this.nextElementSibling.style.display='block';"><span class="initial" style="display:none;">C</span></span><span class="mini-body"><span class="mini-title">Analyzing Cult.fit&#x27;s Fitness Platform Strengths and User Gaps</span><span class="mini-meta">Gurender Singh · Cult.fit</span></span><span class="mini-arrow">&rarr;</span></a>
+<a class="mini-row" href="https://hellopm.co/app/p/assignment_examples/examples/mayank-bhardwaj-a1"><span class="mini-logo"><img loading="lazy" src="https://hellopm.co/app/pub/examples/logos/tata-1mg.png" alt="" onerror="this.style.display='none';this.nextElementSibling.style.display='block';"><span class="initial" style="display:none;">T</span></span><span class="mini-body"><span class="mini-title">Streamlining Medicine Orders and Lab Tests on Tata 1mg</span><span class="mini-meta">Mayank Bhardwaj · Tata 1mg</span></span><span class="mini-arrow">&rarr;</span></a>
+<a class="mini-row" href="https://hellopm.co/app/p/assignment_examples/examples/shobhit-sawhney-a1"><span class="mini-logo"><img loading="lazy" src="https://hellopm.co/app/pub/examples/logos/cult-fit.png" alt="" onerror="this.style.display='none';this.nextElementSibling.style.display='block';"><span class="initial" style="display:none;">C</span></span><span class="mini-body"><span class="mini-title">Weekly Workout Planning and Guided Routines to Reduce Cult.fit Churn</span><span class="mini-meta">Shobhit Sawhney · Cult.fit</span></span><span class="mini-arrow">&rarr;</span></a>
+</div></section>
+<div class="page-nav">
+  <a class="footer-link" href="https://hellopm.co/app/p/assignment_examples/assignments/improving-product-sense">&larr; All Improving Product Sense examples</a>
+  <a class="footer-link" href="https://hellopm.co/app/p/assignment_examples#browse">Browse everything &rarr;</a>
+</div>
+<div class="site-footer">
+  <span>HelloPM · Assignment Examples — real submissions from HelloPM cohorts</span>
+  <span>149 examples · 134 product managers</span>
+</div>
+</div>
+<script src="https://hellopm.co/app/pub/examples/assets/js/site.js" defer></script>
+</body>
+</html>

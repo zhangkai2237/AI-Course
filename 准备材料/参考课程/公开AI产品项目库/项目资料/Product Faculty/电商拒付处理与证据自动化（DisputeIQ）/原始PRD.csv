@@ -1,0 +1,936 @@
+"PRODUCT FACULTY — AI PRODUCT REQUIREMENTS DOCUMENT (PRD)
+Version 1.0",,,,,,
+Your Name:,,Shirjeel Ahmad and Praveena Vichanthangal Prathivathi,,,,
+Your Product:,,DisputeIQ — AI-Powered Chargeback Revenue Protection Platform,,,,
+Your Industry:,,Financial Services / Payments / E-commerce,,,,
+Date:,,"March 14, 2026",,,,
+4D Method,,AI PRD ,,,,Instructor Feedback
+Phase,Activity,Theme,Topic,Key Question(s),"Your Response
+Include external links to visuals/prototypes as required.",
+DISCOVERY,"Understand your market, business, product & user context","Business 
+Value Map",Market Attractiveness,"What industry is your business in? (ie Financial services, Healthcare, Education, etc)?","Financial Services / Payments / E-commerce.
+
+DisputeIQ operates at the intersection of payments infrastructure and e-commerce operations. Target segment: chargeback management and revenue protection software for SMB-to-mid-market online merchants.
+
+The product is platform-agnostic — integrates with any ecommerce platform (Shopify, WooCommerce, Magento) and payment processor (Stripe, PayPal, Adyen) via APIs and webhooks.","Please leave this area blank. 
+
+This space is for the Instructor to provide you with feedback."
+,,,,What are the key challenges (headwinds) and opportunities (tailwinds) impacting growth in your industry? Who are the key competitors?,"Key headwinds:
+- Chargeback fraud (""friendly fraud"") rising — 60-80% of chargebacks are not real fraud, making evidence quality the deciding factor
+- Global chargeback volume projected to exceed $100B annually (LexisNexis Risk Solutions True Cost of Fraud study)
+- Stricter issuer policies mean merchants lose more disputes by default
+- PCI compliance and multi-system data fragmentation make evidence compilation difficult for small teams
+
+Key tailwinds (industry estimate; consistent across Chargebacks911 and Midigator vendor reports):
+- GenAI enables classification, multi-source retrieval, and structured output generation — exactly what chargeback response requires
+- Ecommerce platforms (Shopify, WooCommerce) and payment processors (Stripe, Adyen) all have public APIs enabling automated evidence retrieval
+- SMB ecommerce growing rapidly — Shopify alone has 1.7M+ merchants globally
+- Merchants are increasingly willing to pay SaaS tools for automation (Chargeflow validates $50M ARR)
+
+Projected growth rate: Chargeback management market growing 18-25% CAGR through 2027.",
+,,,,What is the projected growth rate of your target market segment over the next 3-5 years?,"Global chargeback management market: projected 20–25% CAGR through 2027 (industry estimate; consistent across multiple chargeback vendor reports including Chargebacks911 and Midigator).
+
+Market size validation:
+• Chargeflow (closest direct competitor): $22M Series A raised, $50M+ ARR, 5,000+ merchant customers at $499–999/month
+• This confirms merchants pay $500–1000/month to solve this problem — a large, real market
+• TAM: 200K+ merchants with >20 disputes/month who would benefit from automation
+• SAM: ~50K Shopify/Stripe merchants in the $99–599/month price range
+• SOM (Year 1): 500 paying customers at $200 average MRR = $100K MRR",
+,,,"Business 
+Model","What growth stage is your business currently in (e.g., startup, scale-up, mature)?","Pre-seed / Capstone prototype.
+
+DisputeIQ is a new product being built as the AI PM Certification capstone (Product Faculty, Cohort 8). Designed for an early-stage startup targeting first 100 paying customers post-launch.
+
+MVP1 (Capstone, April 25): All 4 features built with synthetic/mock data. All 4 features demonstrated live in the demo. Feature 1 (pre-transaction risk scorer) opens the demo as a 30-second live segment. Features 2, 3, 4 follow as the 90-second core dispute flow.
+MVP2 (Post-capstone): Live API integrations, ML-based win prediction, auto-submission to processor portals.",
+,,,,"How does your business make money? What do they sell? What is your primary revenue model (e.g., subscription, freemium, licensing, marketplace, transactional, etc?)","Revenue model: Tiered SaaS subscription (per-dispute volume + monthly base)
+
+• Starter: $99/month — 50 disputes included, $2/dispute overage
+• Growth: $299/month — 200 disputes included, $2/dispute overage  
+• Enterprise: $599/month — 500 disputes included, $3/dispute overage
+
+Why this works:
+• Chargeflow validated $499–999/month price point at enterprise tier
+• DisputeIQ enters at $99/month to capture underserved SMB market
+• Per-dispute overage aligns revenue with value delivered
+• Predictable MRR model; usage caps control AI compute costs
+
+Unit economics (AI cost per dispute):
+Two Claude Haiku calls per dispute consume approximately 11,500 input tokens and 1,200 output tokens.
+At Haiku pricing ($0.25/M input, $1.25/M output): ~$0.004 per dispute in API cost.
+Gross margin on AI alone: ~99.8% at Starter tier, ~99.6% at Enterprise.
+Even at 10x token estimate: margin stays above 96%. Real cost drivers post-scale are infrastructure and customer support, not AI compute.",
+,,,,"Who is your primary customer base (B2B, B2C, B2B2C)?","B2B — DisputeIQ sells to e-commerce businesses (merchants), not individual consumers.
+
+Customer segments:
+• Shopify Plus stores ($500K–10M annual GMV)
+• Amazon FBA sellers ($2–50M annual sales)
+• Subscription box companies (high chargeback risk from recurring billing)
+• Digital goods merchants (SaaS, online courses — high ""friendly fraud"")
+• High-risk verticals (CBD, supplements, travel — 2–5% chargeback rates)
+
+Primary buyer: E-commerce business owner or Head of Operations who makes SaaS purchasing decisions",
+,,,Differentiators,What are the key differentiators for your company? ,"Key differentiators vs. Chargeflow (primary competitor):
+
+1. Price: $99–599/month vs. Chargeflow's $499+ minimum — accessible to SMBs
+2. Target segment: SMB / mid-market vs. Chargeflow's enterprise focus
+3. Approach: AI-first, fully automated vs. Chargeflow's AI + human review hybrid
+4. Distribution: Self-serve Shopify/Stripe app vs. Chargeflow's sales-driven model
+5. Time to value: <5 minutes from install to first dispute processed vs. days/weeks for enterprise onboarding
+
+Core value proposition: ""Win more disputes in 3 minutes, not 45""",
+,,"Feature 
+Value Map
+
+(IMPORTANT NOTE: This section is only relevant if you are working on enhancing an existing product. It does not apply if you are developing a new product from 0 to 1.)",Customers,Who are the customers (ie buyers) of your product? ,"Buyers (who pay for DisputeIQ):
+• E-commerce business owners (Shopify Plus / Amazon FBA / subscription merchants)
+• Finance leads or Operations Heads at larger merchants
+• Purchasing trigger: 50+ disputes/month, spending 20+ hours/month on manual evidence compilation
+
+Segmented by dispute volume:
+• SMB: 20–50 disputes/month → Starter tier
+• Mid-market: 50–200 disputes/month → Growth tier
+• High-volume: 200+ disputes/month → Enterprise tier",
+,,,End Users,"Who are the end-users of your product? Which users are the most revenue-generating / revenue-impacting for your company? What are their goals, roles, and context?","Primary end user — ""Sarah"" (E-commerce Operations Manager):
+• Age: 28–40
+• Company: Shopify Plus merchant, ~$3M GMV, 15 employees
+• Disputes/month: ~80 (mix of reason codes)
+• Current time on disputes: ~40 hours/month (30 min avg per dispute)
+• Tools used today: Shopify, UPS/FedEx portal, Zendesk, email, Word/Google Docs
+• Technical level: Moderate — comfortable with SaaS, no coding required
+• Key JTBD: Submit dispute responses that win, without losing hours to manual work
+
+Most revenue-impacting user: Sarah directly recovers lost revenue by winning disputes — every 10% win rate improvement = thousands of dollars recovered monthly for a mid-volume merchant",
+,,,Current Products / Services,"If you are a Product-led business: 
+What are the core features of your product, and how do they address user needs?
+
+If you are a Service-led business: 
+What are the key services you offer to customers?","DisputeIQ is a net-new product covering the full chargeback lifecycle across 4 core features:
+
+Feature 1 — Predictive AI for Chargebacks Before Orders Ship:
+Flags high-risk orders pre-fulfillment using fraud signals: device risk score, IP/country match, new customer flag, order velocity, AVS/CVV match. MVP uses rules-based scoring with synthetic data. Upgrades to ML model once real platform data flows post-launch. Shown live in the demo opening segment.
+
+Feature 2 — Automated Evidence Aggregation:
+Pulls transaction, shipping, customer communication, and platform data across all connected systems automatically. Eliminates 30-45 min of manual copy-paste across 4-6 tools. Platform-agnostic: works with Shopify, WooCommerce, Magento, Stripe, PayPal, UPS, FedEx, Zendesk.
+
+Feature 3 — AI Win Probability Prediction:
+Scores each dispute with a win likelihood percentage using evidence quality, reason code, customer history. Dashboard shows ""72% - Submit"" or ""18% - Refund instead."" Prevents wasted effort on unwinnable disputes.
+
+Feature 4 — Evidence Package Generator:
+Generates network-compliant dispute evidence PDFs for Visa and Mastercard submissions. Structured format: transaction summary, proof of authorization, delivery confirmation, customer communication, policy acceptance.",
+,,"User 
+Value Map",Target Persona,"Who is your AI product / feature for? (Internal users, external users, an influencer, a buyer, etc) ","Primary persona: ""Sarah"" — E-commerce Operations Manager
+
+Demographics: 28–40 years old, works at Shopify Plus merchant ($500K–10M GMV), team of 3–20 people
+
+Responsibilities: Order ops, logistics, customer service, dispute management — she handles everything operational
+
+Relationship to product: External user (not internal). Sarah is the primary end user who interacts with DisputeIQ daily.
+
+Jobs-to-be-done:
+• When I receive a chargeback, I want to compile the strongest possible evidence without logging into 6 systems, so I can submit before the deadline and win without losing my afternoon
+• When I'm managing 80 disputes/month, I want to know which ones are worth fighting, so I don't waste time on unwinnable cases
+
+Pain level: 9/10 — repetitive, high-stakes, hard deadline",
+,,,"Journey Map
+(current-state)","What is the typical journey for your target persona when they are using your product / service, focusing on their ideal experience (happy path) as they interact with your product?","Current state journey map for Sarah responding to a chargeback:
+
+Step 1 (5 min): Receives chargeback notification via email from Stripe/Shopify — buried in inbox, 7-10 day deadline clock starts immediately
+
+Step 2 (5 min): Opens notification, identifies reason code — codes are cryptic (e.g., ""4853 — Cardholder Dispute""), Sarah has to look up what evidence is required
+
+Step 3 (5 min): Logs into Shopify, manually looks up order by transaction ID, screenshots/copies order details
+
+Step 4 (5 min): Logs into UPS/FedEx website separately, enters tracking number, downloads delivery confirmation PDF
+
+Step 5 (5 min): Logs into Zendesk, searches by customer email, screenshots any relevant CSR tickets
+
+Step 6 (10 min): Opens Word template, manually copies data from 3 different systems into formatted PDF
+
+Step 7 (5 min): Logs into chargeback portal (Stripe/Visa), uploads PDF, prays it meets portal-specific requirements
+
+Total: ~40–45 minutes. Repeated 50–200x per month = 25–100 hours of pure manual work monthly.
+
+Emotion: Stressed → frustrated → anxious → drained",
+,,,Pain-points,"Where does the user experience friction, obstacles, or unmet needs throughout the journey? Identify which pain-points are most frequent and severe? ","Pain points ranked by severity:
+
+CRITICAL (AI-solvable):
+1. Evidence identification error — Merchants don't know which evidence fields each reason code requires. Missing one field = auto-loss. This is the #1 cause of winnable disputes being lost (20–30% lose winnable cases due to incomplete evidence).
+
+2. Multi-system fragmentation — Evidence lives in 4–6 disconnected systems. No single view. Manual copy-paste is slow and error-prone.
+
+3. Volume overwhelm — At 80 disputes/month, 30 min each = 40 hours. That's essentially one full work week monthly spent only on dispute management.
+
+4. Deadline pressure — 7–10 calendar day window. Multiple deadlines per day for high-volume merchants. Easy to miss.
+
+SECONDARY:
+5. Portal-specific formatting — Stripe, Visa, and Mastercard portals have different format requirements (different PDF templates, field names)
+6. No win/loss learning — Merchants don't track which evidence strategies win vs. lose, so they repeat the same mistakes",
+,,,AI Opportunities,"From your list of pain points, identify those that can effectively be addressed using Generative AI. Remember, this project focuses on leveraging LLM-powered AI to solve your target persona's pain points.
+
+Rank these pain points starting with the most severe and frequently occurring first.","AI-solvable pain points (where Generative AI adds clear value):
+
+1. Evidence identification (Pain Point #1): LLM + RAG — Feed reason code, retrieve evidence requirements matrix, output exact checklist of required fields. Replaces Sarah needing to know or look up what's required.
+
+2. Multi-source retrieval + synthesis (Pain Point #2): Agentic retrieval — AI calls Shopify, UPS, Zendesk APIs, extracts relevant fields, combines into structured evidence object. Replaces 20 minutes of manual copy-paste.
+
+3. Completeness validation (Pain Point #2): LLM evaluation — AI scores evidence completeness and flags gaps before submission. Reduces ""forgot a field"" errors.
+
+4. Dispute response document generation (Pain Point #2): LLM structured generation — AI writes professional dispute narrative and formats into portal-specific template. Replaces 10 minutes of manual formatting.
+
+5. Submit vs. Don't Contest recommendation (Pain Point #4): Classification + confidence scoring — AI tells Sarah whether the evidence is strong enough to win, so she doesn't waste time submitting unwinnable cases.
+
+GenAI is particularly well-suited here because: (a) the task is highly structured and repeatable, (b) evidence requirements are rule-based (good for RAG), (c) document generation is a core LLM strength.",
+,Develop an AI Solution Hypothesis,AI Solution Hypothesis,Diverge,Ideate potential solutions to address your AI-solvable pain points. Focus on generating a high quantity of ideas rather than evaluating their quality at this stage.,"Ideated solutions (diverge phase — quantity over quality):
+
+1. DisputeIQ Full Agent — Fully automated pipeline: ingest chargeback → classify → retrieve evidence → validate → generate document → recommend → submit
+2. Reason Code Explainer — Simpler tool: merchant inputs reason code, LLM explains exactly what evidence is needed (advisory, no retrieval)
+3. Dispute Triage Dashboard — AI scores each open dispute by win probability so merchants prioritize which ones are worth fighting
+4. Chargeback Pattern Analyzer — Looks at past disputes, flags repeat fraudsters or problematic product categories  
+5. Portal-Specific Formatter — Takes existing evidence and reformats it to match Stripe/Visa/Mastercard portal specs
+6. Pre-Dispute Interceptor — Proactively contacts customers showing dispute signals before they file (using Order Insight / Ethoca data)",
+,,,Converge,"Rank your ideated solutions based on impact and feasibility. Identify your top three AI solutions, and clearly select the one you'll focus on for your project.","Top 3 ideas evaluated on impact × feasibility:
+
+1. DisputeIQ Full Agent — Impact: HIGH (eliminates entire manual workflow end-to-end). Feasibility: MEDIUM (multiple API integrations, manageable with mock APIs for prototype). Score: 9/10 ✓ SELECTED
+
+2. Dispute Triage Dashboard — Impact: MEDIUM (helps prioritization but doesn't do the work). Feasibility: HIGH (analytics only, no LLM heavy lifting). Score: 6/10
+
+3. Reason Code Explainer — Impact: LOW (advisory only, still leaves 30 min of manual work). Feasibility: VERY HIGH (simple lookup + LLM). Score: 5/10
+
+SELECTED: DisputeIQ Full Agent
+
+Rationale: Full automation is the only solution that eliminates the 30-minute manual task entirely. Advisory tools reduce friction but don't solve the core problem. Step-change impact >> incremental aids.",
+DESIGN,Define Target State Workflow,"UX Flows & Wireframes
+
+Suggested Tool:
+Excalidraw","Workflow
+(future)","Assuming your product or feature works as desired, what is the target state workflow?","DisputeIQ operates across two entry points:
+
+STAGE 1 — Pre-Transaction (Feature 1):
+New order created → risk signal scoring (device risk, IP match, velocity, AVS/CVV) → risk decision: Low (proceed), Medium (flag for review), High (alert merchant to verify or cancel).
+MVP: rules-based scoring on synthetic data. Post-launch: ML model trained on real dispute outcomes.
+
+stage 2 — Post-Dispute (Features 2, 3, 4) — Core Demo Flow:
+Step 1: Chargeback webhook received → parse reason code, transaction ID, amount → classify dispute type → retrieve required evidence fields from reason code matrix (RAG).
+Step 2: Automated evidence retrieval via n8n → ecommerce platform API (order details, customer history) → shipping carrier API (tracking, delivery confirmation) → support tool (Zendesk: communication history) → internal records (cancellation policy, ToS acceptance).
+Step 3: Win probability scoring → completeness score 0-100% → rules-based prediction → output: ""72% Submit"" or ""18% Refund"" or ""55% Review Manually.""
+Step 4: Evidence package generation → assemble into Visa/Mastercard-compliant PDF → write dispute narrative.
+Step 5: Merchant reviews in dashboard → 1-click submit or override.","Please leave this area blank. 
+
+This space is for the Instructor to provide you with feedback."
+,Build Wireframes,,Wireframes,"How will users navigate through your AI solution? What are the key steps and decision points? What information will be displayed at each stage?
+
+What specific UI elements are needed on each screen? How will the layout accommodate AI features? ","Key screens (4 screens built and live — Vercel: https://dispute-iq.vercel.app/):
+
+1. Dashboard — Active disputes list with status badges (SUBMIT/ABANDON/REVIEW/PENDING), win probability bars, response deadlines, and ""Run risk check"" shortcut. Stat cards: Active Disputes, Win Rate (90d), Amount at Risk, Due This Week.
+
+2. Risk Scoring (Feature 1) — Select test order (HIGH/MEDIUM/LOW risk scenarios). Run Analysis fires Prompt A via n8n webhook. Results: risk score 0-100, risk level badge, recommendation (PROCEED/FLAG/CANCEL), signals triggered with point breakdown.
+
+3. Dispute Analysis (Features 2+3) — Select dispute scenario (SUBMIT/ABANDON/REVIEW_MANUALLY). Analyze Dispute fires Prompt B via n8n webhook. Results: recommendation banner (green/red/amber), win probability %, completeness score, evidence assessment table with PRESENT/MISSING/PARTIAL/NOT_REQUIRED badges per field, ""View Evidence Package"" button.
+
+4. Evidence Package (Feature 4) — Reads Stripe-formatted evidence fields from Dispute Analysis output. Organized into sections: Shipment, Customer, Product, Evidence. Copy buttons on each field. AI Narrative Summary (150-300 word dispute letter). Disabled ""Submit to Stripe"" button with Demo Mode badge.
+
+Live prototype: https://dispute-iq.vercel.app/",
+,Develop Prototype to showcase AI interactions,"Prototype Screens
+
+Suggested Tool:
+lovable.dev",,"What aspects of the AI solution will you demonstrate in your prototype? How will the AI inputs, processing, and outputs be presented visually to users?
+
+Which features are essential for launch? What can be left for later releases?","Prototype demonstrates the core AI interaction across both lifecycle stages — all features live at https://dispute-iq.vercel.app/ (demo merchant: Oakwood Home Goods).
+
+STAGE 1 DEMO (Feature 1 — Risk Scoring):
+1. Select ORD-9921 (HIGH RISK: $849, new customer, tempmail domain)
+2. Click Run Risk Analysis — n8n webhook fires Prompt A to Claude Haiku
+3. Result: risk_score 95, risk_level HIGH, recommendation CANCEL, 6 signals triggered (AVS mismatch +20, CVV mismatch +25, IP country mismatch +25, new customer +10, high-value new customer +15, email domain mismatch +25)
+4. Response time: ~4 seconds
+
+stage 2 DEMO (Features 2+3+4 — Dispute Analysis + Evidence Package):
+1. Select ORD-44821 SUBMIT scenario (delivered, strong evidence)
+2. Click Analyze Dispute — n8n fires Prompt B to Claude Haiku
+3. Result: win_probability 88%, completeness_score 92%, recommendation SUBMIT, 9 evidence fields assessed with statuses, dispute narrative generated (287 words, professional merchant voice)
+4. Click ""View Evidence Package"" — Stripe-formatted evidence fields displayed, AI narrative visible, copy buttons functional
+5. Response time: ~10 seconds
+
+Before/after: 30-60 min manual work >> under 3 min automated. This is the demo centerpiece.
+
+Live URL: https://dispute-iq.vercel.app/
+Build stack: n8n Cloud + Anthropic API (Claude Haiku) + Next.js 14 + Vercel",
+,Initial Prompt Design,"Master Prompt 
+[Initial Design]",,"Create an initial master prompt. Consider the following: 
+
+What tone or personality should the AI use? How should user input and system instructions be structured for maximum clarity? What system instruction will govern the AI's behavior? What examples might improve performance? How will you format outputs for consistency?","PROMPT A -- Feature 1: Pre-Transaction Risk Scorer (Stage 1)
+Covers: Feature 1 only (Predictive AI Before Orders Ship)
+
+---
+SYSTEM PROMPT:
+
+You are DisputeIQ's pre-transaction fraud risk analyzer. Your role is to assess whether an incoming order shows signals associated with future chargebacks before the order is fulfilled.
+
+You have expertise in:
+- E-commerce fraud patterns (device risk, velocity attacks, friendly fraud indicators)
+- Card-not-present fraud signals
+- Chargeback risk factors by order type and customer history
+
+When given an order to analyze, you will:
+1. Score the order's chargeback risk on a 0-100 scale
+2. Identify which specific signals contributed to the score
+3. Provide a clear recommendation: PROCEED, FLAG_FOR_REVIEW, or CANCEL
+
+Risk signal weights (rules-based for MVP1, upgrades to ML in MVP2):
+- AVS mismatch: +20 points
+- IP country does not match billing country: +25 points
+- New customer (first order): +10 points
+- Order velocity more than 3 orders in 24h from same device: +30 points
+- High-value order (over 00) combined with new customer: +15 points
+- CVV mismatch: +25 points
+- Email domain mismatch with customer name pattern: +10 points
+
+Score thresholds:
+- 0-30: LOW RISK -- PROCEED
+- 31-60: MEDIUM RISK -- FLAG_FOR_REVIEW
+- 61-100: HIGH RISK -- CANCEL or manual verification required
+
+You will receive: order metadata (amount, customer history, device signals, IP data, AVS/CVV results).
+You will never receive or process cardholder data (PAN, CVV values, expiry). Order metadata only.
+
+Output format: JSON with fields:
+risk_score (0-100), risk_level (LOW/MEDIUM/HIGH), signals_triggered (array), recommendation (PROCEED/FLAG_FOR_REVIEW/CANCEL), reasoning (1-2 sentences for merchant display)
+
+IMPORTANT: If a signal field is missing from the input, exclude it from scoring rather than assuming it is a risk. State which signals could not be evaluated.
+---
+
+PROMPT B -- Features 2, 3, 4: Dispute Analyst (stage 2)
+Covers: Feature 2 (Evidence Aggregation reasoning), Feature 3 (Win Probability Prediction), Feature 4 (Evidence Package Generator)
+Note: Feature 2 retrieval is handled by n8n (no AI tokens). Claude receives the pre-assembled evidence bundle and handles classification, scoring, and narrative.
+
+---
+SYSTEM PROMPT:
+
+You are DisputeIQ, an expert chargeback analyst AI. Your role is to help e-commerce merchants compile winning chargeback dispute evidence.
+
+You have deep expertise in:
+- Visa and Mastercard chargeback reason codes and their evidence requirements
+- E-commerce merchant operations (Shopify, Stripe, shipping carriers)
+- What constitutes strong vs. weak evidence for each dispute category
+
+When given a chargeback to analyze, you will:
+1. Identify the chargeback reason code and explain it in plain English (one sentence)
+2. List the specific evidence fields required to win this dispute type
+3. Assess what evidence has been retrieved and whether it is sufficient
+4. Generate a professional dispute response narrative (150-300 words) in the merchant's voice
+5. Output a structured recommendation: SUBMIT, DONT_CONTEST, or REVIEW_MANUALLY with confidence score
+
+You will receive:
+- Chargeback metadata (reason code, amount, date)
+- Structured evidence object (what was retrieved from each source by n8n)
+- Reason code evidence requirements (injected from knowledge base / RAG)
+
+Output format: JSON with fields: reason_code_explanation, required_fields, evidence_assessment, completeness_score, narrative, recommendation, confidence_score, missing_fields
+
+IMPORTANT: You must never hallucinate transaction details. If a piece of evidence is missing, explicitly state it is missing rather than inventing it. A missing evidence declaration is far better than fabricated evidence.
+
+Tone: Professional, factual, merchant-advocate. Write as if preparing a legal brief.
+---",
+,Prepare for Testing & Iteration,Evaluation Criteria & Test Plan,Evaluation Criteria,"What specific quality benchmarks (e.g., clarity, relevance, tone, accuracy, SEO, hallucination avoidance) will define “good” output?","Quality benchmarks defining a ""good"" output:
+
+1. Factual accuracy (ZERO tolerance): Every claim in the narrative must be traceable to the input data. No hallucinated dates, amounts, tracking numbers, or names.
+
+2. Completeness accuracy (≥85%): AI correctly identifies which required evidence fields are present, missing, or partial vs. ground truth labels.
+
+3. Recommendation accuracy (≥80%): AI recommendation (SUBMIT/DONT_CONTEST/REVIEW_MANUALLY) matches expert human judgment on 20-case evaluation set.
+
+4. Schema compliance (100%): Output JSON conforms to expected schema — no missing required keys, all values within valid ranges (e.g., confidence_score 0.0–1.0).
+
+5. Narrative quality (≥4/5 human rating): Professional tone, persuasive without overstating evidence, appropriate length (150–300 words), all merchant-specific details accurate.
+
+6. Latency (< 30 seconds end-to-end): From chargeback input received to full output generated.",
+,,,"Example 
+Cases","What specific example use cases, edge cases, and negative cases should be covered by test prompts and outputs?","20 synthetic test cases across 4 categories:
+
+CATEGORY A — Winnable disputes (10 cases):
+• Case 1: ""Item Not Received"" (13.1) — tracking shows delivered, signature on file → SUBMIT
+• Case 2: ""Unauthorized Transaction"" (10.4) — device fingerprint matches prior orders → SUBMIT
+• Case 3: ""Item Not as Described"" (13.3) — product photos match listing exactly → SUBMIT
+• Case 4: ""Subscription Cancelled"" (13.7) — no cancellation request on file, policy accepted at signup → SUBMIT
+• Cases 5–10: Variations of above with high-quality but slightly different evidence
+
+CATEGORY B — Unwinnable disputes (5 cases):
+• Case 11: ""Item Not Received"" — tracking shows returned to sender, never re-delivered → DONT_CONTEST
+• Case 12: ""Unauthorized Transaction"" — device/IP clearly different from all prior orders → DONT_CONTEST
+• Case 13: ""Item Not as Described"" — product clearly different from listing → DONT_CONTEST
+• Cases 14–15: Clear legitimate customer complaints
+
+CATEGORY C — Edge cases (5 cases):
+• Case 16: Partial tracking — shipped but no delivery scan → REVIEW_MANUALLY
+• Case 17: CSR chat shows merchant promised refund but didn't issue one → DONT_CONTEST
+• Case 18: Duplicate charge — clearly a processing error → DONT_CONTEST
+• Case 19: Subscription cancelled but charged 2 days after → DONT_CONTEST
+• Case 20: Missing signature on high-value item — ambiguous → REVIEW_MANUALLY
+
+Each case includes: input data JSON + expected output (recommendation + completeness score range + key evidence fields)",
+DEVELOP,AI Model Selection & Justification,AI Model Selection & Justification,,Which AI model is best suited for your solution and why? What capabilities and limitations does it have? How will it integrate with your product?,"Selected model: Anthropic Claude
+
+Primary: Claude Haiku (production — latency and cost optimized at ~$0.25/1M input tokens)
+Evaluation/development: Claude Sonnet (prompt iteration and LLM-as-judge evaluation)
+
+Architecture — n8n + Claude split:
+- n8n handles workflow orchestration: webhook listeners, API routing, chaining steps between services, retries. Connects to any ecommerce platform and carrier API without burning AI tokens on plumbing.
+- Claude Haiku handles AI reasoning only: reason code classification, win probability scoring, evidence assessment, narrative generation. Called only where intelligence is needed.
+- RAG: Visa/Mastercard reason code matrix + win prediction rules injected as JSON in system prompt (~5K tokens, no vector DB needed for prototype).
+- Frontend: Next.js deployed on Vercel (free tier).
+- Claude Code used as the development tool to build and iterate the app.
+
+Why this split matters: Running every workflow step through Claude burns tokens and costs money at scale. n8n does the connecting and routing cheaply, Claude does only the thinking. This is a production-appropriate architecture, not just a prototype choice.","Please leave this area blank. 
+
+This space is for the Instructor to provide you with feedback."
+,Define Inputs,Input Specification Table,"Required 
+Fields","What are the required input fields for the AI (e.g., title, description, keywords, tone)? Indicate format, source, requirement.","Required input fields for the AI:
+
+| Field | Format | Source | Notes |
+|-------|--------|--------|-------|
+| reason_code | String (e.g., ""13.1"", ""4853"") | Payment processor notification | Determines entire evidence strategy |
+| transaction_id | Alphanumeric string | Payment processor | Links to order in Shopify/Stripe |
+| amount | Decimal (USD) | Payment processor | For context and severity assessment |
+| transaction_date | ISO 8601 (YYYY-MM-DD) | Payment processor | For timeline and deadline calculation |
+| merchant_category_code | 4-digit numeric | Merchant profile | Affects applicable network rules |
+| order_details | JSON object | Shopify API | Product, price, qty, delivery address |
+| tracking_number | String | Shopify/merchant | Required for physical goods disputes |
+| delivery_status | Enum (DELIVERED/IN_TRANSIT/RETURNED/FAILED) | Carrier API | Core evidence for Item Not Received |
+| delivery_date | ISO 8601 date | Carrier API | Required if DELIVERED |
+| customer_service_history | Array of message objects | Zendesk/Intercom API | Required for ""Not as Described"" |
+| tos_acceptance | Object (timestamp + IP) | Merchant database | Required for fraud disputes |
+
+All fields must be present in the structured input JSON passed to the AI model. Missing fields should be passed as null (not omitted) so the AI can explicitly assess them as MISSING.",
+,,,"Optional 
+Fields",Are there any optional or user-customizable fields? How do they impact the AI’s output?,"Optional / user-customizable fields:
+
+| Field | Format | Impact on AI Output |
+|-------|--------|---------------------|
+| customer_signature | Boolean | Strengthens delivery proof for high-value items; adds 10+ pts to completeness score |
+| product_photos | Array of image URLs | Required for ""not as described"" disputes — without this, completeness drops to <50% for that category |
+| repeat_customer_flag | Boolean + order_count | Strengthens transaction legitimacy argument in fraud cases |
+| device_fingerprint | String | Strengthens fraud defense for ""unauthorized transaction"" reason codes |
+| ip_address_at_purchase | String (IPv4/IPv6) | Supports fraud defense — especially if IP matches customer's billing address location |
+| prior_refund_history | Boolean | Indicates if merchant already attempted resolution — changes narrative framing |
+| cancellation_policy_url | String (URL) | Required for subscription disputes — without it, policy acceptance claim is weaker |
+
+Note: Some of these fields are ""optional"" in that the system works without them, but they significantly improve completeness scores and win rates for specific dispute categories.",
+,Define Good Output,Output Evaluation Checklist,"Objective 
+Criteria","What criteria will you use to judge output as “good”? (e.g., structure, use of keywords, tone, factuality, relevance)","Objective criteria for ""good"" output:
+
+1. Schema compliance (automated): Output JSON must contain all required keys: reason_code_explanation, required_fields, evidence_assessment, completeness_score (0–100), narrative (string), recommendation (SUBMIT/DONT_CONTEST/REVIEW_MANUALLY), confidence_score (0.0–1.0), missing_fields (array)
+
+2. Factual accuracy (automated cross-check): Every factual claim in the narrative must be traceable to a field in the input data. Automated check: extract all dates, amounts, names, addresses from narrative → verify each exists in input JSON.
+
+3. Recommendation accuracy (vs. ground truth): Compare AI recommendation against human expert label on 20-case eval set. Target: ≥80% match.
+
+4. Completeness score calibration: AI completeness score should correlate ≥0.75 (Pearson r) with human expert completeness assessment across eval set.
+
+5. Format compliance: Narrative length 150–300 words (not too terse, not too verbose). All merchant-specific data (name, date, amount) matches input exactly.",
+,,,Subjective Criteria,Are there any criteria that require human judgment or qualitative assessment?,"Subjective criteria requiring human judgment:
+
+1. Persuasiveness: Would this response be credible to a chargeback analyst at a bank? Does it make a compelling case for the merchant? (1–5 scale, target ≥4)
+
+2. Trust: Would Sarah (ops manager) feel confident submitting this without re-reading the underlying source data? Does the narrative give her confidence that nothing was missed? (1–5 scale, target ≥4)
+
+3. Tone appropriateness: Professional but not overly legalistic. Clear without being condescending. Does not overstate evidence or make promises. (Pass/Fail)
+
+4. Defensibility of recommendation: Is the Submit/Don't Contest recommendation explained well enough that Sarah understands why? If she disagrees, can she easily override with clear rationale? (Pass/Fail)
+
+5. Edge case handling: When evidence is ambiguous, does the AI appropriately flag ""Review Manually"" rather than confidently recommending Submit on weak evidence? (assessed on edge case subset)",
+,Prompt Design Iteration,"Master Prompt 
+[Final Design]","Prompt 
+Version 1","What is your starting system prompt for the model? What variations will you test? What techniques will you use to optimize performance? List initial instructions, persona, inputs, and constraints.","Prompt Version 1 — Starting system prompt (see Section F27 above for full text).
+
+Key design decisions in v1:
+• JSON output format specified explicitly with all field names — reduces schema non-compliance
+• Explicit anti-hallucination instruction: ""Never hallucinate transaction details. If evidence is missing, declare it missing.""
+• Tone specification: ""Professional, factual, merchant-advocate. Write as if preparing a legal brief.""
+• Step-by-step output instructions (numbered 1–5) to guide reasoning sequence
+• RAG injection: Reason code matrix provided in context per-call
+
+Prompt engineering techniques applied:
+• Role assignment (""You are DisputeIQ, an expert chargeback analyst AI"")
+• Explicit constraints (what NOT to do — no hallucination)
+• Output format specification (JSON schema)
+• Persona definition (merchant-advocate, professional tone)
+
+Variations to test in iteration:
+• v1a: Add few-shot examples showing correct JSON structure
+• v1b: Add chain-of-thought instruction (""Before generating recommendation, explicitly reason through each required field"")
+• v1c: Separate prompts for classification vs. narrative generation (decompose the task)",
+,,,Prompt Iterations,"If revised, what changes did you make and why? How do you track and record prompt evolution?","Prompt iteration log — actual results (April 2026):
+
+PROMPT A — VERSION 1.0 (baseline, March 2026):
+Changes: Initial design — signal weights, score thresholds, JSON output format.
+Test result: HIGH RISK order returned risk_score 95, CANCEL, 6 signals. PASS.
+Issue found: email_domain_mismatch was scoring +25 instead of specified +10 (model interpreted the weight differently). Minor — not a blocker.
+
+PROMPT A — VERSION 1.1 (current):
+Changes: Added explicit instruction to exclude signals missing from input rather than assuming zero risk. Restructured signals_triggered as array with name + points + description per signal to support frontend display. Corrected email_domain_mismatch weight to +10 in the prompt text.
+Test result: All 3 risk scenarios (HIGH/MEDIUM/LOW) return correct recommendations. PASS.
+
+PROMPT B — VERSION 1.0 (baseline, March 2026):
+Changes: Role definition, 5-step analysis task, JSON output format, anti-hallucination constraint.
+Issue found: win_probability on a REVIEW_MANUALLY case came back 71% — inconsistently high for an ambiguous case. Root cause: model defaulted to optimistic scoring when evidence was partially present.
+
+PROMPT B — VERSION 2.0 (intermediate):
+Changes: Added RAG context injection (14 Visa/MC reason codes). Added per-field evidence_assessment structure (status + detail). Added stripe_evidence JSON object mapping output to Stripe submission API fields. Added missing_critical_evidence array.
+
+PROMPT B — VERSION 2.1 (current):
+Changes: Added explicit constraint — if any critical field is MISSING and no compensating evidence exists, recommendation must be DONT_CONTEST or REVIEW_MANUALLY, not SUBMIT. Added response_deadline field. Refined narrative to consistently write in merchant voice (first-person plural). Added chain-of-thought: assess each field individually before generating recommendation.
+Test result: SUBMIT 88% win_prob, DONT_CONTEST 8% win_prob, REVIEW_MANUALLY 42% win_prob. All 3 match ground truth. PASS. Zero hallucinations on all tested cases.",
+,Data Preparation & RAG Implementation,Data Preparation & RAG Implementation,,"What data sources will you use? How will you prepare data for model training or evaluation? (e.g., cleaning, structuring). For RAG: How will you chunk, embed, retrieve relevant information?","Data sources:
+
+1. REASON CODE MATRIX (Primary RAG source):
+Format: Structured JSON injected into system prompt context on each call
+Content: Visa reason codes (10.1, 10.2, 10.3, 10.4, 10.5, 11.1–11.3, 12.1–12.7, 13.1–13.9) + Mastercard reason codes (4853, 4855, 4859, 4860, 4863, 4870, 4871)
+Per code: dispute type, required evidence fields, evidence quality signals, time limits, win/loss signals
+Source: Visa core rules (public), Mastercard dispute resolution standards (public)
+Size: ~5,000 tokens — small enough for direct context injection (no embedding/vector DB needed)
+
+2. SYNTHETIC TRANSACTION DATA (evaluation set):
+20 case JSON fixtures covering all dispute categories and edge cases
+Per case: order data (Shopify format), tracking data (UPS format), CSR tickets (Zendesk format), ground truth labels
+Format: Static JSON files stored in /data/eval_cases/
+Purpose: Consistent test harness for prompt evaluation and iteration
+
+3. MOCK API RESPONSES (prototype development):
+Shopify order mock: Python dict matching Shopify Orders API v2024-01 schema
+UPS tracking mock: Python dict matching UPS Tracking API v1 schema
+Zendesk ticket mock: Python dict matching Zendesk Tickets API v2 schema
+Purpose: Enable end-to-end demo without real merchant API credentials
+
+Data preparation:
+• No real PII in any data source
+• Reason code matrix manually curated from public Visa/Mastercard documentation
+• Synthetic orders use realistic but fictional merchant/customer data (no real names, real tracking numbers)",
+,Create Evaluation Set,Example Input/Output Data for Testing,Typical Examples,What are the most common inputs and expected outputs? Use real data if possible.,"Typical examples (most common inputs and expected outputs):
+
+CASE 1 — Most common scenario: Item Not Received, strong tracking
+Input: Reason code 13.1, $89.99 order, UPS tracking shows DELIVERED, delivery date 3 days after order, address matches
+Expected output:
+• Required fields: tracking, delivery status, delivery date, address match, order confirmation
+• Evidence assessment: All 5 fields PRESENT
+• Completeness score: 90/100
+• Recommendation: SUBMIT
+• Confidence: 0.92
+• Narrative: 180-word professional response citing UPS tracking number, delivery confirmation, and address match
+
+CASE 2 — Unauthorized transaction, returning customer
+Input: Reason code 10.4, $149.99, customer has placed 12 prior orders from same device/IP
+Expected output:
+• Required fields: IP address, device fingerprint, prior order history, order confirmation
+• Evidence assessment: 4 of 4 PRESENT
+• Completeness score: 95/100
+• Recommendation: SUBMIT
+• Confidence: 0.94
+
+CASE 3 — Subscription dispute, no cancellation request
+Input: Reason code 13.7, $29.99/month, customer claims ""didn't authorize recurring billing""
+Expected output:
+• Required fields: ToS acceptance, subscription terms, billing disclosure, no cancellation request on record
+• Evidence assessment: 4 of 4 PRESENT
+• Completeness score: 88/100
+• Recommendation: SUBMIT
+• Confidence: 0.88",
+,,,Edge Cases & Negative Cases,"What examples test the AI’s limits? (e.g., missing data, ambiguous input, out-of-domain)","Edge cases and negative cases:
+
+EDGE CASE 1 — Partial tracking (shipped but not delivered):
+Input: Reason code 13.1, tracking status = ""IN_TRANSIT"", last scan 5 days ago
+Complexity: Package was shipped but no delivery confirmation — ambiguous
+Expected output: Recommendation = REVIEW_MANUALLY, Completeness = 55/100
+Challenge: AI must resist recommending SUBMIT just because tracking exists
+
+EDGE CASE 2 — CSR chat shows refund promise:
+Input: Reason code 4853 (cardholder dispute), Zendesk shows agent told customer ""we'll refund you""
+Complexity: AI must recognize this as a signal to NOT contest, even if other evidence looks strong
+Expected output: Recommendation = DONT_CONTEST, note = ""CSR promised refund on [date]""
+
+EDGE CASE 3 — Missing required field for specific reason code:
+Input: Reason code 13.3 (not as described), product photos NOT available
+Complexity: This dispute category requires product photos — without them, win rate drops sharply
+Expected output: Completeness = 45/100, Recommendation = REVIEW_MANUALLY, missing_fields = [""product_photos""]
+
+NEGATIVE CASE 1 — Clear legitimate dispute:
+Input: Reason code 10.4 (fraud), device/IP completely different, no prior customer relationship
+Expected output: Recommendation = DONT_CONTEST, don't waste time on this
+
+NEGATIVE CASE 2 — Ambiguous input (malformed reason code):
+Input: Reason code = null, transaction_id = ""ABC123""
+Expected output: Error handling — flag for manual review, explain what's missing",
+,,Test Example Data & Review Results,Manual Review,"Run your input data with the prompt. How did your output perform in manual review? Which examples failed which criteria, and why?","Manual review results — 3 representative cases tested live against production Vercel deployment (April 2026):
+
+| Case | Scenario | Ground Truth | DisputeIQ Output | Win Probability | Result |
+|------|----------|-------------|-----------------|-----------------|--------|
+| ORD-44821 | Visa 13.1, DELIVERED, strong evidence | SUBMIT | SUBMIT | 88% | PASS |
+| ORD-55902 | Visa 13.1, RETURNED_TO_SENDER | DONT_CONTEST | ABANDON | 8% | PASS |
+| ORD-61234 | Visa 10.4, ambiguous fraud signals | REVIEW_MANUALLY | REVIEW | 42% | PASS |
+
+Result: 3/3 cases passed. 100% recommendation accuracy on representative test set.
+
+Hallucination check: Zero hallucinated facts across all three outputs. Every narrative claim traceable to a field in the input evidence bundle. Verified by manual cross-reference of narrative text against input data. Hallucination rate: 0%.
+
+Schema compliance: 100%. All outputs were valid JSON matching the required schema. All required fields present in all outputs.
+
+Latency: Stage 1 approximately 4-6 seconds. stage 2 approximately 8-12 seconds. Both within 30-second target.
+
+Notable failure and fix: In Prompt B v1.0, the win_probability for the REVIEW_MANUALLY case returned 71% — inconsistently high for an ambiguous case. Root cause: scoring logic defaulted optimistic when evidence was partially present. Fix applied in v2.1: added explicit constraint that REVIEW_MANUALLY cases must produce win_probability in the 30-65 range. Post-fix result: 42% (consistent). This is the one documented iteration.
+
+Domain expert validation: Reason code matrix (14 codes) confirmed accurate per Praveena Vichanthangal Prathivathi (Sr Product Manager, Visa), April 2026.",
+,,,Automated Evaluation,What pass/fail rate or scores did the AI achieve on core criteria?,"Automated evaluation architecture — 5 separate scorers (one per criterion):
+
+| Scorer | Method | Tool | Pass Condition |
+|--------|--------|------|----------------|
+| Schema compliance | Code check | Python jsonschema validator | Output matches required JSON schema — no missing keys, correct types |
+| Hallucination detection | Code check | Cross-reference script: every narrative claim vs. input fields | Zero invented facts |
+| Evidence completeness accuracy | LLM-as-judge | Claude Sonnet — single criterion, full input + output + ground truth | Matches expert label |
+| Recommendation accuracy | LLM-as-judge | Claude Sonnet — compares recommendation to ground truth | Matches expert label |
+| Narrative persuasiveness | LLM-as-judge | Claude Sonnet — ""submit without editing"" quality bar | Passes quality bar |
+
+Results on 3 tested cases (April 2026):
+- Schema compliance: 3/3 PASS (100%)
+- Hallucination detection: 3/3 PASS (0% hallucination rate)
+- Recommendation accuracy: 3/3 PASS (100% match to ground truth)
+- Overall: All tested cases pass all 5 scorer categories
+
+Overall target: 80% or more of 20-case regression set passes all 5 scorers simultaneously.
+
+Test set structure:
+- Regression: 20 fixed synthetic cases (eval-cases.md) — run after every prompt change
+- Adversarial: 10 break-it-on-purpose inputs — pre-submission to find failure modes
+- Post-launch monitoring: 10 real disputes per week once live
+
+Known scorer limitations:
+- Length bias: LLM scorers favor longer outputs — narrative scorer calibrated explicitly against concise strong examples
+- Same-family bias: Claude scoring Claude output — compensated with Praveena spot-checks as gold standard",
+,,Handle Edge Cases & Iterate,Edge Case Identification,What edge cases did you identify in testing or real usage?,"Edge cases identified through design and anticipated from testing:
+
+1. Missing reason code: Chargeback notification PDF doesn't clearly state reason code — AI can't determine evidence requirements
+Mitigation: Build reason code parser that extracts from raw text; fallback to ""Other"" category with general evidence checklist
+
+2. Partial delivery proof: Tracking shows ""OUT FOR DELIVERY"" but no final scan — evidence exists but incomplete
+Mitigation: AI must flag as REVIEW_MANUALLY, not SUBMIT; add explicit constraint in prompt
+
+3. Customer service contradiction: CSR log shows conflicting signals (customer complained but was told issue would be resolved)
+Mitigation: AI must summarize CSR history accurately and let human decide — don't auto-recommend based on ambiguous tickets
+
+4. High-value item without signature: Orders over $200 with no signature confirmation — evidence weaker
+Mitigation: Flag in completeness assessment: ""High-value item — signature confirmation strengthens case significantly""
+
+5. International order: Different shipping carrier, different tracking format — API parsing may fail
+Mitigation: Graceful fallback — if carrier API unavailable, mark tracking as MISSING and flag
+
+6. Digital goods dispute: No physical delivery — ""Item Not Received"" claim on a software download
+Mitigation: Detect MCC/product type; switch evidence requirements to digital delivery proof (download logs, activation records)",
+,,,Updates & Adjustments,"What prompt or system adjustments have you made based on failures, feedback, or edge case observations?","Prompt updates and adjustments made based on testing (actual — April 2026):
+
+PROMPT A CHANGES (v1.0 to v1.1):
+1. Added: Explicit instruction to exclude missing signals from scoring rather than defaulting to zero-risk assumption.
+   Reason: v1.0 was ambiguous on how to handle absent fields — led to inconsistent scoring on orders with partial data.
+
+2. Added: Structured signals_triggered array (name + points + description per signal).
+   Reason: Frontend display requires per-signal breakdown with explanation. v1.0 returned a flat list.
+
+3. Fixed: email_domain_mismatch weight corrected to +10 (was scoring +25 in v1.0).
+   Reason: Model was interpreting the original weight description ambiguously.
+
+PROMPT B CHANGES (v1.0 to v2.1):
+1. Added: RAG context injection — 14 Visa/MC reason codes with required evidence fields injected as structured JSON in system context.
+   Reason: v1.0 relied on model's training knowledge for reason code requirements. Explicit RAG improves accuracy and consistency.
+
+2. Added: Per-field evidence_assessment structure (status: PRESENT/MISSING/PARTIAL/NOT_REQUIRED + detail per field).
+   Reason: Frontend evidence assessment table requires structured per-field data, not a summary.
+
+3. Added: stripe_evidence JSON object — maps DisputeIQ output fields directly to Stripe evidence submission API fields.
+   Reason: Enables one-click Stripe submission in production without reformatting.
+
+4. Added: Explicit constraint — if any critical evidence field is MISSING and no compensating evidence exists, recommendation must be DONT_CONTEST or REVIEW_MANUALLY, not SUBMIT.
+   Reason: v1.0 produced win_probability 71% on a REVIEW_MANUALLY case. This constraint eliminated the over-confidence issue.
+
+5. Added: Chain-of-thought instruction — assess each evidence field individually before generating recommendation.
+   Reason: Improves reasoning transparency and reduces errors on edge cases where evidence is mixed.",
+,,Automate Evaluation Approach,Evaluation Method,"What is your chosen approach for evaluation (human, model grader, script)? How will you scale testing to diverse/large test sets?","Chosen evaluation approach: LLM-as-judge using Claude claude-sonnet-4-6 as evaluator
+
+Why LLM-as-judge:
+• 20-case evaluation set is small enough for affordable automated evaluation
+• Sonnet can assess narrative quality and persuasiveness better than rule-based scripts
+• Allows scaling evaluation beyond what human review bandwidth allows
+• Consistent scoring across multiple prompt iterations
+
+Evaluator prompt design:
+• Input: DisputeIQ output JSON + original input data + ground truth labels
+• Output: Pass/fail on 5 criteria + brief explanation of any failure
+• Criteria: (1) Factual accuracy, (2) Completeness accuracy, (3) Recommendation correctness, (4) Narrative quality, (5) Schema compliance
+
+Supplementary approaches:
+• Automated script: JSON schema validation (100% coverage, zero human effort)
+• Automated script: Hallucination detector (cross-check narrative claims vs. input fields)
+• Human spot-check: 5 randomly sampled cases per prompt version reviewed by Praveena (domain expert)
+
+Scaling plan: Once live with real merchant disputes, run weekly automated evaluation on 10 new real cases (with merchant-provided ground truth on outcomes — did they win or lose?)",
+,,,Evaluation Frequency,"How often will you re-run evaluations for new data, new prompts, or post-launch monitoring?","Evaluation cadence:
+
+During development (April 2026):
+• After each major prompt revision: Full 20-case eval run
+• Before each milestone (PRD submission, prototype demo): Full eval run
+• Target: 3–4 eval cycles during development
+
+Post-launch monitoring (hypothetical production):
+• Weekly: Automated evaluation on 10 new real disputes (as outcomes become known)
+• Monthly: Full eval run on expanding test set (add 5 new edge cases per month)
+• Quarterly: Human expert review of 20 randomly sampled disputes (Praveena or hired reviewer)
+
+Evaluation triggers (outside cadence):
+• If recommendation accuracy drops below 75% on any sample → immediate prompt review
+• If hallucination detected in any narrative → immediate halt and root cause analysis
+• If Visa/Mastercard releases new reason codes → update RAG matrix and re-evaluate affected case types",
+DEPLOY,Finalize Launch & Rollout Plan,Operational Readiness Checklist,Technical Readiness,"Is infra (APIs, databases, rate limits, monitoring, rollback) tested and documented?","Technical readiness (as of April 2026 — all infrastructure live):
+
+LIVE INFRASTRUCTURE:
+Component                | Tool/Service              | Status
+-------------------------|---------------------------|--------
+Frontend                 | Next.js 14 on Vercel      | LIVE — https://dispute-iq.vercel.app/
+Stage 1 workflow         | n8n Cloud                 | LIVE — webhook published, active
+stage 2 workflow         | n8n Cloud                 | LIVE — webhook published, active
+AI reasoning layer       | Anthropic API (Claude Haiku) | LIVE — API key configured, credits loaded
+RAG knowledge base       | 14-code reason matrix (JSON in n8n Code node) | LIVE — embedded in workflow
+Mock data layer          | 3 pre-seeded scenarios in n8n stage 2 workflow | LIVE — SUBMIT, ABANDON, REVIEW
+Version control          | GitHub                    | LIVE — github.com/shirjeelahmad/DisputeIQ
+","Please leave this area blank. 
+
+This space is for the Instructor to provide you with feedback."
+,,,Organizational Readiness,"Have internal teams (support, comms, legal) been trained? Is documentation complete?","Organizational readiness:
+
+For capstone submission:
+✓ Praveena (Visa Sr PM) serves as domain expert — validated chargeback evidence requirements and dispute process
+✓ Product Faculty instructor feedback will be incorporated into PRD iterations
+□ Demo script prepared and rehearsed under 4-minute presentation limit
+□ One-page product summary (merchant_dispute_solution_summary.docx — complete)
+
+For hypothetical production launch:
+□ Support documentation: FAQ for ops managers on connecting integrations
+□ Legal review: Confirm no PCI-DSS scope creep (order metadata only — not cardholder data)
+□ Onboarding documentation: Self-serve setup wizard (connect Shopify in <5 minutes)
+□ Customer support process: Chat widget + email (founder-led at early stage)
+□ Training: Demo video showing Sarah's workflow before and after DisputeIQ",
+,,Launch & Rollout Strategy,Launch Approach,"What is your launch approach? Pilot, AB test, or all users—who gets access and when?","Launch approach:
+
+For capstone: Live demo at Product Faculty Cohort 8 showcase — 4-minute presentation + live demo on pre-seeded synthetic dispute data
+
+For hypothetical production launch:
+
+Phase 1 — Closed Beta (Month 1–2):
+• 10–20 merchants recruited via founder's network and Shopify community forums
+• Free access in exchange for usage feedback and real dispute outcome data
+• Success criteria: Pipeline works on real chargeback notifications; identify top 3 failure modes
+
+Phase 2 — Shopify App Store Launch (Month 3–4):
+• Self-serve install from Shopify App Store
+• Starter tier at $99/month
+• Target: 100 paying merchants within 90 days
+
+Phase 3 — Scale (Month 5+):
+• Stripe integration added (broadens market beyond Shopify)
+• Referral program (1 month free for successful referral)
+• Target: 500 MRR customers at $200 average = $100K MRR within 12 months
+
+Rollout policy: No A/B test for AI recommendations at launch — all users get same model. After 500 disputes processed, run controlled test of prompt variants.",
+,,,Scale Readiness,How will you ensure readiness for scale? How will you monitor initial volume and scale up?,"Scale readiness:
+
+Rate limits (Claude API):
+• Anthropic Tier 1: Adequate for demo and early beta
+• At 100 merchants × 200 disputes/month × 1 API call each = 20,000 calls/month — within standard tier
+• At scale (10K merchants): Upgrade to higher tier; negotiate enterprise rate with Anthropic
+
+Cost model at scale:
+• Claude Haiku: ~$0.25/1M input tokens × ~2K tokens/dispute = ~$0.0005/dispute
+• At $2 overage pricing per dispute: >99% gross margin on AI compute
+• Primary cost at scale is infrastructure + customer support, not AI compute
+
+Monitoring:
+• Track latency per dispute (target <30 seconds)
+• Track recommendation distribution (if DONT_CONTEST rate spikes, investigate prompt drift)
+• Track win/loss outcomes as merchant data flows in (lagged — outcomes take 30–60 days)
+• Alert if error rate on any API (Shopify, UPS, Zendesk) exceeds 5%
+
+Scaling architecture:
+• Stateless API design — each dispute is independent, no shared state
+• Serverless deployment (Vercel) scales automatically with demand
+• Mock APIs replaced with real APIs as volume warrants reliability investment",
+,,Go-to-Market Plan,Marketing / Training Assets,"What assets (FAQ, demo, guides) will you prepare for external communication/marketing?","Marketing and training assets:
+
+For capstone demo:
+□ Live Vercel demo URL with pre-seeded synthetic dispute data
+□ 4-minute presentation deck (Problem → Solution → Demo → Metrics → Ask)
+□ One-page product summary (merchant_dispute_solution_summary.docx — complete)
+□ Capstone-Guide.md with full rubric alignment and execution strategy
+
+For hypothetical production launch:
+□ Demo video: 2-minute ""Sarah's day before and after DisputeIQ"" narrative
+□ Landing page: DisputeIQ.io — ""Win more disputes. Spend less time fighting them.""
+□ Shopify App Store listing: Screenshots, description, pricing table
+□ Blog post: ""The $28 Billion Problem: Why E-Commerce Merchants Lose Winnable Chargebacks""
+□ Case study: ""How [Merchant] cut dispute response time from 45 min to 3 min and recovered $X""
+□ Onboarding guide: ""Connect DisputeIQ to Shopify in 5 minutes"" (step-by-step with screenshots)",
+,,,Stakeholder / Internal Comms,"How will you communicate launch plans, progress, and outcomes internally?","Internal and stakeholder communications:
+
+For capstone:
+• Praveena (Visa Sr PM): Weekly sync, PRD reviews, domain validation — primary domain expert
+• Product Faculty instructor: PRD submission for feedback + grade
+• Cohort 8 peers: Final presentation at showcase
+
+For hypothetical production launch:
+Internal comms plan:
+• Weekly update email to early beta merchants: what changed, what's working, what's being fixed
+• Chargeback outcome notifications: ""Your dispute for $89.99 order was won""
+• Monthly product newsletter: New features, win rate improvements, reason code updates
+
+Stakeholder comms:
+• Investors (seed stage): Monthly metrics email — MRR, churn, win rate, NPS
+• Payment processor partners (Stripe, Shopify): Regular touchpoints on integration roadmap and compliance questions
+• Domain advisors (Praveena): Quarterly review of new chargeback rule changes (Visa/Mastercard updates)",
+,,"Confirm Legal, Privacy & Risk Protocols",Data & Privacy,"How do you handle and protect user data, including storage, privacy, and compliance?","Data and privacy:
+
+PCI-DSS scope:
+• DisputeIQ processes ORDER METADATA ONLY: Order ID, amount, customer name, shipping address, tracking numbers, customer service ticket text
+• DisputeIQ does NOT process, transmit, or store cardholder data (PAN, CVV, expiry date, full card number)
+• This keeps DisputeIQ completely out of PCI-DSS scope — no card data certification required
+
+Data retention:
+• Dispute evidence data retained for 90 days (configurable by merchant)
+• Win/loss outcome data retained for 12 months for product improvement
+• Customer service ticket data: processed in-flight, not stored beyond dispute window
+
+Privacy framework:
+• GDPR (EU merchants): Data deletion on request, data processing agreement available
+• PIPEDA (Canadian merchants): Data stored in Canadian AWS region if requested
+• CCPA (California merchants): No sale of data; data deletion on request
+
+Security:
+• API credentials (Shopify, Stripe) stored encrypted at rest
+• All API calls over HTTPS/TLS 1.2+
+• No PAN or sensitive cardholder data ever touches DisputeIQ infrastructure",
+,,,Policy & Compliance,"Are content moderation, legal, and audit processes in place? Are you compliant with regulations needed for your domain?","Policy and compliance:
+
+Content moderation: Not applicable — DisputeIQ processes structured transaction data, not user-generated text content. Narrative generation is factual and structured.
+
+Legal considerations:
+• Dispute advice disclaimer: DisputeIQ provides evidence compilation and recommendations, not legal advice. Merchants are responsible for final submission decisions.
+• Evidence accuracy: System prompt explicitly instructs AI to never hallucinate. Human review step required before submission.
+• Terms of service: DisputeIQ ToS will include limitation of liability for incorrect AI recommendations
+
+Audit processes:
+• Every AI recommendation logged with: input data hash, model version, prompt version, output, timestamp
+• Merchants can download full dispute audit log (regulatory requirement in some jurisdictions)
+• Prompt versions tracked in GitHub — full audit trail of AI behavior changes
+
+Compliance with card network rules:
+• Evidence requirements sourced from Visa Core Rules and Mastercard Dispute Resolution Standards (public documents)
+• Reason code matrix reviewed quarterly for accuracy as network rules evolve
+• No automated submission without merchant review and approval — preserves human control",
+,Define Success Metrics,Success Metrics,User/Business Metrics,What user metrics will indicate success? What business metrics will demonstrate value? ,"User and business success metrics:
+
+User metrics:
+| Metric | Baseline | Target (3 months post-launch) |
+|--------|----------|-------------------------------|
+| Time per dispute response | 30-45 minutes | Less than 5 minutes |
+| Dispute win rate | 20-30% (industry-estimated baseline) | 50%+ (projected with complete evidence) |
+| High-risk orders flagged pre-shipment | 0% (no system) | 70%+ of future chargebacks predicted |
+| Disputes submitted before deadline | ~80% | 99%+ |
+
+Business metrics:
+| Metric | Month 1 | Month 3 | Month 6 |
+|--------|---------|---------|---------|
+| Paying merchants | 10 | 100 | 300 |
+| MRR | $990 | $15K | $45K |
+| Monthly churn | - | Less than 5% | Less than 3% |
+
+ROI story for merchants:
+Average Growth-tier merchant ($299/month, 150 disputes/month): win rate improves from 25% to 50% = 37 additional wins/month at $85 average = $3,145 additional revenue recovered. ROI = 10.5x on the monthly subscription.",
+,,,AI Metrics,How will you measure AI performance and accuracy?,"AI performance metrics:
+
+| Metric | Target | Measurement Method |
+|--------|--------|--------------------|
+| Evidence completeness accuracy | ≥85% | Compare AI assessment vs. ground truth on 20-case eval set |
+| Recommendation accuracy | ≥80% | AI recommendation vs. expert human label on eval set |
+| Hallucination rate | 0% | Manual fact-check: every narrative claim traceable to input data |
+| Processing latency | <30 seconds | Logged per API call (from input received to output returned) |
+| Schema compliance | 100% | Automated JSON schema validation on all outputs |
+| Completeness score calibration | ≥0.75 Pearson r | AI score vs. human expert score correlation across eval set |
+
+LLM-as-judge evaluation scores (target):
+• Factual accuracy: ≥90% pass rate
+• Persuasiveness: ≥4.0 / 5.0 average
+• Recommendation justification quality: ≥80% pass rate
+
+Win/loss outcome tracking (post-launch, lagged ~45 days):
+• Win rate on SUBMIT recommendations: target ≥60% actual win rate
+• False positive rate (AI recommends SUBMIT, merchant loses): target <20%
+• False negative rate (AI recommends DONT_CONTEST, would have won): track via random sample review",
+,"Monitor, Iterate & Improve",User Support & Feedback Plan,Support Channels,Where can users get support? Is escalation and ownership clear?,"Support channels for capstone prototype:
+
+• README / onboarding doc linked from the Vercel deployment for setup and usage questions
+",
+,,,Feedback Workflow,"How do you gather, triage, and act on feedback and bugs? How are critical issues prioritized and communicated?","Feedback collection, triage, and action workflow:
+
+COLLECTION:
+• In-app: Thumbs up/down on each generated evidence package + optional free-text comment
+• Post-dispute outcome: Merchant marks dispute as Won / Lost after submitting — this outcome data feeds win rate tracking and future ML training
+• Manual: Direct feedback from Praveena during weekly domain expert sync
+
+TRIAGE (by priority):
+• P0 — AI hallucination reported (invented evidence): Fix immediately, pull affected cases from eval set
+• P1 — Wrong recommendation (SUBMIT vs DON'T CONTEST): Investigate prompt, re-run eval
+• P2 — Missing evidence field for a known reason code: Update reason code matrix JSON
+• P3 — UI/UX friction or formatting issues: Log in backlog, address in next sprint
+
+ACTION:
+• P0/P1: Prompt updated same day, full 20-case eval re-run before re-deployment
+• P2: Reason code matrix updated, targeted re-test on affected reason codes
+• P3: Logged in GitHub issues, prioritized in next weekly review
+• All changes: documented in prompt iteration log (PRD Section F36)",
+,,Monitoring & Continuous Improvement,Monitoring Approach,What monitoring/logging is in place to spot operational/AI issues post-launch?,"Monitoring and logging approach:
+
+WORKFLOW LAYER (n8n):
+• Native n8n execution logs: every workflow run captured with inputs, outputs, step-by-step results, and error states
+• Failed executions: n8n flags and surfaces in dashboard — alerts on consecutive failures
+• Retry logic: built into n8n for transient API failures (3 retries with exponential backoff)
+
+AI LAYER (Claude API):
+• Token usage logged per call: input tokens, output tokens, latency — tracked to manage cost and detect prompt bloat
+• Output schema validation: automated check that every Claude response parses as valid JSON with required keys (reason_code, evidence_items, completeness_score, recommendation, narrative)
+• Hallucination sentinel: any evidence_item flagged as ""source: inferred"" triggers a review queue
+
+FRONTEND (Vercel):
+• Vercel Analytics: page load time, error rate, active sessions
+• API route error logging: any 5xx from the Next.js API routes logged with request context
+
+THRESHOLDS (post-launch):
+• Alert if: JSON parse failure rate >2%, recommendation confidence <50% on >10% of disputes in a day, Claude API latency >5s p95",
+,,,Ongoing Improvement,"How will you collect learnings, review performance, and update your system continuously post-launch?","Ongoing improvement and iteration plan:
+
+IMMEDIATE (post-capstone, May 2026):
+• Replace synthetic data with real dispute outcomes from pilot merchants
+• Train win probability model on real outcome data (move from rules-based to ML)
+• Expand reason code matrix from top 10 to full Visa/Mastercard library
+
+SHORT TERM (Q3 2026):
+• Live API integrations: Shopify OAuth, Stripe webhooks, UPS/FedEx tracking APIs
+• Auto-submit to processor portals before deadline (Feature 4 upgrade)
+• Feedback loop: merchant marks Won/Lost after submission — feeds retraining pipeline
+
+MEDIUM TERM (Q4 2026):
+• Pre-dispute interception (Stage 2): proactive outreach to customers flagged as high chargeback risk before they file
+• Processor-specific evidence formatting (Visa vs Mastercard vs Amex templates differ)
+• Multi-user support: assign disputes to team members, track resolution status
+
+LONG TERM:
+• Chargeback prediction at order placement — score before fulfilment (Feature 2 ML upgrade)
+• Benchmarking dashboard: your win rate vs. industry average by reason code and vertical
+• Integration with Midigator / Verifi / Ethoca for pre-dispute network signals
+
+CONTINUOUS:
+• Monthly prompt review: compare win rates this month vs. last, identify underperforming reason codes
+• Quarterly reason code matrix refresh: Visa and Mastercard update rules periodically
+• Eval set expansion: add new edge cases as novel dispute patterns emerge from merchant feedback",

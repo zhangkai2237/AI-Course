@@ -1,0 +1,321 @@
+{
+  "purpose": "面向 AI 产品经理课程学员，教授电商智能客服从业务背景、主工作流到订单查询与售后受理的前四节实战内容",
+  "rubric_overlay": "teaching / instructional",
+  "coverage": {
+    "slides_opened": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ],
+    "passes": [
+      "content lens (full deck)",
+      "design lens (full deck)"
+    ],
+    "stats_block_seen": true,
+    "contract_card_seen": true
+  },
+  "plan_audit": {
+    "lens_a": {
+      "memory_sentence": "智能客服的关键不是更会聊天，而是让自然表达可靠地进入可查询、可确认、可追踪的业务流程",
+      "matches_deck_message": true,
+      "curve_visible": "kept — 先建立业务问题，再给出总体分流，随后用订单查询和售后受理逐步提升任务复杂度",
+      "takeaway_titles": "kept — 内容页标题均直接标识当页问题、区分或处理阶段，未发现与页面信息相反的标题",
+      "motion_manifest": "kept — 用户请求沿主工作流、订单选择和售后状态向前推进，页面顺序与教学动作一致"
+    },
+    "lens_b": {
+      "concept_landed": "carried: 封面、章节页、流程箭头、状态卡和青绿路由色共同把整套课件表现为用户请求穿过业务系统的路径",
+      "skeleton_rhythm": "kept — 章节分隔页建立节奏，对话、流程、对比和表格页交替出现",
+      "wow": [
+        {
+          "slide": 22,
+          "landed": true,
+          "why": "候选订单、用户说法与会话状态的左中右关系一眼可读，是第三节最强的产品化画面"
+        },
+        {
+          "slide": 28,
+          "landed": true,
+          "why": "确认页、提交结果与关键异常被压缩成一页收束，且底部结论强化了状态边界"
+        }
+      ],
+      "signature_move": {
+        "verdict": "landed",
+        "why": "用户消息从分流、候选选择到订单和售后状态的路由在多个内页承担了真实结构作用",
+        "carried": [
+          {
+            "slide": 5,
+            "structural": true,
+            "note": "一条用户消息被拆成查订单、追问、查政策、补材料与提交的处理链"
+          },
+          {
+            "slide": 12,
+            "structural": true,
+            "note": "主工作流将请求明确路由到四条业务分支"
+          },
+          {
+            "slide": 22,
+            "structural": true,
+            "note": "中间的用户选择将左侧候选卡与右侧状态更新连成完整动作"
+          },
+          {
+            "slide": 26,
+            "structural": true,
+            "note": "售后路径将政策咨询稳定推进至提交后等待审核"
+          }
+        ],
+        "proof": "matches — 青绿路由、珊瑚风险和结构化流程均在实际内页反复出现"
+      },
+      "memorable_one_thing": "电商客服要把人的自然表达接入受权且可验证的业务流程",
+      "composition": {
+        "cover_archetype": "kept — 封面保持低左对齐的大标题与右下角课次编号",
+        "home_skeleton_plurality": "kept — 以横向路径、并列卡片与下方结论条作为最常用内页骨架"
+      },
+      "register_interiors": "kept — 深色画布、左上章节标识、青绿分隔线和底部进度线贯穿普通内页",
+      "money_slide": "landed on slide 22, with slide 28 providing a second clear instructional payoff",
+      "semantic_colour": "ledger kept — 青绿表示主路由与系统能力，珊瑚色标示用户动作、售后或风险边界，未见关键双重含义",
+      "type_tokens": "mostly kept — 展示、章节和页标题符合 45/35/29 pt 层级；部分流程和表格正文降到 12.5–13.2 pt",
+      "eye_path_misses": []
+    }
+  },
+  "probes": {
+    "per_slide": [
+      {
+        "slide": 1,
+        "first_read": "左侧大标题与右下角的 02",
+        "takeaway_guess": "这是一门把电商客服对话连到真实业务流程的项目课"
+      },
+      {
+        "slide": 2,
+        "first_read": "四张并列的课程模块卡",
+        "takeaway_guess": "本次课程由业务背景、总体方案、订单查询和售后处理组成"
+      },
+      {
+        "slide": 3,
+        "first_read": "大号 01 和第一节标题",
+        "takeaway_guess": "第一节先定义客服业务与项目边界"
+      },
+      {
+        "slide": 4,
+        "first_read": "购买前、下单后、收货后三张卡",
+        "takeaway_guess": "电商客服覆盖完整购物旅程，不只是回答商品问题"
+      },
+      {
+        "slide": 5,
+        "first_read": "用户换货请求通往五步处理链",
+        "takeaway_guess": "一句简单请求背后包含定位、确认、查政策和提交等多个操作"
+      },
+      {
+        "slide": 6,
+        "first_read": "人工、FAQ、流程机器人和大模型四级能力",
+        "takeaway_guess": "大模型不会替代所有旧能力，而是帮自然表达进入既有流程"
+      },
+      {
+        "slide": 7,
+        "first_read": "A/B/C 三个教学选项",
+        "takeaway_guess": "课程优先追求正确进入流程，而不是仅仅回复自然或自动化一切"
+      },
+      {
+        "slide": 8,
+        "first_read": "业务问题、改善方向与本课边界三列表",
+        "takeaway_guess": "项目要解决咨询复用、字段匹配、下一步引导和人工交接，但不做无权限操作"
+      },
+      {
+        "slide": 9,
+        "first_read": "大号 02 和主工作流标题",
+        "takeaway_guess": "第二节转向请求分流、上下文与状态传递"
+      },
+      {
+        "slide": 10,
+        "first_read": "订单、售后和商品推荐三组对话",
+        "takeaway_guess": "同一对话入口需要调用三类不同的处理路径"
+      },
+      {
+        "slide": 11,
+        "first_read": "上方用户界面条与下方五步后台系统",
+        "takeaway_guess": "聊天窗口只是入口，后台还需要工作流、知识、人工和记录协作"
+      },
+      {
+        "slide": 12,
+        "first_read": "中央判断节点和四条业务分支",
+        "takeaway_guess": "主工作流只负责把请求交给正确的子流程"
+      },
+      {
+        "slide": 13,
+        "first_read": "四条分支的定义和用户例句表",
+        "takeaway_guess": "意图分类必须明确业务边界，不能只给模型几个标签"
+      },
+      {
+        "slide": 14,
+        "first_read": "同一句换货表达下的三种上下文",
+        "takeaway_guess": "相同文本可能对应政策咨询、售后申请或当前推荐对象的替换"
+      },
+      {
+        "slide": 15,
+        "first_read": "“第二个”和“右边”两组短对话",
+        "takeaway_guess": "多轮对话必须带着当前任务和等待字段理解简短回复"
+      },
+      {
+        "slide": 16,
+        "first_read": "四条业务分支与三种处理方式的矩阵",
+        "takeaway_guess": "知识问答、业务查询和办理应在同一用户任务内连续配合"
+      },
+      {
+        "slide": 17,
+        "first_read": "子流程输入与返回状态的对照表",
+        "takeaway_guess": "流程传递的不仅是一句话，还有已确认信息、当前任务和真实执行状态"
+      },
+      {
+        "slide": 18,
+        "first_read": "大号 03 和订单查询标题",
+        "takeaway_guess": "第三节关注候选订单、用户确认与查询异常"
+      },
+      {
+        "slide": 19,
+        "first_read": "DEMO-101/102/103 三笔模拟订单表",
+        "takeaway_guess": "以 9 月 9 日为固定查询日时，“上周的耳机”会命中两笔候选"
+      },
+      {
+        "slide": 20,
+        "first_read": "无订单号查询的 A/B/C 选项",
+        "takeaway_guess": "系统应先按账号和线索查候选订单，再让用户确认而不是擅自选择"
+      },
+      {
+        "slide": 21,
+        "first_read": "从检查信息到检查结果的六步流程",
+        "takeaway_guess": "订单查询需要依次处理身份、候选、数量、确认、详情和成败状态"
+      },
+      {
+        "slide": 22,
+        "first_read": "候选卡、“第二个”消息和 DEMO-102 状态更新",
+        "takeaway_guess": "简短自然表达必须依据当前候选列表映射成确定的订单 ID"
+      },
+      {
+        "slide": 23,
+        "first_read": "系统事实与模型表达职责的双栏对比",
+        "takeaway_guess": "订单状态、时间和接口结果由系统给出，模型只负责组织和解释"
+      },
+      {
+        "slide": 24,
+        "first_read": "无订单、未发货和工具失败三行状态对比",
+        "takeaway_guess": "看不到物流有三种不同原因，产品回复和下一步必须分开"
+      },
+      {
+        "slide": 25,
+        "first_read": "大号 04 和售后处理标题",
+        "takeaway_guess": "第四节将换货诉求推进至申请受理与状态回复"
+      },
+      {
+        "slide": 26,
+        "first_read": "DEMO-101 换货请求的六步售后主线",
+        "takeaway_guess": "售后助手可以收集并提交申请，但不能自行批准、退款或承诺寄出"
+      },
+      {
+        "slide": 27,
+        "first_read": "已有信息、知识规则和责任分工三张卡",
+        "takeaway_guess": "售后流程要复用用户已说内容，并让模型、系统和人工各自处理合适的工作"
+      },
+      {
+        "slide": 28,
+        "first_read": "申请确认、pending_review 结果与异常处理三张卡",
+        "takeaway_guess": "最后回复必须符合真实提交状态，已提交不等于已批准，超时也不能盲目重提"
+      }
+    ],
+    "memory_sentence": "这套课件让学员记住：大模型负责理解和表达，业务系统负责事实、权限和执行状态",
+    "hotspot_checks": [
+      {
+        "id": "slide22-selection-between-cards",
+        "slide": 22,
+        "pass": true,
+        "observed_pixels": "中间的用户消息卡完整位于左右两张大卡之间，左右可见净距分别约为 0.86 in 和 0.88 in，箭头与边框无视觉相交或遮挡"
+      },
+      {
+        "id": "slide28-takeaway-clear-of-cards",
+        "slide": 28,
+        "pass": true,
+        "observed_pixels": "底部结论条完整位于三张内容卡下方，可见垂直净距约为 0.21 in，结论条、卡片边框和底部进度线均未重叠"
+      }
+    ],
+    "icon_checks": []
+  },
+  "reviewer": {
+    "origin": "isolated",
+    "identity": "ppt_critic",
+    "fresh_context": true
+  },
+  "verdict": "consent",
+  "ceiling": "若还有一小时，最值得的提升是在不改变页面节奏的前提下，把投影环境中最小的表格和流程正文增大到更稳妥的课堂字号",
+  "summary": "内容与讲义一致，四节结构、三笔模拟订单、9 月 9 日时间背景及售后状态边界均准确，28 页备注完整覆盖源内容。章节页与路由式视觉语言支撑课堂讲解；只有少量品名简写、小字号和备注重复属于可选打磨。",
+  "strengths": [
+    "第 3、9、18、25 页的章节分隔和持续页眉让四节教学结构非常明确",
+    "DEMO-101/102/103 的日期、状态和物流信息正确，“第二个”准确映射到 DEMO-102",
+    "第 26–28 页将“受理不等于批准”、AS-DEMO-001、pending_review 与超时先查状态表达得准确而显眼",
+    "所有 28 页都有演讲备注，章节级备注还保留了讲义的细节、异常与测试内容",
+    "未发现图形越界、明显重叠或关键结论被卡片遮挡"
+  ],
+  "findings": [
+    {
+      "id": "s19-product-name-abbrev",
+      "slide": 19,
+      "severity": "minor",
+      "dimension": "content fidelity",
+      "issue": "可见订单表将讲义中的“AirLite 蓝牙耳机”、“AirLite Pro 降噪耳机”和“K68 无线键盘”简写为“AirLite 耳机”、“AirLite Pro”和“K68 键盘”",
+      "why": "编号、日期和状态没有错，但学员若按课件逐字核对模拟数据，会看到与讲义品名的轻微差异",
+      "fix": "若需要逐字一致，将第 19 页三个商品名称恢复为讲义全称，并在第 22 页候选卡中保持同一命名",
+      "fix_risk": "low"
+    },
+    {
+      "id": "deck-small-body-type",
+      "slide": "deck",
+      "severity": "minor",
+      "dimension": "back-of-room readability",
+      "issue": "第 8、13、16、19、21、24、26 页的部分表格或流程正文使用 12.5–13.2 pt 字号",
+      "why": "布局没有溢出，但在大教室或对比度较低的投影环境中，后排学员可能需要更多时间读完",
+      "fix": "若开课场地较大，优先精简表格文字或增加行高，将上述页面的核心正文提升到约 14–16 pt，同时保留页面现有的横向结构",
+      "fix_risk": "medium"
+    },
+    {
+      "id": "s25-fixed-date-visibility",
+      "slide": 25,
+      "severity": "minor",
+      "dimension": "instructional context",
+      "issue": "第四节的 9 月 9 日固定查询背景保留在第 25 页备注中，但未在第 26–28 页的可见文本重复",
+      "why": "按顺序讲解时不会造成事实错误，但教师若单独抽取第四节授课，时间设定较容易被忽略",
+      "fix": "若课件预计分节使用，在第 26 页副标题末尾增加“查询日固定为 9 月 9 日”；若始终连续授课则可保持现状",
+      "fix_risk": "low"
+    },
+    {
+      "id": "deck-notes-duplication",
+      "slide": "deck",
+      "severity": "minor",
+      "dimension": "speaker notes usability",
+      "issue": "第 3、9、18、25 页章节页备注包含整节讲义，与后续内容页的逐页备注存在较多重复",
+      "why": "备注覆盖非常完整，但教师在 Presenter View 中滚动和定位当页讲解内容时会稍显冗长",
+      "fix": "在不删除源内容的前提下，将章节页备注改为本节目标和章节导入，详细内容保留在对应内容页备注中",
+      "fix_risk": "medium"
+    }
+  ]
+}

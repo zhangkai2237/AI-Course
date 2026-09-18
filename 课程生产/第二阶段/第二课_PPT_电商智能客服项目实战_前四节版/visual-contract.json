@@ -1,0 +1,25 @@
+{
+  "schema": "slide-maker-codex-visual-contract/v1",
+  "zones": [
+    {
+      "id": "slide22-selection-between-cards",
+      "slide": 22,
+      "subject": {"rect": [4.95, 2.70, 2.10, 0.92]},
+      "clear_of": [
+        {"rect": [0.84, 2.02, 3.25, 3.40]},
+        {"rect": [7.93, 2.02, 4.28, 3.40]}
+      ],
+      "min_gap": 0.12
+    },
+    {
+      "id": "slide28-takeaway-clear-of-cards",
+      "slide": 28,
+      "subject": {"rect": [0.80, 5.96, 11.72, 0.58]},
+      "clear_of": [
+        {"rect": [0.82, 2.00, 11.48, 3.75]}
+      ],
+      "min_gap": 0.12
+    }
+  ],
+  "icons": []
+}

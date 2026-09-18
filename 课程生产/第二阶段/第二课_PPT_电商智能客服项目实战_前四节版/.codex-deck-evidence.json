@@ -1,0 +1,257 @@
+{
+  "schema": "slide-maker-codex-evidence/v2",
+  "runtime": "codex",
+  "delivery": "presented",
+  "review_effort": "fast",
+  "fast_basis": "<only when review_effort is fast: >=12 chars \u2014 how fast was reached: the user's post-build choice, or 'post-build default \u2014 auto/not asked'>",
+  "deck": {
+    "pptx": "deck.pptx",
+    "sha256": "<sha256 of final deck.pptx>",
+    "slide_count": 10
+  },
+  "interview": {
+    "mode": "answered",
+    "record": "<user answers or auto-carved rationale>",
+    "length": "<what the user said, or how the count was derived when they did not>"
+  },
+  "content": {
+    "source_mode": "provided",
+    "sources": [
+      {
+        "kind": "provided",
+        "path": "README.md",
+        "sha256": "<sha256>"
+      }
+    ],
+    "slides": [
+      {
+        "slide": 1,
+        "role": "cover",
+        "takeaway": "<one audience takeaway>",
+        "evidence": [
+          "README.md:1-10"
+        ]
+      },
+      {
+        "slide": 2,
+        "role": "problem",
+        "takeaway": "<what the room is wrong about, or does not yet see>",
+        "evidence": [
+          "README.md:11-24"
+        ]
+      },
+      {
+        "slide": 3,
+        "role": "evidence",
+        "takeaway": "<the claim this page makes, not its topic>",
+        "evidence": [
+          "README.md:25-40"
+        ]
+      }
+    ],
+    "claim_ledger": [
+      {
+        "claim": "<checkable claim>",
+        "source": "README.md:1-10",
+        "verified": true
+      }
+    ],
+    "arc": {
+      "chosen": "<the arc that won \u2014 must be one of candidates[].name>",
+      "shape": "problem-turn-evidence",
+      "candidates": [
+        {
+          "name": "<label-A>",
+          "shape": "problem-turn-evidence",
+          "roles": [
+            "problem",
+            "evidence",
+            "conclusion"
+          ],
+          "audience_question": "<the question this room is actually asking>",
+          "objection": "<the objection this arc pre-empts>",
+          "closing_ask": "<what the room should do or believe>",
+          "evidence": [
+            "<claim-ledger id>",
+            "<claim-ledger id>"
+          ]
+        },
+        {
+          "name": "<label-B>",
+          "shape": "recommendation-first",
+          "roles": [
+            "conclusion",
+            "evidence",
+            "roadmap"
+          ],
+          "audience_question": "<a DIFFERENT question>",
+          "objection": "<a DIFFERENT objection>",
+          "closing_ask": "<a DIFFERENT ask>",
+          "evidence": [
+            "<claim-ledger id>",
+            "<claim-ledger id>"
+          ]
+        }
+      ],
+      "rejected": [
+        {
+          "name": "<label-B>",
+          "why_lost": "<one clause>"
+        }
+      ],
+      "divergence_justified": "<only when the recomputed check flags: why this set is right anyway>"
+    },
+    "checkpoint": {
+      "mode": "approved",
+      "record": "<decision record>"
+    }
+  },
+  "design": {
+    "direction": {
+      "branch": "clean",
+      "artifact": "directions.html",
+      "sha256": "<sha256>",
+      "directions": [
+        {
+          "id": "A",
+          "name": "A",
+          "bg": "#071820",
+          "accent": "#54D9D0",
+          "font_display": "Inter",
+          "font_body": "Inter",
+          "density": "minimal",
+          "cover": "low-left",
+          "skeleton": "rail"
+        }
+      ],
+      "decision": "user-approved",
+      "record": "<selection or auto-carve record>"
+    },
+    "type_scale": {
+      "display": 34,
+      "title": 24,
+      "body": 14
+    },
+    "concept": {
+      "chosen": "<what this deck's idea is a PICTURE of>",
+      "via": "<core concepts> -> <visual language>",
+      "rejected": [
+        {
+          "concept": "<runner-up>",
+          "why_lost": "<one clause>"
+        },
+        {
+          "concept": "<the other>",
+          "why_lost": "<one clause>"
+        }
+      ]
+    },
+    "boldness": "balanced+",
+    "build_shape": "fanout \u2014 <n> sections | solo \u2014 <reason>",
+    "palette": "<FILL vs TEXT-safe split, per palette_audit.py>",
+    "style_pick": "<preset|bespoke|generated register> for <domain> - beat <nearest rival> because <clause> - anti-pick avoided: <the domain clich\u00e9 / image hero clich\u00e9>",
+    "motif_generates": {
+      "background": "<what the motif makes the canvas do | flat by register - reason>",
+      "markers": "<the numeral / icon / bullet system it implies>",
+      "page": "<the slide whose GEOMETRY is the motif | none - reason>"
+    },
+    "signature_move": "<repeated, deliberate visual device>",
+    "carried_by": [
+      1,
+      5
+    ],
+    "signature_proof": [
+      {
+        "role": "signature",
+        "slide": 1,
+        "path": "render/slide-1.png",
+        "sha256": "<sha256>",
+        "pptx_sha256": "<must equal deck.sha256>"
+      },
+      {
+        "role": "complex",
+        "slide": 5,
+        "path": "render/slide-5.png",
+        "sha256": "<sha256>",
+        "pptx_sha256": "<must equal deck.sha256>"
+      },
+      {
+        "role": "data",
+        "slide": 8,
+        "path": "render/slide-8.png",
+        "sha256": "<sha256>",
+        "pptx_sha256": "<must equal deck.sha256>"
+      }
+    ],
+    "slides": [
+      {
+        "slide": 1,
+        "function": "slide_01",
+        "form": "cover",
+        "runner_up": "editorial opener",
+        "reason": "<why this form serves the takeaway>",
+        "categorical": false,
+        "components": []
+      },
+      {
+        "slide": 2,
+        "function": "slide_02",
+        "form": "<the form this content's SHAPE wants>",
+        "runner_up": "<a form from a DIFFERENT family that it beat>",
+        "reason": "<why this form serves the takeaway>",
+        "categorical": false,
+        "components": []
+      }
+    ],
+    "checkpoint": {
+      "mode": "approved",
+      "record": "<decision record>"
+    }
+  },
+  "build": {
+    "script": "build_deck.py",
+    "sha256": "<sha256>",
+    "strict_layout": true
+  },
+  "icons": [
+    {
+      "slide": 2,
+      "family": "lucide",
+      "asset": "assets/icons/feature.png",
+      "sha256": "<sha256>",
+      "rasterizer": "scripts/icons.py"
+    }
+  ],
+  "visual_contract": {
+    "manifest": "visual-contract.json",
+    "sha256": "<sha256>",
+    "result": "visual-contract-final.json",
+    "result_sha256": "<sha256>",
+    "pptx_sha256": "<must equal deck.sha256>"
+  },
+  "critics": [
+    {
+      "lens": "content",
+      "review": "critic-content-round2.json",
+      "sha256": "<sha256>",
+      "pptx_sha256": "<must equal deck.sha256>"
+    },
+    {
+      "lens": "design",
+      "review": "critic-design-round2.json",
+      "sha256": "<sha256>",
+      "pptx_sha256": "<must equal deck.sha256>"
+    }
+  ],
+  "thorough_panel": null,
+  "arbiters": [],
+  "render_selfcheck": {
+    "slides": [
+      {
+        "n": 1,
+        "verdict": "<what you saw on slide 1 \u2014 'ok' or the defect + fix>"
+      }
+    ]
+  },
+  "waivers": []
+}

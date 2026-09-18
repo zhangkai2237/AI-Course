@@ -1,0 +1,10 @@
+{
+  "script": "build_complete.py",
+  "streaks": {
+    "deck:slide 28:TEXT NOT VISIBLE": 3
+  },
+  "escalated": [
+    "deck:slide 28:TEXT NOT VISIBLE"
+  ],
+  "fingerprint": "e72915a76daf226fedc992e10ea2bb549da099a832880a03e1d6208f5601805f"
+}

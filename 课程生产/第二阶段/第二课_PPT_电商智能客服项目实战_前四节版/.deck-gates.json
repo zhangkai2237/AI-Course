@@ -1,0 +1,48 @@
+{
+  "delivery": "presented",
+  "content_plan_ref": "/Users/keivn/Project/AI-Course/课程生产/第二阶段/04_第二课_电商智能客服项目实战_老师版完整讲义_v1.0.md",
+  "output": "/Users/keivn/Project/AI-Course/课程生产/第二阶段/第二课_PPT_电商智能客服项目实战_前四节版/第二课_电商智能客服项目实战_前四节_正式版PPT_v1.0.pptx",
+  "slide_count": 28,
+  "content": {
+    "checkpoint": {
+      "mode": "approved",
+      "record": "用户确认28页结构。"
+    }
+  },
+  "design": {
+    "checkpoint": {
+      "mode": "approved",
+      "record": "沿用第一课深色青绿体系，强化章节和流程。"
+    }
+  },
+  "design_plan": {
+    "mode": "Mode A mimic",
+    "style_pick": "n/a — locked recent-course style",
+    "boldness": "balanced+",
+    "signature_move": "用户消息沿服务路由穿过主工作流、订单与售后状态",
+    "palette": {
+      "ground": "#031016",
+      "text": "#F5F2E9",
+      "teal": "#36D6C2",
+      "coral": "#FF7657"
+    },
+    "type_scale": {
+      "display": 45,
+      "section": 35,
+      "title": 29,
+      "body": 16
+    },
+    "form_ledger": "封面1；目录1；章节页4；对话页3；流程页5；表格页7；比较/框架页7",
+    "interior_register": "大号章节编号、深色画布、青绿路由、珊瑚风险、底部进度线",
+    "density": {
+      "planned_median": 38,
+      "over_70": 2,
+      "non_text_protagonist": 17
+    },
+    "build_script": "/Users/keivn/Project/AI-Course/课程生产/第二阶段/第二课_PPT_电商智能客服项目实战_前四节版/build_lesson2_customer_service.py"
+  },
+  "provenance": {
+    "source_only": "/Users/keivn/Project/AI-Course/课程生产/第二阶段/04_第二课_电商智能客服项目实战_老师版完整讲义_v1.0.md",
+    "no_external_claims": true
+  }
+}

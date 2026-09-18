@@ -1,0 +1,123 @@
+{
+  "purpose": "补齐已确认的第二课课件第五至第八节；教学讲解及静态自阅，保留旧版视觉语言，不重新设计。",
+  "rubric_overlay": "teaching / instructional",
+  "review_tier": "fast",
+  "independent_source": {
+    "reviewer": "/root/complete_deck_review",
+    "role": "独立审查子代理，未参与PPT构建或修改",
+    "method": "先查看全套联系表，再将新增页内容与讲义第五至八节及完整材料包逐项对照，最后放大重点页核对。"
+  },
+  "coverage": {
+    "slides_opened": [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,31],
+    "passes": ["content lens (full deck; detailed source verification on new slides 29–54)", "design lens (full deck; contact-sheet pass plus selected full-size checks)"],
+    "stats_block_seen": true,
+    "contract_card_seen": "none-declared",
+    "contact_sheets": ["render/contact_01.png", "render/contact_02.png", "render/contact_03.png", "render/contact_04.png", "render/contact_05.png"],
+    "full_size_slides_opened": [15,27,28,31,33,38,45,50,51,52,53],
+    "final_repair_verification": "末次渲染已放大核对15、27、33、38；15气泡边距与DEMO标记可读，27四行分组可读，33已补无满足条件商品的结论，38表头为业务举例。28页最后一条TEXT NOT VISIBLE经图像复核，关键申请信息与材料行可读，无丢字证据。",
+    "limitations": "快速评审：54页均在联系表中查看，并非每页都单独放大。前28页为用户已确认旧版，主要检查全课连贯与明显视觉故障；新增29–54页进行详细来源核对。未验证Coze实际工程，课件本身也不声称课堂案例已经运行。",
+    "sources_read": [
+      "04_第二课_电商智能客服项目实战_老师版完整讲义_v1.0.md：第五至八节全文、开头状态说明与全目录",
+      "05_第二课_项目案例与作业材料包_v1.0.md：全文",
+      "第二课_PPT_电商智能客服项目实战_完整版/lint-final.json：findings、deck、stats_warnings"
+    ]
+  },
+  "plan_audit": null,
+  "plan_audit_reason": "协调者明确确认：本次是补齐已确认旧版，无单独新设计计划；不重新评判已确认模板与静态自阅选择。",
+  "probes": {
+    "per_slide": [
+      {"slide":1,"first_read":"电商智能客服项目实战","takeaway_guess":"以电商案例学习客服业务流程并做个人项目。"},
+      {"slide":2,"first_read":"八节课程目录","takeaway_guess":"从业务背景逐步走到个人作业。"},
+      {"slide":3,"first_read":"01与业务任务标题","takeaway_guess":"先界定客服产品的任务。"},
+      {"slide":4,"first_read":"购买前、下单后、收货后三列","takeaway_guess":"客服贯穿购买旅程。"},
+      {"slide":5,"first_read":"用户请求到五步处理链","takeaway_guess":"一句换货请求背后是一串核实与处理。"},
+      {"slide":6,"first_read":"人工、FAQ、流程机器人、大模型","takeaway_guess":"大模型接在已有自动化能力上。"},
+      {"slide":7,"first_read":"A/B/C选择","takeaway_guess":"关键是自然表达进入正确业务流程。"},
+      {"slide":8,"first_read":"业务问题与不做范围对照","takeaway_guess":"改善服务也要画清能力边界。"},
+      {"slide":9,"first_read":"02整体方案与主流程","takeaway_guess":"下一步讨论请求如何分流。"},
+      {"slide":10,"first_read":"查询、售后、推荐三段对话","takeaway_guess":"同一入口承接不同业务。"},
+      {"slide":11,"first_read":"用户界面横条与后台链","takeaway_guess":"界面之后需要多个系统配合。"},
+      {"slide":12,"first_read":"入口分到四条业务路径","takeaway_guess":"主流程负责识别并分发任务。"},
+      {"slide":13,"first_read":"四类分支定义表","takeaway_guess":"分类名要对应明确业务含义。"},
+      {"slide":14,"first_read":"耳机能不能换的三种上下文","takeaway_guess":"同一句话不总是同一种诉求。"},
+      {"slide":15,"first_read":"第二个与右边两段对话","takeaway_guess":"短回复需要依赖当前任务和对象。"},
+      {"slide":16,"first_read":"业务分支与处理方式矩阵","takeaway_guess":"知识、查询、操作应按任务组合。"},
+      {"slide":17,"first_read":"传入信息与返回状态对照","takeaway_guess":"流程间需要传递状态而非只传文本。"},
+      {"slide":18,"first_read":"03订单查询流程","takeaway_guess":"进入具体订单查询案例。"},
+      {"slide":19,"first_read":"三笔模拟订单表","takeaway_guess":"查询要建立在可验证的数据上。"},
+      {"slide":20,"first_read":"无订单号时的三种做法","takeaway_guess":"用线索找候选，再由用户确认。"},
+      {"slide":21,"first_read":"订单查询六步链","takeaway_guess":"查询包含权限、定位、确认和异常检查。"},
+      {"slide":22,"first_read":"候选列表经第二个映射至会话状态","takeaway_guess":"列表选择必须绑定本轮展示顺序。"},
+      {"slide":23,"first_read":"系统事实与模型说明两栏","takeaway_guess":"模型负责解释，不能改写系统事实。"},
+      {"slide":24,"first_read":"三种查不到物流的状态表","takeaway_guess":"没有订单、未发货和调用失败不能混为一谈。"},
+      {"slide":25,"first_read":"04售后处理","takeaway_guess":"从咨询政策走向受理申请。"},
+      {"slide":26,"first_read":"售后六步链与权限边界","takeaway_guess":"受理流程不等于直接批准换货或退款。"},
+      {"slide":27,"first_read":"复用信息、知识规则、责任分工三栏","takeaway_guess":"按当前缺口决定下一步。"},
+      {"slide":28,"first_read":"确认页、提交结果、异常三栏","takeaway_guess":"回复必须反映真实提交状态。"},
+      {"slide":29,"first_read":"05商品推荐与兜底","takeaway_guess":"补齐购买前与无法明确分流的情形。"},
+      {"slide":30,"first_read":"已知条件、追问、查询条件三栏","takeaway_guess":"只追问真正影响推荐的信息。"},
+      {"slide":31,"first_read":"橙色强调的269元降噪款","takeaway_guess":"筛选结果由硬条件和商品事实决定。"},
+      {"slide":32,"first_read":"理解、查询、筛选、解释四步","takeaway_guess":"推荐不只是生成一段销售话术。"},
+      {"slide":33,"first_read":"继续保留与本轮更新两栏","takeaway_guess":"用户说便宜一点时更新价格偏好，不丢掉原条件。"},
+      {"slide":34,"first_read":"不同模糊表达的处理表","takeaway_guess":"兜底先澄清范围，明确要求人工则转接。"},
+      {"slide":35,"first_read":"测试情况与检查重点对照","takeaway_guess":"推荐也要测试缺条件、改条件和资料缺失。"},
+      {"slide":36,"first_read":"06上下文管理","takeaway_guess":"把多条流程放回同一会话。"},
+      {"slide":37,"first_read":"推荐、订单、返回推荐三轮","takeaway_guess":"话题切换不能混淆推荐商品与订单对象。"},
+      {"slide":38,"first_read":"四类会话信息表","takeaway_guess":"保存任务、最新条件、对象和未完成操作。"},
+      {"slide":39,"first_read":"读状态到更新结果的四步","takeaway_guess":"每轮需要读写业务状态。"},
+      {"slide":40,"first_read":"可暂停与需跟踪两栏","takeaway_guess":"话题切换不代表提交操作没有发生。"},
+      {"slide":41,"first_read":"先查订单、再查政策、分别回复","takeaway_guess":"多任务按依赖关系执行。"},
+      {"slide":42,"first_read":"07人工接管与工作台","takeaway_guess":"系统也要设计人工路径。"},
+      {"slide":43,"first_read":"转人工情形表","takeaway_guess":"用户要求、依据不足、风险和系统失败都可能触发人工。"},
+      {"slide":44,"first_read":"准备转接、排队、接入三步","takeaway_guess":"转接过程也要有真实状态和无人可接时的路径。"},
+      {"slide":45,"first_read":"人工交接字段表","takeaway_guess":"交接必须让人工看见已知、缺失和未执行事项。"},
+      {"slide":46,"first_read":"客服工作台四区","takeaway_guess":"把用户、对话、业务摘要和人工操作组合起来。"},
+      {"slide":47,"first_read":"AI辅助、人工处理、记录修正","takeaway_guess":"AI建议与人工执行分开，修正需要留下记录。"},
+      {"slide":48,"first_read":"08个人项目与作业","takeaway_guess":"将公共案例转成自己的可运行项目。"},
+      {"slide":49,"first_read":"六种场景与核心流程表","takeaway_guess":"选自己熟悉且能准备资料的业务。"},
+      {"slide":50,"first_read":"维修需求登记四步与最终要能运行","takeaway_guess":"先完成一条有真实结束状态的核心流程。"},
+      {"slide":51,"first_read":"三项交付卡片","takeaway_guess":"方案、可运行Coze项目、测试与录屏都必交。"},
+      {"slide":52,"first_read":"三类测试与实际运行警示","takeaway_guess":"正常、需求变化、无法完成都需实际测试。"},
+      {"slide":53,"first_read":"初版—点评—最终版时间线","takeaway_guess":"初版允许带卡点，最终必须运行并补齐证据。"},
+      {"slide":54,"first_read":"面向谁、解决什么、做到哪里","takeaway_guess":"下课先确定自己的选题边界，再落实运行交付。"}
+    ],
+    "memory_sentence": "客服不是只把话说好，而是依照真实数据和业务状态把一件事推进；个人作业要用Coze实际跑通一条这样的流程，并用三组测试和录屏证明。无独立计划中的记忆句可作比对。"
+  },
+  "verdict": "consent",
+  "ceiling": "授课时让学员先根据31页数据预测33页筛选结果，再读处理结论，会让保留硬条件的原则更容易记住。",
+  "summary": "新增第五至八节覆盖推荐与兜底、会话状态与切换、人工交接、个人项目交付四条主线；未发现新增页会误导学员的重大内容问题或明显渲染阻断。51–53页准确表达个人方案、可运行Coze核心流程、三组实际测试和3—5分钟录屏，以及初版可带卡点、最终必须运行的区别。",
+  "strengths": [
+    "50–53页将完成范围、三项成果、测试要求与两个交付阶段分开，避免把方案或待验证状态当作最终成果。",
+    "31页筛选高亮与商品表一致；45页采用9月4日签收，与前文订单表和材料包保持一致。",
+    "40、44、45页保留提交结果待确认、无人接入与人工接续所需状态，没有把转人工写成一句空泛兜底。"
+  ],
+  "findings": [],
+  "resolved_findings": [
+    {
+      "id": "s33-worked-example-close",
+      "slide": 33,
+      "severity": "minor",
+      "status": "resolved — 已查看末次33页渲染，卡片下方明确写出没有更便宜且支持主动降噪的款式，并要求询问是否调整条件。",
+      "dimension": "worked examples / self-read completeness",
+      "issue": "本页说明保留主动降噪条件并重新查询，但没有展示本表查询后的结果；第31页实际没有更便宜且仍支持主动降噪的型号。材料包已明确说明这一分支。",
+      "why": "只看课件的学员能理解要更新状态，但容易跳过没有满足条件商品时应怎样答复这一结果。",
+      "fix": "在本页空余区域补一句：当前没有更便宜且仍满足主动降噪的款，说明结果并询问是否调整条件。无需改变双栏结构。",
+      "fix_risk": "low"
+    }
+  ],
+  "source_consistency_notes": [
+    "讲义第七节关联业务信息处将DEMO-101签收时间写成2026年9月5日；材料包、前文和PPT第45页使用9月4日。该问题在源讲义，不应把PPT改回9月5日；已单独通知协调者。"
+  ],
+  "stats_adjudication": {
+    "mode": "lint为presented模式，本轮按已确认静态自阅用途判断",
+    "observed": "body_median_pt=15、distinct_skeletons=30、avg_occupancy=0.58、无动画或转场。",
+    "exceptions": [
+      "TEXT WALL、SMALL TYPE：不可直接套用远距离演讲阈值；放大重点页在屏幕上可读，不要求重排已确认版式。",
+      "STRETCHED THIN：对应章节分隔页的有意留白。",
+      "CARD DOMINANCE、TITLE-RULE MONOCULTURE、图标缺失与字号数量：模板保留属于任务明确约束，不以重新设计作为本次交付前提。",
+      "38页表头‘示例’指业务状态举例，不是构建批注。",
+      "空行引发的TEXT NOT VISIBLE不能等同丢字；查看的重点页未出现对应文字消失。"
+    ],
+    "final_repair_status": "已独立查看15、27、28、33、38的末次渲染；不将其余只改段间距而未再次单页放大的页面冒称为末次逐页大图复核。"
+  }
+}

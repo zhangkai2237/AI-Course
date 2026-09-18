@@ -1,0 +1,85 @@
+{
+  "schema": "slide-maker-codex-visual-contract-result/v1",
+  "pptx": "/Users/keivn/Project/AI-Course/课程生产/第二阶段/第二课_PPT_电商智能客服项目实战_前四节版/第二课_电商智能客服项目实战_前四节_正式版PPT_v1.0.pptx",
+  "pptx_sha256": "472a114262841a1067f01b96874462df94b9f27e51c8cf808ab8b5c4c2c20ec4",
+  "manifest": "/Users/keivn/Project/AI-Course/课程生产/第二阶段/第二课_PPT_电商智能客服项目实战_前四节版/visual-contract.json",
+  "manifest_sha256": "106df23d83f5ed191442198169234877a2738babb24d9f4846b1efc72a606a5f",
+  "passed": true,
+  "zones": [
+    {
+      "id": "slide22-selection-between-cards",
+      "slide": 22,
+      "pass": true,
+      "checks": [
+        {
+          "pass": true,
+          "subject": [
+            4.95,
+            2.7,
+            2.1,
+            0.92
+          ],
+          "against": [
+            0.84,
+            2.02,
+            3.25,
+            3.4
+          ],
+          "horizontal_gap": 0.86,
+          "vertical_gap": 0.0,
+          "distance": 0.86,
+          "required_gap": 0.12
+        },
+        {
+          "pass": true,
+          "subject": [
+            4.95,
+            2.7,
+            2.1,
+            0.92
+          ],
+          "against": [
+            7.93,
+            2.02,
+            4.28,
+            3.4
+          ],
+          "horizontal_gap": 0.88,
+          "vertical_gap": 0.0,
+          "distance": 0.88,
+          "required_gap": 0.12
+        }
+      ],
+      "crop": "/Users/keivn/Project/AI-Course/课程生产/第二阶段/第二课_PPT_电商智能客服项目实战_前四节版/visual-crops/slide22-selection-between-cards.png"
+    },
+    {
+      "id": "slide28-takeaway-clear-of-cards",
+      "slide": 28,
+      "pass": true,
+      "checks": [
+        {
+          "pass": true,
+          "subject": [
+            0.8,
+            5.96,
+            11.72,
+            0.58
+          ],
+          "against": [
+            0.82,
+            2.0,
+            11.48,
+            3.75
+          ],
+          "horizontal_gap": 0.0,
+          "vertical_gap": 0.21,
+          "distance": 0.21,
+          "required_gap": 0.12
+        }
+      ],
+      "crop": "/Users/keivn/Project/AI-Course/课程生产/第二阶段/第二课_PPT_电商智能客服项目实战_前四节版/visual-crops/slide28-takeaway-clear-of-cards.png"
+    }
+  ],
+  "icons": [],
+  "errors": []
+}

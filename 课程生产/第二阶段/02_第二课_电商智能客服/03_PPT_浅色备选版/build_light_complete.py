@@ -16,10 +16,11 @@ from pptx.oxml import parse_xml
 from pptx.util import Inches, Pt
 
 ROOT = Path(__file__).resolve().parent
-BASE = ROOT.parent
-SOURCE_DECK = BASE / "第二课-电商智能客服项目实战.pptx"
-LECTURE = BASE / "04_第二课_电商智能客服项目实战_老师版完整讲义_v1.0.md"
-MATERIAL = BASE / "05_第二课_项目案例与作业材料包_v1.0.md"
+COURSE = ROOT.parent
+STAGE = ROOT.parents[1]
+SOURCE_DECK = STAGE / "99_历史归档" / "课件" / "第二课_电商智能客服项目实战_过渡版本" / "第二课_电商智能客服项目实战_33页过渡版.pptx"
+LECTURE = COURSE / "01_讲义与材料" / "04_第二课_电商智能客服项目实战_老师版完整讲义_v1.0.md"
+MATERIAL = COURSE / "01_讲义与材料" / "05_第二课_项目案例与作业材料包_v1.0.md"
 OUTPUT = ROOT / "第二课_电商智能客服项目实战_浅色完整PPT_v1.0.pptx"
 LEDGER_PATH = ROOT / ".append-ledger.json"
 

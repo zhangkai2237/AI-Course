@@ -3,10 +3,10 @@ import path from "node:path";
 import { execFileSync } from "node:child_process";
 
 const workspace = "/Users/keivn/Project/AI-Course";
-const outDir = path.join(workspace, "课程生产/第二阶段/专题课_PPT_便宜的答案昂贵的判断_完整版");
+const outDir = path.join(workspace, "课程生产/第二阶段/03_专题课_便宜的答案昂贵的判断/02_PPT_完整版本");
 const buildDir = path.join(outDir, ".build");
-const sourceDeck = path.join(workspace, "课程生产/第二阶段/第二课_PPT_电商智能客服项目实战_完整版/第二课_电商智能客服项目实战_完整PPT_v1.1.pptx");
-const lecture = path.join(workspace, "课程生产/第二阶段/07_专题课_便宜的答案昂贵的判断_前五节老师讲义_v1.0.md");
+const sourceDeck = path.join(workspace, "课程生产/第二阶段/02_第二课_电商智能客服/02_PPT_深色正式版/第二课_电商智能客服项目实战_完整PPT_v1.1.pptx");
+const lecture = path.join(workspace, "课程生产/第二阶段/03_专题课_便宜的答案昂贵的判断/01_老师讲义/07_专题课_便宜的答案昂贵的判断_前五节老师讲义_v1.0.md");
 const candidate = path.join(outDir, ".candidate.pptx");
 const finalDeck = path.join(outDir, "专题课_便宜的答案昂贵的判断_完整PPT_v1.0.pptx");
 

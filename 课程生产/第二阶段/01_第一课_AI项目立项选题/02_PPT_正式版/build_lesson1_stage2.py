@@ -14,7 +14,7 @@ import deckkit as dk  # noqa: E402
 
 ROOT = Path(__file__).resolve().parent
 OUT = ROOT / "第一课_AI项目立项、选题与完成标准_完整PPT_v1.0.pptx"
-SOURCE = Path("/Users/keivn/Project/AI-Course/课程生产/第二阶段/02_第一课_AI项目立项选题与完成标准_老师版完整讲义_v1.0.md")
+SOURCE = ROOT.parent / "01_讲义与课程设计" / "02_第一课_AI项目立项选题与完成标准_老师版完整讲义_v1.0.md"
 GATES = ROOT / ".deck-gates.json"
 
 W, H = 13.333, 7.5

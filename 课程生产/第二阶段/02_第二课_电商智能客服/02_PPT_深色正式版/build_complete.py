@@ -9,11 +9,12 @@ from pptx import Presentation
 from pptx.util import Inches, Pt
 
 ROOT = Path(__file__).resolve().parent
-BASE = ROOT.parent
-OLD_DIR = BASE / '99_历史归档' / '课件' / '第二课_PPT_电商智能客服项目实战_前四节版'
+COURSE = ROOT.parent
+STAGE = ROOT.parents[1]
+OLD_DIR = STAGE / '99_历史归档' / '课件' / '第二课_PPT_电商智能客服项目实战_前四节版'
 OLD = OLD_DIR / '第二课_电商智能客服项目实战_前四节_正式版PPT_v1.0.pptx'
-SOURCE = BASE / '04_第二课_电商智能客服项目实战_老师版完整讲义_v1.0.md'
-MATERIAL = BASE / '05_第二课_项目案例与作业材料包_v1.0.md'
+SOURCE = COURSE / '01_讲义与材料' / '04_第二课_电商智能客服项目实战_老师版完整讲义_v1.0.md'
+MATERIAL = COURSE / '01_讲义与材料' / '05_第二课_项目案例与作业材料包_v1.0.md'
 OUT = ROOT / '第二课_电商智能客服项目实战_完整PPT_v1.1.pptx'
 spec = importlib.util.spec_from_file_location('lesson2_base', OLD_DIR / 'build_lesson2_customer_service.py')
 old = importlib.util.module_from_spec(spec)

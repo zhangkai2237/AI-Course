@@ -1,0 +1,251 @@
+{
+  "source_deck": "/Users/didi/Project/AI-Course/课程生产/第二阶段/第二课-电商智能客服项目实战.pptx",
+  "source_sha256": "19d267823374f7d42ba1d0861a5318744e52c43f79819eb2790328adf1f48f20",
+  "lecture": "/Users/didi/Project/AI-Course/课程生产/第二阶段/04_第二课_电商智能客服项目实战_老师版完整讲义_v1.0.md",
+  "material": "/Users/didi/Project/AI-Course/课程生产/第二阶段/05_第二课_项目案例与作业材料包_v1.0.md",
+  "output": "/Users/didi/Project/AI-Course/课程生产/第二阶段/第二课_PPT_电商智能客服项目实战_浅色完整版/第二课_电商智能客服项目实战_浅色完整PPT_v1.0.pptx",
+  "total_slides": 59,
+  "slides": [
+    {
+      "slide": 34,
+      "section": "第五节",
+      "title": "商品推荐与闲聊兜底",
+      "headings": [],
+      "form": "chapter"
+    },
+    {
+      "slide": 35,
+      "section": "第五节",
+      "title": "商品推荐的需求收集",
+      "headings": [
+        "一、商品推荐与订单查询有什么不同",
+        "三、推荐流程需要收集哪些信息"
+      ],
+      "form": "cards"
+    },
+    {
+      "slide": 36,
+      "section": "第五节",
+      "title": "模拟商品目录与筛选结果",
+      "headings": [
+        "二、先准备一份模拟商品数据",
+        "六、推荐结果不能脱离真实商品数据"
+      ],
+      "form": "table"
+    },
+    {
+      "slide": 37,
+      "section": "第五节",
+      "title": "商品推荐工作流",
+      "headings": [
+        "四、展开商品推荐工作流",
+        "六、推荐结果不能脱离真实商品数据"
+      ],
+      "form": "flow"
+    },
+    {
+      "slide": 38,
+      "section": "第五节",
+      "title": "推荐后的条件更新",
+      "headings": [
+        "五、用户继续追问时怎样处理"
+      ],
+      "form": "comparison"
+    },
+    {
+      "slide": 39,
+      "section": "第五节",
+      "title": "闲聊、模糊表达与超范围请求",
+      "headings": [
+        "七、什么情况下进入闲聊兜底",
+        "八、闲聊兜底与转人工不是一回事"
+      ],
+      "form": "table"
+    },
+    {
+      "slide": 40,
+      "section": "第五节",
+      "title": "推荐与兜底的测试重点",
+      "headings": [
+        "九、用几组对话检查推荐与兜底",
+        "十、本节完成了什么"
+      ],
+      "form": "table"
+    },
+    {
+      "slide": 41,
+      "section": "第六节",
+      "title": "多流程协同与上下文",
+      "headings": [],
+      "form": "chapter"
+    },
+    {
+      "slide": 42,
+      "section": "第六节",
+      "title": "跨流程对话：推荐 → 查单 → 返回推荐",
+      "headings": [
+        "二、先看一段跨流程对话",
+        "六、继续、切换和返回，需要分别处理"
+      ],
+      "form": "dialogue"
+    },
+    {
+      "slide": 43,
+      "section": "第六节",
+      "title": "会话中需要保存的业务信息",
+      "headings": [
+        "三、系统需要记住哪些信息",
+        "四、为什么不能只把整段聊天记录交给模型"
+      ],
+      "form": "table"
+    },
+    {
+      "slide": 44,
+      "section": "第六节",
+      "title": "主流程每轮的处理步骤",
+      "headings": [
+        "五、主流程每一轮需要做什么"
+      ],
+      "form": "flow"
+    },
+    {
+      "slide": 45,
+      "section": "第六节",
+      "title": "中途切换与幂等保护",
+      "headings": [
+        "七、中途切换时，哪些操作可以暂停",
+        "十、用三段对话检查流程协同"
+      ],
+      "form": "comparison"
+    },
+    {
+      "slide": 46,
+      "section": "第六节",
+      "title": "一句话多任务的顺序与系统组织",
+      "headings": [
+        "八、用户一句话里可能包含多个任务",
+        "九、要不要为每条流程设计一个 Agent"
+      ],
+      "form": "flow"
+    },
+    {
+      "slide": 47,
+      "section": "第七节",
+      "title": "人工接管与客服工作台",
+      "headings": [],
+      "form": "chapter"
+    },
+    {
+      "slide": 48,
+      "section": "第七节",
+      "title": "转人工的触发条件",
+      "headings": [
+        "一、哪些问题应该转人工"
+      ],
+      "form": "table"
+    },
+    {
+      "slide": 49,
+      "section": "第七节",
+      "title": "转接状态与用户告知",
+      "headings": [
+        "二、转人工之前要告诉用户什么"
+      ],
+      "form": "flow"
+    },
+    {
+      "slide": 50,
+      "section": "第七节",
+      "title": "人工交接摘要示例",
+      "headings": [
+        "三、人工客服需要收到哪些信息",
+        "四、不能只把聊天记录扔给人工"
+      ],
+      "form": "table"
+    },
+    {
+      "slide": 51,
+      "section": "第七节",
+      "title": "客服工作台页面结构",
+      "headings": [
+        "五、客服工作台应该怎样组织"
+      ],
+      "form": "wireframe"
+    },
+    {
+      "slide": 52,
+      "section": "第七节",
+      "title": "AI 辅助、人工修正与结果回写",
+      "headings": [
+        "六、AI 在人工工作台里还能做什么",
+        "七、人工修改的信息怎样返回系统",
+        "九、怎样检查人工接管是否设计完整"
+      ],
+      "form": "cards"
+    },
+    {
+      "slide": 53,
+      "section": "第八节",
+      "title": "个人项目与课后作业",
+      "headings": [],
+      "form": "chapter"
+    },
+    {
+      "slide": 54,
+      "section": "第八节",
+      "title": "个人项目的场景选择",
+      "headings": [
+        "一、把今天的公共项目换成自己的业务场景"
+      ],
+      "form": "table"
+    },
+    {
+      "slide": 55,
+      "section": "第八节",
+      "title": "个人项目的最小完成范围",
+      "headings": [
+        "二、这次只完成一条核心流程",
+        "三、先准备材料，再去 Coze 搭建"
+      ],
+      "form": "flow"
+    },
+    {
+      "slide": 56,
+      "section": "第八节",
+      "title": "项目作业的三项交付",
+      "headings": [
+        "四、最终提交什么，以及分几步完成"
+      ],
+      "form": "cards"
+    },
+    {
+      "slide": 57,
+      "section": "第八节",
+      "title": "三组实际测试的要求",
+      "headings": [
+        "四、最终提交什么，以及分几步完成"
+      ],
+      "form": "table"
+    },
+    {
+      "slide": 58,
+      "section": "第八节",
+      "title": "初版、点评与最终版",
+      "headings": [
+        "四、最终提交什么，以及分几步完成",
+        "五、下次课怎么点评"
+      ],
+      "form": "timeline"
+    },
+    {
+      "slide": 59,
+      "section": "第八节",
+      "title": "把公共项目的方法，迁移成自己的项目证据",
+      "headings": [
+        "五、下次课怎么点评",
+        "六、整课收尾"
+      ],
+      "form": "statement"
+    }
+  ]
+}

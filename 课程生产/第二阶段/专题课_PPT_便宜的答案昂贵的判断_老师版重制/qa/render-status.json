@@ -1,0 +1,10 @@
+{
+  "powerPointOpen": "PASS: Microsoft PowerPoint opened the 44-slide PPTX",
+  "powerPointPdfExport": "BLOCKED: AppleScript save-as-PDF returned -9074 or produced no file",
+  "fallbackPdfExport": "PASS: Keynote exported the final PPTX to PDF",
+  "pdfPages": 44,
+  "pngPages": 44,
+  "contactSheets": 4,
+  "visualContactSheetReview": "PASS WITH MANUAL FOLLOW-UP: all 44 thumbnails present; no obvious clipping at contact-sheet scale",
+  "note": "PDF is a Keynote fallback export, not a successful PowerPoint PDF export. Do not represent it as PowerPoint-generated."
+}

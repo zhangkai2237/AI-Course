@@ -1,0 +1,14 @@
+{
+  "name": "cheap-answers-expensive-judgment-teacher-v2",
+  "version": "2.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node src/build.mjs",
+    "qa": "node src/qa.mjs",
+    "all": "npm run build && npm run qa"
+  },
+  "dependencies": {
+    "pptxgenjs": "4.0.1"
+  }
+}

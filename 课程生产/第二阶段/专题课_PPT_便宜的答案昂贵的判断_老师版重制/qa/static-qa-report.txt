@@ -1,0 +1,34 @@
+静态QA：PASS
+通过 24/24；失败 0
+
+PASS | 44页内容层 | actual=44
+PASS | 总时长120分钟 | actual=120
+PASS | 44页均有备注 | actual=44
+PASS | 备注字段 [时长] | all 44 slides
+PASS | 备注字段 [目标] | all 44 slides
+PASS | 备注字段 [老师话术] | all 44 slides
+PASS | 备注字段 [动作] | all 44 slides
+PASS | 备注字段 [预期反应] | all 44 slides
+PASS | 备注字段 [点评追问] | all 44 slides
+PASS | 备注字段 [口径提醒] | all 44 slides
+PASS | 备注字段 [转场] | all 44 slides
+PASS | 备注字段 [讲义来源] | all 44 slides
+PASS | 44页讲义来源标记 | all slides have source mapping
+PASS | 五幕分页 | P01-07 / P08-14 / P15-29 / P30-36 / P37-44
+PASS | P21—P23原生线框类型 | wireConversation, wireOrder, wireHandoff
+PASS | 公共案例均显式标记 | marked=25
+PASS | 无无条件真实成效断言 | no prohibited unconditional claims
+PASS | 唯一内容源为指定Markdown | ../07_专题课_便宜的答案昂贵的判断_前五节老师讲义_v1.0.md
+PASS | 内容源不是PPT | ../07_专题课_便宜的答案昂贵的判断_前五节老师讲义_v1.0.md
+PASS | 独立工程包结构 | all required files present
+PASS | 正式PPTX已生成 | dist/专题课_便宜的答案昂贵的判断_老师版_v2.0.pptx
+PASS | 构建清单44页/120分钟/44备注 | {"slides":44,"minutes":120,"notes":44}
+PASS | 构建清单无旧PPT输入 | 0 PPT/PPTX inputs
+PASS | PptxGenJS固定4.0.1 | pptxgenjs@4.0.1
+
+仍需人工检查：
+- 在Microsoft PowerPoint中逐页检查文本溢出、字体回退与对齐
+- 检查P21—P23可编辑低保真UI在目标环境中的形状和层级
+- 确认演讲者备注在PowerPoint备注窗格中完整显示
+- 核对PDF导出后的44页分页、中文字体和裁切
+- 授课前用真实计时试讲并按班级互动速度微调

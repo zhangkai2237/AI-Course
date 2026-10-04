@@ -1,0 +1,138 @@
+{
+  "generatedAt": "2026-10-04T10:11:27.573Z",
+  "status": "PASS",
+  "summary": {
+    "passed": 24,
+    "failed": 0,
+    "total": 24
+  },
+  "checks": [
+    {
+      "name": "44页内容层",
+      "pass": true,
+      "detail": "actual=44"
+    },
+    {
+      "name": "总时长120分钟",
+      "pass": true,
+      "detail": "actual=120"
+    },
+    {
+      "name": "44页均有备注",
+      "pass": true,
+      "detail": "actual=44"
+    },
+    {
+      "name": "备注字段 [时长]",
+      "pass": true,
+      "detail": "all 44 slides"
+    },
+    {
+      "name": "备注字段 [目标]",
+      "pass": true,
+      "detail": "all 44 slides"
+    },
+    {
+      "name": "备注字段 [老师话术]",
+      "pass": true,
+      "detail": "all 44 slides"
+    },
+    {
+      "name": "备注字段 [动作]",
+      "pass": true,
+      "detail": "all 44 slides"
+    },
+    {
+      "name": "备注字段 [预期反应]",
+      "pass": true,
+      "detail": "all 44 slides"
+    },
+    {
+      "name": "备注字段 [点评追问]",
+      "pass": true,
+      "detail": "all 44 slides"
+    },
+    {
+      "name": "备注字段 [口径提醒]",
+      "pass": true,
+      "detail": "all 44 slides"
+    },
+    {
+      "name": "备注字段 [转场]",
+      "pass": true,
+      "detail": "all 44 slides"
+    },
+    {
+      "name": "备注字段 [讲义来源]",
+      "pass": true,
+      "detail": "all 44 slides"
+    },
+    {
+      "name": "44页讲义来源标记",
+      "pass": true,
+      "detail": "all slides have source mapping"
+    },
+    {
+      "name": "五幕分页",
+      "pass": true,
+      "detail": "P01-07 / P08-14 / P15-29 / P30-36 / P37-44"
+    },
+    {
+      "name": "P21—P23原生线框类型",
+      "pass": true,
+      "detail": "wireConversation, wireOrder, wireHandoff"
+    },
+    {
+      "name": "公共案例均显式标记",
+      "pass": true,
+      "detail": "marked=25"
+    },
+    {
+      "name": "无无条件真实成效断言",
+      "pass": true,
+      "detail": "no prohibited unconditional claims"
+    },
+    {
+      "name": "唯一内容源为指定Markdown",
+      "pass": true,
+      "detail": "../07_专题课_便宜的答案昂贵的判断_前五节老师讲义_v1.0.md"
+    },
+    {
+      "name": "内容源不是PPT",
+      "pass": true,
+      "detail": "../07_专题课_便宜的答案昂贵的判断_前五节老师讲义_v1.0.md"
+    },
+    {
+      "name": "独立工程包结构",
+      "pass": true,
+      "detail": "all required files present"
+    },
+    {
+      "name": "正式PPTX已生成",
+      "pass": true,
+      "detail": "dist/专题课_便宜的答案昂贵的判断_老师版_v2.0.pptx"
+    },
+    {
+      "name": "构建清单44页/120分钟/44备注",
+      "pass": true,
+      "detail": "{\"slides\":44,\"minutes\":120,\"notes\":44}"
+    },
+    {
+      "name": "构建清单无旧PPT输入",
+      "pass": true,
+      "detail": "0 PPT/PPTX inputs"
+    },
+    {
+      "name": "PptxGenJS固定4.0.1",
+      "pass": true,
+      "detail": "pptxgenjs@4.0.1"
+    }
+  ],
+  "manualReviewRequired": [
+    "在Microsoft PowerPoint中逐页检查文本溢出、字体回退与对齐",
+    "检查P21—P23可编辑低保真UI在目标环境中的形状和层级",
+    "确认演讲者备注在PowerPoint备注窗格中完整显示",
+    "核对PDF导出后的44页分页、中文字体和裁切",
+    "授课前用真实计时试讲并按班级互动速度微调"
+  ]
+}

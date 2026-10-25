@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720" font-family="Microsoft YaHei, Arial, PingFang SC, sans-serif" data-pptx-page-role="cover">
+<rect id="background" data-pptx-role="background" x="0" y="0" width="1280" height="720" fill="#F7F8F4"/>
+<g id="course" data-pptx-bounds="56 40 1168 90"><text x="56" y="70" font-size="20" fill="#126B63" font-weight="bold">AI产品项目课 / 第一次课</text><text x="56" y="115" font-size="28" fill="#17302F">电商营销内容审核提效</text></g>
+<g id="question" data-pptx-bounds="56 170 565 350"><text x="56" y="250" font-size="64" font-weight="bold" fill="#17302F"><tspan fill="#D85C3D">1799元</tspan>写对了，<tspan x="56" dy="86">这篇文案</tspan><tspan x="56" dy="86">就能过吗？</tspan></text></g>
+<g id="case-image" data-pptx-bounds="644 170 580 438"><image href="../images/case-home.png" x="644" y="176" width="580" height="386.67" preserveAspectRatio="xMidYMid meet"/><text x="644" y="600" font-size="20" fill="#617673">净小伴 P1 · 养宠家庭日常营销文案</text></g>
+<g id="promise" data-pptx-bounds="56 548 560 90"><line x1="56" y1="548" x2="570" y2="548" stroke="#126B63" stroke-width="4"/><text x="56" y="592" font-size="28" fill="#17302F">从业务问题，走到可验证的落地方案</text></g>
+<g id="footer" data-pptx-bounds="56 660 1168 35" data-pptx-role="footer"><text x="56" y="686" font-size="14" fill="#617673">教学模拟：品牌、资料、人物及生成图片均为虚构情境</text><text x="1224" y="686" text-anchor="end" font-size="14" fill="#617673">01 / 70</text></g>
+</svg>

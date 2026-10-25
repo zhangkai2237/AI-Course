@@ -1,0 +1,12 @@
+{
+  "schema": "template_fill_pptx_validate.v1",
+  "project": "/Users/didi/Documents/Codex/2026-10-18/wo-l/work/ppt/lesson1_section5_native_ppt169_20261018",
+  "export": "/Users/didi/Documents/Codex/2026-10-18/wo-l/work/ppt/lesson1_section5_native_ppt169_20261018/exports/第一次课_第五节_方案选择与调用流程_20261018_183534.pptx",
+  "readback": "/Users/didi/Documents/Codex/2026-10-18/wo-l/work/ppt/lesson1_section5_native_ppt169_20261018/validation/readback.md",
+  "summary": {
+    "ok": 120,
+    "warn": 0,
+    "error": 0
+  },
+  "results": []
+}

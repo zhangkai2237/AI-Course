@@ -1,0 +1,1944 @@
+{
+  "date": "2026-10-18",
+  "source_workspace": "/Users/didi/Documents/Codex/2026-10-18/wo-l",
+  "files": [
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/outputs/营销内容智能审核项目_课程设计_v1.3_三环节提效版.html",
+      "destination": "00_课程设计/营销内容智能审核项目_课程设计_v1.3_三环节提效版.html",
+      "links_adjusted": false,
+      "sha256": "f964550bbbd4c1138323c34b8d8606e942f65fedf44e0b87df3d65c5a600f49c"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/outputs/第二项目课程重设计_原文核验版_v0.2.html",
+      "destination": "00_课程设计/第二项目课程重设计_原文核验版_v0.2.html",
+      "links_adjusted": false,
+      "sha256": "a2412956dc9aba8c6ac363b972c9863db11258b7dadc299348a1034c13b45394"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/outputs/第一次课_完整老师讲义_常规审核版_v1.0.html",
+      "destination": "01_第一次课/01_讲义与材料/第一次课_完整老师讲义_常规审核版_v1.0.html",
+      "links_adjusted": true,
+      "sha256": "b81ed3858e26360a4492d5c1bf34c736aa05a10c79205f2121998264da9b2d2a"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/outputs/第一次课_讲义大纲_v2.2_常规营销审核场景.html",
+      "destination": "01_第一次课/01_讲义与材料/第一次课_讲义大纲_v2.2_常规营销审核场景.html",
+      "links_adjusted": false,
+      "sha256": "f32517e0b01b4bbf271bf7c16369f96e7b99980d2845c5300a9e9bf6fee698d2"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/outputs/第一次课_第一节_常规营销内容审核_老师版讲义_v1.2.html",
+      "destination": "01_第一次课/01_讲义与材料/第一次课_第一节_常规营销内容审核_老师版讲义_v1.2.html",
+      "links_adjusted": false,
+      "sha256": "8d383a1a6a6fba7d545c8cd9d15d2691500cd85f01a88f3529c33d21ba57cebe"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/outputs/第一次课_第二节_项目目标与首版范围_常规审核版_v1.0.html",
+      "destination": "01_第一次课/01_讲义与材料/第一次课_第二节_项目目标与首版范围_常规审核版_v1.0.html",
+      "links_adjusted": false,
+      "sha256": "3fa04f666d3942e5470f026093e8400a088263841a4ddfff61495beb578b5d9f"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/outputs/第一次课_第三节_自检审核与巡检_常规审核版_v1.0.html",
+      "destination": "01_第一次课/01_讲义与材料/第一次课_第三节_自检审核与巡检_常规审核版_v1.0.html",
+      "links_adjusted": false,
+      "sha256": "a0a67ce7fa2a0a4efb548131462d9826c381a93b82a49043a5c4269f0370580a"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/outputs/第一次课_第四节_审核点与业务依据_常规审核版_v1.0.html",
+      "destination": "01_第一次课/01_讲义与材料/第一次课_第四节_审核点与业务依据_常规审核版_v1.0.html",
+      "links_adjusted": false,
+      "sha256": "0cbe9dcbc6e95e40930b015db69f9babd7a592672d438a771c783e24f27e0ef4"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/outputs/第一次课_第五节_规则模型与人工分工_常规审核版_v1.0.html",
+      "destination": "01_第一次课/01_讲义与材料/第一次课_第五节_规则模型与人工分工_常规审核版_v1.0.html",
+      "links_adjusted": false,
+      "sha256": "8ec4173cdf4d7ff6601f5a7d7ae76dcff4a63dc01252c5cb8ae36dd50f5467ce"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/outputs/第一次课_第六节_系统与产品方案_常规审核版_v1.0.html",
+      "destination": "01_第一次课/01_讲义与材料/第一次课_第六节_系统与产品方案_常规审核版_v1.0.html",
+      "links_adjusted": false,
+      "sha256": "b76e963ed1966b9b1242019cfe99742f993c42601866d9a8db0371e465107cb0"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/outputs/第一次课_第七节_落地与验证_常规审核版_v1.0.html",
+      "destination": "01_第一次课/01_讲义与材料/第一次课_第七节_落地与验证_常规审核版_v1.0.html",
+      "links_adjusted": false,
+      "sha256": "df9dc1a8db67914a2aa687313f18934ee4f4b491e85e3ab6dd0ae9c580ee3394"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/outputs/第一次课_电商营销审核提效_重点讲义_v1.0.html",
+      "destination": "01_第一次课/01_讲义与材料/第一次课_电商营销审核提效_重点讲义_v1.0.html",
+      "links_adjusted": false,
+      "sha256": "fe78f1da837c3d416bb8ef3f840061d0a86624c057b39c6c6b1cb143f8d996d1"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/outputs/第一次课_电商营销审核提效_重点讲义_v1.0.pdf",
+      "destination": "01_第一次课/01_讲义与材料/第一次课_电商营销审核提效_重点讲义_v1.0.pdf",
+      "links_adjusted": false,
+      "sha256": "ddb345af91f22c8e3899e8f308442b3273954c7b2526a42c0af41d82cb652ff4"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/outputs/第一次课_电商营销审核提效_结构强化版_v1.1.pptx",
+      "destination": "01_第一次课/02_PPT_正式版/第一次课_电商营销审核提效_结构强化版_v1.1.pptx",
+      "links_adjusted": false,
+      "sha256": "6ce51eb2a4b35c899168ac3c6be8b46b9e9ac10803f8701b41c88753f595bdc2"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/outputs/第一次课_电商营销审核提效_结构强化版_v1.1.pdf",
+      "destination": "01_第一次课/02_PPT_正式版/第一次课_电商营销审核提效_结构强化版_v1.1.pdf",
+      "links_adjusted": false,
+      "sha256": "780ab9dde473eda1ac60e6088e681ae44fa72c9cb75bd37a2ad7b106ea33ab21"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/outputs/第一次课_结构强化版_授课说明与备注_v1.1.html",
+      "destination": "01_第一次课/02_PPT_正式版/第一次课_结构强化版_授课说明与备注_v1.1.html",
+      "links_adjusted": true,
+      "sha256": "77fb02df1528d30507f649df2f7bc4bdec06e9b7dfcb81aff3c5969139177e31"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/outputs/第一次课_结构强化版_页面预览_v1.1.png",
+      "destination": "01_第一次课/02_PPT_正式版/第一次课_结构强化版_页面预览_v1.1.png",
+      "links_adjusted": false,
+      "sha256": "33d6e30844d7e84f0c2be1f61afe647a3a088c6c3292fd7cff32479c405fa592"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/outputs/第一次课_课堂演示原型.html",
+      "destination": "01_第一次课/03_课堂Demo/第一次课_课堂演示原型.html",
+      "links_adjusted": true,
+      "sha256": "1b5a40bba3746ac1cf05d21b15c9dec70f7e22a45ae37ce43a323eff3c343534"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/outputs/第一次课_演示操作说明.html",
+      "destination": "01_第一次课/03_课堂Demo/第一次课_演示操作说明.html",
+      "links_adjusted": true,
+      "sha256": "0857c99835f74f82187ce23f096c7ee85cb794c9246707b431402fbca21fe0b7"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/outputs/第一次课_课堂原型预览.png",
+      "destination": "01_第一次课/03_课堂Demo/第一次课_课堂原型预览.png",
+      "links_adjusted": false,
+      "sha256": "ab1cf2a5a388c868175cfc744c9d612daa249e0b3923dd4cbd5261dee4a003bb"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/outputs/第一次课_完整授课包_结构强化版_v1.1.zip",
+      "destination": "01_第一次课/04_授课包/第一次课_完整授课包_结构强化版_v1.1.zip",
+      "links_adjusted": false,
+      "sha256": "47448d0e7daee5ab6bf89cd8ce3711ca8e4daef5021953851ea060a8bf36c7b8"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/outputs/第一次课_完整授课包_v1.0.zip",
+      "destination": "99_历史归档/2026-10-18_工作版本/第一次课_完整授课包_v1.0.zip",
+      "links_adjusted": false,
+      "sha256": "cbf9efe726869db26deb66ecbfb92cebb925c4f295dc8f746328fd5d7b0155e7"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/outputs/第一次课_电商营销审核提效_授课PPT_v1.0.pptx",
+      "destination": "99_历史归档/2026-10-18_工作版本/第一次课_电商营销审核提效_授课PPT_v1.0.pptx",
+      "links_adjusted": false,
+      "sha256": "f53d168aa474577306818f9ab751807315804a738c0063fa9901bc505b475300"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/outputs/第一次课_讲义大纲_v2.1_扫地机器人直播大促案例.html",
+      "destination": "99_历史归档/2026-10-18_工作版本/第一次课_讲义大纲_v2.1_扫地机器人直播大促案例.html",
+      "links_adjusted": false,
+      "sha256": "3844a82372452fa419987054ff28465c766e305654062be9e33821373a4250bc"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/outputs/第一次课_第一节_电商营销审核项目的业务背景_老师版讲义_v1.0.html",
+      "destination": "99_历史归档/2026-10-18_工作版本/第一次课_第一节_电商营销审核项目的业务背景_老师版讲义_v1.0.html",
+      "links_adjusted": false,
+      "sha256": "a40b394c870f8142853179f9fe01e830554a5e5499f6e26338f64a764c93f937"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/outputs/第一次课_电商营销审核提效_课件预览_v1.0.pdf",
+      "destination": "99_历史归档/2026-10-18_工作版本/第一次课_电商营销审核提效_课件预览_v1.0.pdf",
+      "links_adjusted": false,
+      "sha256": "afeb088b92e2d5d59bc9a3b18a702ccaa5ce01e84b0be523a48de509a5204a18"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/outputs/第一次课_讲义大纲_v2.0_三环节主线版.html",
+      "destination": "99_历史归档/2026-10-18_工作版本/第一次课_讲义大纲_v2.0_三环节主线版.html",
+      "links_adjusted": false,
+      "sha256": "9ee77c122f957e9d8b4b15ac259284a263de214bf2dbb37f9ec336cb0fe14b94"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/outputs/营销内容智能审核项目_课程设计_v1.2_项目主线版.html",
+      "destination": "99_历史归档/2026-10-18_工作版本/营销内容智能审核项目_课程设计_v1.2_项目主线版.html",
+      "links_adjusted": false,
+      "sha256": "0efe9d6d55bf9ac32ecc3fcc373777da834cd34438a9fa1d6735ced1861a2fc0"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/outputs/第一次课_PPT页面预览.png",
+      "destination": "99_历史归档/2026-10-18_工作版本/第一次课_PPT页面预览.png",
+      "links_adjusted": false,
+      "sha256": "4ba608884a94d237818ab74f8bb38200a3926ae11b26ef4f331498cbcfa0b6c7"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/outputs/第一次课_第一节_常规营销内容审核_老师版讲义_v1.1.html",
+      "destination": "99_历史归档/2026-10-18_工作版本/第一次课_第一节_常规营销内容审核_老师版讲义_v1.1.html",
+      "links_adjusted": false,
+      "sha256": "921401120e106f945985227e098aa5c3c6ca7e7ae269103fff77e6017ad6591b"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/outputs/第一次课_第二节_项目目标与三环节范围_老师版讲义_v1.1.html",
+      "destination": "99_历史归档/2026-10-18_工作版本/第一次课_第二节_项目目标与三环节范围_老师版讲义_v1.1.html",
+      "links_adjusted": false,
+      "sha256": "57b3608229b5fc57f6f2314dfdf94ea99c8842eebd49374cc442c75161a7f0ef"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/outputs/第一次课_第二节_项目目标与首版范围_老师版讲义_v1.0.html",
+      "destination": "99_历史归档/2026-10-18_工作版本/第一次课_第二节_项目目标与首版范围_老师版讲义_v1.0.html",
+      "links_adjusted": false,
+      "sha256": "7a06922e309d03637c73d371ddec223c7a19f390c3861515d25ab3293f6ae138"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/outputs/第一次课_第一节_开播前一小时_老师版讲义_v1.0.html",
+      "destination": "99_历史归档/2026-10-18_工作版本/第一次课_第一节_开播前一小时_老师版讲义_v1.0.html",
+      "links_adjusted": false,
+      "sha256": "287110ea4919492536983d297b069c47d31ea98977c04526399695f5f34faca3"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/outputs/第一次课_第三节_混合审核的方案选择_老师版讲义_v1.1.html",
+      "destination": "99_历史归档/2026-10-18_工作版本/第一次课_第三节_混合审核的方案选择_老师版讲义_v1.1.html",
+      "links_adjusted": false,
+      "sha256": "3a3dc27c8899b6e2d32850a788d3045d4124ca1044c3119abc5c5e2c6a75b389"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/outputs/营销内容智能审核项目_课程设计_v1.0.html",
+      "destination": "99_历史归档/2026-10-18_工作版本/营销内容智能审核项目_课程设计_v1.0.html",
+      "links_adjusted": false,
+      "sha256": "5d552b8c35527c0d252f2c2d7e360330bd98d62465dfd49929803cf694a6c7e7"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/outputs/第一次课_授课说明与逐页备注_v1.0.html",
+      "destination": "99_历史归档/2026-10-18_工作版本/第一次课_授课说明与逐页备注_v1.0.html",
+      "links_adjusted": true,
+      "sha256": "749a94902f9c527c839557bc8566c0f9c20f94e091277c88023ae83ae639c423"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/outputs/营销内容智能审核项目_课程设计_v1.1_落地实战版.html",
+      "destination": "99_历史归档/2026-10-18_工作版本/营销内容智能审核项目_课程设计_v1.1_落地实战版.html",
+      "links_adjusted": false,
+      "sha256": "dda71e5c2eb6173a80d9a187ac03af55dba1d53dae3516008418bc73412f36d1"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/outputs/第一次课_讲义与课堂演示包_v1.0.zip",
+      "destination": "99_历史归档/2026-10-18_工作版本/第一次课_讲义与课堂演示包_v1.0.zip",
+      "links_adjusted": false,
+      "sha256": "b2baf28882ea011f5bba919733f0d8b861d5830ead07c1071ce2cf4a6a0755a2"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/outputs/第一次课_第三节_混合审核的方案选择_老师版讲义_v1.0.html",
+      "destination": "99_历史归档/2026-10-18_工作版本/第一次课_第三节_混合审核的方案选择_老师版讲义_v1.0.html",
+      "links_adjusted": false,
+      "sha256": "291ab9bae644f8191010a7ccc071e4f6ea67438a57a26234eb20a2fa96cd0749"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/outputs/第一次课_第一节_电商营销审核业务背景_老师版讲义_v1.1_三环节版.html",
+      "destination": "99_历史归档/2026-10-18_工作版本/第一次课_第一节_电商营销审核业务背景_老师版讲义_v1.1_三环节版.html",
+      "links_adjusted": false,
+      "sha256": "c3ae02300275052bd79c12dabed03f67eafe377cc03ed283c0a2cee5bb820b8b"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/outputs/第一次课_完整老师讲义_常规审核版_v1.0.md",
+      "destination": "01_第一次课/01_讲义与材料/第一次课_完整老师讲义_常规审核版_v1.0.md",
+      "links_adjusted": true,
+      "sha256": "484c21e49b9f8a419c14e42ee433a296378b369f901c2c9fd069f923e360c151"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/outputs/第一次课_PPT大纲_讲义逐节对照稿_v0.1.html",
+      "destination": "01_第一次课/02_PPT_正式版/第一次课_PPT大纲_讲义逐节对照稿_v0.1.html",
+      "links_adjusted": true,
+      "sha256": "572941d0f7c8c7a8d690097746c9b28960612e1f8f75e145cef1f4725b503335"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/outputs/第一次课_重做样稿_P01-P06_v0.1.pptx",
+      "destination": "01_第一次课/02_PPT_正式版/重做样稿_P01-P06_v0.1/第一次课_重做样稿_P01-P06_v0.1.pptx",
+      "links_adjusted": false,
+      "sha256": "3bd00609e1921d8f8a0da04d015aa417d389db33da92b86824bb6d63b2e373f8"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/outputs/第一次课_重做样稿_P01-P06_v0.1_浏览版.pdf",
+      "destination": "01_第一次课/02_PPT_正式版/重做样稿_P01-P06_v0.1/第一次课_重做样稿_P01-P06_v0.1_浏览版.pdf",
+      "links_adjusted": false,
+      "sha256": "139fb04aae585c627c111ae25edb842e8b8e4b25f7b615f40061d3f783637f28"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/outputs/第一次课_重做样稿_P01-P06_v0.1_预览.html",
+      "destination": "01_第一次课/02_PPT_正式版/重做样稿_P01-P06_v0.1/第一次课_重做样稿_P01-P06_v0.1_预览.html",
+      "links_adjusted": false,
+      "sha256": "3191c0fcb82644f0ef9919894801d57c3235474c9c5f1994c4401d89bc487dc3"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/outputs/第一次课_重做样稿_P01_电商营销内容审核提效项目_v0.1.png",
+      "destination": "01_第一次课/02_PPT_正式版/重做样稿_P01-P06_v0.1/第一次课_重做样稿_P01_电商营销内容审核提效项目_v0.1.png",
+      "links_adjusted": false,
+      "sha256": "7343087d6aa2d4d9cf67638ee3d846ea0de3e23b8dac4f04072a5128bb2829d1"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/outputs/第一次课_重做样稿_P02_本次课的七节内容_v0.1.png",
+      "destination": "01_第一次课/02_PPT_正式版/重做样稿_P01-P06_v0.1/第一次课_重做样稿_P02_本次课的七节内容_v0.1.png",
+      "links_adjusted": false,
+      "sha256": "eab363f6c638140494ee4ec093efa2778f90c6edb341775fa081d86207420c89"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/outputs/第一次课_重做样稿_P03_企业原来的审核方式_v0.1.png",
+      "destination": "01_第一次课/02_PPT_正式版/重做样稿_P01-P06_v0.1/第一次课_重做样稿_P03_企业原来的审核方式_v0.1.png",
+      "links_adjusted": false,
+      "sha256": "6524b8e4ee1e3287417144eae73ed9f2e20acb830f489bb639fb83856f662381"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/outputs/第一次课_重做样稿_P04_现有审核流程_v0.1.png",
+      "destination": "01_第一次课/02_PPT_正式版/重做样稿_P01-P06_v0.1/第一次课_重做样稿_P04_现有审核流程_v0.1.png",
+      "links_adjusted": false,
+      "sha256": "82289915f033c421f5101f9f5d83186d363c6e23b695b83732e22d53451c7a98"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/outputs/第一次课_重做样稿_P05_走一次人工核对_v0.1.png",
+      "destination": "01_第一次课/02_PPT_正式版/重做样稿_P01-P06_v0.1/第一次课_重做样稿_P05_走一次人工核对_v0.1.png",
+      "links_adjusted": false,
+      "sha256": "5880f2fe63214e1a9494b22dda73669094df43ad159e48a27805d99b2923b9ac"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/outputs/第一次课_重做样稿_P06_从流程归纳痛点_v0.1.png",
+      "destination": "01_第一次课/02_PPT_正式版/重做样稿_P01-P06_v0.1/第一次课_重做样稿_P06_从流程归纳痛点_v0.1.png",
+      "links_adjusted": false,
+      "sha256": "989e053a4be7bae2333ce703c91c9f6a7dcd07ac907c88483dabf1cd61365b75"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/outputs/第一次课_第一节四页预览_v0.1.png",
+      "destination": "01_第一次课/02_PPT_正式版/重做样稿_P01-P06_v0.1/第一次课_第一节四页预览_v0.1.png",
+      "links_adjusted": false,
+      "sha256": "bf490fe8aa2fed4321faaac2ca45b1955e4b6ec94b16e82fda30eb6b94fd6bec"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/work/ppt/lesson1_rebuild_sample_ppt169_20261018/design_spec.md",
+      "destination": "01_第一次课/02_PPT_正式版/重做样稿_P01-P06_v0.1/源文件/design_spec.md",
+      "links_adjusted": false,
+      "sha256": "451c6ba87d44c11f2e597991359b713794db46130bfd44430b713a411d25f37c"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/work/ppt/lesson1_rebuild_sample_ppt169_20261018/spec_lock.md",
+      "destination": "01_第一次课/02_PPT_正式版/重做样稿_P01-P06_v0.1/源文件/spec_lock.md",
+      "links_adjusted": false,
+      "sha256": "9d7083651ee6f20384b4300a692b8277ba884cc96695e690199fac7e403a6312"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/work/ppt/lesson1_rebuild_sample_ppt169_20261018/svg_output/01_电商营销内容审核提效项目.svg",
+      "destination": "01_第一次课/02_PPT_正式版/重做样稿_P01-P06_v0.1/源文件/svg_output/01_电商营销内容审核提效项目.svg",
+      "links_adjusted": false,
+      "sha256": "61d4dd331fce1dca7832693a618c0d76a8f0459c565dd7255bd87722068407f5"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/work/ppt/lesson1_rebuild_sample_ppt169_20261018/svg_output/02_本次课的七节内容.svg",
+      "destination": "01_第一次课/02_PPT_正式版/重做样稿_P01-P06_v0.1/源文件/svg_output/02_本次课的七节内容.svg",
+      "links_adjusted": false,
+      "sha256": "d8390bdc7126c931fd37da773f681a2279df2c4370cae50915bb8ccf735e809e"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/work/ppt/lesson1_rebuild_sample_ppt169_20261018/svg_output/03_企业原来的审核方式.svg",
+      "destination": "01_第一次课/02_PPT_正式版/重做样稿_P01-P06_v0.1/源文件/svg_output/03_企业原来的审核方式.svg",
+      "links_adjusted": false,
+      "sha256": "c7f282510c1fd2369f3fb0b62ec716d2e0ac413fcb16ea0225a55fcc408ba4e7"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/work/ppt/lesson1_rebuild_sample_ppt169_20261018/svg_output/04_现有审核流程.svg",
+      "destination": "01_第一次课/02_PPT_正式版/重做样稿_P01-P06_v0.1/源文件/svg_output/04_现有审核流程.svg",
+      "links_adjusted": false,
+      "sha256": "254712f69cc88a6c65a1159219c1da3b624d4026403df63715ec6d797a109d7e"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/work/ppt/lesson1_rebuild_sample_ppt169_20261018/svg_output/05_走一次人工核对.svg",
+      "destination": "01_第一次课/02_PPT_正式版/重做样稿_P01-P06_v0.1/源文件/svg_output/05_走一次人工核对.svg",
+      "links_adjusted": false,
+      "sha256": "d2b956fc8c42e0ee8bbfc1e373b0ea93106b563109d6845667f13e6061028189"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/work/ppt/lesson1_rebuild_sample_ppt169_20261018/svg_output/06_从流程归纳痛点.svg",
+      "destination": "01_第一次课/02_PPT_正式版/重做样稿_P01-P06_v0.1/源文件/svg_output/06_从流程归纳痛点.svg",
+      "links_adjusted": false,
+      "sha256": "7192e52ccfbfd04d4ae5cd32b220ea3100127b3a454778f6c0b11e5e6d3b00b0"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/work/ppt/lesson1_rebuild_sample_ppt169_20261018/svg_final/01_电商营销内容审核提效项目.svg",
+      "destination": "01_第一次课/02_PPT_正式版/重做样稿_P01-P06_v0.1/源文件/svg_final/01_电商营销内容审核提效项目.svg",
+      "links_adjusted": false,
+      "sha256": "af7e4bf4c08545ef1a2c80fc173146ab96210ac16dfdd0bffefdcb301e12fc53"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/work/ppt/lesson1_rebuild_sample_ppt169_20261018/svg_final/02_本次课的七节内容.svg",
+      "destination": "01_第一次课/02_PPT_正式版/重做样稿_P01-P06_v0.1/源文件/svg_final/02_本次课的七节内容.svg",
+      "links_adjusted": false,
+      "sha256": "d8390bdc7126c931fd37da773f681a2279df2c4370cae50915bb8ccf735e809e"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/work/ppt/lesson1_rebuild_sample_ppt169_20261018/svg_final/03_企业原来的审核方式.svg",
+      "destination": "01_第一次课/02_PPT_正式版/重做样稿_P01-P06_v0.1/源文件/svg_final/03_企业原来的审核方式.svg",
+      "links_adjusted": false,
+      "sha256": "9aec5f204fe3d992b5a77202cea9ebad276eb14c0a08269f6dcd25836b22d81b"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/work/ppt/lesson1_rebuild_sample_ppt169_20261018/svg_final/04_现有审核流程.svg",
+      "destination": "01_第一次课/02_PPT_正式版/重做样稿_P01-P06_v0.1/源文件/svg_final/04_现有审核流程.svg",
+      "links_adjusted": false,
+      "sha256": "254712f69cc88a6c65a1159219c1da3b624d4026403df63715ec6d797a109d7e"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/work/ppt/lesson1_rebuild_sample_ppt169_20261018/svg_final/05_走一次人工核对.svg",
+      "destination": "01_第一次课/02_PPT_正式版/重做样稿_P01-P06_v0.1/源文件/svg_final/05_走一次人工核对.svg",
+      "links_adjusted": false,
+      "sha256": "e4abb65d57622f1eb1c8c9a82e0e5c334d1e58d06cf69493a878aac633ab2c09"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/work/ppt/lesson1_rebuild_sample_ppt169_20261018/svg_final/06_从流程归纳痛点.svg",
+      "destination": "01_第一次课/02_PPT_正式版/重做样稿_P01-P06_v0.1/源文件/svg_final/06_从流程归纳痛点.svg",
+      "links_adjusted": false,
+      "sha256": "7192e52ccfbfd04d4ae5cd32b220ea3100127b3a454778f6c0b11e5e6d3b00b0"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/work/ppt/lesson1_rebuild_sample_ppt169_20261018/images/case-home.png",
+      "destination": "01_第一次课/02_PPT_正式版/重做样稿_P01-P06_v0.1/源文件/images/case-home.png",
+      "links_adjusted": false,
+      "sha256": "a2f2531b2fd9189c6d115c0d9d26a52745825e265eb9138cad78e6be26407830"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/work/ppt/lesson1_rebuild_sample_ppt169_20261018/notes/01_电商营销内容审核提效项目.md",
+      "destination": "01_第一次课/02_PPT_正式版/重做样稿_P01-P06_v0.1/源文件/notes/01_电商营销内容审核提效项目.md",
+      "links_adjusted": false,
+      "sha256": "c5f915600506f3c3d89e553dffc8b8e94db96e5bc2a18f0de64b0e07359d2a7c"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/work/ppt/lesson1_rebuild_sample_ppt169_20261018/notes/02_本次课的七节内容.md",
+      "destination": "01_第一次课/02_PPT_正式版/重做样稿_P01-P06_v0.1/源文件/notes/02_本次课的七节内容.md",
+      "links_adjusted": false,
+      "sha256": "1bbcd9020d4292ea60400db1e97975401a16cd62a1ae34d02e44b86ba396990e"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/work/ppt/lesson1_rebuild_sample_ppt169_20261018/notes/03_企业原来的审核方式.md",
+      "destination": "01_第一次课/02_PPT_正式版/重做样稿_P01-P06_v0.1/源文件/notes/03_企业原来的审核方式.md",
+      "links_adjusted": false,
+      "sha256": "3fbd0226469c5234d41862fcb9cf0b8d0c50aeb0bb0519531786af126a688eac"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/work/ppt/lesson1_rebuild_sample_ppt169_20261018/notes/04_现有审核流程.md",
+      "destination": "01_第一次课/02_PPT_正式版/重做样稿_P01-P06_v0.1/源文件/notes/04_现有审核流程.md",
+      "links_adjusted": false,
+      "sha256": "0b3d3dad9d356f0125a282ba21b60616c7a9d4419b6435d37ace9e021d384083"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/work/ppt/lesson1_rebuild_sample_ppt169_20261018/notes/05_走一次人工核对.md",
+      "destination": "01_第一次课/02_PPT_正式版/重做样稿_P01-P06_v0.1/源文件/notes/05_走一次人工核对.md",
+      "links_adjusted": false,
+      "sha256": "a0a92a94ad8b2d11ec1e1a1e1208a06a3ad9750ece4129a833e08e6532af8667"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/work/ppt/lesson1_rebuild_sample_ppt169_20261018/notes/06_从流程归纳痛点.md",
+      "destination": "01_第一次课/02_PPT_正式版/重做样稿_P01-P06_v0.1/源文件/notes/06_从流程归纳痛点.md",
+      "links_adjusted": false,
+      "sha256": "86683eac62724687f66a61617f4ef527480b9f5beccad10604d3169ca28a564e"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/work/ppt/lesson1_rebuild_sample_ppt169_20261018/notes/total.md",
+      "destination": "01_第一次课/02_PPT_正式版/重做样稿_P01-P06_v0.1/源文件/notes/total.md",
+      "links_adjusted": false,
+      "sha256": "5e2ee5589835b8c0dacfa954ee4bbc4009c2fb02ba88efe1e845f828c3346d9c"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/work/ppt/lesson1_rebuild_sample_ppt169_20261018/analysis/image_analysis.csv",
+      "destination": "01_第一次课/02_PPT_正式版/重做样稿_P01-P06_v0.1/源文件/analysis/image_analysis.csv",
+      "links_adjusted": false,
+      "sha256": "159027a240b11dbbd449f4cc445171e1ab97341781190a3dc7b87d4da23ff4d2"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/work/ppt/lesson1_rebuild_sample_ppt169_20261018/validation/svg_quality_report.json",
+      "destination": "01_第一次课/02_PPT_正式版/重做样稿_P01-P06_v0.1/源文件/validation/svg_quality_report.json",
+      "links_adjusted": false,
+      "sha256": "9aa9a59d39fdd3b76b25f2884d9ee1b2529192d2ad1149627205cc22652c772b"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/outputs/第一次课_第二节_项目目标_P07-P12_v0.1.pptx",
+      "destination": "01_第一次课/02_PPT_正式版/第二节_项目目标_P07-P12_v0.1/第一次课_第二节_项目目标_P07-P12_v0.1.pptx",
+      "links_adjusted": false,
+      "sha256": "7103e83026cada1b056db61399263894c32b0b06f3afabcd819d28bb852ecada"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/outputs/第一次课_第二节_项目目标_P07-P12_v0.1_浏览版.pdf",
+      "destination": "01_第一次课/02_PPT_正式版/第二节_项目目标_P07-P12_v0.1/第一次课_第二节_项目目标_P07-P12_v0.1_浏览版.pdf",
+      "links_adjusted": false,
+      "sha256": "a8b2dfcdb134d3bc3bbb9f50518fba67b83eed70634ae07afec1e11ba5ba4c05"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/outputs/第一次课_第二节_项目目标_P07-P12_v0.1_预览.html",
+      "destination": "01_第一次课/02_PPT_正式版/第二节_项目目标_P07-P12_v0.1/第一次课_第二节_项目目标_P07-P12_v0.1_预览.html",
+      "links_adjusted": true,
+      "sha256": "e49172fac0125e4827e139761d0d6a99e0a37fcd9f0406a921cf8b8e43ff7bac"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/outputs/第一次课_第二节_P07_第二节_项目目标_v0.1.png",
+      "destination": "01_第一次课/02_PPT_正式版/第二节_项目目标_P07-P12_v0.1/第一次课_第二节_P07_第二节_项目目标_v0.1.png",
+      "links_adjusted": false,
+      "sha256": "f87c3b2e123991de81bd61da82a9c45126bc9043e2230a30c88c58b608b5bf3a"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/outputs/第一次课_第二节_P08_三个具体目标_v0.1.png",
+      "destination": "01_第一次课/02_PPT_正式版/第二节_项目目标_P07-P12_v0.1/第一次课_第二节_P08_三个具体目标_v0.1.png",
+      "links_adjusted": false,
+      "sha256": "fb6e7a7c3306aa01fc6af1a4bfe2016d0c2f9d747b13bd5b9e2543e886f26d3c"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/outputs/第一次课_第二节_P09_首版范围与责任_v0.1.png",
+      "destination": "01_第一次课/02_PPT_正式版/第二节_项目目标_P07-P12_v0.1/第一次课_第二节_P09_首版范围与责任_v0.1.png",
+      "links_adjusted": false,
+      "sha256": "d78cdfb2b0c5f00ea221a54f09b03c9e9a0af564e2765be7e7301852fa251109"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/outputs/第一次课_第二节_P10_怎样判断提效_v0.1.png",
+      "destination": "01_第一次课/02_PPT_正式版/第二节_项目目标_P07-P12_v0.1/第一次课_第二节_P10_怎样判断提效_v0.1.png",
+      "links_adjusted": false,
+      "sha256": "1232bdbced21a1273b46355ac16d41c7fc8f36229bfea1c59a2617a1cc9fc283"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/outputs/第一次课_第二节_P11_课堂判断_这算提效了吗_v0.1.png",
+      "destination": "01_第一次课/02_PPT_正式版/第二节_项目目标_P07-P12_v0.1/第一次课_第二节_P11_课堂判断_这算提效了吗_v0.1.png",
+      "links_adjusted": false,
+      "sha256": "68feb23e9cc4a02ee6f98d857d77024d6710538490270814099399da2bc866d2"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/outputs/第一次课_第二节_P12_首版项目定义_v0.1.png",
+      "destination": "01_第一次课/02_PPT_正式版/第二节_项目目标_P07-P12_v0.1/第一次课_第二节_P12_首版项目定义_v0.1.png",
+      "links_adjusted": false,
+      "sha256": "7b3a373fa4d6b827e9ace803ff879e23c08a09590d07fb6078712f6d40b2d89e"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/outputs/第一次课_第二节_六页总览_v0.1.png",
+      "destination": "01_第一次课/02_PPT_正式版/第二节_项目目标_P07-P12_v0.1/第一次课_第二节_六页总览_v0.1.png",
+      "links_adjusted": false,
+      "sha256": "b774fa8a7f83c10bb4da6badba41ffdd4dc04398fe76fc65dbea58271b6533ae"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/work/ppt/lesson1_section2_ppt169_20261018/design_spec.md",
+      "destination": "01_第一次课/02_PPT_正式版/第二节_项目目标_P07-P12_v0.1/源文件/design_spec.md",
+      "links_adjusted": false,
+      "sha256": "7a75fe5004a9f647fcacb42cf9f847cc9c7f0388eb280095135e8868fd956064"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/work/ppt/lesson1_section2_ppt169_20261018/spec_lock.md",
+      "destination": "01_第一次课/02_PPT_正式版/第二节_项目目标_P07-P12_v0.1/源文件/spec_lock.md",
+      "links_adjusted": false,
+      "sha256": "ca92a7cc91fec59b3945314c870b17524d6c65b6d1f36dcdabec76fc714544ea"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/work/ppt/lesson1_section2_ppt169_20261018/svg_output/07_第二节_项目目标.svg",
+      "destination": "01_第一次课/02_PPT_正式版/第二节_项目目标_P07-P12_v0.1/源文件/svg_output/07_第二节_项目目标.svg",
+      "links_adjusted": false,
+      "sha256": "4bd67eaf1301fe209db3df32fda6d7b26f6414496437dd68fd0d8030fe7d7618"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/work/ppt/lesson1_section2_ppt169_20261018/svg_output/08_三个具体目标.svg",
+      "destination": "01_第一次课/02_PPT_正式版/第二节_项目目标_P07-P12_v0.1/源文件/svg_output/08_三个具体目标.svg",
+      "links_adjusted": false,
+      "sha256": "2e9e2ab1172cfe5f6bf41f4ec5f7c48fadee262214dc9fee126be79eb518de7f"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/work/ppt/lesson1_section2_ppt169_20261018/svg_output/09_首版范围与责任.svg",
+      "destination": "01_第一次课/02_PPT_正式版/第二节_项目目标_P07-P12_v0.1/源文件/svg_output/09_首版范围与责任.svg",
+      "links_adjusted": false,
+      "sha256": "c0675aede8ebf3de9323ce4c7aa133d43172f331930ae8fb5222f1fcee6f4450"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/work/ppt/lesson1_section2_ppt169_20261018/svg_output/10_怎样判断提效.svg",
+      "destination": "01_第一次课/02_PPT_正式版/第二节_项目目标_P07-P12_v0.1/源文件/svg_output/10_怎样判断提效.svg",
+      "links_adjusted": false,
+      "sha256": "f326d980e657b9e345d5f386338331cbc6840fa4f1a6f17d3b9ffb8bf500e4b2"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/work/ppt/lesson1_section2_ppt169_20261018/svg_output/11_课堂判断_这算提效了吗.svg",
+      "destination": "01_第一次课/02_PPT_正式版/第二节_项目目标_P07-P12_v0.1/源文件/svg_output/11_课堂判断_这算提效了吗.svg",
+      "links_adjusted": false,
+      "sha256": "a9601adb6042adc9badd8d6fd027e1186d3dfdb650c5cc4f595871defe381e35"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/work/ppt/lesson1_section2_ppt169_20261018/svg_output/12_首版项目定义.svg",
+      "destination": "01_第一次课/02_PPT_正式版/第二节_项目目标_P07-P12_v0.1/源文件/svg_output/12_首版项目定义.svg",
+      "links_adjusted": false,
+      "sha256": "e8c0ce93cf0005c8c8fbacaa63c78fccd86e16c3e71c0f510bc16cd30a74c37c"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/work/ppt/lesson1_section2_ppt169_20261018/svg_final/07_第二节_项目目标.svg",
+      "destination": "01_第一次课/02_PPT_正式版/第二节_项目目标_P07-P12_v0.1/源文件/svg_final/07_第二节_项目目标.svg",
+      "links_adjusted": false,
+      "sha256": "4bd67eaf1301fe209db3df32fda6d7b26f6414496437dd68fd0d8030fe7d7618"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/work/ppt/lesson1_section2_ppt169_20261018/svg_final/08_三个具体目标.svg",
+      "destination": "01_第一次课/02_PPT_正式版/第二节_项目目标_P07-P12_v0.1/源文件/svg_final/08_三个具体目标.svg",
+      "links_adjusted": false,
+      "sha256": "2e9e2ab1172cfe5f6bf41f4ec5f7c48fadee262214dc9fee126be79eb518de7f"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/work/ppt/lesson1_section2_ppt169_20261018/svg_final/09_首版范围与责任.svg",
+      "destination": "01_第一次课/02_PPT_正式版/第二节_项目目标_P07-P12_v0.1/源文件/svg_final/09_首版范围与责任.svg",
+      "links_adjusted": false,
+      "sha256": "706134b6e0bcfca417335b5997673db4bf2553206c1e7e503367b2645a7b6e37"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/work/ppt/lesson1_section2_ppt169_20261018/svg_final/10_怎样判断提效.svg",
+      "destination": "01_第一次课/02_PPT_正式版/第二节_项目目标_P07-P12_v0.1/源文件/svg_final/10_怎样判断提效.svg",
+      "links_adjusted": false,
+      "sha256": "564a4b649521c47595755b4e352ecfd059f82473219c8c185104e28a89be6181"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/work/ppt/lesson1_section2_ppt169_20261018/svg_final/11_课堂判断_这算提效了吗.svg",
+      "destination": "01_第一次课/02_PPT_正式版/第二节_项目目标_P07-P12_v0.1/源文件/svg_final/11_课堂判断_这算提效了吗.svg",
+      "links_adjusted": false,
+      "sha256": "a9601adb6042adc9badd8d6fd027e1186d3dfdb650c5cc4f595871defe381e35"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/work/ppt/lesson1_section2_ppt169_20261018/svg_final/12_首版项目定义.svg",
+      "destination": "01_第一次课/02_PPT_正式版/第二节_项目目标_P07-P12_v0.1/源文件/svg_final/12_首版项目定义.svg",
+      "links_adjusted": false,
+      "sha256": "dc9aa949d2d47ca1af7ab546c30e4cb847dd4b3d76414c3a8a7bf0e689d77ffb"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/work/ppt/lesson1_section2_ppt169_20261018/notes/07_第二节_项目目标.md",
+      "destination": "01_第一次课/02_PPT_正式版/第二节_项目目标_P07-P12_v0.1/源文件/notes/07_第二节_项目目标.md",
+      "links_adjusted": false,
+      "sha256": "50f336fbbaab95a9af86bcc9bf29945643aa6a8402ab5cdc230564d71509ed47"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/work/ppt/lesson1_section2_ppt169_20261018/notes/08_三个具体目标.md",
+      "destination": "01_第一次课/02_PPT_正式版/第二节_项目目标_P07-P12_v0.1/源文件/notes/08_三个具体目标.md",
+      "links_adjusted": false,
+      "sha256": "2720144d2ce53c46aad83dccee88160f63f93174ff5de1752de5f6c3a90b3bfd"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/work/ppt/lesson1_section2_ppt169_20261018/notes/09_首版范围与责任.md",
+      "destination": "01_第一次课/02_PPT_正式版/第二节_项目目标_P07-P12_v0.1/源文件/notes/09_首版范围与责任.md",
+      "links_adjusted": false,
+      "sha256": "8fac7da338a317e1aa39f261a7ce2859ae69c29d6dfb21976c6ad3005588a771"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/work/ppt/lesson1_section2_ppt169_20261018/notes/10_怎样判断提效.md",
+      "destination": "01_第一次课/02_PPT_正式版/第二节_项目目标_P07-P12_v0.1/源文件/notes/10_怎样判断提效.md",
+      "links_adjusted": false,
+      "sha256": "0bcd3995e0aacacac83b0f7c9a369072e4ba2ff4542152c1872525686ee121fa"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/work/ppt/lesson1_section2_ppt169_20261018/notes/11_课堂判断_这算提效了吗.md",
+      "destination": "01_第一次课/02_PPT_正式版/第二节_项目目标_P07-P12_v0.1/源文件/notes/11_课堂判断_这算提效了吗.md",
+      "links_adjusted": false,
+      "sha256": "a0c6fd9f2d30e6c035abd5d5ad7a7d716614aec801838e1b63a5ea1b1039c75c"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/work/ppt/lesson1_section2_ppt169_20261018/notes/12_首版项目定义.md",
+      "destination": "01_第一次课/02_PPT_正式版/第二节_项目目标_P07-P12_v0.1/源文件/notes/12_首版项目定义.md",
+      "links_adjusted": false,
+      "sha256": "a4dd6deea39ba0192608b9c891542d59989bcd91a4d7004512729e934e158ad9"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/work/ppt/lesson1_section2_ppt169_20261018/notes/total.md",
+      "destination": "01_第一次课/02_PPT_正式版/第二节_项目目标_P07-P12_v0.1/源文件/notes/total.md",
+      "links_adjusted": false,
+      "sha256": "92be3270a9e015610673e61e1a3e73f44ec878e490e1823f7d69c0f33c84091b"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/work/ppt/lesson1_section2_ppt169_20261018/validation/svg_quality_report.json",
+      "destination": "01_第一次课/02_PPT_正式版/第二节_项目目标_P07-P12_v0.1/源文件/validation/svg_quality_report.json",
+      "links_adjusted": false,
+      "sha256": "f8f7f4e15504ed375668aa80a148213cda90630bc0d8c6b205950a6f79771d3f"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/work/ppt/lesson1_section2_ppt169_20261018/validation/svg_quality_first_page_report.json",
+      "destination": "01_第一次课/02_PPT_正式版/第二节_项目目标_P07-P12_v0.1/源文件/validation/svg_quality_first_page_report.json",
+      "links_adjusted": false,
+      "sha256": "53ca4b0280ff0c123942107a3003e9e0007efd2a44a9c4c36fc40ae48569ee9c"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/work/ppt/lesson1_section2_ppt169_20261018/validation/lesson1_section2_20261018_180737.report.json",
+      "destination": "01_第一次课/02_PPT_正式版/第二节_项目目标_P07-P12_v0.1/源文件/validation/lesson1_section2_20261018_180737.report.json",
+      "links_adjusted": false,
+      "sha256": "8d4d3dd986c575d6564970c0dd3b15159a7889253023798e0359eb569935d507"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/outputs/第一次课_第三节_业务方案_P13-P17_重点版_v0.2.pptx",
+      "destination": "01_第一次课/02_PPT_正式版/第三节_业务方案_P13-P17_重点版_v0.2/第一次课_第三节_业务方案_P13-P17_重点版_v0.2.pptx",
+      "links_adjusted": false,
+      "sha256": "74c8bc0616650d5e7774d7d743e596c4a40527d360e4e536af24c03f61cf1f16"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/outputs/第一次课_第三节_业务方案_P13-P17_重点版_v0.2_浏览版.pdf",
+      "destination": "01_第一次课/02_PPT_正式版/第三节_业务方案_P13-P17_重点版_v0.2/第一次课_第三节_业务方案_P13-P17_重点版_v0.2_浏览版.pdf",
+      "links_adjusted": false,
+      "sha256": "e2d8c1845e4b02b4a59ddc241bd7c9ba3a080cb74b73d1383be511bd66c8cfde"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/outputs/第一次课_第三节_业务方案_P13-P17_重点版_v0.2_预览.html",
+      "destination": "01_第一次课/02_PPT_正式版/第三节_业务方案_P13-P17_重点版_v0.2/第一次课_第三节_业务方案_P13-P17_重点版_v0.2_预览.html",
+      "links_adjusted": true,
+      "sha256": "31f705305689733dfa37f249cdec1f4d2a5fef091151555a8a34a73f8a2e1c6c"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/outputs/第一次课_第三节_五页重点版预览_v0.2.png",
+      "destination": "01_第一次课/02_PPT_正式版/第三节_业务方案_P13-P17_重点版_v0.2/第一次课_第三节_五页重点版预览_v0.2.png",
+      "links_adjusted": false,
+      "sha256": "a8bed6f348f48190d451a36f67bf2b0e0103501d4012cb00c2b66d91dbc40ac4"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/outputs/第一次课_第三节_P13_第三节标题页_重点版_v0.2.png",
+      "destination": "01_第一次课/02_PPT_正式版/第三节_业务方案_P13-P17_重点版_v0.2/第一次课_第三节_P13_第三节标题页_重点版_v0.2.png",
+      "links_adjusted": false,
+      "sha256": "70a740e885e238a8735ad2c7e823267161adf106eaa178a886233c400df60f01"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/outputs/第一次课_第三节_P14_三个环节总览_重点版_v0.2.png",
+      "destination": "01_第一次课/02_PPT_正式版/第三节_业务方案_P13-P17_重点版_v0.2/第一次课_第三节_P14_三个环节总览_重点版_v0.2.png",
+      "links_adjusted": false,
+      "sha256": "781793fb60b64d9ab35b3720fdf19b84539d15b8132ceb2bd0e321dd7e964ad8"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/outputs/第一次课_第三节_P15_事前自检_重点版_v0.2.png",
+      "destination": "01_第一次课/02_PPT_正式版/第三节_业务方案_P13-P17_重点版_v0.2/第一次课_第三节_P15_事前自检_重点版_v0.2.png",
+      "links_adjusted": false,
+      "sha256": "3ec809c074a106ff91e4ba52880ce9069bd874b9d23605d1e3fcec176d0dff1a"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/outputs/第一次课_第三节_P16_事中审核_重点版_v0.2.png",
+      "destination": "01_第一次课/02_PPT_正式版/第三节_业务方案_P13-P17_重点版_v0.2/第一次课_第三节_P16_事中审核_重点版_v0.2.png",
+      "links_adjusted": false,
+      "sha256": "67b1186ecec570526c98071b20890e01526d38e72a056d7c3169a39fbfbdb8ac"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/outputs/第一次课_第三节_P17_事后巡检_重点版_v0.2.png",
+      "destination": "01_第一次课/02_PPT_正式版/第三节_业务方案_P13-P17_重点版_v0.2/第一次课_第三节_P17_事后巡检_重点版_v0.2.png",
+      "links_adjusted": false,
+      "sha256": "f876c6c39ae7a33eca9ae8acce19df3fd6693acc70d4c698ba6a36ec732d2247"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/work/ppt/lesson1_section3_native_ppt169_20261018/analysis/fill_plan.json",
+      "destination": "01_第一次课/02_PPT_正式版/第三节_业务方案_P13-P17_重点版_v0.2/源文件/analysis/fill_plan.json",
+      "links_adjusted": false,
+      "sha256": "2d59ddd4f5d54fa01a378dcf840295c74b8ba15524ae0fb23381f16bae8f3b45"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/work/ppt/lesson1_section3_native_ppt169_20261018/analysis/template.slide_library.json",
+      "destination": "01_第一次课/02_PPT_正式版/第三节_业务方案_P13-P17_重点版_v0.2/源文件/analysis/template.slide_library.json",
+      "links_adjusted": false,
+      "sha256": "87e681bc330c69508ac44ed9ca8567041df383a830d74e8e5f97f8b1c5a69e1a"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/work/ppt/lesson1_section3_native_ppt169_20261018/analysis/check_concise_report.json",
+      "destination": "01_第一次课/02_PPT_正式版/第三节_业务方案_P13-P17_重点版_v0.2/源文件/analysis/check_concise_report.json",
+      "links_adjusted": false,
+      "sha256": "dbb36efa4b341cd8c2202e86c8a87329cf6103b19251b5c19c607626ab8f7f50"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/work/ppt/lesson1_section3_native_ppt169_20261018/analysis/reuse_decisions.json",
+      "destination": "01_第一次课/02_PPT_正式版/第三节_业务方案_P13-P17_重点版_v0.2/源文件/analysis/reuse_decisions.json",
+      "links_adjusted": false,
+      "sha256": "be47a88bb9b74fcbd77315669494b5bcae5f8a06636b4cf9c89f07362a7351bc"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/work/ppt/lesson1_section3_native_ppt169_20261018/analysis/build_concise_plan.py",
+      "destination": "01_第一次课/02_PPT_正式版/第三节_业务方案_P13-P17_重点版_v0.2/源文件/analysis/build_concise_plan.py",
+      "links_adjusted": false,
+      "sha256": "dcfa14c89c2d92273dd67356e17b437293ce1b02cd19f7fa8a25ac2dee2411be"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/work/ppt/lesson1_section3_native_ppt169_20261018/analysis/package_concise.py",
+      "destination": "01_第一次课/02_PPT_正式版/第三节_业务方案_P13-P17_重点版_v0.2/源文件/analysis/package_concise.py",
+      "links_adjusted": false,
+      "sha256": "7eb960ebeaa94bb14f73da71370362406fd30bd7702ea3d70cdb1b584d22d08a"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/work/ppt/lesson1_section3_native_ppt169_20261018/analysis/deliverables_concise.json",
+      "destination": "01_第一次课/02_PPT_正式版/第三节_业务方案_P13-P17_重点版_v0.2/源文件/analysis/deliverables_concise.json",
+      "links_adjusted": false,
+      "sha256": "d361df225c797feb8a8a2d82da495fc6f8cc95db849ec50609c50fdbf3c7421f"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/work/ppt/lesson1_section3_native_ppt169_20261018/validation/readback.md",
+      "destination": "01_第一次课/02_PPT_正式版/第三节_业务方案_P13-P17_重点版_v0.2/源文件/validation/readback.md",
+      "links_adjusted": false,
+      "sha256": "76e62b56c954d2c7bc7755698cf0712a28639f9e881f4e1aca9a45c1020bcd92"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/work/ppt/lesson1_section3_native_ppt169_20261018/validation/validate_report.json",
+      "destination": "01_第一次课/02_PPT_正式版/第三节_业务方案_P13-P17_重点版_v0.2/源文件/validation/validate_report.json",
+      "links_adjusted": false,
+      "sha256": "14f95bfa173d6e288ed74c44aaca1be8dcbea8bac29a32b8875413f7d4ff3002"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/work/ppt/lesson1_section3_native_ppt169_20261018/validation/fonts.conf",
+      "destination": "01_第一次课/02_PPT_正式版/第三节_业务方案_P13-P17_重点版_v0.2/源文件/validation/fonts.conf",
+      "links_adjusted": false,
+      "sha256": "c1567aee1564895c342ceabc73afab5a5081c56ee48080dcb0d86cb6dab4f78d"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/work/ppt/lesson1_section3_native_ppt169_20261018/sources/第一次课_电商营销审核提效_结构强化版_v1.1.pptx",
+      "destination": "01_第一次课/02_PPT_正式版/第三节_业务方案_P13-P17_重点版_v0.2/源文件/sources/第一次课_电商营销审核提效_结构强化版_v1.1.pptx",
+      "links_adjusted": false,
+      "sha256": "6ce51eb2a4b35c899168ac3c6be8b46b9e9ac10803f8701b41c88753f595bdc2"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/work/ppt/lesson1_section4_native_ppt169_20261018/delivery/第一次课_第四节_审核点定义管理与调用_P18-P26_v0.1.pptx",
+      "destination": "01_第一次课/02_PPT_正式版/第四节_审核点定义管理与调用_P18-P26_v0.1/第一次课_第四节_审核点定义管理与调用_P18-P26_v0.1.pptx",
+      "links_adjusted": false,
+      "sha256": "5ad3198c97e53de8f8d0e964c392771ebed22a45a2c2df302365fcfe1cb8346f"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/work/ppt/lesson1_section4_native_ppt169_20261018/delivery/第一次课_第四节_审核点定义管理与调用_P18-P26_v0.1_浏览版.pdf",
+      "destination": "01_第一次课/02_PPT_正式版/第四节_审核点定义管理与调用_P18-P26_v0.1/第一次课_第四节_审核点定义管理与调用_P18-P26_v0.1_浏览版.pdf",
+      "links_adjusted": false,
+      "sha256": "d1cb351f4a5633a384ba387ece5760e025ab4b0f97ec0aabe88dd27608414590"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/work/ppt/lesson1_section4_native_ppt169_20261018/delivery/第一次课_第四节_审核点定义管理与调用_P18-P26_v0.1_预览.html",
+      "destination": "01_第一次课/02_PPT_正式版/第四节_审核点定义管理与调用_P18-P26_v0.1/第一次课_第四节_审核点定义管理与调用_P18-P26_v0.1_预览.html",
+      "links_adjusted": true,
+      "sha256": "0f4aa80592f1ccd99edb4fe564cc1c82f4b13fb62b2247b87fb90ce516b82fc5"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/work/ppt/lesson1_section4_native_ppt169_20261018/delivery/第一次课_第四节_审核点定义管理与调用_P18-P26_v0.1_页面总览.png",
+      "destination": "01_第一次课/02_PPT_正式版/第四节_审核点定义管理与调用_P18-P26_v0.1/第一次课_第四节_审核点定义管理与调用_P18-P26_v0.1_页面总览.png",
+      "links_adjusted": false,
+      "sha256": "4d5a0908a179c791de53b0897d85fa4d74b410a919fd8dbc3eb3d1993ed707f5"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/work/ppt/lesson1_section4_native_ppt169_20261018/delivery/第一次课_第四节_P18_章节标题_v0.1.png",
+      "destination": "01_第一次课/02_PPT_正式版/第四节_审核点定义管理与调用_P18-P26_v0.1/第一次课_第四节_P18_章节标题_v0.1.png",
+      "links_adjusted": false,
+      "sha256": "57631993f876b50bc95bc4a807bf2340a6453d428a483e0f2d04bfe26a2328a8"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/work/ppt/lesson1_section4_native_ppt169_20261018/delivery/第一次课_第四节_P19_三类信息_v0.1.png",
+      "destination": "01_第一次课/02_PPT_正式版/第四节_审核点定义管理与调用_P18-P26_v0.1/第一次课_第四节_P19_三类信息_v0.1.png",
+      "links_adjusted": false,
+      "sha256": "bf102d481e5fefadd34fe0c6cf0e9026a7e3efaa488cfd359e9f476fac6dde54"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/work/ppt/lesson1_section4_native_ppt169_20261018/delivery/第一次课_第四节_P20_从要求生成审核点_v0.1.png",
+      "destination": "01_第一次课/02_PPT_正式版/第四节_审核点定义管理与调用_P18-P26_v0.1/第一次课_第四节_P20_从要求生成审核点_v0.1.png",
+      "links_adjusted": false,
+      "sha256": "484ee727804f231d857a1a8ae3f7677d296492023b3e7cd6b867624bf508dd40"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/work/ppt/lesson1_section4_native_ppt169_20261018/delivery/第一次课_第四节_P21_审核点卡_v0.1.png",
+      "destination": "01_第一次课/02_PPT_正式版/第四节_审核点定义管理与调用_P18-P26_v0.1/第一次课_第四节_P21_审核点卡_v0.1.png",
+      "links_adjusted": false,
+      "sha256": "57a1915092a7c1798cc99731bc97452d695969a6e7b0015d0bf62b4e2681c49a"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/work/ppt/lesson1_section4_native_ppt169_20261018/delivery/第一次课_第四节_P22_样例与边界_v0.1.png",
+      "destination": "01_第一次课/02_PPT_正式版/第四节_审核点定义管理与调用_P18-P26_v0.1/第一次课_第四节_P22_样例与边界_v0.1.png",
+      "links_adjusted": false,
+      "sha256": "218a798db410ac19d4a13a27354efc2d2e4350cdc5559891c722cb320772497c"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/work/ppt/lesson1_section4_native_ppt169_20261018/delivery/第一次课_第四节_P23_管理与版本_v0.1.png",
+      "destination": "01_第一次课/02_PPT_正式版/第四节_审核点定义管理与调用_P18-P26_v0.1/第一次课_第四节_P23_管理与版本_v0.1.png",
+      "links_adjusted": false,
+      "sha256": "d9de321e61beebdd18bab95b1ab7c4c0edc7c80b026585dc9cd317e9c311f168"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/work/ppt/lesson1_section4_native_ppt169_20261018/delivery/第一次课_第四节_P24_匹配标准与资料_v0.1.png",
+      "destination": "01_第一次课/02_PPT_正式版/第四节_审核点定义管理与调用_P18-P26_v0.1/第一次课_第四节_P24_匹配标准与资料_v0.1.png",
+      "links_adjusted": false,
+      "sha256": "7053d3b1a00587ad35e2e8f5d9a6b28f57e4aa5cf172c02e0469363a5fa04825"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/work/ppt/lesson1_section4_native_ppt169_20261018/delivery/第一次课_第四节_P25_调用输入与输出_v0.1.png",
+      "destination": "01_第一次课/02_PPT_正式版/第四节_审核点定义管理与调用_P18-P26_v0.1/第一次课_第四节_P25_调用输入与输出_v0.1.png",
+      "links_adjusted": false,
+      "sha256": "8f67c5da5a578ddcd30ffb03bc13b3a507d63c5d7314ce883d11434b21c10bdc"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/work/ppt/lesson1_section4_native_ppt169_20261018/delivery/第一次课_第四节_P26_结果与处理_v0.1.png",
+      "destination": "01_第一次课/02_PPT_正式版/第四节_审核点定义管理与调用_P18-P26_v0.1/第一次课_第四节_P26_结果与处理_v0.1.png",
+      "links_adjusted": false,
+      "sha256": "171800fcc0010d8abe4203a27d52cdb8727ae502d1239f0ab91726442dac6814"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/work/ppt/lesson1_section4_native_ppt169_20261018/analysis/fill_plan.json",
+      "destination": "01_第一次课/02_PPT_正式版/第四节_审核点定义管理与调用_P18-P26_v0.1/源文件/analysis/fill_plan.json",
+      "links_adjusted": false,
+      "sha256": "980403c3da429d9d3720bc3909200c607f44ccdf59839841df095620b565da6e"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/work/ppt/lesson1_section4_native_ppt169_20261018/analysis/check_report.json",
+      "destination": "01_第一次课/02_PPT_正式版/第四节_审核点定义管理与调用_P18-P26_v0.1/源文件/analysis/check_report.json",
+      "links_adjusted": false,
+      "sha256": "26b978a990ad1cb5fb6b4dd3245edfee2f9b3002f508da49b135db0b88a3d290"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/work/ppt/lesson1_section4_native_ppt169_20261018/analysis/teaching_decisions.json",
+      "destination": "01_第一次课/02_PPT_正式版/第四节_审核点定义管理与调用_P18-P26_v0.1/源文件/analysis/teaching_decisions.json",
+      "links_adjusted": false,
+      "sha256": "3b181665a2082ccb56233a4495f347caa910c91b40367cf731a3a8e4bc6a36be"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/work/ppt/lesson1_section4_native_ppt169_20261018/analysis/delivery_meta.json",
+      "destination": "01_第一次课/02_PPT_正式版/第四节_审核点定义管理与调用_P18-P26_v0.1/源文件/analysis/delivery_meta.json",
+      "links_adjusted": false,
+      "sha256": "ce5b77d074ee96b12fa84c241f44151ae37093378132c2f3b4a8fc788af3e49a"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/work/ppt/lesson1_section4_native_ppt169_20261018/analysis/update_navigation.py",
+      "destination": "01_第一次课/02_PPT_正式版/第四节_审核点定义管理与调用_P18-P26_v0.1/源文件/analysis/update_navigation.py",
+      "links_adjusted": false,
+      "sha256": "e3f6e9a4cc4518cedc57c9ea8d53d8d4529127747ec1853b28bcee81585e16b1"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/work/ppt/lesson1_section4_native_ppt169_20261018/analysis/第一次课_电商营销审核提效_结构强化版_v1.1.slide_library.json",
+      "destination": "01_第一次课/02_PPT_正式版/第四节_审核点定义管理与调用_P18-P26_v0.1/源文件/analysis/第一次课_电商营销审核提效_结构强化版_v1.1.slide_library.json",
+      "links_adjusted": false,
+      "sha256": "1b0e52c618f5667c0e8da61275733c86a9ef4f9ee8efd5d500deb6567b6bfd77"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/work/ppt/lesson1_section4_native_ppt169_20261018/validation/readback.md",
+      "destination": "01_第一次课/02_PPT_正式版/第四节_审核点定义管理与调用_P18-P26_v0.1/源文件/validation/readback.md",
+      "links_adjusted": false,
+      "sha256": "3316535dd04d2ec5d120dbe6e9395abf5953f608fa13c422fa08335878309773"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/work/ppt/lesson1_section4_native_ppt169_20261018/validation/validate_report.json",
+      "destination": "01_第一次课/02_PPT_正式版/第四节_审核点定义管理与调用_P18-P26_v0.1/源文件/validation/validate_report.json",
+      "links_adjusted": false,
+      "sha256": "44bad3f7401ad979678fea574cc1af9ec887daa61ddcd2d309947d9356b93748"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/work/ppt/lesson1_section4_native_ppt169_20261018/validation/fonts.conf",
+      "destination": "01_第一次课/02_PPT_正式版/第四节_审核点定义管理与调用_P18-P26_v0.1/源文件/validation/fonts.conf",
+      "links_adjusted": false,
+      "sha256": "09a0fc1a02267ffff21cbd9f3a4c2e17d2de6b3b3ec4362b2d5bab2a67594070"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/work/ppt/lesson1_section4_native_ppt169_20261018/sources/第一次课_完整老师讲义_常规审核版_v1.0.md",
+      "destination": "01_第一次课/02_PPT_正式版/第四节_审核点定义管理与调用_P18-P26_v0.1/源文件/sources/第一次课_完整老师讲义_常规审核版_v1.0.md",
+      "links_adjusted": false,
+      "sha256": "381bce87a93c80f52039c9d75339815f2f900f76b9902bb3120d0b271f7d7441"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/work/ppt/lesson1_section4_native_ppt169_20261018/analysis/template_origin.json",
+      "destination": "01_第一次课/02_PPT_正式版/第四节_审核点定义管理与调用_P18-P26_v0.1/源文件/analysis/template_origin.json",
+      "links_adjusted": false,
+      "sha256": "f7bf0db25480d0200834b6b7d4447f6941eae7d154a7bbc91d0dcf6467001142"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/work/ppt/lesson1_section5_native_ppt169_20261018/delivery/第一次课_第五节_方案选择与调用流程_P27-P33_v0.1.pptx",
+      "destination": "01_第一次课/02_PPT_正式版/第五节_方案选择与调用流程_P27-P33_v0.1/第一次课_第五节_方案选择与调用流程_P27-P33_v0.1.pptx",
+      "links_adjusted": false,
+      "sha256": "3632838e6ed52752137f5f3e0ece83415fe2c1b80d1fad6bca5d4220c7f04ef8"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/work/ppt/lesson1_section5_native_ppt169_20261018/delivery/第一次课_第五节_方案选择与调用流程_P27-P33_v0.1_浏览版.pdf",
+      "destination": "01_第一次课/02_PPT_正式版/第五节_方案选择与调用流程_P27-P33_v0.1/第一次课_第五节_方案选择与调用流程_P27-P33_v0.1_浏览版.pdf",
+      "links_adjusted": false,
+      "sha256": "cded231eb26a33cffcbde41c6a1f255e9702c4a28e7bb458deab267d6a50dedc"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/work/ppt/lesson1_section5_native_ppt169_20261018/delivery/第一次课_第五节_方案选择与调用流程_P27-P33_v0.1_预览.html",
+      "destination": "01_第一次课/02_PPT_正式版/第五节_方案选择与调用流程_P27-P33_v0.1/第一次课_第五节_方案选择与调用流程_P27-P33_v0.1_预览.html",
+      "links_adjusted": true,
+      "sha256": "48c3c1a56f9252a681160423e250976a9f6c85c5ffbbe7de728c2fff7f602176"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/work/ppt/lesson1_section5_native_ppt169_20261018/delivery/第一次课_第五节_方案选择与调用流程_P27-P33_v0.1_页面总览.png",
+      "destination": "01_第一次课/02_PPT_正式版/第五节_方案选择与调用流程_P27-P33_v0.1/第一次课_第五节_方案选择与调用流程_P27-P33_v0.1_页面总览.png",
+      "links_adjusted": false,
+      "sha256": "fb7940bbdd57d73008f1ddfc9ee1df271bf70dc887bd0b757c2545c7fbfb65d2"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/work/ppt/lesson1_section5_native_ppt169_20261018/delivery/第一次课_第五节_P27_章节标题_v0.1.png",
+      "destination": "01_第一次课/02_PPT_正式版/第五节_方案选择与调用流程_P27-P33_v0.1/第一次课_第五节_P27_章节标题_v0.1.png",
+      "links_adjusted": false,
+      "sha256": "33c6c19c8bd94fa469cb1ca317900055b88a9895ac114f0a38422a3a83a3e966"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/work/ppt/lesson1_section5_native_ppt169_20261018/delivery/第一次课_第五节_P28_方式与适用场景_v0.1.png",
+      "destination": "01_第一次课/02_PPT_正式版/第五节_方案选择与调用流程_P27-P33_v0.1/第一次课_第五节_P28_方式与适用场景_v0.1.png",
+      "links_adjusted": false,
+      "sha256": "a70cdd1d96b5c70cef8307dafdc04097445027efc1499db8f617e01e56c5f697"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/work/ppt/lesson1_section5_native_ppt169_20261018/delivery/第一次课_第五节_P29_系统调用总流程_v0.1.png",
+      "destination": "01_第一次课/02_PPT_正式版/第五节_方案选择与调用流程_P27-P33_v0.1/第一次课_第五节_P29_系统调用总流程_v0.1.png",
+      "links_adjusted": false,
+      "sha256": "99b0a62f536902bac7581b71c8a5c8d90e121f0d8feabffddc8f8fecb87e2155"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/work/ppt/lesson1_section5_native_ppt169_20261018/delivery/第一次课_第五节_P30_价格审核接力_v0.1.png",
+      "destination": "01_第一次课/02_PPT_正式版/第五节_方案选择与调用流程_P27-P33_v0.1/第一次课_第五节_P30_价格审核接力_v0.1.png",
+      "links_adjusted": false,
+      "sha256": "8245002509a3a5595a96cdc89dbbf6214ec490c04d981fb965037a2d212a9154"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/work/ppt/lesson1_section5_native_ppt169_20261018/delivery/第一次课_第五节_P31_模型输入与输出_v0.1.png",
+      "destination": "01_第一次课/02_PPT_正式版/第五节_方案选择与调用流程_P27-P33_v0.1/第一次课_第五节_P31_模型输入与输出_v0.1.png",
+      "links_adjusted": false,
+      "sha256": "534679a2c9e3339cdd7b8529ac4e098608d694212470d1f6e64566c988408cc0"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/work/ppt/lesson1_section5_native_ppt169_20261018/delivery/第一次课_第五节_P32_异常分支与承接_v0.1.png",
+      "destination": "01_第一次课/02_PPT_正式版/第五节_方案选择与调用流程_P27-P33_v0.1/第一次课_第五节_P32_异常分支与承接_v0.1.png",
+      "links_adjusted": false,
+      "sha256": "629b49610bb2bfb4fc955114d8db03b921906faffb167e3d68c2442b2bc9d3db"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/work/ppt/lesson1_section5_native_ppt169_20261018/delivery/第一次课_第五节_P33_执行与交接小结_v0.1.png",
+      "destination": "01_第一次课/02_PPT_正式版/第五节_方案选择与调用流程_P27-P33_v0.1/第一次课_第五节_P33_执行与交接小结_v0.1.png",
+      "links_adjusted": false,
+      "sha256": "07014f9b924036bcca4c52668c6ab5c0c14fee975b9fe00f733afad1fdaeb5b9"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/work/ppt/lesson1_section5_native_ppt169_20261018/analysis/fill_plan.json",
+      "destination": "01_第一次课/02_PPT_正式版/第五节_方案选择与调用流程_P27-P33_v0.1/源文件/analysis/fill_plan.json",
+      "links_adjusted": false,
+      "sha256": "dd7cc995f33265f6fb643106baf8e162efd357dee66c8b823cb846b71a4e0d28"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/work/ppt/lesson1_section5_native_ppt169_20261018/analysis/check_report.json",
+      "destination": "01_第一次课/02_PPT_正式版/第五节_方案选择与调用流程_P27-P33_v0.1/源文件/analysis/check_report.json",
+      "links_adjusted": false,
+      "sha256": "5a9e4bfeff7b0ff6fb2caa031ee9326a063c643070b2b26fffb7f02fc02d19f4"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/work/ppt/lesson1_section5_native_ppt169_20261018/analysis/teaching_decisions.json",
+      "destination": "01_第一次课/02_PPT_正式版/第五节_方案选择与调用流程_P27-P33_v0.1/源文件/analysis/teaching_decisions.json",
+      "links_adjusted": false,
+      "sha256": "e33568e5e30a8d17cb1ef9af4ab7a45fffb794f353989e5dde9c786307ac6910"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/work/ppt/lesson1_section5_native_ppt169_20261018/analysis/delivery_meta.json",
+      "destination": "01_第一次课/02_PPT_正式版/第五节_方案选择与调用流程_P27-P33_v0.1/源文件/analysis/delivery_meta.json",
+      "links_adjusted": false,
+      "sha256": "1a5015335e8cff4af76dd17454737a05f2ca8b1837ab174cf640a41d09d3deba"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/work/ppt/lesson1_section5_native_ppt169_20261018/analysis/update_navigation.py",
+      "destination": "01_第一次课/02_PPT_正式版/第五节_方案选择与调用流程_P27-P33_v0.1/源文件/analysis/update_navigation.py",
+      "links_adjusted": false,
+      "sha256": "45a73efa6aa84503506b654adf412eb7cad467d3dc4b5f8911149a0940158344"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/work/ppt/lesson1_section5_native_ppt169_20261018/analysis/第一次课_电商营销审核提效_结构强化版_v1.1.slide_library.json",
+      "destination": "01_第一次课/02_PPT_正式版/第五节_方案选择与调用流程_P27-P33_v0.1/源文件/analysis/第一次课_电商营销审核提效_结构强化版_v1.1.slide_library.json",
+      "links_adjusted": false,
+      "sha256": "efc9263ee00a331d9376e9bfbe50e9013b2aa02ee96e9cc29e995e2375ae6d45"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/work/ppt/lesson1_section5_native_ppt169_20261018/validation/readback.md",
+      "destination": "01_第一次课/02_PPT_正式版/第五节_方案选择与调用流程_P27-P33_v0.1/源文件/validation/readback.md",
+      "links_adjusted": false,
+      "sha256": "ef3c8c8745ecefe18d92fce439abd1af0214a884e28c71fe07412bcacabeae14"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/work/ppt/lesson1_section5_native_ppt169_20261018/validation/validate_report.json",
+      "destination": "01_第一次课/02_PPT_正式版/第五节_方案选择与调用流程_P27-P33_v0.1/源文件/validation/validate_report.json",
+      "links_adjusted": false,
+      "sha256": "a7681a5804a342d14abd452f29c5e4761eda2fa2f1372e8db03584b85de393f7"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/work/ppt/lesson1_section5_native_ppt169_20261018/validation/fonts.conf",
+      "destination": "01_第一次课/02_PPT_正式版/第五节_方案选择与调用流程_P27-P33_v0.1/源文件/validation/fonts.conf",
+      "links_adjusted": false,
+      "sha256": "62b5fbbbd329d478cf72690ee2a0e96d14067905dd01b8fdac9a9e6fad15669d"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/work/ppt/lesson1_section5_native_ppt169_20261018/sources/第一次课_完整老师讲义_常规审核版_v1.0.md",
+      "destination": "01_第一次课/02_PPT_正式版/第五节_方案选择与调用流程_P27-P33_v0.1/源文件/sources/第一次课_完整老师讲义_常规审核版_v1.0.md",
+      "links_adjusted": false,
+      "sha256": "381bce87a93c80f52039c9d75339815f2f900f76b9902bb3120d0b271f7d7441"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/work/ppt/lesson1_section5_native_ppt169_20261018/analysis/template_origin.json",
+      "destination": "01_第一次课/02_PPT_正式版/第五节_方案选择与调用流程_P27-P33_v0.1/源文件/analysis/template_origin.json",
+      "links_adjusted": false,
+      "sha256": "f7bf0db25480d0200834b6b7d4447f6941eae7d154a7bbc91d0dcf6467001142"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/work/ppt/lesson1_section6_native_ppt169_20261018/delivery/第一次课_第六节_系统与产品方案_P34-P48_v0.1.pptx",
+      "destination": "01_第一次课/02_PPT_正式版/第六节_系统与产品方案_P34-P48_v0.1/第一次课_第六节_系统与产品方案_P34-P48_v0.1.pptx",
+      "links_adjusted": false,
+      "sha256": "4cda5c8892aab9a3f0f9ef8ae670a13f599092aba023c9cb866761c40f1e32d7"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/work/ppt/lesson1_section6_native_ppt169_20261018/delivery/第一次课_第六节_系统与产品方案_P34-P48_v0.1_浏览版.pdf",
+      "destination": "01_第一次课/02_PPT_正式版/第六节_系统与产品方案_P34-P48_v0.1/第一次课_第六节_系统与产品方案_P34-P48_v0.1_浏览版.pdf",
+      "links_adjusted": false,
+      "sha256": "6c5e2287f807222ce83b686476a3eb08354107ee5cd044373bf72d2d189fa120"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/work/ppt/lesson1_section6_native_ppt169_20261018/delivery/第一次课_第六节_系统与产品方案_P34-P48_v0.1_预览.html",
+      "destination": "01_第一次课/02_PPT_正式版/第六节_系统与产品方案_P34-P48_v0.1/第一次课_第六节_系统与产品方案_P34-P48_v0.1_预览.html",
+      "links_adjusted": true,
+      "sha256": "e179892011d31430d8d9dfb4f98fecd5b8a383a8d48acf3f55ba386b623949e8"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/work/ppt/lesson1_section6_native_ppt169_20261018/delivery/第一次课_第六节_系统与产品方案_P34-P48_v0.1_页面总览.png",
+      "destination": "01_第一次课/02_PPT_正式版/第六节_系统与产品方案_P34-P48_v0.1/第一次课_第六节_系统与产品方案_P34-P48_v0.1_页面总览.png",
+      "links_adjusted": false,
+      "sha256": "1f92a9b1e7125dccf56b7e75b725c10235538a3a2e8632f34f6fc2520dff21f5"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/work/ppt/lesson1_section6_native_ppt169_20261018/delivery/第一次课_第六节_P34_章节标题_v0.1.png",
+      "destination": "01_第一次课/02_PPT_正式版/第六节_系统与产品方案_P34-P48_v0.1/第一次课_第六节_P34_章节标题_v0.1.png",
+      "links_adjusted": false,
+      "sha256": "1073ff22077cd4ed4ea6f11e0264e9e92c0809a1379e20f2b8a9eae1f09a3173"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/work/ppt/lesson1_section6_native_ppt169_20261018/delivery/第一次课_第六节_P35_系统分层_v0.1.png",
+      "destination": "01_第一次课/02_PPT_正式版/第六节_系统与产品方案_P34-P48_v0.1/第一次课_第六节_P35_系统分层_v0.1.png",
+      "links_adjusted": false,
+      "sha256": "30759e37889848dff1089eab26bb3f84db631d56675794c68058a3113652ff62"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/work/ppt/lesson1_section6_native_ppt169_20261018/delivery/第一次课_第六节_P36_自检流程_v0.1.png",
+      "destination": "01_第一次课/02_PPT_正式版/第六节_系统与产品方案_P34-P48_v0.1/第一次课_第六节_P36_自检流程_v0.1.png",
+      "links_adjusted": false,
+      "sha256": "e664ff11203cc385ca0b5e7cf16dc412e0c77b46cba54070e749c4e9208008f6"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/work/ppt/lesson1_section6_native_ppt169_20261018/delivery/第一次课_第六节_P37_正式审核流程_v0.1.png",
+      "destination": "01_第一次课/02_PPT_正式版/第六节_系统与产品方案_P34-P48_v0.1/第一次课_第六节_P37_正式审核流程_v0.1.png",
+      "links_adjusted": false,
+      "sha256": "79fcca5e2fb7eb30b2e80527d3733a6fa710e40b82ec11e4121cc13cd33c4ab1"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/work/ppt/lesson1_section6_native_ppt169_20261018/delivery/第一次课_第六节_P38_巡检流程_v0.1.png",
+      "destination": "01_第一次课/02_PPT_正式版/第六节_系统与产品方案_P34-P48_v0.1/第一次课_第六节_P38_巡检流程_v0.1.png",
+      "links_adjusted": false,
+      "sha256": "e246a07e1ec74edacbca273f5d7a0640f7061510fb8f3987295aef9c1a45d163"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/work/ppt/lesson1_section6_native_ppt169_20261018/delivery/第一次课_第六节_P39_内容编辑与自检_v0.1.png",
+      "destination": "01_第一次课/02_PPT_正式版/第六节_系统与产品方案_P34-P48_v0.1/第一次课_第六节_P39_内容编辑与自检_v0.1.png",
+      "links_adjusted": false,
+      "sha256": "a551144cea8ede3695723e28f5bccf78454082b57e79b498f8ad609a8669ea0a"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/work/ppt/lesson1_section6_native_ppt169_20261018/delivery/第一次课_第六节_P40_审核任务列表_v0.1.png",
+      "destination": "01_第一次课/02_PPT_正式版/第六节_系统与产品方案_P34-P48_v0.1/第一次课_第六节_P40_审核任务列表_v0.1.png",
+      "links_adjusted": false,
+      "sha256": "1b76201e254c43bafa4752038687dd0b6cd768a6a211f962b600438018ccde20"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/work/ppt/lesson1_section6_native_ppt169_20261018/delivery/第一次课_第六节_P41_审核详情与修改复核_v0.1.png",
+      "destination": "01_第一次课/02_PPT_正式版/第六节_系统与产品方案_P34-P48_v0.1/第一次课_第六节_P41_审核详情与修改复核_v0.1.png",
+      "links_adjusted": false,
+      "sha256": "80e0f5b21648f6bcda6b38d935c856dac98819b5e86811f1ccb0b81c8b0283c4"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/work/ppt/lesson1_section6_native_ppt169_20261018/delivery/第一次课_第六节_P42_巡检批次与问题处理_v0.1.png",
+      "destination": "01_第一次课/02_PPT_正式版/第六节_系统与产品方案_P34-P48_v0.1/第一次课_第六节_P42_巡检批次与问题处理_v0.1.png",
+      "links_adjusted": false,
+      "sha256": "cc2a703efd311b9a27e2c066c63fe69e70e8fa01fd741924f808f012bd099240"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/work/ppt/lesson1_section6_native_ppt169_20261018/delivery/第一次课_第六节_P43_资料与审核点管理_v0.1.png",
+      "destination": "01_第一次课/02_PPT_正式版/第六节_系统与产品方案_P34-P48_v0.1/第一次课_第六节_P43_资料与审核点管理_v0.1.png",
+      "links_adjusted": false,
+      "sha256": "7c6b2b0f38ed5f8add662e690edaee46cc98b39a2b36b1475c7d43944c8f87b6"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/work/ppt/lesson1_section6_native_ppt169_20261018/delivery/第一次课_第六节_P44_角色与权限_v0.1.png",
+      "destination": "01_第一次课/02_PPT_正式版/第六节_系统与产品方案_P34-P48_v0.1/第一次课_第六节_P44_角色与权限_v0.1.png",
+      "links_adjusted": false,
+      "sha256": "fa951ba2bbf8cb650b29d645fdd5699536efdb0383b12b201f06fe69c188a5a9"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/work/ppt/lesson1_section6_native_ppt169_20261018/delivery/第一次课_第六节_P45_状态与记录_v0.1.png",
+      "destination": "01_第一次课/02_PPT_正式版/第六节_系统与产品方案_P34-P48_v0.1/第一次课_第六节_P45_状态与记录_v0.1.png",
+      "links_adjusted": false,
+      "sha256": "577ccb95fff0640664416762013ac066dbb9d1e420ecbef26a934517d374bb99"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/work/ppt/lesson1_section6_native_ppt169_20261018/delivery/第一次课_第六节_P46_版本与结果有效性_v0.1.png",
+      "destination": "01_第一次课/02_PPT_正式版/第六节_系统与产品方案_P34-P48_v0.1/第一次课_第六节_P46_版本与结果有效性_v0.1.png",
+      "links_adjusted": false,
+      "sha256": "fef6d00b8a833ecece44ca60ec062917766146eb20a63bc70c7306d672fa5002"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/work/ppt/lesson1_section6_native_ppt169_20261018/delivery/第一次课_第六节_P47_异常与承接_v0.1.png",
+      "destination": "01_第一次课/02_PPT_正式版/第六节_系统与产品方案_P34-P48_v0.1/第一次课_第六节_P47_异常与承接_v0.1.png",
+      "links_adjusted": false,
+      "sha256": "e288c4409c42bb77dcb6efbfa9bd0c20779492c15b8eea5064ac18d007c68e10"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/work/ppt/lesson1_section6_native_ppt169_20261018/delivery/第一次课_第六节_P48_产品方案小结_v0.1.png",
+      "destination": "01_第一次课/02_PPT_正式版/第六节_系统与产品方案_P34-P48_v0.1/第一次课_第六节_P48_产品方案小结_v0.1.png",
+      "links_adjusted": false,
+      "sha256": "b4b89f318930eb74f3d24f8ce8dec9dc8ab7607589c97f38414745ae3d95062a"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/work/ppt/lesson1_section6_native_ppt169_20261018/analysis/fill_plan.json",
+      "destination": "01_第一次课/02_PPT_正式版/第六节_系统与产品方案_P34-P48_v0.1/源文件/analysis/fill_plan.json",
+      "links_adjusted": false,
+      "sha256": "b64b3e777cc6d1fa31555927a7ed4d810b248843317b8d962cf537c530aca9e5"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/work/ppt/lesson1_section6_native_ppt169_20261018/analysis/check_report.json",
+      "destination": "01_第一次课/02_PPT_正式版/第六节_系统与产品方案_P34-P48_v0.1/源文件/analysis/check_report.json",
+      "links_adjusted": false,
+      "sha256": "5e9c64b77a340ea75ef0e7845166554b7a78945f4c8f2f84ee9895522691c03a"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/work/ppt/lesson1_section6_native_ppt169_20261018/analysis/teaching_decisions.json",
+      "destination": "01_第一次课/02_PPT_正式版/第六节_系统与产品方案_P34-P48_v0.1/源文件/analysis/teaching_decisions.json",
+      "links_adjusted": false,
+      "sha256": "b0f1b027dfce08186420b441126526f8cdec82fdb97d509b271b55ffab26cd71"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/work/ppt/lesson1_section6_native_ppt169_20261018/analysis/delivery_meta.json",
+      "destination": "01_第一次课/02_PPT_正式版/第六节_系统与产品方案_P34-P48_v0.1/源文件/analysis/delivery_meta.json",
+      "links_adjusted": false,
+      "sha256": "c5297026a5b0636e78de6f78eb060e977ea7f0e0d49d12c0231473f20a8eb7b8"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/work/ppt/lesson1_section6_native_ppt169_20261018/analysis/update_navigation.py",
+      "destination": "01_第一次课/02_PPT_正式版/第六节_系统与产品方案_P34-P48_v0.1/源文件/analysis/update_navigation.py",
+      "links_adjusted": false,
+      "sha256": "f2f2660f4894afd0eb3cba77e6e30fd3abed7ef8ac73503f5d7fac6c444e3553"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/work/ppt/lesson1_section6_native_ppt169_20261018/analysis/blank_screenshots.py",
+      "destination": "01_第一次课/02_PPT_正式版/第六节_系统与产品方案_P34-P48_v0.1/源文件/analysis/blank_screenshots.py",
+      "links_adjusted": false,
+      "sha256": "c00898211292a609c3705effe766ec677b273b6ca8dcacd2eec80bd14df31ed3"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/work/ppt/lesson1_section6_native_ppt169_20261018/analysis/第一次课_电商营销审核提效_结构强化版_v1.1.slide_library.json",
+      "destination": "01_第一次课/02_PPT_正式版/第六节_系统与产品方案_P34-P48_v0.1/源文件/analysis/第一次课_电商营销审核提效_结构强化版_v1.1.slide_library.json",
+      "links_adjusted": false,
+      "sha256": "3bb5287a6da3ae954f729ae75fd9008d063009b535e6e1903b0dd77d530aac56"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/work/ppt/lesson1_section6_native_ppt169_20261018/validation/readback.md",
+      "destination": "01_第一次课/02_PPT_正式版/第六节_系统与产品方案_P34-P48_v0.1/源文件/validation/readback.md",
+      "links_adjusted": false,
+      "sha256": "ad8f12d501684ce52935789b9c935e223e159b65866c31935d66ee52ef330afc"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/work/ppt/lesson1_section6_native_ppt169_20261018/validation/validate_report.json",
+      "destination": "01_第一次课/02_PPT_正式版/第六节_系统与产品方案_P34-P48_v0.1/源文件/validation/validate_report.json",
+      "links_adjusted": false,
+      "sha256": "1a7843918056b30f5abb843ad19b65edc17aab2ed97f498a8f394c489b18452b"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/work/ppt/lesson1_section6_native_ppt169_20261018/validation/fonts.conf",
+      "destination": "01_第一次课/02_PPT_正式版/第六节_系统与产品方案_P34-P48_v0.1/源文件/validation/fonts.conf",
+      "links_adjusted": false,
+      "sha256": "494a655fde31126412138a1d192037e6a68f217cf03343c15c876b6d5d9e0926"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/work/ppt/lesson1_section6_native_ppt169_20261018/validation/screenshot_placeholders.json",
+      "destination": "01_第一次课/02_PPT_正式版/第六节_系统与产品方案_P34-P48_v0.1/源文件/validation/screenshot_placeholders.json",
+      "links_adjusted": false,
+      "sha256": "f95fea71ca04b6218af38dfbb2b8f5a6e944cc73500cecdb680a920cb43ae56c"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/work/ppt/lesson1_section6_native_ppt169_20261018/sources/第一次课_完整老师讲义_常规审核版_v1.0.md",
+      "destination": "01_第一次课/02_PPT_正式版/第六节_系统与产品方案_P34-P48_v0.1/源文件/sources/第一次课_完整老师讲义_常规审核版_v1.0.md",
+      "links_adjusted": false,
+      "sha256": "381bce87a93c80f52039c9d75339815f2f900f76b9902bb3120d0b271f7d7441"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/work/ppt/lesson1_section6_native_ppt169_20261018/analysis/template_origin.json",
+      "destination": "01_第一次课/02_PPT_正式版/第六节_系统与产品方案_P34-P48_v0.1/源文件/analysis/template_origin.json",
+      "links_adjusted": false,
+      "sha256": "f7bf0db25480d0200834b6b7d4447f6941eae7d154a7bbc91d0dcf6467001142"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/work/ppt/lesson1_section7_native_ppt169_20261018/delivery/第一次课_第七节_落地与验证_P49-P58_v0.1.pptx",
+      "destination": "01_第一次课/02_PPT_正式版/第七节_落地与验证_P49-P58_v0.1/第一次课_第七节_落地与验证_P49-P58_v0.1.pptx",
+      "links_adjusted": false,
+      "sha256": "f2ce4684e5151a6c90da93a752c416bac38ede66d5987faab95f6b7f97739fba"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/work/ppt/lesson1_section7_native_ppt169_20261018/delivery/第一次课_第七节_落地与验证_P49-P58_v0.1_浏览版.pdf",
+      "destination": "01_第一次课/02_PPT_正式版/第七节_落地与验证_P49-P58_v0.1/第一次课_第七节_落地与验证_P49-P58_v0.1_浏览版.pdf",
+      "links_adjusted": false,
+      "sha256": "733db94142ea0dcf26cd2d2aafe3867d1fc4d732d8b397cc5129736cc6678f0c"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/work/ppt/lesson1_section7_native_ppt169_20261018/delivery/第一次课_第七节_落地与验证_P49-P58_v0.1_预览.html",
+      "destination": "01_第一次课/02_PPT_正式版/第七节_落地与验证_P49-P58_v0.1/第一次课_第七节_落地与验证_P49-P58_v0.1_预览.html",
+      "links_adjusted": true,
+      "sha256": "7ac7046d02af05bab4d3d3939a38b7628464d76c5238d30d1c9a7dec776b76b2"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/work/ppt/lesson1_section7_native_ppt169_20261018/delivery/第一次课_第七节_落地与验证_P49-P58_v0.1_页面总览.png",
+      "destination": "01_第一次课/02_PPT_正式版/第七节_落地与验证_P49-P58_v0.1/第一次课_第七节_落地与验证_P49-P58_v0.1_页面总览.png",
+      "links_adjusted": false,
+      "sha256": "e4ae312e0981122fe6ec37d4bdad2585a62b7a82e6f79f29fbf40cd48743c003"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/work/ppt/lesson1_section7_native_ppt169_20261018/delivery/第一次课_第七节_P49_章节标题_v0.1.png",
+      "destination": "01_第一次课/02_PPT_正式版/第七节_落地与验证_P49-P58_v0.1/第一次课_第七节_P49_章节标题_v0.1.png",
+      "links_adjusted": false,
+      "sha256": "a227966d77cd97b3a70a6cb25282c2b9cbc6cac19d3d6932f2cbe207694b94da"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/work/ppt/lesson1_section7_native_ppt169_20261018/delivery/第一次课_第七节_P50_实施前提_v0.1.png",
+      "destination": "01_第一次课/02_PPT_正式版/第七节_落地与验证_P49-P58_v0.1/第一次课_第七节_P50_实施前提_v0.1.png",
+      "links_adjusted": false,
+      "sha256": "da52d35510f84a72cbb0162f882c7992ffd82655cc1300727c26daed0f28356b"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/work/ppt/lesson1_section7_native_ppt169_20261018/delivery/第一次课_第七节_P51_建设顺序_v0.1.png",
+      "destination": "01_第一次课/02_PPT_正式版/第七节_落地与验证_P49-P58_v0.1/第一次课_第七节_P51_建设顺序_v0.1.png",
+      "links_adjusted": false,
+      "sha256": "df9f1d7d6481cc2e5c8c28763e704229c6974717202950c1876a01be55019430"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/work/ppt/lesson1_section7_native_ppt169_20261018/delivery/第一次课_第七节_P52_代表样例_v0.1.png",
+      "destination": "01_第一次课/02_PPT_正式版/第七节_落地与验证_P49-P58_v0.1/第一次课_第七节_P52_代表样例_v0.1.png",
+      "links_adjusted": false,
+      "sha256": "0db10a835c444dcceb663ebff967983474fe200b11c85b38e1c5e0ac3922b987"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/work/ppt/lesson1_section7_native_ppt169_20261018/delivery/第一次课_第七节_P53_验证证据_v0.1.png",
+      "destination": "01_第一次课/02_PPT_正式版/第七节_落地与验证_P49-P58_v0.1/第一次课_第七节_P53_验证证据_v0.1.png",
+      "links_adjusted": false,
+      "sha256": "936ec8bb6fd74dff1e7f2b1a6325991e3c1967985451fdba8a28fc09de7ad061"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/work/ppt/lesson1_section7_native_ppt169_20261018/delivery/第一次课_第七节_P54_课堂计算_v0.1.png",
+      "destination": "01_第一次课/02_PPT_正式版/第七节_落地与验证_P49-P58_v0.1/第一次课_第七节_P54_课堂计算_v0.1.png",
+      "links_adjusted": false,
+      "sha256": "90a2071747ced2f93438e81b07035434bda9683dbb69864657fe2e6d5d8264cd"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/work/ppt/lesson1_section7_native_ppt169_20261018/delivery/第一次课_第七节_P55_总人工投入_v0.1.png",
+      "destination": "01_第一次课/02_PPT_正式版/第七节_落地与验证_P49-P58_v0.1/第一次课_第七节_P55_总人工投入_v0.1.png",
+      "links_adjusted": false,
+      "sha256": "198295d330f90b010a721966959de5b701fa2c1f5d4951ed39f5410c0b76b124"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/work/ppt/lesson1_section7_native_ppt169_20261018/delivery/第一次课_第七节_P56_试用决策_v0.1.png",
+      "destination": "01_第一次课/02_PPT_正式版/第七节_落地与验证_P49-P58_v0.1/第一次课_第七节_P56_试用决策_v0.1.png",
+      "links_adjusted": false,
+      "sha256": "50ef215c5c7fe4b20e8ad6a6b81e9ae526527f5fb29d224d30fc54896fdcb564"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/work/ppt/lesson1_section7_native_ppt169_20261018/delivery/第一次课_第七节_P57_后续演进_v0.1.png",
+      "destination": "01_第一次课/02_PPT_正式版/第七节_落地与验证_P49-P58_v0.1/第一次课_第七节_P57_后续演进_v0.1.png",
+      "links_adjusted": false,
+      "sha256": "abe96ed0e8859ba1f084c98e3e1aea89fefad3c8d4ad88013823014c731fdcd2"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/work/ppt/lesson1_section7_native_ppt169_20261018/delivery/第一次课_第七节_P58_全课收束_v0.1.png",
+      "destination": "01_第一次课/02_PPT_正式版/第七节_落地与验证_P49-P58_v0.1/第一次课_第七节_P58_全课收束_v0.1.png",
+      "links_adjusted": false,
+      "sha256": "bc4009fa4e5cb5703f1791c795997ec497e1ee00557bd67a67a6ca599717e712"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/work/ppt/lesson1_section7_native_ppt169_20261018/analysis/fill_plan.json",
+      "destination": "01_第一次课/02_PPT_正式版/第七节_落地与验证_P49-P58_v0.1/源文件/analysis/fill_plan.json",
+      "links_adjusted": false,
+      "sha256": "bcdafb8c7c039058a749f21c2c0ad75622af497eb3cf6c095427b7c8d0a4c920"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/work/ppt/lesson1_section7_native_ppt169_20261018/analysis/check_report.json",
+      "destination": "01_第一次课/02_PPT_正式版/第七节_落地与验证_P49-P58_v0.1/源文件/analysis/check_report.json",
+      "links_adjusted": false,
+      "sha256": "05c57e84d8ac07abc5db57760c49e2171573397b5ba6f186c45aa9efa46de979"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/work/ppt/lesson1_section7_native_ppt169_20261018/analysis/teaching_decisions.json",
+      "destination": "01_第一次课/02_PPT_正式版/第七节_落地与验证_P49-P58_v0.1/源文件/analysis/teaching_decisions.json",
+      "links_adjusted": false,
+      "sha256": "c7e612fcaef3437279a73d91001d64eb3d292834a58933b6824e13f6fdeef650"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/work/ppt/lesson1_section7_native_ppt169_20261018/analysis/delivery_meta.json",
+      "destination": "01_第一次课/02_PPT_正式版/第七节_落地与验证_P49-P58_v0.1/源文件/analysis/delivery_meta.json",
+      "links_adjusted": false,
+      "sha256": "ec5f3130c9c1b30590d5770117c318c710a2e0c7dca38dc610530ea3a3f5a1a9"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/work/ppt/lesson1_section7_native_ppt169_20261018/analysis/update_navigation.py",
+      "destination": "01_第一次课/02_PPT_正式版/第七节_落地与验证_P49-P58_v0.1/源文件/analysis/update_navigation.py",
+      "links_adjusted": false,
+      "sha256": "83be4414225e4189a44c72484cc7618ff9cf81f3d7b7e3b7317d61164cc8ea06"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/work/ppt/lesson1_section7_native_ppt169_20261018/analysis/第一次课_电商营销审核提效_结构强化版_v1.1.slide_library.json",
+      "destination": "01_第一次课/02_PPT_正式版/第七节_落地与验证_P49-P58_v0.1/源文件/analysis/第一次课_电商营销审核提效_结构强化版_v1.1.slide_library.json",
+      "links_adjusted": false,
+      "sha256": "4815311c1a916a79795cfd827ecde49a6bb5e7b64d58e9aef33374e7eb3347f5"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/work/ppt/lesson1_section7_native_ppt169_20261018/validation/readback.md",
+      "destination": "01_第一次课/02_PPT_正式版/第七节_落地与验证_P49-P58_v0.1/源文件/validation/readback.md",
+      "links_adjusted": false,
+      "sha256": "4cf89ee3f9692cdcfe0c8a84d32eb493b15b1c429eaf3cbd04a13bb2582642db"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/work/ppt/lesson1_section7_native_ppt169_20261018/validation/validate_report.json",
+      "destination": "01_第一次课/02_PPT_正式版/第七节_落地与验证_P49-P58_v0.1/源文件/validation/validate_report.json",
+      "links_adjusted": false,
+      "sha256": "b325c470b135064081a4c25ba6dc35f1b4441c43f28e3288b0496e5420355718"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/work/ppt/lesson1_section7_native_ppt169_20261018/validation/fonts.conf",
+      "destination": "01_第一次课/02_PPT_正式版/第七节_落地与验证_P49-P58_v0.1/源文件/validation/fonts.conf",
+      "links_adjusted": false,
+      "sha256": "9358a4a7a8e8030b821836b36604b83ac752c00c7a1061d21fd6a6c37a4260cf"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/work/ppt/lesson1_section7_native_ppt169_20261018/sources/第一次课_完整老师讲义_常规审核版_v1.0.md",
+      "destination": "01_第一次课/02_PPT_正式版/第七节_落地与验证_P49-P58_v0.1/源文件/sources/第一次课_完整老师讲义_常规审核版_v1.0.md",
+      "links_adjusted": false,
+      "sha256": "381bce87a93c80f52039c9d75339815f2f900f76b9902bb3120d0b271f7d7441"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/work/ppt/lesson1_section7_native_ppt169_20261018/analysis/template_origin.json",
+      "destination": "01_第一次课/02_PPT_正式版/第七节_落地与验证_P49-P58_v0.1/源文件/analysis/template_origin.json",
+      "links_adjusted": false,
+      "sha256": "f7bf0db25480d0200834b6b7d4447f6941eae7d154a7bbc91d0dcf6467001142"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/work/ppt/lesson1_complete_review_ppt169_20261018/delivery/第一次课_完整授课PPT_格式校正版_v2.0.pptx",
+      "destination": "01_第一次课/02_PPT_正式版/全课合并_格式校正版_P01-P58_v2.0/第一次课_完整授课PPT_格式校正版_v2.0.pptx",
+      "links_adjusted": false,
+      "sha256": "1c9ef4a67db57229ad0fc917a8d69879fb7c91c95a1748128652f172bd1a2ce6"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/work/ppt/lesson1_complete_review_ppt169_20261018/delivery/全课页面总览_P01-P12.png",
+      "destination": "01_第一次课/02_PPT_正式版/全课合并_格式校正版_P01-P58_v2.0/全课页面总览_P01-P12.png",
+      "links_adjusted": false,
+      "sha256": "7826fc6f2ab76afe2118646e69d676db4badbfe57c4bab735da5b1c86f773acd"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/work/ppt/lesson1_complete_review_ppt169_20261018/delivery/全课页面总览_P37-P48.png",
+      "destination": "01_第一次课/02_PPT_正式版/全课合并_格式校正版_P01-P58_v2.0/全课页面总览_P37-P48.png",
+      "links_adjusted": false,
+      "sha256": "ddaf1430852d3582285cd95bfa002fc11ff2ea90f0101e8bc900ba9100275339"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/work/ppt/lesson1_complete_review_ppt169_20261018/delivery/全课页面总览_P13-P24.png",
+      "destination": "01_第一次课/02_PPT_正式版/全课合并_格式校正版_P01-P58_v2.0/全课页面总览_P13-P24.png",
+      "links_adjusted": false,
+      "sha256": "e09e58ac5ec5272f623bc01ad69626f728204bf2b7262bc7419d603d983040d9"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/work/ppt/lesson1_complete_review_ppt169_20261018/delivery/第一次课_完整授课PPT_格式校正版_v2.0_浏览版.pdf",
+      "destination": "01_第一次课/02_PPT_正式版/全课合并_格式校正版_P01-P58_v2.0/第一次课_完整授课PPT_格式校正版_v2.0_浏览版.pdf",
+      "links_adjusted": false,
+      "sha256": "9c82d26c2d452a28377d2144451db7d5014d5da160523649733d74e6411264f6"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/work/ppt/lesson1_complete_review_ppt169_20261018/delivery/全课页面总览_P49-P58.png",
+      "destination": "01_第一次课/02_PPT_正式版/全课合并_格式校正版_P01-P58_v2.0/全课页面总览_P49-P58.png",
+      "links_adjusted": false,
+      "sha256": "f561e4b4323aafdae9b53211b57ce18981d2e54cf47ea58d9f1779053f96c1aa"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/work/ppt/lesson1_complete_review_ppt169_20261018/delivery/全课页面总览_P25-P36.png",
+      "destination": "01_第一次课/02_PPT_正式版/全课合并_格式校正版_P01-P58_v2.0/全课页面总览_P25-P36.png",
+      "links_adjusted": false,
+      "sha256": "65a0f8d665936acae068c2d287cae167373c888d76aa32e2d01476ed88cdcc1a"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/work/ppt/lesson1_complete_review_ppt169_20261018/delivery/第一次课_完整授课PPT_格式校正版_v2.0_逐页预览.html",
+      "destination": "01_第一次课/02_PPT_正式版/全课合并_格式校正版_P01-P58_v2.0/第一次课_完整授课PPT_格式校正版_v2.0_逐页预览.html",
+      "links_adjusted": false,
+      "sha256": "29f06cb4c1a5d7d84fe5a8e66171f25e70deeafc5394f65bba9e8fe2c2a7adfb"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/work/ppt/lesson1_complete_review_ppt169_20261018/delivery/第一次课_完整授课PPT_格式校正版_v2.0_格式检查说明.md",
+      "destination": "01_第一次课/02_PPT_正式版/全课合并_格式校正版_P01-P58_v2.0/第一次课_完整授课PPT_格式校正版_v2.0_格式检查说明.md",
+      "links_adjusted": false,
+      "sha256": "edffd4a116ae960a860681dc22f07190982b5cfdaba0f0a9165e729e3d7b4500"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/work/ppt/lesson1_complete_review_ppt169_20261018/delivery/页面预览/P12.png",
+      "destination": "01_第一次课/02_PPT_正式版/全课合并_格式校正版_P01-P58_v2.0/页面预览/P12.png",
+      "links_adjusted": false,
+      "sha256": "d5ee8a6814667be98dc51d810ace9bd27212e7944f4ce2ed5c451cb3d4983071"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/work/ppt/lesson1_complete_review_ppt169_20261018/delivery/页面预览/P06.png",
+      "destination": "01_第一次课/02_PPT_正式版/全课合并_格式校正版_P01-P58_v2.0/页面预览/P06.png",
+      "links_adjusted": false,
+      "sha256": "3042d01377117a3e6d03f31a7e6f34162883cbf2a4ccec607cb902e820586fce"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/work/ppt/lesson1_complete_review_ppt169_20261018/delivery/页面预览/P07.png",
+      "destination": "01_第一次课/02_PPT_正式版/全课合并_格式校正版_P01-P58_v2.0/页面预览/P07.png",
+      "links_adjusted": false,
+      "sha256": "8b3d9d1df6d82a1715bb522747f7d1d1c3ab6006f977cf5adc3a6fbce2efa407"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/work/ppt/lesson1_complete_review_ppt169_20261018/delivery/页面预览/P13.png",
+      "destination": "01_第一次课/02_PPT_正式版/全课合并_格式校正版_P01-P58_v2.0/页面预览/P13.png",
+      "links_adjusted": false,
+      "sha256": "70a740e885e238a8735ad2c7e823267161adf106eaa178a886233c400df60f01"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/work/ppt/lesson1_complete_review_ppt169_20261018/delivery/页面预览/P05.png",
+      "destination": "01_第一次课/02_PPT_正式版/全课合并_格式校正版_P01-P58_v2.0/页面预览/P05.png",
+      "links_adjusted": false,
+      "sha256": "df2eec51f88e3b0ef1fc0b29f4369bb74d68106712a580ad31630123046cfe22"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/work/ppt/lesson1_complete_review_ppt169_20261018/delivery/页面预览/P11.png",
+      "destination": "01_第一次课/02_PPT_正式版/全课合并_格式校正版_P01-P58_v2.0/页面预览/P11.png",
+      "links_adjusted": false,
+      "sha256": "b74a16a84e08bb22dcf7749ff84daecbeaf59f17133358867df18b5bc5a4c083"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/work/ppt/lesson1_complete_review_ppt169_20261018/delivery/页面预览/P39.png",
+      "destination": "01_第一次课/02_PPT_正式版/全课合并_格式校正版_P01-P58_v2.0/页面预览/P39.png",
+      "links_adjusted": false,
+      "sha256": "3d205e1175cd9e1d98affbf82bdf3ae60aa3449cc1f7349344e021d6903e2bac"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/work/ppt/lesson1_complete_review_ppt169_20261018/delivery/页面预览/P38.png",
+      "destination": "01_第一次课/02_PPT_正式版/全课合并_格式校正版_P01-P58_v2.0/页面预览/P38.png",
+      "links_adjusted": false,
+      "sha256": "6ae0807263307dda614b29128a595ee1d3062cbe8e70f022fa0714dfa8fc54dc"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/work/ppt/lesson1_complete_review_ppt169_20261018/delivery/页面预览/P10.png",
+      "destination": "01_第一次课/02_PPT_正式版/全课合并_格式校正版_P01-P58_v2.0/页面预览/P10.png",
+      "links_adjusted": false,
+      "sha256": "3cbde1c36a124c9be98b4d24f6daa91af8c4f1bf9105062b04a15a4d740035da"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/work/ppt/lesson1_complete_review_ppt169_20261018/delivery/页面预览/P04.png",
+      "destination": "01_第一次课/02_PPT_正式版/全课合并_格式校正版_P01-P58_v2.0/页面预览/P04.png",
+      "links_adjusted": false,
+      "sha256": "d7b0f3cecc631707e3df280663b4e6db8a1eeefa795d13e044ea0ed7069c69e3"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/work/ppt/lesson1_complete_review_ppt169_20261018/delivery/页面预览/P28.png",
+      "destination": "01_第一次课/02_PPT_正式版/全课合并_格式校正版_P01-P58_v2.0/页面预览/P28.png",
+      "links_adjusted": false,
+      "sha256": "d321a528885aed3c38072179eece7decfaad2d28d2fda3e0d65609f54660298a"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/work/ppt/lesson1_complete_review_ppt169_20261018/delivery/页面预览/P14.png",
+      "destination": "01_第一次课/02_PPT_正式版/全课合并_格式校正版_P01-P58_v2.0/页面预览/P14.png",
+      "links_adjusted": false,
+      "sha256": "88f803b566e2924fee5af5968b04a69310804282a5df361e8b0239c27192d4e0"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/work/ppt/lesson1_complete_review_ppt169_20261018/delivery/页面预览/P15.png",
+      "destination": "01_第一次课/02_PPT_正式版/全课合并_格式校正版_P01-P58_v2.0/页面预览/P15.png",
+      "links_adjusted": false,
+      "sha256": "92f7b395d7f70584ecad9d5595dad4ff24fee9c33e85f6ab32e6d802118ef2af"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/work/ppt/lesson1_complete_review_ppt169_20261018/delivery/页面预览/P01.png",
+      "destination": "01_第一次课/02_PPT_正式版/全课合并_格式校正版_P01-P58_v2.0/页面预览/P01.png",
+      "links_adjusted": false,
+      "sha256": "3f9e2f4379f623408af223393b95b462632d6e9ee5c65a236e6d52497ed7f239"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/work/ppt/lesson1_complete_review_ppt169_20261018/delivery/页面预览/P29.png",
+      "destination": "01_第一次课/02_PPT_正式版/全课合并_格式校正版_P01-P58_v2.0/页面预览/P29.png",
+      "links_adjusted": false,
+      "sha256": "76a5c98c8fceeb5934d8d017df01de690a608caf130ebd624a2a36bdb4eadc75"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/work/ppt/lesson1_complete_review_ppt169_20261018/delivery/页面预览/P17.png",
+      "destination": "01_第一次课/02_PPT_正式版/全课合并_格式校正版_P01-P58_v2.0/页面预览/P17.png",
+      "links_adjusted": false,
+      "sha256": "83d2233e3ef9d33184fec6ddbe43d525296631062f7f8ea9aeaabbef89e5099c"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/work/ppt/lesson1_complete_review_ppt169_20261018/delivery/页面预览/P03.png",
+      "destination": "01_第一次课/02_PPT_正式版/全课合并_格式校正版_P01-P58_v2.0/页面预览/P03.png",
+      "links_adjusted": false,
+      "sha256": "998c880d02882f2e530f718dabd61c509c1fcdc8af82643c78441f28e9c8825f"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/work/ppt/lesson1_complete_review_ppt169_20261018/delivery/页面预览/P02.png",
+      "destination": "01_第一次课/02_PPT_正式版/全课合并_格式校正版_P01-P58_v2.0/页面预览/P02.png",
+      "links_adjusted": false,
+      "sha256": "235eb9c04116d266f82f1d21108fc8f8c5a158f2efbcebec5f7a0ce09e4a3b18"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/work/ppt/lesson1_complete_review_ppt169_20261018/delivery/页面预览/P16.png",
+      "destination": "01_第一次课/02_PPT_正式版/全课合并_格式校正版_P01-P58_v2.0/页面预览/P16.png",
+      "links_adjusted": false,
+      "sha256": "c81482a702e12b88afde71d38f3de9477bcb28fe369b27ede072af1b213a483d"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/work/ppt/lesson1_complete_review_ppt169_20261018/delivery/页面预览/P58.png",
+      "destination": "01_第一次课/02_PPT_正式版/全课合并_格式校正版_P01-P58_v2.0/页面预览/P58.png",
+      "links_adjusted": false,
+      "sha256": "4acd5aa32a49e8e0c5fb7c9bdfb6e07c18503415f45f4071394833dc387e8ba3"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/work/ppt/lesson1_complete_review_ppt169_20261018/delivery/页面预览/P48.png",
+      "destination": "01_第一次课/02_PPT_正式版/全课合并_格式校正版_P01-P58_v2.0/页面预览/P48.png",
+      "links_adjusted": false,
+      "sha256": "02bd9752ed1cb3d1379b74eec94a88cc46239e951b12857323ae29146178944d"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/work/ppt/lesson1_complete_review_ppt169_20261018/delivery/页面预览/P49.png",
+      "destination": "01_第一次课/02_PPT_正式版/全课合并_格式校正版_P01-P58_v2.0/页面预览/P49.png",
+      "links_adjusted": false,
+      "sha256": "1eb6afa822c0ba6fc178f7b7bfb96e4fe8a14681870097a2dee43a5b2b77453d"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/work/ppt/lesson1_complete_review_ppt169_20261018/delivery/页面预览/P50.png",
+      "destination": "01_第一次课/02_PPT_正式版/全课合并_格式校正版_P01-P58_v2.0/页面预览/P50.png",
+      "links_adjusted": false,
+      "sha256": "5eb5ffe7df52847438b78b937fb762d3691b57df97c5524317435ff6f242e174"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/work/ppt/lesson1_complete_review_ppt169_20261018/delivery/页面预览/P44.png",
+      "destination": "01_第一次课/02_PPT_正式版/全课合并_格式校正版_P01-P58_v2.0/页面预览/P44.png",
+      "links_adjusted": false,
+      "sha256": "826e1ca1f3f953958aa3dab90a1645fa3b4c91bb82ff884323dd82795656d104"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/work/ppt/lesson1_complete_review_ppt169_20261018/delivery/页面预览/P45.png",
+      "destination": "01_第一次课/02_PPT_正式版/全课合并_格式校正版_P01-P58_v2.0/页面预览/P45.png",
+      "links_adjusted": false,
+      "sha256": "1b8e2298d9ad7e18f827284aa5ebb97fff091231d871ffe5eebc771245be6903"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/work/ppt/lesson1_complete_review_ppt169_20261018/delivery/页面预览/P51.png",
+      "destination": "01_第一次课/02_PPT_正式版/全课合并_格式校正版_P01-P58_v2.0/页面预览/P51.png",
+      "links_adjusted": false,
+      "sha256": "5305fc0aa2bd5311259312f1eccde01e337baa88a6d4c3fdb8587b6a750ad8a9"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/work/ppt/lesson1_complete_review_ppt169_20261018/delivery/页面预览/P47.png",
+      "destination": "01_第一次课/02_PPT_正式版/全课合并_格式校正版_P01-P58_v2.0/页面预览/P47.png",
+      "links_adjusted": false,
+      "sha256": "ce54d69fd6cc8d130e0a194349b4af2e7ab61b754385871da5934df309d830a6"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/work/ppt/lesson1_complete_review_ppt169_20261018/delivery/页面预览/P53.png",
+      "destination": "01_第一次课/02_PPT_正式版/全课合并_格式校正版_P01-P58_v2.0/页面预览/P53.png",
+      "links_adjusted": false,
+      "sha256": "f7ff77f799bae30835860747cbecfa6b9c2e18a371930847948f5ba99a0643df"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/work/ppt/lesson1_complete_review_ppt169_20261018/delivery/页面预览/P52.png",
+      "destination": "01_第一次课/02_PPT_正式版/全课合并_格式校正版_P01-P58_v2.0/页面预览/P52.png",
+      "links_adjusted": false,
+      "sha256": "f10390169c9b75d216036192462c7ef34e6d21dc64e39f926d0b7c8be8424d26"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/work/ppt/lesson1_complete_review_ppt169_20261018/delivery/页面预览/P46.png",
+      "destination": "01_第一次课/02_PPT_正式版/全课合并_格式校正版_P01-P58_v2.0/页面预览/P46.png",
+      "links_adjusted": false,
+      "sha256": "64b1c79c2c0030be88a2bf6468262e52c0e11d57cd84cc74cfa7d7cd2b52d2ac"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/work/ppt/lesson1_complete_review_ppt169_20261018/delivery/页面预览/P42.png",
+      "destination": "01_第一次课/02_PPT_正式版/全课合并_格式校正版_P01-P58_v2.0/页面预览/P42.png",
+      "links_adjusted": false,
+      "sha256": "f308762ef9b83b32a9e3e246c354ae932cc5784274db3982402d4ff7a236c7f6"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/work/ppt/lesson1_complete_review_ppt169_20261018/delivery/页面预览/P56.png",
+      "destination": "01_第一次课/02_PPT_正式版/全课合并_格式校正版_P01-P58_v2.0/页面预览/P56.png",
+      "links_adjusted": false,
+      "sha256": "8d62360f336c97869df2ede33bddcd6e95dfbafdcdd2e9f93626aea7a6d030c0"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/work/ppt/lesson1_complete_review_ppt169_20261018/delivery/页面预览/P57.png",
+      "destination": "01_第一次课/02_PPT_正式版/全课合并_格式校正版_P01-P58_v2.0/页面预览/P57.png",
+      "links_adjusted": false,
+      "sha256": "5bb21d9879e9de9323c1d70f6a7386b0216022d409694532692b209fb8775374"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/work/ppt/lesson1_complete_review_ppt169_20261018/delivery/页面预览/P43.png",
+      "destination": "01_第一次课/02_PPT_正式版/全课合并_格式校正版_P01-P58_v2.0/页面预览/P43.png",
+      "links_adjusted": false,
+      "sha256": "ee97e7a70dd9393dcbba6f368a94f711c840f8e690e50aa41f7cc98c6de51ce7"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/work/ppt/lesson1_complete_review_ppt169_20261018/delivery/页面预览/P55.png",
+      "destination": "01_第一次课/02_PPT_正式版/全课合并_格式校正版_P01-P58_v2.0/页面预览/P55.png",
+      "links_adjusted": false,
+      "sha256": "fe291bcc520ef0597453c1f02f9f70f1d01e3ee4012b0ce611c426e8bd068895"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/work/ppt/lesson1_complete_review_ppt169_20261018/delivery/页面预览/P41.png",
+      "destination": "01_第一次课/02_PPT_正式版/全课合并_格式校正版_P01-P58_v2.0/页面预览/P41.png",
+      "links_adjusted": false,
+      "sha256": "d9683aa963ea2c75bf3c56d8b42fd291e289a052cbb2512969a1941ea2d8f3c2"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/work/ppt/lesson1_complete_review_ppt169_20261018/delivery/页面预览/P40.png",
+      "destination": "01_第一次课/02_PPT_正式版/全课合并_格式校正版_P01-P58_v2.0/页面预览/P40.png",
+      "links_adjusted": false,
+      "sha256": "bce76b109b60c6c2cfbe28ae9d79c73d56929b35f6d7b69e92d602d3a54118c1"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/work/ppt/lesson1_complete_review_ppt169_20261018/delivery/页面预览/P54.png",
+      "destination": "01_第一次课/02_PPT_正式版/全课合并_格式校正版_P01-P58_v2.0/页面预览/P54.png",
+      "links_adjusted": false,
+      "sha256": "9fdadbb0e262989631ffff9de19838d8352cbea6cd2801a77268312f6f045a07"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/work/ppt/lesson1_complete_review_ppt169_20261018/delivery/页面预览/P33.png",
+      "destination": "01_第一次课/02_PPT_正式版/全课合并_格式校正版_P01-P58_v2.0/页面预览/P33.png",
+      "links_adjusted": false,
+      "sha256": "c3e1b0c8ef0b17aee301779f66a3e7d9d21ff836a2ca227fbcdcf679690763ef"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/work/ppt/lesson1_complete_review_ppt169_20261018/delivery/页面预览/P27.png",
+      "destination": "01_第一次课/02_PPT_正式版/全课合并_格式校正版_P01-P58_v2.0/页面预览/P27.png",
+      "links_adjusted": false,
+      "sha256": "33c6c19c8bd94fa469cb1ca317900055b88a9895ac114f0a38422a3a83a3e966"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/work/ppt/lesson1_complete_review_ppt169_20261018/delivery/页面预览/P26.png",
+      "destination": "01_第一次课/02_PPT_正式版/全课合并_格式校正版_P01-P58_v2.0/页面预览/P26.png",
+      "links_adjusted": false,
+      "sha256": "fee2f92bb04f81a9e499f805c0b26051b893a3bfa23c63afa0fab107e5e7e992"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/work/ppt/lesson1_complete_review_ppt169_20261018/delivery/页面预览/P32.png",
+      "destination": "01_第一次课/02_PPT_正式版/全课合并_格式校正版_P01-P58_v2.0/页面预览/P32.png",
+      "links_adjusted": false,
+      "sha256": "0d2596c884db9be6f8fc9cf1cdae6680f80ecd7d8209fed5779da87543e31d78"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/work/ppt/lesson1_complete_review_ppt169_20261018/delivery/页面预览/P24.png",
+      "destination": "01_第一次课/02_PPT_正式版/全课合并_格式校正版_P01-P58_v2.0/页面预览/P24.png",
+      "links_adjusted": false,
+      "sha256": "66bc618ca3f67a4fe222952b45a21ed270425609417eae7afcd135fcdf05cd29"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/work/ppt/lesson1_complete_review_ppt169_20261018/delivery/页面预览/P30.png",
+      "destination": "01_第一次课/02_PPT_正式版/全课合并_格式校正版_P01-P58_v2.0/页面预览/P30.png",
+      "links_adjusted": false,
+      "sha256": "efa4c3e402d07b9b75e69603d0f32bfcc6133395c7806576fbe8cd5f05649476"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/work/ppt/lesson1_complete_review_ppt169_20261018/delivery/页面预览/P18.png",
+      "destination": "01_第一次课/02_PPT_正式版/全课合并_格式校正版_P01-P58_v2.0/页面预览/P18.png",
+      "links_adjusted": false,
+      "sha256": "57631993f876b50bc95bc4a807bf2340a6453d428a483e0f2d04bfe26a2328a8"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/work/ppt/lesson1_complete_review_ppt169_20261018/delivery/页面预览/P19.png",
+      "destination": "01_第一次课/02_PPT_正式版/全课合并_格式校正版_P01-P58_v2.0/页面预览/P19.png",
+      "links_adjusted": false,
+      "sha256": "0cd169ccbb2a8134309ec82d4806fca1af61cda8c665e300e13353981a4a6cf3"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/work/ppt/lesson1_complete_review_ppt169_20261018/delivery/页面预览/P31.png",
+      "destination": "01_第一次课/02_PPT_正式版/全课合并_格式校正版_P01-P58_v2.0/页面预览/P31.png",
+      "links_adjusted": false,
+      "sha256": "0f04d86990f5747a5a2496bedaa79fd8a5f9791ae450df53679070c846e5e066"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/work/ppt/lesson1_complete_review_ppt169_20261018/delivery/页面预览/P25.png",
+      "destination": "01_第一次课/02_PPT_正式版/全课合并_格式校正版_P01-P58_v2.0/页面预览/P25.png",
+      "links_adjusted": false,
+      "sha256": "4c3f115918191797c0cd7d7be77fb55a3a97e8be7dab0fd015f88fd5e05902a9"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/work/ppt/lesson1_complete_review_ppt169_20261018/delivery/页面预览/P09.png",
+      "destination": "01_第一次课/02_PPT_正式版/全课合并_格式校正版_P01-P58_v2.0/页面预览/P09.png",
+      "links_adjusted": false,
+      "sha256": "f8e9050f2944e92a9dc130c38be1084b4eff0e02b628b28c61dfee13cfb5c4be"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/work/ppt/lesson1_complete_review_ppt169_20261018/delivery/页面预览/P21.png",
+      "destination": "01_第一次课/02_PPT_正式版/全课合并_格式校正版_P01-P58_v2.0/页面预览/P21.png",
+      "links_adjusted": false,
+      "sha256": "bfe827cda2e3779661dff7ea07a0a503174131d4373359f14d23e224e4568512"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/work/ppt/lesson1_complete_review_ppt169_20261018/delivery/页面预览/P35.png",
+      "destination": "01_第一次课/02_PPT_正式版/全课合并_格式校正版_P01-P58_v2.0/页面预览/P35.png",
+      "links_adjusted": false,
+      "sha256": "340983debab88de3b53286ed0088728f47641ace0a822a5a7f13b35ec6c04ef6"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/work/ppt/lesson1_complete_review_ppt169_20261018/delivery/页面预览/P34.png",
+      "destination": "01_第一次课/02_PPT_正式版/全课合并_格式校正版_P01-P58_v2.0/页面预览/P34.png",
+      "links_adjusted": false,
+      "sha256": "f5ce695b8d774f04723e462628d218cf46497a5e638a0a29c69ad720e1e6e530"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/work/ppt/lesson1_complete_review_ppt169_20261018/delivery/页面预览/P20.png",
+      "destination": "01_第一次课/02_PPT_正式版/全课合并_格式校正版_P01-P58_v2.0/页面预览/P20.png",
+      "links_adjusted": false,
+      "sha256": "ec70db7b6dc269ca00f652d451c07abd02fa2b8b17dd715cb7ace787682201a7"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/work/ppt/lesson1_complete_review_ppt169_20261018/delivery/页面预览/P08.png",
+      "destination": "01_第一次课/02_PPT_正式版/全课合并_格式校正版_P01-P58_v2.0/页面预览/P08.png",
+      "links_adjusted": false,
+      "sha256": "1e0765a5954020699cad2425e8de4af224c073d57e08b5838f34c490fe28b40d"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/work/ppt/lesson1_complete_review_ppt169_20261018/delivery/页面预览/P36.png",
+      "destination": "01_第一次课/02_PPT_正式版/全课合并_格式校正版_P01-P58_v2.0/页面预览/P36.png",
+      "links_adjusted": false,
+      "sha256": "b311656421bfe1df9681e841184f9c0142177d452af904747a0b6a1228c3e9dd"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/work/ppt/lesson1_complete_review_ppt169_20261018/delivery/页面预览/P22.png",
+      "destination": "01_第一次课/02_PPT_正式版/全课合并_格式校正版_P01-P58_v2.0/页面预览/P22.png",
+      "links_adjusted": false,
+      "sha256": "05882a4a2ff008ba4ae5f10196e9de7acb6fb2190e4d79b26fe4e0781d39e411"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/work/ppt/lesson1_complete_review_ppt169_20261018/delivery/页面预览/P23.png",
+      "destination": "01_第一次课/02_PPT_正式版/全课合并_格式校正版_P01-P58_v2.0/页面预览/P23.png",
+      "links_adjusted": false,
+      "sha256": "1a9e6df67a86f5f59eca70c9c95b6a65600e62e904fed80f72bb80896b0cc0cb"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/work/ppt/lesson1_complete_review_ppt169_20261018/delivery/页面预览/P37.png",
+      "destination": "01_第一次课/02_PPT_正式版/全课合并_格式校正版_P01-P58_v2.0/页面预览/P37.png",
+      "links_adjusted": false,
+      "sha256": "5b1150200e63814666a202fa026baba9e9ab18f718b2486f84603a4b1afba381"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/work/ppt/lesson1_complete_review_ppt169_20261018/analysis/slide_text.json",
+      "destination": "01_第一次课/02_PPT_正式版/全课合并_格式校正版_P01-P58_v2.0/源文件/analysis/slide_text.json",
+      "links_adjusted": false,
+      "sha256": "486f6a2a3808fd3f3d04a9af618d64bf93ebdb48546d3ebefee92a088fdcef48"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/work/ppt/lesson1_complete_review_ppt169_20261018/analysis/source_manifest.json",
+      "destination": "01_第一次课/02_PPT_正式版/全课合并_格式校正版_P01-P58_v2.0/源文件/analysis/source_manifest.json",
+      "links_adjusted": false,
+      "sha256": "1e61aeffc3427059e18d24d085da26753d52c65853bd99641332ebc1636b2d5c"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/work/ppt/lesson1_complete_review_ppt169_20261018/analysis/format_changes.json",
+      "destination": "01_第一次课/02_PPT_正式版/全课合并_格式校正版_P01-P58_v2.0/源文件/analysis/format_changes.json",
+      "links_adjusted": false,
+      "sha256": "e9424c0a6d2eeb9e9d93580bc5026c531eb3d62750fc76a355661ccf48b7fa09"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/work/ppt/lesson1_complete_review_ppt169_20261018/analysis/slide_order.json",
+      "destination": "01_第一次课/02_PPT_正式版/全课合并_格式校正版_P01-P58_v2.0/源文件/analysis/slide_order.json",
+      "links_adjusted": false,
+      "sha256": "78edaf0d2856b5eb43ae91e0f03329c37794f3bbc97e68e5d47369aa518c58e6"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/work/ppt/lesson1_complete_review_ppt169_20261018/analysis/delivery_meta.json",
+      "destination": "01_第一次课/02_PPT_正式版/全课合并_格式校正版_P01-P58_v2.0/源文件/analysis/delivery_meta.json",
+      "links_adjusted": false,
+      "sha256": "1cd48ca1cca71edabbbc569625bd664a4624ae429101246dc24e3da634bd04a8"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/work/ppt/lesson1_complete_review_ppt169_20261018/analysis/visual_fixes.json",
+      "destination": "01_第一次课/02_PPT_正式版/全课合并_格式校正版_P01-P58_v2.0/源文件/analysis/visual_fixes.json",
+      "links_adjusted": false,
+      "sha256": "355305d2edd6a7b6212b9ba0aff36563d7ed190fc4ec9bbb05b26fa5a5885865"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/work/ppt/lesson1_complete_review_ppt169_20261018/validation/format_review.json",
+      "destination": "01_第一次课/02_PPT_正式版/全课合并_格式校正版_P01-P58_v2.0/源文件/validation/format_review.json",
+      "links_adjusted": false,
+      "sha256": "2ff41bd8bd139c2b8af05e3c360cb6ac07486978d849fd3a10074e69e0c8892f"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/work/assemble_reviewed_course.py",
+      "destination": "01_第一次课/02_PPT_正式版/全课合并_格式校正版_P01-P58_v2.0/源文件/scripts/assemble_reviewed_course.py",
+      "links_adjusted": false,
+      "sha256": "db4341f09400558c2b684e198bfeaa49ac779d48dc7aa953ba06b039ccada8a9"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/work/fix_course_format.py",
+      "destination": "01_第一次课/02_PPT_正式版/全课合并_格式校正版_P01-P58_v2.0/源文件/scripts/fix_course_format.py",
+      "links_adjusted": false,
+      "sha256": "898a5305c123251f8ac84928e01b9ee335a5e277893f1b7b40222200377d345f"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/work/check_and_package_complete.py",
+      "destination": "01_第一次课/02_PPT_正式版/全课合并_格式校正版_P01-P58_v2.0/源文件/scripts/check_and_package_complete.py",
+      "links_adjusted": false,
+      "sha256": "3967efed73dc02e02a7d51336d799714f07f7d3b7e5a66f0cf05790b88424ba2"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/work/ppt/lesson1_complete_review_ppt169_20261018/validation/fonts.conf",
+      "destination": "01_第一次课/02_PPT_正式版/全课合并_格式校正版_P01-P58_v2.0/源文件/validation/fonts.conf",
+      "links_adjusted": false,
+      "sha256": "79ed8ba69a2ddf292b5f461b33a2f7960bb97f8384d6ed8a4ddef1b9c78a02dd"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/outputs/第二次课_审核链路课堂Demo_v1.0/build.py",
+      "destination": "02_第二次课/03_课堂Demo/审核链路课堂Demo_v1.0/build.py",
+      "links_adjusted": false,
+      "sha256": "09c742448503569ceac40185aaef1b63f9e05794d1e3fb66a6460230432b485c"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/outputs/第二次课_审核链路课堂Demo_v1.0/验证记录.json",
+      "destination": "02_第二次课/03_课堂Demo/审核链路课堂Demo_v1.0/验证记录.json",
+      "links_adjusted": false,
+      "sha256": "c4da819ab4e94cc831875bd9a1fb1ee9611a809f4172dc5e5ccf7c1c9accaed2"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/outputs/第二次课_审核链路课堂Demo_v1.0/server.py",
+      "destination": "02_第二次课/03_课堂Demo/审核链路课堂Demo_v1.0/server.py",
+      "links_adjusted": false,
+      "sha256": "191b64102328d37c2b1cb657b50b1244bf57611bb4ca96dcb85e00c42bd1e822"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/outputs/第二次课_审核链路课堂Demo_v1.0/index.html",
+      "destination": "02_第二次课/03_课堂Demo/审核链路课堂Demo_v1.0/index.html",
+      "links_adjusted": false,
+      "sha256": "32841338c204a5898eb55e43ff54c28096dcfda5b418885448663d10259fc395"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/outputs/第二次课_审核链路课堂Demo_v1.0/启动课堂Demo.command",
+      "destination": "02_第二次课/03_课堂Demo/审核链路课堂Demo_v1.0/启动课堂Demo.command",
+      "links_adjusted": false,
+      "sha256": "f1c3e7a0377ffec83a8e9ce2d23923ec84ae334b7ece6433c6f126fb17d339b9"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/outputs/第二次课_审核链路课堂Demo_v1.0/test_engine.js",
+      "destination": "02_第二次课/03_课堂Demo/审核链路课堂Demo_v1.0/test_engine.js",
+      "links_adjusted": false,
+      "sha256": "e1fb75e6a93c04d1eac17f87399869b15b3528493a90d77aa6584e086c44cc5c"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/outputs/第二次课_审核链路课堂Demo_v1.0/shell.html",
+      "destination": "02_第二次课/03_课堂Demo/审核链路课堂Demo_v1.0/shell.html",
+      "links_adjusted": false,
+      "sha256": "1ac3a502b53acc23d3da030196fc0977e94d3de521ea7534b55373a0f22799ab"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/outputs/第二次课_审核链路课堂Demo_v1.0/README.md",
+      "destination": "02_第二次课/03_课堂Demo/审核链路课堂Demo_v1.0/README.md",
+      "links_adjusted": false,
+      "sha256": "de5437703d707c7818b87f6254e058793e1386c595554bb6c9ca34c59785c566"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/outputs/第二次课_审核链路课堂Demo_v1.0/test_server.py",
+      "destination": "02_第二次课/03_课堂Demo/审核链路课堂Demo_v1.0/test_server.py",
+      "links_adjusted": false,
+      "sha256": "6d610bbffc2ebfa99b91dd5c22647fa457ba81eed9ffb07de93b35d5e28c5cb3"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/outputs/第二次课_审核链路课堂Demo_v1.0/style.css",
+      "destination": "02_第二次课/03_课堂Demo/审核链路课堂Demo_v1.0/style.css",
+      "links_adjusted": false,
+      "sha256": "acd862b81084f475b3dc68e33fc26716b6b365430e929ed584fc2d15ab71e3d1"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/outputs/第二次课_审核链路课堂Demo_v1.0/engine.js",
+      "destination": "02_第二次课/03_课堂Demo/审核链路课堂Demo_v1.0/engine.js",
+      "links_adjusted": false,
+      "sha256": "9037f7e7569753bff6442a5566c014b08c70797ee8bf2e9d69ba59b300c70da5"
+    },
+    {
+      "source": "/Users/didi/Documents/Codex/2026-10-18/wo-l/outputs/第二次课_审核链路课堂Demo_v1.0/app.js",
+      "destination": "02_第二次课/03_课堂Demo/审核链路课堂Demo_v1.0/app.js",
+      "links_adjusted": false,
+      "sha256": "273ce66ec5628e0bcde777cf2ed78bd382618bae1aa870e3ce9ed8a6fc6105e0"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "date": "2026-10-21",
+  "unit_checks": 12,
+  "backend_checks": 9,
+  "browser_verified": [
+    "问题稿自检（三项问题）",
+    "保存条件完整稿并检查（新版本）",
+    "正式提交、人工通过及处理记录",
+    "链路输入输出展开",
+    "赠品变化巡检：C01问题/C03说明/C05不适用/C06范围待核",
+    "8条教学样例运行、对照7条一致和1条覆盖缺口",
+    "页面控制台无错误"
+  ],
+  "real_model": "接口适配通过受控响应测试；本次无真实凭证，未与外部模型联调。",
+  "local_mode": "固定课堂规则，非通用语义审核。",
+  "source_files": [
+    "index.html",
+    "server.py",
+    "启动课堂Demo.command",
+    "README.md",
+    "engine.js",
+    "app.js",
+    "style.css",
+    "shell.html",
+    "build.py",
+    "test_engine.js",
+    "test_server.py"
+  ]
+}

@@ -1,0 +1,453 @@
+{
+  "schema": "ppt-master.svg-quality-report.v1",
+  "stage": "final",
+  "target": "/Users/didi/Documents/Codex/2026-10-18/wo-l/work/ppt/lesson1_rebuild_sample_ppt169_20261018",
+  "source_fingerprint": {
+    "algorithm": "sha256",
+    "digest": "eeca210d167633a1dd0cedbe4997c0d92548815045cb8564b08c31fc18441822",
+    "file_count": 6,
+    "files": [
+      {
+        "file": "01_电商营销内容审核提效项目.svg",
+        "sha256": "61d4dd331fce1dca7832693a618c0d76a8f0459c565dd7255bd87722068407f5"
+      },
+      {
+        "file": "02_本次课的七节内容.svg",
+        "sha256": "d8390bdc7126c931fd37da773f681a2279df2c4370cae50915bb8ccf735e809e"
+      },
+      {
+        "file": "03_企业原来的审核方式.svg",
+        "sha256": "c7f282510c1fd2369f3fb0b62ec716d2e0ac413fcb16ea0225a55fcc408ba4e7"
+      },
+      {
+        "file": "04_现有审核流程.svg",
+        "sha256": "254712f69cc88a6c65a1159219c1da3b624d4026403df63715ec6d797a109d7e"
+      },
+      {
+        "file": "05_走一次人工核对.svg",
+        "sha256": "d2b956fc8c42e0ee8bbfc1e373b0ea93106b563109d6845667f13e6061028189"
+      },
+      {
+        "file": "06_从流程归纳痛点.svg",
+        "sha256": "7192e52ccfbfd04d4ae5cd32b220ea3100127b3a454778f6c0b11e5e6d3b00b0"
+      }
+    ]
+  },
+  "summary": {
+    "total": 6,
+    "passed": 3,
+    "warnings": 3,
+    "errors": 0
+  },
+  "issue_types": {},
+  "categories": {
+    "blocking": {
+      "count": 0,
+      "issues": []
+    },
+    "introduced": {
+      "count": 3,
+      "issues": [
+        {
+          "file": "01_电商营销内容审核提效项目.svg",
+          "message": "Cannot verify root viewBox bounds for visible text with unsupported or unresolved geometry: <text> (x=56, y=211; text='电商营销内容审核提效项目'); use supported explicit text positioning when page fit matters"
+        },
+        {
+          "file": "03_企业原来的审核方式.svg",
+          "message": "Cannot verify root viewBox bounds for visible text with unsupported or unresolved geometry: <text> (x=56, y=370; text='整理正文及相关资料收到意见后修改重提'), <text> (x=400, y=317; text='读原句 → 找依据核对 → 反馈 → 复…'), <text> (x=400, y=436; text='判断表述是否有据可依说明问题，并核对修改…'); use supported explicit text positioning when page fit matters"
+        },
+        {
+          "file": "05_走一次人工核对.svg",
+          "message": "Cannot verify root viewBox bounds for visible text with unsupported or unresolved geometry: <text> (x=56, y=257; text='“本次活动到手1799元，人人同价！”'), <text> (x=524, y=297; text='先领取并使用400元活动券，享1999元…'); use supported explicit text positioning when page fit matters"
+        }
+      ]
+    },
+    "inherited": {
+      "count": 0,
+      "issues": []
+    },
+    "source-import": {
+      "count": 0,
+      "summary": {
+        "warning_count": 0,
+        "by_code": {}
+      }
+    }
+  },
+  "drift": {
+    "colors": {},
+    "fonts": {},
+    "sizes": {}
+  },
+  "carrier_receipt": {
+    "scope": "informational-not-a-quota",
+    "pages": 6,
+    "totals": {
+      "text_elements": 135,
+      "image_placements": 1,
+      "icons": 0,
+      "svg_geometry_elements": 55,
+      "preset_shapes": 0,
+      "page_frame_elements": 6,
+      "marker_uses": 0
+    },
+    "pages_with": {
+      "images": 1,
+      "icons": 0,
+      "presets": 0,
+      "charts": 0,
+      "tables": 0,
+      "formulas": 0
+    },
+    "geometry_elements": {
+      "circle": 7,
+      "ellipse": 0,
+      "line": 21,
+      "path": 0,
+      "polygon": 0,
+      "polyline": 0,
+      "rect": 27
+    },
+    "preset_names": {},
+    "native_objects": {
+      "chart": 0,
+      "formula_block": 0,
+      "formula_inline": 0,
+      "other": 0,
+      "table": 0
+    },
+    "image_page_max_frame_share_range": [
+      0.1896,
+      0.1896
+    ]
+  },
+  "project_issues": {
+    "template": [],
+    "animation": [],
+    "illustration": [],
+    "communication_trace": [],
+    "pptx_structure": []
+  },
+  "files": [
+    {
+      "file": "01_电商营销内容审核提效项目.svg",
+      "path": "work/ppt/lesson1_rebuild_sample_ppt169_20261018/svg_output/01_电商营销内容审核提效项目.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [
+        "Cannot verify root viewBox bounds for visible text with unsupported or unresolved geometry: <text> (x=56, y=211; text='电商营销内容审核提效项目'); use supported explicit text positioning when page fit matters"
+      ],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 15,
+          "images": {
+            "placements": 1,
+            "files": [
+              "case-home.png"
+            ],
+            "max_frame_share": 0.1896
+          },
+          "icons": 0,
+          "geometry": {
+            "svg_elements": {
+              "rect": 7,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 2,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 1,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Microsoft YaHei, Arial, PingFang SC, sans-serif"
+        ],
+        "text_elements": 15,
+        "tspan_elements": 1
+      },
+      "passed": true,
+      "source_sha256": "61d4dd331fce1dca7832693a618c0d76a8f0459c565dd7255bd87722068407f5"
+    },
+    {
+      "file": "02_本次课的七节内容.svg",
+      "path": "work/ppt/lesson1_rebuild_sample_ppt169_20261018/svg_output/02_本次课的七节内容.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 27,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 0,
+          "geometry": {
+            "svg_elements": {
+              "rect": 1,
+              "circle": 7,
+              "ellipse": 0,
+              "line": 8,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 1,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Microsoft YaHei, Arial, PingFang SC, sans-serif"
+        ],
+        "text_elements": 27,
+        "tspan_elements": 0
+      },
+      "passed": true,
+      "source_sha256": "d8390bdc7126c931fd37da773f681a2279df2c4370cae50915bb8ccf735e809e"
+    },
+    {
+      "file": "03_企业原来的审核方式.svg",
+      "path": "work/ppt/lesson1_rebuild_sample_ppt169_20261018/svg_output/03_企业原来的审核方式.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [
+        "Cannot verify root viewBox bounds for visible text with unsupported or unresolved geometry: <text> (x=56, y=370; text='整理正文及相关资料收到意见后修改重提'), <text> (x=400, y=317; text='读原句 → 找依据核对 → 反馈 → 复…'), <text> (x=400, y=436; text='判断表述是否有据可依说明问题，并核对修改…'); use supported explicit text positioning when page fit matters"
+      ],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 22,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 0,
+          "geometry": {
+            "svg_elements": {
+              "rect": 2,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 3,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 1,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Microsoft YaHei, Arial, PingFang SC, sans-serif"
+        ],
+        "text_elements": 22,
+        "tspan_elements": 3
+      },
+      "passed": true,
+      "source_sha256": "c7f282510c1fd2369f3fb0b62ec716d2e0ac413fcb16ea0225a55fcc408ba4e7"
+    },
+    {
+      "file": "04_现有审核流程.svg",
+      "path": "work/ppt/lesson1_rebuild_sample_ppt169_20261018/svg_output/04_现有审核流程.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 30,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 0,
+          "geometry": {
+            "svg_elements": {
+              "rect": 9,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 2,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 1,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Microsoft YaHei, Arial, PingFang SC, sans-serif"
+        ],
+        "text_elements": 30,
+        "tspan_elements": 0
+      },
+      "passed": true,
+      "source_sha256": "254712f69cc88a6c65a1159219c1da3b624d4026403df63715ec6d797a109d7e"
+    },
+    {
+      "file": "05_走一次人工核对.svg",
+      "path": "work/ppt/lesson1_rebuild_sample_ppt169_20261018/svg_output/05_走一次人工核对.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [
+        "Cannot verify root viewBox bounds for visible text with unsupported or unresolved geometry: <text> (x=56, y=257; text='“本次活动到手1799元，人人同价！”'), <text> (x=524, y=297; text='先领取并使用400元活动券，享1999元…'); use supported explicit text positioning when page fit matters"
+      ],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 19,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 0,
+          "geometry": {
+            "svg_elements": {
+              "rect": 7,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 2,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 1,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Microsoft YaHei, Arial, PingFang SC, sans-serif"
+        ],
+        "text_elements": 19,
+        "tspan_elements": 2
+      },
+      "passed": true,
+      "source_sha256": "d2b956fc8c42e0ee8bbfc1e373b0ea93106b563109d6845667f13e6061028189"
+    },
+    {
+      "file": "06_从流程归纳痛点.svg",
+      "path": "work/ppt/lesson1_rebuild_sample_ppt169_20261018/svg_output/06_从流程归纳痛点.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 22,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 0,
+          "geometry": {
+            "svg_elements": {
+              "rect": 1,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 4,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 1,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Microsoft YaHei, Arial, PingFang SC, sans-serif"
+        ],
+        "text_elements": 22,
+        "tspan_elements": 0
+      },
+      "passed": true,
+      "source_sha256": "7192e52ccfbfd04d4ae5cd32b220ea3100127b3a454778f6c0b11e5e6d3b00b0"
+    }
+  ]
+}

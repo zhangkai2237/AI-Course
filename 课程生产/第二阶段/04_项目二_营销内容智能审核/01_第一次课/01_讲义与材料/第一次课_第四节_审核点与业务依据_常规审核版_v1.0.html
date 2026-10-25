@@ -1,0 +1,89 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>第四节 审核点与业务依据</title><style>*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:#f2f5f8;color:#263748;font:16px/1.85 -apple-system,BlinkMacSystemFont,"PingFang SC","Microsoft YaHei",sans-serif}main{max-width:1100px;margin:30px auto;background:white;padding:48px 60px;border-radius:12px}h1{font-size:34px;line-height:1.45;color:#173751;margin:12px 0 20px}h2{font-size:24px;color:#1e4766;margin:0 0 18px}h3{font-size:20px;line-height:1.55;color:#244861;margin:8px 0 16px}h4{font-size:16px;margin:18px 0 5px}.lead{font-size:19px;color:#3e5b73}.eyebrow,.label{font-size:13px;font-weight:650;color:#4a758f}.note,.flow{padding:20px 24px;background:#eaf2f8;border-radius:8px}.flow{background:#e9f4ef;color:#2e5c4d}nav{display:flex;gap:16px;flex-wrap:wrap;margin:26px 0;padding:16px 0;border-bottom:1px solid #e4ebf0}a{color:#176995;text-decoration:none}a:hover{text-decoration:underline}.ref{font-size:12px;font-weight:bold}section{margin-top:44px;scroll-margin-top:20px}article{margin:22px 0;padding:24px;border:1px solid #dfe7ed;border-radius:8px;scroll-margin-top:20px}p{margin:12px 0}ul{padding-left:23px;margin:10px 0}li{margin:5px 0}.exercise{padding:16px 20px;margin:18px 0;background:#f2f7f4;border-radius:6px}.source,.small{font-size:13px;color:#5f7588;overflow-wrap:anywhere}.table{overflow-x:auto;margin:20px 0}table{border-collapse:collapse;width:100%;font-size:14px;line-height:1.75}td,th{text-align:left;vertical-align:top;padding:12px 14px;border:1px solid #dce6ed}th{background:#edf3f7;color:#23455f}tr:nth-child(even) td{background:#fafcfd}footer{font-size:12px;color:#6c7f8f;margin-top:42px}@media(max-width:700px){main{margin:0;padding:25px 20px}h1{font-size:28px}td,th{min-width:140px}article{padding:18px}}@media print{body{background:white}main{margin:0;padding:0;max-width:none}nav{display:none}article{break-inside:auto}.table{overflow:visible}tr{break-inside:avoid}h2,h3,h4{break-after:avoid}}blockquote{margin:18px 0;padding:18px 24px;border-left:4px solid #4a758f;background:#f5f8fa}.show{padding:16px 20px;border:1px solid #dfe7ed;border-radius:8px;margin:20px 0}.activity{background:#f2f7f4;padding:16px 20px;margin:20px 0}.objective,.takeaway{padding:14px 20px;background:#eaf2f8}summary{cursor:pointer;font-weight:600}details{margin-top:12px}</style></head><body><main>
+<header><p class="eyebrow">第一次课 · 第四节 · 老师版讲义 v1.0</p><h1>审核体系：把业务要求拆成具体审核点</h1>
+<p class="note">建议用时20分钟，对应第一次课75—95分钟。沿用净小伴P1常规营销审核案例及前三节资料。本节只用给定教学事实与企业审核要求作判断，示例为课堂推演，不是已运行系统的结果。规则、模型和人工的实现分工在第五节展开。</p></header>
+<section id="s4"><p class="objective">本节任务：用检查对象、适用条件、依据、判断、例外和处理，定义能够执行与验证的审核点。</p>
+<h2>一 小林会审核，还需要把判断说清楚（0—3分钟）</h2>
+<p>上一节，我们已经知道自检、正式审核和巡检怎样衔接。现在开始把“检查内容”本身说具体。</p>
+<p>假设研发同事问小林：“系统主要审什么？”小林回答：“商品功能要准确，价格和赠品条件要完整。”这句话业务上没错，但拿去实现，还会出现很多不同理解。</p>
+<p>商品功能准确，是只查有没有12000Pa、65℃这些数字，还是要看它们描述什么？价格完整，是所有文案都要列出全部优惠，还是只说明当前宣传价格的适用条件？巡检时，是看活动初始规则，还是还要考虑后来的权益变化？</p>
+<p>小林平时能结合经验作出判断，但系统需要一套说清楚的检查要求。否则，作者、研发、测试和审核人员可能都认为自己做对了，实际采用的标准却不同。</p>
+<p><b>本课所说的审核点，就是把一项业务要求拆成具体的检查任务：查什么、什么时候适用、依据什么、怎样判断、遇到例外怎么办，以及结果交给谁处理。</b></p>
+<p>一条审核点要让业务负责人能够确认，让实现人员理解要完成什么，也让测试人员知道哪些样例应当提示、哪些不应提示。此时先不决定用什么技术执行。</p>
+<h2>二 先把本案的检查分成几类（3—6分钟）</h2>
+<p>亚慧参考课用文法、合规、真实性、版权等类别梳理整体审核范围。分类可以帮助我们看到有哪些工作，但项目还要继续向下拆到具体检查。</p>
+<p>本案例首版围绕已选定的商品与活动核对任务，先整理如下：</p>
+<div class="table"><table><thead><tr><th>检查类别</th><th>本案要回答的问题</th><th>依据与负责人</th></tr></thead><tbody>
+<tr><td>商品事实与功能对象</td><td>65℃和12000Pa分别描述什么，是否符合当前P1资料？</td><td>商品资料，产品负责人。</td></tr>
+<tr><td>价格与适用条件</td><td>1799元怎样成立，文案是否交代对应资格与用券条件？</td><td>活动方案，活动负责人。</td></tr>
+<tr><td>赠品条件与当前权益</td><td>赠送对象、支付条件和限量是否说明，当前还有没有适用依据？</td><td>赠品规则及权益变化确认，活动负责人。</td></tr>
+<tr><td>承诺的支持范围</td><td>全面避障、统一次日到达等表达，是否超过资料能够支持的范围？</td><td>商品、配送资料，产品或履约负责人。</td></tr>
+<tr><td>上下文与资料完整性</td><td>缺SKU、活动、有效资料或使用状态时，哪些判断还做不了？</td><td>任务与资料记录，提交人及相应负责人。</td></tr>
+</tbody></table></div>
+<p>这里不是把全部审核要求都装进首版。文法、版权或其他要求可以形成各自的检查，是否纳入要另行确认范围。本课先把已经选定的业务核对做具体，也不把参考课程中的金融要求直接搬成电商通用规则。</p>
+<p>适用范围也要明确：如果一篇文案只介绍清洁功能，没有宣传价格或赠品，就不能因为少写了1799元和前200名而判错。资料里有的内容，不等于每篇文案都必须写。</p>
+<h2>三 第一条审核点：65℃到底在描述什么（6—10分钟）</h2>
+<p>先看原句：“65℃热水直接拖地。”我们已经知道它与给定资料存在差异，现在把这项判断整理成一张审核点卡。</p>
+<div class="show"><b>审核点R01：温度与功能对象一致性。</b>
+<p><b>检查什么：</b>温度被用于描述哪个功能，是否与当前商品资料一致。<br>
+<b>什么时候适用：</b>当前P1文案出现温度及相关功能表达。<br>
+<b>需要什么：</b>完整的当前文案、绑定SKU、有效商品资料F-PROD-01。<br>
+<b>怎样判断：</b>先理解温度对应的动作与对象，再与商品资料比较；不能只检查数字出现与否。<br>
+<b>例外与缺项：</b>没有温度表达时，这条不适用；对象不清或资料冲突时，标明需要确认，不自行补出作者没有说的意思。<br>
+<b>交给谁：</b>作者修改，产品负责人确认商品依据，审核人员复核。</p></div>
+<div class="table"><table><thead><tr><th>表达</th><th>本检查的预期判断</th></tr></thead><tbody>
+<tr><td>65℃热水直接拖地。</td><td>与给定资料中的功能对象不一致，需要修改。</td></tr>
+<tr><td>基站支持65℃热水洗拖布。</td><td>有给定商品资料支持。</td></tr>
+<tr><td>65℃热水深度清洁。</td><td>仅凭该句对象不明确，要结合全文；全文仍不清楚时交人工确认。</td></tr>
+<tr><td>基站支持热水洗拖布。</td><td>没有温度值，本温度检查不适用；功能表达仍可由相应商品事实检查核对，不能因没写65℃就判错。</td></tr>
+</tbody></table></div>
+<p>这几条对照很重要。只有问题例子，没有正常例子与边界例子，大家可能会把规则理解成“看见65℃就提示”，或者“所有功能介绍必须带温度”。</p>
+<p>审核点卡把判断说清楚，对照样例则帮助不同参与者检查自己是否理解一致。</p>
+<h2>四 第二条审核点：价格数字与条件一起核对（10—14分钟）</h2>
+<p>再看“本次活动到手1799元，人人同价”。2399减400再减200等于1799，只说明给定优惠路径在数值上成立。要判断文案，还需要看资格、领用条件和表达范围。</p>
+<div class="show"><b>审核点R02：宣传价格及适用条件一致性。</b>
+<p><b>检查什么：</b>文案宣传的金额及其适用人群、优惠条件，是否符合绑定活动。<br>
+<b>什么时候适用：</b>文案出现当前商品与活动的价格主张。<br>
+<b>需要什么：</b>完整文案、绑定商品和活动、适用时间、有效活动方案F-PROMO-01。<br>
+<b>怎样判断：</b>核对金额路径，识别资格和用券条件，再看文案是否遗漏条件或扩大适用范围。<br>
+<b>例外与缺项：</b>没有价格表达时不强行补价；条件可以在同篇文案中清楚交代，不要求都挤进同一句；缺有效活动资料时，不能作出完整的正确性判断。<br>
+<b>交给谁：</b>作者补充或修改，活动负责人确认业务条件，审核人员复核。</p></div>
+<p>结合这条检查，我们比较三种表达：</p>
+<div class="table"><table><thead><tr><th>表达</th><th>结合给定资料的判断</th></tr></thead><tbody>
+<tr><td>1799元，人人同价。</td><td>缺少对应资格与用券条件，人人同价又扩大了适用范围。</td></tr>
+<tr><td>领券到手1799元。</td><td>没有说明新会员资格及两类券条件，尚未处理完整。</td></tr>
+<tr><td>活动期内，新会员领取并使用400元活动券及200元专享券后1799元。</td><td>给定价格路径及主要资格、用券条件已说明，再结合完整文案和有效活动资料核对。</td></tr>
+</tbody></table></div>
+<p>第三种是课堂可用的一种表达，不是必须照抄的唯一句式。审核点要核对语义和业务条件，不能只允许某一句固定模板。</p>
+<p>也不要求所有价格都讲一遍。如果只宣传新会员1799元，就核对这一路径与适用条件；若同时宣传1999元，再检查另一条路径。</p>
+<p>同一段价格可能涉及金额、资格、优惠条件等多个检查，展示时可以按业务问题合并，保留各项依据。不要把同一项条件遗漏拆成多条重复提醒，让作者以为要处理好几个不同问题。</p>
+<h2>五 课堂练习：把赠品要求写成审核点（14—18分钟）</h2>
+<p>请大家沿用刚才的六个问题，为“下单就送宠物清洁包”写一条审核点。再想一想，赠品名额用完后，这条检查需要增加什么输入。</p>
+<div class="activity"><b>小组练习约3分钟，教师收束约1分钟：</b>写出检查对象、适用条件、依据、判断、例外与处理。至少补一条正常表达和一条无法确认的情况。
+<details><summary>教师参考</summary><p><b>检查对象：</b>当前商品与活动中的赠品主张。<br>
+<b>适用条件：</b>文案宣传赠送清洁包或同义权益。<br>
+<b>依据：</b>F-GIFT-01，必要时加上活动负责人确认的权益变化及生效条件。<br>
+<b>判断：</b>核对购买本活动P1标准版、成功支付、系统确认前200名、每单一份和赠完即止；这些条件可以结合全文判断，不要求每句话都重复商品名。<br>
+<b>正常例子：</b>活动期内购买本次活动P1标准版并支付成功，按活动系统确认的支付顺序，前200名赠清洁包，每单一份，赠完即止。<br>
+<b>变化后的检查：</b>负责人确认名额用完后，复查相关在用内容是否仍作当前赠送承诺，再由负责人确认更新、说明或暂停。不能从初始200名规则推断当前还有名额。<br>
+<b>无法确认：</b>没有当前权益确认时，可核对初始规则表达，但不能宣称当前仍有名额；不知道内容是否在用时，范围待核实。<br>
+<b>处理：</b>作者修改，活动负责人确认权益事实，审核及内容负责人确认复核与实际更新。</p></details></div>
+<p>这项练习也解释了三个环节怎样复用审核点：检查要求可以相同，输入和适用条件却会变化。自检和正式审核使用当时的有效依据；巡检还需要本次变化、适用对象与内容使用状态。</p>
+<h2>六 不同结果，要接到不同处理动作（18—20分钟）</h2>
+<p>如果所有情况都显示成“有风险”，小周仍不知道该改文案、补资料，还是等待技术重试。我们至少要分清下面这些情况：</p>
+<div class="table"><table><thead><tr><th>情况</th><th>例子</th><th>下一步</th></tr></thead><tbody>
+<tr><td>有资料支持，本检查未发现问题。</td><td>功能对象和商品资料一致。</td><td>保留依据，不扩大成整篇审核通过。</td></tr>
+<tr><td>与依据不一致。</td><td>把基站洗拖布温度用于拖地。</td><td>作者修改或业务负责人确认新依据。</td></tr>
+<tr><td>表达缺少条件。</td><td>1799元没有对应资格与用券说明。</td><td>补充条件，再复核。</td></tr>
+<tr><td>信息不足，不能确认。</td><td>缺活动资料、功能对象不清或范围状态未知。</td><td>说明缺项与责任人。</td></tr>
+<tr><td>该检查不适用。</td><td>只介绍产品功能，没有赠品主张。</td><td>说明不适用，不要求补写无关内容。</td></tr>
+</tbody></table></div>
+<p>还要把“检查执行失败”与上述业务判断分开：超时、资料读取失败或返回结果无法使用，意味着这项检查没有可靠完成，不能显示成未发现问题。怎样重试、交人工，以及页面如何表达，后面的系统与产品方案继续展开。</p>
+<p>本节最后，我们形成了商品功能、价格条件和赠品权益的审核点示例。每条都能说明依据、边界和处理方式，并有正常、问题与待确认样例。</p>
+<p>下一节再回答：这些检查分别适合规则、模型还是人工承担？先把任务定义清楚，再比较实现办法。</p>
+</section>
+<section id="teacher-notes"><h2>教师备课补充</h2>
+<p>本节节奏为3＋3＋4＋4＋4＋2分钟。前三节已经让学员接触事实判断，本节重点把经验整理成一致可确认的检查任务，避免再次逐句讲完整篇文案。赠品练习只需一张卡，详细答案在讨论后展示。</p>
+<p>参考材料：亚慧审核第一天原文第208—218段及《智能审核第一课》PDF第7页提供审核分类方法；第二天原文第244—274段提供审核要求、例外及提取后核对的示例。只迁移任务拆解方法，P1审核点卡、适用范围和例子为本次教学设计；本节不引用或验证现行法律条文。</p>
+<p>审核点卡是课堂推演工具，不要求学员交付完整PRD。页面、状态和技术实现保留到后续章节。</p></section>
+<footer>2026年10月18日 · 第四节独立讲义。常规营销审核、首版提效、三环节主线；原型后续绘制。</footer>
+</main></body></html>

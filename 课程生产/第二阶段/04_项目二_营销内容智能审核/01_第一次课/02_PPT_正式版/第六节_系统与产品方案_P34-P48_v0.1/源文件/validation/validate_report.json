@@ -1,0 +1,12 @@
+{
+  "schema": "template_fill_pptx_validate.v1",
+  "project": "/Users/didi/Documents/Codex/2026-10-18/wo-l/work/ppt/lesson1_section6_native_ppt169_20261018",
+  "export": "/Users/didi/Documents/Codex/2026-10-18/wo-l/work/ppt/lesson1_section6_native_ppt169_20261018/exports/第一次课_第六节_系统与产品方案_20261018_190043.pptx",
+  "readback": "/Users/didi/Documents/Codex/2026-10-18/wo-l/work/ppt/lesson1_section6_native_ppt169_20261018/validation/readback.md",
+  "summary": {
+    "ok": 222,
+    "warn": 0,
+    "error": 0
+  },
+  "results": []
+}

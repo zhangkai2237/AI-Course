@@ -1,0 +1,4 @@
+No,Filename,Width,Height,AspectRatio,PixelAspectRatio,SourceDisplayRatio,RatioSource,Format,HasTransparentPixels,UsageCount,DisplayRatioVariants,AssetKind,SvgRenderable,PptxNativeSupported,SizeKB,Category
+1,case-home.png,1536,1024,1.50,1.50,,native,PNG,False,1,,bitmap,True,True,2089.5,Standard landscape
+2,prototype-selfcheck.jpg,1280,720,1.78,1.78,,native,JPEG,False,1,,bitmap,True,True,81.8,Wide landscape
+3,reviewer-desk.png,1536,1024,1.50,1.50,,native,PNG,False,1,,bitmap,True,True,2004.9,Standard landscape

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" font-family="Microsoft YaHei, Arial, PingFang SC, sans-serif" data-pptx-page-role="content"><rect id="bg" data-pptx-role="background" width="1280" height="720" fill="#F7F8F4"/>
+<g id="header" data-pptx-bounds="48 32 1184 125"><text x="48" y="62" font-size="20" fill="#126B63">第二篇·做方案 / 4.2 编写具体审核点</text><text x="48" y="125" font-size="42" font-weight="bold" fill="#17302F">不是看见65℃就提示，而是核对它描述谁</text></g>
+<g id="rule" data-pptx-bounds="48 190 1184 90"><rect x="48" y="190" width="1184" height="90" rx="12" fill="#E8F2EF"/><text x="76" y="243" font-size="28" fill="#17302F">输入：完整文案＋SKU＋有效商品资料；对象不清或依据冲突，交人确认。</text></g>
+<g id="bad" data-pptx-bounds="48 312 1184 60"><text x="48" y="351" font-size="28" fill="#D85C3D">“65℃热水直接拖地” → 功能对象不一致，修改</text></g>
+<g id="good" data-pptx-bounds="48 391 1184 60"><text x="48" y="430" font-size="28" fill="#126B63">“基站支持65℃热水洗拖布” → 有给定资料支持</text></g>
+<g id="boundary" data-pptx-bounds="48 470 1184 60"><text x="48" y="509" font-size="28" fill="#17302F">“65℃热水深度清洁” → 看全文；仍不清楚时人工确认</text></g>
+<g id="na" data-pptx-bounds="48 549 1184 90"><text x="48" y="588" font-size="28" fill="#17302F">“基站支持热水洗拖布” → 没有温度数值，本温度项不适用</text><text x="48" y="628" font-size="20" fill="#617673">仍可进行对应的商品功能核对，不能因为没写65℃就要求补写。</text></g><g id="course-nav" data-pptx-bounds="0 660 1280 60"><rect x="0" y="660" width="1280" height="60" fill="#FFFFFF"/><line x1="48" y1="660" x2="1232" y2="660" stroke="#D3DFDA"/>
+<g font-size="14" fill="#617673"><text id="nav-1" x="48" y="691">1 业务背景</text><text id="nav-2" x="207" y="691">2 目标范围</text><text id="nav-3" x="366" y="691">3 三段流程</text><text id="nav-4" fill="#126B63" font-weight="bold" x="525" y="691">4 审核点</text><text id="nav-5" x="684" y="691">5 能力分工</text><text id="nav-6" x="843" y="691">6 产品方案</text><text id="nav-7" x="1002" y="691">7 实施验证</text></g>
+<text x="1232" y="691" text-anchor="end" font-size="14" fill="#617673">30 / 70</text></g></svg>

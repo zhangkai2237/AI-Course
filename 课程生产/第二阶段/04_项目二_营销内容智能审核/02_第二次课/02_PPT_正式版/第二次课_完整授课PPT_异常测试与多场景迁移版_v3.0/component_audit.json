@@ -1,0 +1,593 @@
+{
+ "used_forms": [
+  "table"
+ ],
+ "form_total": 23,
+ "clusters": [
+  {
+   "slide": 1,
+   "pattern": "tile row",
+   "detail": "3 identical rects on an even pitch at y=3.58in",
+   "suggest": [
+    "scorecard",
+    "stat_row",
+    "columns"
+   ]
+  },
+  {
+   "slide": 2,
+   "pattern": "tile row",
+   "detail": "3 identical rects on an even pitch at y=1.45in",
+   "suggest": [
+    "scorecard",
+    "stat_row",
+    "columns"
+   ]
+  },
+  {
+   "slide": 6,
+   "pattern": "tile row",
+   "detail": "4 identical rects on an even pitch at y=1.3in",
+   "suggest": [
+    "scorecard",
+    "stat_row",
+    "columns"
+   ]
+  },
+  {
+   "slide": 7,
+   "pattern": "tile row",
+   "detail": "3 identical rects on an even pitch at y=1.49in",
+   "suggest": [
+    "scorecard",
+    "stat_row",
+    "columns"
+   ]
+  },
+  {
+   "slide": 8,
+   "pattern": "tile row",
+   "detail": "4 identical rects on an even pitch at y=1.52in",
+   "suggest": [
+    "scorecard",
+    "stat_row",
+    "columns"
+   ]
+  },
+  {
+   "slide": 9,
+   "pattern": "tile row",
+   "detail": "4 identical rects on an even pitch at y=1.5in",
+   "suggest": [
+    "scorecard",
+    "stat_row",
+    "columns"
+   ]
+  },
+  {
+   "slide": 10,
+   "pattern": "tile row",
+   "detail": "3 identical rects on an even pitch at y=1.5in",
+   "suggest": [
+    "scorecard",
+    "stat_row",
+    "columns"
+   ]
+  },
+  {
+   "slide": 13,
+   "pattern": "tile row",
+   "detail": "3 identical rects on an even pitch at y=1.42in",
+   "suggest": [
+    "scorecard",
+    "stat_row",
+    "columns"
+   ]
+  },
+  {
+   "slide": 14,
+   "pattern": "tile row",
+   "detail": "4 identical rects on an even pitch at y=1.55in",
+   "suggest": [
+    "scorecard",
+    "stat_row",
+    "columns"
+   ]
+  },
+  {
+   "slide": 17,
+   "pattern": "tile row",
+   "detail": "3 identical rects on an even pitch at y=1.34in",
+   "suggest": [
+    "scorecard",
+    "stat_row",
+    "columns"
+   ]
+  },
+  {
+   "slide": 18,
+   "pattern": "tile row",
+   "detail": "4 identical rects on an even pitch at y=1.52in",
+   "suggest": [
+    "scorecard",
+    "stat_row",
+    "columns"
+   ]
+  },
+  {
+   "slide": 19,
+   "pattern": "tile row",
+   "detail": "3 identical rects on an even pitch at y=1.33in",
+   "suggest": [
+    "scorecard",
+    "stat_row",
+    "columns"
+   ]
+  },
+  {
+   "slide": 20,
+   "pattern": "tile row",
+   "detail": "4 identical rects on an even pitch at y=1.46in",
+   "suggest": [
+    "scorecard",
+    "stat_row",
+    "columns"
+   ]
+  },
+  {
+   "slide": 21,
+   "pattern": "tile row",
+   "detail": "4 identical rects on an even pitch at y=1.35in",
+   "suggest": [
+    "scorecard",
+    "stat_row",
+    "columns"
+   ]
+  },
+  {
+   "slide": 23,
+   "pattern": "tile row",
+   "detail": "4 identical rects on an even pitch at y=1.4in",
+   "suggest": [
+    "scorecard",
+    "stat_row",
+    "columns"
+   ]
+  },
+  {
+   "slide": 24,
+   "pattern": "tile row",
+   "detail": "3 identical rects on an even pitch at y=1.55in",
+   "suggest": [
+    "scorecard",
+    "stat_row",
+    "columns"
+   ]
+  },
+  {
+   "slide": 26,
+   "pattern": "tile row",
+   "detail": "3 identical rects on an even pitch at y=1.38in",
+   "suggest": [
+    "scorecard",
+    "stat_row",
+    "columns"
+   ]
+  },
+  {
+   "slide": 27,
+   "pattern": "tile row",
+   "detail": "4 identical rects on an even pitch at y=1.55in",
+   "suggest": [
+    "scorecard",
+    "stat_row",
+    "columns"
+   ]
+  },
+  {
+   "slide": 29,
+   "pattern": "tile row",
+   "detail": "3 identical rects on an even pitch at y=1.24in",
+   "suggest": [
+    "scorecard",
+    "stat_row",
+    "columns"
+   ]
+  },
+  {
+   "slide": 30,
+   "pattern": "tile row",
+   "detail": "5 identical rects on an even pitch at y=1.6in",
+   "suggest": [
+    "scorecard",
+    "stat_row",
+    "columns"
+   ]
+  },
+  {
+   "slide": 31,
+   "pattern": "tile row",
+   "detail": "4 identical rects on an even pitch at y=1.42in",
+   "suggest": [
+    "scorecard",
+    "stat_row",
+    "columns"
+   ]
+  },
+  {
+   "slide": 32,
+   "pattern": "tile row",
+   "detail": "4 identical rects on an even pitch at y=1.52in",
+   "suggest": [
+    "scorecard",
+    "stat_row",
+    "columns"
+   ]
+  },
+  {
+   "slide": 36,
+   "pattern": "tile row",
+   "detail": "5 identical rects on an even pitch at y=1.48in",
+   "suggest": [
+    "scorecard",
+    "stat_row",
+    "columns"
+   ]
+  },
+  {
+   "slide": 38,
+   "pattern": "tile row",
+   "detail": "3 identical rects on an even pitch at y=1.3in",
+   "suggest": [
+    "scorecard",
+    "stat_row",
+    "columns"
+   ]
+  },
+  {
+   "slide": 39,
+   "pattern": "tile row",
+   "detail": "4 identical rects on an even pitch at y=1.55in",
+   "suggest": [
+    "scorecard",
+    "stat_row",
+    "columns"
+   ]
+  },
+  {
+   "slide": 41,
+   "pattern": "bar row",
+   "detail": "3 rects sharing x=1.95in and h=0.82in with varying width and numeric labels",
+   "suggest": [
+    "native_chart",
+    "meter_bar",
+    "segmented_bar"
+   ]
+  },
+  {
+   "slide": 41,
+   "pattern": "tile row",
+   "detail": "4 identical rects on an even pitch at y=1.41in",
+   "suggest": [
+    "scorecard",
+    "stat_row",
+    "columns"
+   ]
+  },
+  {
+   "slide": 47,
+   "pattern": "tile row",
+   "detail": "4 identical rects on an even pitch at y=1.35in",
+   "suggest": [
+    "scorecard",
+    "stat_row",
+    "columns"
+   ]
+  },
+  {
+   "slide": 48,
+   "pattern": "tile row",
+   "detail": "3 identical rects on an even pitch at y=1.72in",
+   "suggest": [
+    "scorecard",
+    "stat_row",
+    "columns"
+   ]
+  }
+ ],
+ "actionable": [
+  {
+   "slide": 1,
+   "pattern": "tile row",
+   "detail": "3 identical rects on an even pitch at y=3.58in",
+   "suggest": [
+    "scorecard",
+    "stat_row",
+    "columns"
+   ]
+  },
+  {
+   "slide": 2,
+   "pattern": "tile row",
+   "detail": "3 identical rects on an even pitch at y=1.45in",
+   "suggest": [
+    "scorecard",
+    "stat_row",
+    "columns"
+   ]
+  },
+  {
+   "slide": 6,
+   "pattern": "tile row",
+   "detail": "4 identical rects on an even pitch at y=1.3in",
+   "suggest": [
+    "scorecard",
+    "stat_row",
+    "columns"
+   ]
+  },
+  {
+   "slide": 7,
+   "pattern": "tile row",
+   "detail": "3 identical rects on an even pitch at y=1.49in",
+   "suggest": [
+    "scorecard",
+    "stat_row",
+    "columns"
+   ]
+  },
+  {
+   "slide": 8,
+   "pattern": "tile row",
+   "detail": "4 identical rects on an even pitch at y=1.52in",
+   "suggest": [
+    "scorecard",
+    "stat_row",
+    "columns"
+   ]
+  },
+  {
+   "slide": 9,
+   "pattern": "tile row",
+   "detail": "4 identical rects on an even pitch at y=1.5in",
+   "suggest": [
+    "scorecard",
+    "stat_row",
+    "columns"
+   ]
+  },
+  {
+   "slide": 10,
+   "pattern": "tile row",
+   "detail": "3 identical rects on an even pitch at y=1.5in",
+   "suggest": [
+    "scorecard",
+    "stat_row",
+    "columns"
+   ]
+  },
+  {
+   "slide": 13,
+   "pattern": "tile row",
+   "detail": "3 identical rects on an even pitch at y=1.42in",
+   "suggest": [
+    "scorecard",
+    "stat_row",
+    "columns"
+   ]
+  },
+  {
+   "slide": 14,
+   "pattern": "tile row",
+   "detail": "4 identical rects on an even pitch at y=1.55in",
+   "suggest": [
+    "scorecard",
+    "stat_row",
+    "columns"
+   ]
+  },
+  {
+   "slide": 17,
+   "pattern": "tile row",
+   "detail": "3 identical rects on an even pitch at y=1.34in",
+   "suggest": [
+    "scorecard",
+    "stat_row",
+    "columns"
+   ]
+  },
+  {
+   "slide": 18,
+   "pattern": "tile row",
+   "detail": "4 identical rects on an even pitch at y=1.52in",
+   "suggest": [
+    "scorecard",
+    "stat_row",
+    "columns"
+   ]
+  },
+  {
+   "slide": 19,
+   "pattern": "tile row",
+   "detail": "3 identical rects on an even pitch at y=1.33in",
+   "suggest": [
+    "scorecard",
+    "stat_row",
+    "columns"
+   ]
+  },
+  {
+   "slide": 20,
+   "pattern": "tile row",
+   "detail": "4 identical rects on an even pitch at y=1.46in",
+   "suggest": [
+    "scorecard",
+    "stat_row",
+    "columns"
+   ]
+  },
+  {
+   "slide": 21,
+   "pattern": "tile row",
+   "detail": "4 identical rects on an even pitch at y=1.35in",
+   "suggest": [
+    "scorecard",
+    "stat_row",
+    "columns"
+   ]
+  },
+  {
+   "slide": 23,
+   "pattern": "tile row",
+   "detail": "4 identical rects on an even pitch at y=1.4in",
+   "suggest": [
+    "scorecard",
+    "stat_row",
+    "columns"
+   ]
+  },
+  {
+   "slide": 24,
+   "pattern": "tile row",
+   "detail": "3 identical rects on an even pitch at y=1.55in",
+   "suggest": [
+    "scorecard",
+    "stat_row",
+    "columns"
+   ]
+  },
+  {
+   "slide": 26,
+   "pattern": "tile row",
+   "detail": "3 identical rects on an even pitch at y=1.38in",
+   "suggest": [
+    "scorecard",
+    "stat_row",
+    "columns"
+   ]
+  },
+  {
+   "slide": 27,
+   "pattern": "tile row",
+   "detail": "4 identical rects on an even pitch at y=1.55in",
+   "suggest": [
+    "scorecard",
+    "stat_row",
+    "columns"
+   ]
+  },
+  {
+   "slide": 29,
+   "pattern": "tile row",
+   "detail": "3 identical rects on an even pitch at y=1.24in",
+   "suggest": [
+    "scorecard",
+    "stat_row",
+    "columns"
+   ]
+  },
+  {
+   "slide": 30,
+   "pattern": "tile row",
+   "detail": "5 identical rects on an even pitch at y=1.6in",
+   "suggest": [
+    "scorecard",
+    "stat_row",
+    "columns"
+   ]
+  },
+  {
+   "slide": 31,
+   "pattern": "tile row",
+   "detail": "4 identical rects on an even pitch at y=1.42in",
+   "suggest": [
+    "scorecard",
+    "stat_row",
+    "columns"
+   ]
+  },
+  {
+   "slide": 32,
+   "pattern": "tile row",
+   "detail": "4 identical rects on an even pitch at y=1.52in",
+   "suggest": [
+    "scorecard",
+    "stat_row",
+    "columns"
+   ]
+  },
+  {
+   "slide": 36,
+   "pattern": "tile row",
+   "detail": "5 identical rects on an even pitch at y=1.48in",
+   "suggest": [
+    "scorecard",
+    "stat_row",
+    "columns"
+   ]
+  },
+  {
+   "slide": 38,
+   "pattern": "tile row",
+   "detail": "3 identical rects on an even pitch at y=1.3in",
+   "suggest": [
+    "scorecard",
+    "stat_row",
+    "columns"
+   ]
+  },
+  {
+   "slide": 39,
+   "pattern": "tile row",
+   "detail": "4 identical rects on an even pitch at y=1.55in",
+   "suggest": [
+    "scorecard",
+    "stat_row",
+    "columns"
+   ]
+  },
+  {
+   "slide": 41,
+   "pattern": "bar row",
+   "detail": "3 rects sharing x=1.95in and h=0.82in with varying width and numeric labels",
+   "suggest": [
+    "native_chart",
+    "meter_bar",
+    "segmented_bar"
+   ]
+  },
+  {
+   "slide": 41,
+   "pattern": "tile row",
+   "detail": "4 identical rects on an even pitch at y=1.41in",
+   "suggest": [
+    "scorecard",
+    "stat_row",
+    "columns"
+   ]
+  },
+  {
+   "slide": 47,
+   "pattern": "tile row",
+   "detail": "4 identical rects on an even pitch at y=1.35in",
+   "suggest": [
+    "scorecard",
+    "stat_row",
+    "columns"
+   ]
+  },
+  {
+   "slide": 48,
+   "pattern": "tile row",
+   "detail": "3 identical rects on an even pitch at y=1.72in",
+   "suggest": [
+    "scorecard",
+    "stat_row",
+    "columns"
+   ]
+  }
+ ],
+ "suppressed_by": [],
+ "inspected": true,
+ "why": ""
+}

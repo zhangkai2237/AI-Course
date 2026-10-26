@@ -1,0 +1,95 @@
+{
+  "delivery": "presented",
+  "design_plan": {
+    "build_shape": "solo — subagent dispatch not authorized in this run",
+    "checkpoint": {
+      "mode": "auto-approved",
+      "record": "用户要求继续、不再确认、直接做完；设计方案以进度同步方式发布后继续执行。"
+    },
+    "boldness": "conservative",
+    "deliberately restrained": "继承第一次课的课堂工作台风格，避免装饰性视觉干扰业务链路讲解。",
+    "signature_move": "版本—任务—判断—处理轨迹线",
+    "carried_by": [1, 15, 40, 46],
+    "form_ledger": "封面/章节/休息7；流程与关系14；对比与表格9；情境决策9；练习与小结7。",
+    "icon_family": "none — template-locked；这些页面的类别同时承担步骤顺序、版本归属或角色责任，换成图标会削弱编号与业务含义，并破坏与第一次课一致的流程识别系统。",
+    "icon_none_category": "template-locked",
+    "icon_none_checked": ["slide 1", "slide 2", "slide 3", "slide 6", "slide 7", "slide 8", "slide 11", "slide 13", "slide 14", "slide 15", "slide 17", "slide 18", "slide 21", "slide 22", "slide 23", "slide 24", "slide 27", "slide 29", "slide 30", "slide 31", "slide 36", "slide 38", "slide 39", "slide 40", "slide 42", "slide 43", "slide 44", "slide 45", "slide 46"],
+    "palette": "深青#126B63=正常主链路；深青底#102F30=章节；珊瑚#D85C3D=风险/阻断；金#DBAB4A=待判断/人工；浅青#E8F2EF=上下文。所有语义同时带文字或形状。",
+    "type_scale": {"display": 34, "title": 25, "body": 13.5},
+    "build_script": "build_deck.py",
+    "style_pick": "n/a — 视觉锁定为项目一第一次课正式版",
+    "concept": {
+      "chosen": "一条可追踪的审核轨迹",
+      "via": "版本、任务、判断、处理 -> 轨迹线、编号节点、状态表",
+      "rejected": [
+        {"concept": "行业案例墙", "why_lost": "不利于讲清业务因果链。"},
+        {"concept": "系统架构蓝图", "why_lost": "与项目课堂的渐进讲解不匹配。"}
+      ]
+    },
+    "motif_generates": {
+      "background": "延续第一次课的平面暖白工作台",
+      "markers": "编号圆点与版本标签",
+      "page": "P15闭环轨迹与P40三阶段迁移框架"
+    },
+    "material_probe": {
+      "png": "页面预览_v2/slide15.png",
+      "safe_version": "默认版本会是四张等权卡片；当前版本用连续轨迹线和终点变色表达业务真正闭环。"
+    },
+    "form_reach": {
+      "waived": "刻意采用与第一次课一致的原生卡片、编号节点和轨迹线；通用flow_chain会统一节点高度与文本结构，无法同时呈现版本标签、角色差异、风险分支和三阶段泳道。表格页已使用deckkit.table，其他页面保留课程模板所需的定制形式。"
+    },
+    "signature_proof": [
+      {"role": "signature", "slide": 15, "path": "页面预览_v2/slide15.png", "sha256": "631f8c534b562789cc44120038d1ab7a3ec3825c840f4f8f659d1fce33a48a49"},
+      {"role": "complex", "slide": 21, "path": "页面预览_v2/slide21.png", "sha256": "7adef59645aae5ba47fbf3fe2302c3c680f7ee06455e746d7342b7bbd41ceb97"},
+      {"role": "data", "slide": 40, "path": "页面预览_v2/slide40.png", "sha256": "11fe2057e4f7e319dbb8a3eafdee4260a21f02a629050b0ac2b66adfb1235fb4"}
+    ]
+  },
+  "content": {
+    "arc": {
+      "chosen": "运行深化",
+      "candidates": [
+        {"name": "运行深化", "shape": "prerequisite-chain", "roles": ["链路", "异常", "迁移"], "audience_question": "产品怎样真正跑起来并迁到新场景？", "objection": "页面有了但运行和迁移仍不完整。", "closing_ask": "完成一页判断型AI产品设计。", "evidence": ["讲义:108-347", "讲义:348-565", "讲义:566-946"]},
+        {"name": "行业案例集", "shape": "worked-example", "roles": ["合同", "客服", "其他行业"], "audience_question": "还能迁到哪些行业？", "objection": "案例丰富但难以形成通用方法。", "closing_ask": "记住案例清单。", "evidence": ["讲义:603-724", "讲义:754-918"]},
+        {"name": "系统对象拆解", "shape": "spiral", "roles": ["对象", "状态", "权限"], "audience_question": "系统对象怎样设计？", "objection": "系统完整但业务迁移不足。", "closing_ask": "补齐系统对象。", "evidence": ["讲义:157-329", "讲义:500-554"]}
+      ],
+      "rejected": [
+        {"name": "行业案例集", "why_lost": "案例驱动会弱化项目运行主线。"},
+        {"name": "系统对象拆解", "why_lost": "不能覆盖异常取舍和跨场景迁移。"}
+      ]
+    },
+    "slides_waived": "46页逐页内容表已在用户确认的大纲和build_deck.py函数文档中保留；此处不重复写入。",
+    "checkpoint": {"mode": "approved", "record": "已发布46页内容大纲，用户回复继续并要求直接做完。"}
+  },
+  "design": {
+    "checkpoint": {"mode": "auto", "record": "已同步沿用第一次课视觉、16:9、静态、带备注；用户要求不再停下来确认。"}
+  },
+  "render_selfcheck": {
+    "waived": "当前LibreOffice运行环境无法显示任何CJK字体，包括第一次课既有PPT；已完成几何、图像、节奏检查，并随交付附带Noto Sans CJK SC字体。"
+  },
+  "sameness": {
+    "waived": "课程系列视觉锁定：底部导航、浅色内容页、深色章节页是与第一次课保持一致的教学识别系统；流程、表格、时间线、决策树和原型截图提供内容层变化。",
+    "waived_category": "template-locked",
+    "codes": ["BOTTOM-STRIP MONOCULTURE", "CARD DOMINANCE", "ENVELOPE MONOCULTURE"]
+  },
+  "provenance": {
+    "waived": "全部课程主张来自用户已确认的本地老师讲义与同项目原型，不含需要外部检索的时效性事实。",
+    "claims": []
+  },
+  "density": {
+    "waived": "项目实操课需要展示对象、状态、角色和异常分流；密集页集中在表格与迁移框架，普通页维持单一主张。"
+  },
+  "critic": {
+    "waived": "当前运行环境禁止派发独立评审代理。",
+    "waived_category": "no-dispatch-on-host",
+    "inline_ran": true,
+    "result": "内容、流程方向、页面层级、备注覆盖、字体与可编辑性已完成一轮内审。"
+  },
+  "motion": "static — user opted out",
+  "image_credits": [
+    {"slide": 9, "asset": "第一次课同项目自检原型截图", "license": "user-provided project asset"}
+  ],
+  "accepted_advisories": [
+    "组件扫描把流程节点与并列业务对象识别为卡片簇；这些页面的关系由流程、状态和角色语义决定，保留编号节点体系。",
+    "LibreOffice在当前运行环境无法显示中文字体；PPT使用Noto Sans CJK SC，并随目录附带字体文件。"
+  ]
+}

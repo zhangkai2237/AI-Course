@@ -1,0 +1,93 @@
+{
+  "schema": "slide-maker-codex-evidence/v2",
+  "runtime": "codex",
+  "delivery": "presented",
+  "review_effort": "fast",
+  "fast_basis": "post-build default; user requested direct completion without further confirmation",
+  "deck": {
+    "pptx": "第二次课_完整授课PPT_审核体系方案选择与多场景迁移版_v2.0.pptx",
+    "sha256": "203085ded2d7c3c0eb266fcd6381bd186e1fcea2da0b70b2e34463477e327f72",
+    "slide_count": 48
+  },
+  "interview": {
+    "mode": "auto-carved",
+    "record": "沿用项目二第一次课视觉；中文现场授课；180分钟；第四节、第五节、第七节；静态；全页讲者备注。",
+    "length": "180分钟，最终48页"
+  },
+  "content": {
+    "source_mode": "provided",
+    "sources": [
+      {
+        "kind": "provided",
+        "path": "../../01_讲义与材料/第二次课_完整老师讲义_审核体系方案选择与多场景迁移版_v2.0.md",
+        "sha256": "b4d713c6dfccffe2cb9c7a42e64b4557dea24339e22b159a9a1c2207d7265063"
+      }
+    ],
+    "arc": {
+      "chosen": "任务定义到场景迁移",
+      "shape": "prerequisite-chain",
+      "candidates": [
+        {"name": "任务定义到场景迁移", "shape": "prerequisite-chain", "audience_question": "怎样从业务要求走到可迁移的AI产品方法？", "objection": "直接讲案例会缺少可复用的判断基础。", "closing_ask": "能够独立定义审核点并迁移到新业务。"},
+        {"name": "五行业案例集", "shape": "worked-example", "audience_question": "有哪些类似案例？", "objection": "案例丰富但难以解释方案选择。", "closing_ask": "记住行业清单。"},
+        {"name": "技术能力分层", "shape": "concept-example-check", "audience_question": "各种能力如何组合？", "objection": "技术主线无法覆盖业务输入和角色责任。", "closing_ask": "画出能力架构。"}
+      ],
+      "rejected": [
+        {"name": "五行业案例集", "why_lost": "会把正式案例讲成并列素材，弱化项目方法。"},
+        {"name": "技术能力分层", "why_lost": "不能解释审核点如何定义以及方法如何迁移。"}
+      ],
+      "divergence_justified": "两个候选分别作为案例清单和技术清单的压力测试，胜出方案是唯一覆盖三节先后关系的结构。"
+    },
+    "checkpoint": {"mode": "auto", "record": "已同步第四节、第五节、第七节的重组方向；用户此前要求不再确认、直接完成。"}
+  },
+  "design": {
+    "direction": {
+      "branch": "locked",
+      "artifact": "项目二第一次课正式版",
+      "decision": "user-approved",
+      "record": "沿用第一次课视觉体系。"
+    },
+    "type_scale": {"display": 35, "title": 24, "body": 13.5},
+    "concept": {
+      "chosen": "从一张审核点卡扩展到五个业务场景",
+      "via": "六要素审核点 -> 能力分工 -> 十一项迁移框架 -> 五案例横向比较",
+      "rejected": [
+        {"concept": "行业案例墙", "why_lost": "不利于讲清先后关系。"},
+        {"concept": "系统架构蓝图", "why_lost": "无法呈现业务判断与人工责任。"}
+      ]
+    },
+    "boldness": "conservative",
+    "build_shape": "solo — subagent dispatch not authorized in this run",
+    "palette": "normal-fill=#126B63; risk-fill=#D85C3D; pending-fill=#DBAB4A; text-safe=#17302F/#FFFFFF",
+    "style_pick": "n/a — locked look inherited from lesson one",
+    "motif_generates": {
+      "background": "flat warm off-white by locked register",
+      "markers": "numbered rounded nodes and six-part audit-point cards",
+      "page": "slide 6, slide 41 and slide 46"
+    },
+    "signature_move": "审核点六要素卡与十一项迁移框架形成前后呼应",
+    "carried_by": [6, 8, 41, 46],
+    "signature_proof": [
+      {"role": "signature", "slide": 6, "path": "页面预览/slide06.png", "sha256": "dd80e1c26c46f7a1f773f2826a50cb1a142ab1e17a249a434050666146b70cc1", "pptx_sha256": "203085ded2d7c3c0eb266fcd6381bd186e1fcea2da0b70b2e34463477e327f72"},
+      {"role": "complex", "slide": 41, "path": "页面预览/slide41.png", "sha256": "f0cba86afe589a3360a305f73935c13524395ae217f0277818988b02fc2b4648", "pptx_sha256": "203085ded2d7c3c0eb266fcd6381bd186e1fcea2da0b70b2e34463477e327f72"},
+      {"role": "data", "slide": 46, "path": "页面预览/slide46.png", "sha256": "5ff864bdb7051a720322f4d7382a0835aff7b50b2da463941a47738c2628f811", "pptx_sha256": "203085ded2d7c3c0eb266fcd6381bd186e1fcea2da0b70b2e34463477e327f72"}
+    ],
+    "checkpoint": {"mode": "auto", "record": "用户要求不再确认并直接完成。"}
+  },
+  "build": {
+    "script": "build_deck.py",
+    "sha256": "4b486d91c11cab8b55dc3806e21c57f3d0229f71eee2d8cc44c966c7595185ff",
+    "strict_layout": true
+  },
+  "icons": [],
+  "render_selfcheck": {
+    "slides": [
+      {"n": 1, "verdict": "all 48 pages reviewed for geometry, rhythm and section order; local LibreOffice CJK rendering limitation recorded separately"}
+    ]
+  },
+  "critics": [],
+  "waivers": [
+    {"kind": "critic-independence", "reason": "no-dispatch-on-host; inline review completed"},
+    {"kind": "icons", "reason": "template-locked numbered-node system retained after categorical-slide review"},
+    {"kind": "render-font", "reason": "LibreOffice host does not display CJK; PowerPoint deck uses installed Noto Sans CJK SC"}
+  ]
+}

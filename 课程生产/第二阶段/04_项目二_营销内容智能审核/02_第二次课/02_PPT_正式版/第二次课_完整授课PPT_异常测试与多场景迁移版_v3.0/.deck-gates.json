@@ -1,0 +1,125 @@
+{
+  "delivery": "presented",
+  "capability_ledger": {
+    "subagents": "unavailable by run policy",
+    "image_input": "available",
+    "web": "available but not needed",
+    "motion": "static"
+  },
+  "design_plan": {
+    "build_shape": "solo — subagent dispatch not authorized in this run",
+    "boldness": "balanced+",
+    "signature_move": "三道判断门贯穿异常、测试和迁移；流程节点与决策矩阵反复呼应",
+    "carried_by": [2, 12, 25, 41, 47],
+    "form_ledger": "封面与章节5；流程与阶梯12；矩阵与表格10；案例详解9；概念卡10；休息与收束2。",
+    "icon_family": "none — editorial-register；课程重点是条件、流程和责任关系，编号节点比通用图标更准确。",
+    "icon_none_category": "editorial-register",
+    "icon_none_checked": [2, 6, 12, 17, 21, 25, 29, 36, 41, 47],
+    "palette": "深青#126B63=主判断；深青底#102F30=章节；珊瑚#D85C3D=风险；金#DBAB4A=关键人工节点；米白#F7F8F4=课堂画布。",
+    "type_scale": {"display": 34, "title": 24, "body": 14},
+    "build_script": "build_deck.py",
+    "style_pick": "n/a — locked project visual system",
+    "concept": {
+      "chosen": "三道判断门",
+      "via": "异常门 -> 测试门 -> 迁移门",
+      "rejected": [
+        {"concept": "AI大脑与科技插画", "why_lost": "不能承载具体业务取舍。"},
+        {"concept": "五行业案例墙", "why_lost": "会让课程退化为并列案例清单。"}
+      ]
+    },
+    "motif_generates": {
+      "background": "米白工作台与深青章节面",
+      "markers": "编号判断节点、阶梯与门槛矩阵",
+      "page": "P12决策阶梯、P25方案矩阵、P41迁移框架"
+    },
+    "material_probe": {
+      "png": "页面预览/slide25.png",
+      "safe_version": "默认版本会把四种结论写成项目符号；当前页面用四象限把进入试点、补齐、收缩和暂停变成可比较的产品决策。"
+    },
+    "form_reach": {
+      "waived": "本课需要八项异常卡、五级决策阶梯、四象限试点矩阵和十一项迁移框架等课程专用结构；使用通用仪表、漏斗或统计组件会把条件关系误读成数量关系，因此保留原生流程节点、表格和定制业务形状。"
+    },
+    "signature_proof": [
+      {"role": "signature", "slide": 12, "png": "页面预览/slide12.png"},
+      {"role": "complex", "slide": 41, "png": "页面预览/slide41.png"},
+      {"role": "data", "slide": 46, "png": "页面预览/slide46.png"}
+    ]
+  },
+  "content": {
+    "arc": {
+      "chosen": "从异常取舍到测试决策，再到跨场景迁移",
+      "candidates": [
+        {
+          "name": "从异常取舍到测试决策，再到跨场景迁移",
+          "shape": "prerequisite-chain",
+          "roles": ["异常", "测试", "迁移"],
+          "audience_question": "一个AI项目怎样从能跑走向敢试点并可迁移？",
+          "objection": "只讲正常流程无法说明真实可用性。",
+          "closing_ask": "能在异常、测试和新业务中作出产品判断。",
+          "evidence": ["本地讲义:第四节", "本地讲义:第五节", "本地讲义:第七节"]
+        },
+        {
+          "name": "按五个行业逐一讲案例",
+          "shape": "worked-example",
+          "roles": ["营销", "合同", "客服", "招聘", "报销", "金融"],
+          "audience_question": "还有哪些类似案例？",
+          "objection": "案例多但没有方案判断主线。",
+          "closing_ask": "记住行业清单。",
+          "evidence": ["本地讲义:第七节"]
+        },
+        {
+          "name": "只按评测指标推进",
+          "shape": "concept-example-check",
+          "roles": ["样本", "指标", "坏案例", "回归"],
+          "audience_question": "怎样测试模型？",
+          "objection": "无法覆盖异常承接与跨场景业务分析。",
+          "closing_ask": "完成一次评测。",
+          "evidence": ["本地讲义:第五节"]
+        }
+      ],
+      "rejected": [
+        {"name": "按五个行业逐一讲案例", "why_lost": "缺少异常和测试中的产品取舍。"},
+        {"name": "只按评测指标推进", "why_lost": "课程会被讲成单一评测课。"}
+      ],
+      "divergence_justified": "两个候选刻意分别从案例需求和测试需求出发，用来检验课程是否会退化成行业清单或单一评测课；胜出方案是唯一能够同时承载异常取舍、测试决策和跨场景迁移三类课程主张的结构。"
+    },
+    "slides_waived": "48页逐页主张已固化在老师讲义和build_deck.py中；本次是用户要求直接完成的既有项目续作。",
+    "checkpoint": {
+      "mode": "auto",
+      "record": "已向用户同步正确结构：第四节真实异常中的产品取舍、第五节用测试结果判断方案是否成立、第七节多个正式案例；用户此前明确要求不再逐次确认。"
+    }
+  },
+  "design": {
+    "checkpoint": {
+      "mode": "auto",
+      "record": "已同步沿用米白、深绿、珊瑚与金色项目视觉，以流程、门槛和案例对照为主要画面，并直接继续制作。"
+    }
+  },
+  "render_selfcheck": {
+    "waived": "当前无界面LibreOffice渲染器无法加载macOS中文字体；已逐页检查联系表的版式结构，并以原始PPT文本、几何lint和讲者备注完成内容核验。"
+  },
+  "sameness": {
+    "waived": "这是同一项目课程的模板锁定版本，重复的底部导航、浅色工作台与深色章节页用于维持连续授课识别；内部使用流程、阶梯、矩阵、表格和案例页切换内容结构。",
+    "waived_category": "template-locked",
+    "codes": ["LAYOUT SAMENESS", "CARD DOMINANCE", "BOTTOM-STRIP MONOCULTURE", "ENVELOPE MONOCULTURE"]
+  },
+  "provenance": {
+    "waived": "全部课程主张来自用户已确认的本地讲义与项目教学案例，不包含需要联网验证的时效数据。",
+    "claims": []
+  },
+  "density": {
+    "waived": "P42—P45是五个正式案例的教学参考页，需要在同页保留输入、流程、输出、异常、人工和企业连接；其余页面保持单一主张。"
+  },
+  "critic": {
+    "waived": "本次运行按政策不得派发独立评审代理，已执行内联内容、结构、几何、字体和文本清洁检查。",
+    "waived_category": "no-dispatch-on-host",
+    "inline_ran": true,
+    "result": "章节对应正确；第七节为正式案例；48页均有讲者备注；几何lint为0项严重问题。"
+  },
+  "motion": "static — course deck",
+  "image_credits": [],
+  "accepted_advisories": [
+    "P42—P45使用相同案例框架，便于横向比较，轻微行距提示为刻意一致。",
+    "无界面渲染器无法加载中文字体；PPT已指定Hiragino Sans GB并保留可编辑中文文本。"
+  ]
+}

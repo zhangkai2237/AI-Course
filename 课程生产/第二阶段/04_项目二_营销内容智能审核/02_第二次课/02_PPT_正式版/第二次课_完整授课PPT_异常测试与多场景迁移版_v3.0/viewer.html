@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>第二次课_完整授课PPT_异常测试与多场景迁移版_v3.0 — preview</title>
+<style>
+  :root { color-scheme: dark; }
+  * { margin: 0; box-sizing: border-box; }
+  body { background: #17191f; color: #cfd4de; font: 13px/1.4 system-ui, sans-serif;
+         height: 100vh; display: flex; flex-direction: column; user-select: none; }
+  header { padding: 8px 14px; display: flex; align-items: center; gap: 12px; }
+  header b { color: #fff; font-weight: 600; }
+  #stage { flex: 1; display: flex; align-items: center; justify-content: center;
+            min-height: 0; padding: 0 12px; cursor: pointer; }
+  #main { max-width: 100%; max-height: 100%; box-shadow: 0 6px 30px rgba(0,0,0,.5);
+           border-radius: 4px; }
+  #rail { display: flex; gap: 6px; overflow-x: auto; padding: 10px 14px; flex: none; }
+  #rail img { height: 62px; border-radius: 3px; opacity: .45; cursor: pointer;
+               border: 2px solid transparent; }
+  #rail img.on { opacity: 1; border-color: #5b8def; }
+  #num { margin-left: auto; font-variant-numeric: tabular-nums; color: #8a93a6; }
+  kbd { background:#2a2e38; border-radius:3px; padding:1px 5px; font-size:11px; color:#9aa3b2; }
+</style></head><body>
+<header><b>第二次课_完整授课PPT_异常测试与多场景迁移版_v3.0</b><span>&larr;/&rarr; or click to flip &nbsp;<kbd>F</kbd> fullscreen</span><span id="num"></span></header>
+<div id="stage"><img id="main" alt="slide"></div>
+<div id="rail"></div>
+<script>
+const S = ["\u9875\u9762\u9884\u89c8/slide01.png", "\u9875\u9762\u9884\u89c8/slide02.png", "\u9875\u9762\u9884\u89c8/slide03.png", "\u9875\u9762\u9884\u89c8/slide04.png", "\u9875\u9762\u9884\u89c8/slide05.png", "\u9875\u9762\u9884\u89c8/slide06.png", "\u9875\u9762\u9884\u89c8/slide07.png", "\u9875\u9762\u9884\u89c8/slide08.png", "\u9875\u9762\u9884\u89c8/slide09.png", "\u9875\u9762\u9884\u89c8/slide10.png", "\u9875\u9762\u9884\u89c8/slide11.png", "\u9875\u9762\u9884\u89c8/slide12.png", "\u9875\u9762\u9884\u89c8/slide13.png", "\u9875\u9762\u9884\u89c8/slide14.png", "\u9875\u9762\u9884\u89c8/slide15.png", "\u9875\u9762\u9884\u89c8/slide16.png", "\u9875\u9762\u9884\u89c8/slide17.png", "\u9875\u9762\u9884\u89c8/slide18.png", "\u9875\u9762\u9884\u89c8/slide19.png", "\u9875\u9762\u9884\u89c8/slide20.png", "\u9875\u9762\u9884\u89c8/slide21.png", "\u9875\u9762\u9884\u89c8/slide22.png", "\u9875\u9762\u9884\u89c8/slide23.png", "\u9875\u9762\u9884\u89c8/slide24.png", "\u9875\u9762\u9884\u89c8/slide25.png", "\u9875\u9762\u9884\u89c8/slide26.png", "\u9875\u9762\u9884\u89c8/slide27.png", "\u9875\u9762\u9884\u89c8/slide28.png", "\u9875\u9762\u9884\u89c8/slide29.png", "\u9875\u9762\u9884\u89c8/slide30.png", "\u9875\u9762\u9884\u89c8/slide31.png", "\u9875\u9762\u9884\u89c8/slide32.png", "\u9875\u9762\u9884\u89c8/slide33.png", "\u9875\u9762\u9884\u89c8/slide34.png", "\u9875\u9762\u9884\u89c8/slide35.png", "\u9875\u9762\u9884\u89c8/slide36.png", "\u9875\u9762\u9884\u89c8/slide37.png", "\u9875\u9762\u9884\u89c8/slide38.png", "\u9875\u9762\u9884\u89c8/slide39.png", "\u9875\u9762\u9884\u89c8/slide40.png", "\u9875\u9762\u9884\u89c8/slide41.png", "\u9875\u9762\u9884\u89c8/slide42.png", "\u9875\u9762\u9884\u89c8/slide43.png", "\u9875\u9762\u9884\u89c8/slide44.png", "\u9875\u9762\u9884\u89c8/slide45.png", "\u9875\u9762\u9884\u89c8/slide46.png", "\u9875\u9762\u9884\u89c8/slide47.png", "\u9875\u9762\u9884\u89c8/slide48.png"]; let i = 0;
+const main = document.getElementById('main'), rail = document.getElementById('rail'),
+      num = document.getElementById('num');
+S.forEach((src, k) => { const t = document.createElement('img'); t.src = src; t.loading = 'lazy';
+  t.onclick = () => go(k); rail.appendChild(t); });
+function go(k) { i = (k + S.length) % S.length; main.src = S[i];
+  num.textContent = (i + 1) + ' / ' + S.length;
+  [...rail.children].forEach((t, k2) => t.classList.toggle('on', k2 === i));
+  rail.children[i].scrollIntoView({ inline: 'center', block: 'nearest', behavior: 'smooth' });
+  if (i + 1 < S.length) (new Image()).src = S[i + 1]; }
+document.getElementById('stage').onclick = () => go(i + 1);
+addEventListener('keydown', e => {
+  if (e.key === 'ArrowRight' || e.key === ' ' || e.key === 'PageDown') go(i + 1);
+  else if (e.key === 'ArrowLeft' || e.key === 'PageUp') go(i - 1);
+  else if (e.key === 'Home') go(0); else if (e.key === 'End') go(S.length - 1);
+  else if (e.key.toLowerCase() === 'f') document.documentElement.requestFullscreen?.(); });
+go(0);
+</script></body></html>

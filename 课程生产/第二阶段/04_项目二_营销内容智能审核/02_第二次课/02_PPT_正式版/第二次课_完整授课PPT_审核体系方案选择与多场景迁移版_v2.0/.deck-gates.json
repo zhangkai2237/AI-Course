@@ -1,0 +1,198 @@
+{
+ "delivery": "presented",
+ "design_plan": {
+  "build_shape": "solo — subagent dispatch not authorized in this run",
+  "checkpoint": {
+   "mode": "auto",
+   "record": "用户明确要求不再确认、直接做完；已在进度消息中同步第四节、第五节、第七节的重组方向后继续执行。"
+  },
+  "boldness": "conservative",
+  "deliberately restrained": "继承第一次课视觉体系，以课堂可读性和业务结构为优先。",
+  "signature_move": "审核点六要素卡与十一项迁移框架形成前后呼应",
+  "carried_by": [
+   6,
+   8,
+   41,
+   46
+  ],
+  "form_ledger": "封面、地图与章节7；审核点卡与能力卡18；流程与关系11；比较表与案例表9；休息与收束3。",
+  "icon_family": "none — template-locked；沿用第一次课的编号节点与业务标签系统。",
+  "icon_none_category": "template-locked",
+  "icon_none_checked": [
+   3,
+   6,
+   8,
+   14,
+   20,
+   22,
+   31,
+   36,
+   38,
+   41,
+   46,
+   48
+  ],
+  "palette": "深青#126B63=正常主链路；深青底#102F30=章节；珊瑚#D85C3D=风险与迁移案例；金#DBAB4A=人工判断；浅青#E8F2EF=业务上下文。",
+  "type_scale": {
+   "display": 35,
+   "title": 24,
+   "body": 13.5
+  },
+  "build_script": "build_deck.py",
+  "style_pick": "n/a — 视觉锁定为项目二第一次课正式版",
+  "concept": {
+   "chosen": "从一张审核点卡扩展到五个业务场景",
+   "via": "六要素审核点 -> 能力分工 -> 十一项迁移框架 -> 五案例横向比较",
+   "rejected": [
+    {
+     "concept": "行业案例墙",
+     "why_lost": "会削弱第四节和第五节的项目主线。"
+    },
+    {
+     "concept": "纯系统架构图",
+     "why_lost": "无法呈现业务判断与人工责任。"
+    }
+   ]
+  },
+  "motif_generates": {
+   "background": "暖白课堂工作台",
+   "markers": "编号圆点、六要素卡与三阶段框架",
+   "page": "P06六要素、P41十一项框架、P46五场景矩阵"
+  },
+  "material_probe": {
+   "png": "页面预览/slide06.png",
+   "safe_version": "普通版本会是一张文字列表；当前版本用六个相互独立但可组合的任务单元表现审核点结构。"
+  },
+  "form_reach": {
+   "waived": "课程系列采用统一的编号卡片和原生流程关系；表格页使用deckkit.table，其他页面保留与第一次课一致的定制课堂组件。"
+  },
+  "signature_proof": [
+   {
+    "role": "signature",
+    "slide": 6,
+    "path": "页面预览/slide06.png"
+   },
+   {
+    "role": "complex",
+    "slide": 41,
+    "path": "页面预览/slide41.png"
+   },
+   {
+    "role": "data",
+    "slide": 46,
+    "path": "页面预览/slide46.png"
+   }
+  ]
+ },
+ "content": {
+  "arc": {
+   "chosen": "任务定义到场景迁移",
+   "candidates": [
+    {
+     "name": "任务定义到场景迁移",
+     "shape": "prerequisite-chain",
+     "roles": [
+      "定义",
+      "分工",
+      "迁移"
+     ],
+     "audience_question": "怎样从业务要求走到可迁移的AI产品方法？",
+     "objection": "直接讲案例会缺少可复用的判断基础。",
+     "closing_ask": "能够独立定义审核点并迁移到新业务。",
+     "evidence": [
+      "讲义:第四节",
+      "讲义:第五节",
+      "讲义:第七节"
+     ]
+    },
+    {
+     "name": "五行业案例集",
+     "shape": "worked-example",
+     "roles": [
+      "营销",
+      "合同",
+      "客服",
+      "招聘",
+      "报销",
+      "金融"
+     ],
+     "audience_question": "有哪些类似案例？",
+     "objection": "案例丰富但难以解释方案选择。",
+     "closing_ask": "记住行业清单。",
+     "evidence": [
+      "讲义:第七节"
+     ]
+    },
+    {
+     "name": "技术能力分层",
+     "shape": "concept-example-check",
+     "roles": [
+      "规则",
+      "模型",
+      "人工"
+     ],
+     "audience_question": "各种能力如何组合？",
+     "objection": "技术主线无法覆盖业务输入和角色责任。",
+     "closing_ask": "画出能力架构。",
+     "evidence": [
+      "讲义:第五节"
+     ]
+    }
+   ],
+   "rejected": [
+    {
+     "name": "五行业案例集",
+     "why_lost": "会把正式案例讲成并列素材，弱化项目方法。"
+    },
+    {
+     "name": "技术能力分层",
+     "why_lost": "不能解释审核点如何定义以及方法如何迁移。"
+    }
+   ],
+   "divergence_justified": "两个候选刻意只覆盖三段主线中的一个侧面，用于检验课程是否会退化成案例清单或技术清单；胜出方案是唯一能够同时承载第四、第五、第七节先后关系的结构。"
+  },
+  "slides_waived": "48页逐页内容已经固化在build_deck.py中；用户要求直接完成，本次不重复写入门禁文件。",
+  "checkpoint": {
+   "mode": "auto",
+   "record": "已同步课程将按第四节审核体系、第五节方案选择、第七节多个正式案例展开；用户此前明确不再确认、直接做完。"
+  }
+ },
+ "design": {
+  "checkpoint": {
+   "mode": "auto",
+   "record": "沿用第一次课16:9视觉体系、静态演示、全页讲者备注；直接继续制作。"
+  }
+ },
+ "render_selfcheck": {
+  "waived": "当前LibreOffice环境不能正确显示任何CJK字体；先完成几何、节奏和结构检查，字体随PowerPoint环境使用Noto Sans CJK SC。"
+ },
+ "sameness": {
+  "waived": "这是同一课程系列的模板锁定版本：底部导航、浅色内容页和深色章节页构成连续教学识别；流程、矩阵、审核点卡和案例页在内容层改变结构。",
+  "waived_category": "template-locked",
+  "codes": [
+   "LAYOUT SAMENESS",
+   "CARD DOMINANCE",
+   "BOTTOM-STRIP MONOCULTURE",
+   "ENVELOPE MONOCULTURE"
+  ]
+ },
+ "provenance": {
+  "waived": "全部课程主张来自用户已确认的本地讲义与本项目教学案例，不含外部时效数据。",
+  "claims": []
+ },
+ "density": {
+  "waived": "项目课需要呈现审核点、能力分工与五个案例的完整输入输出；高密度集中在框架和比较表页。"
+ },
+ "critic": {
+  "waived": "当前运行环境不允许派发独立评审代理，已执行内联内容与版面检查。",
+  "waived_category": "no-dispatch-on-host",
+  "inline_ran": true,
+  "result": "已检查章节对应、案例正式讲解定位、页面层级、讲者备注与文本清洁。"
+ },
+ "motion": "static — course deck",
+ "image_credits": [],
+ "accepted_advisories": [
+  "组件扫描会把编号审核点卡识别为手工卡片簇；该结构是与第一次课一致的课程组件。",
+  "LibreOffice在当前运行环境无法显示中文字体；PPT指定Noto Sans CJK SC，并按PowerPoint环境交付。"
+ ]
+}

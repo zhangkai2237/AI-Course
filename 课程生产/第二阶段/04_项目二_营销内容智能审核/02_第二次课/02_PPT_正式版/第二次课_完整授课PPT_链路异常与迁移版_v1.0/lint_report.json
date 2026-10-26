@@ -1,0 +1,3318 @@
+{
+ "file": "第二次课_完整授课PPT_链路异常与迁移版_v1.0.pptx",
+ "mode": "presented",
+ "findings": [
+  {
+   "slide": 1,
+   "text": "TEXT NOT VISIBLE: '第二阶段 · 项目二 · 第二次课' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 1,
+   "text": "TEXT NOT VISIBLE: '从完整审核链路 到判断型 AI 产品迁移' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 1,
+   "text": "TEXT NOT VISIBLE: '页面连起来 · 异常接得住 · 方法迁得走' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 1,
+   "text": "FOOTER-ZONE intrusion  AUTO_SHAPE'' (ink bottom 5.62in) dips into the reserved footer band — keep content above 5.07in",
+   "severity": "error"
+  },
+  {
+   "slide": 2,
+   "text": "TEXT NOT VISIBLE: '全课地图' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 2,
+   "text": "TEXT NOT VISIBLE: '今天要完成的不是三块知识，而是一条进阶路线' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 2,
+   "text": "TEXT NOT VISIBLE: '链路跑通' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 2,
+   "text": "TEXT NOT VISIBLE: '对象、状态、角色' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 2,
+   "text": "TEXT NOT VISIBLE: '异常接住' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 2,
+   "text": "TEXT NOT VISIBLE: '分流、权限、兜底' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 2,
+   "text": "TEXT NOT VISIBLE: '方法迁移' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 2,
+   "text": "TEXT NOT VISIBLE: '合同 → 客服 → 新场景' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 2,
+   "text": "TEXT NOT VISIBLE: '课堂终点：独立写出一页判断型 AI 产品设计。' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 3,
+   "text": "TEXT NOT VISIBLE: '开场判断' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 3,
+   "text": "TEXT NOT VISIBLE: '“审核通过”只在三个条件同时成立时才有效' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 3,
+   "text": "TEXT NOT VISIBLE: '对应版本' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 3,
+   "text": "TEXT NOT VISIBLE: '结论属于哪一稿 是否已被新稿替代' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 3,
+   "text": "TEXT NOT VISIBLE: '材料有效' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 3,
+   "text": "TEXT NOT VISIBLE: '引用是否可用 条件是否仍成立' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 3,
+   "text": "TEXT NOT VISIBLE: '角色有权' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 3,
+   "text": "TEXT NOT VISIBLE: '谁可以确认 谁承担下一步' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 3,
+   "text": "TEXT NOT VISIBLE: '没有版本、材料与角色约束，“通过”只是页面文案。' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 3,
+   "text": "WIDOW: a lone glyph '行' stranded on the last line of '可 执 行' — widen the box or reword so the last line has company",
+   "severity": "error"
+  },
+  {
+   "slide": 4,
+   "text": "TEXT NOT VISIBLE: '第二次课 / 第一节' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 4,
+   "text": "TEXT NOT VISIBLE: '完整链路' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 4,
+   "text": "TEXT NOT VISIBLE: '页面怎么从“能点” 变成“能跑”？' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 4,
+   "text": "TEXT NOT VISIBLE: '四类业务对象' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 4,
+   "text": "TEXT NOT VISIBLE: '三段演示链路' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 4,
+   "text": "TEXT NOT VISIBLE: '状态、版本与责任人' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 4,
+   "text": "TEXT NOT VISIBLE: '本节重点  ·  状态、版本与责任人' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 5,
+   "text": "TEXT NOT VISIBLE: '第一节 · 业务链' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 5,
+   "text": "TEXT NOT VISIBLE: '几张页面放在一起，不等于产品已经能运行' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 5,
+   "text": "TEXT NOT VISIBLE: '页面集合' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 5,
+   "text": "TEXT NOT VISIBLE: '编辑页 任务列表 审核详情 巡检批次' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 5,
+   "text": "TEXT NOT VISIBLE: '动作改变对象 对象进入新状态 状态触发下一角色 结果' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 5,
+   "text": "TEXT NOT VISIBLE: '真正的链路，要回答：发生了什么变化，下一步交给谁。' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 6,
+   "text": "LOW CONTRAST: '+' ink #DBAB4A on fill #F7F8F4 — 1.98:1 (under 3:1, the floor for text at ANY size)",
+   "severity": "error"
+  },
+  {
+   "slide": 6,
+   "text": "LOW CONTRAST: '+' ink #DBAB4A on fill #F7F8F4 — 1.98:1 (under 3:1, the floor for text at ANY size)",
+   "severity": "error"
+  },
+  {
+   "slide": 6,
+   "text": "TEXT NOT VISIBLE: '第一节 · 动作定义' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 6,
+   "text": "TEXT NOT VISIBLE: '一个可运行的页面动作，要同时改变三件事' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 6,
+   "text": "TEXT NOT VISIBLE: '谁被创建或修改 · 现在处于什么状态 · 谁要继续处' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 6,
+   "text": "TEXT NOT VISIBLE: '按钮只描述交互；对象、状态、责任人才描述业务。' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 7,
+   "text": "TEXT NOT VISIBLE: '第一节 · 四类对象' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 7,
+   "text": "TEXT NOT VISIBLE: '审核链路中，至少要区分四类业务对象' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 7,
+   "text": "TEXT NOT VISIBLE: '内容版本' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 7,
+   "text": "TEXT NOT VISIBLE: '检查记录' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 7,
+   "text": "TEXT NOT VISIBLE: '一次执行 原句、结论、依据 失败也要留状态' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 7,
+   "text": "TEXT NOT VISIBLE: '正式任务' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 7,
+   "text": "TEXT NOT VISIBLE: '提交版本 复核意见 正式决定' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 7,
+   "text": "TEXT NOT VISIBLE: '巡检任务' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 7,
+   "text": "TEXT NOT VISIBLE: '在用内容 变化事件 实际更新' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 7,
+   "text": "TEXT NOT VISIBLE: '对象分开，版本、权限与历史才不会互相污染。' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 8,
+   "text": "TEXT NOT VISIBLE: '第一节 · 状态并存' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 8,
+   "text": "TEXT NOT VISIBLE: '同一篇内容，可以同时处在四种不同状态里' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 8,
+   "text": "TEXT NOT VISIBLE: '内容版本' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 8,
+   "text": "TEXT NOT VISIBLE: '检查记录' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 8,
+   "text": "TEXT NOT VISIBLE: '运行中 / 已完成 / 失败' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 8,
+   "text": "TEXT NOT VISIBLE: '正式任务' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 8,
+   "text": "TEXT NOT VISIBLE: '待复核 / 退回 / 通过' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 8,
+   "text": "TEXT NOT VISIBLE: '巡检任务' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 8,
+   "text": "TEXT NOT VISIBLE: '待分派 / 处理中 / 已更新' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 8,
+   "text": "TEXT NOT VISIBLE: '不要问“这篇内容是什么状态”，先问“哪个对象是什么状' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 9,
+   "text": "TEXT NOT VISIBLE: '课堂演示一：从问题稿到自检修改' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 9,
+   "text": "TEXT NOT VISIBLE: '版本 + 上下文' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 9,
+   "text": "TEXT NOT VISIBLE: '规则与模型' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 9,
+   "text": "TEXT NOT VISIBLE: '自检的完成条件不是“看过结果”，而是“问题被修改或明' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 10,
+   "text": "TEXT NOT VISIBLE: '第一节 · 结论边界' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 10,
+   "text": "TEXT NOT VISIBLE: '机器“未发现问题”，不等于业务“正式通过”' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 10,
+   "text": "TEXT NOT VISIBLE: '未发现问题' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 10,
+   "text": "TEXT NOT VISIBLE: '当前输入 当前检查范围 当前系统能力' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 10,
+   "text": "TEXT NOT VISIBLE: '正式审核通过' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 10,
+   "text": "TEXT NOT VISIBLE: '有权角色确认 责任边界明确 允许进入下一业务环节' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 10,
+   "text": "TEXT NOT VISIBLE: '系统给判断材料；业务角色作正式决定。' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 11,
+   "text": "TEXT NOT VISIBLE: '课堂演示二：正式提交、人工复核与再修改' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 11,
+   "text": "TEXT NOT VISIBLE: '正文与材料' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 11,
+   "text": "TEXT NOT VISIBLE: '审核判断' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 11,
+   "text": "TEXT NOT VISIBLE: '核对原句与来源' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 11,
+   "text": "TEXT NOT VISIBLE: '退回修改' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 11,
+   "text": "TEXT NOT VISIBLE: '复核决定' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 11,
+   "text": "TEXT NOT VISIBLE: '正式审核围绕提交版本流转，不能只围绕一条机器结果。' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 12,
+   "text": "TEXT NOT VISIBLE: '第一节 · 功能分工' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 12,
+   "text": "TEXT NOT VISIBLE: '自检与正式审核，目标、角色和产出都不同' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 12,
+   "text": "TEXT NOT VISIBLE: '提交前自检' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 12,
+   "text": "TEXT NOT VISIBLE: '角色：作者 目标：尽早发现并修改 产出：检查记录 +' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 12,
+   "text": "TEXT NOT VISIBLE: '正式审核' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 12,
+   "text": "TEXT NOT VISIBLE: '角色：审核员 目标：作业务决定 产出：审核任务 + ' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 12,
+   "text": "TEXT NOT VISIBLE: '前者帮助准备；后者完成交接与决定。' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 13,
+   "text": "TEXT NOT VISIBLE: '第一节 · 版本有效性' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 13,
+   "text": "TEXT NOT VISIBLE: '归属规则：检查记录永远绑定发起时的版本与上下文' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 13,
+   "text": "TEXT NOT VISIBLE: '旧结果可以保留，但不能冒充新版本结论。' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 13,
+   "text": "OVERLAP 0.56x0.04in  AUTO_SHAPE'' x AUTO_SHAPE'' — move/shrink one so they separate (≥0.12in gap) or nest one fully inside the other",
+   "severity": "error"
+  },
+  {
+   "slide": 13,
+   "text": "OVERLAP 0.56x0.04in  AUTO_SHAPE'' x AUTO_SHAPE'' — move/shrink one so they separate (≥0.12in gap) or nest one fully inside the other",
+   "severity": "error"
+  },
+  {
+   "slide": 14,
+   "text": "TEXT NOT VISIBLE: '课堂演示三：巡检从变化事件开始' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 14,
+   "text": "TEXT NOT VISIBLE: '业务变化' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 14,
+   "text": "TEXT NOT VISIBLE: '资料 / 规则 / 条件' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 14,
+   "text": "TEXT NOT VISIBLE: '圈定范围' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 14,
+   "text": "TEXT NOT VISIBLE: '在用内容' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 14,
+   "text": "TEXT NOT VISIBLE: '建立批次' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 14,
+   "text": "TEXT NOT VISIBLE: '问题与待办' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 14,
+   "text": "TEXT NOT VISIBLE: '分派处理' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 14,
+   "text": "TEXT NOT VISIBLE: '负责人承接' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 14,
+   "text": "TEXT NOT VISIBLE: '巡检不是重新跑全库，而是从变化反推受影响范围。' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 15,
+   "text": "TEXT NOT VISIBLE: '第一节 · 闭环' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 15,
+   "text": "TEXT NOT VISIBLE: '巡检只有走到真实渠道更新，业务才真正闭环' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 15,
+   "text": "TEXT NOT VISIBLE: '变化发生' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 15,
+   "text": "TEXT NOT VISIBLE: '资料失效' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 15,
+   "text": "TEXT NOT VISIBLE: '范围圈定' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 15,
+   "text": "TEXT NOT VISIBLE: '找到在用内容' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 15,
+   "text": "TEXT NOT VISIBLE: '任务处理' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 15,
+   "text": "TEXT NOT VISIBLE: '修改并复核' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 15,
+   "text": "TEXT NOT VISIBLE: '实际更新' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 15,
+   "text": "TEXT NOT VISIBLE: '渠道内容生效' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 15,
+   "text": "TEXT NOT VISIBLE: '业务完成点不在“发现”，而在“实际更新并可追溯”。' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 16,
+   "text": "TEXT NOT VISIBLE: '第一节 · 状态表' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 16,
+   "text": "TEXT NOT VISIBLE: '把关键页面动作整理成一张运行表' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 17,
+   "text": "TEXT NOT VISIBLE: '第一节 · 练习' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 17,
+   "text": "TEXT NOT VISIBLE: '现场条件' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 17,
+   "text": "TEXT NOT VISIBLE: '结果显示在哪里？ 能否更新 V3 状态？ 需要全部重' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 17,
+   "text": "TEXT NOT VISIBLE: '判断顺序' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 17,
+   "text": "TEXT NOT VISIBLE: '先看归属版本 再看有效范围 最后决定重跑策略' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 17,
+   "text": "TEXT NOT VISIBLE: '先保护版本边界，再讨论效率优化。' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 18,
+   "text": "TEXT NOT VISIBLE: '第一节 · 小结' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 18,
+   "text": "TEXT NOT VISIBLE: '第一节只需要记住三个追问' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 18,
+   "text": "TEXT NOT VISIBLE: '改了什么对象？' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 18,
+   "text": "TEXT NOT VISIBLE: '版本 / 记录 / 任务' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 18,
+   "text": "TEXT NOT VISIBLE: '进入什么状态？' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 18,
+   "text": "TEXT NOT VISIBLE: '运行 / 待办 / 完成' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 18,
+   "text": "TEXT NOT VISIBLE: '交给谁继续？' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 18,
+   "text": "TEXT NOT VISIBLE: '作者 / 审核员 / 负责人' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 18,
+   "text": "TEXT NOT VISIBLE: '能回答这三问，页面才开始具备业务含义。' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 19,
+   "text": "TEXT NOT VISIBLE: '回来以后，我们专门处理“正常流程之外”的产品决策。' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 20,
+   "text": "TEXT NOT VISIBLE: '第二次课 / 第二节' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 20,
+   "text": "TEXT NOT VISIBLE: '异常决策' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 20,
+   "text": "TEXT NOT VISIBLE: '系统出问题时， 下一步到底怎么走？' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 20,
+   "text": "TEXT NOT VISIBLE: '八部分异常框架' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 20,
+   "text": "TEXT NOT VISIBLE: '五类真实异常' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 20,
+   "text": "TEXT NOT VISIBLE: '继续、降级、人工与停止' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 20,
+   "text": "TEXT NOT VISIBLE: '本节重点  ·  继续、降级、人工与停止' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 21,
+   "text": "TEXT NOT VISIBLE: '第二节 · 异常框架' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 21,
+   "text": "TEXT NOT VISIBLE: '一个真实异常，至少要回答八个问题' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 21,
+   "text": "TEXT NOT VISIBLE: '触发条件' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 21,
+   "text": "TEXT NOT VISIBLE: '影响范围' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 21,
+   "text": "TEXT NOT VISIBLE: '用户可见' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 21,
+   "text": "TEXT NOT VISIBLE: '系统状态' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 21,
+   "text": "TEXT NOT VISIBLE: '可选动作' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 21,
+   "text": "TEXT NOT VISIBLE: '承接角色' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 21,
+   "text": "TEXT NOT VISIBLE: '保留材料' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 21,
+   "text": "TEXT NOT VISIBLE: '恢复条件' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 21,
+   "text": "TEXT NOT VISIBLE: '异常不是一句提示，而是一条新的业务分支。' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 22,
+   "text": "TEXT NOT VISIBLE: '异常一：业务材料缺失，先限定结论范围' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 22,
+   "text": "TEXT NOT VISIBLE: '发生了什么' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 22,
+   "text": "TEXT NOT VISIBLE: '商品资料过期 活动规则缺页' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 22,
+   "text": "TEXT NOT VISIBLE: '危险做法' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 22,
+   "text": "TEXT NOT VISIBLE: '仍输出完整通过 只弹“检查失败”' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 22,
+   "text": "TEXT NOT VISIBLE: '产品处理' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 22,
+   "text": "TEXT NOT VISIBLE: '标出缺项 受影响项不作结论 其余项可继续' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 22,
+   "text": "TEXT NOT VISIBLE: '谁来承接' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 22,
+   "text": "TEXT NOT VISIBLE: '作者补充 资料负责人确认' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 22,
+   "text": "TEXT NOT VISIBLE: '信息不足时，先说明影响范围，再请求补充或确认。' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 23,
+   "text": "TEXT NOT VISIBLE: '异常二：超时或局部失败，要保留已完成部分' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 23,
+   "text": "TEXT NOT VISIBLE: '发起检查' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 23,
+   "text": "TEXT NOT VISIBLE: '固定输入' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 23,
+   "text": "TEXT NOT VISIBLE: '保留可用结果' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 23,
+   "text": "TEXT NOT VISIBLE: '单项失败' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 23,
+   "text": "TEXT NOT VISIBLE: '分流处理' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 23,
+   "text": "TEXT NOT VISIBLE: '重试 / 降级 / 人工' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 23,
+   "text": "TEXT NOT VISIBLE: '失败要细化到检查项，不能把整次任务一键抹掉。' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 24,
+   "text": "TEXT NOT VISIBLE: '异常三：旧版本结果迟到，只能回到原版本' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 24,
+   "text": "TEXT NOT VISIBLE: '发起检查 输入已冻结' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 24,
+   "text": "TEXT NOT VISIBLE: '作者保存新稿 当前版本改变' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 24,
+   "text": "TEXT NOT VISIBLE: '归属先于展示：结果写回哪个对象，比显示在哪里更重要。' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 25,
+   "text": "TEXT NOT VISIBLE: '异常四：规则与模型冲突，不能静默取一个答案' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 25,
+   "text": "TEXT NOT VISIBLE: '冲突不是系统失灵，而是需要更清晰的决定权设计。' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 26,
+   "text": "TEXT NOT VISIBLE: '第二节 · 冲突处理' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 26,
+   "text": "TEXT NOT VISIBLE: '处理冲突时，先问规则是否具有强制性' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 26,
+   "text": "TEXT NOT VISIBLE: '规则具有强制性吗？' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 26,
+   "text": "TEXT NOT VISIBLE: '是 · 硬规则' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 26,
+   "text": "TEXT NOT VISIBLE: '阻断自动通过 交人工确认' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 26,
+   "text": "TEXT NOT VISIBLE: '否 · 条件或建议' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 26,
+   "text": "TEXT NOT VISIBLE: '并列展示理由 允许确认或保留' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 26,
+   "text": "TEXT NOT VISIBLE: '系统不能替业务掩盖冲突；要把冲突变成可判断的信息。' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 27,
+   "text": "TEXT NOT VISIBLE: '异常五：角色争议，本质是决定权与承接关系' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 27,
+   "text": "TEXT NOT VISIBLE: '作者不同意' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 27,
+   "text": "TEXT NOT VISIBLE: '允许说明理由 不能自行改正式结论 提交复核' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 27,
+   "text": "TEXT NOT VISIBLE: '审核员质疑资料' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 27,
+   "text": "TEXT NOT VISIBLE: '暂停相关结论 请求资料负责人确认 保留争议状态' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 27,
+   "text": "TEXT NOT VISIBLE: '巡检无人承接' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 27,
+   "text": "TEXT NOT VISIBLE: '升级负责人 设置超时与提醒 必要时暂停使用' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 27,
+   "text": "TEXT NOT VISIBLE: '争议页面要给下一步，不只给“不同意”按钮。' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 28,
+   "text": "TEXT NOT VISIBLE: '第二节 · 角色权限' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 28,
+   "text": "TEXT NOT VISIBLE: '把“谁操作、谁确认、谁负责”分开设计' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 29,
+   "text": "TEXT NOT VISIBLE: '第二节 · 分流菜单' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 29,
+   "text": "TEXT NOT VISIBLE: '异常发生后，系统至少有五种处理方向' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 29,
+   "text": "TEXT NOT VISIBLE: '不影响其余项' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 29,
+   "text": "TEXT NOT VISIBLE: '临时性失败' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 29,
+   "text": "TEXT NOT VISIBLE: '使用较弱方案' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 29,
+   "text": "TEXT NOT VISIBLE: '需要业务判断' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 29,
+   "text": "TEXT NOT VISIBLE: '风险不可接受' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 29,
+   "text": "TEXT NOT VISIBLE: '自动化程度不是越高越好，关键是风险是否仍可控。' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 30,
+   "text": "TEXT NOT VISIBLE: '第二节 · 练习' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 30,
+   "text": "TEXT NOT VISIBLE: '角色练习：同一条争议，三类用户分别需要什么？' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 30,
+   "text": "TEXT NOT VISIBLE: '作者视角' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 30,
+   "text": "TEXT NOT VISIBLE: '原句与问题范围 修改或说明 再次提交' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 30,
+   "text": "TEXT NOT VISIBLE: '审核员视角' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 30,
+   "text": "TEXT NOT VISIBLE: '原句、材料与历史 确认或退回 正式决定' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 30,
+   "text": "TEXT NOT VISIBLE: '资料负责人视角' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 30,
+   "text": "TEXT NOT VISIBLE: '被引用材料 有效性与适用范围 更新资料' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 30,
+   "text": "TEXT NOT VISIBLE: '不要给所有角色同一套按钮；给他们完成职责所需的信息与' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 31,
+   "text": "TEXT NOT VISIBLE: '第二节 · 小结' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 31,
+   "text": "TEXT NOT VISIBLE: '第二节的核心：把报错变成可恢复的决策链' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 31,
+   "text": "TEXT NOT VISIBLE: '看见影响' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 31,
+   "text": "TEXT NOT VISIBLE: '范围可解释' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 31,
+   "text": "TEXT NOT VISIBLE: '选择动作' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 31,
+   "text": "TEXT NOT VISIBLE: '继续或停止' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 31,
+   "text": "TEXT NOT VISIBLE: '交给角色' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 31,
+   "text": "TEXT NOT VISIBLE: '责任明确' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 31,
+   "text": "TEXT NOT VISIBLE: '确认恢复' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 31,
+   "text": "TEXT NOT VISIBLE: '状态可追踪' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 31,
+   "text": "TEXT NOT VISIBLE: '异常设计的终点不是提示成功，而是业务恢复。' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 32,
+   "text": "TEXT NOT VISIBLE: '下一段：把同一套方法迁移到合同、客服与其他业务。' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 33,
+   "text": "TEXT NOT VISIBLE: '第二次课 / 第三节' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 33,
+   "text": "TEXT NOT VISIBLE: '方法迁移' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 33,
+   "text": "TEXT NOT VISIBLE: '怎样把一个案例， 迁成另一类 AI 产品？' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 33,
+   "text": "TEXT NOT VISIBLE: '合同审核母案例' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 33,
+   "text": "TEXT NOT VISIBLE: '十一项迁移框架' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 33,
+   "text": "TEXT NOT VISIBLE: '客服与三个新场景' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 33,
+   "text": "TEXT NOT VISIBLE: '本节重点  ·  客服与三个新场景' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 34,
+   "text": "TEXT NOT VISIBLE: '第三节 · 迁移定义' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 34,
+   "text": "TEXT NOT VISIBLE: '真正的迁移，不是把“营销”两个字替换掉' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 34,
+   "text": "TEXT NOT VISIBLE: '表面换皮' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 34,
+   "text": "TEXT NOT VISIBLE: '审核对象改名 页面字段改名 提示词改名 流程仍照搬' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 34,
+   "text": "TEXT NOT VISIBLE: '结构迁移' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 34,
+   "text": "TEXT NOT VISIBLE: '重新定义最终输出 反推输入与分工 补齐边界与系统连接' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 34,
+   "text": "TEXT NOT VISIBLE: '迁移的是判断结构，而不是行业名词。' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 35,
+   "text": "TEXT NOT VISIBLE: '第三节 · 合同母案例' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 35,
+   "text": "TEXT NOT VISIBLE: '合同审核第一步：把“审合同”收窄成可验证范围' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 35,
+   "text": "TEXT NOT VISIBLE: '所有合同、所有风险' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 35,
+   "text": "TEXT NOT VISIBLE: '销售合同' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 35,
+   "text": "TEXT NOT VISIBLE: '付款 / 交付 / 违约' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 35,
+   "text": "TEXT NOT VISIBLE: '给法务初审' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 35,
+   "text": "TEXT NOT VISIBLE: '范围越清楚，材料、验证与责任边界越容易设计。' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 36,
+   "text": "TEXT NOT VISIBLE: '第三节 · 反向设计' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 36,
+   "text": "TEXT NOT VISIBLE: '先定义最后要交付什么，再反推需要什么输入' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 36,
+   "text": "TEXT NOT VISIBLE: '最终输出' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 36,
+   "text": "TEXT NOT VISIBLE: '问题条款 + 建议 + 待确认项' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 36,
+   "text": "TEXT NOT VISIBLE: '判断任务' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 36,
+   "text": "TEXT NOT VISIBLE: '定位、分类、对照、解释' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 36,
+   "text": "TEXT NOT VISIBLE: '所需输入' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 36,
+   "text": "TEXT NOT VISIBLE: '正文 + 模板 + 规则 + 背景' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 36,
+   "text": "TEXT NOT VISIBLE: '先定输出，才能知道模型究竟要完成哪些判断。' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 37,
+   "text": "TEXT NOT VISIBLE: '第三节 · 能力定位' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 37,
+   "text": "TEXT NOT VISIBLE: '模型更像勤奋的法务实习生，而不是最终决定者' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 37,
+   "text": "TEXT NOT VISIBLE: '模型擅长' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 37,
+   "text": "TEXT NOT VISIBLE: '快速阅读 定位相关条款 对照规则与模板 生成结构化初' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 37,
+   "text": "TEXT NOT VISIBLE: '人必须负责' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 37,
+   "text": "TEXT NOT VISIBLE: '确认业务事实 处理非标安排 权衡风险与交易 作最终决' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 37,
+   "text": "TEXT NOT VISIBLE: '把模型放在合适岗位，比夸大“智能”更重要。' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 38,
+   "text": "TEXT NOT VISIBLE: '第三节 · 合同流程' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 38,
+   "text": "TEXT NOT VISIBLE: '合同审核：把人工分工拆成三条并行流程' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 38,
+   "text": "TEXT NOT VISIBLE: '共同输入' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 38,
+   "text": "TEXT NOT VISIBLE: '合同正文 合同类型 交易背景' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 38,
+   "text": "TEXT NOT VISIBLE: '条款识别' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 38,
+   "text": "TEXT NOT VISIBLE: '定位与分类' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 38,
+   "text": "TEXT NOT VISIBLE: '规则对照' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 38,
+   "text": "TEXT NOT VISIBLE: '模板与制度' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 38,
+   "text": "TEXT NOT VISIBLE: '业务核对' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 38,
+   "text": "TEXT NOT VISIBLE: '条件与例外' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 38,
+   "text": "TEXT NOT VISIBLE: '汇总问题' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 38,
+   "text": "TEXT NOT VISIBLE: '风险条款 修改建议 待确认项' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 38,
+   "text": "TEXT NOT VISIBLE: '法务 确认' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 39,
+   "text": "TEXT NOT VISIBLE: '第三节 · 企业化' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 39,
+   "text": "TEXT NOT VISIBLE: '从通用能力升级为企业产品，要补齐边界与连接' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 39,
+   "text": "TEXT NOT VISIBLE: '边界分支' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 39,
+   "text": "TEXT NOT VISIBLE: '扫描件识别失败 附件缺失 跨条款冲突 未知合同类型 ' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 39,
+   "text": "TEXT NOT VISIBLE: '审核能力' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 39,
+   "text": "TEXT NOT VISIBLE: '识别 → 对照 → 解释 结果附定位与来源 明确待确' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 39,
+   "text": "TEXT NOT VISIBLE: '企业连接' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 39,
+   "text": "TEXT NOT VISIBLE: '合同与模板库 组织权限 审批流程 版本与历史 处理结' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 40,
+   "text": "TEXT NOT VISIBLE: '第三节 · 核心框架' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 40,
+   "text": "TEXT NOT VISIBLE: '十一项迁移框架：从业务问题走到可运行产品' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 40,
+   "text": "TEXT NOT VISIBLE: 'A 定义' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 40,
+   "text": "TEXT NOT VISIBLE: '业务问题' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 40,
+   "text": "TEXT NOT VISIBLE: '首版范围' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 40,
+   "text": "TEXT NOT VISIBLE: '最终输出' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 40,
+   "text": "TEXT NOT VISIBLE: '人工流程' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 40,
+   "text": "TEXT NOT VISIBLE: '输入材料' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 40,
+   "text": "TEXT NOT VISIBLE: '判断任务' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 40,
+   "text": "TEXT NOT VISIBLE: '能力验证' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 40,
+   "text": "TEXT NOT VISIBLE: '系统流程' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 40,
+   "text": "TEXT NOT VISIBLE: '边界条件' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 40,
+   "text": "TEXT NOT VISIBLE: '角色权限' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 40,
+   "text": "TEXT NOT VISIBLE: '企业连接' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 40,
+   "text": "TEXT NOT VISIBLE: '迁移顺序：先定义决定，再设计能力，最后接入真实组织。' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 41,
+   "text": "TEXT NOT VISIBLE: '第三节 · 现场迁移' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 41,
+   "text": "TEXT NOT VISIBLE: '把合同审核结构，映射到客服会话质检' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 42,
+   "text": "TEXT NOT VISIBLE: '第三节 · 客服流程' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 42,
+   "text": "TEXT NOT VISIBLE: '客服会话质检：从识别问题走到整改复核' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 42,
+   "text": "TEXT NOT VISIBLE: '会话输入' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 42,
+   "text": "TEXT NOT VISIBLE: '文本 + 客户上下文' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 42,
+   "text": "TEXT NOT VISIBLE: '并行检查' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 42,
+   "text": "TEXT NOT VISIBLE: '规范 / 事实 / 沟通' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 42,
+   "text": "TEXT NOT VISIBLE: '人工复核' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 42,
+   "text": "TEXT NOT VISIBLE: '确认与申诉' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 42,
+   "text": "TEXT NOT VISIBLE: '整改闭环' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 42,
+   "text": "TEXT NOT VISIBLE: '整改 / 复训 / 复核' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 42,
+   "text": "TEXT NOT VISIBLE: '质检产品的完成点不是打分，而是问题被承接和改进。' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 43,
+   "text": "TEXT NOT VISIBLE: '第三节 · 练习' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 43,
+   "text": "TEXT NOT VISIBLE: '小组迁移练习：用同一框架设计一个新场景' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 43,
+   "text": "TEXT NOT VISIBLE: '写清要解决的判断' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 43,
+   "text": "TEXT NOT VISIBLE: '限定对象与角色' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 43,
+   "text": "TEXT NOT VISIBLE: '列出决定所需结果' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 43,
+   "text": "TEXT NOT VISIBLE: '说明业务来源' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 43,
+   "text": "TEXT NOT VISIBLE: '标出转人工条件' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 43,
+   "text": "TEXT NOT VISIBLE: '写明系统回写位置' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 43,
+   "text": "TEXT NOT VISIBLE: '先把首版做窄，再把闭环做完整。' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 44,
+   "text": "TEXT NOT VISIBLE: '第三节 · 三个小案例' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 44,
+   "text": "TEXT NOT VISIBLE: '三个可迁移场景：对象不同，判断结构相似' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 44,
+   "text": "TEXT NOT VISIBLE: '招聘信息审核' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 44,
+   "text": "TEXT NOT VISIBLE: '对象：职位文案 材料：招聘规范 输出：问题句 + 修' — line 1 of 5 renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 44,
+   "text": "TEXT NOT VISIBLE: '发票与报销审核' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 44,
+   "text": "TEXT NOT VISIBLE: '对象：票据 + 报销单 材料：费用制度 输出：异常项' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 44,
+   "text": "TEXT NOT VISIBLE: '金融营销材料' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 44,
+   "text": "TEXT NOT VISIBLE: '对象：宣传文案 材料：产品与合规规则 输出：风险点 ' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 45,
+   "text": "TEXT NOT VISIBLE: '第三节 · 点评标准' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 45,
+   "text": "TEXT NOT VISIBLE: '点评一份迁移方案，只看五个关键问题' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 45,
+   "text": "TEXT NOT VISIBLE: '是否足够清楚' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 45,
+   "text": "TEXT NOT VISIBLE: '能否支撑输出' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 45,
+   "text": "TEXT NOT VISIBLE: '决定点是否合理' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 45,
+   "text": "TEXT NOT VISIBLE: '能否恢复' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 45,
+   "text": "TEXT NOT VISIBLE: '是否进入真实流程' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 45,
+   "text": "TEXT NOT VISIBLE: '好方案不是“AI 功能多”，而是判断与行动接得上。' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 46,
+   "text": "TEXT NOT VISIBLE: '全课收束 · 课堂输出' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 46,
+   "text": "TEXT NOT VISIBLE: '用一页纸，说明一个判断型 AI 产品' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 46,
+   "text": "TEXT NOT VISIBLE: '业务问题 首版范围 最终输出' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 46,
+   "text": "TEXT NOT VISIBLE: '输入材料 判断任务 能力验证' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 46,
+   "text": "TEXT NOT VISIBLE: '角色权限 异常分流 企业连接' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 46,
+   "text": "TEXT NOT VISIBLE: '最终检验：对象说得清 · 状态接得上 · 异常有人管' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  },
+  {
+   "slide": 46,
+   "text": "TEXT NOT VISIBLE: '第二次课 · 完' — every line renders as a flat field with no glyphs in it. Something is painted over the text, or it is the same colour as its ground; check the render",
+   "severity": "error"
+  }
+ ],
+ "warnings": [
+  {
+   "slide": 1,
+   "text": "BODY CONTRAST: '4' ink #FFFFFF on fill #D85C3D — 3.81:1 (body-size text targets >=4.5:1; large/bold text may sit here)",
+   "severity": "warning"
+  },
+  {
+   "slide": 2,
+   "text": "READING ORDER: the title is not first in shape order — screen readers read z-order; reorder so the title is added first",
+   "severity": "warning"
+  },
+  {
+   "slide": 3,
+   "text": "READING ORDER: the title is not first in shape order — screen readers read z-order; reorder so the title is added first",
+   "severity": "warning"
+  },
+  {
+   "slide": 4,
+   "text": "READING ORDER: the title is not first in shape order — screen readers read z-order; reorder so the title is added first",
+   "severity": "warning"
+  },
+  {
+   "slide": 4,
+   "text": "NON-TEXT CONTRAST: icon/chip #617673 on #102F30 — 2.95:1 (<3:1, WCAG 1.4.11); essential icons/lines need more contrast",
+   "severity": "warning"
+  },
+  {
+   "slide": 5,
+   "text": "BODY CONTRAST: '≠' ink #D85C3D on fill #F7F8F4 — 3.57:1 (body-size text targets >=4.5:1; large/bold text may sit here)",
+   "severity": "warning"
+  },
+  {
+   "slide": 5,
+   "text": "READING ORDER: the title is not first in shape order — screen readers read z-order; reorder so the title is added first",
+   "severity": "warning"
+  },
+  {
+   "slide": 6,
+   "text": "READING ORDER: the title is not first in shape order — screen readers read z-order; reorder so the title is added first",
+   "severity": "warning"
+  },
+  {
+   "slide": 6,
+   "text": "NON-TEXT CONTRAST: icon/chip #D3DFDA on #F7F8F4 — 1.28:1 (<3:1, WCAG 1.4.11); essential icons/lines need more contrast",
+   "severity": "warning"
+  },
+  {
+   "slide": 7,
+   "text": "READING ORDER: the title is not first in shape order — screen readers read z-order; reorder so the title is added first",
+   "severity": "warning"
+  },
+  {
+   "slide": 8,
+   "text": "READING ORDER: the title is not first in shape order — screen readers read z-order; reorder so the title is added first",
+   "severity": "warning"
+  },
+  {
+   "slide": 8,
+   "text": "NON-TEXT CONTRAST: icon/chip #DBAB4A on #FFFFFF — 2.11:1 (<3:1, WCAG 1.4.11); essential icons/lines need more contrast",
+   "severity": "warning"
+  },
+  {
+   "slide": 9,
+   "text": "READING ORDER: the title is not first in shape order — screen readers read z-order; reorder so the title is added first",
+   "severity": "warning"
+  },
+  {
+   "slide": 10,
+   "text": "BODY CONTRAST: '≠' ink #D85C3D on fill #F7F8F4 — 3.57:1 (body-size text targets >=4.5:1; large/bold text may sit here)",
+   "severity": "warning"
+  },
+  {
+   "slide": 10,
+   "text": "READING ORDER: the title is not first in shape order — screen readers read z-order; reorder so the title is added first",
+   "severity": "warning"
+  },
+  {
+   "slide": 11,
+   "text": "READING ORDER: the title is not first in shape order — screen readers read z-order; reorder so the title is added first",
+   "severity": "warning"
+  },
+  {
+   "slide": 12,
+   "text": "BODY CONTRAST: '正式审核' ink #D85C3D on fill #FFFFFF — 3.81:1 (body-size text targets >=4.5:1; large/bold text may sit here)",
+   "severity": "warning"
+  },
+  {
+   "slide": 12,
+   "text": "READING ORDER: the title is not first in shape order — screen readers read z-order; reorder so the title is added first",
+   "severity": "warning"
+  },
+  {
+   "slide": 13,
+   "text": "BODY CONTRAST: '旧结果可以保留，但不能冒充新版本结论。' ink #D85C3D on fill #F8E8E2 — 3.20:1 (body-size text targets >=4.5:1; large/bold text may sit here)",
+   "severity": "warning"
+  },
+  {
+   "slide": 13,
+   "text": "READING ORDER: the title is not first in shape order — screen readers read z-order; reorder so the title is added first",
+   "severity": "warning"
+  },
+  {
+   "slide": 13,
+   "text": "NON-TEXT CONTRAST: icon/chip #D3DFDA on #F7F8F4 — 1.28:1 (<3:1, WCAG 1.4.11); essential icons/lines need more contrast",
+   "severity": "warning"
+  },
+  {
+   "slide": 13,
+   "text": "NON-TEXT CONTRAST: icon/chip #DBAB4A on #F7F8F4 — 1.98:1 (<3:1, WCAG 1.4.11); essential icons/lines need more contrast",
+   "severity": "warning"
+  },
+  {
+   "slide": 14,
+   "text": "READING ORDER: the title is not first in shape order — screen readers read z-order; reorder so the title is added first",
+   "severity": "warning"
+  },
+  {
+   "slide": 15,
+   "text": "BODY CONTRAST: '4' ink #FFFFFF on fill #D85C3D — 3.81:1 (body-size text targets >=4.5:1; large/bold text may sit here)",
+   "severity": "warning"
+  },
+  {
+   "slide": 15,
+   "text": "BODY CONTRAST: '业务完成点不在“发现”，而在“实际更新并可追溯”' ink #D85C3D on fill #F8E8E2 — 3.20:1 (body-size text targets >=4.5:1; large/bold text may sit here)",
+   "severity": "warning"
+  },
+  {
+   "slide": 15,
+   "text": "READING ORDER: the title is not first in shape order — screen readers read z-order; reorder so the title is added first",
+   "severity": "warning"
+  },
+  {
+   "slide": 16,
+   "text": "READING ORDER: the title is not first in shape order — screen readers read z-order; reorder so the title is added first",
+   "severity": "warning"
+  },
+  {
+   "slide": 17,
+   "text": "BODY CONTRAST: '请回答' ink #D85C3D on fill #FFFFFF — 3.81:1 (body-size text targets >=4.5:1; large/bold text may sit here)",
+   "severity": "warning"
+  },
+  {
+   "slide": 17,
+   "text": "READING ORDER: the title is not first in shape order — screen readers read z-order; reorder so the title is added first",
+   "severity": "warning"
+  },
+  {
+   "slide": 18,
+   "text": "READING ORDER: the title is not first in shape order — screen readers read z-order; reorder so the title is added first",
+   "severity": "warning"
+  },
+  {
+   "slide": 20,
+   "text": "READING ORDER: the title is not first in shape order — screen readers read z-order; reorder so the title is added first",
+   "severity": "warning"
+  },
+  {
+   "slide": 20,
+   "text": "NON-TEXT CONTRAST: icon/chip #617673 on #102F30 — 2.95:1 (<3:1, WCAG 1.4.11); essential icons/lines need more contrast",
+   "severity": "warning"
+  },
+  {
+   "slide": 21,
+   "text": "READING ORDER: the title is not first in shape order — screen readers read z-order; reorder so the title is added first",
+   "severity": "warning"
+  },
+  {
+   "slide": 22,
+   "text": "BODY CONTRAST: '危险做法' ink #D85C3D on fill #F8E8E2 — 3.20:1 (body-size text targets >=4.5:1; large/bold text may sit here)",
+   "severity": "warning"
+  },
+  {
+   "slide": 22,
+   "text": "BODY CONTRAST: '信息不足时，先说明影响范围，再请求补充或确认。' ink #D85C3D on fill #F8E8E2 — 3.20:1 (body-size text targets >=4.5:1; large/bold text may sit here)",
+   "severity": "warning"
+  },
+  {
+   "slide": 22,
+   "text": "READING ORDER: the title is not first in shape order — screen readers read z-order; reorder so the title is added first",
+   "severity": "warning"
+  },
+  {
+   "slide": 23,
+   "text": "BODY CONTRAST: '失败要细化到检查项，不能把整次任务一键抹掉。' ink #D85C3D on fill #F8E8E2 — 3.20:1 (body-size text targets >=4.5:1; large/bold text may sit here)",
+   "severity": "warning"
+  },
+  {
+   "slide": 23,
+   "text": "READING ORDER: the title is not first in shape order — screen readers read z-order; reorder so the title is added first",
+   "severity": "warning"
+  },
+  {
+   "slide": 24,
+   "text": "BODY CONTRAST: 'T2 · V3' ink #D85C3D on fill #F8E8E2 — 3.20:1 (body-size text targets >=4.5:1; large/bold text may sit here)",
+   "severity": "warning"
+  },
+  {
+   "slide": 24,
+   "text": "READING ORDER: the title is not first in shape order — screen readers read z-order; reorder so the title is added first",
+   "severity": "warning"
+  },
+  {
+   "slide": 25,
+   "text": "READING ORDER: the title is not first in shape order — screen readers read z-order; reorder so the title is added first",
+   "severity": "warning"
+  },
+  {
+   "slide": 26,
+   "text": "BODY CONTRAST: '是 · 硬规则' ink #D85C3D on fill #F8E8E2 — 3.20:1 (body-size text targets >=4.5:1; large/bold text may sit here)",
+   "severity": "warning"
+  },
+  {
+   "slide": 26,
+   "text": "READING ORDER: the title is not first in shape order — screen readers read z-order; reorder so the title is added first",
+   "severity": "warning"
+  },
+  {
+   "slide": 27,
+   "text": "BODY CONTRAST: '审核员质疑资料' ink #D85C3D on fill #FFFFFF — 3.81:1 (body-size text targets >=4.5:1; large/bold text may sit here)",
+   "severity": "warning"
+  },
+  {
+   "slide": 27,
+   "text": "READING ORDER: the title is not first in shape order — screen readers read z-order; reorder so the title is added first",
+   "severity": "warning"
+  },
+  {
+   "slide": 28,
+   "text": "READING ORDER: the title is not first in shape order — screen readers read z-order; reorder so the title is added first",
+   "severity": "warning"
+  },
+  {
+   "slide": 29,
+   "text": "BODY CONTRAST: '停止' ink #D85C3D on fill #F8E8E2 — 3.20:1 (body-size text targets >=4.5:1; large/bold text may sit here)",
+   "severity": "warning"
+  },
+  {
+   "slide": 29,
+   "text": "READING ORDER: the title is not first in shape order — screen readers read z-order; reorder so the title is added first",
+   "severity": "warning"
+  },
+  {
+   "slide": 30,
+   "text": "READING ORDER: the title is not first in shape order — screen readers read z-order; reorder so the title is added first",
+   "severity": "warning"
+  },
+  {
+   "slide": 31,
+   "text": "READING ORDER: the title is not first in shape order — screen readers read z-order; reorder so the title is added first",
+   "severity": "warning"
+  },
+  {
+   "slide": 32,
+   "text": "BODY CONTRAST: '120 分钟继续' ink #FFFFFF on fill #D85C3D — 3.81:1 (body-size text targets >=4.5:1; large/bold text may sit here)",
+   "severity": "warning"
+  },
+  {
+   "slide": 33,
+   "text": "READING ORDER: the title is not first in shape order — screen readers read z-order; reorder so the title is added first",
+   "severity": "warning"
+  },
+  {
+   "slide": 33,
+   "text": "NON-TEXT CONTRAST: icon/chip #617673 on #102F30 — 2.95:1 (<3:1, WCAG 1.4.11); essential icons/lines need more contrast",
+   "severity": "warning"
+  },
+  {
+   "slide": 34,
+   "text": "BODY CONTRAST: '表面换皮' ink #D85C3D on fill #F8E8E2 — 3.20:1 (body-size text targets >=4.5:1; large/bold text may sit here)",
+   "severity": "warning"
+  },
+  {
+   "slide": 34,
+   "text": "READING ORDER: the title is not first in shape order — screen readers read z-order; reorder so the title is added first",
+   "severity": "warning"
+  },
+  {
+   "slide": 35,
+   "text": "READING ORDER: the title is not first in shape order — screen readers read z-order; reorder so the title is added first",
+   "severity": "warning"
+  },
+  {
+   "slide": 36,
+   "text": "READING ORDER: the title is not first in shape order — screen readers read z-order; reorder so the title is added first",
+   "severity": "warning"
+  },
+  {
+   "slide": 37,
+   "text": "BODY CONTRAST: '人必须负责' ink #D85C3D on fill #FFFFFF — 3.81:1 (body-size text targets >=4.5:1; large/bold text may sit here)",
+   "severity": "warning"
+  },
+  {
+   "slide": 37,
+   "text": "READING ORDER: the title is not first in shape order — screen readers read z-order; reorder so the title is added first",
+   "severity": "warning"
+  },
+  {
+   "slide": 38,
+   "text": "READING ORDER: the title is not first in shape order — screen readers read z-order; reorder so the title is added first",
+   "severity": "warning"
+  },
+  {
+   "slide": 39,
+   "text": "BODY CONTRAST: '边界分支' ink #D85C3D on fill #F8E8E2 — 3.20:1 (body-size text targets >=4.5:1; large/bold text may sit here)",
+   "severity": "warning"
+  },
+  {
+   "slide": 39,
+   "text": "READING ORDER: the title is not first in shape order — screen readers read z-order; reorder so the title is added first",
+   "severity": "warning"
+  },
+  {
+   "slide": 40,
+   "text": "READING ORDER: the title is not first in shape order — screen readers read z-order; reorder so the title is added first",
+   "severity": "warning"
+  },
+  {
+   "slide": 41,
+   "text": "READING ORDER: the title is not first in shape order — screen readers read z-order; reorder so the title is added first",
+   "severity": "warning"
+  },
+  {
+   "slide": 42,
+   "text": "READING ORDER: the title is not first in shape order — screen readers read z-order; reorder so the title is added first",
+   "severity": "warning"
+  },
+  {
+   "slide": 43,
+   "text": "READING ORDER: the title is not first in shape order — screen readers read z-order; reorder so the title is added first",
+   "severity": "warning"
+  },
+  {
+   "slide": 44,
+   "text": "READING ORDER: the title is not first in shape order — screen readers read z-order; reorder so the title is added first",
+   "severity": "warning"
+  },
+  {
+   "slide": 45,
+   "text": "READING ORDER: the title is not first in shape order — screen readers read z-order; reorder so the title is added first",
+   "severity": "warning"
+  },
+  {
+   "slide": 46,
+   "text": "READING ORDER: the title is not first in shape order — screen readers read z-order; reorder so the title is added first",
+   "severity": "warning"
+  },
+  {
+   "slide": 19,
+   "text": "DUPLICATE SLIDE TITLES: slides 19, 32 share the title '休息 10 分钟' — screen readers navigate by title; make each unique",
+   "severity": "warning"
+  }
+ ],
+ "stats_warnings": [
+  "SIZE SPRAWL: slide 1 uses 5 distinct font sizes (10, 11, 14, 18, 34) — target ≤3-4 per slide, drawn from the deck's declared type-scale tokens",
+  "SIZE SPRAWL: slide 2 uses 5 distinct font sizes (9.5, 11.5, 12.5, 15, 25) — target ≤3-4 per slide, drawn from the deck's declared type-scale tokens",
+  "STRETCHED THIN: slide 2 has a blank vertical channel spanning 25% of the slide width through its interior — spacing few items apart is the same emptiness as a dead band; enrich with a second column of substance (supporting panel, example, mini-diagram), merge with a neighbour, or record the quiet-register exception (frame-fill rule)",
+  "SIZE SPRAWL: slide 3 uses 6 distinct font sizes (9.5, 11.5, 12.5, 15, 25, 28) — target ≤3-4 per slide, drawn from the deck's declared type-scale tokens",
+  "STRETCHED THIN: slide 3 has a blank vertical channel spanning 27% of the slide width through its interior — spacing few items apart is the same emptiness as a dead band; enrich with a second column of substance (supporting panel, example, mini-diagram), merge with a neighbour, or record the quiet-register exception (frame-fill rule)",
+  "SIZE SPRAWL: slide 4 uses 5 distinct font sizes (10, 13.5, 15, 24, 34) — target ≤3-4 per slide, drawn from the deck's declared type-scale tokens",
+  "CROWDED: slide 5 occupancy 70% — role bands: cover 25-35 · exec/summary 45-60 · technical/dense 55-70; past ~70% the slide reads crowded — subtract or split, don't shrink",
+  "SIZE SPRAWL: slide 5 uses 6 distinct font sizes (9.5, 11.5, 12.5, 15, 25, 36) — target ≤3-4 per slide, drawn from the deck's declared type-scale tokens",
+  "SIZE SPRAWL: slide 6 uses 6 distinct font sizes (9.5, 12.5, 16, 25, 30, 31) — target ≤3-4 per slide, drawn from the deck's declared type-scale tokens",
+  "CROWDED: slide 7 occupancy 73% — role bands: cover 25-35 · exec/summary 45-60 · technical/dense 55-70; past ~70% the slide reads crowded — subtract or split, don't shrink",
+  "SIZE SPRAWL: slide 7 uses 5 distinct font sizes (9.5, 11.5, 12.5, 15, 25) — target ≤3-4 per slide, drawn from the deck's declared type-scale tokens",
+  "CROWDED: slide 8 occupancy 71% — role bands: cover 25-35 · exec/summary 45-60 · technical/dense 55-70; past ~70% the slide reads crowded — subtract or split, don't shrink",
+  "STRETCHED THIN: slide 8 has a blank vertical channel spanning 49% of the slide width through its interior — spacing few items apart is the same emptiness as a dead band; enrich with a second column of substance (supporting panel, example, mini-diagram), merge with a neighbour, or record the quiet-register exception (frame-fill rule)",
+  "CROWDED: slide 9 occupancy 76% — role bands: cover 25-35 · exec/summary 45-60 · technical/dense 55-70; past ~70% the slide reads crowded — subtract or split, don't shrink",
+  "SIZE SPRAWL: slide 10 uses 6 distinct font sizes (9.5, 11.5, 12.5, 15, 25, 38) — target ≤3-4 per slide, drawn from the deck's declared type-scale tokens",
+  "STRETCHED THIN: slide 10 has a blank vertical channel spanning 45% of the slide width through its interior — spacing few items apart is the same emptiness as a dead band; enrich with a second column of substance (supporting panel, example, mini-diagram), merge with a neighbour, or record the quiet-register exception (frame-fill rule)",
+  "SIZE SPRAWL: slide 11 uses 5 distinct font sizes (9.5, 11.5, 12.5, 15, 25) — target ≤3-4 per slide, drawn from the deck's declared type-scale tokens",
+  "CROWDED: slide 12 occupancy 77% — role bands: cover 25-35 · exec/summary 45-60 · technical/dense 55-70; past ~70% the slide reads crowded — subtract or split, don't shrink",
+  "SIZE SPRAWL: slide 12 uses 5 distinct font sizes (9.5, 11.5, 12.5, 15, 25) — target ≤3-4 per slide, drawn from the deck's declared type-scale tokens",
+  "SIZE SPRAWL: slide 14 uses 5 distinct font sizes (9.5, 11.5, 12.5, 15, 25) — target ≤3-4 per slide, drawn from the deck's declared type-scale tokens",
+  "SIZE SPRAWL: slide 15 uses 5 distinct font sizes (9.5, 10.5, 12.5, 15, 25) — target ≤3-4 per slide, drawn from the deck's declared type-scale tokens",
+  "HOLLOW FILL: slide 16 reads as 71% full but only 20% is content — the rest is a drawn container around ~11 words. Ask whether the FORM is right before touching the spacing: a frame this large is usually a diagram or panel carrying one sentence, and the cheap fix is to demote it (an annotation, a line in the list it sits beside) rather than to re-space it",
+  "CROWDED: slide 17 occupancy 73% — role bands: cover 25-35 · exec/summary 45-60 · technical/dense 55-70; past ~70% the slide reads crowded — subtract or split, don't shrink",
+  "SIZE SPRAWL: slide 17 uses 5 distinct font sizes (9.5, 11.5, 12.5, 15, 25) — target ≤3-4 per slide, drawn from the deck's declared type-scale tokens",
+  "STRETCHED THIN: slide 17 has a blank vertical channel spanning 25% of the slide width through its interior — spacing few items apart is the same emptiness as a dead band; enrich with a second column of substance (supporting panel, example, mini-diagram), merge with a neighbour, or record the quiet-register exception (frame-fill rule)",
+  "SIZE SPRAWL: slide 18 uses 5 distinct font sizes (9.5, 11.5, 12.5, 15, 25) — target ≤3-4 per slide, drawn from the deck's declared type-scale tokens",
+  "STRETCHED THIN: slide 19 has a blank vertical channel spanning 35% of the slide width through its interior — spacing few items apart is the same emptiness as a dead band; enrich with a second column of substance (supporting panel, example, mini-diagram), merge with a neighbour, or record the quiet-register exception (frame-fill rule)",
+  "SIZE SPRAWL: slide 20 uses 5 distinct font sizes (10, 13.5, 15, 24, 34) — target ≤3-4 per slide, drawn from the deck's declared type-scale tokens",
+  "CROWDED: slide 22 occupancy 74% — role bands: cover 25-35 · exec/summary 45-60 · technical/dense 55-70; past ~70% the slide reads crowded — subtract or split, don't shrink",
+  "SIZE SPRAWL: slide 22 uses 5 distinct font sizes (9.5, 11.5, 12.5, 15, 25) — target ≤3-4 per slide, drawn from the deck's declared type-scale tokens",
+  "STRETCHED THIN: slide 22 has a blank vertical channel spanning 36% of the slide width through its interior — spacing few items apart is the same emptiness as a dead band; enrich with a second column of substance (supporting panel, example, mini-diagram), merge with a neighbour, or record the quiet-register exception (frame-fill rule)",
+  "SIZE SPRAWL: slide 23 uses 5 distinct font sizes (9.5, 11.5, 12.5, 15, 25) — target ≤3-4 per slide, drawn from the deck's declared type-scale tokens",
+  "CROWDED: slide 24 occupancy 72% — role bands: cover 25-35 · exec/summary 45-60 · technical/dense 55-70; past ~70% the slide reads crowded — subtract or split, don't shrink",
+  "SIZE SPRAWL: slide 24 uses 5 distinct font sizes (9.5, 11.5, 12.5, 15, 25) — target ≤3-4 per slide, drawn from the deck's declared type-scale tokens",
+  "CROWDED: slide 25 occupancy 72% — role bands: cover 25-35 · exec/summary 45-60 · technical/dense 55-70; past ~70% the slide reads crowded — subtract or split, don't shrink",
+  "STRETCHED THIN: slide 26 has a blank vertical channel spanning 20% of the slide width through its interior — spacing few items apart is the same emptiness as a dead band; enrich with a second column of substance (supporting panel, example, mini-diagram), merge with a neighbour, or record the quiet-register exception (frame-fill rule)",
+  "CROWDED: slide 27 occupancy 72% — role bands: cover 25-35 · exec/summary 45-60 · technical/dense 55-70; past ~70% the slide reads crowded — subtract or split, don't shrink",
+  "SIZE SPRAWL: slide 27 uses 5 distinct font sizes (9.5, 11.5, 12.5, 15, 25) — target ≤3-4 per slide, drawn from the deck's declared type-scale tokens",
+  "HOLLOW FILL: slide 28 reads as 67% full but only 20% is content — the rest is a drawn container around ~11 words. Ask whether the FORM is right before touching the spacing: a frame this large is usually a diagram or panel carrying one sentence, and the cheap fix is to demote it (an annotation, a line in the list it sits beside) rather than to re-space it",
+  "SIZE SPRAWL: slide 29 uses 5 distinct font sizes (9.5, 11.5, 12.5, 15, 25) — target ≤3-4 per slide, drawn from the deck's declared type-scale tokens",
+  "CROWDED: slide 30 occupancy 72% — role bands: cover 25-35 · exec/summary 45-60 · technical/dense 55-70; past ~70% the slide reads crowded — subtract or split, don't shrink",
+  "SIZE SPRAWL: slide 30 uses 5 distinct font sizes (9.5, 11.5, 12.5, 15, 25) — target ≤3-4 per slide, drawn from the deck's declared type-scale tokens",
+  "STRETCHED THIN: slide 30 has a blank vertical channel spanning 32% of the slide width through its interior — spacing few items apart is the same emptiness as a dead band; enrich with a second column of substance (supporting panel, example, mini-diagram), merge with a neighbour, or record the quiet-register exception (frame-fill rule)",
+  "SIZE SPRAWL: slide 31 uses 5 distinct font sizes (9.5, 11.5, 12.5, 15, 25) — target ≤3-4 per slide, drawn from the deck's declared type-scale tokens",
+  "STRETCHED THIN: slide 32 has a blank vertical channel spanning 35% of the slide width through its interior — spacing few items apart is the same emptiness as a dead band; enrich with a second column of substance (supporting panel, example, mini-diagram), merge with a neighbour, or record the quiet-register exception (frame-fill rule)",
+  "SIZE SPRAWL: slide 33 uses 5 distinct font sizes (10, 13.5, 15, 24, 34) — target ≤3-4 per slide, drawn from the deck's declared type-scale tokens",
+  "CROWDED: slide 34 occupancy 70% — role bands: cover 25-35 · exec/summary 45-60 · technical/dense 55-70; past ~70% the slide reads crowded — subtract or split, don't shrink",
+  "SIZE SPRAWL: slide 34 uses 6 distinct font sizes (9.5, 11.5, 12.5, 15, 25, 34) — target ≤3-4 per slide, drawn from the deck's declared type-scale tokens",
+  "STRETCHED THIN: slide 35 has a blank vertical channel spanning 30% of the slide width through its interior — spacing few items apart is the same emptiness as a dead band; enrich with a second column of substance (supporting panel, example, mini-diagram), merge with a neighbour, or record the quiet-register exception (frame-fill rule)",
+  "SIZE SPRAWL: slide 36 uses 5 distinct font sizes (9.5, 11.5, 12.5, 15, 25) — target ≤3-4 per slide, drawn from the deck's declared type-scale tokens",
+  "STRETCHED THIN: slide 36 has a blank vertical channel spanning 25% of the slide width through its interior — spacing few items apart is the same emptiness as a dead band; enrich with a second column of substance (supporting panel, example, mini-diagram), merge with a neighbour, or record the quiet-register exception (frame-fill rule)",
+  "CROWDED: slide 37 occupancy 71% — role bands: cover 25-35 · exec/summary 45-60 · technical/dense 55-70; past ~70% the slide reads crowded — subtract or split, don't shrink",
+  "SIZE SPRAWL: slide 37 uses 5 distinct font sizes (9.5, 11.5, 12.5, 15, 25) — target ≤3-4 per slide, drawn from the deck's declared type-scale tokens",
+  "STRETCHED THIN: slide 39 has a blank vertical channel spanning 32% of the slide width through its interior — spacing few items apart is the same emptiness as a dead band; enrich with a second column of substance (supporting panel, example, mini-diagram), merge with a neighbour, or record the quiet-register exception (frame-fill rule)",
+  "CROWDED: slide 40 occupancy 72% — role bands: cover 25-35 · exec/summary 45-60 · technical/dense 55-70; past ~70% the slide reads crowded — subtract or split, don't shrink",
+  "HOLLOW FILL: slide 41 reads as 75% full but only 20% is content — the rest is a drawn container around ~12 words. Ask whether the FORM is right before touching the spacing: a frame this large is usually a diagram or panel carrying one sentence, and the cheap fix is to demote it (an annotation, a line in the list it sits beside) rather than to re-space it",
+  "SIZE SPRAWL: slide 42 uses 5 distinct font sizes (9.5, 11.5, 12.5, 15, 25) — target ≤3-4 per slide, drawn from the deck's declared type-scale tokens",
+  "SIZE SPRAWL: slide 43 uses 5 distinct font sizes (9.5, 11.5, 12.5, 15, 25) — target ≤3-4 per slide, drawn from the deck's declared type-scale tokens",
+  "CROWDED: slide 45 occupancy 72% — role bands: cover 25-35 · exec/summary 45-60 · technical/dense 55-70; past ~70% the slide reads crowded — subtract or split, don't shrink",
+  "SIZE SPRAWL: slide 45 uses 5 distinct font sizes (9.5, 11.5, 12.5, 15, 25) — target ≤3-4 per slide, drawn from the deck's declared type-scale tokens",
+  "SIZE SPRAWL: slide 46 uses 5 distinct font sizes (10, 13, 16, 17, 31) — target ≤3-4 per slide, drawn from the deck's declared type-scale tokens",
+  "RAGGED LEFT EDGE: slide 1 — '版本' starts at 0.62in and '180分钟 · 项目深化课' directly below it at 0.67in, 5px apart. Too small to read as an indent and too large to look aligned; snap them to one x, or indent deliberately (>0.12in) so it reads as a decision",
+  "ENVELOPE MONOCULTURE: 88% of interior slides end their content at the same height (~90% of the canvas) — the deck reads as one template even when forms vary. Let a statement slide stop high with real void, let a grounded slide ride the baseline (aim ~1/3 default / 1/3 upper / 1/3 low; declare deliberate ones with deckkit.design_intent)",
+  "CARD DOMINANCE: 36 of 45 content slides (slides 2, 3, 5, 7, 8, 9, 10, 11, 12, 14, 16, 17, 18, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 34, 35, 36, 37, 38, 39, 41, 42, 43, 44, 45, 46) carry their content in large solid panels/cards — the greedy default form; re-form the ones whose idea has a shape (ratio → proportional bar · flip → diagram · division → split · process → roadmap), don't just restyle the boxes",
+  "NO ICONS ON CATEGORY CONTENT: slides 1, 2, 3, 6, 7, 8, 11, 13, 14, 15, 17, 18, 21, 22, 23, 24, 27, 29, 30, 31, 36, 38, 39, 40, 42, 43, 44, 45, 46 carry parallel label sets (3+ short peers on one baseline across half the canvas — the shape of a category row) and the deck contains no icon-sized picture at all. On category-rich content an icon family is a design must, not a taste call (slide-design self-verify (g)). Build one (scripts/icons.py, one family, recolored to the palette), or record `icon_family: \"none — <why THESE slides read better without one>\"` in .deck-gates.json — the detector over-counts on tables and timelines, so this is a re-decision, not a verdict",
+  "BOTTOM-STRIP MONOCULTURE: 36 of 44 content slides (slides 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 17, 18, 20, 21, 22, 23, 24, 25, 26, 27, 29, 30, 31, 33, 34, 35, 36, 37, 40, 42, 43, 45) park a full-width strip in the bottom band — one takeaway slot stamped deck-wide reads as a template; rotate the slot (side rail · inline under the figure · the headline itself · none) so no slot carries more than ~half the deck (architecture-rotation rule)",
+  "SMALL TYPE: body-median 12pt is under the ~14pt floor for this 10.0in-wide canvas (≈18-22pt on a standard 13.3in slide) — a presented deck's body text must read from the back of the room; fewer words, bigger type",
+  "CJK TIGHT LEADING: slide(s) 9, 30, 46 have multi-line CJK paragraphs at ≤ single line spacing (≈≤1.2× font size) — CJK body wants ~1.3-1.45× font size, i.e. line_spacing ≈1.08-1.21; leave deckkit text()'s line_spacing unset to get the script-aware default (CJK_LS=1.12 ≈ 1.34×)"
+ ],
+ "deck": {
+  "body_median_pt": 12.0,
+  "type_drama": 3.33,
+  "size_tokens": 18,
+  "distinct_skeletons": 31,
+  "builds": 0,
+  "transitions": 0,
+  "avg_occupancy": 0.61,
+  "body_n": 44,
+  "sameness_codes": [
+   "CARD DOMINANCE",
+   "BOTTOM-STRIP MONOCULTURE",
+   "ENVELOPE MONOCULTURE"
+  ],
+  "timidity_codes": []
+ },
+ "per_slide": [
+  {
+   "slide": 1,
+   "load": 31,
+   "text_cov": 0.349,
+   "ink_cov": 0.386,
+   "max_pt": 34.0,
+   "n_shapes": 20,
+   "n_pic": 0,
+   "n_chart": 0,
+   "build": false,
+   "transition": false,
+   "size_clusters": [
+    10.0,
+    11.0,
+    14.0,
+    18.0,
+    34.0
+   ],
+   "notes_words": 18,
+   "notes": "今天不重新讲项目背景，而是检验产品能否真正跑起来。全课围绕三件事：链路、异常、迁移。",
+   "n_pic_fg": 0,
+   "content_bottom": 0.855,
+   "lum": 0.94,
+   "sat": 0.047,
+   "col_void": 0.115
+  },
+  {
+   "slide": 2,
+   "load": 41,
+   "text_cov": 0.404,
+   "ink_cov": 0.53,
+   "max_pt": 25.0,
+   "n_shapes": 30,
+   "n_pic": 0,
+   "n_chart": 0,
+   "build": false,
+   "transition": false,
+   "size_clusters": [
+    9.5,
+    11.5,
+    12.5,
+    15.0,
+    25.0
+   ],
+   "notes_words": 16,
+   "notes": "先从已有产品出发，检查运行链路；再进入异常决策；最后把方法迁移到新业务。",
+   "n_pic_fg": 0,
+   "content_bottom": 0.901,
+   "lum": 0.916,
+   "sat": 0.078,
+   "col_void": 0.25
+  },
+  {
+   "slide": 3,
+   "load": 53,
+   "text_cov": 0.475,
+   "ink_cov": 0.626,
+   "max_pt": 28.0,
+   "n_shapes": 31,
+   "n_pic": 0,
+   "n_chart": 0,
+   "build": false,
+   "transition": false,
+   "size_clusters": [
+    9.5,
+    11.5,
+    12.5,
+    15.0,
+    25.0,
+    28.0
+   ],
+   "notes_words": 17,
+   "notes": "让学员先判断：页面显示通过，是否就能发布？强调结论必须绑定版本、资料和角色。",
+   "n_pic_fg": 0,
+   "content_bottom": 0.901,
+   "lum": 0.954,
+   "sat": 0.03,
+   "col_void": 0.271
+  },
+  {
+   "slide": 4,
+   "load": 28,
+   "text_cov": 0.363,
+   "ink_cov": 0.434,
+   "max_pt": 34.0,
+   "n_shapes": 11,
+   "n_pic": 0,
+   "n_chart": 0,
+   "build": false,
+   "transition": false,
+   "size_clusters": [
+    10.0,
+    13.5,
+    15.0,
+    24.0,
+    34.0
+   ],
+   "notes_words": 16,
+   "notes": "第一节从页面出发，但不止讲页面。要把动作、对象、状态和承接角色完整连接。",
+   "n_pic_fg": 0,
+   "content_bottom": 0.882,
+   "lum": 0.172,
+   "sat": 0.697,
+   "col_void": 0.0
+  },
+  {
+   "slide": 5,
+   "load": 50,
+   "text_cov": 0.548,
+   "ink_cov": 0.703,
+   "max_pt": 36.0,
+   "n_shapes": 20,
+   "n_pic": 0,
+   "n_chart": 0,
+   "build": false,
+   "transition": false,
+   "size_clusters": [
+    9.5,
+    11.5,
+    12.5,
+    15.0,
+    25.0,
+    36.0
+   ],
+   "notes_words": 20,
+   "notes": "左边是常见误区：只列页面。右边是产品链路：每个动作都产生对象、改变状态并交给下一位角色。",
+   "n_pic_fg": 0,
+   "content_bottom": 0.901,
+   "lum": 0.965,
+   "sat": 0.02,
+   "col_void": 0.01
+  },
+  {
+   "slide": 6,
+   "load": 38,
+   "text_cov": 0.421,
+   "ink_cov": 0.52,
+   "max_pt": 31.0,
+   "n_shapes": 20,
+   "n_pic": 0,
+   "n_chart": 0,
+   "build": false,
+   "transition": false,
+   "size_clusters": [
+    9.5,
+    12.5,
+    16.0,
+    25.0,
+    30.0,
+    31.0
+   ],
+   "notes_words": 22,
+   "notes": "讲清动作不是按钮名，而是业务变化。用保存新稿举例：生成新版本、改变状态、把后续责任交给作者或审核员。",
+   "n_pic_fg": 0,
+   "content_bottom": 0.901,
+   "lum": 0.965,
+   "sat": 0.018,
+   "col_void": 0.01
+  },
+  {
+   "slide": 7,
+   "load": 65,
+   "text_cov": 0.531,
+   "ink_cov": 0.727,
+   "max_pt": 25.0,
+   "n_shapes": 33,
+   "n_pic": 0,
+   "n_chart": 0,
+   "build": false,
+   "transition": false,
+   "size_clusters": [
+    9.5,
+    11.5,
+    12.5,
+    15.0,
+    25.0
+   ],
+   "notes_words": 28,
+   "notes": "四类对象不能混成一个结果字段。内容版本承载正文；检查记录承载一次机器执行；正式任务承载业务决定；巡检任务承载上线后的维护。",
+   "n_pic_fg": 0,
+   "content_bottom": 0.901,
+   "lum": 0.964,
+   "sat": 0.02,
+   "col_void": 0.01
+  },
+  {
+   "slide": 8,
+   "load": 49,
+   "text_cov": 0.456,
+   "ink_cov": 0.714,
+   "max_pt": 25.0,
+   "n_shapes": 29,
+   "n_pic": 0,
+   "n_chart": 0,
+   "build": false,
+   "transition": false,
+   "size_clusters": [
+    9.5,
+    12.5,
+    14.0,
+    25.0
+   ],
+   "notes_words": 28,
+   "notes": "状态必须挂在正确对象上。内容版本已保存，不代表检查已完成；检查完成，不代表正式审核通过；审核通过，也不代表上线内容永远有效。",
+   "n_pic_fg": 0,
+   "content_bottom": 0.901,
+   "lum": 0.948,
+   "sat": 0.047,
+   "col_void": 0.49
+  },
+  {
+   "slide": 9,
+   "load": 41,
+   "text_cov": 0.304,
+   "ink_cov": 0.763,
+   "max_pt": 25.0,
+   "n_shapes": 24,
+   "n_pic": 1,
+   "n_chart": 0,
+   "build": false,
+   "transition": false,
+   "size_clusters": [
+    9.5,
+    12.0,
+    25.0
+   ],
+   "notes_words": 23,
+   "notes": "演示时依次展示：固定当前版本与上下文、发起检查、查看原句与建议、修改为新版本。强调自检是作者工作入口。",
+   "n_pic_fg": 1,
+   "content_bottom": 0.901,
+   "lum": 0.929,
+   "sat": 0.031,
+   "col_void": 0.177
+  },
+  {
+   "slide": 10,
+   "load": 45,
+   "text_cov": 0.492,
+   "ink_cov": 0.628,
+   "max_pt": 38.0,
+   "n_shapes": 20,
+   "n_pic": 0,
+   "n_chart": 0,
+   "build": false,
+   "transition": false,
+   "size_clusters": [
+    9.5,
+    11.5,
+    12.5,
+    15.0,
+    25.0,
+    38.0
+   ],
+   "notes_words": 25,
+   "notes": "讲清两个结论的责任主体不同。机器输出表示在当前输入和能力范围内未发现；正式通过是有权限角色做出的业务决定。",
+   "n_pic_fg": 0,
+   "content_bottom": 0.901,
+   "lum": 0.867,
+   "sat": 0.141,
+   "col_void": 0.448
+  },
+  {
+   "slide": 11,
+   "load": 49,
+   "text_cov": 0.392,
+   "ink_cov": 0.53,
+   "max_pt": 25.0,
+   "n_shapes": 36,
+   "n_pic": 0,
+   "n_chart": 0,
+   "build": false,
+   "transition": false,
+   "size_clusters": [
+    9.5,
+    11.5,
+    12.5,
+    15.0,
+    25.0
+   ],
+   "notes_words": 23,
+   "notes": "从作者提交V2开始演示。审核员核对原句、依据与上下文，退回后作者形成V3，再由审核员复核并作正式决定。",
+   "n_pic_fg": 0,
+   "content_bottom": 0.901,
+   "lum": 0.927,
+   "sat": 0.063,
+   "col_void": 0.135
+  },
+  {
+   "slide": 12,
+   "load": 55,
+   "text_cov": 0.603,
+   "ink_cov": 0.768,
+   "max_pt": 25.0,
+   "n_shapes": 19,
+   "n_pic": 0,
+   "n_chart": 0,
+   "build": false,
+   "transition": false,
+   "size_clusters": [
+    9.5,
+    11.5,
+    12.5,
+    15.0,
+    25.0
+   ],
+   "notes_words": 22,
+   "notes": "让学员不要把两个流程做成同一页面改个标题。自检服务于作者改稿；正式审核服务于有权限角色作决定。",
+   "n_pic_fg": 0,
+   "content_bottom": 0.901,
+   "lum": 0.965,
+   "sat": 0.02,
+   "col_void": 0.01
+  },
+  {
+   "slide": 13,
+   "load": 45,
+   "text_cov": 0.362,
+   "ink_cov": 0.476,
+   "max_pt": 25.0,
+   "n_shapes": 23,
+   "n_pic": 0,
+   "n_chart": 0,
+   "build": false,
+   "transition": false,
+   "size_clusters": [
+    9.5,
+    12.0,
+    17.0,
+    25.0
+   ],
+   "notes_words": 25,
+   "notes": "用时间线讲清旧结果迟到。V1发起检查后，作者保存V2；V1结果返回时只能归档到V1，V2仍需按规则重新检查。",
+   "n_pic_fg": 0,
+   "content_bottom": 0.901,
+   "lum": 0.952,
+   "sat": 0.038,
+   "col_void": 0.177
+  },
+  {
+   "slide": 14,
+   "load": 45,
+   "text_cov": 0.392,
+   "ink_cov": 0.53,
+   "max_pt": 25.0,
+   "n_shapes": 36,
+   "n_pic": 0,
+   "n_chart": 0,
+   "build": false,
+   "transition": false,
+   "size_clusters": [
+    9.5,
+    11.5,
+    12.5,
+    15.0,
+    25.0
+   ],
+   "notes_words": 21,
+   "notes": "演示资料失效、规则更新或活动条件变化后，系统怎样圈定受影响内容、生成批次、分派任务并跟踪处理。",
+   "n_pic_fg": 0,
+   "content_bottom": 0.901,
+   "lum": 0.927,
+   "sat": 0.062,
+   "col_void": 0.167
+  },
+  {
+   "slide": 15,
+   "load": 46,
+   "text_cov": 0.377,
+   "ink_cov": 0.464,
+   "max_pt": 25.0,
+   "n_shapes": 32,
+   "n_pic": 0,
+   "n_chart": 0,
+   "build": false,
+   "transition": false,
+   "size_clusters": [
+    9.5,
+    10.5,
+    12.5,
+    15.0,
+    25.0
+   ],
+   "notes_words": 20,
+   "notes": "这是第一节的关键页。强调发现问题不等于完成：必须明确在用位置、处理人、更新动作与复核结果。",
+   "n_pic_fg": 0,
+   "content_bottom": 0.901,
+   "lum": 0.943,
+   "sat": 0.047,
+   "col_void": 0.146
+  },
+  {
+   "slide": 16,
+   "load": 11,
+   "text_cov": 0.182,
+   "ink_cov": 0.715,
+   "max_pt": 25.0,
+   "n_shapes": 12,
+   "n_pic": 0,
+   "n_chart": 0,
+   "build": false,
+   "transition": false,
+   "size_clusters": [
+    9.5,
+    25.0
+   ],
+   "notes_words": 17,
+   "notes": "这张表用于检查原型是否可运行。每个动作都要写清对象、状态变化与下一责任人。",
+   "n_pic_fg": 0,
+   "content_bottom": 0.786,
+   "lum": 0.964,
+   "sat": 0.016,
+   "col_void": 0.01
+  },
+  {
+   "slide": 17,
+   "load": 57,
+   "text_cov": 0.549,
+   "ink_cov": 0.727,
+   "max_pt": 25.0,
+   "n_shapes": 22,
+   "n_pic": 0,
+   "n_chart": 0,
+   "build": false,
+   "transition": false,
+   "size_clusters": [
+    9.5,
+    11.5,
+    12.5,
+    15.0,
+    25.0
+   ],
+   "notes_words": 25,
+   "notes": "给两分钟讨论。参考处理：V2结果归档到V2；页面明确它不是当前版本；V3根据改动范围决定重跑全部或受影响项。",
+   "n_pic_fg": 0,
+   "content_bottom": 0.901,
+   "lum": 0.873,
+   "sat": 0.135,
+   "col_void": 0.25
+  },
+  {
+   "slide": 18,
+   "load": 40,
+   "text_cov": 0.493,
+   "ink_cov": 0.655,
+   "max_pt": 25.0,
+   "n_shapes": 28,
+   "n_pic": 0,
+   "n_chart": 0,
+   "build": false,
+   "transition": false,
+   "size_clusters": [
+    9.5,
+    11.5,
+    12.5,
+    15.0,
+    25.0
+   ],
+   "notes_words": 21,
+   "notes": "用三个问题收束：动作改了什么对象？对象进入什么状态？下一步由谁承接？如果答不出来，链路仍然断着。",
+   "n_pic_fg": 0,
+   "content_bottom": 0.901,
+   "lum": 0.961,
+   "sat": 0.022,
+   "col_void": 0.01
+  },
+  {
+   "slide": 19,
+   "load": 17,
+   "text_cov": 0.269,
+   "ink_cov": 0.269,
+   "max_pt": 40.0,
+   "n_shapes": 4,
+   "n_pic": 0,
+   "n_chart": 0,
+   "build": false,
+   "transition": false,
+   "size_clusters": [
+    13.0,
+    17.0,
+    40.0
+   ],
+   "notes_words": 8,
+   "notes": "休息十分钟。回来进入异常处理部分。",
+   "n_pic_fg": 0,
+   "content_bottom": 0.734,
+   "lum": 0.154,
+   "sat": 0.685,
+   "col_void": 0.354
+  },
+  {
+   "slide": 20,
+   "load": 32,
+   "text_cov": 0.363,
+   "ink_cov": 0.434,
+   "max_pt": 34.0,
+   "n_shapes": 11,
+   "n_pic": 0,
+   "n_chart": 0,
+   "build": false,
+   "transition": false,
+   "size_clusters": [
+    10.0,
+    13.5,
+    15.0,
+    24.0,
+    34.0
+   ],
+   "notes_words": 18,
+   "notes": "第二节不讲报错文案，而是讲系统遇到不确定性时怎样分流、怎样交接、怎样保护业务。",
+   "n_pic_fg": 0,
+   "content_bottom": 0.882,
+   "lum": 0.172,
+   "sat": 0.697,
+   "col_void": 0.0
+  },
+  {
+   "slide": 21,
+   "load": 45,
+   "text_cov": 0.452,
+   "ink_cov": 0.649,
+   "max_pt": 25.0,
+   "n_shapes": 45,
+   "n_pic": 0,
+   "n_chart": 0,
+   "build": false,
+   "transition": false,
+   "size_clusters": [
+    9.5,
+    12.5,
+    15.0,
+    25.0
+   ],
+   "notes_words": 20,
+   "notes": "这八项是课堂统一分析框架：触发、影响、可见、状态、动作、责任、记录、恢复。后续五个案例都按它分析。",
+   "n_pic_fg": 0,
+   "content_bottom": 0.901,
+   "lum": 0.964,
+   "sat": 0.02,
+   "col_void": 0.01
+  },
+  {
+   "slide": 22,
+   "load": 59,
+   "text_cov": 0.558,
+   "ink_cov": 0.742,
+   "max_pt": 25.0,
+   "n_shapes": 25,
+   "n_pic": 0,
+   "n_chart": 0,
+   "build": false,
+   "transition": false,
+   "size_clusters": [
+    9.5,
+    11.5,
+    12.5,
+    15.0,
+    25.0
+   ],
+   "notes_words": 21,
+   "notes": "缺资料时不应编造完整结论。系统要明确缺什么、影响哪些检查项，并把补充或确认动作交给对应角色。",
+   "n_pic_fg": 0,
+   "content_bottom": 0.901,
+   "lum": 0.893,
+   "sat": 0.114,
+   "col_void": 0.365
+  },
+  {
+   "slide": 23,
+   "load": 47,
+   "text_cov": 0.392,
+   "ink_cov": 0.53,
+   "max_pt": 25.0,
+   "n_shapes": 36,
+   "n_pic": 0,
+   "n_chart": 0,
+   "build": false,
+   "transition": false,
+   "size_clusters": [
+    9.5,
+    11.5,
+    12.5,
+    15.0,
+    25.0
+   ],
+   "notes_words": 21,
+   "notes": "模型超时不代表整次任务毫无价值。可保留已完成项，对失败项标记状态，并提供重试、降级或人工补核。",
+   "n_pic_fg": 0,
+   "content_bottom": 0.901,
+   "lum": 0.926,
+   "sat": 0.069,
+   "col_void": 0.167
+  },
+  {
+   "slide": 24,
+   "load": 55,
+   "text_cov": 0.57,
+   "ink_cov": 0.722,
+   "max_pt": 25.0,
+   "n_shapes": 22,
+   "n_pic": 0,
+   "n_chart": 0,
+   "build": false,
+   "transition": false,
+   "size_clusters": [
+    9.5,
+    11.5,
+    12.5,
+    15.0,
+    25.0
+   ],
+   "notes_words": 22,
+   "notes": "这页把第一节练习升级为异常策略。页面要显示版本标签和过期提示，状态层不能把旧结果写到当前稿。",
+   "n_pic_fg": 0,
+   "content_bottom": 0.901,
+   "lum": 0.961,
+   "sat": 0.026,
+   "col_void": 0.01
+  },
+  {
+   "slide": 25,
+   "load": 25,
+   "text_cov": 0.228,
+   "ink_cov": 0.721,
+   "max_pt": 25.0,
+   "n_shapes": 14,
+   "n_pic": 0,
+   "n_chart": 0,
+   "build": false,
+   "transition": false,
+   "size_clusters": [
+    9.5,
+    12.5,
+    25.0
+   ],
+   "notes_words": 20,
+   "notes": "规则适合明确条件，模型适合理解表达。冲突时先区分规则级别，再决定是否阻断、提示或转人工。",
+   "n_pic_fg": 0,
+   "content_bottom": 0.901,
+   "lum": 0.962,
+   "sat": 0.018,
+   "col_void": 0.01
+  },
+  {
+   "slide": 26,
+   "load": 46,
+   "text_cov": 0.397,
+   "ink_cov": 0.562,
+   "max_pt": 25.0,
+   "n_shapes": 23,
+   "n_pic": 0,
+   "n_chart": 0,
+   "build": false,
+   "transition": false,
+   "size_clusters": [
+    9.5,
+    11.5,
+    15.0,
+    25.0
+   ],
+   "notes_words": 19,
+   "notes": "带学员按树判断：硬规则优先阻断；条件性规则展示冲突并转确认；建议型规则保留双方说明。",
+   "n_pic_fg": 0,
+   "content_bottom": 0.901,
+   "lum": 0.931,
+   "sat": 0.059,
+   "col_void": 0.198
+  },
+  {
+   "slide": 27,
+   "load": 63,
+   "text_cov": 0.567,
+   "ink_cov": 0.722,
+   "max_pt": 25.0,
+   "n_shapes": 22,
+   "n_pic": 0,
+   "n_chart": 0,
+   "build": false,
+   "transition": false,
+   "size_clusters": [
+    9.5,
+    11.5,
+    12.5,
+    15.0,
+    25.0
+   ],
+   "notes_words": 22,
+   "notes": "分别讨论作者不同意、审核员怀疑资料、巡检无人处理。每种争议都要明确谁能提出、谁能确认、谁必须继续。",
+   "n_pic_fg": 0,
+   "content_bottom": 0.901,
+   "lum": 0.96,
+   "sat": 0.023,
+   "col_void": 0.01
+  },
+  {
+   "slide": 28,
+   "load": 11,
+   "text_cov": 0.182,
+   "ink_cov": 0.672,
+   "max_pt": 25.0,
+   "n_shapes": 12,
+   "n_pic": 0,
+   "n_chart": 0,
+   "build": false,
+   "transition": false,
+   "size_clusters": [
+    9.5,
+    25.0
+   ],
+   "notes_words": 24,
+   "notes": "用矩阵确认角色边界。作者能改稿和发起；审核员能退回与正式决定；资料负责人确认资料；内容负责人处理在用内容。",
+   "n_pic_fg": 0,
+   "content_bottom": 0.756,
+   "lum": 0.964,
+   "sat": 0.016,
+   "col_void": 0.021
+  },
+  {
+   "slide": 29,
+   "load": 49,
+   "text_cov": 0.504,
+   "ink_cov": 0.69,
+   "max_pt": 25.0,
+   "n_shapes": 38,
+   "n_pic": 0,
+   "n_chart": 0,
+   "build": false,
+   "transition": false,
+   "size_clusters": [
+    9.5,
+    11.5,
+    12.5,
+    15.0,
+    25.0
+   ],
+   "notes_words": 17,
+   "notes": "异常处理不是默认重试。根据影响与可恢复性选择继续、重试、降级、转人工或停止。",
+   "n_pic_fg": 0,
+   "content_bottom": 0.901,
+   "lum": 0.957,
+   "sat": 0.032,
+   "col_void": 0.01
+  },
+  {
+   "slide": 30,
+   "load": 61,
+   "text_cov": 0.58,
+   "ink_cov": 0.722,
+   "max_pt": 25.0,
+   "n_shapes": 22,
+   "n_pic": 0,
+   "n_chart": 0,
+   "build": false,
+   "transition": false,
+   "size_clusters": [
+    9.5,
+    11.5,
+    12.5,
+    15.0,
+    25.0
+   ],
+   "notes_words": 29,
+   "notes": "题目：系统认为“65℃热水直接拖地”对象不一致，作者不同意。作者需要说明与改稿；审核员需要比较材料并决定；资料负责人需要确认原始说法。",
+   "n_pic_fg": 0,
+   "content_bottom": 0.901,
+   "lum": 0.881,
+   "sat": 0.126,
+   "col_void": 0.323
+  },
+  {
+   "slide": 31,
+   "load": 45,
+   "text_cov": 0.382,
+   "ink_cov": 0.53,
+   "max_pt": 25.0,
+   "n_shapes": 36,
+   "n_pic": 0,
+   "n_chart": 0,
+   "build": false,
+   "transition": false,
+   "size_clusters": [
+    9.5,
+    11.5,
+    12.5,
+    15.0,
+    25.0
+   ],
+   "notes_words": 21,
+   "notes": "异常页面要让用户看见影响、知道下一步、找到承接人，并让系统留下状态。这样才能恢复，而不是卡死。",
+   "n_pic_fg": 0,
+   "content_bottom": 0.901,
+   "lum": 0.928,
+   "sat": 0.062,
+   "col_void": 0.167
+  },
+  {
+   "slide": 32,
+   "load": 17,
+   "text_cov": 0.269,
+   "ink_cov": 0.269,
+   "max_pt": 40.0,
+   "n_shapes": 4,
+   "n_pic": 0,
+   "n_chart": 0,
+   "build": false,
+   "transition": false,
+   "size_clusters": [
+    13.0,
+    17.0,
+    40.0
+   ],
+   "notes_words": 7,
+   "notes": "休息十分钟。回来进入跨场景迁移。",
+   "n_pic_fg": 0,
+   "content_bottom": 0.734,
+   "lum": 0.157,
+   "sat": 0.682,
+   "col_void": 0.354
+  },
+  {
+   "slide": 33,
+   "load": 32,
+   "text_cov": 0.363,
+   "ink_cov": 0.434,
+   "max_pt": 34.0,
+   "n_shapes": 11,
+   "n_pic": 0,
+   "n_chart": 0,
+   "build": false,
+   "transition": false,
+   "size_clusters": [
+    10.0,
+    13.5,
+    15.0,
+    24.0,
+    34.0
+   ],
+   "notes_words": 19,
+   "notes": "第三节用合同审核作为母案例，提取通用方法，再现场迁移到客服质检、招聘、报销和金融营销。",
+   "n_pic_fg": 0,
+   "content_bottom": 0.882,
+   "lum": 0.172,
+   "sat": 0.697,
+   "col_void": 0.0
+  },
+  {
+   "slide": 34,
+   "load": 51,
+   "text_cov": 0.542,
+   "ink_cov": 0.702,
+   "max_pt": 34.0,
+   "n_shapes": 20,
+   "n_pic": 0,
+   "n_chart": 0,
+   "build": false,
+   "transition": false,
+   "size_clusters": [
+    9.5,
+    11.5,
+    12.5,
+    15.0,
+    25.0,
+    34.0
+   ],
+   "notes_words": 20,
+   "notes": "左边是表面换皮，右边是结构迁移。要重新定义最终决定、所需输入、人工分工、边界条件与企业连接。",
+   "n_pic_fg": 0,
+   "content_bottom": 0.901,
+   "lum": 0.951,
+   "sat": 0.036,
+   "col_void": 0.01
+  },
+  {
+   "slide": 35,
+   "load": 36,
+   "text_cov": 0.41,
+   "ink_cov": 0.592,
+   "max_pt": 25.0,
+   "n_shapes": 21,
+   "n_pic": 0,
+   "n_chart": 0,
+   "build": false,
+   "transition": false,
+   "size_clusters": [
+    9.5,
+    12.5,
+    25.0
+   ],
+   "notes_words": 24,
+   "notes": "不要做万能合同助手。首版可限定合同类型、审查角色、条款类别和输出方式，例如销售合同中的付款、交付与违约条款。",
+   "n_pic_fg": 0,
+   "content_bottom": 0.901,
+   "lum": 0.941,
+   "sat": 0.05,
+   "col_void": 0.302
+  },
+  {
+   "slide": 36,
+   "load": 46,
+   "text_cov": 0.404,
+   "ink_cov": 0.53,
+   "max_pt": 25.0,
+   "n_shapes": 30,
+   "n_pic": 0,
+   "n_chart": 0,
+   "build": false,
+   "transition": false,
+   "size_clusters": [
+    9.5,
+    11.5,
+    12.5,
+    15.0,
+    25.0
+   ],
+   "notes_words": 29,
+   "notes": "合同案例最终不是给一个风险分数，而是给问题条款、风险类型、参考规则、修改建议与人工确认项。由此反推合同正文、模板、规则与业务背景。",
+   "n_pic_fg": 0,
+   "content_bottom": 0.901,
+   "lum": 0.916,
+   "sat": 0.078,
+   "col_void": 0.25
+  },
+  {
+   "slide": 37,
+   "load": 52,
+   "text_cov": 0.562,
+   "ink_cov": 0.707,
+   "max_pt": 25.0,
+   "n_shapes": 19,
+   "n_pic": 0,
+   "n_chart": 0,
+   "build": false,
+   "transition": false,
+   "size_clusters": [
+    9.5,
+    11.5,
+    12.5,
+    15.0,
+    25.0
+   ],
+   "notes_words": 23,
+   "notes": "这个比喻用于限定能力。模型可快速定位与对照，但企业事实、非标交易安排和最终风险接受仍需有权角色确认。",
+   "n_pic_fg": 0,
+   "content_bottom": 0.901,
+   "lum": 0.965,
+   "sat": 0.02,
+   "col_void": 0.01
+  },
+  {
+   "slide": 38,
+   "load": 46,
+   "text_cov": 0.449,
+   "ink_cov": 0.588,
+   "max_pt": 25.0,
+   "n_shapes": 30,
+   "n_pic": 0,
+   "n_chart": 0,
+   "build": false,
+   "transition": false,
+   "size_clusters": [
+    9.5,
+    11.5,
+    15.0,
+    25.0
+   ],
+   "notes_words": 20,
+   "notes": "一条处理条款识别，一条处理规则或模板对照，一条处理业务条件。三路结果汇合后交给法务确认。",
+   "n_pic_fg": 0,
+   "content_bottom": 0.75,
+   "lum": 0.862,
+   "sat": 0.154,
+   "col_void": 0.24
+  },
+  {
+   "slide": 39,
+   "load": 57,
+   "text_cov": 0.541,
+   "ink_cov": 0.646,
+   "max_pt": 25.0,
+   "n_shapes": 20,
+   "n_pic": 0,
+   "n_chart": 0,
+   "build": false,
+   "transition": false,
+   "size_clusters": [
+    9.5,
+    11.5,
+    15.0,
+    25.0
+   ],
+   "notes_words": 21,
+   "notes": "边界包括扫描件、附件、跨条款引用、未知模板与复杂交易。连接包括合同库、模板库、权限、流程与历史版本。",
+   "n_pic_fg": 0,
+   "content_bottom": 0.764,
+   "lum": 0.863,
+   "sat": 0.15,
+   "col_void": 0.323
+  },
+  {
+   "slide": 40,
+   "load": 64,
+   "text_cov": 0.537,
+   "ink_cov": 0.722,
+   "max_pt": 25.0,
+   "n_shapes": 63,
+   "n_pic": 0,
+   "n_chart": 0,
+   "build": false,
+   "transition": false,
+   "size_clusters": [
+    9.5,
+    12.0,
+    25.0
+   ],
+   "notes_words": 30,
+   "notes": "这是全课的峰值页。按顺序讲十一项：业务问题、首版范围、最终输出、人工流程、输入材料、判断任务、能力验证、系统流程、边界条件、角色权限、企业连接。",
+   "n_pic_fg": 0,
+   "content_bottom": 0.901,
+   "lum": 0.925,
+   "sat": 0.071,
+   "col_void": 0.177
+  },
+  {
+   "slide": 41,
+   "load": 12,
+   "text_cov": 0.182,
+   "ink_cov": 0.747,
+   "max_pt": 25.0,
+   "n_shapes": 12,
+   "n_pic": 0,
+   "n_chart": 0,
+   "build": false,
+   "transition": false,
+   "size_clusters": [
+    9.5,
+    25.0
+   ],
+   "notes_words": 29,
+   "notes": "逐列映射而非直接复制。合同条款对应客服对话片段；法务规则对应服务规范；法务确认对应质检员复核；合同流程回写对应坐席整改与复训。",
+   "n_pic_fg": 0,
+   "content_bottom": 0.807,
+   "lum": 0.964,
+   "sat": 0.016,
+   "col_void": 0.01
+  },
+  {
+   "slide": 42,
+   "load": 49,
+   "text_cov": 0.382,
+   "ink_cov": 0.53,
+   "max_pt": 25.0,
+   "n_shapes": 36,
+   "n_pic": 0,
+   "n_chart": 0,
+   "build": false,
+   "transition": false,
+   "size_clusters": [
+    9.5,
+    11.5,
+    12.5,
+    15.0,
+    25.0
+   ],
+   "notes_words": 25,
+   "notes": "展示完整链路：会话输入后，分别检查服务规范、事实准确和沟通质量，汇总问题后交质检员确认，再进入申诉、整改或复训。",
+   "n_pic_fg": 0,
+   "content_bottom": 0.901,
+   "lum": 0.927,
+   "sat": 0.062,
+   "col_void": 0.167
+  },
+  {
+   "slide": 43,
+   "load": 61,
+   "text_cov": 0.449,
+   "ink_cov": 0.662,
+   "max_pt": 25.0,
+   "n_shapes": 31,
+   "n_pic": 0,
+   "n_chart": 0,
+   "build": false,
+   "transition": false,
+   "size_clusters": [
+    9.5,
+    11.5,
+    12.5,
+    15.0,
+    25.0
+   ],
+   "notes_words": 25,
+   "notes": "每组选择招聘信息、发票报销或金融营销材料，在十二分钟内完成六个关键问题，并用两分钟说明首版范围与人工接点。",
+   "n_pic_fg": 0,
+   "content_bottom": 0.901,
+   "lum": 0.964,
+   "sat": 0.02,
+   "col_void": 0.01
+  },
+  {
+   "slide": 44,
+   "load": 67,
+   "text_cov": 0.572,
+   "ink_cov": 0.688,
+   "max_pt": 25.0,
+   "n_shapes": 26,
+   "n_pic": 0,
+   "n_chart": 0,
+   "build": false,
+   "transition": false,
+   "size_clusters": [
+    9.5,
+    11.5,
+    15.0,
+    25.0
+   ],
+   "notes_words": 26,
+   "notes": "快速展开三个案例。招聘信息关注歧视性与承诺；发票报销关注真伪、制度与重复；金融营销关注适当性、风险披露与限制性表述。",
+   "n_pic_fg": 0,
+   "content_bottom": 0.768,
+   "lum": 0.962,
+   "sat": 0.021,
+   "col_void": 0.031
+  },
+  {
+   "slide": 45,
+   "load": 48,
+   "text_cov": 0.512,
+   "ink_cov": 0.721,
+   "max_pt": 25.0,
+   "n_shapes": 38,
+   "n_pic": 0,
+   "n_chart": 0,
+   "build": false,
+   "transition": false,
+   "size_clusters": [
+    9.5,
+    11.5,
+    12.5,
+    15.0,
+    25.0
+   ],
+   "notes_words": 26,
+   "notes": "点评不比页面数量。看业务范围是否清楚、输入是否支持输出、人工决定点是否合理、异常是否可恢复、结果是否进入真实流程。",
+   "n_pic_fg": 0,
+   "content_bottom": 0.901,
+   "lum": 0.917,
+   "sat": 0.079,
+   "col_void": 0.177
+  },
+  {
+   "slide": 46,
+   "load": 48,
+   "text_cov": 0.521,
+   "ink_cov": 0.647,
+   "max_pt": 31.0,
+   "n_shapes": 14,
+   "n_pic": 0,
+   "n_chart": 0,
+   "build": false,
+   "transition": false,
+   "size_clusters": [
+    10.0,
+    13.0,
+    16.0,
+    17.0,
+    31.0
+   ],
+   "notes_words": 18,
+   "notes": "请学员把一页方案作为课后产出。最后用四个条件自检：对象、状态、异常承接和业务闭环。",
+   "n_pic_fg": 0,
+   "content_bottom": 0.901,
+   "lum": 0.192,
+   "sat": 0.688,
+   "col_void": 0.021
+  }
+ ],
+ "counts": {
+  "findings": 338,
+  "warnings": 70
+ },
+ "pixel_checks": {
+  "ran": true,
+  "reason": null,
+  "not_checked": []
+ }
+}

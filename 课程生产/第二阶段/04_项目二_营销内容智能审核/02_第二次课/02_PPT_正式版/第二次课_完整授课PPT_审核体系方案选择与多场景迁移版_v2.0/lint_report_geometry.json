@@ -1,0 +1,1501 @@
+{
+ "file": "第二次课_完整授课PPT_审核体系方案选择与多场景迁移版_v2.0.pptx",
+ "mode": "presented",
+ "findings": [],
+ "warnings": [
+  {
+   "slide": 2,
+   "text": "READING ORDER: the title is not first in shape order — screen readers read z-order; reorder so the title is added first",
+   "severity": "warning"
+  },
+  {
+   "slide": 3,
+   "text": "BODY CONTRAST: '笼统需求不能直接进入模型，也不能直接进入研发。' ink #D85C3D on fill #F8E8E2 — 3.20:1 (body-size text targets >=4.5:1; large/bold text may sit here)",
+   "severity": "warning"
+  },
+  {
+   "slide": 3,
+   "text": "READING ORDER: the title is not first in shape order — screen readers read z-order; reorder so the title is added first",
+   "severity": "warning"
+  },
+  {
+   "slide": 4,
+   "text": "READING ORDER: the title is not first in shape order — screen readers read z-order; reorder so the title is added first",
+   "severity": "warning"
+  },
+  {
+   "slide": 4,
+   "text": "NON-TEXT CONTRAST: icon/chip #617673 on #102F30 — 2.95:1 (<3:1, WCAG 1.4.11); essential icons/lines need more contrast",
+   "severity": "warning"
+  },
+  {
+   "slide": 5,
+   "text": "READING ORDER: the title is not first in shape order — screen readers read z-order; reorder so the title is added first",
+   "severity": "warning"
+  },
+  {
+   "slide": 6,
+   "text": "READING ORDER: the title is not first in shape order — screen readers read z-order; reorder so the title is added first",
+   "severity": "warning"
+  },
+  {
+   "slide": 7,
+   "text": "READING ORDER: the title is not first in shape order — screen readers read z-order; reorder so the title is added first",
+   "severity": "warning"
+  },
+  {
+   "slide": 8,
+   "text": "READING ORDER: the title is not first in shape order — screen readers read z-order; reorder so the title is added first",
+   "severity": "warning"
+  },
+  {
+   "slide": 9,
+   "text": "READING ORDER: the title is not first in shape order — screen readers read z-order; reorder so the title is added first",
+   "severity": "warning"
+  },
+  {
+   "slide": 10,
+   "text": "READING ORDER: the title is not first in shape order — screen readers read z-order; reorder so the title is added first",
+   "severity": "warning"
+  },
+  {
+   "slide": 11,
+   "text": "READING ORDER: the title is not first in shape order — screen readers read z-order; reorder so the title is added first",
+   "severity": "warning"
+  },
+  {
+   "slide": 12,
+   "text": "READING ORDER: the title is not first in shape order — screen readers read z-order; reorder so the title is added first",
+   "severity": "warning"
+  },
+  {
+   "slide": 13,
+   "text": "READING ORDER: the title is not first in shape order — screen readers read z-order; reorder so the title is added first",
+   "severity": "warning"
+  },
+  {
+   "slide": 14,
+   "text": "BODY CONTRAST: '执行未完成' ink #D85C3D on fill #F8E8E2 — 3.20:1 (body-size text targets >=4.5:1; large/bold text may sit here)",
+   "severity": "warning"
+  },
+  {
+   "slide": 14,
+   "text": "BODY CONTRAST: '系统没做完检查，不等于没有发现问题。' ink #D85C3D on fill #F8E8E2 — 3.20:1 (body-size text targets >=4.5:1; large/bold text may sit here)",
+   "severity": "warning"
+  },
+  {
+   "slide": 14,
+   "text": "READING ORDER: the title is not first in shape order — screen readers read z-order; reorder so the title is added first",
+   "severity": "warning"
+  },
+  {
+   "slide": 15,
+   "text": "READING ORDER: the title is not first in shape order — screen readers read z-order; reorder so the title is added first",
+   "severity": "warning"
+  },
+  {
+   "slide": 16,
+   "text": "READING ORDER: the title is not first in shape order — screen readers read z-order; reorder so the title is added first",
+   "severity": "warning"
+  },
+  {
+   "slide": 18,
+   "text": "READING ORDER: the title is not first in shape order — screen readers read z-order; reorder so the title is added first",
+   "severity": "warning"
+  },
+  {
+   "slide": 18,
+   "text": "NON-TEXT CONTRAST: icon/chip #617673 on #102F30 — 2.95:1 (<3:1, WCAG 1.4.11); essential icons/lines need more contrast",
+   "severity": "warning"
+  },
+  {
+   "slide": 19,
+   "text": "READING ORDER: the title is not first in shape order — screen readers read z-order; reorder so the title is added first",
+   "severity": "warning"
+  },
+  {
+   "slide": 20,
+   "text": "READING ORDER: the title is not first in shape order — screen readers read z-order; reorder so the title is added first",
+   "severity": "warning"
+  },
+  {
+   "slide": 21,
+   "text": "READING ORDER: the title is not first in shape order — screen readers read z-order; reorder so the title is added first",
+   "severity": "warning"
+  },
+  {
+   "slide": 22,
+   "text": "READING ORDER: the title is not first in shape order — screen readers read z-order; reorder so the title is added first",
+   "severity": "warning"
+  },
+  {
+   "slide": 23,
+   "text": "READING ORDER: the title is not first in shape order — screen readers read z-order; reorder so the title is added first",
+   "severity": "warning"
+  },
+  {
+   "slide": 24,
+   "text": "READING ORDER: the title is not first in shape order — screen readers read z-order; reorder so the title is added first",
+   "severity": "warning"
+  },
+  {
+   "slide": 25,
+   "text": "BODY CONTRAST: '范围不完整时，不能宣称已经查全。' ink #D85C3D on fill #F8E8E2 — 3.20:1 (body-size text targets >=4.5:1; large/bold text may sit here)",
+   "severity": "warning"
+  },
+  {
+   "slide": 25,
+   "text": "READING ORDER: the title is not first in shape order — screen readers read z-order; reorder so the title is added first",
+   "severity": "warning"
+  },
+  {
+   "slide": 26,
+   "text": "READING ORDER: the title is not first in shape order — screen readers read z-order; reorder so the title is added first",
+   "severity": "warning"
+  },
+  {
+   "slide": 27,
+   "text": "READING ORDER: the title is not first in shape order — screen readers read z-order; reorder so the title is added first",
+   "severity": "warning"
+  },
+  {
+   "slide": 28,
+   "text": "READING ORDER: the title is not first in shape order — screen readers read z-order; reorder so the title is added first",
+   "severity": "warning"
+  },
+  {
+   "slide": 29,
+   "text": "BODY CONTRAST: '真实冲突' ink #D85C3D on fill #F8E8E2 — 3.20:1 (body-size text targets >=4.5:1; large/bold text may sit here)",
+   "severity": "warning"
+  },
+  {
+   "slide": 29,
+   "text": "READING ORDER: the title is not first in shape order — screen readers read z-order; reorder so the title is added first",
+   "severity": "warning"
+  },
+  {
+   "slide": 30,
+   "text": "BODY CONTRAST: '失败项不能被静默计入通过。' ink #D85C3D on fill #F8E8E2 — 3.20:1 (body-size text targets >=4.5:1; large/bold text may sit here)",
+   "severity": "warning"
+  },
+  {
+   "slide": 30,
+   "text": "READING ORDER: the title is not first in shape order — screen readers read z-order; reorder so the title is added first",
+   "severity": "warning"
+  },
+  {
+   "slide": 31,
+   "text": "READING ORDER: the title is not first in shape order — screen readers read z-order; reorder so the title is added first",
+   "severity": "warning"
+  },
+  {
+   "slide": 32,
+   "text": "READING ORDER: the title is not first in shape order — screen readers read z-order; reorder so the title is added first",
+   "severity": "warning"
+  },
+  {
+   "slide": 34,
+   "text": "READING ORDER: the title is not first in shape order — screen readers read z-order; reorder so the title is added first",
+   "severity": "warning"
+  },
+  {
+   "slide": 34,
+   "text": "NON-TEXT CONTRAST: icon/chip #617673 on #102F30 — 2.95:1 (<3:1, WCAG 1.4.11); essential icons/lines need more contrast",
+   "severity": "warning"
+  },
+  {
+   "slide": 35,
+   "text": "BODY CONTRAST: '不做' ink #D85C3D on fill #F8E8E2 — 3.20:1 (body-size text targets >=4.5:1; large/bold text may sit here)",
+   "severity": "warning"
+  },
+  {
+   "slide": 35,
+   "text": "READING ORDER: the title is not first in shape order — screen readers read z-order; reorder so the title is added first",
+   "severity": "warning"
+  },
+  {
+   "slide": 36,
+   "text": "READING ORDER: the title is not first in shape order — screen readers read z-order; reorder so the title is added first",
+   "severity": "warning"
+  },
+  {
+   "slide": 37,
+   "text": "READING ORDER: the title is not first in shape order — screen readers read z-order; reorder so the title is added first",
+   "severity": "warning"
+  },
+  {
+   "slide": 38,
+   "text": "READING ORDER: the title is not first in shape order — screen readers read z-order; reorder so the title is added first",
+   "severity": "warning"
+  },
+  {
+   "slide": 39,
+   "text": "READING ORDER: the title is not first in shape order — screen readers read z-order; reorder so the title is added first",
+   "severity": "warning"
+  },
+  {
+   "slide": 40,
+   "text": "READING ORDER: the title is not first in shape order — screen readers read z-order; reorder so the title is added first",
+   "severity": "warning"
+  },
+  {
+   "slide": 41,
+   "text": "READING ORDER: the title is not first in shape order — screen readers read z-order; reorder so the title is added first",
+   "severity": "warning"
+  },
+  {
+   "slide": 42,
+   "text": "READING ORDER: the title is not first in shape order — screen readers read z-order; reorder so the title is added first",
+   "severity": "warning"
+  },
+  {
+   "slide": 43,
+   "text": "READING ORDER: the title is not first in shape order — screen readers read z-order; reorder so the title is added first",
+   "severity": "warning"
+  },
+  {
+   "slide": 44,
+   "text": "READING ORDER: the title is not first in shape order — screen readers read z-order; reorder so the title is added first",
+   "severity": "warning"
+  },
+  {
+   "slide": 45,
+   "text": "READING ORDER: the title is not first in shape order — screen readers read z-order; reorder so the title is added first",
+   "severity": "warning"
+  },
+  {
+   "slide": 46,
+   "text": "READING ORDER: the title is not first in shape order — screen readers read z-order; reorder so the title is added first",
+   "severity": "warning"
+  },
+  {
+   "slide": 47,
+   "text": "READING ORDER: the title is not first in shape order — screen readers read z-order; reorder so the title is added first",
+   "severity": "warning"
+  },
+  {
+   "slide": 48,
+   "text": "READING ORDER: the title is not first in shape order — screen readers read z-order; reorder so the title is added first",
+   "severity": "warning"
+  },
+  {
+   "slide": 17,
+   "text": "DUPLICATE SLIDE TITLES: slides 17, 33 share the title '休息 10 分钟' — screen readers navigate by title; make each unique",
+   "severity": "warning"
+  },
+  {
+   "slide": 11,
+   "text": "UNSOURCED NUMBER: 1799元 appear(s) only here, with no source on the slide or in its notes, and nowhere else in the deck is a source stated for them — add deckkit.source_note(), or cite it in the speaker notes. If the attribution is already in prose here, this is a false alarm; if you cannot name where the figure came from, that is the actual problem",
+   "severity": "warning"
+  },
+  {
+   "slide": 45,
+   "text": "UNSOURCED NUMBER: 6% appear(s) only here, with no source on the slide or in its notes, and nowhere else in the deck is a source stated for them — add deckkit.source_note(), or cite it in the speaker notes. If the attribution is already in prose here, this is a false alarm; if you cannot name where the figure came from, that is the actual problem",
+   "severity": "warning"
+  },
+  {
+   "slide": 0,
+   "text": "SCALE DRIFT: the deck declares body=13.5pt, but the size carrying the most text is 11pt (21% of the explicitly-sized text) — either the declared scale is fiction or the build drifted off it; they cannot both be right",
+   "severity": "warning"
+  }
+ ],
+ "stats_warnings": [
+  "SIZE SPRAWL: slide 1 uses 5 distinct font sizes (9.5, 11, 14, 18, 35) — target ≤3-4 per slide, drawn from the deck's declared type-scale tokens",
+  "SIZE SPRAWL: slide 2 uses 5 distinct font sizes (9.5, 11, 12, 14, 24) — target ≤3-4 per slide, drawn from the deck's declared type-scale tokens",
+  "SIZE SPRAWL: slide 3 uses 5 distinct font sizes (9.5, 11, 12, 14, 24) — target ≤3-4 per slide, drawn from the deck's declared type-scale tokens",
+  "SIZE SPRAWL: slide 4 uses 5 distinct font sizes (10, 13.5, 15, 23, 34) — target ≤3-4 per slide, drawn from the deck's declared type-scale tokens",
+  "SIZE SPRAWL: slide 5 uses 5 distinct font sizes (9.5, 11, 12, 14, 24) — target ≤3-4 per slide, drawn from the deck's declared type-scale tokens",
+  "SIZE SPRAWL: slide 6 uses 5 distinct font sizes (9.5, 11, 12, 14, 24) — target ≤3-4 per slide, drawn from the deck's declared type-scale tokens",
+  "CROWDED: slide 7 occupancy 83% — role bands: cover 25-35 · exec/summary 45-60 · technical/dense 55-70; past ~70% the slide reads crowded — subtract or split, don't shrink",
+  "HOLLOW FILL: slide 7 reads as 83% full but only 30% is content — the rest is a drawn container around ~23 words. Ask whether the FORM is right before touching the spacing: a frame this large is usually a diagram or panel carrying one sentence, and the cheap fix is to demote it (an annotation, a line in the list it sits beside) rather than to re-space it",
+  "SIZE SPRAWL: slide 8 uses 5 distinct font sizes (9.5, 11, 12, 14, 24) — target ≤3-4 per slide, drawn from the deck's declared type-scale tokens",
+  "CROWDED: slide 9 occupancy 81% — role bands: cover 25-35 · exec/summary 45-60 · technical/dense 55-70; past ~70% the slide reads crowded — subtract or split, don't shrink",
+  "HOLLOW FILL: slide 9 reads as 81% full but only 30% is content — the rest is a drawn container around ~22 words. Ask whether the FORM is right before touching the spacing: a frame this large is usually a diagram or panel carrying one sentence, and the cheap fix is to demote it (an annotation, a line in the list it sits beside) rather than to re-space it",
+  "SIZE SPRAWL: slide 10 uses 6 distinct font sizes (9.5, 11, 12, 14, 24, 29) — target ≤3-4 per slide, drawn from the deck's declared type-scale tokens",
+  "CROWDED: slide 11 occupancy 77% — role bands: cover 25-35 · exec/summary 45-60 · technical/dense 55-70; past ~70% the slide reads crowded — subtract or split, don't shrink",
+  "HOLLOW FILL: slide 11 reads as 77% full but only 30% is content — the rest is a drawn container around ~22 words. Ask whether the FORM is right before touching the spacing: a frame this large is usually a diagram or panel carrying one sentence, and the cheap fix is to demote it (an annotation, a line in the list it sits beside) rather than to re-space it",
+  "SIZE SPRAWL: slide 12 uses 5 distinct font sizes (9.5, 11, 12, 14, 24) — target ≤3-4 per slide, drawn from the deck's declared type-scale tokens",
+  "CROWDED: slide 13 occupancy 75% — role bands: cover 25-35 · exec/summary 45-60 · technical/dense 55-70; past ~70% the slide reads crowded — subtract or split, don't shrink",
+  "HOLLOW FILL: slide 13 reads as 75% full but only 30% is content — the rest is a drawn container around ~22 words. Ask whether the FORM is right before touching the spacing: a frame this large is usually a diagram or panel carrying one sentence, and the cheap fix is to demote it (an annotation, a line in the list it sits beside) rather than to re-space it",
+  "SIZE SPRAWL: slide 14 uses 5 distinct font sizes (9.5, 11, 12, 14, 24) — target ≤3-4 per slide, drawn from the deck's declared type-scale tokens",
+  "SIZE SPRAWL: slide 15 uses 5 distinct font sizes (9.5, 11, 12, 14, 24) — target ≤3-4 per slide, drawn from the deck's declared type-scale tokens",
+  "CROWDED: slide 16 occupancy 77% — role bands: cover 25-35 · exec/summary 45-60 · technical/dense 55-70; past ~70% the slide reads crowded — subtract or split, don't shrink",
+  "SIZE SPRAWL: slide 16 uses 5 distinct font sizes (9.5, 11, 12, 14, 24) — target ≤3-4 per slide, drawn from the deck's declared type-scale tokens",
+  "SIZE SPRAWL: slide 18 uses 5 distinct font sizes (10, 13.5, 15, 23, 34) — target ≤3-4 per slide, drawn from the deck's declared type-scale tokens",
+  "SIZE SPRAWL: slide 19 uses 6 distinct font sizes (9.5, 11, 12, 14, 24, 32) — target ≤3-4 per slide, drawn from the deck's declared type-scale tokens",
+  "SIZE SPRAWL: slide 20 uses 5 distinct font sizes (9.5, 11, 12, 14, 24) — target ≤3-4 per slide, drawn from the deck's declared type-scale tokens",
+  "CROWDED: slide 21 occupancy 81% — role bands: cover 25-35 · exec/summary 45-60 · technical/dense 55-70; past ~70% the slide reads crowded — subtract or split, don't shrink",
+  "HOLLOW FILL: slide 21 reads as 81% full but only 30% is content — the rest is a drawn container around ~20 words. Ask whether the FORM is right before touching the spacing: a frame this large is usually a diagram or panel carrying one sentence, and the cheap fix is to demote it (an annotation, a line in the list it sits beside) rather than to re-space it",
+  "CROWDED: slide 22 occupancy 72% — role bands: cover 25-35 · exec/summary 45-60 · technical/dense 55-70; past ~70% the slide reads crowded — subtract or split, don't shrink",
+  "SIZE SPRAWL: slide 22 uses 5 distinct font sizes (9.5, 11, 12, 14, 24) — target ≤3-4 per slide, drawn from the deck's declared type-scale tokens",
+  "SIZE SPRAWL: slide 23 uses 5 distinct font sizes (9.5, 11, 12, 14, 24) — target ≤3-4 per slide, drawn from the deck's declared type-scale tokens",
+  "CROWDED: slide 24 occupancy 72% — role bands: cover 25-35 · exec/summary 45-60 · technical/dense 55-70; past ~70% the slide reads crowded — subtract or split, don't shrink",
+  "SIZE SPRAWL: slide 24 uses 5 distinct font sizes (9.5, 11, 12, 14, 24) — target ≤3-4 per slide, drawn from the deck's declared type-scale tokens",
+  "SIZE SPRAWL: slide 25 uses 5 distinct font sizes (9.5, 11, 12, 14, 24) — target ≤3-4 per slide, drawn from the deck's declared type-scale tokens",
+  "CROWDED: slide 26 occupancy 76% — role bands: cover 25-35 · exec/summary 45-60 · technical/dense 55-70; past ~70% the slide reads crowded — subtract or split, don't shrink",
+  "HOLLOW FILL: slide 26 reads as 76% full but only 30% is content — the rest is a drawn container around ~20 words. Ask whether the FORM is right before touching the spacing: a frame this large is usually a diagram or panel carrying one sentence, and the cheap fix is to demote it (an annotation, a line in the list it sits beside) rather than to re-space it",
+  "SIZE SPRAWL: slide 27 uses 5 distinct font sizes (9.5, 11, 12, 14, 24) — target ≤3-4 per slide, drawn from the deck's declared type-scale tokens",
+  "CROWDED: slide 28 occupancy 77% — role bands: cover 25-35 · exec/summary 45-60 · technical/dense 55-70; past ~70% the slide reads crowded — subtract or split, don't shrink",
+  "SIZE SPRAWL: slide 28 uses 5 distinct font sizes (9.5, 11, 12, 14, 24) — target ≤3-4 per slide, drawn from the deck's declared type-scale tokens",
+  "SIZE SPRAWL: slide 29 uses 6 distinct font sizes (9.5, 11, 12, 14, 24, 34) — target ≤3-4 per slide, drawn from the deck's declared type-scale tokens",
+  "SIZE SPRAWL: slide 30 uses 5 distinct font sizes (9.5, 11, 12, 14, 24) — target ≤3-4 per slide, drawn from the deck's declared type-scale tokens",
+  "CROWDED: slide 32 occupancy 71% — role bands: cover 25-35 · exec/summary 45-60 · technical/dense 55-70; past ~70% the slide reads crowded — subtract or split, don't shrink",
+  "SIZE SPRAWL: slide 32 uses 5 distinct font sizes (9.5, 11, 12, 14, 24) — target ≤3-4 per slide, drawn from the deck's declared type-scale tokens",
+  "SIZE SPRAWL: slide 34 uses 5 distinct font sizes (10, 13.5, 15, 23, 34) — target ≤3-4 per slide, drawn from the deck's declared type-scale tokens",
+  "SIZE SPRAWL: slide 35 uses 5 distinct font sizes (9.5, 11, 12, 14, 24) — target ≤3-4 per slide, drawn from the deck's declared type-scale tokens",
+  "CROWDED: slide 36 occupancy 72% — role bands: cover 25-35 · exec/summary 45-60 · technical/dense 55-70; past ~70% the slide reads crowded — subtract or split, don't shrink",
+  "SIZE SPRAWL: slide 36 uses 5 distinct font sizes (9.5, 11, 12, 14, 24) — target ≤3-4 per slide, drawn from the deck's declared type-scale tokens",
+  "CROWDED: slide 37 occupancy 71% — role bands: cover 25-35 · exec/summary 45-60 · technical/dense 55-70; past ~70% the slide reads crowded — subtract or split, don't shrink",
+  "SIZE SPRAWL: slide 37 uses 6 distinct font sizes (9.5, 11, 12, 14, 24, 32) — target ≤3-4 per slide, drawn from the deck's declared type-scale tokens",
+  "SIZE SPRAWL: slide 39 uses 5 distinct font sizes (9.5, 11, 12, 14, 24) — target ≤3-4 per slide, drawn from the deck's declared type-scale tokens",
+  "CROWDED: slide 40 occupancy 76% — role bands: cover 25-35 · exec/summary 45-60 · technical/dense 55-70; past ~70% the slide reads crowded — subtract or split, don't shrink",
+  "SIZE SPRAWL: slide 40 uses 5 distinct font sizes (9.5, 11, 12, 14, 24) — target ≤3-4 per slide, drawn from the deck's declared type-scale tokens",
+  "TEXT WALL: slide 42 carries a reading load of ~95 words (presented budget ≈40, warn >70) — move prose to speaker notes or split the slide",
+  "CROWDED: slide 42 occupancy 80% — role bands: cover 25-35 · exec/summary 45-60 · technical/dense 55-70; past ~70% the slide reads crowded — subtract or split, don't shrink",
+  "SIZE SPRAWL: slide 42 uses 6 distinct font sizes (9.5, 10.5, 12, 13, 14, 24) — target ≤3-4 per slide, drawn from the deck's declared type-scale tokens",
+  "TEXT WALL: slide 43 carries a reading load of ~101 words (presented budget ≈40, warn >70) — move prose to speaker notes or split the slide",
+  "CROWDED: slide 43 occupancy 80% — role bands: cover 25-35 · exec/summary 45-60 · technical/dense 55-70; past ~70% the slide reads crowded — subtract or split, don't shrink",
+  "SIZE SPRAWL: slide 43 uses 6 distinct font sizes (9.5, 10.5, 12, 13, 14, 24) — target ≤3-4 per slide, drawn from the deck's declared type-scale tokens",
+  "LAYOUT SAMENESS: slides 42-44 share ≥75% of their skeleton — vary the page structure, not just the words (rhythm / canvas-skeleton rule)",
+  "TEXT WALL: slide 44 carries a reading load of ~101 words (presented budget ≈40, warn >70) — move prose to speaker notes or split the slide",
+  "CROWDED: slide 44 occupancy 80% — role bands: cover 25-35 · exec/summary 45-60 · technical/dense 55-70; past ~70% the slide reads crowded — subtract or split, don't shrink",
+  "SIZE SPRAWL: slide 44 uses 6 distinct font sizes (9.5, 10.5, 12, 13, 14, 24) — target ≤3-4 per slide, drawn from the deck's declared type-scale tokens",
+  "TEXT WALL: slide 45 carries a reading load of ~108 words (presented budget ≈40, warn >70) — move prose to speaker notes or split the slide",
+  "CROWDED: slide 45 occupancy 80% — role bands: cover 25-35 · exec/summary 45-60 · technical/dense 55-70; past ~70% the slide reads crowded — subtract or split, don't shrink",
+  "SIZE SPRAWL: slide 45 uses 6 distinct font sizes (9.5, 10.5, 12, 13, 14, 24) — target ≤3-4 per slide, drawn from the deck's declared type-scale tokens",
+  "CROWDED: slide 46 occupancy 84% — role bands: cover 25-35 · exec/summary 45-60 · technical/dense 55-70; past ~70% the slide reads crowded — subtract or split, don't shrink",
+  "CROWDED: slide 47 occupancy 72% — role bands: cover 25-35 · exec/summary 45-60 · technical/dense 55-70; past ~70% the slide reads crowded — subtract or split, don't shrink",
+  "ENVELOPE MONOCULTURE: 93% of interior slides end their content at the same height (~90% of the canvas) — the deck reads as one template even when forms vary. Let a statement slide stop high with real void, let a grounded slide ride the baseline (aim ~1/3 default / 1/3 upper / 1/3 low; declare deliberate ones with deckkit.design_intent)",
+  "CARD DOMINANCE: 41 of 47 content slides (slides 2, 3, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 35, 36, 37, 38, 39, 40, 42, 43, 44, 45, 46, 47, 48) carry their content in large solid panels/cards — the greedy default form; re-form the ones whose idea has a shape (ratio → proportional bar · flip → diagram · division → split · process → roadmap), don't just restyle the boxes",
+  "NO ICONS ON CATEGORY CONTENT: slides 1, 2, 3, 5, 6, 8, 10, 12, 14, 15, 16, 20, 22, 23, 24, 25, 27, 28, 30, 31, 32, 36, 38, 39, 40, 41, 42, 43, 44, 45, 47, 48 carry parallel label sets (3+ short peers on one baseline across half the canvas — the shape of a category row) and the deck contains no icon-sized picture at all. On category-rich content an icon family is a design must, not a taste call (slide-design self-verify (g)). Build one (scripts/icons.py, one family, recolored to the palette), or record `icon_family: \"none — <why THESE slides read better without one>\"` in .deck-gates.json — the detector over-counts on tables and timelines, so this is a re-decision, not a verdict",
+  "BOTTOM-STRIP MONOCULTURE: 43 of 46 content slides (slides 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46) park a full-width strip in the bottom band — one takeaway slot stamped deck-wide reads as a template; rotate the slot (side rail · inline under the figure · the headline itself · none) so no slot carries more than ~half the deck (architecture-rotation rule)",
+  "SMALL TYPE: body-median 12pt is under the ~14pt floor for this 10.0in-wide canvas (≈18-22pt on a standard 13.3in slide) — a presented deck's body text must read from the back of the room; fewer words, bigger type",
+  "CJK TIGHT LEADING: slide(s) 8, 42, 43, 44, 45, 48 have multi-line CJK paragraphs at ≤ single line spacing (≈≤1.2× font size) — CJK body wants ~1.3-1.45× font size, i.e. line_spacing ≈1.08-1.21; leave deckkit text()'s line_spacing unset to get the script-aware default (CJK_LS=1.12 ≈ 1.34×)",
+  "CJK-LATIN SPACING: both '中文 Latin' spaced (18×) and '中文Latin' unspaced (25×) boundaries appear — pick ONE convention deck-wide (recommend the space: 全年 ARR 增长 51%)"
+ ],
+ "deck": {
+  "body_median_pt": 12.2,
+  "type_drama": 2.87,
+  "size_tokens": 15,
+  "distinct_skeletons": 23,
+  "builds": 0,
+  "transitions": 0,
+  "avg_occupancy": 0.656,
+  "body_n": 46,
+  "sameness_codes": [
+   "LAYOUT SAMENESS",
+   "CARD DOMINANCE",
+   "BOTTOM-STRIP MONOCULTURE",
+   "ENVELOPE MONOCULTURE"
+  ],
+  "timidity_codes": []
+ },
+ "per_slide": [
+  {
+   "slide": 1,
+   "load": 34,
+   "text_cov": 0.421,
+   "ink_cov": 0.509,
+   "max_pt": 35.0,
+   "n_shapes": 20,
+   "n_pic": 0,
+   "n_chart": 0,
+   "build": false,
+   "transition": false,
+   "size_clusters": [
+    9.5,
+    11.0,
+    14.0,
+    18.0,
+    35.0
+   ],
+   "notes_words": 27,
+   "notes": "本课按第四节、第五节和第七节重新组合。前两节保持营销审核项目主线，第七节通过五个完整案例讲方法迁移，不安排分组练习。",
+   "n_pic_fg": 0,
+   "content_bottom": 0.86
+  },
+  {
+   "slide": 2,
+   "load": 40,
+   "text_cov": 0.422,
+   "ink_cov": 0.567,
+   "max_pt": 24.0,
+   "n_shapes": 30,
+   "n_pic": 0,
+   "n_chart": 0,
+   "build": false,
+   "transition": false,
+   "size_clusters": [
+    9.5,
+    11.0,
+    12.0,
+    14.0,
+    24.0
+   ],
+   "notes_words": 17,
+   "notes": "先把审核要求定义清楚，再选择执行能力，最后到其他业务中重新走一遍产品判断。",
+   "n_pic_fg": 0,
+   "content_bottom": 0.9
+  },
+  {
+   "slide": 3,
+   "load": 48,
+   "text_cov": 0.535,
+   "ink_cov": 0.693,
+   "max_pt": 24.0,
+   "n_shapes": 33,
+   "n_pic": 0,
+   "n_chart": 0,
+   "build": false,
+   "transition": false,
+   "size_clusters": [
+    9.5,
+    11.0,
+    12.0,
+    14.0,
+    24.0
+   ],
+   "notes_words": 18,
+   "notes": "让学员先说需要追问什么，再归纳为对象、依据、结果和失败。不要在开场讨论模型型号。",
+   "n_pic_fg": 0,
+   "content_bottom": 0.9
+  },
+  {
+   "slide": 4,
+   "load": 33,
+   "text_cov": 0.366,
+   "ink_cov": 0.436,
+   "max_pt": 34.0,
+   "n_shapes": 11,
+   "n_pic": 0,
+   "n_chart": 0,
+   "build": false,
+   "transition": false,
+   "size_clusters": [
+    10.0,
+    13.5,
+    15.0,
+    23.0,
+    34.0
+   ],
+   "notes_words": 11,
+   "notes": "第四节只解决查什么。暂时不决定使用规则还是模型。",
+   "n_pic_fg": 0,
+   "content_bottom": 0.882
+  },
+  {
+   "slide": 5,
+   "load": 67,
+   "text_cov": 0.556,
+   "ink_cov": 0.698,
+   "max_pt": 24.0,
+   "n_shapes": 22,
+   "n_pic": 0,
+   "n_chart": 0,
+   "build": false,
+   "transition": false,
+   "size_clusters": [
+    9.5,
+    11.0,
+    12.0,
+    14.0,
+    24.0
+   ],
+   "notes_words": 19,
+   "notes": "用商品功能、价格、赠品三个追问说明：人能凭经验理解的要求，系统需要更明确的任务定义。",
+   "n_pic_fg": 0,
+   "content_bottom": 0.9
+  },
+  {
+   "slide": 6,
+   "load": 59,
+   "text_cov": 0.508,
+   "ink_cov": 0.662,
+   "max_pt": 24.0,
+   "n_shapes": 43,
+   "n_pic": 0,
+   "n_chart": 0,
+   "build": false,
+   "transition": false,
+   "size_clusters": [
+    9.5,
+    11.0,
+    12.0,
+    14.0,
+    24.0
+   ],
+   "notes_words": 20,
+   "notes": "依次解释检查对象、适用条件、业务依据、判断方式、例外分支、处理动作。六项缺一都会产生不同理解。",
+   "n_pic_fg": 0,
+   "content_bottom": 0.9
+  },
+  {
+   "slide": 7,
+   "load": 23,
+   "text_cov": 0.244,
+   "ink_cov": 0.827,
+   "max_pt": 24.0,
+   "n_shapes": 14,
+   "n_pic": 0,
+   "n_chart": 0,
+   "build": false,
+   "transition": false,
+   "size_clusters": [
+    9.5,
+    12.0,
+    24.0
+   ],
+   "notes_words": 20,
+   "notes": "分类帮助看到首版范围，但分类不是可执行规则。强调材料中有某项内容，不等于每篇文案都要写。",
+   "n_pic_fg": 0,
+   "content_bottom": 0.9
+  },
+  {
+   "slide": 8,
+   "load": 66,
+   "text_cov": 0.496,
+   "ink_cov": 0.693,
+   "max_pt": 24.0,
+   "n_shapes": 43,
+   "n_pic": 0,
+   "n_chart": 0,
+   "build": false,
+   "transition": false,
+   "size_clusters": [
+    9.5,
+    11.0,
+    12.0,
+    14.0,
+    24.0
+   ],
+   "notes_words": 15,
+   "notes": "原句是65℃热水直接拖地。逐项说明本审核点如何定义，不讨论技术实现。",
+   "n_pic_fg": 0,
+   "content_bottom": 0.9
+  },
+  {
+   "slide": 9,
+   "load": 22,
+   "text_cov": 0.244,
+   "ink_cov": 0.811,
+   "max_pt": 24.0,
+   "n_shapes": 14,
+   "n_pic": 0,
+   "n_chart": 0,
+   "build": false,
+   "transition": false,
+   "size_clusters": [
+    9.5,
+    12.0,
+    24.0
+   ],
+   "notes_words": 16,
+   "notes": "逐行比较正常、问题、待确认和不适用。只有错误句会让团队把规则理解得过窄。",
+   "n_pic_fg": 0,
+   "content_bottom": 0.9
+  },
+  {
+   "slide": 10,
+   "load": 47,
+   "text_cov": 0.487,
+   "ink_cov": 0.612,
+   "max_pt": 29.0,
+   "n_shapes": 29,
+   "n_pic": 0,
+   "n_chart": 0,
+   "build": false,
+   "transition": false,
+   "size_clusters": [
+    9.5,
+    11.0,
+    12.0,
+    14.0,
+    24.0,
+    29.0
+   ],
+   "notes_words": 18,
+   "notes": "2399减400再减200等于1799 元，只完成金额路径。还要核对人群、两类券和表达范围。",
+   "n_pic_fg": 0,
+   "content_bottom": 0.9
+  },
+  {
+   "slide": 11,
+   "load": 22,
+   "text_cov": 0.244,
+   "ink_cov": 0.769,
+   "max_pt": 24.0,
+   "n_shapes": 14,
+   "n_pic": 0,
+   "n_chart": 0,
+   "build": false,
+   "transition": false,
+   "size_clusters": [
+    9.5,
+    12.0,
+    24.0
+   ],
+   "notes_words": 20,
+   "notes": "比较人人同价、领券1799元、完整限定条件三种表达。说明完整句式只是课堂示例，不是唯一模板。",
+   "n_pic_fg": 0,
+   "content_bottom": 0.9
+  },
+  {
+   "slide": 12,
+   "load": 49,
+   "text_cov": 0.413,
+   "ink_cov": 0.559,
+   "max_pt": 24.0,
+   "n_shapes": 36,
+   "n_pic": 0,
+   "n_chart": 0,
+   "build": false,
+   "transition": false,
+   "size_clusters": [
+    9.5,
+    11.0,
+    12.0,
+    14.0,
+    24.0
+   ],
+   "notes_words": 20,
+   "notes": "初始前200名规则不能证明当前仍有名额。巡检时还需要权益变化、受影响范围和内容使用状态。",
+   "n_pic_fg": 0,
+   "content_bottom": 0.9
+  },
+  {
+   "slide": 13,
+   "load": 22,
+   "text_cov": 0.244,
+   "ink_cov": 0.747,
+   "max_pt": 24.0,
+   "n_shapes": 14,
+   "n_pic": 0,
+   "n_chart": 0,
+   "build": false,
+   "transition": false,
+   "size_clusters": [
+    9.5,
+    12.0,
+    24.0
+   ],
+   "notes_words": 18,
+   "notes": "审核要求可以复用，但自检、正式审核和巡检的输入不同。巡检多出变化事件和使用状态。",
+   "n_pic_fg": 0,
+   "content_bottom": 0.9
+  },
+  {
+   "slide": 14,
+   "load": 66,
+   "text_cov": 0.481,
+   "ink_cov": 0.678,
+   "max_pt": 24.0,
+   "n_shapes": 43,
+   "n_pic": 0,
+   "n_chart": 0,
+   "build": false,
+   "transition": false,
+   "size_clusters": [
+    9.5,
+    11.0,
+    12.0,
+    14.0,
+    24.0
+   ],
+   "notes_words": 15,
+   "notes": "逐项说明状态和下一步，尤其区分业务未发现问题与技术执行未完成。",
+   "n_pic_fg": 0,
+   "content_bottom": 0.9
+  },
+  {
+   "slide": 15,
+   "load": 46,
+   "text_cov": 0.419,
+   "ink_cov": 0.545,
+   "max_pt": 24.0,
+   "n_shapes": 36,
+   "n_pic": 0,
+   "n_chart": 0,
+   "build": false,
+   "transition": false,
+   "size_clusters": [
+    9.5,
+    11.0,
+    12.0,
+    14.0,
+    24.0
+   ],
+   "notes_words": 19,
+   "notes": "解释每种状态都需要对应样本，测试的不只是模型回答，也包括材料版本、适用性和后续处理。",
+   "n_pic_fg": 0,
+   "content_bottom": 0.9
+  },
+  {
+   "slide": 16,
+   "load": 47,
+   "text_cov": 0.612,
+   "ink_cov": 0.769,
+   "max_pt": 24.0,
+   "n_shapes": 28,
+   "n_pic": 0,
+   "n_chart": 0,
+   "build": false,
+   "transition": false,
+   "size_clusters": [
+    9.5,
+    11.0,
+    12.0,
+    14.0,
+    24.0
+   ],
+   "notes_words": 16,
+   "notes": "用三张卡回看六个要素和六类结果。下一节不再讨论查什么，而讨论怎样查。",
+   "n_pic_fg": 0,
+   "content_bottom": 0.9
+  },
+  {
+   "slide": 17,
+   "load": 22,
+   "text_cov": 0.252,
+   "ink_cov": 0.252,
+   "max_pt": 34.0,
+   "n_shapes": 4,
+   "n_pic": 0,
+   "n_chart": 0,
+   "build": false,
+   "transition": false,
+   "size_clusters": [
+    15.0,
+    18.0,
+    34.0
+   ],
+   "notes_words": 11,
+   "notes": "休息十分钟。提醒学员回来后先回答屏幕上的问题。",
+   "n_pic_fg": 0,
+   "content_bottom": 0.631
+  },
+  {
+   "slide": 18,
+   "load": 30,
+   "text_cov": 0.366,
+   "ink_cov": 0.436,
+   "max_pt": 34.0,
+   "n_shapes": 11,
+   "n_pic": 0,
+   "n_chart": 0,
+   "build": false,
+   "transition": false,
+   "size_clusters": [
+    10.0,
+    13.5,
+    15.0,
+    23.0,
+    34.0
+   ],
+   "notes_words": 14,
+   "notes": "第五节从审核要求进入执行方式。组合方案是候选，不是预设答案。",
+   "n_pic_fg": 0,
+   "content_bottom": 0.882
+  },
+  {
+   "slide": 19,
+   "load": 50,
+   "text_cov": 0.509,
+   "ink_cov": 0.649,
+   "max_pt": 32.0,
+   "n_shapes": 24,
+   "n_pic": 0,
+   "n_chart": 0,
+   "build": false,
+   "transition": false,
+   "size_clusters": [
+    9.5,
+    11.0,
+    12.0,
+    14.0,
+    24.0,
+    32.0
+   ],
+   "notes_words": 17,
+   "notes": "第四节定义查什么，第五节定义怎样查。一个审核点可以拆给多种能力共同完成。",
+   "n_pic_fg": 0,
+   "content_bottom": 0.9
+  },
+  {
+   "slide": 20,
+   "load": 48,
+   "text_cov": 0.544,
+   "ink_cov": 0.693,
+   "max_pt": 24.0,
+   "n_shapes": 33,
+   "n_pic": 0,
+   "n_chart": 0,
+   "build": false,
+   "transition": false,
+   "size_clusters": [
+    9.5,
+    11.0,
+    12.0,
+    14.0,
+    24.0
+   ],
+   "notes_words": 16,
+   "notes": "分别讲程序、模型、业务材料和人工。业务材料不是工具，却决定判断是否有依据。",
+   "n_pic_fg": 0,
+   "content_bottom": 0.9
+  },
+  {
+   "slide": 21,
+   "load": 20,
+   "text_cov": 0.244,
+   "ink_cov": 0.811,
+   "max_pt": 24.0,
+   "n_shapes": 14,
+   "n_pic": 0,
+   "n_chart": 0,
+   "build": false,
+   "transition": false,
+   "size_clusters": [
+    9.5,
+    12.0,
+    24.0
+   ],
+   "notes_words": 19,
+   "notes": "按本案比较材料清单、程序为主、模型为主和组合方案。强调简单办法若足够，就不必堆叠能力。",
+   "n_pic_fg": 0,
+   "content_bottom": 0.9
+  },
+  {
+   "slide": 22,
+   "load": 58,
+   "text_cov": 0.528,
+   "ink_cov": 0.722,
+   "max_pt": 24.0,
+   "n_shapes": 38,
+   "n_pic": 0,
+   "n_chart": 0,
+   "build": false,
+   "transition": false,
+   "size_clusters": [
+    9.5,
+    11.0,
+    12.0,
+    14.0,
+    24.0
+   ],
+   "notes_words": 17,
+   "notes": "用输入结构、稳定性、维护成本、纠错成本和责任要求判断每项任务适合什么能力。",
+   "n_pic_fg": 0,
+   "content_bottom": 0.9
+  },
+  {
+   "slide": 23,
+   "load": 55,
+   "text_cov": 0.413,
+   "ink_cov": 0.559,
+   "max_pt": 24.0,
+   "n_shapes": 36,
+   "n_pic": 0,
+   "n_chart": 0,
+   "build": false,
+   "transition": false,
+   "size_clusters": [
+    9.5,
+    11.0,
+    12.0,
+    14.0,
+    24.0
+   ],
+   "notes_words": 19,
+   "notes": "沿65℃案例走完整条能力链。指出只搜索数字会同时命中文案与材料，却不能判断对象一致。",
+   "n_pic_fg": 0,
+   "content_bottom": 0.9
+  },
+  {
+   "slide": 24,
+   "load": 56,
+   "text_cov": 0.554,
+   "ink_cov": 0.717,
+   "max_pt": 24.0,
+   "n_shapes": 28,
+   "n_pic": 0,
+   "n_chart": 0,
+   "build": false,
+   "transition": false,
+   "size_clusters": [
+    9.5,
+    11.0,
+    12.0,
+    14.0,
+    24.0
+   ],
+   "notes_words": 20,
+   "notes": "程序计算优惠路径，模型理解资格与条件关系，人工处理活动解释。两路结果合并，而不是互相覆盖。",
+   "n_pic_fg": 0,
+   "content_bottom": 0.9
+  },
+  {
+   "slide": 25,
+   "load": 51,
+   "text_cov": 0.413,
+   "ink_cov": 0.559,
+   "max_pt": 24.0,
+   "n_shapes": 36,
+   "n_pic": 0,
+   "n_chart": 0,
+   "build": false,
+   "transition": false,
+   "size_clusters": [
+    9.5,
+    11.0,
+    12.0,
+    14.0,
+    24.0
+   ],
+   "notes_words": 16,
+   "notes": "沿名额用完事件讲分工。首版不让模型猜剩余名额，也不凭关键词自动下架。",
+   "n_pic_fg": 0,
+   "content_bottom": 0.9
+  },
+  {
+   "slide": 26,
+   "load": 20,
+   "text_cov": 0.244,
+   "ink_cov": 0.763,
+   "max_pt": 24.0,
+   "n_shapes": 14,
+   "n_pic": 0,
+   "n_chart": 0,
+   "build": false,
+   "transition": false,
+   "size_clusters": [
+    9.5,
+    12.0,
+    24.0
+   ],
+   "notes_words": 15,
+   "notes": "横向比较三张审核点卡，帮助学员看到同一能力在不同任务中的位置。",
+   "n_pic_fg": 0,
+   "content_bottom": 0.9
+  },
+  {
+   "slide": 27,
+   "load": 49,
+   "text_cov": 0.402,
+   "ink_cov": 0.554,
+   "max_pt": 24.0,
+   "n_shapes": 42,
+   "n_pic": 0,
+   "n_chart": 0,
+   "build": false,
+   "transition": false,
+   "size_clusters": [
+    9.5,
+    11.0,
+    12.0,
+    14.0,
+    24.0
+   ],
+   "notes_words": 17,
+   "notes": "每一步都要明确输入、输出、校验和失败去向。用五段链说明结果怎样进入人工处理。",
+   "n_pic_fg": 0,
+   "content_bottom": 0.9
+  },
+  {
+   "slide": 28,
+   "load": 44,
+   "text_cov": 0.612,
+   "ink_cov": 0.769,
+   "max_pt": 24.0,
+   "n_shapes": 28,
+   "n_pic": 0,
+   "n_chart": 0,
+   "build": false,
+   "transition": false,
+   "size_clusters": [
+    9.5,
+    11.0,
+    12.0,
+    14.0,
+    24.0
+   ],
+   "notes_words": 17,
+   "notes": "强调未知就是未知。系统应当暴露缺口并交给明确角色，而不是选择更肯定的说法。",
+   "n_pic_fg": 0,
+   "content_bottom": 0.9
+  },
+  {
+   "slide": 29,
+   "load": 50,
+   "text_cov": 0.535,
+   "ink_cov": 0.659,
+   "max_pt": 34.0,
+   "n_shapes": 24,
+   "n_pic": 0,
+   "n_chart": 0,
+   "build": false,
+   "transition": false,
+   "size_clusters": [
+    9.5,
+    11.0,
+    12.0,
+    14.0,
+    24.0,
+    34.0
+   ],
+   "notes_words": 16,
+   "notes": "金额成立与条件缺失可以同时成立；只有对同一事实的判断不同才是真冲突。",
+   "n_pic_fg": 0,
+   "content_bottom": 0.9
+  },
+  {
+   "slide": 30,
+   "load": 46,
+   "text_cov": 0.413,
+   "ink_cov": 0.559,
+   "max_pt": 24.0,
+   "n_shapes": 36,
+   "n_pic": 0,
+   "n_chart": 0,
+   "build": false,
+   "transition": false,
+   "size_clusters": [
+    9.5,
+    11.0,
+    12.0,
+    14.0,
+    24.0
+   ],
+   "notes_words": 17,
+   "notes": "超时、文件读取失败、引用校验失败和结果不可用都不是未发现问题。展示状态分流。",
+   "n_pic_fg": 0,
+   "content_bottom": 0.9
+  },
+  {
+   "slide": 31,
+   "load": 56,
+   "text_cov": 0.525,
+   "ink_cov": 0.667,
+   "max_pt": 24.0,
+   "n_shapes": 37,
+   "n_pic": 0,
+   "n_chart": 0,
+   "build": false,
+   "transition": false,
+   "size_clusters": [
+    9.5,
+    12.0,
+    13.0,
+    24.0
+   ],
+   "notes_words": 17,
+   "notes": "列出本项目应验证的六项表现。最后回到人工总投入：模型更强不代表流程更省力。",
+   "n_pic_fg": 0,
+   "content_bottom": 0.9
+  },
+  {
+   "slide": 32,
+   "load": 38,
+   "text_cov": 0.532,
+   "ink_cov": 0.708,
+   "max_pt": 24.0,
+   "n_shapes": 33,
+   "n_pic": 0,
+   "n_chart": 0,
+   "build": false,
+   "transition": false,
+   "size_clusters": [
+    9.5,
+    11.0,
+    12.0,
+    14.0,
+    24.0
+   ],
+   "notes_words": 17,
+   "notes": "用四句话收束：规则确定动作，模型理解表达，材料提供事实，人工承担确认和处置。",
+   "n_pic_fg": 0,
+   "content_bottom": 0.9
+  },
+  {
+   "slide": 33,
+   "load": 21,
+   "text_cov": 0.267,
+   "ink_cov": 0.267,
+   "max_pt": 34.0,
+   "n_shapes": 4,
+   "n_pic": 0,
+   "n_chart": 0,
+   "build": false,
+   "transition": false,
+   "size_clusters": [
+    15.0,
+    18.0,
+    34.0
+   ],
+   "notes_words": 12,
+   "notes": "休息十分钟。第三部分全部由教师讲解，不组织分组练习。",
+   "n_pic_fg": 0,
+   "content_bottom": 0.628
+  },
+  {
+   "slide": 34,
+   "load": 32,
+   "text_cov": 0.366,
+   "ink_cov": 0.436,
+   "max_pt": 34.0,
+   "n_shapes": 11,
+   "n_pic": 0,
+   "n_chart": 0,
+   "build": false,
+   "transition": false,
+   "size_clusters": [
+    10.0,
+    13.5,
+    15.0,
+    23.0,
+    34.0
+   ],
+   "notes_words": 20,
+   "notes": "第三部分用合同作为母案例，再连续展开四个新业务。强调重新完成业务分析，而不是替换页面名。",
+   "n_pic_fg": 0,
+   "content_bottom": 0.882
+  },
+  {
+   "slide": 35,
+   "load": 46,
+   "text_cov": 0.511,
+   "ink_cov": 0.637,
+   "max_pt": 24.0,
+   "n_shapes": 19,
+   "n_pic": 0,
+   "n_chart": 0,
+   "build": false,
+   "transition": false,
+   "size_clusters": [
+    9.5,
+    11.0,
+    12.0,
+    14.0,
+    24.0
+   ],
+   "notes_words": 20,
+   "notes": "项目边界是常规业务合同的初步检查、定位和修改建议；复杂争议和最终决定仍由专业人员负责。",
+   "n_pic_fg": 0,
+   "content_bottom": 0.9
+  },
+  {
+   "slide": 36,
+   "load": 54,
+   "text_cov": 0.528,
+   "ink_cov": 0.722,
+   "max_pt": 24.0,
+   "n_shapes": 38,
+   "n_pic": 0,
+   "n_chart": 0,
+   "build": false,
+   "transition": false,
+   "size_clusters": [
+    9.5,
+    11.0,
+    12.0,
+    14.0,
+    24.0
+   ],
+   "notes_words": 15,
+   "notes": "这一页不谈模型。先还原主体、条款、引用、履约和周边风险五类人工任务。",
+   "n_pic_fg": 0,
+   "content_bottom": 0.9
+  },
+  {
+   "slide": 37,
+   "load": 51,
+   "text_cov": 0.581,
+   "ink_cov": 0.707,
+   "max_pt": 32.0,
+   "n_shapes": 24,
+   "n_pic": 0,
+   "n_chart": 0,
+   "build": false,
+   "transition": false,
+   "size_clusters": [
+    9.5,
+    11.0,
+    12.0,
+    14.0,
+    24.0,
+    32.0
+   ],
+   "notes_words": 17,
+   "notes": "业务需要问题条款、类型、原因、影响、建议和待确认项，因此输入不能只有合同正文。",
+   "n_pic_fg": 0,
+   "content_bottom": 0.9
+  },
+  {
+   "slide": 38,
+   "load": 45,
+   "text_cov": 0.522,
+   "ink_cov": 0.662,
+   "max_pt": 24.0,
+   "n_shapes": 37,
+   "n_pic": 0,
+   "n_chart": 0,
+   "build": false,
+   "transition": false,
+   "size_clusters": [
+    9.5,
+    12.0,
+    13.0,
+    24.0
+   ],
+   "notes_words": 20,
+   "notes": "验证重点不是文字流畅，而是定位、明显矛盾、建议可理解、不过度提示、不编造以及知道何时停下。",
+   "n_pic_fg": 0,
+   "content_bottom": 0.9
+  },
+  {
+   "slide": 39,
+   "load": 47,
+   "text_cov": 0.413,
+   "ink_cov": 0.559,
+   "max_pt": 24.0,
+   "n_shapes": 36,
+   "n_pic": 0,
+   "n_chart": 0,
+   "build": false,
+   "transition": false,
+   "size_clusters": [
+    9.5,
+    11.0,
+    12.0,
+    14.0,
+    24.0
+   ],
+   "notes_words": 18,
+   "notes": "并行不是为了复杂，而是让每条路线目标、输入和结果都可单独检查。最后由法务确认。",
+   "n_pic_fg": 0,
+   "content_bottom": 0.9
+  },
+  {
+   "slide": 40,
+   "load": 65,
+   "text_cov": 0.591,
+   "ink_cov": 0.763,
+   "max_pt": 24.0,
+   "n_shapes": 22,
+   "n_pic": 0,
+   "n_chart": 0,
+   "build": false,
+   "transition": false,
+   "size_clusters": [
+    9.5,
+    11.0,
+    12.0,
+    14.0,
+    24.0
+   ],
+   "notes_words": 17,
+   "notes": "30天交付在条款上可能正常，结合产能、物料和历史履约后可能暴露真实风险。",
+   "n_pic_fg": 0,
+   "content_bottom": 0.9
+  },
+  {
+   "slide": 41,
+   "load": 62,
+   "text_cov": 0.516,
+   "ink_cov": 0.691,
+   "max_pt": 24.0,
+   "n_shapes": 63,
+   "n_pic": 0,
+   "n_chart": 0,
+   "build": false,
+   "transition": false,
+   "size_clusters": [
+    9.5,
+    12.0,
+    13.0,
+    24.0
+   ],
+   "notes_words": 15,
+   "notes": "这是全课峰值页。按定义、构建、落地三组讲十一项，不要求学员当场练习。",
+   "n_pic_fg": 0,
+   "content_bottom": 0.9
+  },
+  {
+   "slide": 42,
+   "load": 95,
+   "text_cov": 0.585,
+   "ink_cov": 0.795,
+   "max_pt": 24.0,
+   "n_shapes": 34,
+   "n_pic": 0,
+   "n_chart": 0,
+   "build": false,
+   "transition": false,
+   "size_clusters": [
+    9.5,
+    10.5,
+    12.0,
+    13.0,
+    14.0,
+    24.0
+   ],
+   "notes_words": 15,
+   "notes": "完整讲解客服质检。强调产品完成点是整改闭环，不是给会话打一个分。",
+   "n_pic_fg": 0,
+   "content_bottom": 0.9
+  },
+  {
+   "slide": 43,
+   "load": 101,
+   "text_cov": 0.585,
+   "ink_cov": 0.795,
+   "max_pt": 24.0,
+   "n_shapes": 34,
+   "n_pic": 0,
+   "n_chart": 0,
+   "build": false,
+   "transition": false,
+   "size_clusters": [
+    9.5,
+    10.5,
+    12.0,
+    13.0,
+    14.0,
+    24.0
+   ],
+   "notes_words": 17,
+   "notes": "完整讲解招聘信息审核。强调岗位是否真实、薪酬是否批准必须来自企业内部事实。",
+   "n_pic_fg": 0,
+   "content_bottom": 0.9
+  },
+  {
+   "slide": 44,
+   "load": 101,
+   "text_cov": 0.585,
+   "ink_cov": 0.795,
+   "max_pt": 24.0,
+   "n_shapes": 34,
+   "n_pic": 0,
+   "n_chart": 0,
+   "build": false,
+   "transition": false,
+   "size_clusters": [
+    9.5,
+    10.5,
+    12.0,
+    13.0,
+    14.0,
+    24.0
+   ],
+   "notes_words": 14,
+   "notes": "完整讲解报销审核。强调发票真实不等于报销成立，首版不自动付款。",
+   "n_pic_fg": 0,
+   "content_bottom": 0.9
+  },
+  {
+   "slide": 45,
+   "load": 108,
+   "text_cov": 0.585,
+   "ink_cov": 0.795,
+   "max_pt": 24.0,
+   "n_shapes": 34,
+   "n_pic": 0,
+   "n_chart": 0,
+   "build": false,
+   "transition": false,
+   "size_clusters": [
+    9.5,
+    10.5,
+    12.0,
+    13.0,
+    14.0,
+    24.0
+   ],
+   "notes_words": 15,
+   "notes": "完整讲解金融营销材料审核。本案例只讲产品设计，不给出具体专业结论。",
+   "n_pic_fg": 0,
+   "content_bottom": 0.9
+  },
+  {
+   "slide": 46,
+   "load": 25,
+   "text_cov": 0.244,
+   "ink_cov": 0.839,
+   "max_pt": 24.0,
+   "n_shapes": 14,
+   "n_pic": 0,
+   "n_chart": 0,
+   "build": false,
+   "transition": false,
+   "size_clusters": [
+    9.5,
+    12.0,
+    24.0
+   ],
+   "notes_words": 17,
+   "notes": "横向比较被判断对象、关键材料、人工角色和企业连接价值。强调这些不是练习选项。",
+   "n_pic_fg": 0,
+   "content_bottom": 0.9
+  },
+  {
+   "slide": 47,
+   "load": 64,
+   "text_cov": 0.504,
+   "ink_cov": 0.723,
+   "max_pt": 24.0,
+   "n_shapes": 57,
+   "n_pic": 0,
+   "n_chart": 0,
+   "build": false,
+   "transition": false,
+   "size_clusters": [
+    9.5,
+    11.0,
+    14.0,
+    24.0
+   ],
+   "notes_words": 17,
+   "notes": "用八步路线收束五个案例。指出变化的是对象、事实、角色与边界，不变的是产品方法。",
+   "n_pic_fg": 0,
+   "content_bottom": 0.841
+  },
+  {
+   "slide": 48,
+   "load": 48,
+   "text_cov": 0.521,
+   "ink_cov": 0.647,
+   "max_pt": 31.0,
+   "n_shapes": 14,
+   "n_pic": 0,
+   "n_chart": 0,
+   "build": false,
+   "transition": false,
+   "size_clusters": [
+    10.0,
+    12.5,
+    16.0,
+    31.0
+   ],
+   "notes_words": 27,
+   "notes": "最后回扣三节关系。AI可以快速生成页面和方案草稿，但产品经理的专业性来自任务定义、能力边界、异常承接和跨业务重新判断。",
+   "n_pic_fg": 0,
+   "content_bottom": 0.903
+  }
+ ],
+ "counts": {
+  "findings": 0,
+  "warnings": 59
+ },
+ "pixel_checks": {
+  "ran": false,
+  "reason": "no render directory (pass --renders <dir>, or render beside the deck)",
+  "not_checked": [
+   "TEXT NOT VISIBLE",
+   "CAPTION NOT ALIGNED",
+   "TEXT-ON-IMAGE CONTRAST",
+   "colour/value pacing",
+   "FLAT RHYTHM",
+   "STRETCHED THIN",
+   "ONE-OFF CANVAS FLIP"
+  ]
+ }
+}

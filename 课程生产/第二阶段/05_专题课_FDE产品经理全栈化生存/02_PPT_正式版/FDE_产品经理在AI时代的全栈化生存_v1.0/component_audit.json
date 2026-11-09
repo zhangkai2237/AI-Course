@@ -1,0 +1,232 @@
+{
+ "used_forms": [
+  "meter_bar",
+  "org_tree",
+  "step_list",
+  "tier_stack",
+  "timeline"
+ ],
+ "form_total": 23,
+ "clusters": [
+  {
+   "slide": 1,
+   "pattern": "marker row with captions",
+   "detail": "3 evenly spaced markers with captions below",
+   "suggest": [
+    "timeline",
+    "spaced_centers",
+    "step_list"
+   ]
+  },
+  {
+   "slide": 3,
+   "pattern": "tile row",
+   "detail": "6 identical rects on an even pitch at y=2.12in",
+   "suggest": [
+    "scorecard",
+    "stat_row",
+    "columns"
+   ]
+  },
+  {
+   "slide": 5,
+   "pattern": "tile row",
+   "detail": "4 identical rects on an even pitch at y=2.16in",
+   "suggest": [
+    "scorecard",
+    "stat_row",
+    "columns"
+   ]
+  },
+  {
+   "slide": 6,
+   "pattern": "tile row",
+   "detail": "6 identical rects on an even pitch at y=1.86in",
+   "suggest": [
+    "scorecard",
+    "stat_row",
+    "columns"
+   ]
+  },
+  {
+   "slide": 7,
+   "pattern": "tile row",
+   "detail": "8 identical rects on an even pitch at y=2.18in",
+   "suggest": [
+    "scorecard",
+    "stat_row",
+    "columns"
+   ]
+  },
+  {
+   "slide": 8,
+   "pattern": "tile row",
+   "detail": "4 identical rects on an even pitch at y=1.76in",
+   "suggest": [
+    "scorecard",
+    "stat_row",
+    "columns"
+   ]
+  },
+  {
+   "slide": 10,
+   "pattern": "tile row",
+   "detail": "4 identical rects on an even pitch at y=1.78in",
+   "suggest": [
+    "scorecard",
+    "stat_row",
+    "columns"
+   ]
+  },
+  {
+   "slide": 13,
+   "pattern": "tile row",
+   "detail": "7 identical rects on an even pitch at y=2.05in",
+   "suggest": [
+    "scorecard",
+    "stat_row",
+    "columns"
+   ]
+  },
+  {
+   "slide": 15,
+   "pattern": "tile row",
+   "detail": "5 identical rects on an even pitch at y=2.05in",
+   "suggest": [
+    "scorecard",
+    "stat_row",
+    "columns"
+   ]
+  },
+  {
+   "slide": 18,
+   "pattern": "tile row",
+   "detail": "7 identical rects on an even pitch at y=2.1in",
+   "suggest": [
+    "scorecard",
+    "stat_row",
+    "columns"
+   ]
+  },
+  {
+   "slide": 20,
+   "pattern": "tile row",
+   "detail": "7 identical rects on an even pitch at y=2.08in",
+   "suggest": [
+    "scorecard",
+    "stat_row",
+    "columns"
+   ]
+  },
+  {
+   "slide": 21,
+   "pattern": "tile row",
+   "detail": "5 identical rects on an even pitch at y=2.02in",
+   "suggest": [
+    "scorecard",
+    "stat_row",
+    "columns"
+   ]
+  },
+  {
+   "slide": 27,
+   "pattern": "tile row",
+   "detail": "3 identical rects on an even pitch at y=1.66in",
+   "suggest": [
+    "scorecard",
+    "stat_row",
+    "columns"
+   ]
+  },
+  {
+   "slide": 28,
+   "pattern": "tile row",
+   "detail": "6 identical rects on an even pitch at y=2.08in",
+   "suggest": [
+    "scorecard",
+    "stat_row",
+    "columns"
+   ]
+  },
+  {
+   "slide": 31,
+   "pattern": "tile row",
+   "detail": "4 identical rects on an even pitch at y=2.73in",
+   "suggest": [
+    "scorecard",
+    "stat_row",
+    "columns"
+   ]
+  },
+  {
+   "slide": 32,
+   "pattern": "tile row",
+   "detail": "3 identical rects on an even pitch at y=1.62in",
+   "suggest": [
+    "scorecard",
+    "stat_row",
+    "columns"
+   ]
+  },
+  {
+   "slide": 33,
+   "pattern": "tile row",
+   "detail": "3 identical rects on an even pitch at y=1.75in",
+   "suggest": [
+    "scorecard",
+    "stat_row",
+    "columns"
+   ]
+  },
+  {
+   "slide": 36,
+   "pattern": "tile row",
+   "detail": "6 identical rects on an even pitch at y=1.78in",
+   "suggest": [
+    "scorecard",
+    "stat_row",
+    "columns"
+   ]
+  },
+  {
+   "slide": 37,
+   "pattern": "tile row",
+   "detail": "5 identical rects on an even pitch at y=1.72in",
+   "suggest": [
+    "scorecard",
+    "stat_row",
+    "columns"
+   ]
+  },
+  {
+   "slide": 39,
+   "pattern": "tile row",
+   "detail": "7 identical rects on an even pitch at y=2.04in",
+   "suggest": [
+    "scorecard",
+    "stat_row",
+    "columns"
+   ]
+  },
+  {
+   "slide": 41,
+   "pattern": "tile row",
+   "detail": "5 identical rects on an even pitch at y=1.58in",
+   "suggest": [
+    "scorecard",
+    "stat_row",
+    "columns"
+   ]
+  }
+ ],
+ "actionable": [],
+ "suppressed_by": [
+  "meter_bar",
+  "org_tree",
+  "step_list",
+  "tier_stack",
+  "timeline"
+ ],
+ "inspected": true,
+ "why": ""
+}

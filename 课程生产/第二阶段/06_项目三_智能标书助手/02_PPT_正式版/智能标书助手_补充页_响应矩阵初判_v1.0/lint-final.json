@@ -1,0 +1,237 @@
+{
+ "file": "/Users/keivn/Project/AI-Course/课程生产/第二阶段/06_项目三_智能标书助手/02_PPT_正式版/智能标书助手_补充页_响应矩阵初判_v1.0/智能标书助手_补充页_AI生成响应矩阵初判_5页_v1.0.pptx",
+ "mode": "presented",
+ "findings": [],
+ "warnings": [
+  {
+   "slide": 1,
+   "text": "NON-TEXT CONTRAST: icon/chip #DAE1E7 on #F4F6F8 — 1.22:1 (<3:1, WCAG 1.4.11); essential icons/lines need more contrast",
+   "severity": "warning"
+  },
+  {
+   "slide": 1,
+   "text": "NON-TEXT CONTRAST: line #DAE1E7 on #F4F6F8 — 1.22:1 (<3:1, WCAG 1.4.11); essential icons/lines need more contrast",
+   "severity": "warning"
+  },
+  {
+   "slide": 2,
+   "text": "READING ORDER: the title is not first in shape order — screen readers read z-order; reorder so the title is added first",
+   "severity": "warning"
+  },
+  {
+   "slide": 2,
+   "text": "NON-TEXT CONTRAST: line #DAE1E7 on #F4F6F8 — 1.22:1 (<3:1, WCAG 1.4.11); essential icons/lines need more contrast",
+   "severity": "warning"
+  },
+  {
+   "slide": 2,
+   "text": "NON-TEXT CONTRAST: line #789AC8 on #F4F6F8 — 2.67:1 (<3:1, WCAG 1.4.11); essential icons/lines need more contrast",
+   "severity": "warning"
+  },
+  {
+   "slide": 3,
+   "text": "READING ORDER: the title is not first in shape order — screen readers read z-order; reorder so the title is added first",
+   "severity": "warning"
+  },
+  {
+   "slide": 3,
+   "text": "NON-TEXT CONTRAST: line #DAE1E7 on #F4F6F8 — 1.22:1 (<3:1, WCAG 1.4.11); essential icons/lines need more contrast",
+   "severity": "warning"
+  },
+  {
+   "slide": 4,
+   "text": "READING ORDER: the title is not first in shape order — screen readers read z-order; reorder so the title is added first",
+   "severity": "warning"
+  },
+  {
+   "slide": 4,
+   "text": "NON-TEXT CONTRAST: line #DAE1E7 on #F4F6F8 — 1.22:1 (<3:1, WCAG 1.4.11); essential icons/lines need more contrast",
+   "severity": "warning"
+  },
+  {
+   "slide": 5,
+   "text": "READING ORDER: the title is not first in shape order — screen readers read z-order; reorder so the title is added first",
+   "severity": "warning"
+  },
+  {
+   "slide": 5,
+   "text": "NON-TEXT CONTRAST: line #DAE1E7 on #F4F6F8 — 1.22:1 (<3:1, WCAG 1.4.11); essential icons/lines need more contrast",
+   "severity": "warning"
+  },
+  {
+   "slide": 5,
+   "text": "NON-TEXT CONTRAST: line #789AC8 on #F4F6F8 — 2.67:1 (<3:1, WCAG 1.4.11); essential icons/lines need more contrast",
+   "severity": "warning"
+  }
+ ],
+ "stats_warnings": [
+  "TEXT WALL: slide 1 carries a reading load of ~81 words (presented budget ≈40, warn >70) — move prose to speaker notes or split the slide",
+  "SIZE SPRAWL: slide 1 uses 6 distinct font sizes (5.5, 8.5, 11, 12.5, 13.5, 24.5) — target ≤3-4 per slide, drawn from the deck's declared type-scale tokens",
+  "TEXT WALL: slide 2 carries a reading load of ~88 words (presented budget ≈40, warn >70) — move prose to speaker notes or split the slide",
+  "SIZE SPRAWL: slide 2 uses 5 distinct font sizes (5.5, 8.5, 11, 13, 24.5) — target ≤3-4 per slide, drawn from the deck's declared type-scale tokens",
+  "TEXT WALL: slide 3 carries a reading load of ~81 words (presented budget ≈40, warn >70) — move prose to speaker notes or split the slide",
+  "SIZE SPRAWL: slide 3 uses 5 distinct font sizes (5.5, 9, 11.5, 13, 24.5) — target ≤3-4 per slide, drawn from the deck's declared type-scale tokens",
+  "CROWDED: slide 4 occupancy 71% — role bands: cover 25-35 · exec/summary 45-60 · technical/dense 55-70; past ~70% the slide reads crowded — subtract or split, don't shrink",
+  "TEXT WALL: slide 5 carries a reading load of ~84 words (presented budget ≈40, warn >70) — move prose to speaker notes or split the slide",
+  "SIZE SPRAWL: slide 5 uses 5 distinct font sizes (5.5, 9, 11, 13, 24.5) — target ≤3-4 per slide, drawn from the deck's declared type-scale tokens",
+  "CARD DOMINANCE: 4 of 4 content slides (slides 2, 3, 4, 5) carry their content in large solid panels/cards — the greedy default form; re-form the ones whose idea has a shape (ratio → proportional bar · flip → diagram · division → split · process → roadmap), don't just restyle the boxes",
+  "NO ICONS ON CATEGORY CONTENT: slides 2, 3, 5 carry parallel label sets (3+ short peers on one baseline across half the canvas — the shape of a category row) and the deck contains no icon-sized picture at all. On category-rich content an icon family is a design must, not a taste call (slide-design self-verify (g)). Build one (scripts/icons.py, one family, recolored to the palette), or record `icon_family: \"none — <why THESE slides read better without one>\"` in .deck-gates.json — the detector over-counts on tables and timelines, so this is a re-decision, not a verdict",
+  "SMALL TYPE: body-median 12pt is under the ~14pt floor for this 10.0in-wide canvas (≈18-22pt on a standard 13.3in slide) — a presented deck's body text must read from the back of the room; fewer words, bigger type",
+  "CJK-LATIN SPACING: both '中文 Latin' spaced (6×) and '中文Latin' unspaced (24×) boundaries appear — pick ONE convention deck-wide (recommend the space: 全年 ARR 增长 51%)"
+ ],
+ "deck": {
+  "body_median_pt": 11.5,
+  "type_drama": 2.13,
+  "size_tokens": 6,
+  "distinct_skeletons": 5,
+  "builds": 0,
+  "transitions": 0,
+  "avg_occupancy": 0.6,
+  "body_n": 3,
+  "sameness_codes": [
+   "CARD DOMINANCE"
+  ],
+  "timidity_codes": []
+ },
+ "per_slide": [
+  {
+   "slide": 1,
+   "load": 81,
+   "text_cov": 0.383,
+   "ink_cov": 0.566,
+   "max_pt": 24.5,
+   "n_shapes": 29,
+   "n_pic": 0,
+   "n_chart": 0,
+   "build": false,
+   "transition": false,
+   "size_clusters": [
+    5.5,
+    8.5,
+    11.0,
+    12.5,
+    13.5,
+    24.5
+   ],
+   "notes_words": 50,
+   "notes": "补充页1讲解建议：\n这一页先给出整体逻辑。AI不是只看招标要求，也不是直接替企业承诺。它要同时看到客户要求和企业资料，逐条匹配后生成初步判断、引用材料与待确认问题。\n\n说明：页面中的企业资料、要求编号与判断结果均为课堂模拟。",
+   "n_pic_fg": 0,
+   "content_bottom": 0.839,
+   "lum": 0.886,
+   "sat": 0.064,
+   "col_void": 0.125
+  },
+  {
+   "slide": 2,
+   "load": 88,
+   "text_cov": 0.455,
+   "ink_cov": 0.549,
+   "max_pt": 24.5,
+   "n_shapes": 36,
+   "n_pic": 0,
+   "n_chart": 0,
+   "build": false,
+   "transition": false,
+   "size_clusters": [
+    5.5,
+    8.5,
+    11.0,
+    13.0,
+    24.5
+   ],
+   "notes_words": 57,
+   "notes": "补充页2讲解建议：\n这里强调检索增强的产品过程。针对每条招标要求，系统先在产品说明、技术文档、历史案例、资质和实施材料中检索，再把相关片段交给AI判断。这样判断才能回到企业材料，而不是靠模型常识猜。\n\n说明：页面中的企业资料、要求编号与判断结果均为课堂模拟。",
+   "n_pic_fg": 0,
+   "content_bottom": 0.868,
+   "lum": 0.88,
+   "sat": 0.083,
+   "col_void": 0.031
+  },
+  {
+   "slide": 3,
+   "load": 81,
+   "text_cov": 0.369,
+   "ink_cov": 0.616,
+   "max_pt": 24.5,
+   "n_shapes": 40,
+   "n_pic": 0,
+   "n_chart": 0,
+   "build": false,
+   "transition": false,
+   "size_clusters": [
+    5.5,
+    9.0,
+    11.5,
+    13.0,
+    24.5
+   ],
+   "notes_words": 53,
+   "notes": "补充页3讲解建议：\n课堂上要提醒学员，不要把AI输出设计成简单的“是或否”。部分响应和待确认尤其重要，因为它们把模糊风险变成可以继续处理的问题。每个状态都要有依据、缺口和下一步。\n\n说明：页面中的企业资料、要求编号与判断结果均为课堂模拟。",
+   "n_pic_fg": 0,
+   "content_bottom": 0.811,
+   "lum": 0.937,
+   "sat": 0.036,
+   "col_void": 0.031
+  },
+  {
+   "slide": 4,
+   "load": 42,
+   "text_cov": 0.262,
+   "ink_cov": 0.713,
+   "max_pt": 24.5,
+   "n_shapes": 15,
+   "n_pic": 0,
+   "n_chart": 0,
+   "build": false,
+   "transition": false,
+   "size_clusters": [
+    5.5,
+    9.0,
+    11.5,
+    24.5
+   ],
+   "notes_words": 52,
+   "notes": "补充页4讲解建议：\n这一页展示真正的产品产物。响应矩阵至少包含要求编号、要求内容、初步判断、判断依据、材料来源和待处理事项。这样它才能继续进入责任人确认、标书撰写和风险检查。\n\n说明：页面中的企业资料、要求编号与判断结果均为课堂模拟。",
+   "n_pic_fg": 0,
+   "content_bottom": 0.894,
+   "lum": 0.888,
+   "sat": 0.053,
+   "col_void": 0.031
+  },
+  {
+   "slide": 5,
+   "load": 84,
+   "text_cov": 0.485,
+   "ink_cov": 0.557,
+   "max_pt": 24.5,
+   "n_shapes": 24,
+   "n_pic": 0,
+   "n_chart": 0,
+   "build": false,
+   "transition": false,
+   "size_clusters": [
+    5.5,
+    9.0,
+    11.0,
+    13.0,
+    24.5
+   ],
+   "notes_words": 60,
+   "notes": "补充页5讲解建议：\n最后用责任边界收束。AI可以判断材料是否支持、哪些地方有缺口，但正式承诺会形成合同责任，必须由技术、商务、项目和法务等责任人确认。技术上可能做得到，也不等于当前项目愿意以这个成本和周期承诺。\n\n说明：页面中的企业资料、要求编号与判断结果均为课堂模拟。",
+   "n_pic_fg": 0,
+   "content_bottom": 0.818,
+   "lum": 0.912,
+   "sat": 0.09,
+   "col_void": 0.042
+  }
+ ],
+ "counts": {
+  "findings": 0,
+  "warnings": 12
+ },
+ "pixel_checks": {
+  "ran": true,
+  "reason": null,
+  "not_checked": []
+ }
+}

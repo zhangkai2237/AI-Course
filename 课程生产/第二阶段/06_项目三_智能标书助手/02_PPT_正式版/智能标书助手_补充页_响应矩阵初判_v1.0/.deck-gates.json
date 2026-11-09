@@ -1,0 +1,71 @@
+{
+  "delivery": "presented",
+  "interview": {
+    "record": "沿用上一组补充页：16:9中文授课版、5页、匹配现有智能标书助手风格、静态展示、独立PPT。"
+  },
+  "content": {
+    "checkpoint": {
+      "mode": "auto",
+      "record": "介入位置→企业资料检索→四类初判→响应矩阵→人机责任边界。"
+    },
+    "slides": [
+      {"slide": 1, "role": "overview", "takeaway": "AI逐条匹配客户要求与企业能力，先生成建议而不是最终承诺。", "evidence": ["用户本轮确认的响应矩阵逻辑"], "units": 3},
+      {"slide": 2, "role": "retrieval", "takeaway": "每条要求先检索企业材料，再让AI基于相关片段判断。", "evidence": ["产品说明、技术文档、历史案例三类企业材料"], "units": 4},
+      {"slide": 3, "role": "classification", "takeaway": "AI生成可以响应、部分响应、暂不响应、待确认四类初判。", "evidence": ["本轮讨论确定的四类状态"], "units": 4},
+      {"slide": 4, "role": "artifact", "takeaway": "响应矩阵把判断、依据、来源和待办放在同一行。", "evidence": ["本轮讨论中的三条课堂案例"], "units": 3},
+      {"slide": 5, "role": "governance", "takeaway": "AI判断材料是否支持，人决定企业是否正式承诺。", "evidence": ["本轮讨论的人机责任边界"], "units": 3}
+    ],
+    "arc": {
+      "candidates": [
+        {"name": "介入流程优先", "shape": "从输入到治理边界"},
+        {"name": "矩阵产物优先", "shape": "先看表格再逆向解释"},
+        {"name": "人机边界优先", "shape": "先谈责任再讲产品过程"}
+      ],
+      "chosen": "介入流程优先",
+      "rejected": [
+        {"name": "矩阵产物优先", "why_lost": "缺少前置过程时表格出现得过于突然"},
+        {"name": "人机边界优先", "why_lost": "适合收束，不适合承担开场解释"}
+      ]
+    }
+  },
+  "design_plan": {
+    "checkpoint": {
+      "mode": "auto",
+      "record": "沿用上一组浅灰底、深蓝/青绿/琥珀状态色与R/M/C控制点。"
+    },
+    "boldness": "conservative",
+    "signature_move": "deliberately restrained: 作为主课件插入页，优先保持与既有49页课件一致。",
+    "carried_by": [1, 4, 5],
+    "form_ledger": ["输入输出图", "检索链路", "四状态板", "响应矩阵表格", "责任确认链路"],
+    "icon_family": "none — editorial-register：本组是企业文档与状态判断，文字、状态符号和原生流程图比装饰图标更直接。",
+    "icon_none_category": "editorial-register",
+    "icon_none_checked": [2, 3, 5],
+    "palette": "navy/teal/blue/amber/coral；状态色同时由文字与符号编码。",
+    "type_scale": {"title": 24.5, "body": 11.0, "caption": 8.8},
+    "style_pick": "n/a — locked look：匹配既有智能标书助手课件。",
+    "build_shape": "solo — 5页且属于一个紧密连续的教学论证。",
+    "form_reach": {
+      "waived": "R/M/C角标与同构状态卡属于既有课件视觉语言；流程使用flow_chain，矩阵使用原生table组件。"
+    }
+  },
+  "render_selfcheck": {
+    "slides": [
+      {"n": 1, "verdict": "ok — 输入、AI匹配和输出矩阵的阅读顺序清楚"},
+      {"n": 2, "verdict": "ok — 检索链路与三类企业资料对应明确"},
+      {"n": 3, "verdict": "ok — 四类状态无孤字、颜色与符号均可区分"},
+      {"n": 4, "verdict": "ok — 表格字段完整，底部结论与表格保持清晰间距"},
+      {"n": 5, "verdict": "ok — AI建议与人工承诺的责任边界突出"}
+    ]
+  },
+  "critic": {
+    "waived": "当前运行未启用独立评审代理；已完成逐页渲染检查与机械预检，但不声称独立评审通过。",
+    "waived_category": "no-dispatch-on-host",
+    "inline_ran": true
+  },
+  "provenance": {
+    "waived": "内容来自本轮课程讨论与课堂模拟，不含需要网络核验的外部事实。"
+  },
+  "density": {
+    "waived": "本组为产品流程教学补充页，较多短标签属于图表结构；完整讲解已放入备注。"
+  }
+}

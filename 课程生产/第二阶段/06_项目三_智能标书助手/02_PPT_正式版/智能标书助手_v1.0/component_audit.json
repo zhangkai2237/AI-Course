@@ -1,0 +1,1491 @@
+{
+ "used_forms": [],
+ "form_total": 23,
+ "clusters": [
+  {
+   "slide": 2,
+   "pattern": "tile row",
+   "detail": "3 identical rects on an even pitch at y=0.33in",
+   "suggest": [
+    "scorecard",
+    "stat_row",
+    "columns"
+   ]
+  },
+  {
+   "slide": 3,
+   "pattern": "tile row",
+   "detail": "3 identical rects on an even pitch at y=0.33in",
+   "suggest": [
+    "scorecard",
+    "stat_row",
+    "columns"
+   ]
+  },
+  {
+   "slide": 4,
+   "pattern": "tile row",
+   "detail": "3 identical rects on an even pitch at y=0.33in",
+   "suggest": [
+    "scorecard",
+    "stat_row",
+    "columns"
+   ]
+  },
+  {
+   "slide": 5,
+   "pattern": "marker row with captions",
+   "detail": "3 evenly spaced markers with captions below",
+   "suggest": [
+    "timeline",
+    "spaced_centers",
+    "step_list"
+   ]
+  },
+  {
+   "slide": 5,
+   "pattern": "tile row",
+   "detail": "3 identical rects on an even pitch at y=0.33in",
+   "suggest": [
+    "scorecard",
+    "stat_row",
+    "columns"
+   ]
+  },
+  {
+   "slide": 6,
+   "pattern": "marker row with captions",
+   "detail": "3 evenly spaced markers with captions below",
+   "suggest": [
+    "timeline",
+    "spaced_centers",
+    "step_list"
+   ]
+  },
+  {
+   "slide": 6,
+   "pattern": "tile row",
+   "detail": "3 identical rects on an even pitch at y=0.33in",
+   "suggest": [
+    "scorecard",
+    "stat_row",
+    "columns"
+   ]
+  },
+  {
+   "slide": 7,
+   "pattern": "marker row with captions",
+   "detail": "3 evenly spaced markers with captions below",
+   "suggest": [
+    "timeline",
+    "spaced_centers",
+    "step_list"
+   ]
+  },
+  {
+   "slide": 7,
+   "pattern": "tile row",
+   "detail": "3 identical rects on an even pitch at y=0.33in",
+   "suggest": [
+    "scorecard",
+    "stat_row",
+    "columns"
+   ]
+  },
+  {
+   "slide": 8,
+   "pattern": "tile row",
+   "detail": "3 identical rects on an even pitch at y=0.33in",
+   "suggest": [
+    "scorecard",
+    "stat_row",
+    "columns"
+   ]
+  },
+  {
+   "slide": 9,
+   "pattern": "tile row",
+   "detail": "3 identical rects on an even pitch at y=0.33in",
+   "suggest": [
+    "scorecard",
+    "stat_row",
+    "columns"
+   ]
+  },
+  {
+   "slide": 10,
+   "pattern": "marker row with captions",
+   "detail": "3 evenly spaced markers with captions below",
+   "suggest": [
+    "timeline",
+    "spaced_centers",
+    "step_list"
+   ]
+  },
+  {
+   "slide": 10,
+   "pattern": "tile row",
+   "detail": "3 identical rects on an even pitch at y=0.33in",
+   "suggest": [
+    "scorecard",
+    "stat_row",
+    "columns"
+   ]
+  },
+  {
+   "slide": 11,
+   "pattern": "tile row",
+   "detail": "3 identical rects on an even pitch at y=0.33in",
+   "suggest": [
+    "scorecard",
+    "stat_row",
+    "columns"
+   ]
+  },
+  {
+   "slide": 12,
+   "pattern": "tile row",
+   "detail": "3 identical rects on an even pitch at y=0.33in",
+   "suggest": [
+    "scorecard",
+    "stat_row",
+    "columns"
+   ]
+  },
+  {
+   "slide": 13,
+   "pattern": "marker row with captions",
+   "detail": "3 evenly spaced markers with captions below",
+   "suggest": [
+    "timeline",
+    "spaced_centers",
+    "step_list"
+   ]
+  },
+  {
+   "slide": 13,
+   "pattern": "tile row",
+   "detail": "3 identical rects on an even pitch at y=0.33in",
+   "suggest": [
+    "scorecard",
+    "stat_row",
+    "columns"
+   ]
+  },
+  {
+   "slide": 14,
+   "pattern": "tile row",
+   "detail": "3 identical rects on an even pitch at y=0.33in",
+   "suggest": [
+    "scorecard",
+    "stat_row",
+    "columns"
+   ]
+  },
+  {
+   "slide": 15,
+   "pattern": "marker row with captions",
+   "detail": "3 evenly spaced markers with captions below",
+   "suggest": [
+    "timeline",
+    "spaced_centers",
+    "step_list"
+   ]
+  },
+  {
+   "slide": 15,
+   "pattern": "tile row",
+   "detail": "3 identical rects on an even pitch at y=0.33in",
+   "suggest": [
+    "scorecard",
+    "stat_row",
+    "columns"
+   ]
+  },
+  {
+   "slide": 16,
+   "pattern": "marker row with captions",
+   "detail": "3 evenly spaced markers with captions below",
+   "suggest": [
+    "timeline",
+    "spaced_centers",
+    "step_list"
+   ]
+  },
+  {
+   "slide": 16,
+   "pattern": "tile row",
+   "detail": "3 identical rects on an even pitch at y=0.33in",
+   "suggest": [
+    "scorecard",
+    "stat_row",
+    "columns"
+   ]
+  },
+  {
+   "slide": 17,
+   "pattern": "marker row with captions",
+   "detail": "3 evenly spaced markers with captions below",
+   "suggest": [
+    "timeline",
+    "spaced_centers",
+    "step_list"
+   ]
+  },
+  {
+   "slide": 17,
+   "pattern": "tile row",
+   "detail": "3 identical rects on an even pitch at y=0.33in",
+   "suggest": [
+    "scorecard",
+    "stat_row",
+    "columns"
+   ]
+  },
+  {
+   "slide": 18,
+   "pattern": "tile row",
+   "detail": "3 identical rects on an even pitch at y=0.33in",
+   "suggest": [
+    "scorecard",
+    "stat_row",
+    "columns"
+   ]
+  },
+  {
+   "slide": 19,
+   "pattern": "tile row",
+   "detail": "3 identical rects on an even pitch at y=0.33in",
+   "suggest": [
+    "scorecard",
+    "stat_row",
+    "columns"
+   ]
+  },
+  {
+   "slide": 20,
+   "pattern": "marker row with captions",
+   "detail": "3 evenly spaced markers with captions below",
+   "suggest": [
+    "timeline",
+    "spaced_centers",
+    "step_list"
+   ]
+  },
+  {
+   "slide": 20,
+   "pattern": "tile row",
+   "detail": "3 identical rects on an even pitch at y=0.33in",
+   "suggest": [
+    "scorecard",
+    "stat_row",
+    "columns"
+   ]
+  },
+  {
+   "slide": 21,
+   "pattern": "marker row with captions",
+   "detail": "3 evenly spaced markers with captions below",
+   "suggest": [
+    "timeline",
+    "spaced_centers",
+    "step_list"
+   ]
+  },
+  {
+   "slide": 21,
+   "pattern": "tile row",
+   "detail": "3 identical rects on an even pitch at y=0.33in",
+   "suggest": [
+    "scorecard",
+    "stat_row",
+    "columns"
+   ]
+  },
+  {
+   "slide": 22,
+   "pattern": "marker row with captions",
+   "detail": "3 evenly spaced markers with captions below",
+   "suggest": [
+    "timeline",
+    "spaced_centers",
+    "step_list"
+   ]
+  },
+  {
+   "slide": 22,
+   "pattern": "tile row",
+   "detail": "3 identical rects on an even pitch at y=0.33in",
+   "suggest": [
+    "scorecard",
+    "stat_row",
+    "columns"
+   ]
+  },
+  {
+   "slide": 23,
+   "pattern": "marker row with captions",
+   "detail": "3 evenly spaced markers with captions below",
+   "suggest": [
+    "timeline",
+    "spaced_centers",
+    "step_list"
+   ]
+  },
+  {
+   "slide": 23,
+   "pattern": "tile row",
+   "detail": "3 identical rects on an even pitch at y=0.33in",
+   "suggest": [
+    "scorecard",
+    "stat_row",
+    "columns"
+   ]
+  },
+  {
+   "slide": 24,
+   "pattern": "marker row with captions",
+   "detail": "3 evenly spaced markers with captions below",
+   "suggest": [
+    "timeline",
+    "spaced_centers",
+    "step_list"
+   ]
+  },
+  {
+   "slide": 24,
+   "pattern": "tile row",
+   "detail": "3 identical rects on an even pitch at y=0.33in",
+   "suggest": [
+    "scorecard",
+    "stat_row",
+    "columns"
+   ]
+  },
+  {
+   "slide": 25,
+   "pattern": "marker row with captions",
+   "detail": "3 evenly spaced markers with captions below",
+   "suggest": [
+    "timeline",
+    "spaced_centers",
+    "step_list"
+   ]
+  },
+  {
+   "slide": 25,
+   "pattern": "tile row",
+   "detail": "3 identical rects on an even pitch at y=0.33in",
+   "suggest": [
+    "scorecard",
+    "stat_row",
+    "columns"
+   ]
+  },
+  {
+   "slide": 26,
+   "pattern": "marker row with captions",
+   "detail": "3 evenly spaced markers with captions below",
+   "suggest": [
+    "timeline",
+    "spaced_centers",
+    "step_list"
+   ]
+  },
+  {
+   "slide": 26,
+   "pattern": "tile row",
+   "detail": "3 identical rects on an even pitch at y=0.33in",
+   "suggest": [
+    "scorecard",
+    "stat_row",
+    "columns"
+   ]
+  },
+  {
+   "slide": 27,
+   "pattern": "tile row",
+   "detail": "3 identical rects on an even pitch at y=0.33in",
+   "suggest": [
+    "scorecard",
+    "stat_row",
+    "columns"
+   ]
+  },
+  {
+   "slide": 28,
+   "pattern": "tile row",
+   "detail": "3 identical rects on an even pitch at y=0.33in",
+   "suggest": [
+    "scorecard",
+    "stat_row",
+    "columns"
+   ]
+  },
+  {
+   "slide": 29,
+   "pattern": "marker row with captions",
+   "detail": "3 evenly spaced markers with captions below",
+   "suggest": [
+    "timeline",
+    "spaced_centers",
+    "step_list"
+   ]
+  },
+  {
+   "slide": 29,
+   "pattern": "tile row",
+   "detail": "3 identical rects on an even pitch at y=0.33in",
+   "suggest": [
+    "scorecard",
+    "stat_row",
+    "columns"
+   ]
+  },
+  {
+   "slide": 30,
+   "pattern": "marker row with captions",
+   "detail": "3 evenly spaced markers with captions below",
+   "suggest": [
+    "timeline",
+    "spaced_centers",
+    "step_list"
+   ]
+  },
+  {
+   "slide": 30,
+   "pattern": "tile row",
+   "detail": "3 identical rects on an even pitch at y=0.33in",
+   "suggest": [
+    "scorecard",
+    "stat_row",
+    "columns"
+   ]
+  },
+  {
+   "slide": 31,
+   "pattern": "marker row with captions",
+   "detail": "3 evenly spaced markers with captions below",
+   "suggest": [
+    "timeline",
+    "spaced_centers",
+    "step_list"
+   ]
+  },
+  {
+   "slide": 31,
+   "pattern": "tile row",
+   "detail": "3 identical rects on an even pitch at y=0.33in",
+   "suggest": [
+    "scorecard",
+    "stat_row",
+    "columns"
+   ]
+  },
+  {
+   "slide": 32,
+   "pattern": "marker row with captions",
+   "detail": "3 evenly spaced markers with captions below",
+   "suggest": [
+    "timeline",
+    "spaced_centers",
+    "step_list"
+   ]
+  },
+  {
+   "slide": 32,
+   "pattern": "tile row",
+   "detail": "3 identical rects on an even pitch at y=0.33in",
+   "suggest": [
+    "scorecard",
+    "stat_row",
+    "columns"
+   ]
+  },
+  {
+   "slide": 33,
+   "pattern": "tile row",
+   "detail": "3 identical rects on an even pitch at y=0.33in",
+   "suggest": [
+    "scorecard",
+    "stat_row",
+    "columns"
+   ]
+  },
+  {
+   "slide": 34,
+   "pattern": "tile row",
+   "detail": "3 identical rects on an even pitch at y=0.33in",
+   "suggest": [
+    "scorecard",
+    "stat_row",
+    "columns"
+   ]
+  },
+  {
+   "slide": 35,
+   "pattern": "tile row",
+   "detail": "3 identical rects on an even pitch at y=0.33in",
+   "suggest": [
+    "scorecard",
+    "stat_row",
+    "columns"
+   ]
+  },
+  {
+   "slide": 36,
+   "pattern": "marker row with captions",
+   "detail": "3 evenly spaced markers with captions below",
+   "suggest": [
+    "timeline",
+    "spaced_centers",
+    "step_list"
+   ]
+  },
+  {
+   "slide": 36,
+   "pattern": "tile row",
+   "detail": "3 identical rects on an even pitch at y=0.33in",
+   "suggest": [
+    "scorecard",
+    "stat_row",
+    "columns"
+   ]
+  },
+  {
+   "slide": 37,
+   "pattern": "marker row with captions",
+   "detail": "3 evenly spaced markers with captions below",
+   "suggest": [
+    "timeline",
+    "spaced_centers",
+    "step_list"
+   ]
+  },
+  {
+   "slide": 37,
+   "pattern": "tile row",
+   "detail": "3 identical rects on an even pitch at y=0.33in",
+   "suggest": [
+    "scorecard",
+    "stat_row",
+    "columns"
+   ]
+  },
+  {
+   "slide": 38,
+   "pattern": "tile row",
+   "detail": "3 identical rects on an even pitch at y=0.33in",
+   "suggest": [
+    "scorecard",
+    "stat_row",
+    "columns"
+   ]
+  },
+  {
+   "slide": 39,
+   "pattern": "marker row with captions",
+   "detail": "3 evenly spaced markers with captions below",
+   "suggest": [
+    "timeline",
+    "spaced_centers",
+    "step_list"
+   ]
+  },
+  {
+   "slide": 39,
+   "pattern": "tile row",
+   "detail": "3 identical rects on an even pitch at y=0.33in",
+   "suggest": [
+    "scorecard",
+    "stat_row",
+    "columns"
+   ]
+  },
+  {
+   "slide": 40,
+   "pattern": "marker row with captions",
+   "detail": "3 evenly spaced markers with captions below",
+   "suggest": [
+    "timeline",
+    "spaced_centers",
+    "step_list"
+   ]
+  },
+  {
+   "slide": 40,
+   "pattern": "tile row",
+   "detail": "3 identical rects on an even pitch at y=0.33in",
+   "suggest": [
+    "scorecard",
+    "stat_row",
+    "columns"
+   ]
+  },
+  {
+   "slide": 41,
+   "pattern": "tile row",
+   "detail": "3 identical rects on an even pitch at y=0.33in",
+   "suggest": [
+    "scorecard",
+    "stat_row",
+    "columns"
+   ]
+  },
+  {
+   "slide": 42,
+   "pattern": "tile row",
+   "detail": "3 identical rects on an even pitch at y=0.33in",
+   "suggest": [
+    "scorecard",
+    "stat_row",
+    "columns"
+   ]
+  },
+  {
+   "slide": 43,
+   "pattern": "tile row",
+   "detail": "3 identical rects on an even pitch at y=0.33in",
+   "suggest": [
+    "scorecard",
+    "stat_row",
+    "columns"
+   ]
+  },
+  {
+   "slide": 44,
+   "pattern": "marker row with captions",
+   "detail": "3 evenly spaced markers with captions below",
+   "suggest": [
+    "timeline",
+    "spaced_centers",
+    "step_list"
+   ]
+  },
+  {
+   "slide": 44,
+   "pattern": "tile row",
+   "detail": "3 identical rects on an even pitch at y=0.33in",
+   "suggest": [
+    "scorecard",
+    "stat_row",
+    "columns"
+   ]
+  },
+  {
+   "slide": 45,
+   "pattern": "tile row",
+   "detail": "3 identical rects on an even pitch at y=0.33in",
+   "suggest": [
+    "scorecard",
+    "stat_row",
+    "columns"
+   ]
+  },
+  {
+   "slide": 46,
+   "pattern": "tile row",
+   "detail": "3 identical rects on an even pitch at y=0.33in",
+   "suggest": [
+    "scorecard",
+    "stat_row",
+    "columns"
+   ]
+  },
+  {
+   "slide": 47,
+   "pattern": "tile row",
+   "detail": "3 identical rects on an even pitch at y=0.33in",
+   "suggest": [
+    "scorecard",
+    "stat_row",
+    "columns"
+   ]
+  },
+  {
+   "slide": 48,
+   "pattern": "marker row with captions",
+   "detail": "3 evenly spaced markers with captions below",
+   "suggest": [
+    "timeline",
+    "spaced_centers",
+    "step_list"
+   ]
+  },
+  {
+   "slide": 48,
+   "pattern": "tile row",
+   "detail": "3 identical rects on an even pitch at y=0.33in",
+   "suggest": [
+    "scorecard",
+    "stat_row",
+    "columns"
+   ]
+  },
+  {
+   "slide": 49,
+   "pattern": "marker row with captions",
+   "detail": "3 evenly spaced markers with captions below",
+   "suggest": [
+    "timeline",
+    "spaced_centers",
+    "step_list"
+   ]
+  },
+  {
+   "slide": 49,
+   "pattern": "tile row",
+   "detail": "3 identical rects on an even pitch at y=0.33in",
+   "suggest": [
+    "scorecard",
+    "stat_row",
+    "columns"
+   ]
+  }
+ ],
+ "actionable": [
+  {
+   "slide": 2,
+   "pattern": "tile row",
+   "detail": "3 identical rects on an even pitch at y=0.33in",
+   "suggest": [
+    "scorecard",
+    "stat_row",
+    "columns"
+   ]
+  },
+  {
+   "slide": 3,
+   "pattern": "tile row",
+   "detail": "3 identical rects on an even pitch at y=0.33in",
+   "suggest": [
+    "scorecard",
+    "stat_row",
+    "columns"
+   ]
+  },
+  {
+   "slide": 4,
+   "pattern": "tile row",
+   "detail": "3 identical rects on an even pitch at y=0.33in",
+   "suggest": [
+    "scorecard",
+    "stat_row",
+    "columns"
+   ]
+  },
+  {
+   "slide": 5,
+   "pattern": "marker row with captions",
+   "detail": "3 evenly spaced markers with captions below",
+   "suggest": [
+    "timeline",
+    "spaced_centers",
+    "step_list"
+   ]
+  },
+  {
+   "slide": 5,
+   "pattern": "tile row",
+   "detail": "3 identical rects on an even pitch at y=0.33in",
+   "suggest": [
+    "scorecard",
+    "stat_row",
+    "columns"
+   ]
+  },
+  {
+   "slide": 6,
+   "pattern": "marker row with captions",
+   "detail": "3 evenly spaced markers with captions below",
+   "suggest": [
+    "timeline",
+    "spaced_centers",
+    "step_list"
+   ]
+  },
+  {
+   "slide": 6,
+   "pattern": "tile row",
+   "detail": "3 identical rects on an even pitch at y=0.33in",
+   "suggest": [
+    "scorecard",
+    "stat_row",
+    "columns"
+   ]
+  },
+  {
+   "slide": 7,
+   "pattern": "marker row with captions",
+   "detail": "3 evenly spaced markers with captions below",
+   "suggest": [
+    "timeline",
+    "spaced_centers",
+    "step_list"
+   ]
+  },
+  {
+   "slide": 7,
+   "pattern": "tile row",
+   "detail": "3 identical rects on an even pitch at y=0.33in",
+   "suggest": [
+    "scorecard",
+    "stat_row",
+    "columns"
+   ]
+  },
+  {
+   "slide": 8,
+   "pattern": "tile row",
+   "detail": "3 identical rects on an even pitch at y=0.33in",
+   "suggest": [
+    "scorecard",
+    "stat_row",
+    "columns"
+   ]
+  },
+  {
+   "slide": 9,
+   "pattern": "tile row",
+   "detail": "3 identical rects on an even pitch at y=0.33in",
+   "suggest": [
+    "scorecard",
+    "stat_row",
+    "columns"
+   ]
+  },
+  {
+   "slide": 10,
+   "pattern": "marker row with captions",
+   "detail": "3 evenly spaced markers with captions below",
+   "suggest": [
+    "timeline",
+    "spaced_centers",
+    "step_list"
+   ]
+  },
+  {
+   "slide": 10,
+   "pattern": "tile row",
+   "detail": "3 identical rects on an even pitch at y=0.33in",
+   "suggest": [
+    "scorecard",
+    "stat_row",
+    "columns"
+   ]
+  },
+  {
+   "slide": 11,
+   "pattern": "tile row",
+   "detail": "3 identical rects on an even pitch at y=0.33in",
+   "suggest": [
+    "scorecard",
+    "stat_row",
+    "columns"
+   ]
+  },
+  {
+   "slide": 12,
+   "pattern": "tile row",
+   "detail": "3 identical rects on an even pitch at y=0.33in",
+   "suggest": [
+    "scorecard",
+    "stat_row",
+    "columns"
+   ]
+  },
+  {
+   "slide": 13,
+   "pattern": "marker row with captions",
+   "detail": "3 evenly spaced markers with captions below",
+   "suggest": [
+    "timeline",
+    "spaced_centers",
+    "step_list"
+   ]
+  },
+  {
+   "slide": 13,
+   "pattern": "tile row",
+   "detail": "3 identical rects on an even pitch at y=0.33in",
+   "suggest": [
+    "scorecard",
+    "stat_row",
+    "columns"
+   ]
+  },
+  {
+   "slide": 14,
+   "pattern": "tile row",
+   "detail": "3 identical rects on an even pitch at y=0.33in",
+   "suggest": [
+    "scorecard",
+    "stat_row",
+    "columns"
+   ]
+  },
+  {
+   "slide": 15,
+   "pattern": "marker row with captions",
+   "detail": "3 evenly spaced markers with captions below",
+   "suggest": [
+    "timeline",
+    "spaced_centers",
+    "step_list"
+   ]
+  },
+  {
+   "slide": 15,
+   "pattern": "tile row",
+   "detail": "3 identical rects on an even pitch at y=0.33in",
+   "suggest": [
+    "scorecard",
+    "stat_row",
+    "columns"
+   ]
+  },
+  {
+   "slide": 16,
+   "pattern": "marker row with captions",
+   "detail": "3 evenly spaced markers with captions below",
+   "suggest": [
+    "timeline",
+    "spaced_centers",
+    "step_list"
+   ]
+  },
+  {
+   "slide": 16,
+   "pattern": "tile row",
+   "detail": "3 identical rects on an even pitch at y=0.33in",
+   "suggest": [
+    "scorecard",
+    "stat_row",
+    "columns"
+   ]
+  },
+  {
+   "slide": 17,
+   "pattern": "marker row with captions",
+   "detail": "3 evenly spaced markers with captions below",
+   "suggest": [
+    "timeline",
+    "spaced_centers",
+    "step_list"
+   ]
+  },
+  {
+   "slide": 17,
+   "pattern": "tile row",
+   "detail": "3 identical rects on an even pitch at y=0.33in",
+   "suggest": [
+    "scorecard",
+    "stat_row",
+    "columns"
+   ]
+  },
+  {
+   "slide": 18,
+   "pattern": "tile row",
+   "detail": "3 identical rects on an even pitch at y=0.33in",
+   "suggest": [
+    "scorecard",
+    "stat_row",
+    "columns"
+   ]
+  },
+  {
+   "slide": 19,
+   "pattern": "tile row",
+   "detail": "3 identical rects on an even pitch at y=0.33in",
+   "suggest": [
+    "scorecard",
+    "stat_row",
+    "columns"
+   ]
+  },
+  {
+   "slide": 20,
+   "pattern": "marker row with captions",
+   "detail": "3 evenly spaced markers with captions below",
+   "suggest": [
+    "timeline",
+    "spaced_centers",
+    "step_list"
+   ]
+  },
+  {
+   "slide": 20,
+   "pattern": "tile row",
+   "detail": "3 identical rects on an even pitch at y=0.33in",
+   "suggest": [
+    "scorecard",
+    "stat_row",
+    "columns"
+   ]
+  },
+  {
+   "slide": 21,
+   "pattern": "marker row with captions",
+   "detail": "3 evenly spaced markers with captions below",
+   "suggest": [
+    "timeline",
+    "spaced_centers",
+    "step_list"
+   ]
+  },
+  {
+   "slide": 21,
+   "pattern": "tile row",
+   "detail": "3 identical rects on an even pitch at y=0.33in",
+   "suggest": [
+    "scorecard",
+    "stat_row",
+    "columns"
+   ]
+  },
+  {
+   "slide": 22,
+   "pattern": "marker row with captions",
+   "detail": "3 evenly spaced markers with captions below",
+   "suggest": [
+    "timeline",
+    "spaced_centers",
+    "step_list"
+   ]
+  },
+  {
+   "slide": 22,
+   "pattern": "tile row",
+   "detail": "3 identical rects on an even pitch at y=0.33in",
+   "suggest": [
+    "scorecard",
+    "stat_row",
+    "columns"
+   ]
+  },
+  {
+   "slide": 23,
+   "pattern": "marker row with captions",
+   "detail": "3 evenly spaced markers with captions below",
+   "suggest": [
+    "timeline",
+    "spaced_centers",
+    "step_list"
+   ]
+  },
+  {
+   "slide": 23,
+   "pattern": "tile row",
+   "detail": "3 identical rects on an even pitch at y=0.33in",
+   "suggest": [
+    "scorecard",
+    "stat_row",
+    "columns"
+   ]
+  },
+  {
+   "slide": 24,
+   "pattern": "marker row with captions",
+   "detail": "3 evenly spaced markers with captions below",
+   "suggest": [
+    "timeline",
+    "spaced_centers",
+    "step_list"
+   ]
+  },
+  {
+   "slide": 24,
+   "pattern": "tile row",
+   "detail": "3 identical rects on an even pitch at y=0.33in",
+   "suggest": [
+    "scorecard",
+    "stat_row",
+    "columns"
+   ]
+  },
+  {
+   "slide": 25,
+   "pattern": "marker row with captions",
+   "detail": "3 evenly spaced markers with captions below",
+   "suggest": [
+    "timeline",
+    "spaced_centers",
+    "step_list"
+   ]
+  },
+  {
+   "slide": 25,
+   "pattern": "tile row",
+   "detail": "3 identical rects on an even pitch at y=0.33in",
+   "suggest": [
+    "scorecard",
+    "stat_row",
+    "columns"
+   ]
+  },
+  {
+   "slide": 26,
+   "pattern": "marker row with captions",
+   "detail": "3 evenly spaced markers with captions below",
+   "suggest": [
+    "timeline",
+    "spaced_centers",
+    "step_list"
+   ]
+  },
+  {
+   "slide": 26,
+   "pattern": "tile row",
+   "detail": "3 identical rects on an even pitch at y=0.33in",
+   "suggest": [
+    "scorecard",
+    "stat_row",
+    "columns"
+   ]
+  },
+  {
+   "slide": 27,
+   "pattern": "tile row",
+   "detail": "3 identical rects on an even pitch at y=0.33in",
+   "suggest": [
+    "scorecard",
+    "stat_row",
+    "columns"
+   ]
+  },
+  {
+   "slide": 28,
+   "pattern": "tile row",
+   "detail": "3 identical rects on an even pitch at y=0.33in",
+   "suggest": [
+    "scorecard",
+    "stat_row",
+    "columns"
+   ]
+  },
+  {
+   "slide": 29,
+   "pattern": "marker row with captions",
+   "detail": "3 evenly spaced markers with captions below",
+   "suggest": [
+    "timeline",
+    "spaced_centers",
+    "step_list"
+   ]
+  },
+  {
+   "slide": 29,
+   "pattern": "tile row",
+   "detail": "3 identical rects on an even pitch at y=0.33in",
+   "suggest": [
+    "scorecard",
+    "stat_row",
+    "columns"
+   ]
+  },
+  {
+   "slide": 30,
+   "pattern": "marker row with captions",
+   "detail": "3 evenly spaced markers with captions below",
+   "suggest": [
+    "timeline",
+    "spaced_centers",
+    "step_list"
+   ]
+  },
+  {
+   "slide": 30,
+   "pattern": "tile row",
+   "detail": "3 identical rects on an even pitch at y=0.33in",
+   "suggest": [
+    "scorecard",
+    "stat_row",
+    "columns"
+   ]
+  },
+  {
+   "slide": 31,
+   "pattern": "marker row with captions",
+   "detail": "3 evenly spaced markers with captions below",
+   "suggest": [
+    "timeline",
+    "spaced_centers",
+    "step_list"
+   ]
+  },
+  {
+   "slide": 31,
+   "pattern": "tile row",
+   "detail": "3 identical rects on an even pitch at y=0.33in",
+   "suggest": [
+    "scorecard",
+    "stat_row",
+    "columns"
+   ]
+  },
+  {
+   "slide": 32,
+   "pattern": "marker row with captions",
+   "detail": "3 evenly spaced markers with captions below",
+   "suggest": [
+    "timeline",
+    "spaced_centers",
+    "step_list"
+   ]
+  },
+  {
+   "slide": 32,
+   "pattern": "tile row",
+   "detail": "3 identical rects on an even pitch at y=0.33in",
+   "suggest": [
+    "scorecard",
+    "stat_row",
+    "columns"
+   ]
+  },
+  {
+   "slide": 33,
+   "pattern": "tile row",
+   "detail": "3 identical rects on an even pitch at y=0.33in",
+   "suggest": [
+    "scorecard",
+    "stat_row",
+    "columns"
+   ]
+  },
+  {
+   "slide": 34,
+   "pattern": "tile row",
+   "detail": "3 identical rects on an even pitch at y=0.33in",
+   "suggest": [
+    "scorecard",
+    "stat_row",
+    "columns"
+   ]
+  },
+  {
+   "slide": 35,
+   "pattern": "tile row",
+   "detail": "3 identical rects on an even pitch at y=0.33in",
+   "suggest": [
+    "scorecard",
+    "stat_row",
+    "columns"
+   ]
+  },
+  {
+   "slide": 36,
+   "pattern": "marker row with captions",
+   "detail": "3 evenly spaced markers with captions below",
+   "suggest": [
+    "timeline",
+    "spaced_centers",
+    "step_list"
+   ]
+  },
+  {
+   "slide": 36,
+   "pattern": "tile row",
+   "detail": "3 identical rects on an even pitch at y=0.33in",
+   "suggest": [
+    "scorecard",
+    "stat_row",
+    "columns"
+   ]
+  },
+  {
+   "slide": 37,
+   "pattern": "marker row with captions",
+   "detail": "3 evenly spaced markers with captions below",
+   "suggest": [
+    "timeline",
+    "spaced_centers",
+    "step_list"
+   ]
+  },
+  {
+   "slide": 37,
+   "pattern": "tile row",
+   "detail": "3 identical rects on an even pitch at y=0.33in",
+   "suggest": [
+    "scorecard",
+    "stat_row",
+    "columns"
+   ]
+  },
+  {
+   "slide": 38,
+   "pattern": "tile row",
+   "detail": "3 identical rects on an even pitch at y=0.33in",
+   "suggest": [
+    "scorecard",
+    "stat_row",
+    "columns"
+   ]
+  },
+  {
+   "slide": 39,
+   "pattern": "marker row with captions",
+   "detail": "3 evenly spaced markers with captions below",
+   "suggest": [
+    "timeline",
+    "spaced_centers",
+    "step_list"
+   ]
+  },
+  {
+   "slide": 39,
+   "pattern": "tile row",
+   "detail": "3 identical rects on an even pitch at y=0.33in",
+   "suggest": [
+    "scorecard",
+    "stat_row",
+    "columns"
+   ]
+  },
+  {
+   "slide": 40,
+   "pattern": "marker row with captions",
+   "detail": "3 evenly spaced markers with captions below",
+   "suggest": [
+    "timeline",
+    "spaced_centers",
+    "step_list"
+   ]
+  },
+  {
+   "slide": 40,
+   "pattern": "tile row",
+   "detail": "3 identical rects on an even pitch at y=0.33in",
+   "suggest": [
+    "scorecard",
+    "stat_row",
+    "columns"
+   ]
+  },
+  {
+   "slide": 41,
+   "pattern": "tile row",
+   "detail": "3 identical rects on an even pitch at y=0.33in",
+   "suggest": [
+    "scorecard",
+    "stat_row",
+    "columns"
+   ]
+  },
+  {
+   "slide": 42,
+   "pattern": "tile row",
+   "detail": "3 identical rects on an even pitch at y=0.33in",
+   "suggest": [
+    "scorecard",
+    "stat_row",
+    "columns"
+   ]
+  },
+  {
+   "slide": 43,
+   "pattern": "tile row",
+   "detail": "3 identical rects on an even pitch at y=0.33in",
+   "suggest": [
+    "scorecard",
+    "stat_row",
+    "columns"
+   ]
+  },
+  {
+   "slide": 44,
+   "pattern": "marker row with captions",
+   "detail": "3 evenly spaced markers with captions below",
+   "suggest": [
+    "timeline",
+    "spaced_centers",
+    "step_list"
+   ]
+  },
+  {
+   "slide": 44,
+   "pattern": "tile row",
+   "detail": "3 identical rects on an even pitch at y=0.33in",
+   "suggest": [
+    "scorecard",
+    "stat_row",
+    "columns"
+   ]
+  },
+  {
+   "slide": 45,
+   "pattern": "tile row",
+   "detail": "3 identical rects on an even pitch at y=0.33in",
+   "suggest": [
+    "scorecard",
+    "stat_row",
+    "columns"
+   ]
+  },
+  {
+   "slide": 46,
+   "pattern": "tile row",
+   "detail": "3 identical rects on an even pitch at y=0.33in",
+   "suggest": [
+    "scorecard",
+    "stat_row",
+    "columns"
+   ]
+  },
+  {
+   "slide": 47,
+   "pattern": "tile row",
+   "detail": "3 identical rects on an even pitch at y=0.33in",
+   "suggest": [
+    "scorecard",
+    "stat_row",
+    "columns"
+   ]
+  },
+  {
+   "slide": 48,
+   "pattern": "marker row with captions",
+   "detail": "3 evenly spaced markers with captions below",
+   "suggest": [
+    "timeline",
+    "spaced_centers",
+    "step_list"
+   ]
+  },
+  {
+   "slide": 48,
+   "pattern": "tile row",
+   "detail": "3 identical rects on an even pitch at y=0.33in",
+   "suggest": [
+    "scorecard",
+    "stat_row",
+    "columns"
+   ]
+  },
+  {
+   "slide": 49,
+   "pattern": "marker row with captions",
+   "detail": "3 evenly spaced markers with captions below",
+   "suggest": [
+    "timeline",
+    "spaced_centers",
+    "step_list"
+   ]
+  },
+  {
+   "slide": 49,
+   "pattern": "tile row",
+   "detail": "3 identical rects on an even pitch at y=0.33in",
+   "suggest": [
+    "scorecard",
+    "stat_row",
+    "columns"
+   ]
+  }
+ ],
+ "suppressed_by": [],
+ "inspected": true,
+ "why": ""
+}

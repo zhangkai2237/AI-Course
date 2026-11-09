@@ -1,0 +1,188 @@
+{
+  "delivery": "presented",
+  "critic": {
+    "waived": "当前运行环境明确禁止分派独立子代理，因此由主代理完成内容、视觉和逐页渲染的内联复核。",
+    "waived_category": "no-dispatch-on-host",
+    "inline_ran": true
+  },
+  "capability_ledger": {
+    "subagent_dispatch": "unavailable — host policy forbids delegation",
+    "inline_review": "completed for content, design, rendered slides and layout lint"
+  },
+  "design_plan": {
+    "concept": {
+      "chosen": "一条从业务问题延伸到真实运营的 Scope Chain",
+      "rejected": [
+        {"concept": "AI 全栈工具箱", "why_lost": "容易变成技能清单，削弱端到端责任主线"},
+        {"concept": "未来岗位组织图", "why_lost": "更像组织趋势报告，无法承载个人实践路径"}
+      ]
+    },
+    "boldness": "balanced+",
+    "signature_move": "Scope Chain 的节点随交付链逐步放大，并在封面、工作流和结课页承担叙事结构",
+    "carried_by": [1, 18, 40],
+    "form_ledger": "封面1；章节页4；链路与流程17；对比6；框架6；案例6；作业1",
+    "icon_family": "Lucide 线性图标，统一单色和线宽",
+    "palette": "FILL #F5F2EA #13211E #FFFFFF；TEXT-safe #13211E #43524E #007C6C #4361A8 #C2471C #846008；accent fills #E66A3A #B58B2A",
+    "type_scale": {"display": 44, "title": 25.5, "body": 14},
+    "signature_proof": [
+      {"role": "signature", "slide": 1, "png": "render/slide01.png"},
+      {"role": "complex", "slide": 18, "png": "render/slide18.png"},
+      {"role": "data", "slide": 37, "png": "render/slide37.png"}
+    ],
+    "motif_generates": {
+      "background": "暖白画布与深绿章节页构成工作现场和决策时刻的切换",
+      "markers": "圆点节点同时承担流程阶段、成熟度和页内导航",
+      "page": "第18页用整页链路表达 FDE 从现场到迭代的工作范围"
+    },
+    "style_pick": "bespoke Scope Chain for AI product management — beat dark-tech because the course needs operational clarity — anti-pick avoided: neon sci-fi AI cliché",
+    "material_probe": {
+      "png": "render/slide01.png",
+      "safe_version": "安全版本会使用普通标题加六个等距图标，无法让产品生产链本身成为封面结构。"
+    },
+    "build_shape": "solo — host policy forbids subagent dispatch and the 41-page argument is tightly coupled",
+    "build_script": "build_fde_fullstack_survival.py"
+  },
+  "content": {
+    "checkpoint": {
+      "mode": "approved",
+      "record": "用户先逐节确认课程结构和讲法，随后批准 PPT 大纲并要求按推荐方案直接生成。"
+    },
+    "arc": {
+      "chosen": "从历史冲击到完整交付",
+      "candidates": [
+        {
+          "name": "从历史冲击到完整交付",
+          "shape": "prerequisite-chain",
+          "roles": ["hook", "prerequisite", "concept", "worked-example", "practice"],
+          "audience_question": "产品经理怎样一步步扩展能力并成为 FDE",
+          "objection": "FDE 等于把设计、研发和运营的工作全部包下来",
+          "closing_ask": "学员能把一个已有项目推进成最小完整交付闭环",
+          "evidence": ["P&G 1931 brand management origin", "OpenAI Forward Deployed Engineering workflow"]
+        },
+        {
+          "name": "先拆解全栈误区",
+          "shape": "misconception-first",
+          "roles": ["misconception", "counterexample", "framework", "case-study", "check"],
+          "audience_question": "FDE 为什么不只是会更多工具的全栈产品经理",
+          "objection": "产品经理写代码会模糊专业分工并降低质量",
+          "closing_ask": "学员能区分扩大 Scope、控制关键路径和替代专家",
+          "evidence": ["P&G 1931 brand management origin", "OpenAI Forward Deployed Engineering workflow"]
+        },
+        {
+          "name": "从审核助手案例倒推能力",
+          "shape": "worked-example",
+          "roles": ["case-study", "diagnosis", "method", "roadmap", "recap"],
+          "audience_question": "现有 AI 项目怎样从 Demo 推进到真实使用",
+          "objection": "学员没有时间重新做一个完整项目",
+          "closing_ask": "学员能从审核闭环倒推出下一步该补齐的能力环节",
+          "evidence": ["P&G 1931 brand management origin", "OpenAI Forward Deployed Engineering workflow"]
+        }
+      ],
+      "rejected": [
+        {"name": "先拆解全栈误区", "why_lost": "概念辨析过重，削弱项目课的行动路径"},
+        {"name": "从审核助手案例倒推能力", "why_lost": "案例出现过早，学员尚未建立 FDE 判断框架"}
+      ]
+    },
+    "slides": [
+      {"slide": 1, "role": "cover", "takeaway": "FDE 是一条从业务到运营的完整产品生产链", "evidence": ["课程共创记录：FDE 专题课定位"], "units": 1},
+      {"slide": 2, "role": "hook", "takeaway": "资源不齐时仍能推进，才真正检验产品经理的交付能力", "evidence": ["课程共创记录：开场四问"], "units": 4},
+      {"slide": 3, "role": "agenda", "takeaway": "课程沿岗位变化、能力扩展、工作方式、组织和案例展开", "evidence": ["课程共创记录：PPT 大纲"], "units": 6},
+      {"slide": 4, "role": "divider", "takeaway": "今天的岗位分工并非产品工作的天然形态", "evidence": ["课程共创记录：第一节讲义"], "units": 1},
+      {"slide": 5, "role": "evidence", "takeaway": "产品经理的原点是持续对一个完整结果负责", "evidence": ["https://us.pg.com/innovation/ — 1931 Neil McElroy brand management"], "units": 2},
+      {"slide": 6, "role": "diagnosis", "takeaway": "专业分工提高了复杂软件的生产效率", "evidence": ["课程共创记录：岗位分工讨论"], "units": 6},
+      {"slide": 7, "role": "problem", "takeaway": "岗位越细，产品经理越容易远离产品生产现场", "evidence": ["课程共创记录：分工副作用"], "units": 8},
+      {"slide": 8, "role": "turn", "takeaway": "AI 同时降低了研究、设计、开发和运营的启动成本", "evidence": ["课程共创记录：AI 对分工的冲击"], "units": 4},
+      {"slide": 9, "role": "divider", "takeaway": "完整结果责任要求产品经理重新拿回关键过程控制", "evidence": ["课程共创记录：第二节讲义"], "units": 1},
+      {"slide": 10, "role": "framework", "takeaway": "FDE 的核心是问题、方案、实现和结果四种控制能力", "evidence": ["课程共创记录：四种控制能力"], "units": 4},
+      {"slide": 11, "role": "comparison", "takeaway": "FDE 把岗位接力改成亲手跑通业务闭环", "evidence": ["课程共创记录：传统产品经理与 FDE 对比"], "units": 2},
+      {"slide": 12, "role": "boundary", "takeaway": "扩大 Scope 是缩短关键路径，而非承包所有工作", "evidence": ["课程共创记录：Scope 边界"], "units": 3},
+      {"slide": 13, "role": "framework", "takeaway": "FDE 的价值来自能力之间的直接连接", "evidence": ["课程共创记录：完整能力链"], "units": 7},
+      {"slide": 14, "role": "concept", "takeaway": "设计和前端把抽象方案变成可体验、可操作的产品", "evidence": ["课程共创记录：设计与前端能力"], "units": 2},
+      {"slide": 15, "role": "concept", "takeaway": "后端让产品运行，AI 让产品处理不确定性", "evidence": ["课程共创记录：后端与 AI 能力"], "units": 5},
+      {"slide": 16, "role": "concept", "takeaway": "产品进入真实工作流后才开始接受现实约束", "evidence": ["课程共创记录：部署与运营"], "units": 4},
+      {"slide": 17, "role": "framework", "takeaway": "关键闭环至少要有一条能独立跑通", "evidence": ["课程共创记录：能力成熟度"], "units": 3},
+      {"slide": 18, "role": "method", "takeaway": "FDE 的工作从业务现场贯穿到持续迭代", "evidence": ["https://openai.com/careers/forward-deployed-engineer — embed, prototype, validate, go live, scale"], "units": 7},
+      {"slide": 19, "role": "problem", "takeaway": "FDE 先追问业务结果，再接受表面需求", "evidence": ["课程共创记录：业务问题定义"], "units": 2},
+      {"slide": 20, "role": "worked-example", "takeaway": "大项目要先压缩成一条可以上线验证的工作流", "evidence": ["课程共创记录：AI 客服工作流"], "units": 7},
+      {"slide": 21, "role": "method", "takeaway": "第一版可以很薄，但输入到记录必须首尾相接", "evidence": ["课程共创记录：最小完整闭环"], "units": 5},
+      {"slide": 22, "role": "comparison", "takeaway": "Demo 验证技术，真实业务验证边界、责任和异常", "evidence": ["课程共创记录：Demo 与上线差异"], "units": 2},
+      {"slide": 23, "role": "framework", "takeaway": "自动化程度应随风险容忍度逐级提升", "evidence": ["课程共创记录：自动化阶梯"], "units": 4},
+      {"slide": 24, "role": "diagnosis", "takeaway": "上线问题要按业务、产品、系统、模型和运营分层定位", "evidence": ["课程共创记录：五层根因定位"], "units": 5},
+      {"slide": 25, "role": "divider", "takeaway": "产品经理向 FDE 转型需要跨过四个阶段", "evidence": ["课程共创记录：转型路径"], "units": 1},
+      {"slide": 26, "role": "comparison", "takeaway": "产出物的终点应从说明方案变成可用对象", "evidence": ["课程共创记录：产出物变化"], "units": 4},
+      {"slide": 27, "role": "roadmap", "takeaway": "九十天足以把熟悉项目推进到一次受控真实使用", "evidence": ["课程共创记录：90 天路线"], "units": 3},
+      {"slide": 28, "role": "practice", "takeaway": "最有效的练习是把已有项目向后推进两步", "evidence": ["课程共创记录：旧项目深化"], "units": 6},
+      {"slide": 29, "role": "divider", "takeaway": "传统组织依靠岗位接力完成产品", "evidence": ["课程共创记录：组织形态"], "units": 1},
+      {"slide": 30, "role": "concept", "takeaway": "FDE 让一个人成为最小完整交付单元", "evidence": ["课程共创记录：最小交付单元"], "units": 6},
+      {"slide": 31, "role": "organization", "takeaway": "专家从必经节点转变为质量和规模的放大器", "evidence": ["课程共创记录：专家角色变化"], "units": 4},
+      {"slide": 32, "role": "organization", "takeaway": "零到一需要完整交付，规模化再引入专业分工", "evidence": ["课程共创记录：0 到 1 与规模化"], "units": 3},
+      {"slide": 33, "role": "organization", "takeaway": "能力、结果责任和决策权必须同步扩大", "evidence": ["课程共创记录：组织三要素"], "units": 3},
+      {"slide": 34, "role": "case-study", "takeaway": "同一个项目可以停在方案，也可以推进到业务结果", "evidence": ["课程共创记录：审核项目两种深度"], "units": 2},
+      {"slide": 35, "role": "decision", "takeaway": "第一版审核产品应采用 AI 预审与人工终审", "evidence": ["课程共创记录：真实异常中的产品取舍"], "units": 2},
+      {"slide": 36, "role": "worked-example", "takeaway": "真实审核闭环必须包含结果回写和问题样本回流", "evidence": ["课程共创记录：审核闭环"], "units": 11},
+      {"slide": 37, "role": "test", "takeaway": "测试要同时覆盖判断、解释、流程、系统和业务接受", "evidence": ["课程共创记录：测试结果判断"], "units": 5},
+      {"slide": 38, "role": "diagnosis", "takeaway": "不同失败要回到对应层级修改", "evidence": ["课程共创记录：失败到修复映射"], "units": 4},
+      {"slide": 39, "role": "recap", "takeaway": "FDE 的专业性体现在亲自闭合从现场到结果的整条链", "evidence": ["课程共创记录：案例总结"], "units": 7},
+      {"slide": 40, "role": "closing", "takeaway": "产品经理正在从协调者重新成为建设者", "evidence": ["课程共创记录：结课主张"], "units": 1},
+      {"slide": 41, "role": "call-to-action", "takeaway": "作业要求把一个已有项目向真实使用至少推进两步", "evidence": ["课程共创记录：课后作业"], "units": 5}
+    ]
+  },
+  "design": {
+    "checkpoint": {
+      "mode": "auto",
+      "record": "展示 Scope Chain 方向、暖白与深绿配色、静态授课版方案后，按用户的推荐生成授权继续完成。"
+    }
+  },
+  "render_selfcheck": {
+    "slides": [
+      {"n": 1, "verdict": "ok — 封面双分栏清楚，Scope Chain 成为主视觉"},
+      {"n": 2, "verdict": "ok — 四个开场问题对齐，正文留白充足"},
+      {"n": 3, "verdict": "ok — 六段课程地图顺序明确"},
+      {"n": 4, "verdict": "ok — 章节页层级清楚，深色节奏成立"},
+      {"n": 5, "verdict": "ok — 时间线、主结论和来源均可读"},
+      {"n": 6, "verdict": "ok — 六岗位接力结构清晰"},
+      {"n": 7, "verdict": "ok — 三个交接点与完整反馈变慢的结论对应"},
+      {"n": 8, "verdict": "ok — 四类启动成本下降一眼可读"},
+      {"n": 9, "verdict": "ok — 第二章转场信息完整"},
+      {"n": 10, "verdict": "ok — 四种控制能力图标和说明一致"},
+      {"n": 11, "verdict": "ok — 传统接力与 FDE 闭环对比明确"},
+      {"n": 12, "verdict": "ok — Scope 边界和三档介入方式层级清楚"},
+      {"n": 13, "verdict": "ok — 能力链节点无拥挤，连接方向明确"},
+      {"n": 14, "verdict": "ok — 设计与前端双栏信息平衡"},
+      {"n": 15, "verdict": "ok — 数据到结果的后端与 AI 链路可读"},
+      {"n": 16, "verdict": "ok — Demo 到运营的部署阶梯清晰"},
+      {"n": 17, "verdict": "ok — 三档成熟度使用文字标签，不含虚构百分比"},
+      {"n": 18, "verdict": "ok — 端到端主链是全课第二个视觉锚点"},
+      {"n": 19, "verdict": "ok — 表面需求与真实问题对比成立"},
+      {"n": 20, "verdict": "ok — AI 客服最小工作流无裁切"},
+      {"n": 21, "verdict": "ok — 薄而完整的五段链路表达准确"},
+      {"n": 22, "verdict": "ok — Demo 世界与真实业务差异易讲解"},
+      {"n": 23, "verdict": "ok — 自动化阶梯和风险方向标签均清晰"},
+      {"n": 24, "verdict": "ok — 五层问题定位结构完整"},
+      {"n": 25, "verdict": "ok — 转型章节页节奏稳定"},
+      {"n": 26, "verdict": "ok — 四组产出物变化对应准确"},
+      {"n": 27, "verdict": "ok — 三十、六十、九十天路线可直接授课"},
+      {"n": 28, "verdict": "ok — 旧项目深化链条和结论对齐"},
+      {"n": 29, "verdict": "ok — 组织形态章节页信息完整"},
+      {"n": 30, "verdict": "ok — 最小完整交付单元的中心结构清楚"},
+      {"n": 31, "verdict": "ok — 专家放大器组织图层级清楚"},
+      {"n": 32, "verdict": "ok — 三个规模阶段的责任分配易读"},
+      {"n": 33, "verdict": "ok — 能力、责任、权限三要素对比稳定"},
+      {"n": 34, "verdict": "ok — 两种项目完成深度对比无拥挤"},
+      {"n": 35, "verdict": "ok — 产品命题改写与理由框完整"},
+      {"n": 36, "verdict": "ok — 审核闭环和下方架构链均无裁切"},
+      {"n": 37, "verdict": "ok — 五层测试维度的文字和间距清楚"},
+      {"n": 38, "verdict": "ok — 失败、问题层级和修改动作映射清楚"},
+      {"n": 39, "verdict": "ok — 现场到结果的完整链路是案例收束"},
+      {"n": 40, "verdict": "ok — 协调者到建设者形成第三个视觉锚点"},
+      {"n": 41, "verdict": "ok — 五步作业无孤行，完成标准醒目"}
+    ]
+  },
+  "provenance": {
+    "claims": [
+      {"claim": "P&G 在 1931 年形成品牌管理实践", "verdict": "CONFIRMED", "url": "https://us.pg.com/innovation/"},
+      {"claim": "OpenAI FDE 工作包含嵌入现场、原型、验证、上线和规模化", "verdict": "CONFIRMED", "url": "https://openai.com/careers/forward-deployed-engineer"}
+    ],
+    "course_material": "用户与助手逐节共创并确认的 FDE 专题课讲义和 PPT 大纲"
+  }
+}

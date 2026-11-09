@@ -1,0 +1,483 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Choose a direction — FDE：产品经理在AI时代的全栈化生存</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Arial,sans-serif;
+  background:#1b1d21;color:#e8e8ea;padding:28px 20px 60px;line-height:1.4}
+.page-head{max-width:1180px;margin:0 auto 26px;padding:0 6px}
+.page-head h1{font-size:22px;font-weight:700;letter-spacing:-.01em}
+.page-head p{color:#a9acb2;font-size:13.5px;margin-top:7px;max-width:760px}
+.page-head .pick{color:#ffd479;font-weight:600}
+.dir{max-width:1180px;margin:0 auto 34px;background:#212429;border:1px solid #2e3238;
+  border-radius:14px;padding:18px 18px 22px}
+.dir-head{display:flex;justify-content:space-between;align-items:baseline;gap:16px;
+  flex-wrap:wrap;margin-bottom:14px;padding:0 2px}
+.dir-name{font-size:17px;font-weight:700;display:flex;align-items:center;gap:9px}
+.dir-name .rat{font-weight:400;color:#a9acb2;font-size:14px}
+.badge{display:inline-flex;align-items:center;justify-content:center;width:24px;height:24px;
+  border-radius:6px;color:#fff;font-size:13px;font-weight:700}
+.dir-meta{display:flex;align-items:center;gap:12px;color:#9a9da3;font-size:12px}
+.swatches{display:inline-flex;gap:5px}
+.sw{width:15px;height:15px;border-radius:4px;display:inline-block;border:1px solid rgba(255,255,255,.14)}
+.fmeta{font-size:11.5px}
+.grid{display:grid;grid-template-columns:repeat(2,1fr);gap:14px}
+@media(max-width:900px){.grid{grid-template-columns:1fr}}
+
+/* a slide card — fixed 16:9, internal sizes tuned to that box */
+.slide{position:relative;aspect-ratio:16/9;border-radius:8px;overflow:hidden;
+  box-shadow:0 1px 0 rgba(0,0,0,.4),0 6px 22px rgba(0,0,0,.28);
+  padding:22px 26px;font-family:var(--fb)}
+.tbar{margin-bottom:10px}
+.kicker{font-size:10px;letter-spacing:.16em;text-transform:uppercase;font-weight:700}
+.ttl{font-family:var(--fd);font-size:21px;font-weight:700;line-height:1.12;margin-top:3px}
+.rule{width:46px;height:3px;border-radius:2px;margin-top:8px}
+.bullets{list-style:none;margin-top:14px}
+.bullets li{display:flex;align-items:baseline;gap:9px;margin-bottom:11px;font-size:14px}
+.mk{width:8px;height:8px;border-radius:2px;flex:0 0 auto;transform:translateY(1px)}
+.bl-lead{font-weight:700}
+.callout{position:absolute;left:26px;right:26px;bottom:22px;border-radius:6px;
+  padding:9px 13px;display:flex;align-items:baseline;gap:10px}
+.co-label{color:#fff;font-size:10px;letter-spacing:.12em;font-weight:800;text-transform:uppercase;
+  flex:0 0 auto;opacity:.92}
+.co-body{color:#fff;font-size:13px;font-weight:500}
+.cover{display:flex;flex-direction:column;justify-content:center}
+.accentbar{position:absolute;left:0;top:0;bottom:0;width:10px}
+.cover-body{padding-left:8px}
+.cover-ttl{font-family:var(--fd);font-size:32px;font-weight:800;letter-spacing:-.01em}
+.cover-sub{font-size:15px;margin-top:9px}
+.cover-tag{position:absolute;left:26px;bottom:20px;font-size:11px;letter-spacing:.04em}
+.pipe{display:flex;align-items:center;gap:7px;margin-top:24px}
+.chip{flex:1;border-radius:7px;padding:13px 10px;color:#fff;min-width:0}
+.chip-t{font-weight:700;font-size:14px}
+.chip-s{font-size:11px;opacity:.85;margin-top:3px}
+.arrow{font-size:18px;font-weight:700;flex:0 0 auto}
+.data-row{display:flex;gap:16px;margin-top:14px;height:calc(100% - 74px)}
+.figbox{flex:0 0 56%;border:1.5px solid;border-radius:6px;display:flex;align-items:center;
+  justify-content:center;font-size:12px;font-style:italic}
+.data-side{flex:1;display:flex;flex-direction:column;justify-content:space-between}
+.lg-h{font-size:10px;letter-spacing:.12em;font-weight:800;text-transform:uppercase;margin-bottom:8px}
+.lg-row{font-size:12.5px;margin-bottom:6px;display:flex;align-items:baseline;gap:7px}
+.mk-sm{width:7px;height:7px;border-radius:2px;display:inline-block;flex:0 0 auto;transform:translateY(1px)}
+.data-side .callout{position:static;margin-top:10px}
+.ftr{position:absolute;left:26px;right:26px;bottom:8px;display:flex;justify-content:space-between;
+  font-size:9px;border-top:1px solid;padding-top:4px;letter-spacing:.04em}
+.cover .ftr{display:none}
+
+/* ── COMPOSITION variants — the axis the direction gate now diverges on.
+   Each must move the INK, not merely restyle it: a viewer comparing two directions should see
+   a different shape with the page squinted, before reading a word. */
+.cov-centred{justify-content:center}
+.cov-low-left{justify-content:flex-end;padding-bottom:34px}
+.cov-low-left .cover-ttl{font-size:30px}
+.cov-split-vertical{justify-content:center;padding-left:46%}
+.cov-split-vertical .cover-panel{position:absolute;left:0;top:0;bottom:0;width:40%;opacity:.92}
+.cov-split-vertical .accentbar{display:none}
+.cov-split-vertical .cover-ttl{font-size:26px}
+/* the tag is bottom-LEFT by default, which on a split cover lands ON the accent panel at
+   whatever contrast the pair happens to give. Move it beside the title instead. */
+.cov-split-vertical .cover-tag{left:46%}
+.cov-full-bleed-type{justify-content:center;padding-left:0;padding-right:0}
+.cov-full-bleed-type .cover-body{padding-left:0;text-align:center}
+.cov-full-bleed-type .cover-ttl{font-size:44px;letter-spacing:-.03em;line-height:.98}
+.cov-full-bleed-type .cover-sub{margin-top:14px}
+.cov-full-bleed-type .cover-tag{left:0;right:0;text-align:center}
+
+/* z-index is INERT on a static element, so a bare z-index did NOT lift the body above the
+   absolutely-positioned band: the band painted over the title, and only looked survivable because
+   its tint is translucent. The body is positioned below (once the callout was moved out of it). */
+/* .callout/.ftr are SIBLINGS of .sk-body (never descendants — a positioned ancestor would steal
+   their slide-bottom anchoring; that bug shipped once). Each skeleton below implements its
+   CANONICAL meaning from design-intelligence-addendum §skeleton, so the preview teaches the same
+   vocabulary the deck will build. */
+.sk-body{position:relative;z-index:2}
+.callout,.ftr{z-index:3}
+.mini-fig{display:flex;align-items:center;justify-content:center;border:1px dashed;
+  border-radius:8px;font-size:11px;font-style:italic;min-height:96px;height:100%}
+
+/* statement — one oversized sentence, centred, nothing else */
+.sk-statement .sk-body{display:flex;flex-direction:column;justify-content:center;height:100%;
+  text-align:center;padding:0 7%}
+.st-kick{font-size:10px;letter-spacing:.14em;font-weight:700;margin-bottom:12px}
+.st-line{font-family:var(--fd);font-size:27px;font-weight:800;line-height:1.15;
+  letter-spacing:-.01em}
+.st-sub{font-size:12px;margin-top:12px}
+
+/* split — two vertical fields, text <-> visual */
+.sk-split .sk-body{display:flex;gap:16px;height:100%}
+.sk-split .sp-l{width:58%}
+.sk-split .sp-r{width:42%;display:flex;align-items:stretch;padding:6px 0 44px}
+.sk-split .sp-r .mini-fig{flex:1;width:100%}   /* main-axis size — without it the fig shrinks to a
+                                                  sliver and the gate misrepresents the split */
+.sk-split .bullets li{font-size:13px}
+
+/* island — one figure dominating the middle, annotations orbiting */
+.sk-island .is-wrap{position:relative;margin:4px 12% 0}
+.sk-island .mini-fig{min-height:118px}
+.is-note{position:absolute;font-size:10.5px;padding:3px 8px;border:1px solid;border-radius:99px}
+.is-a{top:-6px;left:-9%}
+.is-b{bottom:8px;right:-10%}
+
+/* band — a full-width horizontal axis with content hanging off it */
+.sk-band .bd-axis{height:2px;margin:26px 0 0;border-radius:2px}
+.sk-band .bd-row{display:flex;justify-content:space-between;padding:0 4%;margin-top:-5px}
+.bd-item{display:flex;flex-direction:column;align-items:center;gap:7px;width:30%}
+.bd-dot{width:9px;height:9px;border-radius:99px}
+.bd-t{font-size:12px;font-weight:600;text-align:center}
+
+/* rail — a narrow side rail (stat stack) + a wide main field */
+.sk-rail .sk-body{display:flex;gap:14px;height:100%}
+.rl-rail{width:24%;border-right:1px solid;border-radius:8px 0 0 8px;padding:14px 12px 44px;
+  background:rgba(127,127,127,.13)}   /* a tint of the deck's OWN ground — a fixed light fill on a
+                                         dark direction shipped twice before this rule stuck */
+.rl-stat{font-size:24px;font-weight:800;line-height:1}
+.rl-cap{font-size:10px;margin:4px 0 14px}
+.rl-main{width:76%;padding-right:4px}
+.sk-rail .bullets li{font-size:13px}
+
+/* pick buttons + selection */
+.dir-foot{margin-top:14px;display:flex;justify-content:flex-end}
+.pick-btn{appearance:none;border:1.5px solid var(--ac);background:transparent;color:#e8e8ea;
+  font:600 13.5px/1 inherit;padding:10px 18px;border-radius:8px;cursor:pointer;
+  display:inline-flex;align-items:center;gap:7px;transition:background .12s,color .12s}
+.pick-btn:hover{background:var(--ac);color:#fff}
+.dir.selected{outline:2.5px solid #ffd479;outline-offset:3px}
+.dir.selected .pick-btn{background:var(--ac);color:#fff;border-color:var(--ac)}
+.dir.selected .pick-btn::after{content:" ✓ selected";font-weight:700;opacity:.95}
+
+/* describe-your-own (dynamic letter — E on the 4-up gate, D on a 3-up) */
+.dsec{max-width:1180px;margin:0 auto 34px;background:#212429;border:1px dashed #3a3f46;
+  border-radius:14px;padding:18px}
+.dsec h2{font-size:16px;font-weight:700;margin-bottom:6px}
+.dsec p{color:#a9acb2;font-size:13px;margin-bottom:11px}
+.dsec textarea{width:100%;min-height:74px;background:#1a1d22;color:#e8e8ea;border:1px solid #343a42;
+  border-radius:8px;padding:11px 13px;font:14px/1.45 inherit;resize:vertical}
+.dsec .ownbtn{margin-top:11px;appearance:none;border:1.5px solid #ffd479;background:transparent;
+  color:#ffd479;font:600 13.5px/1 inherit;padding:10px 18px;border-radius:8px;cursor:pointer}
+.dsec .ownbtn:hover{background:#ffd479;color:#1b1d21}
+
+/* confirmation bar */
+.cbar{position:fixed;left:0;right:0;bottom:0;background:#15171b;border-top:1px solid #2e3238;
+  box-shadow:0 -6px 26px rgba(0,0,0,.4);padding:13px 22px;display:none;z-index:50}
+.cbar.show{display:block}
+.cbar-in{max-width:1180px;margin:0 auto;display:flex;align-items:center;gap:14px;flex-wrap:wrap}
+.cbar .lab{font-weight:700;color:#9ae6b4;font-size:13.5px;flex:0 0 auto}
+.cbar input{flex:1;min-width:240px;background:#0f1115;color:#e8e8ea;border:1px solid #343a42;
+  border-radius:7px;padding:9px 12px;font:13px/1 ui-monospace,SFMono-Regular,Menlo,monospace}
+.cbar .copy{appearance:none;border:none;background:#3b82f6;color:#fff;font:600 13px/1 inherit;
+  padding:10px 16px;border-radius:7px;cursor:pointer;flex:0 0 auto}
+.cbar .copy:hover{background:#2f6fd6}
+.cbar .hint{flex-basis:100%;color:#8c949e;font-size:11.5px;margin-top:2px}
+
+/* ───────── DNA signature motifs — each preset's real style, rendered on the cover ───────── */
+.cover{position:relative;overflow:hidden}
+.dna-ghost{position:absolute;right:4%;top:2%;font:800 130px/.8 Helvetica,Arial,sans-serif;
+  color:rgba(255,255,255,.06);letter-spacing:-.04em;pointer-events:none}
+.dna-brutal{position:absolute;left:0;bottom:0;width:38%;height:14px}
+.dna-hair{position:absolute;left:26px;right:26px;top:52%;height:1px;opacity:.9}
+.dna-hair2{position:absolute;left:26px;width:60px;top:calc(52% + 8px);height:2px}
+.dna-actionbar{position:absolute;left:26px;bottom:20%;width:44%;height:3px}
+.dna-seal{position:absolute;right:8%;bottom:12%;width:56px;height:56px;border-radius:6px;
+  display:flex;align-items:center;justify-content:center;color:#fff;
+  font:700 26px/1 "Songti SC",serif;box-shadow:0 2px 8px rgba(0,0,0,.2)}
+.dna-frame{position:absolute;inset:14px;border:1.5px solid;opacity:.5}
+.dna-cjknum{position:absolute;right:9%;top:12%;font:700 46px/1 "Songti SC",serif;opacity:.8}
+.dna-halftone{position:absolute;right:0;bottom:0;width:46%;height:70%;opacity:.22;
+  background-image:radial-gradient(currentColor 22%,transparent 24%);background-size:13px 13px}
+.dna-riso{position:absolute;left:-8px;top:22%;width:60px;height:60px;border-radius:50%;
+  mix-blend-mode:multiply;opacity:.85}
+.dna-memphis{position:absolute;inset:0;pointer-events:none}
+.dna-m-dot{position:absolute;width:22px;height:22px}
+.dna-m-zig{position:absolute;left:70%;top:14%;width:44px;height:16px;border-bottom:3px solid;
+  border-left:3px solid;transform:skewX(-12deg)}
+.dna-glow{position:absolute;width:200px;height:200px;border-radius:50%;filter:blur(46px);
+  opacity:.5;right:-30px;top:-40px}
+.dna-glow2{left:-40px;bottom:-60px;right:auto;top:auto;opacity:.4}
+.dna-glass{position:absolute;right:8%;top:26%;width:150px;height:96px;border-radius:14px;
+  background:rgba(255,255,255,.10);border:1px solid rgba(255,255,255,.22);backdrop-filter:blur(6px)}
+.dna-grid{position:absolute;inset:0;opacity:.5;
+  background-image:linear-gradient(#12365a 1px,transparent 1px),linear-gradient(90deg,#12365a 1px,transparent 1px);
+  background-size:34px 34px}
+.dna-grid-faint{opacity:.28;background-image:linear-gradient(#1b2b45 1px,transparent 1px),linear-gradient(90deg,#1b2b45 1px,transparent 1px)}
+.dna-bpframe{position:absolute;inset:16px;border:1px solid;opacity:.6}
+.dna-node{position:absolute;bottom:16%;width:60px;height:34px;border:1.4px solid;border-radius:3px}
+.dna-nline{position:absolute;left:calc(12% + 60px);bottom:calc(16% + 15px);width:calc(40% - 12% - 60px);height:2px}
+.dna-tick{position:absolute;left:26px;top:44px;width:16px;height:3px}
+.dna-island{position:absolute;right:7%;top:30%;width:150px;height:96px;border-radius:8px;
+  background:#f6f8fb;box-shadow:0 6px 20px rgba(0,0,0,.35)}
+/* bauhaus — primitive triad as anchors */
+.dna-bh-c{position:absolute;right:9%;top:12%;width:110px;height:110px;border-radius:50%}
+.dna-bh-t{position:absolute;right:30%;top:20%;width:0;height:0;border-left:38px solid transparent;
+  border-right:38px solid transparent;border-bottom:66px solid}
+.dna-bh-s{position:absolute;right:20%;top:6%;width:72px;height:72px;transform:rotate(45deg)}
+/* mid-century — starburst + atomic orbit */
+.dna-starburst{position:absolute;right:9%;top:16%;width:0;height:0}
+.dna-ray{position:absolute;width:56px;height:2px;transform-origin:0 50%;opacity:.85}
+.dna-atom{position:absolute;left:6%;bottom:12%;width:70px;height:34px;border:2px solid;
+  border-radius:50%;transform:rotate(-20deg);opacity:.7}
+/* terminal — scanlines + prompt */
+.dna-scan{position:absolute;inset:0;pointer-events:none;opacity:.5;
+  background:repeating-linear-gradient(180deg,rgba(120,255,150,.05) 0 1px,transparent 1px 3px)}
+.dna-prompt{position:absolute;right:9%;bottom:12%;font:700 30px/1 ui-monospace,Consolas,monospace}
+/* synthwave — sun + perspective grid horizon */
+.dna-sun{position:absolute;left:50%;top:8%;width:120px;height:120px;margin-left:-60px;
+  border-radius:50%;opacity:.9;filter:blur(1px)}
+.dna-horizon{position:absolute;left:0;right:0;bottom:0;height:44%;overflow:hidden;
+  background:linear-gradient(180deg,transparent,rgba(120,40,180,.25))}
+.dna-gl{position:absolute;bottom:0;top:0;width:1px;background:rgba(120,220,255,.35);
+  transform-origin:bottom center}
+.dna-horizon::after{content:"";position:absolute;left:0;right:0;top:0;height:1px;
+  background:rgba(120,220,255,.6)}
+
+/* ───────── AMBIENT register signatures — the QUIET DNA that runs on EVERY interior slide ─────────
+   so the chosen style carries through ALL pages, not only the cover. The layer sits at z-index:0
+   (behind content); the three static interior blocks are lifted to z-index:1 so nothing is covered.
+   Skeleton slides already carry .sk-body at z-index:2, so they need no lift. */
+.dna-amb{position:absolute;inset:0;z-index:0;pointer-events:none;overflow:hidden}
+.tbar,.pipe,.data-row{position:relative;z-index:1}   /* keep interior content above the ambient layer */
+.amb-swiss-col{position:absolute;right:16%;top:0;bottom:0;width:1px;background:rgba(128,128,128,.16)}
+.amb-swiss-num{position:absolute;right:5%;top:6%;font:800 40px/1 Helvetica,Arial,sans-serif;
+  color:rgba(128,128,128,.10)}
+.amb-brutal{position:absolute;left:0;right:0;bottom:0;height:7px}
+.amb-hair{position:absolute;left:26px;right:26px;top:15px;height:1px;opacity:.5}
+.amb-topbar{position:absolute;left:0;right:0;top:0;height:4px;opacity:.85}
+.amb-seal{position:absolute;right:5%;bottom:9%;width:30px;height:30px;border-radius:4px;display:flex;
+  align-items:center;justify-content:center;color:#fff;font:700 15px/1 "Songti SC",serif;opacity:.85}
+.amb-frame{position:absolute;inset:11px;border:1px solid;opacity:.35}
+.amb-halftone{position:absolute;right:0;bottom:0;width:32%;height:44%;opacity:.13;
+  background-image:radial-gradient(currentColor 22%,transparent 24%);background-size:11px 11px}
+.amb-dot{position:absolute;width:15px;height:15px;opacity:.9}
+.amb-glow{position:absolute;right:-40px;bottom:-50px;width:170px;height:170px;border-radius:50%;
+  filter:blur(46px);opacity:.30}
+.amb-grid{position:absolute;inset:0;opacity:.30;
+  background-image:linear-gradient(#12365a 1px,transparent 1px),linear-gradient(90deg,#12365a 1px,transparent 1px);
+  background-size:34px 34px}
+.amb-grid-faint{opacity:.19;background-image:linear-gradient(#1b2b45 1px,transparent 1px),linear-gradient(90deg,#1b2b45 1px,transparent 1px)}
+.amb-node{position:absolute;right:7%;bottom:14%;width:44px;height:26px;border:1.2px solid;
+  border-radius:3px;opacity:.55}
+.amb-tick{position:absolute;left:26px;top:15px;width:14px;height:3px}
+.amb-bh{position:absolute;right:6%;top:13%;width:44px;height:44px;border-radius:50%;opacity:.9}
+.amb-burst{position:absolute;right:7%;top:16%;width:0;height:0}
+.amb-ray{position:absolute;width:30px;height:1.5px;transform-origin:0 50%;opacity:.7}
+.amb-scan{position:absolute;inset:0;opacity:.5;
+  background:repeating-linear-gradient(180deg,rgba(120,255,150,.05) 0 1px,transparent 1px 3px)}
+.amb-prompt{position:absolute;right:6%;bottom:9%;font:700 22px/1 ui-monospace,Consolas,monospace;opacity:.8}
+.amb-horizon{position:absolute;left:0;right:0;bottom:0;height:30%;
+  background:linear-gradient(180deg,transparent,rgba(120,40,180,.20))}
+.amb-horizon::after{content:"";position:absolute;left:0;right:0;top:0;height:1px;background:rgba(120,220,255,.5)}
+.amb-gl{position:absolute;top:0;bottom:0;width:1px;background:rgba(120,220,255,.26)}
+</style></head>
+<body>
+  <div class="page-head">
+    <h1>Choose a direction — FDE：产品经理在AI时代的全栈化生存</h1>
+    <p>Each direction below shows the <strong>same four slide types</strong> (cover, content,
+    diagram, results) so the comparison is apples-to-apples — only the <em>style</em> differs, and
+    each style runs through <em>every</em> slide, not just the cover. Review A, B, C, D, then hit
+    <strong>“Pick this one”</strong>
+    (<span class="pick">or describe your own — “E”</span> at the bottom). Your pick is copied to
+    the clipboard as a short line — <strong>paste it back to Claude</strong>. These are taste
+    previews; once you pick, Claude renders one real slide in that style to confirm before
+    building the full deck.</p>
+  </div>
+  <section class="dir" id="dir-A" style="--fd:Arial;--fb:Arial">
+      <div class="dir-head">
+        <div class="dir-name"><span class="badge" style="background:#007C6C">A</span>
+          Scope Chain — <span class="rat">用逐步延伸的端到端链路表现产品经理从协调者走向完整建设者</span></div>
+        <div class="dir-meta"><span class="swatches"><span class="sw" style="background:#13211E" title="#13211E"></span><span class="sw" style="background:#007C6C" title="#007C6C"></span><span class="sw" style="background:#E66A3A" title="#E66A3A"></span><span class="sw" style="background:#4361A8" title="#4361A8"></span><span class="sw" style="background:#B58B2A" title="#B58B2A"></span></span><span class="fmeta">display: Arial · body: Arial · moderate</span></div>
+      </div>
+      <div class="grid"><div class="slide cover cov-split-vertical dna-none" style="background:#13211E">
+      <div style='position:absolute;right:5%;top:20%;width:45%;height:55%'><div style='position:absolute;left:4%;top:47%;width:92%;height:4px;background:#007C6C'></div><span style='position:absolute;left:2%;top:39%;width:28px;height:28px;border:4px solid #007C6C;border-radius:50%;background:#F5F2EA'></span><span style='position:absolute;left:34%;top:33%;width:40px;height:40px;border:4px solid #E66A3A;border-radius:50%;background:#F5F2EA'></span><span style='position:absolute;right:4%;top:22%;width:66px;height:66px;border:5px solid #4361A8;border-radius:50%;background:#F5F2EA'></span></div><div class="accentbar" style="background:#007C6C"></div><div class="cover-panel" style="background:#007C6C"></div>
+      <div class="cover-body">
+        <div class="cover-ttl" style="color:#ffffff">FDE：产品经理在AI时代的全栈化生存</div>
+        <div class="cover-sub" style="color:#007C6C">a one-line subtitle in this direction</div>
+      </div>
+      <div class="cover-tag" style="color:rgba(255,255,255,.55)">Direction: Scope Chain</div>
+    </div><div class="slide sk-rail" style="background:#F5F2EA">
+      <div class="dna-amb dna-amb-custom"><div style='position:absolute;right:14px;top:16px;width:72px;height:10px;border-top:2px solid #007C6C'><span style='position:absolute;left:0;top:-5px;width:8px;height:8px;border-radius:50%;background:#007C6C'></span><span style='position:absolute;right:0;top:-5px;width:8px;height:8px;border-radius:50%;background:#E66A3A'></span></div></div><div class="sk-body"><div class="rl-rail" style="border-color:#C9D3CE"><div class="rl-stat" style="color:#007C6C">42%</div><div class="rl-cap" style="color:#7A8883">context stat</div><div class="rl-stat" style="color:#007C6C">3&times;</div><div class="rl-cap" style="color:#7A8883">stacked in the rail</div></div><div class="rl-main"><div class="tbar"><div class="kicker" style="color:#007C6C">archetype</div><div class="ttl" style="color:#13211E">How content slides read</div><div class="rule" style="background:#007C6C"></div></div><ul class="bullets"><li><span class="mk" style="background:#007C6C"></span><span class="bl-lead" style="color:#13211E">Terse points</span><span class="bl-body" style="color:#43524E">a few words each</span></li><li><span class="mk" style="background:#007C6C"></span><span class="bl-lead" style="color:#13211E">Emphasis</span><span class="bl-body" style="color:#43524E">where it matters</span></li><li><span class="mk" style="background:#007C6C"></span><span class="bl-lead" style="color:#13211E">Consistent</span><span class="bl-body" style="color:#43524E">spacing and rhythm</span></li></ul></div></div>
+      <div class="callout" style="background:#007C6C"><span class="co-label">TAKEAWAY</span><span class="co-body">One idea per slide, carried by the layout.</span></div><div class="ftr" style="color:#7A8883;border-color:#C9D3CE"><span>direction preview</span><span>2</span></div>
+    </div><div class="slide" style="background:#F5F2EA">
+      <div class="dna-amb dna-amb-custom"><div style='position:absolute;right:14px;top:16px;width:72px;height:10px;border-top:2px solid #007C6C'><span style='position:absolute;left:0;top:-5px;width:8px;height:8px;border-radius:50%;background:#007C6C'></span><span style='position:absolute;right:0;top:-5px;width:8px;height:8px;border-radius:50%;background:#E66A3A'></span></div></div><div class="tbar"><div class="kicker" style="color:#007C6C">archetype</div><div class="ttl" style="color:#13211E">How a diagram reads</div><div class="rule" style="background:#007C6C"></div></div>
+      <div class="pipe"><div class="chip" style="background:#007C6C"><div class="chip-t">Input</div><div class="chip-s">one line</div></div><div class="arrow" style="color:#007C6C">&rarr;</div><div class="chip" style="background:#E66A3A"><div class="chip-t">Process</div><div class="chip-s">one line</div></div><div class="arrow" style="color:#007C6C">&rarr;</div><div class="chip" style="background:#4361A8"><div class="chip-t">Model</div><div class="chip-s">one line</div></div><div class="arrow" style="color:#007C6C">&rarr;</div><div class="chip" style="background:#B58B2A"><div class="chip-t">Output</div><div class="chip-s">one line</div></div></div>
+      <div class="ftr" style="color:#7A8883;border-color:#C9D3CE"><span>direction preview</span><span>3</span></div>
+    </div><div class="slide" style="background:#F5F2EA">
+      <div class="dna-amb dna-amb-custom"><div style='position:absolute;right:14px;top:16px;width:72px;height:10px;border-top:2px solid #007C6C'><span style='position:absolute;left:0;top:-5px;width:8px;height:8px;border-radius:50%;background:#007C6C'></span><span style='position:absolute;right:0;top:-5px;width:8px;height:8px;border-radius:50%;background:#E66A3A'></span></div></div><div class="tbar"><div class="kicker" style="color:#007C6C">archetype</div><div class="ttl" style="color:#13211E">How a results slide reads</div><div class="rule" style="background:#007C6C"></div></div>
+      <div class="data-row">
+        <div class="figbox" style="background:#E3EBE7;border-color:#C9D3CE;color:#7A8883">
+          [ your figure / chart, shown whole ]
+        </div>
+        <div class="data-side">
+          <div class="legend"><div class="lg-h" style="color:#007C6C">LEGEND</div><div class="lg-row"><span class="mk-sm" style="background:#007C6C"></span><span style="color:#13211E;font-weight:600">Series A</span> <span style="color:#43524E">baseline</span></div><div class="lg-row"><span class="mk-sm" style="background:#007C6C"></span><span style="color:#13211E;font-weight:600">Series B</span> <span style="color:#43524E">proposed</span></div></div>
+          <div class="callout" style="background:#007C6C"><span class="co-label">WHAT TO NOTICE</span><span class="co-body">The one comparison the figure makes.</span></div>
+        </div>
+      </div>
+      <div class="ftr" style="color:#7A8883;border-color:#C9D3CE"><span>direction preview</span><span>4</span></div>
+    </div></div>
+      <div class="dir-foot">
+        <button class="pick-btn" style="--ac:#007C6C"
+          data-letter="A" data-name="Scope Chain"
+          onclick="pick('A', this.dataset.name)">&#10003; Pick this one &mdash; A</button>
+      </div>
+    </section>
+<section class="dir" id="dir-B" style="--fd:Arial;--fb:Arial">
+      <div class="dir-head">
+        <div class="dir-name"><span class="badge" style="background:#E2231A">B</span>
+          Swiss — <span class="rat">极简网格和强标题，适合清晰、直接的课堂讲解</span></div>
+        <div class="dir-meta"><span class="swatches"><span class="sw" style="background:#111111" title="#111111"></span><span class="sw" style="background:#E2231A" title="#E2231A"></span></span><span class="fmeta">display: Arial · body: Arial · moderate</span></div>
+      </div>
+      <div class="grid"><div class="slide cover cov-low-left dna-swiss" style="background:#111111">
+      <div class="dna-ghost">01</div><div class="accentbar" style="background:#E2231A"></div>
+      <div class="cover-body">
+        <div class="cover-ttl" style="color:#ffffff">FDE：产品经理在AI时代的全栈化生存</div>
+        <div class="cover-sub" style="color:#E2231A">a one-line subtitle in this direction</div>
+      </div>
+      <div class="cover-tag" style="color:rgba(255,255,255,.55)">Direction: Swiss</div>
+    </div><div class="slide sk-statement" style="background:#FFFFFF">
+      <div class="dna-amb dna-amb-swiss"><span class="amb-swiss-col"></span><span class="amb-swiss-num">&sect;</span></div><div class="sk-body"><div class="st-kick" style="color:#E2231A">ARCHETYPE</div><div class="st-line" style="color:#111111">One idea, stated at full size.</div><div class="st-sub" style="color:#777777">nothing else on the page</div></div>
+      <div class="ftr" style="color:#777777;border-color:#DDDDDD"><span>direction preview</span><span>2</span></div>
+    </div><div class="slide" style="background:#FFFFFF">
+      <div class="dna-amb dna-amb-swiss"><span class="amb-swiss-col"></span><span class="amb-swiss-num">&sect;</span></div><div class="tbar"><div class="kicker" style="color:#E2231A">archetype</div><div class="ttl" style="color:#111111">How a diagram reads</div><div class="rule" style="background:#E2231A"></div></div>
+      <div class="pipe"><div class="chip" style="background:#E2231A"><div class="chip-t">Input</div><div class="chip-s">one line</div></div><div class="arrow" style="color:#E2231A">&rarr;</div><div class="chip" style="background:#E2231A"><div class="chip-t">Process</div><div class="chip-s">one line</div></div><div class="arrow" style="color:#E2231A">&rarr;</div><div class="chip" style="background:#E2231A"><div class="chip-t">Model</div><div class="chip-s">one line</div></div><div class="arrow" style="color:#E2231A">&rarr;</div><div class="chip" style="background:#E2231A"><div class="chip-t">Output</div><div class="chip-s">one line</div></div></div>
+      <div class="ftr" style="color:#777777;border-color:#DDDDDD"><span>direction preview</span><span>3</span></div>
+    </div><div class="slide" style="background:#FFFFFF">
+      <div class="dna-amb dna-amb-swiss"><span class="amb-swiss-col"></span><span class="amb-swiss-num">&sect;</span></div><div class="tbar"><div class="kicker" style="color:#E2231A">archetype</div><div class="ttl" style="color:#111111">How a results slide reads</div><div class="rule" style="background:#E2231A"></div></div>
+      <div class="data-row">
+        <div class="figbox" style="background:#F3F3F3;border-color:#DDDDDD;color:#777777">
+          [ your figure / chart, shown whole ]
+        </div>
+        <div class="data-side">
+          <div class="legend"><div class="lg-h" style="color:#E2231A">LEGEND</div><div class="lg-row"><span class="mk-sm" style="background:#E2231A"></span><span style="color:#111111;font-weight:600">Series A</span> <span style="color:#777777">baseline</span></div><div class="lg-row"><span class="mk-sm" style="background:#E2231A"></span><span style="color:#111111;font-weight:600">Series B</span> <span style="color:#777777">proposed</span></div></div>
+          <div class="callout" style="background:#E2231A"><span class="co-label">WHAT TO NOTICE</span><span class="co-body">The one comparison the figure makes.</span></div>
+        </div>
+      </div>
+      <div class="ftr" style="color:#777777;border-color:#DDDDDD"><span>direction preview</span><span>4</span></div>
+    </div></div>
+      <div class="dir-foot">
+        <button class="pick-btn" style="--ac:#E2231A"
+          data-letter="B" data-name="Swiss"
+          onclick="pick('B', this.dataset.name)">&#10003; Pick this one &mdash; B</button>
+      </div>
+    </section>
+<section class="dir" id="dir-C" style="--fd:Georgia;--fb:Arial">
+      <div class="dir-head">
+        <div class="dir-name"><span class="badge" style="background:#E0392B">C</span>
+          Editorial Report — <span class="rat">深色编辑报告风，强调组织变化与关键判断</span></div>
+        <div class="dir-meta"><span class="swatches"><span class="sw" style="background:#ECECEF" title="#ECECEF"></span><span class="sw" style="background:#E0392B" title="#E0392B"></span><span class="sw" style="background:#D9A441" title="#D9A441"></span></span><span class="fmeta">display: Georgia · body: Arial · moderate</span></div>
+      </div>
+      <div class="grid"><div class="slide cover cov-low-left dna-editorial_report" style="background:#0E0E12">
+      <div class="dna-hair" style="background:#E0392B"></div><div class="dna-hair2" style="background:#8C8C97"></div><div class="accentbar" style="background:#E0392B"></div>
+      <div class="cover-body">
+        <div class="cover-ttl" style="color:#ECECEF">FDE：产品经理在AI时代的全栈化生存</div>
+        <div class="cover-sub" style="color:#E0392B">a one-line subtitle in this direction</div>
+      </div>
+      <div class="cover-tag" style="color:#8C8C97">Direction: Editorial Report</div>
+    </div><div class="slide sk-band" style="background:#0E0E12">
+      <div class="dna-amb dna-amb-editorial_report"><span class="amb-hair" style="background:#8C8C97"></span></div><div class="sk-body"><div class="tbar"><div class="kicker" style="color:#E0392B">archetype</div><div class="ttl" style="color:#ECECEF">How content slides read</div><div class="rule" style="background:#E0392B"></div></div><div class="bd-axis" style="background:#33333B"></div><div class="bd-row"><div class="bd-item"><span class="bd-dot" style="background:#E0392B"></span><span class="bd-t" style="color:#ECECEF">first beat</span></div><div class="bd-item"><span class="bd-dot" style="background:#E0392B"></span><span class="bd-t" style="color:#ECECEF">second beat</span></div><div class="bd-item"><span class="bd-dot" style="background:#E0392B"></span><span class="bd-t" style="color:#ECECEF">third beat</span></div></div></div>
+      <div class="callout" style="background:#E0392B"><span class="co-label">TAKEAWAY</span><span class="co-body">One idea per slide, carried by the layout.</span></div><div class="ftr" style="color:#8C8C97;border-color:#33333B"><span>direction preview</span><span>2</span></div>
+    </div><div class="slide" style="background:#0E0E12">
+      <div class="dna-amb dna-amb-editorial_report"><span class="amb-hair" style="background:#8C8C97"></span></div><div class="tbar"><div class="kicker" style="color:#E0392B">archetype</div><div class="ttl" style="color:#ECECEF">How a diagram reads</div><div class="rule" style="background:#E0392B"></div></div>
+      <div class="pipe"><div class="chip" style="background:#E0392B"><div class="chip-t">Input</div><div class="chip-s">one line</div></div><div class="arrow" style="color:#E0392B">&rarr;</div><div class="chip" style="background:#D9A441"><div class="chip-t">Process</div><div class="chip-s">one line</div></div><div class="arrow" style="color:#E0392B">&rarr;</div><div class="chip" style="background:#E0392B"><div class="chip-t">Model</div><div class="chip-s">one line</div></div><div class="arrow" style="color:#E0392B">&rarr;</div><div class="chip" style="background:#D9A441"><div class="chip-t">Output</div><div class="chip-s">one line</div></div></div>
+      <div class="ftr" style="color:#8C8C97;border-color:#33333B"><span>direction preview</span><span>3</span></div>
+    </div><div class="slide" style="background:#0E0E12">
+      <div class="dna-amb dna-amb-editorial_report"><span class="amb-hair" style="background:#8C8C97"></span></div><div class="tbar"><div class="kicker" style="color:#E0392B">archetype</div><div class="ttl" style="color:#ECECEF">How a results slide reads</div><div class="rule" style="background:#E0392B"></div></div>
+      <div class="data-row">
+        <div class="figbox" style="background:#1E1E25;border-color:#33333B;color:#8C8C97">
+          [ your figure / chart, shown whole ]
+        </div>
+        <div class="data-side">
+          <div class="legend"><div class="lg-h" style="color:#E0392B">LEGEND</div><div class="lg-row"><span class="mk-sm" style="background:#E0392B"></span><span style="color:#ECECEF;font-weight:600">Series A</span> <span style="color:#8C8C97">baseline</span></div><div class="lg-row"><span class="mk-sm" style="background:#E0392B"></span><span style="color:#ECECEF;font-weight:600">Series B</span> <span style="color:#8C8C97">proposed</span></div></div>
+          <div class="callout" style="background:#E0392B"><span class="co-label">WHAT TO NOTICE</span><span class="co-body">The one comparison the figure makes.</span></div>
+        </div>
+      </div>
+      <div class="ftr" style="color:#8C8C97;border-color:#33333B"><span>direction preview</span><span>4</span></div>
+    </div></div>
+      <div class="dir-foot">
+        <button class="pick-btn" style="--ac:#E0392B"
+          data-letter="C" data-name="Editorial Report"
+          onclick="pick('C', this.dataset.name)">&#10003; Pick this one &mdash; C</button>
+      </div>
+    </section>
+<section class="dir" id="dir-D" style="--fd:Arial;--fb:Arial">
+      <div class="dir-head">
+        <div class="dir-name"><span class="badge" style="background:#3157C8">D</span>
+          Clear Signal — <span class="rat">冷静的蓝灰企业课程风，没有装饰性母题，重点突出结构和流程</span></div>
+        <div class="dir-meta"><span class="swatches"><span class="sw" style="background:#172033" title="#172033"></span><span class="sw" style="background:#3157C8" title="#3157C8"></span><span class="sw" style="background:#00A59B" title="#00A59B"></span><span class="sw" style="background:#F08A4B" title="#F08A4B"></span></span><span class="fmeta">display: Arial · body: Arial · moderate</span></div>
+      </div>
+      <div class="grid"><div class="slide cover cov-centred dna-none" style="background:#172033">
+      <div class="accentbar" style="background:#3157C8"></div>
+      <div class="cover-body">
+        <div class="cover-ttl" style="color:#ffffff">FDE：产品经理在AI时代的全栈化生存</div>
+        <div class="cover-sub" style="color:#3157C8">a one-line subtitle in this direction</div>
+      </div>
+      <div class="cover-tag" style="color:rgba(255,255,255,.55)">Direction: Clear Signal</div>
+    </div><div class="slide sk-split" style="background:#F7F9FC">
+      <div class="sk-body"><div class="sp-l"><div class="tbar"><div class="kicker" style="color:#3157C8">archetype</div><div class="ttl" style="color:#172033">How content slides read</div><div class="rule" style="background:#3157C8"></div></div><ul class="bullets"><li><span class="mk" style="background:#3157C8"></span><span class="bl-lead" style="color:#172033">Terse points</span><span class="bl-body" style="color:#4E5B73">a few words each</span></li><li><span class="mk" style="background:#3157C8"></span><span class="bl-lead" style="color:#172033">Emphasis</span><span class="bl-body" style="color:#4E5B73">where it matters</span></li><li><span class="mk" style="background:#3157C8"></span><span class="bl-lead" style="color:#172033">Consistent</span><span class="bl-body" style="color:#4E5B73">spacing and rhythm</span></li></ul></div><div class="sp-r"><div class="mini-fig" style="background:#EAF0F8;border-color:#D6DDEA;color:#7F8BA1">[ visual ]</div></div></div>
+      <div class="callout" style="background:#3157C8"><span class="co-label">TAKEAWAY</span><span class="co-body">One idea per slide, carried by the layout.</span></div><div class="ftr" style="color:#7F8BA1;border-color:#D6DDEA"><span>direction preview</span><span>2</span></div>
+    </div><div class="slide" style="background:#F7F9FC">
+      <div class="tbar"><div class="kicker" style="color:#3157C8">archetype</div><div class="ttl" style="color:#172033">How a diagram reads</div><div class="rule" style="background:#3157C8"></div></div>
+      <div class="pipe"><div class="chip" style="background:#3157C8"><div class="chip-t">Input</div><div class="chip-s">one line</div></div><div class="arrow" style="color:#3157C8">&rarr;</div><div class="chip" style="background:#00A59B"><div class="chip-t">Process</div><div class="chip-s">one line</div></div><div class="arrow" style="color:#3157C8">&rarr;</div><div class="chip" style="background:#F08A4B"><div class="chip-t">Model</div><div class="chip-s">one line</div></div><div class="arrow" style="color:#3157C8">&rarr;</div><div class="chip" style="background:#3157C8"><div class="chip-t">Output</div><div class="chip-s">one line</div></div></div>
+      <div class="ftr" style="color:#7F8BA1;border-color:#D6DDEA"><span>direction preview</span><span>3</span></div>
+    </div><div class="slide" style="background:#F7F9FC">
+      <div class="tbar"><div class="kicker" style="color:#3157C8">archetype</div><div class="ttl" style="color:#172033">How a results slide reads</div><div class="rule" style="background:#3157C8"></div></div>
+      <div class="data-row">
+        <div class="figbox" style="background:#EAF0F8;border-color:#D6DDEA;color:#7F8BA1">
+          [ your figure / chart, shown whole ]
+        </div>
+        <div class="data-side">
+          <div class="legend"><div class="lg-h" style="color:#3157C8">LEGEND</div><div class="lg-row"><span class="mk-sm" style="background:#3157C8"></span><span style="color:#172033;font-weight:600">Series A</span> <span style="color:#4E5B73">baseline</span></div><div class="lg-row"><span class="mk-sm" style="background:#3157C8"></span><span style="color:#172033;font-weight:600">Series B</span> <span style="color:#4E5B73">proposed</span></div></div>
+          <div class="callout" style="background:#3157C8"><span class="co-label">WHAT TO NOTICE</span><span class="co-body">The one comparison the figure makes.</span></div>
+        </div>
+      </div>
+      <div class="ftr" style="color:#7F8BA1;border-color:#D6DDEA"><span>direction preview</span><span>4</span></div>
+    </div></div>
+      <div class="dir-foot">
+        <button class="pick-btn" style="--ac:#3157C8"
+          data-letter="D" data-name="Clear Signal"
+          onclick="pick('D', this.dataset.name)">&#10003; Pick this one &mdash; D</button>
+      </div>
+    </section>
+  <div class="dsec">
+    <h2>E — describe your own</h2>
+    <p>None quite right? Type the look you have in mind — a reference deck/site, a brand, a mood,
+    a colour, a constraint ("like our website", "warmer", "a serif on dark", "B's palette with A's
+    serif"). Claude will build it and bring it back.</p>
+    <textarea id="ownText" placeholder="e.g. darker than B, a warm serif headline, one teal accent…"></textarea>
+    <button class="ownbtn" onclick="pickOwn()">Use my own description &rarr;</button>
+  </div>
+  <div class="cbar" id="cbar">
+    <div class="cbar-in">
+      <span class="lab" id="cbarLab">Copied!</span>
+      <input id="cbarText" readonly onclick="this.select()">
+      <button class="copy" onclick="copyAgain()">Copy</button>
+      <span class="hint">Paste this line back into your chat with Claude. (If copy didn't work,
+        click the box to select it, then ⌘/Ctrl-C.)</span>
+    </div>
+  </div>
+  <script>
+  function show(msg, text){
+    document.getElementById('cbarLab').textContent = msg;
+    document.getElementById('cbarText').value = text;
+    document.getElementById('cbar').classList.add('show');
+    copyText(text);
+  }
+  function copyText(text){
+    try { navigator.clipboard.writeText(text); } catch(e) {
+      var b=document.getElementById('cbarText'); b.focus(); b.select();
+      try { document.execCommand('copy'); } catch(e2) {}
+    }
+  }
+  function copyAgain(){ copyText(document.getElementById('cbarText').value); }
+  function pick(letter, name){
+    document.querySelectorAll('.dir').forEach(function(d){ d.classList.remove('selected'); });
+    var el = document.getElementById('dir-' + letter);
+    if (el) el.classList.add('selected');
+    show('Copied — paste to Claude:', 'I pick direction ' + letter + ' — ' + name);
+  }
+  function pickOwn(){
+    var t = (document.getElementById('ownText').value || '').trim();
+    if (!t) { document.getElementById('ownText').focus(); return; }
+    document.querySelectorAll('.dir').forEach(function(d){ d.classList.remove('selected'); });
+    show('Copied — paste to Claude:', 'I pick E (my own): ' + t);
+  }
+  </script>
+</body></html>

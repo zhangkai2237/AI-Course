@@ -1,0 +1,181 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>智能标书助手 · 课堂 Demo</title>
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+  <div class="app-shell">
+    <aside class="sidebar">
+      <div class="brand">
+        <div class="brand-mark">启</div>
+        <div><strong>启明数科</strong><span>智能标书助手 · 教学演示</span></div>
+      </div>
+      <nav id="nav">
+        <button class="nav-item active" data-view="overview"><span>01</span>项目总览</button>
+        <button class="nav-item" data-view="parse"><span>02</span>要求解析</button>
+        <button class="nav-item" data-view="matrix"><span>03</span>响应矩阵</button>
+        <button class="nav-item" data-view="editor"><span>04</span>标书编辑</button>
+        <button class="nav-item" data-view="risk"><span>05</span>风险检查</button>
+      </nav>
+      <div class="sidebar-foot">
+        <span class="dot"></span> 教学模拟数据
+        <button id="resetDemo" class="text-btn">重置演示</button>
+      </div>
+    </aside>
+
+    <main>
+      <header class="topbar">
+        <div>
+          <div class="breadcrumb">项目 / 某市政务服务智能客服与知识库平台</div>
+          <h1 id="viewTitle">项目总览</h1>
+        </div>
+        <div class="top-actions">
+          <span class="status-pill"><i></i><span id="projectStatus">待解析</span></span>
+          <button class="ghost-btn">导出记录</button>
+          <button class="primary-btn" id="nextStep">开始解析</button>
+        </div>
+      </header>
+
+      <section class="view active" id="overview">
+        <div class="hero-panel">
+          <div>
+            <span class="eyebrow">RFP-2026-1105</span>
+            <h2>某市政务服务智能客服与知识库平台</h2>
+            <p>把一份长招标文件，转成可追踪的要求、响应状态、章节任务与风险清单。</p>
+          </div>
+          <div class="file-card">
+            <div class="file-icon">PDF</div>
+            <div><strong>政务智能客服平台_招标文件.pdf</strong><span>186 页 · 18.4 MB · 已上传</span></div>
+            <button class="mini-btn" id="parseFromCard">解析</button>
+          </div>
+        </div>
+        <div class="metric-grid">
+          <article><span>已识别要求</span><strong id="metricReq">—</strong><small>资格、技术、交付、服务</small></article>
+          <article><span>可直接响应</span><strong id="metricReady">—</strong><small>企业材料已确认</small></article>
+          <article><span>待人工确认</span><strong id="metricPending">—</strong><small>不能由 AI 自行判断</small></article>
+          <article class="danger"><span>高风险差异</span><strong id="metricRisk">—</strong><small>需修改承诺或补充方案</small></article>
+        </div>
+        <div class="two-grid">
+          <article class="panel">
+            <div class="panel-head"><div><span class="eyebrow">WORKFLOW</span><h3>当前工作流</h3></div><span id="progressText">0 / 5</span></div>
+            <div class="workflow" id="workflow">
+              <div class="flow-step active"><b>1</b><span>上传文件<small>已完成</small></span></div>
+              <div class="flow-step"><b>2</b><span>拆解要求<small>等待</small></span></div>
+              <div class="flow-step"><b>3</b><span>形成矩阵<small>等待</small></span></div>
+              <div class="flow-step"><b>4</b><span>生成章节<small>等待</small></span></div>
+              <div class="flow-step"><b>5</b><span>检查风险<small>等待</small></span></div>
+            </div>
+          </article>
+          <article class="panel">
+            <div class="panel-head"><div><span class="eyebrow">FACT BASE</span><h3>企业材料状态</h3></div><button class="text-btn">查看材料库</button></div>
+            <ul class="fact-list">
+              <li><span class="fact-ok">已确认</span>并发能力测试报告：10,000 用户</li>
+              <li><span class="fact-ok">已确认</span>私有化部署方案与国产环境清单</li>
+              <li><span class="fact-warn">需注意</span>信息安全认证已过有效期</li>
+              <li><span class="fact-warn">需注意</span>政务行业合格案例仅 2 个</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      <section class="view" id="parse">
+        <div class="split-workbench">
+          <article class="document-panel panel">
+            <div class="panel-head"><div><span class="eyebrow">SOURCE</span><h3>招标文件原文</h3></div><span>第 42 / 186 页</span></div>
+            <div class="doc-paper">
+              <h4>第三章 项目采购需求</h4>
+              <p>3.2 投标人资格要求</p>
+              <p class="source-line" data-req="r1">投标人须具备有效期内的信息安全管理体系认证，并在投标文件中提供证书复印件。</p>
+              <p class="source-line" data-req="r2">投标人近三年应具有不少于三项政务行业同类项目实施案例。</p>
+              <p>3.3 技术与交付要求</p>
+              <p class="source-line" data-req="r3">系统应支持政务内网私有化部署，整体并发用户数不低于 5,000。</p>
+              <p class="source-line" data-req="r4">项目应在合同签订后 60 个自然日内完成部署、联调和初验。</p>
+              <p class="source-line" data-req="r5">平台须兼容国产操作系统及数据库，并提供适配说明。</p>
+              <p>3.4 服务评分项</p>
+              <p class="source-line" data-req="r6">提供 7×24 小时技术支持服务的，得 3 分；未提供不得分。</p>
+            </div>
+          </article>
+          <article class="panel requirement-panel">
+            <div class="panel-head"><div><span class="eyebrow">STRUCTURED</span><h3>要求卡片</h3></div><div class="filter-chips"><button class="active">全部</button><button>资格</button><button>技术</button></div></div>
+            <div id="parseEmpty" class="empty-state"><div class="scan-icon"></div><h3>尚未解析</h3><p>点击“开始解析”，系统将要求拆成可追踪的最小单元。</p><button class="primary-btn" id="parseNow">开始解析</button></div>
+            <div id="requirementCards" class="requirement-cards hidden"></div>
+          </article>
+        </div>
+      </section>
+
+      <section class="view" id="matrix">
+        <div class="panel">
+          <div class="panel-head matrix-head">
+            <div><span class="eyebrow">CONTROL TABLE</span><h3>要求响应矩阵</h3></div>
+            <div class="matrix-legend"><span class="satisfied">已满足</span><span class="partial">部分满足</span><span class="gap">存在差异</span><span class="pending">待确认</span></div>
+          </div>
+          <div class="table-wrap">
+            <table>
+              <thead><tr><th>编号</th><th>要求</th><th>分类</th><th>企业现状</th><th>响应状态</th><th>处理动作</th></tr></thead>
+              <tbody id="matrixBody"></tbody>
+            </table>
+          </div>
+        </div>
+        <div class="decision-bar">
+          <div><span class="eyebrow">PRELIMINARY DECISION</span><h3>初步判断：有条件参标</h3><p>核心技术能力满足；资质、案例、交付周期与服务承诺需要管理层确认。</p></div>
+          <div class="decision-score"><strong>4</strong><span>项需决策</span></div>
+        </div>
+      </section>
+
+      <section class="view" id="editor">
+        <div class="editor-layout">
+          <aside class="outline panel">
+            <div class="panel-head"><div><span class="eyebrow">OUTLINE</span><h3>投标文件目录</h3></div></div>
+            <button class="outline-item"><b>01</b>投标函</button>
+            <button class="outline-item"><b>02</b>资格证明</button>
+            <button class="outline-item active"><b>03</b>技术方案</button>
+            <button class="outline-sub">3.1 总体架构</button>
+            <button class="outline-sub active">3.2 部署与兼容性</button>
+            <button class="outline-sub">3.3 性能与可靠性</button>
+            <button class="outline-item"><b>04</b>实施方案</button>
+            <button class="outline-item"><b>05</b>服务方案</button>
+          </aside>
+          <article class="editor panel">
+            <div class="editor-toolbar"><span>3.2 部署与兼容性</span><div><button>B</button><button>列表</button><button>引用材料</button></div></div>
+            <div class="editor-sheet">
+              <h2>3.2 部署与兼容性</h2>
+              <div class="generation-brief">
+                <span>章节任务包</span>
+                <b>回应 R-003、R-005</b>
+                <em>只能使用已确认材料；未确认兼容项必须标记。</em>
+              </div>
+              <div id="draftText" class="draft-placeholder">
+                <p>选择“生成受控草稿”，系统将同时读取要求卡片、企业事实和禁写规则。</p>
+              </div>
+            </div>
+          </article>
+          <aside class="evidence panel">
+            <div class="panel-head"><div><span class="eyebrow">SOURCES</span><h3>本章可用材料</h3></div></div>
+            <div class="evidence-card"><span class="fact-ok">已确认</span><strong>私有化部署方案 v3.2</strong><small>更新于 2026-09-18</small></div>
+            <div class="evidence-card"><span class="fact-ok">已确认</span><strong>国产环境兼容清单</strong><small>麒麟 V10 / 达梦 8 / 人大金仓</small></div>
+            <div class="evidence-card muted"><span class="fact-warn">禁止泛化</span><strong>历史标书中的“全栈国产适配”</strong><small>缺少正式材料支持</small></div>
+            <button class="primary-btn wide" id="generateDraft">生成受控草稿</button>
+          </aside>
+        </div>
+      </section>
+
+      <section class="view" id="risk">
+        <div class="risk-summary panel">
+          <div><span class="eyebrow">QUALITY GATE</span><h2>提交前风险检查</h2><p>检查遗漏、矛盾、无依据承诺、数字不一致、引用缺失与格式问题。</p></div>
+          <button class="primary-btn" id="runCheck">开始检查</button>
+        </div>
+        <div id="riskEmpty" class="empty-panel panel"><div class="shield">✓</div><h3>尚未执行检查</h3><p>生成章节后，运行一次完整检查再进入人工审核。</p></div>
+        <div id="riskResults" class="risk-results hidden">
+          <div class="risk-metrics"><article><strong>6</strong><span>发现问题</span></article><article><strong>2</strong><span>高风险</span></article><article><strong>3</strong><span>需人工决策</span></article><article><strong id="resolvedCount">0</strong><span>已处理</span></article></div>
+          <div id="riskList"></div>
+        </div>
+      </section>
+    </main>
+  </div>
+  <div id="toast" class="toast"></div>
+  <script src="./app.js"></script>
+</body>
+</html>

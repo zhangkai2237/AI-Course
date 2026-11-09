@@ -1,0 +1,236 @@
+{
+ "file": "课程生产/第二阶段/06_项目三_智能标书助手/02_PPT_正式版/智能标书助手_补充页_RFP要求抽取_v1.0/智能标书助手_补充页_从招标文件生成要求清单_5页_v1.0.pptx",
+ "mode": "presented",
+ "findings": [],
+ "warnings": [
+  {
+   "slide": 1,
+   "text": "NON-TEXT CONTRAST: icon/chip #DAE1E7 on #F4F6F8 — 1.22:1 (<3:1, WCAG 1.4.11); essential icons/lines need more contrast",
+   "severity": "warning"
+  },
+  {
+   "slide": 1,
+   "text": "NON-TEXT CONTRAST: line #DAE1E7 on #F4F6F8 — 1.22:1 (<3:1, WCAG 1.4.11); essential icons/lines need more contrast",
+   "severity": "warning"
+  },
+  {
+   "slide": 2,
+   "text": "READING ORDER: the title is not first in shape order — screen readers read z-order; reorder so the title is added first",
+   "severity": "warning"
+  },
+  {
+   "slide": 2,
+   "text": "NON-TEXT CONTRAST: icon/chip #DAE1E7 on #F4F6F8 — 1.22:1 (<3:1, WCAG 1.4.11); essential icons/lines need more contrast",
+   "severity": "warning"
+  },
+  {
+   "slide": 2,
+   "text": "NON-TEXT CONTRAST: line #DAE1E7 on #F4F6F8 — 1.22:1 (<3:1, WCAG 1.4.11); essential icons/lines need more contrast",
+   "severity": "warning"
+  },
+  {
+   "slide": 3,
+   "text": "READING ORDER: the title is not first in shape order — screen readers read z-order; reorder so the title is added first",
+   "severity": "warning"
+  },
+  {
+   "slide": 3,
+   "text": "NON-TEXT CONTRAST: line #DAE1E7 on #F4F6F8 — 1.22:1 (<3:1, WCAG 1.4.11); essential icons/lines need more contrast",
+   "severity": "warning"
+  },
+  {
+   "slide": 4,
+   "text": "READING ORDER: the title is not first in shape order — screen readers read z-order; reorder so the title is added first",
+   "severity": "warning"
+  },
+  {
+   "slide": 4,
+   "text": "NON-TEXT CONTRAST: line #DAE1E7 on #F4F6F8 — 1.22:1 (<3:1, WCAG 1.4.11); essential icons/lines need more contrast",
+   "severity": "warning"
+  },
+  {
+   "slide": 5,
+   "text": "READING ORDER: the title is not first in shape order — screen readers read z-order; reorder so the title is added first",
+   "severity": "warning"
+  },
+  {
+   "slide": 5,
+   "text": "NON-TEXT CONTRAST: line #DAE1E7 on #F4F6F8 — 1.22:1 (<3:1, WCAG 1.4.11); essential icons/lines need more contrast",
+   "severity": "warning"
+  }
+ ],
+ "stats_warnings": [
+  "TEXT WALL: slide 1 carries a reading load of ~79 words (presented budget ≈40, warn >70) — move prose to speaker notes or split the slide",
+  "SIZE SPRAWL: slide 1 uses 6 distinct font sizes (5.5, 8.5, 10.5, 11.5, 16, 24.5) — target ≤3-4 per slide, drawn from the deck's declared type-scale tokens",
+  "TEXT WALL: slide 2 carries a reading load of ~89 words (presented budget ≈40, warn >70) — move prose to speaker notes or split the slide",
+  "SIZE SPRAWL: slide 2 uses 5 distinct font sizes (5.5, 9, 10.5, 13.5, 24.5) — target ≤3-4 per slide, drawn from the deck's declared type-scale tokens",
+  "TEXT WALL: slide 3 carries a reading load of ~88 words (presented budget ≈40, warn >70) — move prose to speaker notes or split the slide",
+  "SIZE SPRAWL: slide 3 uses 5 distinct font sizes (5.5, 8.5, 11.5, 12.5, 24.5) — target ≤3-4 per slide, drawn from the deck's declared type-scale tokens",
+  "TEXT WALL: slide 4 carries a reading load of ~96 words (presented budget ≈40, warn >70) — move prose to speaker notes or split the slide",
+  "SIZE SPRAWL: slide 4 uses 8 distinct font sizes (5.5, 9, 10, 11.5, 12.5, 14, 17, 24.5) — target ≤3-4 per slide, drawn from the deck's declared type-scale tokens",
+  "TEXT WALL: slide 5 carries a reading load of ~75 words (presented budget ≈40, warn >70) — move prose to speaker notes or split the slide",
+  "SIZE SPRAWL: slide 5 uses 5 distinct font sizes (5.5, 9, 10.5, 13.5, 24.5) — target ≤3-4 per slide, drawn from the deck's declared type-scale tokens",
+  "CARD DOMINANCE: 3 of 4 content slides (slides 2, 4, 5) carry their content in large solid panels/cards — the greedy default form; re-form the ones whose idea has a shape (ratio → proportional bar · flip → diagram · division → split · process → roadmap), don't just restyle the boxes",
+  "NO ICONS ON CATEGORY CONTENT: slides 1, 2, 3, 4, 5 carry parallel label sets (3+ short peers on one baseline across half the canvas — the shape of a category row) and the deck contains no icon-sized picture at all. On category-rich content an icon family is a design must, not a taste call (slide-design self-verify (g)). Build one (scripts/icons.py, one family, recolored to the palette), or record `icon_family: \"none — <why THESE slides read better without one>\"` in .deck-gates.json — the detector over-counts on tables and timelines, so this is a re-decision, not a verdict",
+  "SMALL TYPE: body-median 12pt is under the ~14pt floor for this 10.0in-wide canvas (≈18-22pt on a standard 13.3in slide) — a presented deck's body text must read from the back of the room; fewer words, bigger type"
+ ],
+ "deck": {
+  "body_median_pt": 11.5,
+  "type_drama": 2.13,
+  "size_tokens": 9,
+  "distinct_skeletons": 5,
+  "builds": 0,
+  "transitions": 0,
+  "avg_occupancy": 0.614,
+  "body_n": 3,
+  "sameness_codes": [
+   "CARD DOMINANCE"
+  ],
+  "timidity_codes": []
+ },
+ "per_slide": [
+  {
+   "slide": 1,
+   "load": 79,
+   "text_cov": 0.364,
+   "ink_cov": 0.538,
+   "max_pt": 24.5,
+   "n_shapes": 49,
+   "n_pic": 0,
+   "n_chart": 0,
+   "build": false,
+   "transition": false,
+   "size_clusters": [
+    5.5,
+    8.5,
+    10.5,
+    11.5,
+    16.0,
+    24.5
+   ],
+   "notes_words": 47,
+   "notes": "补充页1讲解建议：\n先回答学员最直接的问题：是整份上传，但不是整份原样塞进一次模型调用。产品内部要经过解析、切分、抽取、校验和人工确认，最后才得到正式要求清单。\n\n说明：页面中的示例字段、页码与招标要求均为课堂模拟。",
+   "n_pic_fg": 0,
+   "content_bottom": 0.821,
+   "lum": 0.864,
+   "sat": 0.077,
+   "col_void": 0.031
+  },
+  {
+   "slide": 2,
+   "load": 89,
+   "text_cov": 0.377,
+   "ink_cov": 0.604,
+   "max_pt": 24.5,
+   "n_shapes": 38,
+   "n_pic": 0,
+   "n_chart": 0,
+   "build": false,
+   "transition": false,
+   "size_clusters": [
+    5.5,
+    9.0,
+    10.5,
+    13.5,
+    24.5
+   ],
+   "notes_words": 51,
+   "notes": "补充页2讲解建议：\n强调AI调用之前还有一层文档工程。系统不能只得到一大段纯文本，必须保留标题层级、表格、页码和原文位置。否则后面虽然能生成一句要求，却无法证明它来自哪里。\n\n说明：页面中的示例字段、页码与招标要求均为课堂模拟。",
+   "n_pic_fg": 0,
+   "content_bottom": 0.818,
+   "lum": 0.94,
+   "sat": 0.028,
+   "col_void": 0.031
+  },
+  {
+   "slide": 3,
+   "load": 88,
+   "text_cov": 0.397,
+   "ink_cov": 0.584,
+   "max_pt": 24.5,
+   "n_shapes": 39,
+   "n_pic": 0,
+   "n_chart": 0,
+   "build": false,
+   "transition": false,
+   "size_clusters": [
+    5.5,
+    8.5,
+    11.5,
+    12.5,
+    24.5
+   ],
+   "notes_words": 54,
+   "notes": "补充页3讲解建议：\n先按资格、技术、实施、服务和评分等章节切分，再让AI处理一个相对完整的语义片段。提示词要求它抽取必须满足、建议满足和影响评分的独立要求，并把可能出现不同状态的条件拆开。\n\n说明：页面中的示例字段、页码与招标要求均为课堂模拟。",
+   "n_pic_fg": 0,
+   "content_bottom": 0.88,
+   "lum": 0.936,
+   "sat": 0.03,
+   "col_void": 0.021
+  },
+  {
+   "slide": 4,
+   "load": 96,
+   "text_cov": 0.419,
+   "ink_cov": 0.674,
+   "max_pt": 24.5,
+   "n_shapes": 32,
+   "n_pic": 0,
+   "n_chart": 0,
+   "build": false,
+   "transition": false,
+   "size_clusters": [
+    5.5,
+    9.0,
+    10.0,
+    11.5,
+    12.5,
+    14.0,
+    17.0,
+    24.5
+   ],
+   "notes_words": 47,
+   "notes": "补充页4讲解建议：\n展示产品最终中间产物。要求卡片至少要保存编号、要求、分类、强制性、指标、来源章节、页码、原文和当前状态。摘要是为了读懂，要求卡片是为了控制和追踪。\n\n说明：页面中的示例字段、页码与招标要求均为课堂模拟。",
+   "n_pic_fg": 0,
+   "content_bottom": 0.855,
+   "lum": 0.86,
+   "sat": 0.076,
+   "col_void": 0.073
+  },
+  {
+   "slide": 5,
+   "load": 75,
+   "text_cov": 0.403,
+   "ink_cov": 0.668,
+   "max_pt": 24.5,
+   "n_shapes": 28,
+   "n_pic": 0,
+   "n_chart": 0,
+   "build": false,
+   "transition": false,
+   "size_clusters": [
+    5.5,
+    9.0,
+    10.5,
+    13.5,
+    24.5
+   ],
+   "notes_words": 52,
+   "notes": "补充页5讲解建议：\n最后用三方分工收束。AI擅长理解和抽取，规则擅长数字、日期、单位和关键词等确定性校验，人工负责冲突、例外和最终责任。课堂上可以用“不漏、不错、找得到原文”概括这套机制。\n\n说明：页面中的示例字段、页码与招标要求均为课堂模拟。",
+   "n_pic_fg": 0,
+   "content_bottom": 0.892,
+   "lum": 0.899,
+   "sat": 0.055,
+   "col_void": 0.073
+  }
+ ],
+ "counts": {
+  "findings": 0,
+  "warnings": 11
+ },
+ "pixel_checks": {
+  "ran": true,
+  "reason": null,
+  "not_checked": []
+ }
+}

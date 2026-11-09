@@ -1,0 +1,113 @@
+{
+  "delivery": "presented",
+  "critic": {
+    "waived": "当前主机策略禁止分派独立子代理，因此由主代理完成内容、设计、渲染和网页交互的内联复核。",
+    "waived_category": "no-dispatch-on-host",
+    "inline_ran": true
+  },
+  "capability_ledger": {
+    "subagent_dispatch": "unavailable — host policy forbids delegation",
+    "inline_review": "planned for content, design, rendered slides, interaction and layout lint"
+  },
+  "content": {
+    "checkpoint": {"mode": "auto", "record": "用户逐页修订PPT结构并明确要求中间不再确认、直接完整生成。"},
+    "arc": {
+      "chosen": "从失控草稿到受控产品链",
+      "candidates": [
+        {"name":"从失控草稿到受控产品链","shape":"problem-turn-evidence","roles":["hook","diagnosis","method","product","practice"],"audience_question":"为什么AI会写标书，却不能直接交标书","objection":"只要提示词更详细就能解决","closing_ask":"完成一条可追溯的标书生产链","evidence":["课堂共创案例"]},
+        {"name":"从RFP结构到产品功能","shape":"survey","roles":["source","taxonomy","matrix","generation","check"],"audience_question":"怎样把一份RFP变成产品需求","objection":"课程会变成文档解析技巧","closing_ask":"能画出MVP页面与数据结构","evidence":["课堂共创案例"]},
+        {"name":"从参标决策倒推系统","shape":"recommendation-first","roles":["decision","gap","evidence","workflow","practice"],"audience_question":"系统怎样帮助企业决定能不能投","objection":"最终决策仍要人工，AI价值不大","closing_ask":"能用矩阵支撑一次参标初判","evidence":["课堂共创案例"]}
+      ],
+      "rejected": [
+        {"name":"从RFP结构到产品功能","why_lost":"开场偏方法，缺少为什么必须受控的冲突"},
+        {"name":"从参标决策倒推系统","why_lost":"决策出现过早，学员尚未理解要求拆解和材料边界"}
+      ]
+    },
+    "slides": [
+      {"slide":1,"role":"cover","takeaway":"智能标书的核心是受控生成与可追溯","evidence":["课堂共创主题"],"units":1},
+      {"slide":2,"role":"agenda","takeaway":"标书系统由拆要求到查风险形成五步生产链","evidence":["课程大纲"],"units":5},
+      {"slide":3,"role":"divider","takeaway":"先从一段不能交付的AI草稿理解产品必要性","evidence":["课程大纲"],"units":1},
+      {"slide":4,"role":"context","takeaway":"标书同时具有长、多、重三种业务难度","evidence":["模拟案例背景"],"units":3},
+      {"slide":5,"role":"source","takeaway":"招标要求分布在资格、技术、交付和服务中","evidence":["模拟RFP要求"],"units":4},
+      {"slide":6,"role":"fact-base","takeaway":"企业真实能力与招标要求并不天然一致","evidence":["启明数科模拟事实"],"units":8},
+      {"slide":7,"role":"counterexample","takeaway":"通顺的AI草稿会把要求自动改写成企业承诺","evidence":["模拟AI初稿"],"units":6},
+      {"slide":8,"role":"exercise","takeaway":"判断标书问题要同时检查来源、冲突、责任和条件","evidence":["模拟AI初稿"],"units":4},
+      {"slide":9,"role":"answer","takeaway":"失控草稿暴露事实、范围、责任和来源六类问题","evidence":["课堂答案"],"units":6},
+      {"slide":10,"role":"comparison","takeaway":"智能标书系统解决的是控制链而非写作质量","evidence":["产品定位对比"],"units":5},
+      {"slide":11,"role":"divider","takeaway":"RFP要被拆成可判定的最小要求","evidence":["课程大纲"],"units":1},
+      {"slide":12,"role":"taxonomy","takeaway":"RFP由商务、技术、交付、服务、评分和程序要求组成","evidence":["RFP典型结构"],"units":6},
+      {"slide":13,"role":"framework","takeaway":"八类要求支撑后续不同响应与检查规则","evidence":["课程分类框架"],"units":8},
+      {"slide":14,"role":"comparison","takeaway":"摘要帮助理解，要求清单帮助控制与追踪","evidence":["课堂对比示例"],"units":2},
+      {"slide":15,"role":"method","takeaway":"可能出现不同状态的条件必须拆开","evidence":["复合要求示例"],"units":3},
+      {"slide":16,"role":"schema","takeaway":"要求卡片是长文档的最小控制单元","evidence":["R-004字段示例"],"units":8},
+      {"slide":17,"role":"exercise","takeaway":"原文要被拆成独立可判定要求","evidence":["模拟原文"],"units":6},
+      {"slide":18,"role":"answer","takeaway":"复合原文实际包含六项独立要求","evidence":["课堂参考答案"],"units":6},
+      {"slide":19,"role":"divider","takeaway":"要求必须与企业能力和处理动作连接","evidence":["课程大纲"],"units":1},
+      {"slide":20,"role":"signature","takeaway":"一条要求要贯通原文、卡片与响应矩阵","evidence":["R-003审计轨迹"],"units":3},
+      {"slide":21,"role":"framework","takeaway":"每条要求必须进入五种互斥响应状态之一","evidence":["响应状态框架"],"units":5},
+      {"slide":22,"role":"matrix","takeaway":"资格与技术响应必须由正式材料支撑","evidence":["R-001至R-003"],"units":3},
+      {"slide":23,"role":"matrix","takeaway":"交付与服务承诺必须由组织决策支撑","evidence":["R-004至R-006"],"units":3},
+      {"slide":24,"role":"decision","takeaway":"响应矩阵支持有条件参标的初步判断","evidence":["六项状态汇总"],"units":2},
+      {"slide":25,"role":"exercise","takeaway":"状态判断必须只使用已给出的企业事实","evidence":["六条模拟要求"],"units":6},
+      {"slide":26,"role":"answer","takeaway":"六条要求形成两满足、两差异、一部分、一待确认","evidence":["课堂参考答案"],"units":6},
+      {"slide":27,"role":"divider","takeaway":"长文档要按章节任务受控生成","evidence":["课程大纲"],"units":1},
+      {"slide":28,"role":"problem","takeaway":"一次生成整篇会导致遗漏、冲突、误用和越权","evidence":["长文档生成风险"],"units":4},
+      {"slide":29,"role":"structure","takeaway":"两级目录树把整篇标书变成可管理章节任务","evidence":["技术方案目录示例"],"units":8},
+      {"slide":30,"role":"priority","takeaway":"评分和风险共同决定章节深度","evidence":["模拟评分与符合性要求"],"units":4},
+      {"slide":31,"role":"mapping","takeaway":"每条要求都要映射到章节与回答动作","evidence":["R-003至R-005映射"],"units":4},
+      {"slide":32,"role":"task-pack","takeaway":"章节任务包规定目标、材料、边界和待确认项","evidence":["3.2章节任务包"],"units":6},
+      {"slide":33,"role":"governance","takeaway":"材料库还要有确认、范围、期限、引用和冲突规则","evidence":["材料使用规则"],"units":6},
+      {"slide":34,"role":"worked-example","takeaway":"受控生成写入确认事实并显式保留不确定性","evidence":["3.2受控草稿"],"units":3},
+      {"slide":35,"role":"divider","takeaway":"整份标书需要跨章节与责任边界复核","evidence":["课程大纲"],"units":1},
+      {"slide":36,"role":"framework","takeaway":"提交前至少覆盖七类检查","evidence":["检查框架"],"units":7},
+      {"slide":37,"role":"consistency","takeaway":"单章正确不能保证跨章节承诺一致","evidence":["并发、资源与服务冲突示例"],"units":4},
+      {"slide":38,"role":"risk","takeaway":"过度承诺常来自模型为了完整而主动补写","evidence":["90天到60天示例"],"units":2},
+      {"slide":39,"role":"exercise","takeaway":"有背景事实才能准确识别草稿风险","evidence":["背景事实与待检查草稿"],"units":6},
+      {"slide":40,"role":"allocation","takeaway":"规则、AI与人工分别处理确定性、语义性与责任性问题","evidence":["检查职责框架"],"units":3},
+      {"slide":41,"role":"workflow","takeaway":"风险处理必须回到产生问题的来源层","evidence":["问题处理流程"],"units":6},
+      {"slide":42,"role":"divider","takeaway":"课堂MVP要把方法收敛成完整产品链","evidence":["课程大纲"],"units":1},
+      {"slide":43,"role":"mvp","takeaway":"MVP只做文件到人工导出的完整链路","evidence":["产品流程"],"units":6},
+      {"slide":44,"role":"ui","takeaway":"主页管理进度，解析页连接原文与要求卡片","evidence":["网页Demo页面1至2"],"units":2},
+      {"slide":45,"role":"ui","takeaway":"矩阵、编辑器和风险页承接决策、生成与复核","evidence":["网页Demo页面3至5"],"units":3},
+      {"slide":46,"role":"acceptance","takeaway":"MVP要能走完、追溯、拦住、修改和演示","evidence":["课堂验收标准"],"units":5},
+      {"slide":47,"role":"divider","takeaway":"标书方法可以迁移到其他高约束文档业务","evidence":["课程大纲"],"units":1},
+      {"slide":48,"role":"transfer","takeaway":"申报、合同和安全问卷共享逐项响应与受控承诺结构","evidence":["三个迁移场景"],"units":3},
+      {"slide":49,"role":"assignment","takeaway":"作业要交付一个可演示且可解释可信度的V0.1","evidence":["课后作业要求"],"units":5}
+    ]
+  },
+  "design": {"checkpoint": {"mode":"auto","record":"采用政企软件的克制编辑报告风格，用户已授权不中途确认。"}},
+  "design_plan": {
+    "concept": {"chosen":"要求审计轨迹","rejected":[{"concept":"通用AI科技界面","why_lost":"科技感会掩盖政企文档的可信与责任主题"},{"concept":"传统招投标红蓝商务模板","why_lost":"过度装饰且无法承载产品工作流"}]},
+    "boldness": "balanced+",
+    "signature_move": "原文、要求卡片、响应矩阵和风险标记连接成一条要求审计轨迹",
+    "carried_by": [1,20,31,43],
+    "form_ledger": "封面1；章节页7；流程7；矩阵6；对比5；练习与答案6；产品界面4；框架与案例13",
+    "icon_family": "Lucide线性图标，统一单色与线宽",
+    "palette": "#0D1B2A #F4F6F8 #FFFFFF #182433 #138A7E #3E6FB0 #C98517 #D25A4A",
+    "type_scale": {"display":36,"title":24.5,"body":13.5},
+    "style_pick": "bespoke editorial-report for government enterprise software — beat consulting because the deck needs a visible audit trail — anti-pick avoided: neon AI interface cliché",
+    "motif_generates": {"background":"浅灰工作台与深蓝章节页切换","markers":"R/M/C三类控制点与状态色","page":"第20页的原文—要求卡—矩阵几何即母题"},
+    "signature_proof": [{"role":"signature","slide":20,"png":"render/slide20.png"},{"role":"complex","slide":31,"png":"render/slide31.png"},{"role":"data","slide":22,"png":"render/slide22.png"}],
+    "material_probe": {"png":"render/slide20.png","safe_version":"安全版本会把三段内容并排放置；当前版本用一条真实审计轨迹让信息来源与责任关系成为页面结构。"},
+    "build_shape": "solo — host policy forbids subagent dispatch and the 49-page course uses one continuous case",
+    "build_script": "build_rfp_assistant.py",
+    "form_reach": {"waived":"本课的核心形式是原文、要求卡片、响应矩阵和网页工作台的专属审计轨迹；通用组件会切断来源到责任的连续几何，因此选择用DeckKit基础图元构成可编辑的业务界面。"}
+  },
+  "density": {"waived":"这是两小时课堂授课版，案例原文、练习背景和参考答案需要在现场共同阅读；高密度集中在17张案例与练习页，其余页面保持演示节奏，且完整讲解已写入备注。"},
+  "render_selfcheck": {
+    "slides": [
+      {"n":1,"verdict":"ok — 深色封面和RFP文件母题清晰"},{"n":2,"verdict":"ok — 五步链路一眼可读"},{"n":3,"verdict":"ok — 章节转场层级明确"},{"n":4,"verdict":"ok — 长、多、重三项背景平衡"},{"n":5,"verdict":"ok — 四类招标要求清楚"},{"n":6,"verdict":"ok — 八项企业事实状态可辨"},{"n":7,"verdict":"ok — AI草稿和风险标签对应"},{"n":8,"verdict":"ok — 练习文案与判断提示完整"},{"n":9,"verdict":"ok — 六类问题无裁切"},{"n":10,"verdict":"ok — 两类产品的五维对比清晰"},
+      {"n":11,"verdict":"ok — 第二章转场稳定"},{"n":12,"verdict":"ok — 六类RFP结构可读"},{"n":13,"verdict":"ok — 八类要求网格清楚"},{"n":14,"verdict":"ok — 摘要与要求清单对比清晰"},{"n":15,"verdict":"ok — 复合要求拆分方向明确"},{"n":16,"verdict":"ok — 要求卡片字段完整"},{"n":17,"verdict":"ok — 原文和六个练习位清楚"},{"n":18,"verdict":"ok — 六项参考答案对应正确"},{"n":19,"verdict":"ok — 第三章转场稳定"},{"n":20,"verdict":"ok — 原文到卡片到矩阵的签名轨迹成立"},
+      {"n":21,"verdict":"ok — 五种状态语义和颜色一致"},{"n":22,"verdict":"ok — 资格技术矩阵清楚"},{"n":23,"verdict":"ok — 交付服务矩阵清楚"},{"n":24,"verdict":"ok — 有条件参标结论突出"},{"n":25,"verdict":"ok — 六项课堂练习均有作答位置"},{"n":26,"verdict":"ok — 六项答案状态完整"},{"n":27,"verdict":"ok — 第四章转场稳定"},{"n":28,"verdict":"ok — 四类失控并列清楚"},{"n":29,"verdict":"ok — 两级目录关系明确"},{"n":30,"verdict":"ok — 评分到写作深度的映射清楚"},
+      {"n":31,"verdict":"ok — 要求、章节、动作三段映射可读"},{"n":32,"verdict":"ok — 章节任务包六字段无拥挤"},{"n":33,"verdict":"ok — 六项材料规则完整"},{"n":34,"verdict":"ok — 受控草稿与写入留人双栏清楚"},{"n":35,"verdict":"ok — 第五章转场稳定"},{"n":36,"verdict":"ok — 七类检查颜色区分明确"},{"n":37,"verdict":"ok — 四章节矛盾关系可读"},{"n":38,"verdict":"ok — 事实到过度承诺的转折明显"},{"n":39,"verdict":"ok — 背景事实和待查草稿同屏可读"},{"n":40,"verdict":"ok — 规则AI人工三类职责分明"},
+      {"n":41,"verdict":"ok — 六步问题闭环顺序明确"},{"n":42,"verdict":"ok — 第六章转场稳定"},{"n":43,"verdict":"ok — MVP六步链和边界完整"},{"n":44,"verdict":"ok — 两个页面原型层级清楚"},{"n":45,"verdict":"ok — 三个页面原型无裁切"},{"n":46,"verdict":"ok — 五项验收标准适合课堂讲解"},{"n":47,"verdict":"ok — 第七章转场稳定"},{"n":48,"verdict":"ok — 三个迁移方向信息量平衡"},{"n":49,"verdict":"ok — 五步作业和完成标准完整"}
+    ]
+  },
+  "provenance": {
+    "claims": [
+      {"claim":"启明数科及招标项目为课堂虚构案例，不对应外部真实实体","verdict":"UNVERIFIABLE","source":"用户与助手共创案例"},
+      {"claim":"企业能力、周期、资质和服务数据为课堂模拟，不作为外部事实使用","verdict":"UNVERIFIABLE","source":"用户与助手共创案例"}
+    ],
+    "course_material": "用户逐节确认的智能标书助手课程结构与案例数据"
+  }
+}
